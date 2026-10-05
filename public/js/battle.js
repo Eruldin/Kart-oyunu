@@ -144,6 +144,15 @@ function drawCombatArrows() {
       if (uEl && av) FX.arrow(uEl, av, '#e0705c', true);
     }
   }
+  // pending spell stack: pale-blue lines from each stack card to its target (LoR target lines)
+  if (s.stack?.length) {
+    s.stack.forEach((it, i) => {
+      if (!it.target) return;
+      const sc = document.querySelector(`.stack-card[data-idx="${i}"]`);
+      const tEl = it.target.kind === 'avatar' ? avatarEl(it.target.a) : unitEl(it.target.a, it.target.slot);
+      if (sc && tEl) FX.arrow(sc, tEl, '#7fb0ff', true);
+    });
+  }
   if (s.phase !== 'block' || !s.combat) return;
   s.combat.attackers.forEach((atk, i) => {
     const uEl = uidEl(s.token, atk.uid);
@@ -205,7 +214,7 @@ function ultHTML() {
 function stackCardHTML(it, i) {
   const def = cardById[it.card];
   const mine = it.owner === actor();
-  return `<div class="stack-card ${mine ? 'mine' : 'theirs'}" data-card-id="${it.card}" style="--i:${i}">
+  return `<div class="stack-card ${mine ? 'mine' : 'theirs'}" data-card-id="${it.card}" data-idx="${i}" style="--i:${i}">
     <img src="${ART}${(def?.art || 'karah.png').replace(/\.\w+$/, '.jpg')}" alt="">
     <b>${def ? tn(def.name) : it.card}</b>
   </div>`;
@@ -399,8 +408,40 @@ function bindInteractions() {
       FX.arrowToPoint(targetMode.srcEl, e.clientX, e.clientY, '#e5c285');
     }
   });
+  // LoR-style inspect: hover a board unit → big card with live stats
+  $('#bfield')?.addEventListener('mouseover', e => {
+    const bu = e.target.closest('.bunit');
+    clearTimeout(inspectTimer);
+    if (!bu) { hideInspect(); return; }
+    inspectTimer = setTimeout(() => showInspect(bu), 320);
+  });
+  $('#bfield')?.addEventListener('mouseout', e => {
+    const from = e.target.closest('.bunit');
+    if (from && !(e.relatedTarget && from.contains(e.relatedTarget))) {
+      clearTimeout(inspectTimer); hideInspect();
+    }
+  });
   document.addEventListener('keydown', escCancel);
 }
+
+// ---------------- inspect ----------------
+let inspectEl = null, inspectTimer = 0;
+function showInspect(bunit) {
+  const uid = +bunit.dataset.uid;
+  const side = bunit.closest('.bslot')?.dataset.side;
+  const p = side === 'me' ? me() : foe();
+  const u = p.board.find(x => x.uid === uid);
+  if (!u) return;
+  const def = cardById[u.id.replace('#weak', '')];
+  if (!def) return;
+  const atk = +(bunit.querySelector('.card-atk b')?.textContent ?? def.atk);
+  const hp = +(bunit.querySelector('.card-hp b')?.textContent ?? def.hp);
+  hideInspect();
+  inspectEl = cardEl(def, {atk, hp, weak: u.id.endsWith('#weak'), cls: 'inspect-card'});
+  inspectEl.dataset.side = side;
+  document.body.append(inspectEl);
+}
+function hideInspect() { inspectEl?.remove(); inspectEl = null; }
 
 // ---------------- tutorial ----------------
 let tut = null;   // {i, steps[]}
@@ -674,4 +715,5 @@ export function destroyBattle() {
   document.removeEventListener('keydown', escCancel);
   FX.clearArrows();
   FX.hideTutor();
+  hideInspect();
 }

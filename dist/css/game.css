@@ -254,6 +254,8 @@ p{margin:0;line-height:1.6}
 .brow{display:flex;justify-content:center;gap:1.2%;min-height:120px;position:relative;z-index:2}
 .foe-row{margin-top:8px}
 .my-row{margin-top:4px}
+.battle.my-token .my-row{box-shadow:0 -8px 40px -12px #c5a77033, inset 0 0 60px -30px #c5a77022;border-radius:10px;animation:token-breathe 3s ease-in-out infinite}
+@keyframes token-breathe{50%{box-shadow:0 -8px 50px -10px #c5a77055, inset 0 0 70px -28px #c5a77033}}
 .bslot{width:96px;height:112px;position:relative}
 .bslot.ghost{border:1px dashed #ffffff14;border-radius:10px}
 .my-row .bslot.ghost.drop-slot{border-color:#c5a77033}

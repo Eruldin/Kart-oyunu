@@ -50,7 +50,7 @@ function render() {
   const winner = s.winner;
 
   root.innerHTML = `
-  <div class="battle ${s.phase === 'block' ? 'in-combat' : ''} ${targetMode ? 'targeting' : ''}" id="battle">
+  <div class="battle ${s.phase === 'block' ? 'in-combat' : ''} ${targetMode ? 'targeting' : ''} ${s.token === actor() && !me().flag?.attacked ? 'my-token' : ''}" id="battle">
     <div class="bfield" id="bfield">
       <div class="bfield-bg"></div>
       <div class="bfield-mist"></div>

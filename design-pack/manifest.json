@@ -1,0 +1,650 @@
+{
+  "title": "Eruldin: Yankilar — design and real 3D asset pack v1",
+  "date": "2026-10-05",
+  "scope": "Assets/design only. No game source code in this pack. First art slice and detailed 3D blockout, not final LoR-level production polish.",
+  "methods": {
+    "2D": "Built-in image_gen; lossless PNG atlas extraction",
+    "3D": "Blender 4.5.14 LTS, actual geometry and material/keyframe construction, Cycles renders, glTF export"
+  },
+  "prompts": [
+    "sources/initial-manifest.json",
+    "sources/prompts-v1.json"
+  ],
+  "fonts": "Cinzel and Manrope with bundled SIL OFL 1.1 licenses",
+  "third_party_game_assets_used": false,
+  "meshy_used": false,
+  "code_prototype_included": false,
+  "limitations": [
+    "No final sculpt/hand-painted PBR/UV/LOD pass",
+    "No fluid fire/smoke simulation; flames/smoke are animated 3D meshes",
+    "2D VFX atlas is static, not a temporal flipbook",
+    "All UI screens/states are not complete; AI mockup text must be typeset separately",
+    "GLB simplifies Blender procedural bump, compositor and light-intensity animation",
+    "Game engine integration/performance not tested"
+  ],
+  "files": [
+    {
+      "file": "01-environments/korvengrad-board-v1.png",
+      "bytes": 3022807,
+      "sha256": "fd0667f560bb51f99b324e98120208bb39bf1adf03ce3df7ba0d054261614fb3",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "role": "2D raster concept/UI asset"
+    },
+    {
+      "file": "01-environments/korvengrad-keyart.png",
+      "bytes": 2779681,
+      "sha256": "7c5d467138b437bd31cd5f239da3d79f4dc56bf2259401473717752e3619fee6",
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGB",
+      "role": "2D raster concept/UI asset"
+    },
+    {
+      "file": "02-characters/akhenten.png",
+      "bytes": 503352,
+      "sha256": "6623a3f59d71dcfad37841bc3bb6369f9d673bdac0303cab54fea9107c76da73",
+      "width": 512,
+      "height": 512,
+      "mode": "RGB",
+      "role": "2D raster concept/UI asset"
+    },
+    {
+      "file": "02-characters/karah.png",
+      "bytes": 470336,
+      "sha256": "971db56e03f3200834d84bd9616ed82f7aea3e7afc0c84f79916a4946437d8e9",
+      "width": 512,
+      "height": 512,
+      "mode": "RGB",
+      "role": "2D raster concept/UI asset"
+    },
+    {
+      "file": "02-characters/marcel.png",
+      "bytes": 442370,
+      "sha256": "76eb5ac490bd4cb65f159f897d98ea8e86d8e4c61ec60df66b5faba5a27ddee8",
+      "width": 512,
+      "height": 512,
+      "mode": "RGB",
+      "role": "2D raster concept/UI asset"
+    },
+    {
+      "file": "02-characters/onbion.png",
+      "bytes": 480094,
+      "sha256": "8825dd6c11753a6d3226866eef6de96d7f7e064ef501fb2603b1be778bf4c1ee",
+      "width": 512,
+      "height": 512,
+      "mode": "RGB",
+      "role": "2D raster concept/UI asset"
+    },
+    {
+      "file": "02-characters/teom-echo.png",
+      "bytes": 527165,
+      "sha256": "783505f21c8a1c70a7aaaddff4c11afdaeb6cfe008f16d5e9d4296484ceeb3ab",
+      "width": 512,
+      "height": 512,
+      "mode": "RGB",
+      "role": "2D raster concept/UI asset"
+    },
+    {
+      "file": "02-characters/white-echo.png",
+      "bytes": 466990,
+      "sha256": "7f4214061e575be5b25098004963fc2fd4f8cbd311b5c23feed255deb8e2cf6f",
+      "width": 512,
+      "height": 512,
+      "mode": "RGB",
+      "role": "2D raster concept/UI asset"
+    },
+    {
+      "file": "03-spells/ash.png",
+      "bytes": 483833,
+      "sha256": "2715fa5c2cf4a621e14d799ad042debaa4163069a0fae0952c5d94d70fe4af89",
+      "width": 512,
+      "height": 512,
+      "mode": "RGB",
+      "role": "2D raster concept/UI asset"
+    },
+    {
+      "file": "03-spells/chosen-family.png",
+      "bytes": 481020,
+      "sha256": "4d1ef662b85d557adbf4ec68b1bdd2371c28ab902f062e4a3c79bc39dbec0780",
+      "width": 512,
+      "height": 512,
+      "mode": "RGB",
+      "role": "2D raster concept/UI asset"
+    },
+    {
+      "file": "03-spells/hearth.png",
+      "bytes": 501056,
+      "sha256": "c1dd5a4a7a3a38e00e0dc3024c1ec2116a888226f26d0a40f78123ca82d3bef5",
+      "width": 512,
+      "height": 512,
+      "mode": "RGB",
+      "role": "2D raster concept/UI asset"
+    },
+    {
+      "file": "03-spells/memory.png",
+      "bytes": 475870,
+      "sha256": "53b11067ebc380a9fc37c0e616dce733767e75f8a673a362e539cd2daa55df26",
+      "width": 512,
+      "height": 512,
+      "mode": "RGB",
+      "role": "2D raster concept/UI asset"
+    },
+    {
+      "file": "03-spells/teom-blade.png",
+      "bytes": 425246,
+      "sha256": "b730aa94978c7d050b6dbd96e2a314cc4d36bc3bb9544fabfd32d1f5fb20b025",
+      "width": 512,
+      "height": 512,
+      "mode": "RGB",
+      "role": "2D raster concept/UI asset"
+    },
+    {
+      "file": "04-card-frames/champion-frame-v1.png",
+      "bytes": 681633,
+      "sha256": "2a866f1f68eecfc8c82279d578a58165fc416e532c2410cd21e7da0bce1f080b",
+      "width": 564,
+      "height": 836,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "role": "2D raster concept/UI asset"
+    },
+    {
+      "file": "04-card-frames/spell-frame-v1.png",
+      "bytes": 687187,
+      "sha256": "90a07bde0480bca8ac7f7170cc53ea85af03f97afd43e565ce33f9768952cead",
+      "width": 613,
+      "height": 836,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "role": "2D raster concept/UI asset"
+    },
+    {
+      "file": "04-card-frames/unit-frame-v1.png",
+      "bytes": 617309,
+      "sha256": "ee359051ad40e00df1984157864f2c8f04d7a7a2cf7a5f0428ae895de9c3545b",
+      "width": 566,
+      "height": 822,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "role": "2D raster concept/UI asset"
+    },
+    {
+      "file": "05-interface/avatar-ring-v1.png",
+      "bytes": 201913,
+      "sha256": "3c807b0864f38aa24f5fd767bb77fde835a3d80d323c46c387425d74d3b604eb",
+      "width": 364,
+      "height": 334,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "role": "2D raster concept/UI asset"
+    },
+    {
+      "file": "05-interface/button-disabled-v1.png",
+      "bytes": 174727,
+      "sha256": "46644f399e58ad82004f70eb405db6c01b6f5fb8972b46000c105a962eab891c",
+      "width": 486,
+      "height": 206,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "role": "2D raster concept/UI asset"
+    },
+    {
+      "file": "05-interface/button-hover-v1.png",
+      "bytes": 181946,
+      "sha256": "1b50b4402f419230703bd111c2a6fd30263aabb3c3e7a57081049fdc6e40529b",
+      "width": 488,
+      "height": 208,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "role": "2D raster concept/UI asset"
+    },
+    {
+      "file": "05-interface/button-normal-v1.png",
+      "bytes": 175799,
+      "sha256": "72a40f4a5fc7e99adfbe22b9e18d5abfde8c56aaf913ddf31c8446c84740e8a4",
+      "width": 484,
+      "height": 206,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "role": "2D raster concept/UI asset"
+    },
+    {
+      "file": "05-interface/button-pressed-v1.png",
+      "bytes": 169947,
+      "sha256": "e4a7f2479e7951de75a04e703df6322b41be6e4b0e6859dc674cd96a325395cf",
+      "width": 488,
+      "height": 208,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "role": "2D raster concept/UI asset"
+    },
+    {
+      "file": "05-interface/energy-socket-v1.png",
+      "bytes": 176717,
+      "sha256": "b73ddf806956dff6ccf8bb3b97850e7534389b6688da472689db2368e9cefbc2",
+      "width": 318,
+      "height": 313,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        253
+      ],
+      "role": "2D raster concept/UI asset"
+    },
+    {
+      "file": "05-interface/main-menu-concept-v1.png",
+      "bytes": 2800551,
+      "sha256": "c1b653bd01c7916f32ba124bb02d9fa64916d7b965f1e2cdbedd36bd1d2f5eef",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "role": "2D raster concept/UI asset"
+    },
+    {
+      "file": "05-interface/ornate-divider-v1.png",
+      "bytes": 120652,
+      "sha256": "b377e6f1bc9a5c23ff652b09c7fb6511e0bcd1e71af86f4b1e0f97ad9a25661b",
+      "width": 500,
+      "height": 178,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "role": "2D raster concept/UI asset"
+    },
+    {
+      "file": "05-interface/story-completed-v1.png",
+      "bytes": 125653,
+      "sha256": "b5c702ea61e99f0de66489b9dc1d7ddc806d286220e477e2da0ebe5c33388957",
+      "width": 280,
+      "height": 245,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "role": "2D raster concept/UI asset"
+    },
+    {
+      "file": "05-interface/story-current-v1.png",
+      "bytes": 129648,
+      "sha256": "c9f118cde8558610a013b04a5283c4fe04ee24eeb73defae800fc16531d406d7",
+      "width": 276,
+      "height": 256,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "role": "2D raster concept/UI asset"
+    },
+    {
+      "file": "05-interface/story-locked-v1.png",
+      "bytes": 131060,
+      "sha256": "f40c11584a5055afbb3facf4b9906c94f3a913e0c6cbaba88c72a92717066b47",
+      "width": 284,
+      "height": 256,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "role": "2D raster concept/UI asset"
+    },
+    {
+      "file": "05-interface/tooltip-panel-v1.png",
+      "bytes": 181796,
+      "sha256": "aac9b3ac33f4bc6d42c39ddfa0bf24ac39641c904d6978d385012285e9a7fc95",
+      "width": 480,
+      "height": 215,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "role": "2D raster concept/UI asset"
+    },
+    {
+      "file": "05-interface/turn-token-v1.png",
+      "bytes": 172373,
+      "sha256": "a3e2ad6658727e161eeabf875e90ae291f388c6ff2879933425921a60c149aea",
+      "width": 318,
+      "height": 313,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "role": "2D raster concept/UI asset"
+    },
+    {
+      "file": "06-vfx/heal-gold-green-texture-v1.png",
+      "bytes": 392539,
+      "sha256": "2a5254edd17ed911f19802aa8e0763e15779b597ee48ca186c1a91f165ec83ba",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        253
+      ],
+      "role": "2D raster concept/UI asset"
+    },
+    {
+      "file": "06-vfx/impact-silver-texture-v1.png",
+      "bytes": 372447,
+      "sha256": "98fb1d7ec89a8dad4ed5938b51cc5711b47d3a441c315ac713efda132b1e2727",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        253
+      ],
+      "role": "2D raster concept/UI asset"
+    },
+    {
+      "file": "06-vfx/karah-ink-texture-v1.png",
+      "bytes": 413704,
+      "sha256": "69bc3db5dd84e6e5bc1784732b9a6491068b1b547e855f0234ded6c3c8ac9f94",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        253
+      ],
+      "role": "2D raster concept/UI asset"
+    },
+    {
+      "file": "06-vfx/summon-amber-texture-v1.png",
+      "bytes": 431050,
+      "sha256": "e12335ba9976008b7b97ef40f0a550edd725739fa102592424468bcf04a68e5b",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        253
+      ],
+      "role": "2D raster concept/UI asset"
+    },
+    {
+      "file": "06-vfx/victory-shards-texture-v1.png",
+      "bytes": 407171,
+      "sha256": "0bc11e546473227bd6794df98832b4973fdafb41b74cba5973eace4993f996ea",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        253
+      ],
+      "role": "2D raster concept/UI asset"
+    },
+    {
+      "file": "06-vfx/white-echo-texture-v1.png",
+      "bytes": 447977,
+      "sha256": "c3f11d671f14b7b7140646bddc7e72a2e02037213d686719740efbd93e60e28c",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        253
+      ],
+      "role": "2D raster concept/UI asset"
+    },
+    {
+      "file": "07-production/LOR_ART_PIPELINE.md",
+      "bytes": 6789,
+      "sha256": "2e1bd22a1a401c4ce644c5bc2b87c0feb4d608c6ec0f237fdc445ea49b6d0b4b",
+      "role": "production document or font"
+    },
+    {
+      "file": "07-production/MESHY_PROMPTS.md",
+      "bytes": 3221,
+      "sha256": "7dbf2825ad77f722383f6cab38a238348a82ebef3671e44c882f03a2189bc225",
+      "role": "production document or font"
+    },
+    {
+      "file": "07-production/PRODUCTION_BRIEF.md",
+      "bytes": 6571,
+      "sha256": "c71e95609f63410d2f794d57a8075c16c3617a145b9c7b82197dc5c2df153970",
+      "role": "production document or font"
+    },
+    {
+      "file": "07-production/QUALITY_REVIEW.md",
+      "bytes": 2122,
+      "sha256": "3d5855c9f799d24952414bec26f740fca26f96af37e988c0aebcca0705297d7f",
+      "role": "production document or font"
+    },
+    {
+      "file": "08-3d/animation-validation.json",
+      "bytes": 292,
+      "sha256": "2af56540e6b36a2b2cb4d704d52a1ac76ca24206bb012bbb336b37944ae2ac1a",
+      "role": "production document or font"
+    },
+    {
+      "file": "08-3d/eruldin-korvengrad-board-v1.blend",
+      "bytes": 7262192,
+      "sha256": "f05495571dde8af5a6f1526e4b26daa4b13aceb2f3362475c38241e1c3f06a36",
+      "role": "real editable 3D source or export"
+    },
+    {
+      "file": "08-3d/glb-import-validation.json",
+      "bytes": 233,
+      "sha256": "f109554031ae6a2c166ca2bbf53c8111f445eab6d2a541087de110e2736cca1d",
+      "role": "production document or font"
+    },
+    {
+      "file": "08-3d/glb-validation.json",
+      "bytes": 324,
+      "sha256": "4d2f6306512b775000dbb1b05c58c63dc64630f14618f1168c4c1c7fdbede226",
+      "role": "production document or font"
+    },
+    {
+      "file": "08-3d/models/board-surface-v1.glb",
+      "bytes": 386780,
+      "sha256": "bf9943add7663ad7e872956c919f0a06601829623b89c10bb3436335040b7b92",
+      "role": "real editable 3D source or export"
+    },
+    {
+      "file": "08-3d/models/brazier-assembly-v1.glb",
+      "bytes": 459056,
+      "sha256": "f9ab04db71a914b880ed0aab1777edadf1425e2c1b0b5ef63dbd3c817614621b",
+      "role": "real editable 3D source or export"
+    },
+    {
+      "file": "08-3d/models/candle-clusters-v1.glb",
+      "bytes": 823160,
+      "sha256": "fbed29490d04b045e3c8f3296a6d5b3c48e536a3682b5276caed29dd3133fe74",
+      "role": "real editable 3D source or export"
+    },
+    {
+      "file": "08-3d/models/eruldin-board-animated-v1.glb",
+      "bytes": 5099600,
+      "sha256": "edeff7c6f7e83538e5c27b6cc0f58a5ae2cfbeadf49f1b5abcba95de940a90ec",
+      "role": "real editable 3D source or export"
+    },
+    {
+      "file": "08-3d/models/korvengrad-castle-v1.glb",
+      "bytes": 2541168,
+      "sha256": "2fde414fd3f21507d43be859ddf9e58b3f1f705af9541dff8b162532ddce8727",
+      "role": "real editable 3D source or export"
+    },
+    {
+      "file": "08-3d/previews/board-camera-frame001.png",
+      "bytes": 1951588,
+      "sha256": "d05ec3adc59f9b7336fe340ce4d6289d4d5ce9d3fc3d4522c73c8d628df4553a",
+      "width": 1600,
+      "height": 1000,
+      "mode": "RGBA",
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "render of actual 3D scene"
+    },
+    {
+      "file": "08-3d/previews/board-loop-v1.gif",
+      "bytes": 7171910,
+      "sha256": "e4ba0c02defb502bdcc7bf6d5136e08a6c8ab93facc8b531ce18204a34562d8e",
+      "width": 640,
+      "height": 400,
+      "mode": "P",
+      "frames": 60,
+      "role": "render of actual 3D scene"
+    },
+    {
+      "file": "08-3d/README.md",
+      "bytes": 3661,
+      "sha256": "427601a1fafc1f326532e4c069fd4740522972a342f47750c3021828f38029b4",
+      "role": "production document or font"
+    },
+    {
+      "file": "08-3d/scene-inventory.json",
+      "bytes": 847,
+      "sha256": "1ca14270af84175b6d540b16831a21c036552d44df016749eb93b732dd290803",
+      "role": "production document or font"
+    },
+    {
+      "file": "fonts/Cinzel-OFL.txt",
+      "bytes": 4383,
+      "sha256": "f2b3029aba64c378bf0963b62945eee15e564fe4330b934c8f2eb058282b5e83",
+      "role": "production document or font"
+    },
+    {
+      "file": "fonts/cinzel.ttf",
+      "bytes": 125468,
+      "sha256": "f4d83d34d1f6c741193e4acf4b3dff9531e5a67b6aa65228d00a7db72a4e0f34",
+      "role": "production document or font"
+    },
+    {
+      "file": "fonts/Manrope-OFL.txt",
+      "bytes": 4387,
+      "sha256": "58172e0c0fac2cda8a37b348164bb55e44b0e69051e557e92b1d3f6910141f7b",
+      "role": "production document or font"
+    },
+    {
+      "file": "fonts/manrope.ttf",
+      "bytes": 164700,
+      "sha256": "3ae11c49db0455a3cc33e37d380f20fdb8c7f8b41dc07625c177e3d87a9d6ae6",
+      "role": "production document or font"
+    },
+    {
+      "file": "README.md",
+      "bytes": 1930,
+      "sha256": "331f6b4124b22386562e5238bf87a67d77cb11b013239a2f5f2a39aa796b165e",
+      "role": "production document or font"
+    },
+    {
+      "file": "sources/card-frames-atlas-v1.png",
+      "bytes": 2007798,
+      "sha256": "b86f484c09fa064cb5a7e6b9c3094c9513128958d5dbbea74a72470d0e90ab4a",
+      "width": 1881,
+      "height": 836,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "role": "source atlas or record"
+    },
+    {
+      "file": "sources/characters-atlas.png",
+      "bytes": 3152023,
+      "sha256": "d65cee27f546fd1740df50c6dd9f8c1a951919f9139663ea07d2605e59810b06",
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGB",
+      "role": "source atlas or record"
+    },
+    {
+      "file": "sources/initial-manifest.json",
+      "bytes": 5303,
+      "sha256": "0a01bab7132028b0ef1ef58132239e05428339093f1d96ed861196bff6659e50",
+      "role": "source atlas or record"
+    },
+    {
+      "file": "sources/prompts-v1.json",
+      "bytes": 8852,
+      "sha256": "72e522e9a80c35d29743c4f13a4ff9f093458124cfdc9a7a0deda219d12a8307",
+      "role": "source atlas or record"
+    },
+    {
+      "file": "sources/spells-atlas.png",
+      "bytes": 3068635,
+      "sha256": "0174186e15c24428a93117f71b69641ed144ffd957ca1c7a054eca4cf32454ef",
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGB",
+      "role": "source atlas or record"
+    },
+    {
+      "file": "sources/ui-components-atlas-v1.png",
+      "bytes": 2320692,
+      "sha256": "f85356eb33c26477613e2e2a737a00529909709e127188938caa8d6d2cab9a8b",
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "role": "source atlas or record"
+    },
+    {
+      "file": "sources/ui-sprite-crops.json",
+      "bytes": 2805,
+      "sha256": "6e616b5588856d8ea1f7068c19bf011dc1bf0d4c98ecf239a7844299a2f81a9e",
+      "role": "source atlas or record"
+    },
+    {
+      "file": "sources/vfx-shapes-atlas-v1.png",
+      "bytes": 2477608,
+      "sha256": "ae5560ed1db992c0f77375b778f7169d9a59600bd713b6f099bc3d965be2a736",
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        253
+      ],
+      "role": "source atlas or record"
+    },
+    {
+      "file": "sources/vfx-sprite-crops.json",
+      "bytes": 1629,
+      "sha256": "a204bb15beeb6bb00746798983d09027fa729f3b2b2d4b88f53b90252504aa79",
+      "role": "source atlas or record"
+    }
+  ]
+}

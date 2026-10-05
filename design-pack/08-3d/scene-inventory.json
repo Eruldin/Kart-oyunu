@@ -1,0 +1,29 @@
+{
+  "blender": "4.5.14 LTS",
+  "objects": 774,
+  "meshes": 747,
+  "lights": 26,
+  "animated_objects": 94,
+  "animated_light_data": 22,
+  "materials": 18,
+  "fps": 24,
+  "frame_start": 1,
+  "frame_end": 120,
+  "collections": {
+    "Collection": 0,
+    "01_Board": 34,
+    "02_Castle": 400,
+    "03_Candles": 88,
+    "04_Braziers": 66,
+    "05_AnimatedFire": 66,
+    "06_Environment": 93,
+    "07_Lights": 26,
+    "08_Cameras": 1
+  },
+  "limitations": [
+    "Detailed blockout, not final sculpt or hand-painted production model",
+    "No Mantaflow fluid fire/smoke simulation; fire and smoke are animated 3D mesh layers",
+    "GLB simplifies Blender-only procedural bump/compositor and light-intensity animation",
+    "Standalone GLB subsets preserve assembly positions; origin preparation and LOD are not complete"
+  ]
+}

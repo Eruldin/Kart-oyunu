@@ -1,0 +1,206 @@
+[
+  {
+    "file": "05-interface/button-normal-v1.png",
+    "source_box": [
+      28,
+      24,
+      512,
+      230
+    ],
+    "size": [
+      484,
+      206
+    ],
+    "alpha_range": [
+      0,
+      254
+    ]
+  },
+  {
+    "file": "05-interface/button-hover-v1.png",
+    "source_box": [
+      524,
+      24,
+      1012,
+      232
+    ],
+    "size": [
+      488,
+      208
+    ],
+    "alpha_range": [
+      0,
+      254
+    ]
+  },
+  {
+    "file": "05-interface/button-pressed-v1.png",
+    "source_box": [
+      1022,
+      24,
+      1510,
+      232
+    ],
+    "size": [
+      488,
+      208
+    ],
+    "alpha_range": [
+      0,
+      254
+    ]
+  },
+  {
+    "file": "05-interface/button-disabled-v1.png",
+    "source_box": [
+      28,
+      242,
+      514,
+      448
+    ],
+    "size": [
+      486,
+      206
+    ],
+    "alpha_range": [
+      0,
+      254
+    ]
+  },
+  {
+    "file": "05-interface/tooltip-panel-v1.png",
+    "source_box": [
+      530,
+      234,
+      1010,
+      449
+    ],
+    "size": [
+      480,
+      215
+    ],
+    "alpha_range": [
+      0,
+      254
+    ]
+  },
+  {
+    "file": "05-interface/ornate-divider-v1.png",
+    "source_box": [
+      1018,
+      258,
+      1518,
+      436
+    ],
+    "size": [
+      500,
+      178
+    ],
+    "alpha_range": [
+      0,
+      254
+    ]
+  },
+  {
+    "file": "05-interface/avatar-ring-v1.png",
+    "source_box": [
+      88,
+      430,
+      452,
+      764
+    ],
+    "size": [
+      364,
+      334
+    ],
+    "alpha_range": [
+      0,
+      254
+    ]
+  },
+  {
+    "file": "05-interface/energy-socket-v1.png",
+    "source_box": [
+      610,
+      440,
+      928,
+      753
+    ],
+    "size": [
+      318,
+      313
+    ],
+    "alpha_range": [
+      0,
+      253
+    ]
+  },
+  {
+    "file": "05-interface/turn-token-v1.png",
+    "source_box": [
+      1110,
+      440,
+      1428,
+      753
+    ],
+    "size": [
+      318,
+      313
+    ],
+    "alpha_range": [
+      0,
+      254
+    ]
+  },
+  {
+    "file": "05-interface/story-completed-v1.png",
+    "source_box": [
+      130,
+      763,
+      410,
+      1008
+    ],
+    "size": [
+      280,
+      245
+    ],
+    "alpha_range": [
+      0,
+      254
+    ]
+  },
+  {
+    "file": "05-interface/story-current-v1.png",
+    "source_box": [
+      630,
+      754,
+      906,
+      1010
+    ],
+    "size": [
+      276,
+      256
+    ],
+    "alpha_range": [
+      0,
+      254
+    ]
+  },
+  {
+    "file": "05-interface/story-locked-v1.png",
+    "source_box": [
+      1122,
+      754,
+      1406,
+      1010
+    ],
+    "size": [
+      284,
+      256
+    ],
+    "alpha_range": [
+      0,
+      254
+    ]
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "glb_version": 2,
+  "declared_length_matches": true,
+  "meshes": 747,
+  "nodes": 774,
+  "animations": 1,
+  "animation_channels": 186,
+  "triangles": 88240,
+  "image_textures": 0,
+  "lights": 23,
+  "external_uris": [],
+  "gif_frames": 60,
+  "gif_duration_ms": 5000,
+  "gif_size": [
+    640,
+    400
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "date": "2026-10-05",
+  "mode": "built-in image_gen",
+  "status": "Prototype visual interpretation; not final canon approval",
+  "assets": [
+    {
+      "source": "korvengrad.png",
+      "files": [
+        "korvengrad.webp"
+      ],
+      "prompt": "Use case: stylized-concept. Asset type: ultra-wide cinematic fantasy card game campaign background. Original Eruldin universe, not any existing franchise. Ruined Gothic city Korvengrad emerging from a dark misty ravine, immense jagged spires, broken arch bridge and winding path leading toward warm golden windows, ancient iron statues, cold desaturated teal forest and charcoal stone, amber embers in foreground, rust leaves. A small lone young male traveller with dark brown hair in worn dark forest green velvet coat stands on bridge right third facing city, subtle small skull tied at belt. Vast oppressive scale, painterly premium dark fantasy illustration, masterful detail and composition, beautiful volumetric light, cinematic atmosphere, nuanced muted tones, no text, no UI, no logos, no frame. Landscape 1536x1024 or wider. Foreground left dark and quiet for text overlay."
+    },
+    {
+      "source": "characters-atlas.png",
+      "files": [
+        "marcel.webp",
+        "white.webp",
+        "teom.webp",
+        "akhenten.webp",
+        "karah.webp",
+        "onbion.webp"
+      ],
+      "prompt": "Use case: stylized-concept. Asset type: one coherent character portrait sprite atlas for original dark fantasy game Eruldin. Six equally sized borderless panels, arranged EXACT 3 columns by 2 rows, each panel its own centered bust portrait, no gaps and no text. Top left: Marcel, a lean 24-year-old male with dark brown medium wavy hair, sharp cheekbones, tired brown eyes, worn dark green velvet coat with frayed gold embroidery, dirty gray shirt, sardonic expression, misty ruined gothic city behind. Top middle: Beyaz Saçlı Marcel, same male facial structure, long swept-back white hair, blue eyes, thin scar above lip, elegant ivory garments, cold pale fog. Top right: Teom Zırhlı Marcel, same young male in noble ancient white-gold plate armor, bright blue eyes, steel and sky-blue light. Bottom left: Akhenten, immense broad Krov elder, long white beard, weathered face, rusted iron chains and armor fragment, warm forge behind. Bottom middle: Karah, nonhuman nightmare arthropod amorphous wet tar and obsidian, incorrectly jointed many clawed limbs, violet veins, cold ash fog. Bottom right: Onbion, angular male hunter, raven black hair and storm gray eyes, dark cloak, metallic curved hybrid bow-sword visible, forest mist. Premium painterly realistic fantasy illustration, consistent masterful brushwork, cinematic volumetric lighting, muted charcoal/teal/amber palette, intricate textures, no existing game characters, no logos, no typography, no card frames. Output landscape atlas around 1536x1024."
+    },
+    {
+      "source": "spells-atlas.png",
+      "files": [
+        "blade.webp",
+        "memory.webp",
+        "fire.webp",
+        "ash.webp",
+        "family.webp",
+        "borislav.webp"
+      ],
+      "prompt": "Use case: stylized-concept. Asset type: one original dark fantasy spell illustration atlas for Eruldin digital card game, six panels arranged EXACT 3 columns x 2 rows, no frames, no text, equal panels no gaps. All are premium detailed painterly illustrations with dramatic cinematic chiaroscuro, charcoal teal shadows and amber highlights, compatible with ruined gothic dark fantasy. Top left: extremely thin elegant silver steel stiletto dagger with simple functional handle floating diagonally over black ruined stone, cold ancient blue steel glint, no modern objects. Top middle: a fragment of bright childhood memory, golden wheat field and old willow tree reflected inside a luminous ivory fractured crystal surrounded by white mist, no people. Top right: closeup glowing orange campfire inside a ruined stone watchtower, warm flames and sparks in cold gray ash. Bottom left: rolling gray ash storm among broken gothic spires, charred soil and deep black violet atmosphere, impactful magic force. Bottom middle: three distinct silhouetted travelling companions against foggy path: a lean green-coated young male with medium brown hair, an enormous broad elder warrior with long white beard, and dark cloaked black-haired male hunter carrying hybrid curved bow-sword, warm light in darkness, no female. Bottom right: yellowed ancient skull with half its jaw missing next to exactly five tiny finger bone dice on worn wet cathedral ledge, candlelight, dramatic macro. Avoid existing franchise art, logos, labels, lettering, cartoon appearance. Landscape 1536x1024 atlas.",
+      "notes": "borislav.webp is unused: generated cubes differ from the book's finger bones; do not treat as an approved canonical prop."
+    }
+  ],
+  "fonts": [
+    {
+      "name": "Cinzel",
+      "source": "https://github.com/google/fonts/tree/main/ofl/cinzel",
+      "license": "SIL OFL 1.1",
+      "file": "Cinzel-OFL.txt"
+    },
+    {
+      "name": "Manrope",
+      "source": "https://github.com/google/fonts/tree/main/ofl/manrope",
+      "license": "SIL OFL 1.1",
+      "file": "Manrope-OFL.txt"
+    }
+  ],
+  "icons": "Original code-native line icons",
+  "sounds": "Original Web Audio oscillator synthesis"
+}

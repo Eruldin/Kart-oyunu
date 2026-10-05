@@ -1,0 +1,110 @@
+[
+  {
+    "file": "06-vfx/summon-amber-texture-v1.png",
+    "source_box": [
+      0,
+      0,
+      512,
+      512
+    ],
+    "size": [
+      512,
+      512
+    ],
+    "alpha_range": [
+      0,
+      253
+    ],
+    "transparent_fraction": 0.4587
+  },
+  {
+    "file": "06-vfx/impact-silver-texture-v1.png",
+    "source_box": [
+      512,
+      0,
+      1024,
+      512
+    ],
+    "size": [
+      512,
+      512
+    ],
+    "alpha_range": [
+      0,
+      253
+    ],
+    "transparent_fraction": 0.5397
+  },
+  {
+    "file": "06-vfx/heal-gold-green-texture-v1.png",
+    "source_box": [
+      1024,
+      0,
+      1536,
+      512
+    ],
+    "size": [
+      512,
+      512
+    ],
+    "alpha_range": [
+      0,
+      253
+    ],
+    "transparent_fraction": 0.5096
+  },
+  {
+    "file": "06-vfx/white-echo-texture-v1.png",
+    "source_box": [
+      0,
+      512,
+      512,
+      1024
+    ],
+    "size": [
+      512,
+      512
+    ],
+    "alpha_range": [
+      0,
+      253
+    ],
+    "transparent_fraction": 0.3806
+  },
+  {
+    "file": "06-vfx/karah-ink-texture-v1.png",
+    "source_box": [
+      512,
+      512,
+      1024,
+      1024
+    ],
+    "size": [
+      512,
+      512
+    ],
+    "alpha_range": [
+      0,
+      253
+    ],
+    "transparent_fraction": 0.3766
+  },
+  {
+    "file": "06-vfx/victory-shards-texture-v1.png",
+    "source_box": [
+      1024,
+      512,
+      1536,
+      1024
+    ],
+    "size": [
+      512,
+      512
+    ],
+    "alpha_range": [
+      0,
+      253
+    ],
+    "transparent_fraction": 0.3741
+  }
+]

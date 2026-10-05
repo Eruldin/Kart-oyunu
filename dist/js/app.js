@@ -4,6 +4,7 @@ import * as audio from './audio.js';
 import {connect, content} from './net.js';
 import {cardEl, bindTooltip} from './cardview.js';
 import * as Battle from './battle.js';
+import * as FX from './fx.js';
 import {chapters, defaultDeck, enemyDeck, cardById, ECHOES, CARDS} from '../vendor/content/cards.mjs';
 
 const ART = './assets/art/';
@@ -20,6 +21,7 @@ function showTitle() {
   <div class="title-screen">
     <img class="title-bg" src="${ART}keyart.jpg" alt="">
     <div class="title-fog"></div>
+    <div class="title-embers" id="title-embers"></div>
     <div class="title-inner">
       <img class="title-sigil" src="./assets/ui/turn-token-v1.png" alt="">
       <h1 class="game-logo">ERULDIN</h1>
@@ -37,33 +39,48 @@ function showTitle() {
         <button class="txt" data-act="lang">${lang().toUpperCase()}</button>
       </div>
     </div>
-    <div class="version">v0.1 · ${backend?.mode === 'server' ? t('online') : t('offline')}</div>
+    <div class="version">v0.2 · ${backend?.mode === 'server' ? t('online') : t('offline')}</div>
   </div>`;
+  FX.embers(document.querySelector('#title-embers'), 18);
 }
 
 function showMap() {
   screen = 'map';
   audio.music('story');
   const prog = profile.progress ?? 0;
+  const POS = [[7, 58], [24, 38], [41, 56], [55, 32], [68, 50]];   // % inside .map-route
+  const pts = chapters.map((_, i) => POS[i] || [8 + i * 15, 50]);
+  const routeD = pts.map((p, i) => {
+    if (!i) return `M ${p[0]} ${p[1]}`;
+    const [px, py] = pts[i - 1];
+    const mx = (px + p[0]) / 2;
+    return `Q ${mx} ${py + (i % 2 ? -14 : 14)}, ${p[0]} ${p[1]}`;
+  }).join(' ');
   app().innerHTML = `
   <div class="map-screen">
     <img class="map-bg" src="${ART}screens/campaign-map.png" alt="">
     <div class="map-veil"></div>
+    <div class="map-embers" id="map-embers"></div>
     <header class="map-head">
       <button class="icon-btn" data-act="title">←</button>
       <div><h1>${t('story')}</h1><p>${t('storyIntro')}</p></div>
       <button class="btn ghost" data-act="deck">${t('deck')}</button>
     </header>
     <div class="map-route">
+      <svg class="map-route-svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+        <path class="route-path" d="${routeD}" vector-effect="non-scaling-stroke"/>
+        <path class="route-path done" d="${routeD}" vector-effect="non-scaling-stroke" pathLength="${chapters.length}" style="--done:${prog}"/>
+      </svg>
       ${chapters.map((ch, i) => {
         const st = i < prog ? 'done' : i === prog ? 'next' : 'locked';
-        return `<button class="map-node ${st}" data-ch="${i}" ${st === 'locked' ? 'disabled' : ''} style="--x:${8 + i * 20}%">
+        const [x, y] = pts[i];
+        return `<button class="map-node ${st}" data-ch="${i}" ${st === 'locked' ? 'disabled' : ''} style="left:${x}%;top:${y}%">
           <img class="node-medal" src="./assets/ui/story-${st === 'done' ? 'completed' : st === 'next' ? 'current' : 'locked'}-v1.png" alt="">
           <span class="node-num">${i + 1}</span>
           <span class="node-name">${tn(ch.name)}</span>
           <small>${ch.src || ''}</small>
         </button>`;
-      }).join('<i class="route-line"></i>')}
+      }).join('')}
     </div>
     <div class="map-side">
       <div class="side-card">
@@ -76,6 +93,7 @@ function showMap() {
       </div>
     </div>
   </div>`;
+  FX.embers(document.querySelector('#map-embers'), 12, 'ember-cold');
 }
 
 function echoAvatar(id) {
@@ -214,7 +232,7 @@ async function enterMatch(payload) {
         return backend.command(cmd); // local returns pack() {matchId,actor,state,...}
       },
     },
-    onLeave: () => { sess = null; showMap(); audio.music('story'); },
+    onLeave: () => { Battle.destroyBattle(); sess = null; showMap(); audio.music('story'); },
     onRematch: async () => { if (payload.kind === 'story') await launchStory(payload.chapter); else await launchSkirmish(); },
   };
   screen = 'battle';

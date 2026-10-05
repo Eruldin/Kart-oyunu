@@ -22,11 +22,13 @@ const foe = () => view.players[1 - actor()];
 const myTurn = () => view.phase === 'action' && view.active === actor();
 
 export async function startBattle(sess) {
+  destroyBattle();
   session = sess;
   view = sess.view;
   seenEvents = [];
   selectedAttackers.clear(); blockPairs = {}; blockFocus = null; targetMode = null;
-  music(sess.kind === 'story' ? 'battle' : 'battle');
+  initTutorial();
+  music('battle');
   render();
   animateNew();
 }
@@ -48,10 +50,12 @@ function render() {
   const winner = s.winner;
 
   root.innerHTML = `
-  <div class="battle ${s.phase === 'block' ? 'in-combat' : ''}" id="battle">
+  <div class="battle ${s.phase === 'block' ? 'in-combat' : ''} ${targetMode ? 'targeting' : ''}" id="battle">
     <div class="bfield" id="bfield">
       <div class="bfield-bg"></div>
       <div class="bfield-mist"></div>
+      <div class="bfield-embers" id="bfield-embers"></div>
+      <div class="bfield-glowline"></div>
 
       <!-- enemy plate -->
       <div class="plate foe-plate">
@@ -124,13 +128,23 @@ function render() {
   drawCombatArrows();
   bindInteractions();
   renderLog();
+  FX.embers($('#bfield-embers'), 15);
+  tutorTick();
 }
 
 function drawCombatArrows() {
   FX.clearArrows();
   const s = view;
-  if (s.phase !== 'block' || !s.combat) return;
   const A = actor();
+  // attack-preview: picked units aim at the enemy avatar before committing (LoR-style)
+  if (myTurn() && s.token === A && !me().flag?.attacked) {
+    for (const uid of selectedAttackers) {
+      const uEl = uidEl(A, uid);
+      const av = avatarEl(1 - A);
+      if (uEl && av) FX.arrow(uEl, av, '#e0705c', true);
+    }
+  }
+  if (s.phase !== 'block' || !s.combat) return;
   s.combat.attackers.forEach((atk, i) => {
     const uEl = uidEl(s.token, atk.uid);
     if (!uEl) return;
@@ -138,7 +152,7 @@ function drawCombatArrows() {
       const dEl = unitEl(A, blockPairs[i]);
       if (dEl) { FX.arrow(dEl, uEl, '#9fd8f0', true); uEl.classList.add('blocked'); }
     } else {
-      const av = avatarEl(A);
+      const av = avatarEl(1 - s.token); // arrows aim at the defender's avatar
       if (av) FX.arrow(uEl, av, '#e0705c');
     }
   });
@@ -387,6 +401,50 @@ function bindInteractions() {
   });
   document.addEventListener('keydown', escCancel);
 }
+
+// ---------------- tutorial ----------------
+let tut = null;   // {i, steps[]}
+const tutDone = () => localStorage.getItem('eruldin.tut') === '1';
+function initTutorial() {
+  tut = null;
+  if (tutDone() || session.kind !== 'story' || session.chapter !== 0) return;
+  tut = {i: -1, steps: [
+    {when: () => view.phase === 'mulligan' && !me().mulliganDone,
+     spot: () => $('#mull-cards'), text: () => t('tutMull')},
+    {when: () => myTurn() && me().board.length === 0 && me().hand.some(raw => { const d = cardById[raw.replace('#weak','')]; return d && d.kind !== 'spell' && canAfford(d); }),
+     spot: () => $('#hand'), text: () => t('tutPlay')},
+    {when: () => myTurn() && view.token === actor() && !me().flag?.attacked && me().board.some(u => !u.summoningSick),
+     spot: () => $('#my-row .bunit') || $('#btn-attack'), text: () => t('tutAttack')},
+    {when: () => view.phase === 'block' && view.token !== actor(),
+     spot: () => $('#foe-row .bunit.attacking') || $('#foe-row .bunit'), text: () => t('tutBlock')},
+    {when: () => myTurn() && me().board.length > 0,
+     spot: () => $('#btn-pass'), text: () => t('tutPass')},
+  ]};
+}
+function tutorTick() {
+  if (!tut) return;
+  const cur = tut.steps[tut.i];
+  // advance past finished / find first applicable step
+  for (let i = 0; i < tut.steps.length; i++) {
+    const st = tut.steps[i];
+    if (st.when()) {
+      if (i === tut.i) return;   // already showing
+      tut.i = i;
+      const el = st.spot();
+      FX.tutorStep(el || $('#bfield'), st.text(), t('tutSkip'), () => finishTutorial());
+      return;
+    }
+  }
+  // nothing applicable right now
+  if (cur && !cur.when()) FX.hideTutor();
+  // all steps impossible later? done when board used and past mulligan + attack happened
+  if (view.phase !== 'mulligan' && (me().flag?.attacked || view.round > 3 || view.winner != null)) finishTutorial();
+}
+function finishTutorial() {
+  FX.hideTutor();
+  localStorage.setItem('eruldin.tut', '1');
+  tut = null;
+}
 function escCancel(e) {
   if (e.key === 'Escape' && targetMode) { cancelTarget(); render(); }
 }
@@ -505,9 +563,21 @@ const mine = a => a === actor();
 
 function playEvent(ev) {
   switch (ev.t) {
-    case 'draw': if (mine(ev.a)) sfx('cardDraw'); break;
+    case 'draw': {
+      sfx('cardDraw');
+      if (mine(ev.a)) {
+        const deck = $('.deck-count');
+        const last = $('#hand')?.querySelectorAll('.hand-card');
+        if (deck && last?.length) FX.fly(deck, last[last.length - 1], 'draw');
+      }
+      break;
+    }
     case 'mulligan': sfx('shuffle'); break;
-    case 'round': sfx('turn'); break;
+    case 'round': {
+      sfx('turn');
+      FX.banner(`${t('roundBanner')} ${ev.n}`, ev.token === actor() ? t('yourToken') : t('foeToken'));
+      break;
+    }
     case 'play': {
       sfx(ev.card?.includes?.('#weak') ? 'echoCharge' : 'cardPlay');
       const p = ev.a === actor() ? me() : foe();
@@ -515,7 +585,11 @@ function playEvent(ev) {
       // find newest board el (best effort)
       const row = ev.a === actor() ? $('#my-row') : $('#foe-row');
       const last = row?.querySelectorAll('.bunit');
-      if (last?.length) FX.summonGlow(last[last.length - 1], 'gold');
+      if (last?.length) {
+        FX.summonGlow(last[last.length - 1], 'gold');
+        const hand = $('#hand');
+        if (mine(ev.a) && hand) FX.fly(hand, last[last.length - 1], 'play');
+      }
       break;
     }
     case 'ultimate': {
@@ -599,4 +673,5 @@ function describe(ev) {
 export function destroyBattle() {
   document.removeEventListener('keydown', escCancel);
   FX.clearArrows();
+  FX.hideTutor();
 }

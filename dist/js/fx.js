@@ -6,6 +6,7 @@ function center(el) {
   const r = el.getBoundingClientRect();
   return {x: r.left + r.width / 2, y: r.top + r.height / 2, r};
 }
+const visible = el => { const r = el?.getBoundingClientRect(); return !!r && r.width > 1 && r.height > 1; };
 
 export function popup(el, text, cls = 'dmg') {
   if (!el) return;
@@ -82,7 +83,7 @@ export function arrowLayerEl() {
 }
 export function clearArrows() { arrowLayerEl().innerHTML = ''; }
 export function arrow(fromEl, toEl, color = '#e5c285', dashed = false) {
-  if (!fromEl || !toEl) return;
+  if (!visible(fromEl) || !visible(toEl)) return;
   const a = center(fromEl), b = center(toEl);
   const svg = arrowLayerEl();
   const line = document.createElementNS('http://www.w3.org/2000/svg', 'path');
@@ -128,6 +129,72 @@ export function lunge(el, towardEl) {
   el.classList.add('fx-lunge');
   setTimeout(() => el.classList.remove('fx-lunge'), 420);
 }
+// ambient: rising embers / drifting ash inside a container
+export function embers(container, n = 16, cls = 'ember') {
+  if (!container || reduced()) return;
+  for (let i = 0; i < n; i++) {
+    const e = document.createElement('i');
+    e.className = cls;
+    e.style.left = (Math.random() * 100) + '%';
+    e.style.setProperty('--dur', (6 + Math.random() * 9) + 's');
+    e.style.setProperty('--del', (-Math.random() * 14) + 's');
+    e.style.setProperty('--sway', (Math.random() * 60 - 30) + 'px');
+    e.style.setProperty('--size', (2 + Math.random() * 3.4) + 'px');
+    container.append(e);
+  }
+}
+
+// full-screen round / phase banner
+export function banner(text, sub = '') {
+  if (reduced()) return;
+  const b = document.createElement('div');
+  b.className = 'fx-banner';
+  b.innerHTML = `<span class="fx-banner-line"></span><h2>${text}</h2>${sub ? `<p>${sub}</p>` : ''}<span class="fx-banner-line"></span>`;
+  root().append(b);
+  setTimeout(() => b.classList.add('out'), 1150);
+  setTimeout(() => b.remove(), 1650);
+}
+
+// fly a card-shaped ghost from one element to another (play, draw)
+export function fly(fromEl, toEl, cls = '') {
+  if (!visible(fromEl) || !visible(toEl) || reduced()) return;
+  const a = center(fromEl), b = center(toEl);
+  const g = document.createElement('div');
+  g.className = 'fx-fly ' + cls;
+  g.style.left = a.x + 'px';
+  g.style.top = a.y + 'px';
+  root().append(g);
+  requestAnimationFrame(() => {
+    const midX = (b.x - a.x) / 2, midY = (b.y - a.y) / 2 - 60;
+    g.style.transform = `translate(${midX}px,${midY}px) scale(1.06) rotate(4deg)`;
+    setTimeout(() => {
+      g.style.transform = `translate(${b.x - a.x}px,${b.y - a.y}px) scale(.62)`;
+      g.style.opacity = '.0';
+    }, 240);
+  });
+  setTimeout(() => g.remove(), 760);
+}
+
+// tutorial: dim everything except a spotlight on target + a text box
+let tutLayer = null;
+export function tutorStep(targetEl, text, hint = '', onNext) {
+  hideTutor();
+  if (!targetEl) return;
+  const r = targetEl.getBoundingClientRect();
+  tutLayer = document.createElement('div');
+  tutLayer.className = 'tut-layer';
+  tutLayer.innerHTML = `
+    <div class="tut-spot" style="left:${r.left - 10}px;top:${r.top - 10}px;width:${r.width + 20}px;height:${r.height + 20}px"></div>
+    <div class="tut-box" style="${tutPos(r)}"><p>${text}</p>${hint ? `<small>${hint}</small>` : ''}<button class="btn ghost tut-next">→</button></div>`;
+  document.body.append(tutLayer);
+  tutLayer.querySelector('.tut-next').addEventListener('click', () => { hideTutor(); onNext?.(); });
+}
+function tutPos(r) {
+  // bottom-left, never covering the spotlighted controls
+  return `left:24px;bottom:24px;`;
+}
+export function hideTutor() { tutLayer?.remove(); tutLayer = null; }
+
 export function trail(fromEl, toEl, cls = 'gold') {
   // a small "card" that flies from hand to target
   if (!fromEl || !toEl || reduced()) return;

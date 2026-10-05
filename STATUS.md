@@ -1,5 +1,17 @@
 # Eruldin çalışma durumu — 5 Ekim 2026
 
+## 5 Ekim 2026 (geç saat) — v0.2 görsel/animasyon turu
+
+Kullanıcı geri bildirimi: arka planlar hareketsiz, animasyon yok, öğretici yok, haritada oklar takılı kalıyor, bölüm işaretleri düzensiz. Yapılanlar:
+
+- **Canlı arka plan**: tahta, harita ve açılışta süzülen kor/soğuk parçacıklar, kayan sis katmanı, yavaş kayan arka plan, dönen alev mührü.
+- **Savaş hissi**: tur bandı ("TUR n" + kimin taarruzu), kartın elden tahtaya uçuşu, kart çekme uçuşu, saldıran birimlerin merkeze öne çıkması, avatar vurulma parlaklığı, savas sırasında parlayan orta çizgi.
+- **Saldırı önizlemesi**: saldıran seçildiğinde rakibe kırmızı kesikli ok (LoR Oracle's Eye benzeri, özgün); blok evresinde saldırgan→avatar kırmızı, savunan→saldırgan mavi ok.
+- **Öğretici**: 1. bölümde ilk oyunda 5 adımlı spot-ışıklı rehber (seçim → kart oyna → taarruz → blok → tur bitir). `localStorage eruldin.tut` ile bir kez gösterilir; "öğreticiyi atla" → herhangi bir öğretici kutusunda.
+- **Harita**: bölüm işaretleri S eğrisi rotaya yerleştirildi, kesikli yol çizgisi + tamamlanan kısım parlayan altın, mevcut bölüm hafifçe yüzüyor/parlıyor.
+- **Hata düzeltmesi**: tahtadan çıkınca kalan ok katmanı temizleniyor (`destroyBattle` → `clearArrows` + `hideTutor`) ve `arrow()` artık görünmez/ölçüsüz hedeflere ok çizmiyor.
+- `npm test` 17/17 geçiyor.
+
 ## 5 Ekim 2026 — oynanabilir istemci (v4 istemcisi)
 
 Önceki tüm çalışma birleştirildi ve gerçek tarayıcı oyunu ortaya çıktı.

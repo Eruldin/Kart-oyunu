@@ -1,0 +1,453 @@
+[
+  {
+    "id": "karah-crawler",
+    "name": "Karah / Sürü",
+    "kind": "karah",
+    "regions": [
+      "Korvengrad",
+      "Serath"
+    ],
+    "source_pages": [
+      3,
+      4,
+      5,
+      6,
+      72
+    ],
+    "provenance": "Roman teması; ayrıntılı birlik/istatistik/oynanış oyun önerisi",
+    "palette": "Zift siyahı / kemik beyazı",
+    "passive_design": "Aynı turda üçüncü Karah oynanınca bir 1/1 Zift Larvası yarat.",
+    "deck_restriction": {
+      "allowed_family_ids": [
+        "karah-crawler"
+      ],
+      "neutral_allowed": false,
+      "foreign_champions_allowed": false
+    },
+    "art_status": "12 görsellik ilk sanat seçkisine bak; tüm profiller için ayrı illüstrasyon henüz yok"
+  },
+  {
+    "id": "karah-armored",
+    "name": "Karah / Zırhlı",
+    "kind": "karah",
+    "regions": [
+      "Korvengrad",
+      "Shi Qra"
+    ],
+    "source_pages": [
+      5,
+      6,
+      72
+    ],
+    "provenance": "Roman teması; ayrıntılı birlik/istatistik/oynanış oyun önerisi",
+    "palette": "Mat obsidyen / kirli gümüş",
+    "passive_design": "Turun ilk Karahı 1 Zırh kazanır; Zırh ilk hasarı 1 azaltır.",
+    "deck_restriction": {
+      "allowed_family_ids": [
+        "karah-armored"
+      ],
+      "neutral_allowed": false,
+      "foreign_champions_allowed": false
+    },
+    "art_status": "12 görsellik ilk sanat seçkisine bak; tüm profiller için ayrı illüstrasyon henüz yok"
+  },
+  {
+    "id": "karah-stalker",
+    "name": "Karah / Pusu",
+    "kind": "karah",
+    "regions": [
+      "Kül Tarlaları",
+      "Aldemir"
+    ],
+    "source_pages": [
+      4,
+      6,
+      19,
+      72
+    ],
+    "provenance": "Roman teması; ayrıntılı birlik/istatistik/oynanış oyun önerisi",
+    "palette": "Kurum / soğuk mor",
+    "passive_design": "İlk saldırı hazırlığında en zayıf düşmanı İşaretle; işaretli hedefe bu tur ilk vuruş +1.",
+    "deck_restriction": {
+      "allowed_family_ids": [
+        "karah-stalker"
+      ],
+      "neutral_allowed": false,
+      "foreign_champions_allowed": false
+    },
+    "art_status": "12 görsellik ilk sanat seçkisine bak; tüm profiller için ayrı illüstrasyon henüz yok"
+  },
+  {
+    "id": "korvengrad-watch",
+    "name": "Korvengrad Muhafızları",
+    "kind": "human",
+    "regions": [
+      "Korvengrad",
+      "Teomli"
+    ],
+    "source_pages": [
+      1,
+      8,
+      10
+    ],
+    "provenance": "Roman teması; ayrıntılı birlik/istatistik/oynanış oyun önerisi",
+    "palette": "Gri taş / soluk pirinç",
+    "passive_design": "Savunan ilk muhafız +1 Can kazanır; kent savunma rolü oyun eklemesidir.",
+    "deck_restriction": {
+      "allowed_family_ids": [
+        "korvengrad-watch"
+      ],
+      "neutral_allowed": false,
+      "foreign_champions_allowed": false
+    },
+    "art_status": "12 görsellik ilk sanat seçkisine bak; tüm profiller için ayrı illüstrasyon henüz yok"
+  },
+  {
+    "id": "korvengrad-corrupt",
+    "name": "Korvengrad Yozlaşmış Birliği",
+    "kind": "human-corrupt",
+    "regions": [
+      "Korvengrad",
+      "Serath"
+    ],
+    "source_pages": [
+      8,
+      10,
+      71
+    ],
+    "provenance": "Roman teması; ayrıntılı birlik/istatistik/oynanış oyun önerisi",
+    "palette": "Pas / koyu bordo",
+    "passive_design": "İlk hasar alan müttefik 1 Yozlaşma alır; üç Yozlaşmada +2 Saldırı fakat tur sonunda 1 Can kaybı.",
+    "deck_restriction": {
+      "allowed_family_ids": [
+        "korvengrad-corrupt"
+      ],
+      "neutral_allowed": false,
+      "foreign_champions_allowed": false
+    },
+    "art_status": "12 görsellik ilk sanat seçkisine bak; tüm profiller için ayrı illüstrasyon henüz yok"
+  },
+  {
+    "id": "koru-jail",
+    "name": "Koru / Zindan Birliği",
+    "kind": "krov-human",
+    "regions": [
+      "Koru",
+      "Shi Qra"
+    ],
+    "source_pages": [
+      30,
+      31,
+      32,
+      35,
+      36
+    ],
+    "provenance": "Roman teması; ayrıntılı birlik/istatistik/oynanış oyun önerisi",
+    "palette": "Demir / mantar kehribarı",
+    "passive_design": "Her ikinci savunmada 1 Zincir biriktir; üç Zincirle bir düşmanı bir tur saldırıdan alıkoy.",
+    "deck_restriction": {
+      "allowed_family_ids": [
+        "koru-jail"
+      ],
+      "neutral_allowed": false,
+      "foreign_champions_allowed": false
+    },
+    "art_status": "12 görsellik ilk sanat seçkisine bak; tüm profiller için ayrı illüstrasyon henüz yok"
+  },
+  {
+    "id": "koru-forge",
+    "name": "Koru / Demirhane Birliği",
+    "kind": "krov-human",
+    "regions": [
+      "Koru",
+      "Shi Qra"
+    ],
+    "source_pages": [
+      26,
+      29,
+      60,
+      61,
+      62
+    ],
+    "provenance": "Roman teması; ayrıntılı birlik/istatistik/oynanış oyun önerisi",
+    "palette": "Koyu çelik / köz turuncusu",
+    "passive_design": "Maliyet 4+ müttefik oynandığında 1 Isı; üç Isı harcayıp birime +1/+1 ver.",
+    "deck_restriction": {
+      "allowed_family_ids": [
+        "koru-forge"
+      ],
+      "neutral_allowed": false,
+      "foreign_champions_allowed": false
+    },
+    "art_status": "12 görsellik ilk sanat seçkisine bak; tüm profiller için ayrı illüstrasyon henüz yok"
+  },
+  {
+    "id": "valerus-loyal",
+    "name": "Valerus’un Sadık Birliği",
+    "kind": "human-krov",
+    "regions": [
+      "Koru",
+      "Teomli"
+    ],
+    "source_pages": [
+      25,
+      30,
+      32,
+      64,
+      65
+    ],
+    "provenance": "Roman teması; ayrıntılı birlik/istatistik/oynanış oyun önerisi",
+    "palette": "Parlak çelik / siyah kırmızı",
+    "passive_design": "Emir kartı oynandıktan sonraki ilk asker +1 Saldırı; yalnızca Valerus’a bağlı birlik düşmandır.",
+    "deck_restriction": {
+      "allowed_family_ids": [
+        "valerus-loyal"
+      ],
+      "neutral_allowed": false,
+      "foreign_champions_allowed": false
+    },
+    "art_status": "12 görsellik ilk sanat seçkisine bak; tüm profiller için ayrı illüstrasyon henüz yok"
+  },
+  {
+    "id": "council",
+    "name": "Konsey / Gölge Yolu",
+    "kind": "inhuman-human",
+    "regions": [
+      "Kızıl Kale",
+      "Val Teresh"
+    ],
+    "source_pages": [
+      63,
+      64,
+      65,
+      66,
+      83,
+      91
+    ],
+    "provenance": "Roman teması; ayrıntılı birlik/istatistik/oynanış oyun önerisi",
+    "palette": "Siyah / koyu şarap",
+    "passive_design": "İlk kontrol büyüsünde 1 Mühür; üç Mühürle düşman birimini bir tur sürgüne çıkar.",
+    "deck_restriction": {
+      "allowed_family_ids": [
+        "council"
+      ],
+      "neutral_allowed": false,
+      "foreign_champions_allowed": false
+    },
+    "art_status": "12 görsellik ilk sanat seçkisine bak; tüm profiller için ayrı illüstrasyon henüz yok"
+  },
+  {
+    "id": "butterfly-guard",
+    "name": "Kızıl Kale / Kelebek Muhafızları",
+    "kind": "human",
+    "regions": [
+      "Kızıl Kale",
+      "Val Teresh"
+    ],
+    "source_pages": [
+      88,
+      89,
+      94,
+      99
+    ],
+    "provenance": "Roman teması; ayrıntılı birlik/istatistik/oynanış oyun önerisi",
+    "palette": "Koyu kızıl / siyah metal",
+    "passive_design": "Her turun ilk Siper birimi Kelebek İşareti alır: komşu müttefiki ilk 1 hasardan korur.",
+    "deck_restriction": {
+      "allowed_family_ids": [
+        "butterfly-guard"
+      ],
+      "neutral_allowed": false,
+      "foreign_champions_allowed": false
+    },
+    "art_status": "12 görsellik ilk sanat seçkisine bak; tüm profiller için ayrı illüstrasyon henüz yok"
+  },
+  {
+    "id": "living-fortress",
+    "name": "Kızıl Kale / Canlı Taş",
+    "kind": "construct",
+    "regions": [
+      "Kızıl Kale",
+      "Val Teresh"
+    ],
+    "source_pages": [
+      86,
+      88,
+      91,
+      94,
+      100
+    ],
+    "provenance": "Roman teması; ayrıntılı birlik/istatistik/oynanış oyun önerisi",
+    "palette": "Kan taşı / siyah damar",
+    "passive_design": "Her üçüncü tur 0/3 Duvar Damarı yarat; damar varken ilk büyüye 1 geçici enerji.",
+    "deck_restriction": {
+      "allowed_family_ids": [
+        "living-fortress"
+      ],
+      "neutral_allowed": false,
+      "foreign_champions_allowed": false
+    },
+    "art_status": "12 görsellik ilk sanat seçkisine bak; tüm profiller için ayrı illüstrasyon henüz yok"
+  },
+  {
+    "id": "ash-scavenger",
+    "name": "Kül Tarlaları / Yağmacılar",
+    "kind": "human",
+    "regions": [
+      "Kül Tarlaları",
+      "Serath"
+    ],
+    "source_pages": [
+      14,
+      19,
+      73,
+      74,
+      75
+    ],
+    "provenance": "Roman teması; ayrıntılı birlik/istatistik/oynanış oyun önerisi",
+    "palette": "Kül beji / eski bakır",
+    "passive_design": "İlk yok olan müttefik 1 Hurda verir; iki Hurda harcayarak bir kartın maliyetini 1 düşür.",
+    "deck_restriction": {
+      "allowed_family_ids": [
+        "ash-scavenger"
+      ],
+      "neutral_allowed": false,
+      "foreign_champions_allowed": false
+    },
+    "art_status": "12 görsellik ilk sanat seçkisine bak; tüm profiller için ayrı illüstrasyon henüz yok"
+  },
+  {
+    "id": "marsh-visions",
+    "name": "Ölüler Bataklığı / Sanrılar",
+    "kind": "vision",
+    "regions": [
+      "Ölüler Bataklığı",
+      "Aldemir"
+    ],
+    "source_pages": [
+      82,
+      84
+    ],
+    "provenance": "Roman teması; ayrıntılı birlik/istatistik/oynanış oyun önerisi",
+    "palette": "Solgun yeşil / çamur",
+    "passive_design": "İlk kaybedilen birim 1 Sis bırakır; üç Sisle oyuncu saldırı önizlemesi bulanıklaşır ama gerçek değerler incelemede görünür.",
+    "deck_restriction": {
+      "allowed_family_ids": [
+        "marsh-visions"
+      ],
+      "neutral_allowed": false,
+      "foreign_champions_allowed": false
+    },
+    "art_status": "12 görsellik ilk sanat seçkisine bak; tüm profiller için ayrı illüstrasyon henüz yok"
+  },
+  {
+    "id": "pass-raiders",
+    "name": "Geçit / Akıncılar",
+    "kind": "human",
+    "regions": [
+      "Kırık Diş Geçidi",
+      "Serath"
+    ],
+    "source_pages": [
+      20,
+      21,
+      28,
+      32,
+      82
+    ],
+    "provenance": "Roman teması; ayrıntılı birlik/istatistik/oynanış oyun önerisi",
+    "palette": "Koyu deri / kaya grisi",
+    "passive_design": "Savunmasız düşmana ilk saldırı sonrası bir akıncı geri çekilip bir kart çektirir.",
+    "deck_restriction": {
+      "allowed_family_ids": [
+        "pass-raiders"
+      ],
+      "neutral_allowed": false,
+      "foreign_champions_allowed": false
+    },
+    "art_status": "12 görsellik ilk sanat seçkisine bak; tüm profiller için ayrı illüstrasyon henüz yok"
+  },
+  {
+    "id": "shi-qra-outlaws",
+    "name": "Shi Qra / Kaçak Savaşçılar",
+    "kind": "krov",
+    "regions": [
+      "Shi Qra"
+    ],
+    "source_pages": [
+      32,
+      39
+    ],
+    "provenance": "Roman teması; ayrıntılı birlik/istatistik/oynanış oyun önerisi",
+    "palette": "Demir / kızıl keçe",
+    "passive_design": "Tek başına saldıran ilk Krov +2 Saldırı kazanır; yardım isteyince bonus biter.",
+    "deck_restriction": {
+      "allowed_family_ids": [
+        "shi-qra-outlaws"
+      ],
+      "neutral_allowed": false,
+      "foreign_champions_allowed": false
+    },
+    "art_status": "12 görsellik ilk sanat seçkisine bak; tüm profiller için ayrı illüstrasyon henüz yok"
+  },
+  {
+    "id": "forest-predators",
+    "name": "Aldemir / Orman Avcıları",
+    "kind": "beast",
+    "regions": [
+      "Aldemir"
+    ],
+    "source_pages": [],
+    "provenance": "Atlas bestiary teması ve oyun genişlemesi",
+    "palette": "Yosun / safir yeşil",
+    "passive_design": "Yaralı düşmanı vuran ilk yaratık 1 Can iyileşir.",
+    "deck_restriction": {
+      "allowed_family_ids": [
+        "forest-predators"
+      ],
+      "neutral_allowed": false,
+      "foreign_champions_allowed": false
+    },
+    "art_status": "12 görsellik ilk sanat seçkisine bak; tüm profiller için ayrı illüstrasyon henüz yok"
+  },
+  {
+    "id": "desert-hunters",
+    "name": "Zağra Khur / Kum Avcıları",
+    "kind": "beast",
+    "regions": [
+      "Zağra Khur"
+    ],
+    "source_pages": [],
+    "provenance": "Atlas bestiary teması ve oyun genişlemesi",
+    "palette": "Kum altını / obsidyen",
+    "passive_design": "İlk saldırmayan yaratık Gömülü olur: sonraki tur ilk vuruş +2; görünür işaret korunur.",
+    "deck_restriction": {
+      "allowed_family_ids": [
+        "desert-hunters"
+      ],
+      "neutral_allowed": false,
+      "foreign_champions_allowed": false
+    },
+    "art_status": "12 görsellik ilk sanat seçkisine bak; tüm profiller için ayrı illüstrasyon henüz yok"
+  },
+  {
+    "id": "frost-predators",
+    "name": "Ebedi Buzullar / Aç Yırtıcılar",
+    "kind": "beast",
+    "regions": [
+      "Ebedi Buzullar"
+    ],
+    "source_pages": [],
+    "provenance": "Atlas bestiary teması ve oyun genişlemesi",
+    "palette": "Buz mavisi / kirli beyaz",
+    "passive_design": "Her ikinci yaralama bir Soğuk verir; üç Soğuk hedefin sonraki saldırısını 1 azaltır.",
+    "deck_restriction": {
+      "allowed_family_ids": [
+        "frost-predators"
+      ],
+      "neutral_allowed": false,
+      "foreign_champions_allowed": false
+    },
+    "art_status": "12 görsellik ilk sanat seçkisine bak; tüm profiller için ayrı illüstrasyon henüz yok"
+  }
+]

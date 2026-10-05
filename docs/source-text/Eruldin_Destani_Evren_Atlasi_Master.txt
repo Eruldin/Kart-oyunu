@@ -1,0 +1,1345 @@
+
+--- PDF SAYFA 1 ---
+ERULDIN DESTANI  |  EVREN ATLASI
+EVREN ATLASI
+MASTER DOSYA
+Kırılmış dünyanın, gölgelerin ve Yankıların başvuru kitabı
+"Ben kimim, geçmişim değilsem?"
+Ana kaynak: Marcel 1. kitap v14  |  Lore: Kızıl Kral  |  P: planlanan devam
+
+
+--- PDF SAYFA 2 ---
+ERULDIN DESTANI  |  EVREN ATLASI  |  MASTER
+Tam spoiler  |  kaynak katmanları ayrıdır  |  2
+00
+Kanon haritası - bu atlas nasıl okunmalı?
+ Tek bir evren, birden fazla kaynak katmanı.
+Bu master atlasın amacı Eruldin Destanı'nı baştan sona tek bakışta anlaşılır hale getirmektir. Ana
+hikâyenin mevcut yazılı gövdesi Marcel 1. kitap v14 içindeki 1-7. bölümlerdir. Kızıl Kral lore
+belgesi, romanın şimdiki sahnelerinden çok daha önce gerçekleşen kozmolojik ve siyasi tarihi
+verir. 8-12. bölümler ise mevcut v14 dosyasında tam roman metni olarak bulunmaz; daha önce
+kurulmuş devam/final planı burada açıkça [P] ile gösterilir.
+Kod
+Kaynak
+Atlas statüsü
+Kullanım
+[M]
+Marcel 1. kitap v14
+Mevcut ana metin
+1-7. bölümlerin olay örgüsü, karakterler,
+mevcut gizemler
+[L]
+Kızıl Kral lore
+Dünya tarihi / arka plan
+Miemler, Teomlar, Karahlar, Taç, Patlama ve
+sonrası
+[P]
+Daha önce kurulmuş devam
+planı
+Planlanan devam
+8-12. bölümler ve önerilen final mimarisi
+[A1]
+1. Kitap.docx
+Alternatif eski sürüm
+Dagen merkezli Marcel açılışı
+[A2]
+Bölüm 1 - Kayıp Halkın Tacı
+V3
+Alternatif sürüm
+Eruldin/Vaelya merkezli ayrı anlatı
+Temel ilke
+Kaynakta kesinleştirilmeyen ayrıntılar kesin gerçek gibi yazılmaz. Özellikle Yankı döngüsünün fiziği,
+Fiona'nın Primus için neden özel olduğu, hücredeki Gölge'nin kimliği, Tensar'ın ontolojik statüsü ve Kızıl
+Kale ile Buzul Sarayı'nın fiziksel ilişkisi açık soru veya planlanan yorum olarak tutulur.
+01
+Bir sayfada Eruldin Destanı
+ Mevcut hikâyenin ve planlanan finalin tek akışta omurgası.
+[M1-M7] Roman, geçmişini tamamen unutmuş Marcel'in yıkılmış Korvengrad'da uyanmasıyla
+açılır. Marcel, yalnızlığını hayali dostlar ve alaycılık aracılığıyla taşır. Kör Aziz'in Katedrali
+avlusunda Karahlar tarafından sıkıştırılan Fiona'yı kurtardığında dokunma yoluyla bir çocukluk
+görüntüsü belirir: Fiona onun kız kardeşidir. Marcel geçmişini hatırlamaz ama bu bağı içgüdüsel
+olarak tanır. Fiona, Direniş'in koruması altındadır ve Koru'ya bağlı bir görev taşımaktadır; Marcel
+ise önce yalnızca onu hayatta tutmak ister.
+[M2-M3] İkili Kül Tarlaları'nı geçip Koru'ya ulaşır. Koru'nun sıcak, kalabalık ve işleyen yapısı
+Marcel'e umut gibi görünen ama aynı zamanda kaçınılmaz sonu bekleyen bir "sıcak mezarlık"
+hissi verir. Koru'nun lideri Valerus önce koruyucu görünür, sonra Teom Çeliği'ni ele geçirmek
+ister. Akhenten, Valerus'un Direniş'i ve Koru'yu dışarıdan gelen insanları güven vaadiyle toplayıp
+Kızıl Kral düzenine teslim eden gizli anlaşmasını açığa çıkarır. Marcel ve Akhenten kaçar; Fiona
+ise Koru'nun siyasi merkezinde kalır ve ihaneti kendi gözleriyle görür.
+[M4] Göz'ün Manastırı'nda Marcel'in tam karşılığı Primus belirir. Primus, Marcel'i bir Yankı
+olarak tanır; zaman, ölüm ve kaybın kabul edilmesi yerine dünyayı yeniden kurmak ister. Marcel
+öldürülür ve Beyaz Boşluk'ta farklı olasılıklardan binlerce Marcel ile karşılaşır. Burada "sen
+unutmayı seçensin" denir ve Primus "İlk olan" olarak konumlanır. Marcel geri döner. Onbion,
+House Korvengrad'ın son varisi ve Primus'un ailesini öldürdüğünü bilen bir avcı olarak gruba
+
+
+--- PDF SAYFA 3 ---
+ERULDIN DESTANI  |  EVREN ATLASI  |  MASTER
+Tam spoiler  |  kaynak katmanları ayrıdır  |  3
+katılır. Üçlü, "bir Krov, bir avcı ve bir Yankı" olarak seçilmiş bir aileye dönüşür.
+[M5-M7] Koru'ya geri dönüp Fiona'yı kurtarmaya çalışırlar. Valerus onu Konsey'e bir "barış
+gelini" olarak sunmaya hazırlanırken Gölge Yolu Fiona'yı Kızıl Kale'ye taşır. Tensar, "Kıyametin
+Mimarı" olarak ortaya çıkar; Valerus'u öldürür, Teom Çeliği yeniden ekibin eline geçer ve üç gün
+sonra gökyüzünü yarıp ineceğini ilan eder. Ardından obsidyen bir sütun Koru'ya düşer ve
+Yozlaşma yayılır. Marcel, Akhenten ve Onbion Kül Tarlaları'na kaçar. Fiona'nın Kızıl Kale'deki üç
+gecelik geri sayımı aynı anda çalışmaya başlar.
+[P] Planlanan devamda Ölüler Bataklığı, Başkent ve Kızıl Kale üç günlük/üç gecelik geri sayımı tek
+bir finale doğru sıkıştırır. Primus'un "düzeltme" arzusu, Kızıl Kral'ın Taçı ve Tensar'ın yaklaşan
+tezahürü aynı düğümde birleşir. Önerilen çözüm Teom Çeliği'nin Taç ile gerçeklik arasındaki bağı
+kesmesidir; böylece Kral'ın kabuğu düşer, Tensar tamamen öldürülmeden tezahürü kesilir ve
+Karahların merkezî iradesi dağılır. Marcel'in nihai seçimi geçmişteki tüm olasılıkları düzeltmek
+değil, kendi seçtiği bugünü yaşamaktır.
+Merkez soru
+Ben kimim, geçmişim değilsem? Romanın cevabı hafızayı sihirli biçimde geri getirmekten çok, insanın
+başına gelenlerle ne yapacağını seçebilmesi üzerine kuruludur.
+Ana plot hatları
+Plot hattı
+Başlangıç
+Orta kırılma
+Finale doğru durum
+Statü
+Kimlik / hafıza
+Marcel geçmişsiz uyanır
+Yankılar ve "unutmayı seçtin"
+bilgisi
+Kim olduğunu seçme meselesi
+[M]+[P]
+Fiona'yı koruma
+Katedralki kurtarış
+Koru'da ayrışma; Kızıl Kale'ye
+kaçırılma
+Fiona kendi iradesiyle merkez
+aktör olur
+[M]+[P]
+Valerus ihaneti
+Lider / aile figürü
+Mültecilerin teslimi açığa çıkar
+Valerus Tensar tarafından
+öldürülür
+[M]
+Primus / Yankı
+Esrarengiz ikiz
+Marcel'i öldürür; Beyaz Boşluk
+Düzeltme arzusu ile yüzleşme
+[M]+[P]
+Onbion / intikam
+Aile katliamının tanığı
+Marcel'i Primus sanır, sonra katılır
+İntikamı kimlik olmaktan çıkarma
+fırsatı
+[M]+[P]
+Koru / found family
+Sığınak
+İhanet ve yıkım
+Kayıptan sonra yeniden kurma
+ihtimali
+[M]+[P]
+Kızıl Kral / Taç
+Uzaktan tehdit
+Kızıl Kale'de fiziksel yokluğuyla
+bile baskın
+Taç merkezli düğüm
+[L]+[M]+[P
+]
+Tensar
+Gölge halinde belirir
+Üç günlük ilan
+Tezahürünün kesilmesi öneriliyor
+[M]+[P]
+
+
+--- PDF SAYFA 4 ---
+ERULDIN DESTANI  |  EVREN ATLASI  |  MASTER
+Tam spoiler  |  kaynak katmanları ayrıdır  |  4
+BÖLÜM 1
+Yukarısı gibi aşağısı
+ Korvengrad harabelerinde hafıza boşluğu ile başlayan yolculuk.
+Kaynak statüsü
+[M] Mevcut v14 ana metni. Aşağıdaki maddeler olay akışını, karakter hareketlerini ve bölümün dramatik
+işlevini birlikte özetler.
+Açılış
+Korvengrad, eski Jax Hanedanlığı'nın çürümüş gövdesi ve Kör Aziz'in Katedrali ile açılır. Marcel
+23-24 yaşlarında, geçmişini tamamen kaybetmiş, yalnızlığı mizahla yöneten bir adamdır. Maestro
+Borislav, Matrona Evangeline ve Bayan Clotilde gibi hayali/kişileştirilmiş nesneler onun iç sesini
+taşır.
+Fiona ile karşılaşma
+İki Karah genç bir kızı sıkıştırırken Marcel bilinçli bir kahramanlık ilanı yapmadan, sanki refleksle
+hareket eder. İnce stilettosu ile Karahları öldürür. Fiona'ya dokunduğunda iki çocuk, bir kır ağacı
+ve aile bağını içeren zihinsel görüntü gelir.
+Kardeşlik ve Direniş
+Fiona onun kardeşidir; Marcel normal biyografiyi hatırlamaz ama bu bilgiye güvenir. Fiona
+Direniş'ten, Koru'dan ve kayıp ekibinden söz eder. Direniş Kızıl Kral, Gölgelerin Tacı ve Büyük
+Patlama ile mücadele etmektedir.
+Kül Tarlaları
+Lağım tünellerinden çıkarlar ve Kül Tarlaları'na geçerler. Marcel için Fiona'nın varlığı ilk kez
+gerçek bir kaybetme korkusu yaratır. Yıkık gözetleme kulesindeki gece, onun yalnızlık
+maskesinde ilk çatlağı oluşturur.
+Bölümün işlevi
+Hikâyenin görünürdeki hedefi Fiona'yı kurtarmaktır; derindeki hedef ise Marcel'in geçmişsiz bir
+kimlikle bağ kurmayı öğrenmesidir.
+[M1]
+
+
+--- PDF SAYFA 5 ---
+ERULDIN DESTANI  |  EVREN ATLASI  |  MASTER
+Tam spoiler  |  kaynak katmanları ayrıdır  |  5
+BÖLÜM 2
+Küllerin Ağırlığı
+ Hayatta kalma yolculuğunun sığınağa dönüşmesi.
+Kaynak statüsü
+[M] Mevcut v14 ana metni. Aşağıdaki maddeler olay akışını, karakter hareketlerini ve bölümün dramatik
+işlevini birlikte özetler.
+Kül Tarlaları
+Marcel sabah Fiona'nın ayaklarını sarar ve onu taşır. Fiona onun sürekli kaçma isteğine itiraz
+eder; Marcel ise sorumluluğu teoride reddetse bile onu bırakmaz.
+Kırık Diş Geçidi
+Dar demiryolu köprüsü çöker. Marcel demir dikmeye tutunarak ikisini de kurtarır. Bu sahne,
+geçmişini bilmeyen bedeninin hafızadan bağımsız bir şeyler bildiğini güçlendirir.
+Koru
+Krov Madeni/Koru, sıcak, kalabalık ve işleyen bir yeraltı sığınağıdır. Krovlar, insanlar ve az sayıda
+Rhanvi kalıntısı birlikte yaşar; ocaklar, mantar çiftlikleri, demirhane ve sağlık düzeni vardır.
+Sıcak mezarlık
+Fiona burada umut görür. Marcel ise insanların kaçınılmaz bir sonu beklediğini hisseder. Bu ifade
+daha sonra romanın sıcak ve grimdark tonunu taşıyan ana motife dönüşür.
+[M2]
+
+
+--- PDF SAYFA 6 ---
+ERULDIN DESTANI  |  EVREN ATLASI  |  MASTER
+Tam spoiler  |  kaynak katmanları ayrıdır  |  6
+BÖLÜM 3
+Koru'nun Paslı Kalbi
+ Sığınağın içinden çürümesi ve seçilmiş ailenin kurulması.
+Kaynak statüsü
+[M] Mevcut v14 ana metni. Aşağıdaki maddeler olay akışını, karakter hareketlerini ve bölümün dramatik
+işlevini birlikte özetler.
+Valerus
+Borin ve Matrona Helsa Fiona'yı karşılar. Lider Valerus baba figürü gibi görünür fakat Marcel'in
+kolundaki stilettoyu hemen fark eder.
+Teom Çeliği
+Valerus silahı teslim almak ister. Marcel direnince Borin onun bileğini kırar, silahını alır ve
+Marcel'i hapseder. Akhenten burada ortaya çıkar.
+Akhenten'in ifşası
+Koru'nun kurucularından olan Akhenten, Valerus'un savaşın kazanılamayacağına inanıp Kızıl Kral
+düzeniyle anlaşma yaptığını anlatır. Su, mantar ve sığınak düzeninin bedeli dışarıdan gelen
+insanların Kırık Diş Geçidi'nde Konsey'e teslim edilmesidir.
+Fiona'nın kırılması
+Fiona Valerus'a inanmak ister. Marcel ve Akhenten'in sözleri onun son güven duygusunu sarsar;
+kardeşine sert sözler söyler, hücreden çıkar ve Marcel'in ağladığını görür.
+Kaçış
+Genç Krov Torg ve Akhenten'in eski maden tünelleri sayesinde Marcel ve Akhenten kaçar.
+Akhenten Koru'yu geri alma niyetindedir; Marcel'in önceliği Fiona'dır.
+Aile bilgisi
+Akhenten, Fiona'yı çocukluğundan beri tanıdığını ve Koru topluluğunun onu büyüttüğünü anlatır.
+Bu, Fiona ile Marcel arasındaki kan bağına Koru'dan gelen seçilmiş aile bağını ekler.
+[M3]
+
+
+--- PDF SAYFA 7 ---
+ERULDIN DESTANI  |  EVREN ATLASI  |  MASTER
+Tam spoiler  |  kaynak katmanları ayrıdır  |  7
+BÖLÜM 4
+Olasılıksız Yankı
+ Marcel'in kendisiyle karşılaşması ve romanın metafizik eşiği.
+Kaynak statüsü
+[M] Mevcut v14 ana metni. Aşağıdaki maddeler olay akışını, karakter hareketlerini ve bölümün dramatik
+işlevini birlikte özetler.
+Göz'ün Manastırı
+Teom/Serlunar araştırmacılarının Karahlar, Kral'ın yozlaşması ve Taç hakkında çalıştığı manastır
+katledilmiştir. Fiziksel savaşın altında gerçekliğin kırılabildiği ortaya çıkar.
+Primus
+Marcel'in kusursuz karşılığı belirir: koyu saç, kırmızı gözler, koyu zırh ve kavisli hançer. Ona
+Yankı der, beklediğini söyler ve geçmişte daha fazla karşılaşma yaşandığını ima eder.
+Ölüm
+Primus Akhenten'i öldürür, Marcel'in bileğini ve bedenini parçalar ve onu öldürür. Konuşmanın
+özü şudur: dünya yanlıştır; zaman ve ölüm insanı hapseder; gerçeklik düzeltilmelidir.
+Beyaz Boşluk
+Marcel ölümden sonra sayısız farklı Marcel ile karşılaşır. Beyaz saçlı Marcel, Primus'u "İlk olan"
+diye tanımlar. Fiona'nın ilk gerçek ölümünü gösterir ve "sen unutmayı seçensin" der.
+Yankı mekaniği
+Farklı Marcel'ler farklı kararların sonuçlarını temsil eder. Çoğu Primus ile savaşmış ve ölmüştür.
+Mevcut Marcel'e verilen talimat bu kez kaçmamasıdır.
+Onbion
+Marcel geri döndüğünde onu Primus sanan bir avcı saldırır. Onbion, House Korvengrad'ın son
+varisidir. Primus'un babasının danışmanı olduğunu, güç ve ölümsüzlük fısıldadığını, Patlama
+gecesi ailesini öldürdüğünü anlatır.
+Üçlü
+Marcel Fiona'yı; Akhenten Koru'yu; Onbion Primus'u arar. Bu amaçlar birleşerek "bir Krov, bir
+avcı ve bir Yankı" şeklinde seçilmiş aile yapısını doğurur.
+[M4]
+
+
+--- PDF SAYFA 8 ---
+ERULDIN DESTANI  |  EVREN ATLASI  |  MASTER
+Tam spoiler  |  kaynak katmanları ayrıdır  |  8
+BÖLÜM 5
+Koru
+ Eski yuvaya dönüş ve kıyamet ilanı.
+Kaynak statüsü
+[M] Mevcut v14 ana metni. Aşağıdaki maddeler olay akışını, karakter hareketlerini ve bölümün dramatik
+işlevini birlikte özetler.
+Dönüş
+Üçlü Koru'ya eski havalandırma/mantar tünellerinden sızar. İnsanların ve Krovların kamçı altında
+çalıştırıldığını görürler.
+Gorn
+Akhenten'in eski dostu demirci Gorn, sığınmacıların alt seviyelere götürüldüğünü ve "özel
+görevler" adı altında ortadan kaybolduğunu doğrular.
+Fiona'nın teslimi
+Fiona Büyük Salon'da Konsey elçilerine "barış gelini" olarak sunulmaktadır. Gorn Marcel'e kırık
+bilekleriyle dövüşmesini sağlayacak metal eldivenler verir ve gizli servis yolunu gösterir.
+Büyük Salon
+Marcel mutfak tarafından içeri dalar. Fiona Valerus'u halkını sattığı için suçlar. Konsey'in siyah
+küresi/Gölge Yolu Fiona'yı alıp götürür.
+Tensar
+Kıyametin Mimarı Tensar ortaya çıkar. Valerus'u öldürür, Teom Çeliği yeniden ekibin eline geçer,
+Marcel'e Yankı diye hitap eder ve zihnindeki boşluğu gördüğünü söyler.
+Üç gün
+Tensar üç gün sonra gökyüzünün yarılıp kendi gerçek biçimiyle ineceğini ilan eder. Ardından
+siyah/obsidyen bir sütun Koru'ya düşer ve mor damarlarla Yozlaşma yayar. Koru'nun taşı erir,
+toprak bozulur ve yaşam çarpık biçimde yeniden filizlenir.
+Cliffhanger
+Koru düşer; üçlü Kül Tarlaları'na kaçar. Teom Çeliği artık yalnızca silah değil, üç günlük geri
+sayımın merkezî nesnesidir.
+[M5]
+
+
+--- PDF SAYFA 9 ---
+ERULDIN DESTANI  |  EVREN ATLASI  |  MASTER
+Tam spoiler  |  kaynak katmanları ayrıdır  |  9
+BÖLÜM 6
+Kemik ve Kül
+ Kayıptan sonra hayatta kalma ve ailenin görünür hale gelmesi.
+Kaynak statüsü
+[M] Mevcut v14 ana metni. Aşağıdaki maddeler olay akışını, karakter hareketlerini ve bölümün dramatik
+işlevini birlikte özetler.
+Tükeniş
+Kül Tarlaları'ndaki yolculuk susuzluk, açlık, yaralar ve uykusuzluk üzerinden ilerler. Su matarası
+kaybolunca Akhenten kalan suyunu paylaşır.
+Kuzgunyuvası
+Üçlü eski bir metal boruda uyur ve surlarla çevrili Kuzgunyuvası'na ulaşır. İçeri girmeden önce
+bozulma/kontaminasyon kontrolünden geçer.
+Paslı Kanca
+Tavernada Marcel'in metal bileklikler nedeniyle yemek yemekte zorlandığı görülür. Akhenten ve
+Onbion ona fark ettirmeden yardım eder; büyük savaşın arasındaki küçük bakım sahnesi seçilmiş
+aileyi somutlaştırır.
+Başkent ve Kral
+Onbion Kızıl Kral'ın babasının katili ve şehrin gasıp hükümdarı olduğunu söyler. Kral yüzyıllardır
+Kalenin içinde oturuyor olabilir; insan mı, ruhsuz kabuk mu bilinmez.
+Yitik Şafak
+Ozanların söylediği eski umut şarkısı artık yas ilahisine dönüşmüştür. Marcel Göz'ün Manastırı'nı
+taş taş yeniden kuracağını söyler; bu, yıkımdan sonra ilk somut gelecek cümlesidir.
+Bataklık
+Onbion'un haritasında sonraki durak Ölüler Bataklığı, ardından Başkent'tir. Bataklık eski
+savaşların cesetleri ve zihni etkileyen gazıyla özellikle Marcel için tehlikelidir.
+[M6]
+
+
+--- PDF SAYFA 10 ---
+ERULDIN DESTANI  |  EVREN ATLASI  |  MASTER
+Tam spoiler  |  kaynak katmanları ayrıdır  |  10
+BÖLÜM 7
+TARAFLAR
+ Fiona'nın Kızıl Kale'de güç ilişkilerinin merkezine düşmesi.
+Kaynak statüsü
+[M] Mevcut v14 ana metni. Aşağıdaki maddeler olay akışını, karakter hareketlerini ve bölümün dramatik
+işlevini birlikte özetler.
+Kızıl Kale
+Fiona siyah duman/Gölge Yolu ile Kızıl Kale'ye getirilir. Kale kırmızı-siyah, canlıymış gibi görünen
+duvarları, zincirleri ve kurumuş kanı andıran mimarisiyle bir iktidar bedeni gibi görünür.
+Gölge
+Fiona hücresinde iki soluk kıvılcımdan oluşan gizemli bir Gölge görür. Gölge taşların dinlediğini
+söyler ve ona "ölmemeye çalış" der. Kimliği henüz açıklanmamıştır.
+Vesemir
+Kral'ın emirlerini yazıya çeviren kâtip/uygulayıcı Vesemir, Fiona'nın karşısındaki bürokratik
+katmanı temsil eder.
+Anzer Viole
+Genç Naibe Anzer, siyah-kızıl giysileri, kırbaç izleri ve Kral ile Konsey arasındaki sınırlı
+özgürlüğüyle görünür. Fiona, onu bütünüyle özgür bir tiran olmaktan çok daha büyük bir düzenin
+altında ezilmiş biri olarak sezebilir; metin bunun kesin cevabını vermez.
+Konsey
+Kral'ın koltuğu boştur ama yokluğu odadaki en ağır varlıktır. Anzer'in yanında maskeli görevli ve
+beyaz saçlı çocuk Shiro vardır.
+Primus / Marcellious
+Primus salona gelir; Anzer ona "Marcellious" diye seslenir. Fiona'yı istediğini söyler. Shiro ona
+Yankı diye hitap eder. Fiona için üç gecelik bir süre konur.
+Kapanış
+Fiona üç gecenin kendi hareket alanı olduğunu düşünür. Dışarıdaki Tensar'ın üç günü ile içerideki
+üç gece artık aynı kriz noktasına doğru ilerlemektedir.
+[M7]
+
+
+--- PDF SAYFA 11 ---
+ERULDIN DESTANI  |  EVREN ATLASI  |  MASTER
+Tam spoiler  |  kaynak katmanları ayrıdır  |  11
+02
+Kozmogoni ve uzak tarih
+ Miemlerden Patlama sonrası düzene kadar.
+[L] Lore belgesi romanın bugünkü olaylarından önceki çok uzun tarihi anlatır. Aşağıdaki sıranın
+bazı parçaları tarihsel gerçeklik ile efsane arasında tutulur; kaynak özellikle Kızıl Kral'ın, Taç'ın
+ve Karahların kökeninde kesinlik bırakmaz.
+1. Miemler: yaratılışın dokusu
+Yedi büyük Miem kadim güçler olarak anlatılır. Kıtalar, denizler ve yaşam onların ışığı altında
+yükselir. Krovlar, Rhanviler, Moriathor halkının ataları ve daha başka halkların oluşumu bu
+kozmik döneme bağlanır.
+2. Karah: ışığın karşısındaki gölge
+Karahların kökeni açık değildir. Bir anlatı onları yaratılış şarkısındaki uyumsuz nota gibi görür;
+başka bir okuma hiçiğin kendisinden doğduklarını düşünür. Korku ve umutsuzlukla beslenir,
+gerçekliği büker, fiziksel tehdit ile ontolojik bozulmayı aynı anda taşırlar.
+3. Reon ve Teomlar
+Teomlar "Işığın Çocukları" olarak Reon'un karanlıkla savaşma görevi verdiği varlıklardır. Reon,
+özgür irade ve yaşama en çok değer veren Miem olarak anlatılır. Efsaneye göre Teomları kendi
+özünden bir parçayı kopararak yaratmıştır; bu yaratılışın bedeli Reon'un gücünü tüketmesidir.
+4. Bin yıllık Teom saltanatı
+Teomlar Karahları geri püskürtür ve yaklaşık bin yıl boyunca tartışmasız hâkim hale gelir.
+Şehirler yeniden kurulur, ticaret, bilgi ve sanat gelişir. Buzul Sarayı ve Vivaxen öne çıkan
+merkezlerdir; Harvalarlar, Brunnaklar, Issrenler ve başka klanlar Teom düzeninin parçalarıdır.
+5. Zaferden kibire
+Kurtarıcı rolü giderek üstünlük iddiasına dönüşür. Vaelya döneminde kuzeyin yalnızca Teomlara
+ait olduğu ilan edilir; Teom olmayan halkların, Dagen Hanesi'nin ataları gibi, güneye sürülmesi
+tarihsel husumetin tohumunu atar.
+6. Deli Kral Teo
+Güney çöllerinden gelen isyanın önderi Deli Kral Teo'dur. Kimliği kesin değildir: sürgün Teom
+büyücüsü, unutulmuş hanedan varisi veya çöl öfkesinin cisimleşmesi gibi olasılıklar anılır.
+Unutulmuş Miem güçlerini kullanmış olabilir.
+7. Miem Savaşı
+Teo'nun isyanı dünya düzenini sarsınca Miemler uyanır ve birbirleriyle savaşır. Gökyüzü yarılır,
+denizler kızar, dağlar erir, kıtalar parçalanır. Kazanan olmaz; kalan Miemler kendi boyutlarına
+çekilir ve yıldızların şarkısı susar.
+8. Yuon: kalan tek Miem
+Yuon, "Dağların Bilge Miemi" olarak anlatılan tek Miem'dir ve diğerleri gibi dünyayı terk etmez.
+Krov halkının Shi Qra'da yeni bir yurt kurmasına yardım eder, kaybolmuş bilgileri aktarır ve
+umudu canlı tutmaya çalışır.
+9. Kızıl Kral'ın yükselişi
+
+
+--- PDF SAYFA 12 ---
+ERULDIN DESTANI  |  EVREN ATLASI  |  MASTER
+Tam spoiler  |  kaynak katmanları ayrıdır  |  12
+Miem Savaşı'nın ardından oluşan güç boşluğunda Kızıl Kral yükselir. Kökeni bilinmez; yeraltından
+gelmiş bir anomali veya unutulmuş bir tanrının son işi olabileceğine dair efsaneler vardır. Hükmü
+birleştirmekten çok boyun eğdirmeye dayanır.
+10. Gölgelerin Tacı
+Tacın kökeni kesin değildir. Miem Savaşı kalıntısı, Karah özü veya başka bir kadim kaynak
+olabilir. Taşıyıcısının zihnini büker, iradesini kırar, güçlendirir ve zamanla tüketir. Kızıl Kral ile
+Konsey'in yozlaşmasının merkezindedir.
+11. Patlama
+Kral'ın deliliği, Taç'ın kontrolsüz gücü ve birikmiş acı tek bir felakete dönüşür. Kalenin
+merkezinden yayılan yozlaştırıcı enerji milyonlarca insanı, Krov'u, Rhanvi'yi ve diğer canlıları
+Karahlaştırır. Şehirler Karah yuvalarına dönüşür.
+12. Patlama sonrası düzen
+Bir kısım hayatta kalan Konsey'e katılır; diğerleri lağımlara, ormanlara ve dağlara saklanır.
+Tharendil, Nirvalor, Moriathor ve Serlunar gibi eski hane adları fısıltıya dönüşür. Dagen Hanesi
+Kral ile anlaşarak direnç gösterenleri teslim eder ve sınırlı özerklik kazanır.
+13. Uyuyan Kral ve Direniş
+Patlama'dan sonra Kızıl Kral Taç başında kalede uykuya çekilir. Konsey onun yokluğunda düzeni
+sürdürür. Direniş, Krov, insan ve belki bazı Rhanvi kalıntılarından oluşan küçük bir koalisyondur.
+Geleneksel hedef Kral'ı öldürmek, Taç'ın lanetini kaldırmak ve Karah tehdidini sonlandırmaktır.
+
+
+--- PDF SAYFA 13 ---
+ERULDIN DESTANI  |  EVREN ATLASI  |  MASTER
+Tam spoiler  |  kaynak katmanları ayrıdır  |  13
+03
+Kronoloji - dünyanın kırılma haritası
+ Kesin takvimden çok neden-sonuç sırasına göre.
+Dönem
+Olay
+Sonuç / önem
+Durum
+Kadim çağ
+Yedi büyük Miem'in yaratılış düzeni
+Kıtalar, denizler, yaşam ve halkların doğuşu
+[L]
+İlk Karah çağları
+Karahlar ortaya çıkar
+Korku, umutsuzluk ve gerçeklik bozulması
+[L]
+Erken dönem
+Teomların yaratılışı
+Reon'un ışık mirası Karahlara karşı konumlanır
+[L]
+Uzun savaşlar
+Teomlar Karahları geri püskürtür
+Teomlar kurtarıcı güç olur
+[L]
+Yaklaşık 1000 yıl
+Teom saltanatı
+Şehirler, ticaret, bilgi ve sanat; ardından gurur
+[L]
+Vaelya dönemi
+Teom olmayan halkların dışlanması
+Dagen çizgisinde tarihsel husumet
+[L]
+Sonraki çağ
+Deli Kral Teo isyanı
+Teom düzeni sarsılır
+[L]
+Miem Savaşı
+Miemler birbirleriyle savaşır
+Gökyüzü yarılır; kıtalar parçalanır
+[L]
+Savaş sonrası
+Yuon kalır
+Shi Qra'da Krovlar için yeni yurt ve bilgi
+[L]
+Güç boşluğu
+Kızıl Kral yükselir
+Korku ve zorla hüküm
+[L]
+Kanlı Aylar
+Karahlar tek irade altında birleşir
+Kızıl Kral'ın düzeni pekişir
+[L]
+Taç dönemi
+Gölgelerin Tacı
+Zihin kontrolü ve yozlaşma
+[L]
+Patlama
+Kral + Taç + birikmiş acı
+Milyonlarca canlı Karahlaşır
+[L]
+Patlama sonrası
+Kral uykuya çekilir
+Konsey yönetimi sürer
+[L]
+Mevcut dönem
+Direniş yükselir
+Kızıl Kral'ı öldürme umudu
+[L/M]
+Hikâye başlangıcı
+Marcel Korvengrad'da uyanır
+Hafıza boşluğu + Fiona
+[M1]
+Koru'ya varış
+Marcel ve Fiona sığınakta
+Valerus'un ihaneti açığa çıkar
+[M2-M3]
+Orta kırılma
+Primus ve Yankı
+Marcel ölür; Beyaz Boşluk açılır
+[M4]
+Koru'nun düşüşü
+Tensar ilanı + sütun
+3 günlük geri sayım başlar
+[M5]
+Kızıl Kale
+Fiona alıkonur
+3 gecelik geri sayım başlar
+[M7]
+Planlanan final
+İki geri sayım birleşir
+Taç / Primus / Tensar / Marcel düğümü
+[P]
+
+
+--- PDF SAYFA 14 ---
+ERULDIN DESTANI  |  EVREN ATLASI  |  MASTER
+Tam spoiler  |  kaynak katmanları ayrıdır  |  14
+04
+Coğrafya ve mekân atlası
+ Kesin ölçek değil, roman içindeki hareket mantığı.
+Güzergâh
+İşlev
+Durum
+Korvengrad -> Kül Tarlaları
+Açılış / ilk kaçış
+Çürüyen şehirden ölü ovaya
+Kül Tarlaları -> Kırık Diş Geçidi -> Koru
+Sığınak arayışı
+Marcel/Fiona; sonra Valerus ihaneti
+Koru -> Göz'ün Manastırı
+Metafizik kırılma
+Primus ve Beyaz Boşluk
+Göz Manastırı -> Koru
+Yuvaya dönüş
+Fiona'nın teslimi ve Tensar
+Koru -> Kuzgunyuvası
+Kaçış / toparlanma
+Kül Tarlaları
+Kuzgunyuvası -> Ölüler Bataklığı -> Başkent
+Planlanan geçiş
+8-9. bölümler
+Başkent -> Kızıl Kale
+Planlanan sızma
+9-11. bölümler
+Mekân sözlüğü
+Korvengrad
+Romanın açılış şehri. Jax Hanedanlığı'nın eski görkemini taşıyan ama artık gotik harabe, lağım, sis
+ve Karahlarla çevrili bir merkez. [M1]
+Kül Tarlaları
+Büyük Patlama'nın yaydığı enerjinin yaktığı gri, ozon ve kül dolu geniş ölü alan. Marcel-Fiona
+yolculuğunun ilk ve Koru yıkıldıktan sonraki ikinci hayatta kalma sahnesi. [M1,M2,M5,M6]
+Kırık Diş Geçidi
+Koru yolu üzerindeki dar ve paslı geçit. Eski demiryolu köprüsü vardır; Valerus'un insan teslimleri
+de bu hattı kullanır. [M2,M3]
+Koru / Krov Madeni
+Krovların, insanların ve bazı Rhanvi kalıntılarının sığınağı. Mantar çiftlikleri, demirhane, sağlık ve
+Büyük Salon bulunur. [M2,M3,M5]
+Göz'ün Manastırı
+Karahlar ve Taç araştırmaları yapılan Teom/Serlunar bağlantılı yüksek dağ manastırı. Primus'un
+saldırısı burada gerçekleşir. [M4]
+Kuzgunyuvası
+Kül Tarlaları'nda surlarla çevrili, sert yaşam koşullarına alışmış yerleşim. Paslı Kanca Tavernası
+buradadır. [M6]
+Ölüler Bataklığı
+Eski savaşların cesetleri ve zihni etkileyen bataklık gazıyla dolu tehlikeli alan. [M6,P8]
+Başkent
+Kızıl düzenin çürüyen siyasi merkezi. Onbion'un eski hanedan kalıntıları ve Kızıl Kale'ye sızma
+planı için merkez. [M6,P9]
+Kızıl Kale
+
+
+--- PDF SAYFA 15 ---
+ERULDIN DESTANI  |  EVREN ATLASI  |  MASTER
+Tam spoiler  |  kaynak katmanları ayrıdır  |  15
+Fiona'nın götürüldüğü, Kral'ın fiziksel yokluğunun bile ağır bir varlık gibi hissedildiği
+kırmızı-siyah yapı. [M7]
+Buzul Sarayı
+Lore'da Teom altın çağının görkemli yapılarından biri; Kızıl Kral'ın sarayının bu yapının temelleri
+üzerine kurulduğu söylenir. Kızıl Kale ile kesin fiziksel özdeşliği açık değildir. [L]
+Vivaxen
+Teom altın çağının kuzey şehirlerinden biri. [L]
+Shi Qra
+Yuon'un Krov halkına yeni yurt kurmada yardımcı olduğu yer. [L]
+
+
+--- PDF SAYFA 16 ---
+ERULDIN DESTANI  |  EVREN ATLASI  |  MASTER
+Tam spoiler  |  kaynak katmanları ayrıdır  |  16
+05
+Halklar, varlıklar ve ırklar
+ Kozmik varlıklarla tarihsel halkları ayıran çalışma tablosu.
+Varlık / Halk
+Tanım
+Hikâyedeki yeri
+Kod
+Miemler
+Yedi büyük kadim güç; yaratılışın dokusunu
+ören iradeler.
+Kozmolojik temel; Yuon hariç geri çekilmiş.
+[L]
+Teomlar
+Reon'un özünden geldiğine inanılan Işığın
+Çocukları.
+Eski dünyanın kurtarıcıları; sonra bin yıllık hâkimler.
+[L]
+Karahlar
+Korku/umutsuzlukla beslenen kadim gölgeler;
+ayrıca Patlama'da dönüşen canlılar için de
+kullanılır.
+Ana tehdit; ontolojisi iki katmanlıdır.
+[L/M]
+Krovlar
+Toprak ve dağlarla ilişkilendirilen halk.
+Koru'nun kurucu topluluğu; Akhenten, Borin, Gorn.
+[M/L]
+Rhanviler
+Ormanların ruhu ile ilişkilendirilen halk.
+Koru'da az sayıda sağ kalan; lore'da önemli halk.
+[M/L]
+Moriathor
+Deniz sırlarıyla ilişkilendirilen eski halk / ata
+topluluğu.
+Lore'da tarihsel katman.
+[L]
+İnsanlar
+Çok farklı toplumsal ve siyasi gruplara ayrılır.
+Direniş, Konsey ve yerleşimlerde.
+[M/L]
+Dagen Hanesi
+Teom sürgünleriyle ilişkili güney kökenli hane.
+Patlama sonrası Kızıl Kral ile anlaşır; Marcel v14'te
+doğrudan dramatize edilmez.
+[L/A1]
+Karah ayrımı
+Kaynaklar "Karah" adını hem Patlama'dan çok daha eski kadim gölgeler hem de Patlama'da dönüşen
+milyonlarca canlı için kullanır. Bu iki grubun aynı ontolojik varlık olup olmadığı henüz
+kesinleştirilmemiştir.
+
+
+--- PDF SAYFA 17 ---
+ERULDIN DESTANI  |  EVREN ATLASI  |  MASTER
+Tam spoiler  |  kaynak katmanları ayrıdır  |  17
+06
+Güçler, büyüler ve kozmik mekanikler
+ Romanın görünen büyüsünün altında çalışan kavramlar.
+Miem ışığı
+Yaratılışın temel kozmik kuvveti olarak lore'da anlatılır. Teomlar bunun bir kıvılcımını taşır;
+yaşam ve özgür irade ile ilişkilendirilir. [L]
+Işık ve gölge
+Düz bir iyi-kötü ikiliğinden çok yaratım ile gerçekliği bozan gölge arasındaki mücadeledir.
+Teomların politik çürümesi ışığın da kendiliğinden masum olmadığını gösterir. [L]
+Yozlaşma
+Patlama enerjisinin görünür biçimi. Canlıyı öldürmekten öte maddeyi, coğrafyayı ve biçimi
+dönüştürür. Koru'ya düşen obsidyen sütunda kitlesel düzeyde görünür. [M5]
+Teom Çeliği
+Marcel'in stiletto'sunun kadim Teom çeliği olduğu öğrenilir. Karahları keser ve Akhenten'in
+anlatımında Yozlaşma'ya karşı antitez sayılır. [M3-M5]
+Gölgelerin Tacı
+Kızıl Kral'ın güç odağı. Zihinleri bükebilir, iradeyi kırar ve taşıyıcısını zamanla tüketir. Kökeni
+belirsizdir. [L]
+Gölge Yolu
+Maddeyi enerjiye, enerjiyi gölgeye çeviren taşıma büyüsü. Fiona'nın Koru'dan Kızıl Kale'ye
+aktarılmasında kullanılır. Bedeli ve tam sınırları bilinmez. [M6-M7]
+Yankı / Echo
+Marcel'in farklı seçimlerinin/olasılıklarının başka versiyonları. Beyaz Boşluk'ta çok sayıda Marcel
+bulunur. Döngünün fizik kuralları henüz kesin değildir. [M4]
+Tensar
+Kaynakta dev gölge ve "Kıyametin Mimarı" olarak belirir, Marcel'e Yankı diye hitap eder ve üç
+gün sonra tezahürünü ilan eder. "Acıyı ortadan kaldırmak için gerçekliği düzeltme" okuması
+planlanan yorumdur. [M5,P]
+
+
+--- PDF SAYFA 18 ---
+ERULDIN DESTANI  |  EVREN ATLASI  |  MASTER
+Tam spoiler  |  kaynak katmanları ayrıdır  |  18
+07
+Karakter atlası I
+ Ana karakterler ve dramatik eksenleri.
+Karakter
+Rol
+Temel portre
+Dramatik hareket
+Kaynak
+MARCEL
+Protagonist / Yankı
+Hafızasını kaybetmiş, hızlı, ölümlü, alaycı.
+Nesnelerle konuşarak yalnızlığını yönetir.
+Hayatta kalmak -> Fiona'yı korumak ->
+Primus'la yüzleşmek -> geçmişten
+bağımsız kimlik seçmek.
+[M1-M7;P]
+FIONA
+Kız kardeş / Direniş
+komutanı
+Cesur, dik başlı, yaralı ama iradeli.
+Valerus'u baba figürü saymış olması
+ihanet sonrası kırılmayı derinleştirir.
+Marcel'le bağ kurmak -> Koru'nun
+ihanetini aşmak -> Kızıl Kale'de kendi
+kararını vermek.
+[M1-M7;P]
+PRIMUS /
+MARCELLIOUS
+Karşıt Yankı / "İlk olan"
+Marcel'in karşılığı; karanlık, kontrollü,
+gerçekliği düzeltmek isteyen figür.
+Konsey'de "Marcellious" diye anılır.
+Kaybı kabul etmemek; Fiona'yı
+düzeltmenin merkezine almak.
+[M4,M7;P]
+AKHENTEN
+Krov kurucusu / seçilmiş
+aile
+Devasa, zincirlenmiş, kaba ama
+koruyucu. Koru'nun kurucularından;
+Valerus ihanetini açığa çıkarır.
+Koru'yu ve halkı korumak; Fiona'yı
+kollamak; yıkım sonrası yeniden kurmak.
+[M3-M6]
+ONBION
+Avcı / House Korvengrad
+son varisi
+Ailesini Primus'un öldürdüğünü görmüş,
+ciddi ve intikam odaklı. Primus gerçekliği
+yırttığında onu hissedebilir.
+Hesap sormak; Primus'u takip etmek;
+planlanan finalde intikamın kendi kimliği
+olmamasını seçmek.
+[M4-M6;P]
+Karakter
+Rol
+Temel portre
+Dramatik hareket
+Kaynak
+VALERUS
+Direniş/Koru lideri
+Dışarıdan koruyucu; içeriden Kızıl Kral
+düzeniyle anlaşmış teslimci.
+Hayatta kalma adına düzeni sürdürmek;
+sonucu Tensar'ın infazıyla biter.
+[M3,M5,M7]
+ANZER VIOLE
+Naibe / Kızıl Kale iktidarı
+Genç, güçlü görünen, kırbaç izleri taşıyan
+ve Kral/Konsey arasında sıkışan figür.
+Kontrol altında kalmak; planlanan
+devamda kendi adına bir seçim yapmak.
+[M7;P]
+SHIRO
+Beyaz saçlı çocuk / gizem
+Renksiz gözlü, Karah olmayan ama
+yabancı bir çocuk. Primus'a "Yankı" der.
+Konsey/Kral adına ne yaptığı belirsiz.
+[M7]
+VESemir
+Kâtip / uygulayıcı
+Kral'ın emirlerini yazıya çeviren, korku
+altında işleyen saray görevlisi.
+Gücün bürokratik yüzü.
+[M7]
+BORIN
+Koru muhafızı / Krov
+Büyük, örgülü sakallı. Fiona'yı saygıyla
+karşılar; Marcel'in bileğini kırar.
+Valerus'a bağlı yerel düzeni korur.
+[M3]
+MATRONA HELSA
+Şifacı
+Fiona'nın yaralı ayaklarını tedavi eder.
+Koru'nun gündelik bakım yüzü.
+[M3]
+GORN
+Usta demirci
+Akhenten'in eski dostu. Alt seviyelerdeki
+hareketliliği ve teslim planını bilen kişi.
+Gerçeği korumaya çalışır; Marcel'e
+eldiven ve gizli yol verir.
+[M5]
+TORG
+Genç Krov / muhafız
+Kapı görevindeki dikkatsizliği kaçış için
+fırsat yaratır.
+Akhenten ve Marcel'in kaçmasına
+istemeden yardım eder.
+[M3]
+
+
+--- PDF SAYFA 19 ---
+ERULDIN DESTANI  |  EVREN ATLASI  |  MASTER
+Tam spoiler  |  kaynak katmanları ayrıdır  |  19
+07
+Karakter atlası II
+ Kadim varlıklar, ana tehditler ve Marcel'in hayali dostları.
+Karakter
+Rol
+Temel portre
+Dramatik hareket
+Kaynak
+KIZIL KRAL
+Uyuyan hükümdar / Taç
+taşıyıcısı
+Kökeni belirsiz. Karahları tek irade altında
+birleştirir. Taç tarafından tüketilir;
+Patlama sonrası uyur.
+Hüküm, itaat, kontrol; güncel ontolojisi
+açık soru.
+[L,M1-M7]
+TENSAR
+Kıyametin Mimarı
+Dev gölge figürü. Koru'nun yıkımını
+başlatır, üç gün sonra ineceğini bildirir.
+Kaynakta "acıdan kurtarma" iddiası;
+metafizik özü henüz açıklanmadı.
+[M5;P]
+YUON
+Dağların Bilge Miemi
+Miem Savaşı sonrası dünyada kaldığı
+söylenen tek Miem. Krovların Shi Qra'daki
+yeni yurtlarına yardım eder.
+Bilgi ve umudu bırakmak. Fiona
+hücresindeki Gölge ile ilişkisi henüz kesin
+değil.
+[L;M3-M4
+adı]
+REON
+Miem / Teom kaynağı
+Özgür irade ve yaşama en çok değer
+verdiği söylenen Miem. Teomların
+kaynağı olarak anılır.
+Kozmik yaratılış ve ışık mirası.
+[L]
+MOLDRATH
+Karanlık Miem figürü
+Reon'un eşi olduğu ve Teom
+yaratımındaki hikâyede adı geçen
+karanlık Miem.
+Lore'un mitolojik karşıtlık yüzü.
+[L]
+MAESTRO BORISLAV
+Marcel'in hayali dostu
+Yarım çeneli sararmış kafatası.
+Marcel'in yalnızlığı mizahla ve
+dışsallaştırmayla taşımasının iç sesi.
+[M1-M6]
+MATRONA EVANGELINE
+Kemik kahini / hayali dost
+Beş parmak kemiğinden oluşan zar
+benzeri set.
+Belirsizliği oyunlaştıran kişisel ritüel.
+[M1]
+BAYAN CLOTILDE
+Anılan hayali figür
+Marcel'in yalnızlık mekanizmasındaki bir
+başka kişileştirme.
+Açılıştaki "yüksek sesli boşluğu" doldurur.
+[M1]
+Primus / Marcellious isim notu
+Mevcut v14'te Primus, Kızıl Kale sahnesinde Anzer tarafından "Marcellious" diye çağrılır. Bu atlas
+terminolojiyi bu yazımla korur.
+
+
+--- PDF SAYFA 20 ---
+ERULDIN DESTANI  |  EVREN ATLASI  |  MASTER
+Tam spoiler  |  kaynak katmanları ayrıdır  |  20
+08
+Kurumlar, hanedanlar ve güç odakları
+ Eruldin'de çatışma yalnız canavarlar arasında değildir.
+Direniş
+Kızıl Kral düzenine karşı küçük koalisyon. Krov, insan ve muhtemel Rhanvi kalıntıları içerir. Fiona
+komutanlardan biridir. İdeali ile Valerus'un ihaneti birbirinden ayrılmalıdır. [M1-M7,L]
+Koru
+Akhenten ve diğer kurucuların kurduğu sığınak/maden topluluğu. Başlangıçta ortak yaşam ve
+hayatta kalma projesidir; Valerus'un anlaşmasıyla insan teslim merkezine dönüşür. Tensar'ın
+obsidyen sütunu ile yıkılır. [M2-M5]
+Konsey
+Kızıl Kral fiziksel olarak uyurken onun adına yöneten, Kral'ın iradesini bürokrasi ve korku
+üzerinden sürdüren yapı. Bazı üyeleri açıkça yozlaşmış, bazıları ise sistemin içinde sıkışmış
+görünür. [L,M7]
+House Korvengrad
+Onbion'un son varisi olduğu eski hanedan. Patlama gecesi Primus'un aileyi öldürmesi ile
+Onbion'un intikam çizgisi arasındaki ana bağdır. [M4]
+Eski haneler
+Tharendil, Nirvalor, Moriathor, Serlunar gibi isimler Patlama sonrası fısıltıya dönüşür. Serlunar,
+Göz'ün Manastırı'nın araştırma geleneğine bağlanır. [L,M4]
+Dagen Hanesi
+Teom sürgünleriyle ilişkilendirilen güney kökenli hane. Patlama sonrası Kızıl Kral ile anlaşarak
+direnç gösterenleri teslim eder; Marcel v14'te doğrudan dramatize edilmez. [L,A1]
+Teom klanları
+Harvalarlar, Brunnaklar, Issrenler ve diğer klanlar Teom altın çağının siyasi-kültürel yapısında
+yer alır. [L]
+
+
+--- PDF SAYFA 21 ---
+ERULDIN DESTANI  |  EVREN ATLASI  |  MASTER
+Tam spoiler  |  kaynak katmanları ayrıdır  |  21
+09
+Nesneler ve simgeler atlası
+ Küçük nesnelerden kozmik düğümlere.
+Öğe
+Kaynak anlamı
+Dramatik işlev
+Kod
+Teom Çeliği / stiletto
+Karah öldüren ve Yozlaşma'ya karşı kullanılabilen
+kadim çelik. Valerus onu Kral'a sadakat hediyesi
+yapmak ister; Tensar'ın öldürüşünden sonra
+yeniden ekibin eline geçer.
+Marcel'in savaş aracını kozmolojik anahtara
+dönüştürür.
+[M1-M5;P]
+Gölgelerin Tacı
+Kızıl Kral'ın güç merkezi; iradeyi kırar, taşıyıcıyı
+tüketir ve Yozlaşma ile ilişkilidir.
+Kral rejiminin metafizik çekirdeği.
+[L,M7;P]
+Gölge Yolu küresi
+Siyah küre/taşıma aracı. Madde -> enerji -> gölge
+dönüşümüyle Fiona'yı taşır.
+Kızıl Kale'ye geçişin fizik/metafizik köprüsü.
+[M5-M7]
+Kızıl çizgi
+Kızıl Kale zeminindeki iki düzeni ayıran çizgi;
+Vesemir bunun kalenin "dili" olduğunu söyler.
+Kral iradesi ile dış dünyanın kuralları
+arasındaki sınırın görsel işareti.
+[M7]
+Gri kelebek
+Anzer'in Fiona'nın omzuna gönderdiği soluk
+kelebek.
+Güç ile merhametin aynı kişide sıkıştığına dair
+ipucu; kesin açıklama yok.
+[M7;P]
+Obsidyen sütun
+Tensar'ın Koru'ya düşürdüğü siyah sütun; mor
+damarlarla Yozlaşma yayar.
+Kıyametin uzaktan ilan değil, doğrudan maddi
+gerçeklik haline gelişidir.
+[M5]
+Yitik Şafak
+Eski bir umut şarkısı; artık yas ilahisi olarak
+söylenir.
+Kültürel hafızanın kaybını ve umudun biçim
+değiştirmesini taşır.
+[M6]
+Maestro Borislav
+Yarım çeneli sarı kafatası.
+Marcel'in yalnızlığı mizahla evcilleştirme
+biçimi.
+[M1]
+Matrona Evangeline
+Beş parmak kemiği.
+Tesadüf, fal ve belirsizlik oyununu Marcel'in iç
+hayatına taşır.
+[M1]
+
+
+--- PDF SAYFA 22 ---
+ERULDIN DESTANI  |  EVREN ATLASI  |  MASTER
+Tam spoiler  |  kaynak katmanları ayrıdır  |  22
+10
+Tema, motif ve edebi omurga
+ Hikâyenin olayları hangi soruya hizmet ediyor?
+Kimlik ve geçmiş
+Marcel geçmişi olmadığı için kim olduğunu bilmez; Primus ise geçmişindeki kaybı kabul
+etmeyerek kimliğini zorla yeniden kurar. İkisi aynı problemin zıt çözümleri gibi görünür.
+Unutmak: savunma mı, kaçış mı?
+Beyaz Boşluk'taki "sen unutmayı seçensin" cümlesi, Marcel'in hafıza kaybını salt pasif bir lanet
+olmaktan çıkarır. Unutmak onun hayatta kalma biçimi olabilir.
+Primus ve Marcel: aynı yerden iki cevap
+Primus'un "biz aynıyız" cümlesi doğuştan iyi-kötü ayrımını reddeder. Daha güçlü final mantığı,
+Marcel'in onu inkâr etmek yerine "Evet. Seninle aynıydım. Ama artık değilim." diyebilmesidir. Bu
+ifade planlanan yorumdur.
+Fiona: zayıflık değil bağ
+Primus Fiona'yı Marcel'in zayıf noktası olarak görür. Planlanan çözümde Fiona, Marcel'in
+kimliğini taşıyan aktif seçim alanına dönüşür; kurtarılması gereken pasif nesne değil, kendi
+kararını veren kişidir.
+Onbion: geçmişin ağırlığı
+Marcel geçmişsizdir; Onbion ise babası, hanedanı ve öldürülen ailesi tarafından geçmişe bağlanır.
+İkisinin Primus karşısındaki sınavı aynıdır: kimliği yalnızca yaşanmış olana teslim etmemek.
+Akhenten: seçilmiş aile
+Akhenten'in su paylaşması, Marcel'i beslemesi ve Fiona'yı çocukluğundan beri tanıması, kan
+bağının dışında kurulan aileyi görünür kılar.
+Umut ve "sıcak mezarlık"
+Koru'nun sıcaklığı, dünyanın düzeldiği anlamına gelmez. Roman umudu acının yokluğu olarak
+değil, yıkımdan sonra bir şey kurmayı seçmek olarak ele alır.
+Düzeltme arzusu
+Primus için yanlış olan gerçekliktir. Planlanan okuma, Tensar'ı da acı üreten dünyanın
+"düzeltilmesini" isteyen daha büyük bir ölçek olarak görür. Marcel'in üçüncü cevabı dünyayı
+düzeltmek değil, dünyanın içinde yaşamayı seçmektir.
+Tekrar ve varyasyon
+Yankılar aynı insanın farklı olasılıklarını görünür kılar. Böylece romanın gerilim noktası "ne oldu?"
+sorusundan "aynı koşulda hangi seçimi yaparsın?" sorusuna taşınır.
+ "Ben kimim, geçmişim değilsem?"
+
+
+--- PDF SAYFA 23 ---
+ERULDIN DESTANI  |  EVREN ATLASI  |  MASTER
+Tam spoiler  |  kaynak katmanları ayrıdır  |  23
+11
+Gizli bağlantılar ve plot mimarisi
+ Açıklanmış gerçekler ile planlanan yorumların ayrımı.
+Marcel <-> Primus
+Fiziksel ikizlikten daha büyük bir ilişki vardır. Primus, Marcel'in kabul etmediği "olası ben" gibi
+çalışır. [M4,M7;P]
+Primus <-> Fiona
+Primus Fiona'yı özellikle ister. Kaynak nedenini tam açıklamaz; "Yankı çıpası" veya Fiona'nın
+belirli bir olasılığı sabitlemesi, planlanan açıklamadır. [M7;P]
+Marcel <-> Fiona
+Fiona Marcel'in geçmişinin yaşayan kanıtıdır; finalde ise onun geçmişini hatırlatan kişi olmaktan
+ziyade bugün kimi seçtiğini mümkün kılan canlı bağ olmalıdır. [M1,M7;P]
+Valerus <-> Konsey
+Valerus yalnız bir bireysel hain değildir; Konsey/Kral sisteminin Koru içine taşınmasının örneğidir.
+Koru'nun düşmanı dışarıda olduğu kadar içeridedir. [M3,M5]
+Kral <-> Taç
+Taç Kral'a güç verirken onu tüketir. Böylece iktidar ile araç arasında karşılıklı yozlaşma doğar. [L]
+Tensar <-> Patlama
+Mevcut metin Tensar'ın Koru'yu Yozlaşma ile dönüştürdüğünü gösterir. Planlanan yorum,
+Patlama'yı da "biriken acının gerçekliği bozması" zincirinin erken örneği olarak görür. [M5;P]
+Shiro <-> Yankı
+Shiro'nun Primus'a doğrudan "Yankı" demesi ve önceden bağ ima etmesi, Kızıl Kale'nin Yankı
+fenomenine mevcut Marcel'den daha eski bir erişimi olabileceğini düşündürür. Kesin cevap
+yoktur. [M7]
+Anzer <-> kelebek / çizgi
+Kelebek huzur, kırmızı çizgi ise sınır ve zorlama çağrışımı taşır. Bu ikisinin aynı sahnede
+bulunması Anzer'in gücü ile içsel sıkışmışlığı arasında bir görsel motif oluşturur. [M7;P]
+Teom Çeliği <-> Taç
+Mevcut metin çeliğin Karahları öldürdüğünü ve Yozlaşma'ya karşı olduğunu söyler. Planlanan
+finalde çelik, Taç ile gerçeklik arasındaki bağı kesen özel araç haline gelir. [M3-M5;P]
+Beyaz Boşluk <-> gerçek dünya
+Beyaz Boşluk yalnız ölüm sonrası bir oda değil, farklı olasılıkların görülebildiği metafizik alan
+olarak okunabilir. Ancak bunun fizik kuralları kaynakta tamamlanmaz. [M4]
+
+
+--- PDF SAYFA 24 ---
+ERULDIN DESTANI  |  EVREN ATLASI  |  MASTER
+Tam spoiler  |  kaynak katmanları ayrıdır  |  24
+12
+Üç gün / üç gece - klimaks geri sayımı
+ Dışarıdaki kıyamet ile içerideki mahkûmiyetin aynı saate bağlanması.
+Zaman
+Dış olay
+İç olay
+Tematik işlev
+0
+Tensar Koru'da belirir: "üç gün".
+Fiona Gölge Yolu ile Kızıl Kale'ye gider.
+Hikâye iki zaman çizgisine
+bölünür.
+1. gün / 1. gece
+Marcel + Akhenten + Onbion Kül
+Tarlaları/Kuzgunyuvası hattında ilerler.
+Fiona Kızıl Kale'nin kurallarını öğrenir;
+Gölge'den yardım alır.
+Hayatta kalma ile mahkûmiyet
+aynalanır.
+2. gün / 2. gece
+Başkent'e yaklaşma; planlanan sızma.
+Fiona Anzer'in konumunu ve Primus'un
+isteğini daha iyi kavrar.
+İktidarın içindeki korku görünür
+olur.
+3. gece
+Gökyüzünün yarılması / Tensar tezahürü
+(plan).
+Primus'un Fiona üzerinden ritüeli; Taç
+düğümü (plan).
+Marcel'in kimlik seçimi ile
+kozmik kriz aynı ana gelir.
+Kırılma
+Teom Çeliği'nin Taç ile bağın
+kesilmesinde kullanılması (plan).
+Marcel diğer Yankılara geri dönmek yerine
+kendi hayatını seçer.
+"Ben kimim?" sorusuna eylemle
+cevap.
+Klimaks ilkesi
+Üç gün ve üç gece iki ayrı geri sayım olmamalı; üçüncü gecede aynı olayın dış ve iç yüzü olarak
+birleşmeli. Böylece Tensar'ın gökyüzündeki kırılması ile Marcel'in kimlikteki kırılması tek dramatik
+düğüme dönüşür.
+
+
+--- PDF SAYFA 25 ---
+ERULDIN DESTANI  |  EVREN ATLASI  |  MASTER
+Tam spoiler  |  kaynak katmanları ayrıdır  |  25
+13
+Planlanan devam - 8-12. bölümler
+Bu bölüm tam roman metni değildir; proje düzeyinde kurulmuş devam/final
+ mimarisidir.
+8. Ölüler Bataklığı
+Bataklık gazı Marcel'in en derin korkularını açığa çıkarır. Fiona'nın farklı biçimlerde öldüğü
+görüntüler ve Primus'un olası kökenleri görülür. Bunlar tek bir kesin geçmiş diye değil, olası
+gerçeklikler olarak gösterilmelidir. Akhenten ve Onbion Marcel'i geri çeker; "aile" fikri gerçek bir
+hayatta kalma aracına dönüşür.
+9. Başkent
+Onbion'un eski hanedan kalıntılarıyla yüzleşmesi. Bazıları onun kaçışını suçlar, bazıları onu umut
+olarak görür. Kızıl Kale'ye sızma planı kurulur. Anzer'in kırbaç izleri ve Kral/Konsey düzenine
+zoraki bağı daha görünür hale gelir.
+10. Kızıl Kale'ye Sızma
+Fiona'nın hücresindeki Gölge'nin Yuon'un kendisi, Yuon'dan kalan bir iz/projeksiyon veya başka
+bir Yankı olma ihtimalleri açılır. En sade seçenek, Yuon'un mitik ağırlığını koruyan bir izdir.
+Kral'ın fiziksel yokluğu ile Taç'ın gerçek güç odağı arasındaki ilişki açılır.
+11. Üçüncü Gece: Gökyüzü Yırtılır
+Ekip kaleye girer; Fiona ile birleşir. Primus Fiona'yı ritüel merkezine almaya çalışır. Fiona pasif
+kurban olmaz. Anzer kendi adına karar verir ve gerekirse bedel öder. Onbion Primus'u öldürme
+fırsatını bulabilir fakat intikamın kendi kimliği olmasına izin vermemeyi seçer. Marcel ile
+Primus'un son yüzleşmesi fiziksel olduğu kadar kimlik ve gerçeklik savaşıdır.
+12. Kırılma / Epilog
+Teom Çeliği Taç ile gerçeklik arasındaki bağı keser. Kral'ın kabuğu düşer. Tensar tamamen
+öldürülmez; tezahürü başarısız/eksik kalır. Karahların merkezî iradesi dağılır ama dünya bir anda
+temizlenmez. Marcel diğer Yankıların dönüş teklifini reddeder; geçmişin bütün olasılıklarını değil
+kendi seçtiği bugünü yaşamayı seçer.
+Planlanan finalin duygusal yankısı
+Açılışta Marcel yalnızdır, çatıda veya yüksek bir yerde durur ve hayali dostlarıyla konuşur. Aynı
+türden bir yüksek yer finalde yeniden kullanılabilir; fakat bu kez Fiona gerçektir, aşağıda insanlar
+bir şeyler yeniden kurmaktadır. Hafızanın eksiksiz geri dönmesi şart değildir. Asıl kazanım,
+Marcel'in "kim olacağını" seçebilmesidir.
+Önerilen kapanış ekseni
+Fiona: "Ben Fiona." Marcel: "Biliyorum." Ardından geçmişi bulma arzusundan geleceği seçme arzusuna
+geçen kısa bir konuşma. Son görüntü zafer anıtı değil; yıkılmış dünyada insanların yeniden işe
+koyulmasıdır.
+
+
+--- PDF SAYFA 26 ---
+ERULDIN DESTANI  |  EVREN ATLASI  |  MASTER
+Tam spoiler  |  kaynak katmanları ayrıdır  |  26
+14
+Açık sorular ve süreklilik denetimi
+ Atlasın özellikle gelecekte cevap beklediği düğümler.
+Açık düğüm
+Kaynakta görülen durum
+Kod
+Akhenten'in ölüm/süreklilik problemi
+Primus Göz'ün Manastırı'nda Akhenten'i öldürdüğü sahneden sonra Akhenten
+ilerleyen bölümlerde canlı ve aktif görünür. V14 metni bunu açıklamaz.
+[M4
+sonrası]
+Karahların kökeni
+Lore Karahları kadim gölgeler olarak verir; Patlama da milyonlarca canlıyı Karah'a
+dönüştürür. İki sınıfın ontolojik ilişkisi açık değildir.
+[L]
+Taç'ın kökeni
+Miem Savaşı kalıntısı, Karah özü veya başka bir kaynak olabileceği söylenir;
+kesinleşmez.
+[L]
+Kızıl Kral'ın bugünkü ontolojisi
+İnsan mı, ruhsuz kabuk mu, ölümsüz beden mi yoksa Taç'ın taşıdığı bir kabuk mu?
+Metin yalnızca "uyuyor" der.
+[M7;P]
+Tensar nedir?
+Kıyametin Mimarı ve dev gölge olarak belirir; kozmik statüsü açıklanmaz. "Acıyı
+düzeltme" yorumu planlanandır.
+[M5;P]
+Fiona neden Primus için önemli?
+Primus "onu ben istiyorum" der; nedenin tam cevabı yoktur. Yankı çıpası fikri planlıdır.
+[M7;P]
+Fiona'nın hücresindeki Gölge kim?
+Yuon'un kendisi, Yuon'dan kalan iz, başka Yankı veya başka bir varlık olasılıkları
+vardır.
+[M7;P]
+Anzer Viole neden zorlanıyor?
+Kırbaç izleri ve Kral/Konsey korkusu güçlü ipuçlarıdır; mekanizma açıklanmaz.
+[M7;P]
+Kızıl Kale / Buzul Sarayı ilişkisi
+Lore Kızıl Kral sarayının Buzul Sarayı temelleri üzerine kurulduğunu söyler; Fiona ise
+Kızıl Kale'ye götürülür. Aynı kompleks mi ayrı yapılar mı belirsiz.
+[L;M7]
+Gölge Yolu'nun sınırları
+Taşıma büyüsünün enerji ve bedel mekanizması tam açıklanmaz.
+[M6-M7]
+Primus'un "ilk" oluşu
+Beyaz saçlı Marcel "İlk olan" der. İlk Marcel, ilk döngü veya ilk düzeltme anlamı
+arasında kesin seçim yoktur.
+[M4;P]
+Dagen ve alternatif metinler
+A1 ve A2 farklı sürümlerdir; Marcel v14'e otomatik aktarılmamalıdır.
+[A1,A2]
+
+
+--- PDF SAYFA 27 ---
+ERULDIN DESTANI  |  EVREN ATLASI  |  MASTER
+Tam spoiler  |  kaynak katmanları ayrıdır  |  27
+15
+Sürüm kaydı ve kaynak envanteri
+ Hangi metin ne işe yarıyor?
+Dosya
+İçerik
+Atlas kullanımı
+Marcel 1. kitap v14.pdf
+100 sayfalık, 7 bölümlük Marcel ana metni.
+Ana plot 1-7.
+Kızıl kral lore.pdf
+Miemler, Teomlar, Karahlar, Teo, Yuon, Kızıl Kral, Taç,
+Patlama ve sonrası.
+Lore / kozmoloji / kronoloji.
+1. Kitap.docx
+Dagen merkezli daha eski Marcel açılışı; Salune ve Alrik ile
+farklı başlangıç.
+A1: alternatif sürüm.
+Bolum 1 - Kayip Halkin Taci (V3).pdf
+Eruldin, Vaelya, Bjoren, Vala, Poem, Thonvar vb. üzerinden
+ayrı anlatı.
+A2: ayrı sürüm; ana kanona
+birleştirilmedi.
+A1 - 1. Kitap.docx
+Bu eski sürümde Marcel Dagen'de, bir tavernada çalışan farklı bir başlangıçla açılır. Salune ve
+yaşlı tavernacı Alrik gibi figürler, ormandaki köpek araması, mağaradaki Karah tehdidi ve
+Salune'un kurtarılması olayları vardır. Mevcut v14'teki Korvengrad/Kör Aziz Katedrali açılışının
+yerine geçen önceki varyant olarak tutulmalıdır.
+A2 - Bölüm 1: Kayıp Halkın Tacı V3
+Bu metin Eruldin merkezlidir. Vaelya, Bjoren, Vala, Poem, Thonvar ve Kaelan üzerinden Draniel
+ve çevresindeki tahliye/savaş düzenini anlatır. Dokuz Binlerin Kışı, Dagen halklarının tarihsel
+sürgünü ve Hyal taşı gibi başka lore unsurları bulunur. Marcel v14 ile doğrudan
+birleştirilmemiştir.
+Neden ayrı?
+Tüm kaynakları arşivlemek ile tüm kaynakları tek bir kanon gibi birleştirmek aynı şey değildir. Bu atlas,
+ileride hangi fikirlerin ana kitaba taşınacağını bilinçli biçimde seçebilmek için sürüm ayrımını korur.
+
+
+--- PDF SAYFA 28 ---
+ERULDIN DESTANI  |  EVREN ATLASI  |  MASTER
+Tam spoiler  |  kaynak katmanları ayrıdır  |  28
+16
+Terimler sözlüğü - hızlı başvuru
+ Romanı okurken ihtiyaç duyulacak temel kavramların tek sayfalık dili.
+Terim
+Anlam
+Yankı / Echo
+Marcel'in farklı olasılıklardaki başka versiyonları; Beyaz Boşluk'ta görünürler.
+Primus
+Marcel'in karşıtı ve "İlk olan" diye anılan özel Yankı.
+Marcellious
+Kızıl Kale'de Anzer'in Primus için kullandığı isim.
+Karah
+Karanlık, gerçekliği büken kadim gölgeler; ayrıca Patlama'da dönüşmüş canlılar için de kullanılan ad.
+Yozlaşma
+Patlama/Tensar etkisiyle madde ve canlılığın çarpık biçimde dönüşmesi.
+Teom
+Reon'un ışık mirasıyla ilişkilendirilen "Işığın Çocukları".
+Miem
+Yaratılışın dokusunu ören yedi kadim güç.
+Reon
+Özgür irade ve yaşamı öne çıkaran; Teomların kaynağı olarak anlatılan Miem.
+Moldrath
+Reon ile Teom yaratımı efsanesinde karşıtlık oluşturan karanlık Miem figürü.
+Yuon
+"Dağların Bilge Miemi"; diğer Miemlerden sonra dünyada kaldığı söylenen tek Miem.
+Koru
+Krovların maden/sığınak topluluğu.
+Gölgelerin Tacı
+Kızıl Kral'a güç veren, iradeyi büken ve taşıyıcısını tüketen Taç.
+Gölge Yolu
+Maddeyi enerjiye, enerjiyi gölgeye çevirerek taşıma sağlayan yöntem.
+Kızıl Kale
+Fiona'nın alıkonulduğu; Kral'ın ve Konsey'in gücünün hissedildiği kale.
+Büyük Patlama
+Kral, Taç ve birikmiş acının birleşmesiyle doğan dünya çaplı felaket.
+Kül Tarlaları
+Patlama'nın bıraktığı kül, ozon ve bozulma dolu ölü alan.
+Kırık Diş Geçidi
+Koru yolu üzerindeki kritik dar geçit.
+Yitik Şafak
+Eski umut şarkısı; güncel dünyada yas ilahisine dönüşmüş hali.
+
+
+--- PDF SAYFA 29 ---
+ERULDIN DESTANI  |  EVREN ATLASI  |  MASTER
+Tam spoiler  |  kaynak katmanları ayrıdır  |  29
+17
+Hızlı başvuru sayfası
+ Tek bakışta kim, ne, neden?
+Soru
+Cevap
+Kahraman kim?
+Marcel.
+Marcel neyi kaybetti?
+Geçmişini ve anılarını.
+Marcel kimi buldu?
+Kız kardeşi Fiona'yı.
+Fiona'nın konumu?
+Direniş Komutanı; Koru'da büyümüş, Kızıl Kale'de alıkonuyor.
+Ana silah?
+Teom Çeliği olan stiletto.
+Koru'nun lideri?
+Valerus; daha sonra sistemik ihanetinin açığa çıktığı lider.
+Valerus ne yaptı?
+Dışarıdan gelenleri güven vaadiyle toplayıp Konsey/Kral düzenine teslim etti.
+Primus kim?
+Marcel'in karanlık karşılığı; "İlk olan" Yankı.
+Marcellious kim?
+Kızıl Kale'de Primus için kullanılan ad.
+Yankı nedir?
+Marcel'in farklı seçimlerinin/olasılıklarının başka versiyonları.
+Akhenten kim?
+Koru'nun kurucularından Krov; Marcel ve Fiona'nın seçilmiş ailesinin taşıyıcı figürü.
+Onbion kim?
+House Korvengrad'ın son varisi; Primus'a karşı intikam taşıyor.
+Kızıl Kral kim?
+Kökeni belirsiz, Taç taşıyıcısı, Karahları tek iradede birleştirmiş hükümdar.
+Taç ne yapıyor?
+Zihinleri ve iradeyi büker; taşıyıcısını zamanla tüketir.
+Tensar ne ilan etti?
+Üç gün sonra gökyüzünü yarıp ineceğini.
+Fiona'nın zamanı?
+Üç gece.
+Planlanan final aracı?
+Teom Çeliği ile Taç'ın gerçeklik bağını kesmek.
+Ana tema?
+Kimliğin yalnızca geçmişten değil, seçilen yaşamdan kurulması.
+
+
+--- PDF SAYFA 30 ---
+ERULDIN DESTANI  |  EVREN ATLASI  |  MASTER
+Tam spoiler  |  kaynak katmanları ayrıdır  |  30
+ERULDIN DESTANI
+ Evren Atlası'nın son notu
+ Bu atlasın merkezinde bir dünya sorusu değil, bir insan sorusu vardır.
+Merkez cümle
+Geçmişini kaybetmek insanı boş bırakabilir. Fakat onu ne dolduracağını seçebilmek, boşluğu kimliğe
+dönüştüren eylemdir.
+Mevcut [M] metnin söylediği, planlanan [P] devamın önerdiği ve [L] lore'un anlattığı şeyler bu
+dosyada ayrı tutulmuştur. Böylece roman ilerledikçe bu atlas sil baştan yazılmak zorunda
+kalmadan bir çalışma bible'ı olarak büyüyebilir.
+ "Bir zamanlar kim olduğumu bulmaya çalışıyordum." / "Şimdi?" / "Şimdi kim
+ olacağımı düşünüyorum."
+MASTER DOSYA | Tam spoiler | Kaynak katmanları: M / L / P / A1 / A2

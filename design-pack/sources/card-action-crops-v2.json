@@ -1,0 +1,18 @@
+{
+  "source": "sources/card-actions-atlas-v2.png",
+  "grid": [
+    3,
+    2
+  ],
+  "width": 1536,
+  "height": 1024,
+  "order": [
+    "marcel",
+    "akhenten",
+    "onbion",
+    "white",
+    "teom",
+    "karah-heavy"
+  ],
+  "operation": "Lossless uniform crop; no generated-image repainting"
+}

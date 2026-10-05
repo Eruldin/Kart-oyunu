@@ -1,0 +1,1064 @@
+{
+  "source": "Marcel 1. kitap v14.txt",
+  "pages": 100,
+  "method": "100 sayfanın metni indekslendi; konum, karakter ve rota kayıtları PDF sayfasıyla ilişkilendirildi. Bu indeks satır satır editoryal okuma iddiası değildir.",
+  "page_records": [
+    {
+      "page": 1,
+      "sha256": "aee2898e16450e1013c851732a04a624aaad856604e6b893e430ddc9cb85f63b",
+      "characters": 2487,
+      "entities": [
+        "Korvengrad"
+      ]
+    },
+    {
+      "page": 2,
+      "sha256": "f381b22923798eb307d5df9ebfe84db2938a4ed5155c8a48286e5e6ede0f3026",
+      "characters": 2568,
+      "entities": [
+        "Karah"
+      ]
+    },
+    {
+      "page": 3,
+      "sha256": "826999dae5b7683c83978aed8b7e56d6c62950217890b899eae8824e68d23eb3",
+      "characters": 2598,
+      "entities": [
+        "Karah"
+      ]
+    },
+    {
+      "page": 4,
+      "sha256": "b1ac9e5ca6b74fbdccd78385a87e6e732a406bd792f70b09809bcdecb548e5f8",
+      "characters": 2569,
+      "entities": [
+        "Koru",
+        "Karah"
+      ]
+    },
+    {
+      "page": 5,
+      "sha256": "69001bd0c2dd678b470ac1e28a5f8074761e90fa21ad4b565f05e186c1fbc590",
+      "characters": 2311,
+      "entities": [
+        "Karah"
+      ]
+    },
+    {
+      "page": 6,
+      "sha256": "e8f495b0576f5e4260c6995103a3fb51b6f66b5ffcc921396c08b06ae81fd069",
+      "characters": 2446,
+      "entities": [
+        "Karah"
+      ]
+    },
+    {
+      "page": 7,
+      "sha256": "c1db93f3e23e1491a3a9c09f05317fdf0a55c603eccdad70775a654aaae49476",
+      "characters": 1795,
+      "entities": []
+    },
+    {
+      "page": 8,
+      "sha256": "028b7fe14fe491c1e345d1f341baf698ead7af1aa28bc74a3cff0945aac39488",
+      "characters": 1909,
+      "entities": [
+        "Korvengrad",
+        "Fiona",
+        "Karah"
+      ]
+    },
+    {
+      "page": 9,
+      "sha256": "3a93bf48332f3ad8b163085182841127328447810d73b6aba9927b0e5927e506",
+      "characters": 2087,
+      "entities": [
+        "Koru",
+        "Fiona",
+        "Karah"
+      ]
+    },
+    {
+      "page": 10,
+      "sha256": "0a4d8de41baddcaab11a5256250e4614bec353f8f9842a9164835accee38c3b8",
+      "characters": 2027,
+      "entities": [
+        "Korvengrad",
+        "Fiona",
+        "Karah"
+      ]
+    },
+    {
+      "page": 11,
+      "sha256": "5bec5251d9323d3f27be9629bad98ac710b22a36cbf73cd7633eabcf7c10ff01",
+      "characters": 2031,
+      "entities": [
+        "Korvengrad",
+        "Fiona",
+        "Karah"
+      ]
+    },
+    {
+      "page": 12,
+      "sha256": "139f38e73aa8b5fc553820e1001991d841266f497dacc05ffbe5c5d31019e3e2",
+      "characters": 2114,
+      "entities": [
+        "Koru",
+        "Fiona",
+        "Karah",
+        "Teom"
+      ]
+    },
+    {
+      "page": 13,
+      "sha256": "a94be0b96a53a8dbef60f613dd0fa2822e47b31c0b6795831e44730fc5d04cd1",
+      "characters": 2599,
+      "entities": [
+        "Korvengrad",
+        "Koru",
+        "Fiona",
+        "Karah"
+      ]
+    },
+    {
+      "page": 14,
+      "sha256": "5fe9fd44cfee639ed7b889e31420662cee2857d83ca0bf9d8dcb0d03a39a5b2b",
+      "characters": 2201,
+      "entities": [
+        "Korvengrad",
+        "Koru",
+        "Kül Tarlaları",
+        "Kırık Diş",
+        "Fiona",
+        "Karah"
+      ]
+    },
+    {
+      "page": 15,
+      "sha256": "2ab03fa3a5947cec7be79efd71b616ed1f8bcc453653f3404fd21e159f0c4a30",
+      "characters": 2203,
+      "entities": [
+        "Fiona"
+      ]
+    },
+    {
+      "page": 16,
+      "sha256": "5819775a712da347e8f03f3cd13f2894c93aff2b8aab859a850768a7d4018dcd",
+      "characters": 1027,
+      "entities": [
+        "Kül Tarlaları",
+        "Fiona"
+      ]
+    },
+    {
+      "page": 17,
+      "sha256": "528a387cfc22d1812be80a34a2cefb8f8dd6b11e9651a3c99ac7eae32b8373fd",
+      "characters": 2402,
+      "entities": [
+        "Koru",
+        "Kül Tarlaları",
+        "Fiona",
+        "Karah"
+      ]
+    },
+    {
+      "page": 18,
+      "sha256": "5e5a43b77aa6be267a312f2bbd0625609dc705b4aea4c64b44147445d298c299",
+      "characters": 2118,
+      "entities": [
+        "Fiona"
+      ]
+    },
+    {
+      "page": 19,
+      "sha256": "0bdca8a5023814b22be7826aeeb813b0e3d5bf0a129d5c5a5f9f73e1fa4645a2",
+      "characters": 2383,
+      "entities": [
+        "Kül Tarlaları",
+        "Fiona"
+      ]
+    },
+    {
+      "page": 20,
+      "sha256": "0b09c9eec680253217a9079780de6cc911274a0070d54894c28b77daa55771db",
+      "characters": 2619,
+      "entities": [
+        "Kül Tarlaları",
+        "Kırık Diş",
+        "Fiona"
+      ]
+    },
+    {
+      "page": 21,
+      "sha256": "e000925a961079d50b2a0c9ea0162432647785e07f6a94ee53fad8b703642b66",
+      "characters": 1846,
+      "entities": [
+        "Fiona",
+        "Karah"
+      ]
+    },
+    {
+      "page": 22,
+      "sha256": "9f031dd6c2879f204a272a4b202e3e4a0be4e75ce69d128df78bba0fe52c9992",
+      "characters": 1831,
+      "entities": [
+        "Fiona"
+      ]
+    },
+    {
+      "page": 23,
+      "sha256": "d5e7b6e8dced35b2af37f3b43738a8cdab7d484b43b032ce3ff68ac33de500df",
+      "characters": 2478,
+      "entities": [
+        "Kül Tarlaları",
+        "Fiona"
+      ]
+    },
+    {
+      "page": 24,
+      "sha256": "85035b7fe6b05564ca1dce32f9f9845bf8e6c196af6d356615f472eea05a10f8",
+      "characters": 608,
+      "entities": [
+        "Fiona"
+      ]
+    },
+    {
+      "page": 25,
+      "sha256": "d4036ab3ef4193c8960a6304273394a4b98adf73ea7e1c81d6ac152ea7455f8d",
+      "characters": 2248,
+      "entities": [
+        "Korvengrad",
+        "Koru",
+        "Kül Tarlaları",
+        "Kırık Diş",
+        "Fiona"
+      ]
+    },
+    {
+      "page": 26,
+      "sha256": "7fbbb50d759954ba837f9ef45188a97064e5993d976dc83db1f7c75e5a7b49a3",
+      "characters": 2217,
+      "entities": [
+        "Koru",
+        "Kül Tarlaları",
+        "Borin",
+        "Valerus",
+        "Fiona",
+        "Karah"
+      ]
+    },
+    {
+      "page": 27,
+      "sha256": "1555ac16ef9e8a09e6623c77a78ce6884a491c0d9c8a4e7621a3600653e9504a",
+      "characters": 2271,
+      "entities": [
+        "Korvengrad",
+        "Borin",
+        "Valerus",
+        "Fiona"
+      ]
+    },
+    {
+      "page": 28,
+      "sha256": "3f36534fb678ce48453679773c0a020859f3fdc5b4806aece89230c16752fd9b",
+      "characters": 1949,
+      "entities": [
+        "Korvengrad",
+        "Kırık Diş",
+        "Borin",
+        "Valerus",
+        "Fiona",
+        "Teom"
+      ]
+    },
+    {
+      "page": 29,
+      "sha256": "08f57f44e89db64e49adc36cd5f854242bd2fe1ffbcbe85968b7a182c8c16a27",
+      "characters": 1895,
+      "entities": [
+        "Koru",
+        "Borin",
+        "Valerus",
+        "Fiona",
+        "Karah"
+      ]
+    },
+    {
+      "page": 30,
+      "sha256": "2ca256915538fc8db26bfca1416cab1a2ed344af761a90fd78cc23541ba879c6",
+      "characters": 2061,
+      "entities": [
+        "Koru",
+        "Borin",
+        "Valerus",
+        "Fiona",
+        "Teom"
+      ]
+    },
+    {
+      "page": 31,
+      "sha256": "3997e71bb410d45892da4efb3a49049283f14b31d7a009c40b6b3a41a27fc3e6",
+      "characters": 2000,
+      "entities": [
+        "Akhenten",
+        "Borin",
+        "Valerus",
+        "Fiona"
+      ]
+    },
+    {
+      "page": 32,
+      "sha256": "c81685122122b0976ac8926dd99178dea3a59fcda79fa952790cf43c655967d4",
+      "characters": 2286,
+      "entities": [
+        "Korvengrad",
+        "Koru",
+        "Kül Tarlaları",
+        "Kırık Diş",
+        "Akhenten",
+        "Borin",
+        "Valerus",
+        "Fiona"
+      ]
+    },
+    {
+      "page": 33,
+      "sha256": "542dcc90ba450d49143c8f6875b8305172f6f78e989561624a68e23e6733da9d",
+      "characters": 2111,
+      "entities": [
+        "Koru",
+        "Akhenten",
+        "Valerus",
+        "Fiona",
+        "Karah",
+        "Teom"
+      ]
+    },
+    {
+      "page": 34,
+      "sha256": "36a7db5728985d0c0a561cb552c35a616c0311f66edf114f32caafaf289adf7b",
+      "characters": 1964,
+      "entities": [
+        "Kül Tarlaları",
+        "Akhenten",
+        "Valerus",
+        "Fiona"
+      ]
+    },
+    {
+      "page": 35,
+      "sha256": "be6df8ee733ddfce06c1c367a0a39d361f70fc25e31c4e3ece78c9bf6650c386",
+      "characters": 1894,
+      "entities": [
+        "Akhenten",
+        "Borin",
+        "Torg",
+        "Valerus"
+      ]
+    },
+    {
+      "page": 36,
+      "sha256": "3b283339c3693bfb7d9da45305c6a3310f6e44b50e16547f19613bd02835c32a",
+      "characters": 2123,
+      "entities": [
+        "Koru",
+        "Akhenten",
+        "Borin",
+        "Torg",
+        "Valerus"
+      ]
+    },
+    {
+      "page": 37,
+      "sha256": "0846dec8471200662b2e101216a4c809f1abfab536b5269982fd61a53e9c4237",
+      "characters": 1805,
+      "entities": [
+        "Koru",
+        "Akhenten",
+        "Valerus"
+      ]
+    },
+    {
+      "page": 38,
+      "sha256": "2f5abfd38d184d30461115ad77c3e3bda36670d5fe9db9a9093abbea793aec91",
+      "characters": 1049,
+      "entities": [
+        "Akhenten",
+        "Fiona"
+      ]
+    },
+    {
+      "page": 39,
+      "sha256": "1cc751d9ffb85d2895fafd19bfb33346aa44cb4b6dd121237a94a86ff3ae7576",
+      "characters": 2329,
+      "entities": [
+        "Kül Tarlaları",
+        "Manastır",
+        "Akhenten",
+        "Valerus",
+        "Fiona",
+        "Karah",
+        "Teom"
+      ]
+    },
+    {
+      "page": 40,
+      "sha256": "37102e49732dc0693fab5f770191bde5e586d65dd7b070f8ab51cff5f059e71d",
+      "characters": 2370,
+      "entities": [
+        "Korvengrad",
+        "Koru",
+        "Manastır",
+        "Akhenten",
+        "Valerus",
+        "Fiona"
+      ]
+    },
+    {
+      "page": 41,
+      "sha256": "9646615fbe3e8938296ab3f39c78d75ba5e79164073ecd187b2b53282f3b2975",
+      "characters": 1582,
+      "entities": [
+        "Korvengrad",
+        "Manastır",
+        "Akhenten"
+      ]
+    },
+    {
+      "page": 42,
+      "sha256": "8c13fd4a5878762f691bbe4aae5ef103b62eba64a9beaeff6980e14f4d698080",
+      "characters": 1980,
+      "entities": [
+        "Akhenten"
+      ]
+    },
+    {
+      "page": 43,
+      "sha256": "d64e54aacd6498222b17007defc01d47c682b2f44f77f31dee6c0e336b4bde0e",
+      "characters": 2313,
+      "entities": []
+    },
+    {
+      "page": 44,
+      "sha256": "54660d4f71770a049d88c8148763e2701854d4ecb6e25c1e31e692b69045e5c9",
+      "characters": 1896,
+      "entities": [
+        "Kül Tarlaları"
+      ]
+    },
+    {
+      "page": 45,
+      "sha256": "0c24fd30f030dab6cd911044f5e44c3ca5526accd1016bf3547a5700e6663a81",
+      "characters": 1885,
+      "entities": [
+        "Valerus",
+        "Fiona",
+        "Primus",
+        "Karah",
+        "Teom"
+      ]
+    },
+    {
+      "page": 46,
+      "sha256": "04fca74312afb22722b4ec7627ee4e6a8f00abe49194e9491edb55e7ed51a9ac",
+      "characters": 1899,
+      "entities": [
+        "Koru",
+        "Fiona",
+        "Primus"
+      ]
+    },
+    {
+      "page": 47,
+      "sha256": "f326b65b3a25a0ab8419d8b690325de62779fde1db71497c64fd382638a5dad0",
+      "characters": 1528,
+      "entities": [
+        "Manastır",
+        "Akhenten",
+        "Primus"
+      ]
+    },
+    {
+      "page": 48,
+      "sha256": "d9f12dffedd7cf809a266d023969beaa54dd8bf71a19c48d94853ab78e2ee3ac",
+      "characters": 1650,
+      "entities": [
+        "Akhenten",
+        "Primus"
+      ]
+    },
+    {
+      "page": 49,
+      "sha256": "f17c77f5e3a666112435565b6cfcdf0442d6a8a21a7587452d036b10ab76b7a8",
+      "characters": 1838,
+      "entities": [
+        "Manastır",
+        "Akhenten",
+        "Primus"
+      ]
+    },
+    {
+      "page": 50,
+      "sha256": "476e70954ab0e44596e41f22adbfdb48cd0cf80e89228b8b0243eb5185192a19",
+      "characters": 2435,
+      "entities": [
+        "Manastır",
+        "Akhenten",
+        "Primus"
+      ]
+    },
+    {
+      "page": 51,
+      "sha256": "27c6c2eb78de41b68db57ee50454ba3a1719b98b651f03f45d465ed0a70a7e4b",
+      "characters": 2643,
+      "entities": [
+        "Korvengrad",
+        "Manastır",
+        "Akhenten"
+      ]
+    },
+    {
+      "page": 52,
+      "sha256": "2433dca7023f335370ce534432971147d2a7e48e91ff2bf4cfe364d1f803e5ff",
+      "characters": 2081,
+      "entities": [
+        "Manastır",
+        "Akhenten",
+        "Primus"
+      ]
+    },
+    {
+      "page": 53,
+      "sha256": "8427203b84f19b50bdfc49e53a338ae78bbe69e8a6e63445b97914217c521a3a",
+      "characters": 2202,
+      "entities": [
+        "Manastır",
+        "Akhenten",
+        "Onbion",
+        "Primus"
+      ]
+    },
+    {
+      "page": 54,
+      "sha256": "2dd3f24388323d6bc835f26ca0baf826789928205f0eefb2eac38bd6625bae7f",
+      "characters": 2177,
+      "entities": [
+        "Korvengrad",
+        "Akhenten",
+        "Onbion",
+        "Primus"
+      ]
+    },
+    {
+      "page": 55,
+      "sha256": "8005cd9af622b43bf3595eb6948d2a93be8463228dc898657b192922f1bbf382",
+      "characters": 2269,
+      "entities": [
+        "Koru",
+        "Manastır",
+        "Akhenten",
+        "Onbion",
+        "Valerus",
+        "Fiona",
+        "Primus",
+        "Teom"
+      ]
+    },
+    {
+      "page": 56,
+      "sha256": "ce1a43bcc514def25510dd7419a5c19b4e0f1185061c8ad8f0b88110d408560a",
+      "characters": 473,
+      "entities": [
+        "Koru"
+      ]
+    },
+    {
+      "page": 57,
+      "sha256": "b7ec33c81891966958e76a24fbacb31e8b3f053ab8bfa929735b6937ac8ee87b",
+      "characters": 2727,
+      "entities": [
+        "Koru",
+        "Kül Tarlaları",
+        "Manastır",
+        "Akhenten",
+        "Onbion",
+        "Valerus",
+        "Primus"
+      ]
+    },
+    {
+      "page": 58,
+      "sha256": "42160db80afbdbc77a10cd04a1d843455638bc2bc5022475ea6af6332fe90d35",
+      "characters": 2613,
+      "entities": [
+        "Koru",
+        "Manastır",
+        "Akhenten",
+        "Onbion",
+        "Valerus"
+      ]
+    },
+    {
+      "page": 59,
+      "sha256": "3d88165e7988f9789087fdd24193883c50b55f0c71fa6236022112f10e6b3340",
+      "characters": 2595,
+      "entities": [
+        "Koru",
+        "Akhenten",
+        "Onbion",
+        "Valerus",
+        "Fiona",
+        "Primus",
+        "Teom"
+      ]
+    },
+    {
+      "page": 60,
+      "sha256": "d0bef23f3f1710c563c9f6e14d9f24f0d1a29938c7a13b7fcd023226417527bb",
+      "characters": 2292,
+      "entities": [
+        "Koru",
+        "Akhenten",
+        "Onbion",
+        "Gorn",
+        "Valerus",
+        "Fiona"
+      ]
+    },
+    {
+      "page": 61,
+      "sha256": "853b365d29b9660c9187abbc03f5e47523158a07c040381f7ffa3b8e01097442",
+      "characters": 1996,
+      "entities": [
+        "Akhenten",
+        "Onbion",
+        "Gorn",
+        "Fiona"
+      ]
+    },
+    {
+      "page": 62,
+      "sha256": "f4145ace00f1b36694ffcf4287974274282d978db1e6374e382933b4886807cb",
+      "characters": 2181,
+      "entities": [
+        "Akhenten",
+        "Onbion",
+        "Gorn",
+        "Valerus",
+        "Fiona",
+        "Karah"
+      ]
+    },
+    {
+      "page": 63,
+      "sha256": "41c161751fc2124593a9c5cfbacd4fe2c9abf554867b86204ff222eb8f745128",
+      "characters": 2287,
+      "entities": [
+        "Akhenten",
+        "Onbion",
+        "Gorn",
+        "Valerus",
+        "Fiona",
+        "Karah"
+      ]
+    },
+    {
+      "page": 64,
+      "sha256": "9e0676288ab967c211519911ce8e337da00e98cd31ca4a2f564c16ea9b886b4d",
+      "characters": 1832,
+      "entities": [
+        "Koru",
+        "Akhenten",
+        "Onbion",
+        "Valerus",
+        "Fiona"
+      ]
+    },
+    {
+      "page": 65,
+      "sha256": "5642ed6201f644b2669cff1600a2cf0718e925862ee586bca4e8a80d7cf52925",
+      "characters": 1825,
+      "entities": [
+        "Akhenten",
+        "Onbion",
+        "Valerus",
+        "Fiona",
+        "Teom"
+      ]
+    },
+    {
+      "page": 66,
+      "sha256": "290d71217d126ea4a6f24e6f2569317465b1ff5f37aa11d2ff037c04e568dbba",
+      "characters": 1601,
+      "entities": [
+        "Valerus",
+        "Fiona"
+      ]
+    },
+    {
+      "page": 67,
+      "sha256": "42b0fd85594333613665fa0db144578b4b82abaf14f76b694ec9d57b8a7dd889",
+      "characters": 2105,
+      "entities": [
+        "Koru",
+        "Onbion",
+        "Valerus"
+      ]
+    },
+    {
+      "page": 68,
+      "sha256": "91c5353ac6a46032874d5b38cf3c234c537c09e7449eaef0298a9369a65c1322",
+      "characters": 2116,
+      "entities": [
+        "Akhenten",
+        "Valerus",
+        "Tensar"
+      ]
+    },
+    {
+      "page": 69,
+      "sha256": "9cd2c0a8cb5433894a9bfc26bb1e8c1c8ba5c675686cd662ad199813c512008e",
+      "characters": 1978,
+      "entities": [
+        "Akhenten",
+        "Onbion",
+        "Valerus",
+        "Fiona",
+        "Tensar",
+        "Teom"
+      ]
+    },
+    {
+      "page": 70,
+      "sha256": "05583ae4b7c72760dc4cb3ea10a3f6944dee33f3524d46720dc96f9d5725cb66",
+      "characters": 1984,
+      "entities": [
+        "Koru",
+        "Akhenten",
+        "Onbion",
+        "Valerus",
+        "Tensar"
+      ]
+    },
+    {
+      "page": 71,
+      "sha256": "655dc8ea3c906eb95a597cda7ed64b720773058c7b3785095b9efb77af4c37fc",
+      "characters": 2132,
+      "entities": [
+        "Korvengrad",
+        "Koru",
+        "Kül Tarlaları",
+        "Akhenten",
+        "Onbion",
+        "Valerus",
+        "Fiona"
+      ]
+    },
+    {
+      "page": 72,
+      "sha256": "dffa3d157fd7d05e02e869e687725daf2503bb9b1ad63601792ab2a986bc4ffb",
+      "characters": 1295,
+      "entities": [
+        "Kül Tarlaları",
+        "Akhenten",
+        "Onbion",
+        "Fiona",
+        "Tensar",
+        "Teom"
+      ]
+    },
+    {
+      "page": 73,
+      "sha256": "28bf310f4889f25757b8c5c29febebd65f9221b1f12df13c17886bce7ceff7cc",
+      "characters": 2239,
+      "entities": [
+        "Kül Tarlaları",
+        "Akhenten",
+        "Onbion"
+      ]
+    },
+    {
+      "page": 74,
+      "sha256": "f3c755849de18aba86e66a6fa83a73ecca52cb5f13cfc8bc0c94e54c399d9a28",
+      "characters": 2308,
+      "entities": [
+        "Kül Tarlaları",
+        "Akhenten",
+        "Onbion"
+      ]
+    },
+    {
+      "page": 75,
+      "sha256": "947088b86d55c17507c1c55e3b908d84f30e22d5bacfa45d70c77c195ab94630",
+      "characters": 2329,
+      "entities": [
+        "Koru",
+        "Kül Tarlaları",
+        "Akhenten",
+        "Onbion"
+      ]
+    },
+    {
+      "page": 76,
+      "sha256": "be725ec97d6d3db14a530be74d1e166d810b23a67f4f86134b125e56896f8fd5",
+      "characters": 2013,
+      "entities": [
+        "Koru",
+        "Kül Tarlaları",
+        "Akhenten",
+        "Onbion",
+        "Primus",
+        "Tensar",
+        "Teom"
+      ]
+    },
+    {
+      "page": 77,
+      "sha256": "5efc3ff8137d6c5b541ef1d3bc09e604354a6c288815823ba24364ef9a3c9c9b",
+      "characters": 2408,
+      "entities": [
+        "Kül Tarlaları",
+        "Kuzgunyuvası",
+        "Akhenten",
+        "Onbion",
+        "Karah"
+      ]
+    },
+    {
+      "page": 78,
+      "sha256": "71bfd8d5e500169a03ab84ca023ca36a59574c9e1cc9ff253ee696593bbcc64e",
+      "characters": 2395,
+      "entities": [
+        "Koru",
+        "Akhenten",
+        "Onbion"
+      ]
+    },
+    {
+      "page": 79,
+      "sha256": "11c11a5654357204d9ad889e72c6c784b46ed44c34b1bfd1a324508bb6ad1bc3",
+      "characters": 2099,
+      "entities": [
+        "Akhenten",
+        "Onbion"
+      ]
+    },
+    {
+      "page": 80,
+      "sha256": "f76e9187476b4ba79ca30e89aa7c5613c1707a9e9f905ddb43db0abf110ff98c",
+      "characters": 2400,
+      "entities": [
+        "Akhenten",
+        "Onbion"
+      ]
+    },
+    {
+      "page": 81,
+      "sha256": "2bdfb239aecd42d444d07a188f3a4b3e6328ca70040563346c367bc61ccc649f",
+      "characters": 2307,
+      "entities": [
+        "Akhenten",
+        "Onbion"
+      ]
+    },
+    {
+      "page": 82,
+      "sha256": "088702fbd9ea17a37eb3ceda44ee804258e764b3f36d07bec9bea18f54c9562b",
+      "characters": 2267,
+      "entities": [
+        "Kırık Diş",
+        "Akhenten",
+        "Onbion",
+        "Fiona",
+        "Tensar"
+      ]
+    },
+    {
+      "page": 83,
+      "sha256": "bc84be2f1e65309e32a7d91755f6570bc3cce6710c6187a16be84e9e3e9c700e",
+      "characters": 2223,
+      "entities": [
+        "Koru",
+        "Manastır",
+        "Akhenten",
+        "Onbion",
+        "Fiona",
+        "Primus"
+      ]
+    },
+    {
+      "page": 84,
+      "sha256": "236b486a0e9d5ffaf67ce83c15559223e298881b76d6e33aa223a871dfc25616",
+      "characters": 2088,
+      "entities": [
+        "Manastır",
+        "Kuzgunyuvası",
+        "Ölüler Bataklığı",
+        "Akhenten",
+        "Onbion",
+        "Fiona",
+        "Primus"
+      ]
+    },
+    {
+      "page": 85,
+      "sha256": "b70273609f141a86aead8edd67c29150788ac150b542dbbafe84f8660969aa2c",
+      "characters": 407,
+      "entities": []
+    },
+    {
+      "page": 86,
+      "sha256": "5665db63c84b4bdf5975d64df71acc6ddd5b49442e12f8e1adc6d568eda5a4a2",
+      "characters": 1557,
+      "entities": [
+        "Valerus",
+        "Fiona"
+      ]
+    },
+    {
+      "page": 87,
+      "sha256": "a9e6a544db2b7fd70473cc66993ecb5057bb704f18d0d33c4ca92ed030f3bf14",
+      "characters": 1998,
+      "entities": [
+        "Kızıl Kale",
+        "Valerus",
+        "Fiona"
+      ]
+    },
+    {
+      "page": 88,
+      "sha256": "76e72965a70241e95489f3bedc7bbe301225b2bb66508f5707b46e9711eb3fb0",
+      "characters": 1964,
+      "entities": [
+        "Korvengrad",
+        "Fiona",
+        "Karah"
+      ]
+    },
+    {
+      "page": 89,
+      "sha256": "e16bcf865db7b4450fd9155d6111ddfc2234bdd238f1f08938056a5fd4cd9664",
+      "characters": 1741,
+      "entities": [
+        "Fiona",
+        "Karah"
+      ]
+    },
+    {
+      "page": 90,
+      "sha256": "a00528d0d2dcda65f4c7d22c9265ffc02b1836e01a69f748cc0dfc61eaf5184b",
+      "characters": 1553,
+      "entities": [
+        "Kızıl Kale",
+        "Fiona"
+      ]
+    },
+    {
+      "page": 91,
+      "sha256": "12e4b4f5f3af91977eb3240cb5abc92793ec3225ff72d602c9044c211392a0bb",
+      "characters": 2321,
+      "entities": [
+        "Kızıl Kale",
+        "Fiona"
+      ]
+    },
+    {
+      "page": 92,
+      "sha256": "f05728f91a2cddb0d4bdb511cfb6279a2b054099f3c76f6b0dbe8f6603465f7e",
+      "characters": 1679,
+      "entities": [
+        "Valerus",
+        "Fiona",
+        "Anzer",
+        "Vesemir"
+      ]
+    },
+    {
+      "page": 93,
+      "sha256": "99ca68b6dcac0ab45214a0df1f2350290f84caf0e77b08904e3f0a28601a1076",
+      "characters": 1863,
+      "entities": [
+        "Fiona",
+        "Anzer"
+      ]
+    },
+    {
+      "page": 94,
+      "sha256": "4c879ab0bfcdb998b49f1c0ef9d790a68b364c5fb82d5dc38d5f8f7eff8baeb4",
+      "characters": 2240,
+      "entities": [
+        "Valerus",
+        "Fiona",
+        "Anzer",
+        "Karah"
+      ]
+    },
+    {
+      "page": 95,
+      "sha256": "9ca8709e6f399044638528702fab7d52faa293c83ee3d3276bff5027999240af",
+      "characters": 1912,
+      "entities": [
+        "Valerus",
+        "Fiona",
+        "Primus",
+        "Anzer"
+      ]
+    },
+    {
+      "page": 96,
+      "sha256": "1e933918db993c98942fd738221989fb60cd52c6d2ac575afd3639fde4e4f04d",
+      "characters": 1783,
+      "entities": [
+        "Valerus",
+        "Fiona",
+        "Primus",
+        "Anzer",
+        "Shiro"
+      ]
+    },
+    {
+      "page": 97,
+      "sha256": "d33c498f8c8ca3717d76916132bf07a1adb25224b9affadbc46d360ae123dff9",
+      "characters": 1937,
+      "entities": [
+        "Koru",
+        "Kızıl Kale",
+        "Valerus",
+        "Fiona",
+        "Primus",
+        "Anzer"
+      ]
+    },
+    {
+      "page": 98,
+      "sha256": "6e43351a955f9e8a3b63ac8826e56a56064614a1e480536d3049ff0d71294553",
+      "characters": 2175,
+      "entities": [
+        "Kül Tarlaları",
+        "Kızıl Kale",
+        "Fiona",
+        "Primus",
+        "Anzer"
+      ]
+    },
+    {
+      "page": 99,
+      "sha256": "29ca573b76df30f5820e3a43972e5c6d06b831a8076071bfd61e24b18368a5bc",
+      "characters": 2005,
+      "entities": [
+        "Fiona",
+        "Primus",
+        "Anzer",
+        "Shiro"
+      ]
+    },
+    {
+      "page": 100,
+      "sha256": "55afdf986d0c6646044f1d36a685fcdad10fe3845094e651abf5a4558e514648",
+      "characters": 1061,
+      "entities": [
+        "Fiona"
+      ]
+    }
+  ]
+}

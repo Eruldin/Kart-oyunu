@@ -1,0 +1,69 @@
+{
+  "scope": "Screen and state design; no application code",
+  "flow": [
+    "title",
+    "first-run-story-or-continue",
+    "echo-select",
+    "chapter-map",
+    "chapter-brief",
+    "deck-review",
+    "match-intro",
+    "mulligan-proposal",
+    "battle",
+    "reward",
+    "chapter-map"
+  ],
+  "competitive": [
+    "chapter-map",
+    "competitive-lobby",
+    "matching-same-frontier",
+    "match-intro",
+    "battle",
+    "result",
+    "frontier-leaderboard"
+  ],
+  "first_run": {
+    "tutorials": [
+      "play-a-unit",
+      "attack-and-block",
+      "spell-response-and-preview"
+    ],
+    "skippable_for_returning_players": true
+  },
+  "frontier_ranking": {
+    "primary": "Furthest COMPLETED story encounter",
+    "within_frontier": "Competitive rating",
+    "matching": "Same completed frontier; show chapter badge before queue",
+    "spoilers": "Future chapter titles/art hidden until reached",
+    "scope": "User requirement; proposed detailed policy, not claimed to be LoR behavior"
+  },
+  "battle": {
+    "board_portrait_state": "Compact portrait + attack/health + keyword badges",
+    "hand_state": "Full illustration, frame, cost, name and inspectable rules",
+    "main_action_states": [
+      "Hamleyi bitir",
+      "Saldır",
+      "Savunmayı onayla",
+      "Yanıt ver",
+      "Rakip oynuyor"
+    ],
+    "target_confirmation": "Source, target, effect and resource cost all visible",
+    "combat_preview": "Projected damage and death indicators before commitment; design only, not earlier engine feature"
+  },
+  "opening": {
+    "main_action": "Başla / Devam et",
+    "motion": "Modelled candle flames, cloth motion and restrained fog; separate 3D scene",
+    "main_menu_priority": "Hikâyeye devam et",
+    "audio": "User starts interaction before music playback",
+    "credits": "Music attribution visible in Credits"
+  },
+  "missing_final_states": [
+    "Disconnect/reconnect",
+    "Timeout",
+    "Empty collection",
+    "Network failure",
+    "Long name / translated copy",
+    "Touch targeting",
+    "Screen reader and contrast acceptance"
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "units": "milliseconds",
+  "status": "Authored timing proposals; full game synchronization has not been tested",
+  "events": [
+    {
+      "event": "card.draw",
+      "anticipation_ms": 0,
+      "impact_ms": 120,
+      "end_ms": 300,
+      "audio": "09-audio/card-draw.ogg",
+      "effect_texture": null,
+      "clip": null,
+      "priority": "foreground",
+      "reduced_motion": "Fixed small effect + persistent target/value change, no camera shake",
+      "gain_db": -12
+    },
+    {
+      "event": "unit.summon",
+      "anticipation_ms": 80,
+      "impact_ms": 220,
+      "end_ms": 600,
+      "audio": "09-audio/cue-summon.wav",
+      "effect_texture": "06-vfx/summon-amber-texture-v1.png",
+      "clip": "06-vfx/animated-v2/summon-amber.glb",
+      "priority": "foreground",
+      "reduced_motion": "Fixed small effect + persistent target/value change, no camera shake",
+      "gain_db": -12
+    },
+    {
+      "event": "unit.attack",
+      "anticipation_ms": 120,
+      "impact_ms": 260,
+      "end_ms": 600,
+      "audio": "09-audio/cue-steel-impact.wav",
+      "effect_texture": "06-vfx/impact-silver-texture-v1.png",
+      "clip": "06-vfx/animated-v2/impact-silver.glb",
+      "priority": "foreground",
+      "reduced_motion": "Fixed small effect + persistent target/value change, no camera shake",
+      "gain_db": -12
+    },
+    {
+      "event": "spell.damage",
+      "anticipation_ms": 100,
+      "impact_ms": 200,
+      "end_ms": 450,
+      "audio": "09-audio/cue-steel-impact.wav",
+      "effect_texture": "06-vfx/impact-silver-texture-v1.png",
+      "clip": "06-vfx/animated-v2/impact-silver.glb",
+      "priority": "foreground",
+      "reduced_motion": "Fixed small effect + persistent target/value change, no camera shake",
+      "gain_db": -12
+    },
+    {
+      "event": "spell.heal",
+      "anticipation_ms": 80,
+      "impact_ms": 200,
+      "end_ms": 650,
+      "audio": "09-audio/cue-heal.wav",
+      "effect_texture": "06-vfx/heal-gold-green-texture-v1.png",
+      "clip": "06-vfx/animated-v2/heal-gold-green.glb",
+      "priority": "foreground",
+      "reduced_motion": "Fixed small effect + persistent target/value change, no camera shake",
+      "gain_db": -12
+    },
+    {
+      "event": "spell.memory",
+      "anticipation_ms": 100,
+      "impact_ms": 260,
+      "end_ms": 750,
+      "audio": "09-audio/cue-memory.wav",
+      "effect_texture": "06-vfx/white-echo-texture-v1.png",
+      "clip": "06-vfx/animated-v2/white-echo.glb",
+      "priority": "foreground",
+      "reduced_motion": "Fixed small effect + persistent target/value change, no camera shake",
+      "gain_db": -12
+    },
+    {
+      "event": "spell.void",
+      "anticipation_ms": 100,
+      "impact_ms": 280,
+      "end_ms": 700,
+      "audio": "09-audio/cue-void.wav",
+      "effect_texture": "06-vfx/karah-ink-texture-v1.png",
+      "clip": "06-vfx/animated-v2/karah-ink.glb",
+      "priority": "foreground",
+      "reduced_motion": "Fixed small effect + persistent target/value change, no camera shake",
+      "gain_db": -12
+    },
+    {
+      "event": "echo.ultimate",
+      "anticipation_ms": 260,
+      "impact_ms": 650,
+      "end_ms": 1500,
+      "audio": "09-audio/cue-ultimate.wav",
+      "effect_texture": "06-vfx/white-echo-texture-v1.png",
+      "clip": "06-vfx/animated-v2/white-echo.glb",
+      "priority": "hero",
+      "reduced_motion": "Fixed small effect + persistent target/value change, no camera shake",
+      "gain_db": -8
+    },
+    {
+      "event": "match.victory",
+      "anticipation_ms": 200,
+      "impact_ms": 400,
+      "end_ms": 1400,
+      "audio": "09-audio/cue-victory.wav",
+      "effect_texture": "06-vfx/victory-shards-texture-v1.png",
+      "clip": "06-vfx/animated-v2/victory-shards.glb",
+      "priority": "foreground",
+      "reduced_motion": "Fixed small effect + persistent target/value change, no camera shake",
+      "gain_db": -12
+    }
+  ],
+  "mix": {
+    "music_gain_db": -22,
+    "ambience_gain_db": -28,
+    "ui_gain_db": -18,
+    "ultimate_music_duck_db": -6,
+    "attack_camera_shake_max_px": 2,
+    "environment_never_masks_rules": true,
+    "mute_music_and_sfx_separately": true
+  }
+}

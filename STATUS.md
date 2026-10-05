@@ -1,5 +1,15 @@
 # Eruldin çalışma durumu — 5 Ekim 2026
 
+## 6 Ekim 2026 — sanat paketi v2
+
+Kapsam tasarım ve assetler olarak korundu. Resmî LoR videosunda açılış, kart/büyü yerleşimi, karşı hamle ve öngörü bölümleri; Riot'un 2022 Path of Champions rehberindeki menü/harita/karakter seçimi görüntüleri tarayıcıda incelendi. Güncel istemciyi tamamen oynayarak inceleme iddiası yok.
+
+Üretildi: altı yeni aksiyon kart resmi; açılış ve gözden geçirilmiş savaş konsepti; iki kompakt tahta çerçevesi, ana eylem parçası ve kart arkası; gerçek font/metinle 12 kart provası içeren 8 sayfalık PDF; ayrı Blender VFX sahnesi ve altı 1,5 saniyelik GLB klibi; 24 kayıt/cue/müzik dosyası ve kaynak/lisansları; 12 kart için resim/efekt/ses bağlantı verisi, olay zamanları, ekran/durum akışı. Teslim: `Eruldin-Tasarim-ve-Asset-Paketi-v2.zip`.
+
+Doğrulama: PDF'nin 8 sayfası render edildi; font ağırlığı ve eksik başlık glifleri düzeltildi. RGBA çerçeve pencereleri alpha 0, veri referansları mevcut, VFX GLB'lerinde animasyon/gömülü resim/BLEND/süre/harici URI kontrolü geçti. 24 ses teknik olarak çözüldü; dinleme/mastering kabulü yapılmadı. ZIP bütünlüğü kontrol edildi, uygulama/script içermiyor. Önceki oyun motoru değişmedi; oyun içi entegrasyon ve senkronizasyon testi bu kapsamda yapılmadı.
+
+Final kalite için 3D sculpt/PBR/UV/LOD, çerçevelerde ortak geometri/ölçek temizliği, bütün UI durumları, hedef/etki oyun içi senkronizasyonu, ses miksajı ve insan/cihaz testleri bekliyor. Yeni VFX klipleri dokulu düzlem + mesh parçalarıdır; sıvı simülasyonu/flipbook değildir. Önceki aşama kaydı aşağıda korunmuştur.
+
 ## Kullanıcının güncel yönü
 
 Son açıklama: **Şimdilik yalnızca tasarım ve asset paketi.** Kodla çizilmiş görseller yerine resmedilmiş/üretilmiş assetler; LoR'un arayüz, illüstrasyon, tahta ve efekt üretim mantığının ayrıntılı araştırılması. Mevcut prototip korunuyor; yeni çalışma `design-pack` klasöründe bağımsız sanat teslimidir.

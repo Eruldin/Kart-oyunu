@@ -1,5 +1,15 @@
 # Eruldin: Yankılar
 
+## Güncel tasarım ve asset paketi — V4
+
+- [V4 paketini indir](Eruldin-Tasarim-ve-Asset-Paketi-v4.zip)
+- [Kart çerçeveleri inceleme PDF’i](design-pack/07-production/Eruldin-Kart-Cerceveleri-v4.pdf)
+- [V4 paket açıklaması](design-pack/README-v4.txt)
+- [Harita ve düşmanlar PDF’i](design-pack/07-production/Eruldin-Harita-ve-Dusmanlar-v3.pdf)
+
+ZIP arşivleri Git LFS ile saklanır. Tam dosyaları indirmek için Git LFS kurulu olmalı; depoyu klonladıktan sonra `git lfs pull` çalıştırılabilir.
+
+
 **Güncel çalışma: tasarım ve asset paketi.** Kullanıcının son yönlendirmesiyle yeni geliştirme `design-pack/` klasöründeki sanat üretimine çevrildi. Aşağıdaki oynanabilir prototip önceki çalışmadır; asset paketini incelemek için çalıştırılması gerekmez. Güncel durum `STATUS.md` içinde.
 
 Hikâyede ulaştığın en uzak noktaya göre sıralandığın, aynı hikâye katmanında düello yaptığın özgün kart oyununun ilk oynanabilir sürümü.

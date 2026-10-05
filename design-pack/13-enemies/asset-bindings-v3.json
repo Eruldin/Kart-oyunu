@@ -1,0 +1,819 @@
+{
+  "scope": "tasarım paketi veri bağlantıları; uygulama entegrasyonu değildir",
+  "defaults": {
+    "card_unit_frame": "04-card-frames/unit-frame-v1.png",
+    "audio_attack": "09-audio/cue-steel-impact.wav",
+    "vfx_hit": "06-vfx/animated-v2/impact-silver.glb"
+  },
+  "families": [
+    {
+      "family_id": "karah-crawler",
+      "portrait_asset": "13-enemies/art/karah-crawler-concept-v3.png",
+      "art_status": "ilk aile konsepti hazır; her profil için ayrı sanat bekliyor",
+      "signature_card_ids": [
+        "karah-crawler-izci-signature",
+        "karah-crawler-surucu-signature",
+        "karah-crawler-avci-signature",
+        "karah-crawler-muhafiz-signature",
+        "karah-crawler-duellocu-signature",
+        "karah-crawler-kusatmaci-signature",
+        "karah-crawler-pusucu-signature",
+        "karah-crawler-buyucu-signature",
+        "karah-crawler-toplayici-signature",
+        "karah-crawler-karsici-signature",
+        "karah-crawler-dirilen-signature",
+        "karah-crawler-donusturucu-signature",
+        "karah-crawler-tuketici-signature",
+        "karah-crawler-koruyucu-signature",
+        "karah-crawler-elit-signature",
+        "karah-crawler-reis-signature"
+      ],
+      "map_regions": [
+        "Korvengrad",
+        "Serath"
+      ],
+      "palette": "Zift siyahı / kemik beyazı",
+      "audio_note": "Mevcut v2 ses havuzundan seçim; ailelere özgü kayıt/mastering sonraki üretim.",
+      "combat_asset_design": {
+        "impact_sound": "09-audio/cue-void.wav",
+        "impact_clip": "06-vfx/animated-v2/karah-ink.glb",
+        "anticipation_ms": 220,
+        "impact_ms": 460,
+        "recover_ms": 900,
+        "status": "Veri bağlantısı; motor entegrasyonu yapılmadı. Aileye özel final VFX/ses henüz ayrı üretilmedi."
+      }
+    },
+    {
+      "family_id": "karah-armored",
+      "portrait_asset": "13-enemies/art/karah-armored-concept-v3.png",
+      "art_status": "ilk aile konsepti hazır; her profil için ayrı sanat bekliyor",
+      "signature_card_ids": [
+        "karah-armored-izci-signature",
+        "karah-armored-surucu-signature",
+        "karah-armored-avci-signature",
+        "karah-armored-muhafiz-signature",
+        "karah-armored-duellocu-signature",
+        "karah-armored-kusatmaci-signature",
+        "karah-armored-pusucu-signature",
+        "karah-armored-buyucu-signature",
+        "karah-armored-toplayici-signature",
+        "karah-armored-karsici-signature",
+        "karah-armored-dirilen-signature",
+        "karah-armored-donusturucu-signature",
+        "karah-armored-tuketici-signature",
+        "karah-armored-koruyucu-signature",
+        "karah-armored-elit-signature",
+        "karah-armored-reis-signature"
+      ],
+      "map_regions": [
+        "Korvengrad",
+        "Shi Qra"
+      ],
+      "palette": "Mat obsidyen / kirli gümüş",
+      "audio_note": "Mevcut v2 ses havuzundan seçim; ailelere özgü kayıt/mastering sonraki üretim.",
+      "combat_asset_design": {
+        "impact_sound": "09-audio/cue-void.wav",
+        "impact_clip": "06-vfx/animated-v2/karah-ink.glb",
+        "anticipation_ms": 220,
+        "impact_ms": 460,
+        "recover_ms": 900,
+        "status": "Veri bağlantısı; motor entegrasyonu yapılmadı. Aileye özel final VFX/ses henüz ayrı üretilmedi."
+      }
+    },
+    {
+      "family_id": "karah-stalker",
+      "portrait_asset": null,
+      "art_status": "bekleyen tekil görsel",
+      "signature_card_ids": [
+        "karah-stalker-izci-signature",
+        "karah-stalker-surucu-signature",
+        "karah-stalker-avci-signature",
+        "karah-stalker-muhafiz-signature",
+        "karah-stalker-duellocu-signature",
+        "karah-stalker-kusatmaci-signature",
+        "karah-stalker-pusucu-signature",
+        "karah-stalker-buyucu-signature",
+        "karah-stalker-toplayici-signature",
+        "karah-stalker-karsici-signature",
+        "karah-stalker-dirilen-signature",
+        "karah-stalker-donusturucu-signature",
+        "karah-stalker-tuketici-signature",
+        "karah-stalker-koruyucu-signature",
+        "karah-stalker-elit-signature",
+        "karah-stalker-reis-signature"
+      ],
+      "map_regions": [
+        "Kül Tarlaları",
+        "Aldemir"
+      ],
+      "palette": "Kurum / soğuk mor",
+      "audio_note": "Mevcut v2 ses havuzundan seçim; ailelere özgü kayıt/mastering sonraki üretim.",
+      "combat_asset_design": {
+        "impact_sound": "09-audio/cue-void.wav",
+        "impact_clip": "06-vfx/animated-v2/karah-ink.glb",
+        "anticipation_ms": 220,
+        "impact_ms": 460,
+        "recover_ms": 900,
+        "status": "Veri bağlantısı; motor entegrasyonu yapılmadı. Aileye özel final VFX/ses henüz ayrı üretilmedi."
+      }
+    },
+    {
+      "family_id": "korvengrad-watch",
+      "portrait_asset": "13-enemies/art/korvengrad-watch-concept-v3.png",
+      "art_status": "ilk aile konsepti hazır; her profil için ayrı sanat bekliyor",
+      "signature_card_ids": [
+        "korvengrad-watch-izci-signature",
+        "korvengrad-watch-surucu-signature",
+        "korvengrad-watch-avci-signature",
+        "korvengrad-watch-muhafiz-signature",
+        "korvengrad-watch-duellocu-signature",
+        "korvengrad-watch-kusatmaci-signature",
+        "korvengrad-watch-pusucu-signature",
+        "korvengrad-watch-buyucu-signature",
+        "korvengrad-watch-toplayici-signature",
+        "korvengrad-watch-karsici-signature",
+        "korvengrad-watch-dirilen-signature",
+        "korvengrad-watch-donusturucu-signature",
+        "korvengrad-watch-tuketici-signature",
+        "korvengrad-watch-koruyucu-signature",
+        "korvengrad-watch-elit-signature",
+        "korvengrad-watch-reis-signature"
+      ],
+      "map_regions": [
+        "Korvengrad",
+        "Teomli"
+      ],
+      "palette": "Gri taş / soluk pirinç",
+      "audio_note": "Mevcut v2 ses havuzundan seçim; ailelere özgü kayıt/mastering sonraki üretim.",
+      "combat_asset_design": {
+        "impact_sound": "09-audio/cue-steel-impact.wav",
+        "impact_clip": "06-vfx/animated-v2/impact-silver.glb",
+        "anticipation_ms": 220,
+        "impact_ms": 460,
+        "recover_ms": 900,
+        "status": "Veri bağlantısı; motor entegrasyonu yapılmadı. Aileye özel final VFX/ses henüz ayrı üretilmedi."
+      }
+    },
+    {
+      "family_id": "korvengrad-corrupt",
+      "portrait_asset": "13-enemies/art/korvengrad-corrupt-concept-v3.png",
+      "art_status": "ilk aile konsepti hazır; her profil için ayrı sanat bekliyor",
+      "signature_card_ids": [
+        "korvengrad-corrupt-izci-signature",
+        "korvengrad-corrupt-surucu-signature",
+        "korvengrad-corrupt-avci-signature",
+        "korvengrad-corrupt-muhafiz-signature",
+        "korvengrad-corrupt-duellocu-signature",
+        "korvengrad-corrupt-kusatmaci-signature",
+        "korvengrad-corrupt-pusucu-signature",
+        "korvengrad-corrupt-buyucu-signature",
+        "korvengrad-corrupt-toplayici-signature",
+        "korvengrad-corrupt-karsici-signature",
+        "korvengrad-corrupt-dirilen-signature",
+        "korvengrad-corrupt-donusturucu-signature",
+        "korvengrad-corrupt-tuketici-signature",
+        "korvengrad-corrupt-koruyucu-signature",
+        "korvengrad-corrupt-elit-signature",
+        "korvengrad-corrupt-reis-signature"
+      ],
+      "map_regions": [
+        "Korvengrad",
+        "Serath"
+      ],
+      "palette": "Pas / koyu bordo",
+      "audio_note": "Mevcut v2 ses havuzundan seçim; ailelere özgü kayıt/mastering sonraki üretim.",
+      "combat_asset_design": {
+        "impact_sound": "09-audio/cue-steel-impact.wav",
+        "impact_clip": "06-vfx/animated-v2/impact-silver.glb",
+        "anticipation_ms": 220,
+        "impact_ms": 460,
+        "recover_ms": 900,
+        "status": "Veri bağlantısı; motor entegrasyonu yapılmadı. Aileye özel final VFX/ses henüz ayrı üretilmedi."
+      }
+    },
+    {
+      "family_id": "koru-jail",
+      "portrait_asset": "13-enemies/art/koru-jail-concept-v3.png",
+      "art_status": "ilk aile konsepti hazır; her profil için ayrı sanat bekliyor",
+      "signature_card_ids": [
+        "koru-jail-izci-signature",
+        "koru-jail-surucu-signature",
+        "koru-jail-avci-signature",
+        "koru-jail-muhafiz-signature",
+        "koru-jail-duellocu-signature",
+        "koru-jail-kusatmaci-signature",
+        "koru-jail-pusucu-signature",
+        "koru-jail-buyucu-signature",
+        "koru-jail-toplayici-signature",
+        "koru-jail-karsici-signature",
+        "koru-jail-dirilen-signature",
+        "koru-jail-donusturucu-signature",
+        "koru-jail-tuketici-signature",
+        "koru-jail-koruyucu-signature",
+        "koru-jail-elit-signature",
+        "koru-jail-reis-signature"
+      ],
+      "map_regions": [
+        "Koru",
+        "Shi Qra"
+      ],
+      "palette": "Demir / mantar kehribarı",
+      "audio_note": "Mevcut v2 ses havuzundan seçim; ailelere özgü kayıt/mastering sonraki üretim.",
+      "combat_asset_design": {
+        "impact_sound": "09-audio/cue-steel-impact.wav",
+        "impact_clip": "06-vfx/animated-v2/impact-silver.glb",
+        "anticipation_ms": 220,
+        "impact_ms": 460,
+        "recover_ms": 900,
+        "status": "Veri bağlantısı; motor entegrasyonu yapılmadı. Aileye özel final VFX/ses henüz ayrı üretilmedi."
+      }
+    },
+    {
+      "family_id": "koru-forge",
+      "portrait_asset": null,
+      "art_status": "bekleyen tekil görsel",
+      "signature_card_ids": [
+        "koru-forge-izci-signature",
+        "koru-forge-surucu-signature",
+        "koru-forge-avci-signature",
+        "koru-forge-muhafiz-signature",
+        "koru-forge-duellocu-signature",
+        "koru-forge-kusatmaci-signature",
+        "koru-forge-pusucu-signature",
+        "koru-forge-buyucu-signature",
+        "koru-forge-toplayici-signature",
+        "koru-forge-karsici-signature",
+        "koru-forge-dirilen-signature",
+        "koru-forge-donusturucu-signature",
+        "koru-forge-tuketici-signature",
+        "koru-forge-koruyucu-signature",
+        "koru-forge-elit-signature",
+        "koru-forge-reis-signature"
+      ],
+      "map_regions": [
+        "Koru",
+        "Shi Qra"
+      ],
+      "palette": "Koyu çelik / köz turuncusu",
+      "audio_note": "Mevcut v2 ses havuzundan seçim; ailelere özgü kayıt/mastering sonraki üretim.",
+      "combat_asset_design": {
+        "impact_sound": "09-audio/cue-steel-impact.wav",
+        "impact_clip": "06-vfx/animated-v2/impact-silver.glb",
+        "anticipation_ms": 220,
+        "impact_ms": 460,
+        "recover_ms": 900,
+        "status": "Veri bağlantısı; motor entegrasyonu yapılmadı. Aileye özel final VFX/ses henüz ayrı üretilmedi."
+      }
+    },
+    {
+      "family_id": "valerus-loyal",
+      "portrait_asset": "13-enemies/art/valerus-loyal-concept-v3.png",
+      "art_status": "ilk aile konsepti hazır; her profil için ayrı sanat bekliyor",
+      "signature_card_ids": [
+        "valerus-loyal-izci-signature",
+        "valerus-loyal-surucu-signature",
+        "valerus-loyal-avci-signature",
+        "valerus-loyal-muhafiz-signature",
+        "valerus-loyal-duellocu-signature",
+        "valerus-loyal-kusatmaci-signature",
+        "valerus-loyal-pusucu-signature",
+        "valerus-loyal-buyucu-signature",
+        "valerus-loyal-toplayici-signature",
+        "valerus-loyal-karsici-signature",
+        "valerus-loyal-dirilen-signature",
+        "valerus-loyal-donusturucu-signature",
+        "valerus-loyal-tuketici-signature",
+        "valerus-loyal-koruyucu-signature",
+        "valerus-loyal-elit-signature",
+        "valerus-loyal-reis-signature"
+      ],
+      "map_regions": [
+        "Koru",
+        "Teomli"
+      ],
+      "palette": "Parlak çelik / siyah kırmızı",
+      "audio_note": "Mevcut v2 ses havuzundan seçim; ailelere özgü kayıt/mastering sonraki üretim.",
+      "combat_asset_design": {
+        "impact_sound": "09-audio/cue-steel-impact.wav",
+        "impact_clip": "06-vfx/animated-v2/impact-silver.glb",
+        "anticipation_ms": 220,
+        "impact_ms": 460,
+        "recover_ms": 900,
+        "status": "Veri bağlantısı; motor entegrasyonu yapılmadı. Aileye özel final VFX/ses henüz ayrı üretilmedi."
+      }
+    },
+    {
+      "family_id": "council",
+      "portrait_asset": "13-enemies/art/council-concept-v3.png",
+      "art_status": "ilk aile konsepti hazır; her profil için ayrı sanat bekliyor",
+      "signature_card_ids": [
+        "council-izci-signature",
+        "council-surucu-signature",
+        "council-avci-signature",
+        "council-muhafiz-signature",
+        "council-duellocu-signature",
+        "council-kusatmaci-signature",
+        "council-pusucu-signature",
+        "council-buyucu-signature",
+        "council-toplayici-signature",
+        "council-karsici-signature",
+        "council-dirilen-signature",
+        "council-donusturucu-signature",
+        "council-tuketici-signature",
+        "council-koruyucu-signature",
+        "council-elit-signature",
+        "council-reis-signature"
+      ],
+      "map_regions": [
+        "Kızıl Kale",
+        "Val Teresh"
+      ],
+      "palette": "Siyah / koyu şarap",
+      "audio_note": "Mevcut v2 ses havuzundan seçim; ailelere özgü kayıt/mastering sonraki üretim.",
+      "combat_asset_design": {
+        "impact_sound": "09-audio/cue-memory.wav",
+        "impact_clip": "06-vfx/animated-v2/white-echo.glb",
+        "anticipation_ms": 220,
+        "impact_ms": 460,
+        "recover_ms": 900,
+        "status": "Veri bağlantısı; motor entegrasyonu yapılmadı. Aileye özel final VFX/ses henüz ayrı üretilmedi."
+      }
+    },
+    {
+      "family_id": "butterfly-guard",
+      "portrait_asset": "13-enemies/art/butterfly-guard-concept-v3.png",
+      "art_status": "ilk aile konsepti hazır; her profil için ayrı sanat bekliyor",
+      "signature_card_ids": [
+        "butterfly-guard-izci-signature",
+        "butterfly-guard-surucu-signature",
+        "butterfly-guard-avci-signature",
+        "butterfly-guard-muhafiz-signature",
+        "butterfly-guard-duellocu-signature",
+        "butterfly-guard-kusatmaci-signature",
+        "butterfly-guard-pusucu-signature",
+        "butterfly-guard-buyucu-signature",
+        "butterfly-guard-toplayici-signature",
+        "butterfly-guard-karsici-signature",
+        "butterfly-guard-dirilen-signature",
+        "butterfly-guard-donusturucu-signature",
+        "butterfly-guard-tuketici-signature",
+        "butterfly-guard-koruyucu-signature",
+        "butterfly-guard-elit-signature",
+        "butterfly-guard-reis-signature"
+      ],
+      "map_regions": [
+        "Kızıl Kale",
+        "Val Teresh"
+      ],
+      "palette": "Koyu kızıl / siyah metal",
+      "audio_note": "Mevcut v2 ses havuzundan seçim; ailelere özgü kayıt/mastering sonraki üretim.",
+      "combat_asset_design": {
+        "impact_sound": "09-audio/cue-steel-impact.wav",
+        "impact_clip": "06-vfx/animated-v2/impact-silver.glb",
+        "anticipation_ms": 220,
+        "impact_ms": 460,
+        "recover_ms": 900,
+        "status": "Veri bağlantısı; motor entegrasyonu yapılmadı. Aileye özel final VFX/ses henüz ayrı üretilmedi."
+      }
+    },
+    {
+      "family_id": "living-fortress",
+      "portrait_asset": null,
+      "art_status": "bekleyen tekil görsel",
+      "signature_card_ids": [
+        "living-fortress-izci-signature",
+        "living-fortress-surucu-signature",
+        "living-fortress-avci-signature",
+        "living-fortress-muhafiz-signature",
+        "living-fortress-duellocu-signature",
+        "living-fortress-kusatmaci-signature",
+        "living-fortress-pusucu-signature",
+        "living-fortress-buyucu-signature",
+        "living-fortress-toplayici-signature",
+        "living-fortress-karsici-signature",
+        "living-fortress-dirilen-signature",
+        "living-fortress-donusturucu-signature",
+        "living-fortress-tuketici-signature",
+        "living-fortress-koruyucu-signature",
+        "living-fortress-elit-signature",
+        "living-fortress-reis-signature"
+      ],
+      "map_regions": [
+        "Kızıl Kale",
+        "Val Teresh"
+      ],
+      "palette": "Kan taşı / siyah damar",
+      "audio_note": "Mevcut v2 ses havuzundan seçim; ailelere özgü kayıt/mastering sonraki üretim.",
+      "combat_asset_design": {
+        "impact_sound": "09-audio/cue-memory.wav",
+        "impact_clip": "06-vfx/animated-v2/white-echo.glb",
+        "anticipation_ms": 220,
+        "impact_ms": 460,
+        "recover_ms": 900,
+        "status": "Veri bağlantısı; motor entegrasyonu yapılmadı. Aileye özel final VFX/ses henüz ayrı üretilmedi."
+      }
+    },
+    {
+      "family_id": "ash-scavenger",
+      "portrait_asset": "13-enemies/art/ash-scavenger-concept-v3.png",
+      "art_status": "ilk aile konsepti hazır; her profil için ayrı sanat bekliyor",
+      "signature_card_ids": [
+        "ash-scavenger-izci-signature",
+        "ash-scavenger-surucu-signature",
+        "ash-scavenger-avci-signature",
+        "ash-scavenger-muhafiz-signature",
+        "ash-scavenger-duellocu-signature",
+        "ash-scavenger-kusatmaci-signature",
+        "ash-scavenger-pusucu-signature",
+        "ash-scavenger-buyucu-signature",
+        "ash-scavenger-toplayici-signature",
+        "ash-scavenger-karsici-signature",
+        "ash-scavenger-dirilen-signature",
+        "ash-scavenger-donusturucu-signature",
+        "ash-scavenger-tuketici-signature",
+        "ash-scavenger-koruyucu-signature",
+        "ash-scavenger-elit-signature",
+        "ash-scavenger-reis-signature"
+      ],
+      "map_regions": [
+        "Kül Tarlaları",
+        "Serath"
+      ],
+      "palette": "Kül beji / eski bakır",
+      "audio_note": "Mevcut v2 ses havuzundan seçim; ailelere özgü kayıt/mastering sonraki üretim.",
+      "combat_asset_design": {
+        "impact_sound": "09-audio/cue-steel-impact.wav",
+        "impact_clip": "06-vfx/animated-v2/impact-silver.glb",
+        "anticipation_ms": 220,
+        "impact_ms": 460,
+        "recover_ms": 900,
+        "status": "Veri bağlantısı; motor entegrasyonu yapılmadı. Aileye özel final VFX/ses henüz ayrı üretilmedi."
+      }
+    },
+    {
+      "family_id": "marsh-visions",
+      "portrait_asset": "13-enemies/art/marsh-visions-concept-v3.png",
+      "art_status": "ilk aile konsepti hazır; her profil için ayrı sanat bekliyor",
+      "signature_card_ids": [
+        "marsh-visions-izci-signature",
+        "marsh-visions-surucu-signature",
+        "marsh-visions-avci-signature",
+        "marsh-visions-muhafiz-signature",
+        "marsh-visions-duellocu-signature",
+        "marsh-visions-kusatmaci-signature",
+        "marsh-visions-pusucu-signature",
+        "marsh-visions-buyucu-signature",
+        "marsh-visions-toplayici-signature",
+        "marsh-visions-karsici-signature",
+        "marsh-visions-dirilen-signature",
+        "marsh-visions-donusturucu-signature",
+        "marsh-visions-tuketici-signature",
+        "marsh-visions-koruyucu-signature",
+        "marsh-visions-elit-signature",
+        "marsh-visions-reis-signature"
+      ],
+      "map_regions": [
+        "Ölüler Bataklığı",
+        "Aldemir"
+      ],
+      "palette": "Solgun yeşil / çamur",
+      "audio_note": "Mevcut v2 ses havuzundan seçim; ailelere özgü kayıt/mastering sonraki üretim.",
+      "combat_asset_design": {
+        "impact_sound": "09-audio/cue-memory.wav",
+        "impact_clip": "06-vfx/animated-v2/white-echo.glb",
+        "anticipation_ms": 220,
+        "impact_ms": 460,
+        "recover_ms": 900,
+        "status": "Veri bağlantısı; motor entegrasyonu yapılmadı. Aileye özel final VFX/ses henüz ayrı üretilmedi."
+      }
+    },
+    {
+      "family_id": "pass-raiders",
+      "portrait_asset": null,
+      "art_status": "bekleyen tekil görsel",
+      "signature_card_ids": [
+        "pass-raiders-izci-signature",
+        "pass-raiders-surucu-signature",
+        "pass-raiders-avci-signature",
+        "pass-raiders-muhafiz-signature",
+        "pass-raiders-duellocu-signature",
+        "pass-raiders-kusatmaci-signature",
+        "pass-raiders-pusucu-signature",
+        "pass-raiders-buyucu-signature",
+        "pass-raiders-toplayici-signature",
+        "pass-raiders-karsici-signature",
+        "pass-raiders-dirilen-signature",
+        "pass-raiders-donusturucu-signature",
+        "pass-raiders-tuketici-signature",
+        "pass-raiders-koruyucu-signature",
+        "pass-raiders-elit-signature",
+        "pass-raiders-reis-signature"
+      ],
+      "map_regions": [
+        "Kırık Diş Geçidi",
+        "Serath"
+      ],
+      "palette": "Koyu deri / kaya grisi",
+      "audio_note": "Mevcut v2 ses havuzundan seçim; ailelere özgü kayıt/mastering sonraki üretim.",
+      "combat_asset_design": {
+        "impact_sound": "09-audio/cue-steel-impact.wav",
+        "impact_clip": "06-vfx/animated-v2/impact-silver.glb",
+        "anticipation_ms": 220,
+        "impact_ms": 460,
+        "recover_ms": 900,
+        "status": "Veri bağlantısı; motor entegrasyonu yapılmadı. Aileye özel final VFX/ses henüz ayrı üretilmedi."
+      }
+    },
+    {
+      "family_id": "shi-qra-outlaws",
+      "portrait_asset": "13-enemies/art/shi-qra-outlaws-concept-reviewed-v3.png",
+      "art_status": "ilk aile konsepti hazır; her profil için ayrı sanat bekliyor",
+      "signature_card_ids": [
+        "shi-qra-outlaws-izci-signature",
+        "shi-qra-outlaws-surucu-signature",
+        "shi-qra-outlaws-avci-signature",
+        "shi-qra-outlaws-muhafiz-signature",
+        "shi-qra-outlaws-duellocu-signature",
+        "shi-qra-outlaws-kusatmaci-signature",
+        "shi-qra-outlaws-pusucu-signature",
+        "shi-qra-outlaws-buyucu-signature",
+        "shi-qra-outlaws-toplayici-signature",
+        "shi-qra-outlaws-karsici-signature",
+        "shi-qra-outlaws-dirilen-signature",
+        "shi-qra-outlaws-donusturucu-signature",
+        "shi-qra-outlaws-tuketici-signature",
+        "shi-qra-outlaws-koruyucu-signature",
+        "shi-qra-outlaws-elit-signature",
+        "shi-qra-outlaws-reis-signature"
+      ],
+      "map_regions": [
+        "Shi Qra"
+      ],
+      "palette": "Demir / kızıl keçe",
+      "audio_note": "Mevcut v2 ses havuzundan seçim; ailelere özgü kayıt/mastering sonraki üretim.",
+      "combat_asset_design": {
+        "impact_sound": "09-audio/cue-steel-impact.wav",
+        "impact_clip": "06-vfx/animated-v2/impact-silver.glb",
+        "anticipation_ms": 220,
+        "impact_ms": 460,
+        "recover_ms": 900,
+        "status": "Veri bağlantısı; motor entegrasyonu yapılmadı. Aileye özel final VFX/ses henüz ayrı üretilmedi."
+      }
+    },
+    {
+      "family_id": "forest-predators",
+      "portrait_asset": null,
+      "art_status": "bekleyen tekil görsel",
+      "signature_card_ids": [
+        "forest-predators-izci-signature",
+        "forest-predators-surucu-signature",
+        "forest-predators-avci-signature",
+        "forest-predators-muhafiz-signature",
+        "forest-predators-duellocu-signature",
+        "forest-predators-kusatmaci-signature",
+        "forest-predators-pusucu-signature",
+        "forest-predators-buyucu-signature",
+        "forest-predators-toplayici-signature",
+        "forest-predators-karsici-signature",
+        "forest-predators-dirilen-signature",
+        "forest-predators-donusturucu-signature",
+        "forest-predators-tuketici-signature",
+        "forest-predators-koruyucu-signature",
+        "forest-predators-elit-signature",
+        "forest-predators-reis-signature"
+      ],
+      "map_regions": [
+        "Aldemir"
+      ],
+      "palette": "Yosun / safir yeşil",
+      "audio_note": "Mevcut v2 ses havuzundan seçim; ailelere özgü kayıt/mastering sonraki üretim.",
+      "combat_asset_design": {
+        "impact_sound": "09-audio/hit-heavy.ogg",
+        "impact_clip": "06-vfx/animated-v2/impact-silver.glb",
+        "anticipation_ms": 220,
+        "impact_ms": 460,
+        "recover_ms": 900,
+        "status": "Veri bağlantısı; motor entegrasyonu yapılmadı. Aileye özel final VFX/ses henüz ayrı üretilmedi."
+      }
+    },
+    {
+      "family_id": "desert-hunters",
+      "portrait_asset": null,
+      "art_status": "bekleyen tekil görsel",
+      "signature_card_ids": [
+        "desert-hunters-izci-signature",
+        "desert-hunters-surucu-signature",
+        "desert-hunters-avci-signature",
+        "desert-hunters-muhafiz-signature",
+        "desert-hunters-duellocu-signature",
+        "desert-hunters-kusatmaci-signature",
+        "desert-hunters-pusucu-signature",
+        "desert-hunters-buyucu-signature",
+        "desert-hunters-toplayici-signature",
+        "desert-hunters-karsici-signature",
+        "desert-hunters-dirilen-signature",
+        "desert-hunters-donusturucu-signature",
+        "desert-hunters-tuketici-signature",
+        "desert-hunters-koruyucu-signature",
+        "desert-hunters-elit-signature",
+        "desert-hunters-reis-signature"
+      ],
+      "map_regions": [
+        "Zağra Khur"
+      ],
+      "palette": "Kum altını / obsidyen",
+      "audio_note": "Mevcut v2 ses havuzundan seçim; ailelere özgü kayıt/mastering sonraki üretim.",
+      "combat_asset_design": {
+        "impact_sound": "09-audio/hit-heavy.ogg",
+        "impact_clip": "06-vfx/animated-v2/impact-silver.glb",
+        "anticipation_ms": 220,
+        "impact_ms": 460,
+        "recover_ms": 900,
+        "status": "Veri bağlantısı; motor entegrasyonu yapılmadı. Aileye özel final VFX/ses henüz ayrı üretilmedi."
+      }
+    },
+    {
+      "family_id": "frost-predators",
+      "portrait_asset": "13-enemies/art/frost-predators-concept-v3.png",
+      "art_status": "ilk aile konsepti hazır; her profil için ayrı sanat bekliyor",
+      "signature_card_ids": [
+        "frost-predators-izci-signature",
+        "frost-predators-surucu-signature",
+        "frost-predators-avci-signature",
+        "frost-predators-muhafiz-signature",
+        "frost-predators-duellocu-signature",
+        "frost-predators-kusatmaci-signature",
+        "frost-predators-pusucu-signature",
+        "frost-predators-buyucu-signature",
+        "frost-predators-toplayici-signature",
+        "frost-predators-karsici-signature",
+        "frost-predators-dirilen-signature",
+        "frost-predators-donusturucu-signature",
+        "frost-predators-tuketici-signature",
+        "frost-predators-koruyucu-signature",
+        "frost-predators-elit-signature",
+        "frost-predators-reis-signature"
+      ],
+      "map_regions": [
+        "Ebedi Buzullar"
+      ],
+      "palette": "Buz mavisi / kirli beyaz",
+      "audio_note": "Mevcut v2 ses havuzundan seçim; ailelere özgü kayıt/mastering sonraki üretim.",
+      "combat_asset_design": {
+        "impact_sound": "09-audio/hit-heavy.ogg",
+        "impact_clip": "06-vfx/animated-v2/impact-silver.glb",
+        "anticipation_ms": 220,
+        "impact_ms": 460,
+        "recover_ms": 900,
+        "status": "Veri bağlantısı; motor entegrasyonu yapılmadı. Aileye özel final VFX/ses henüz ayrı üretilmedi."
+      }
+    }
+  ],
+  "art_slices": [
+    {
+      "family_id": "karah-crawler",
+      "asset": "13-enemies/art/karah-crawler-concept-v3.png",
+      "source_rectangle": [
+        0,
+        0,
+        362,
+        362
+      ],
+      "usage": "İlk aile konsepti; 288 ayrı düşmanın bitmiş portresi değildir.",
+      "source_sheet": "13-enemies/art/enemy-art-direction-reviewed-v3.png"
+    },
+    {
+      "family_id": "karah-armored",
+      "asset": "13-enemies/art/karah-armored-concept-v3.png",
+      "source_rectangle": [
+        362,
+        0,
+        724,
+        362
+      ],
+      "usage": "İlk aile konsepti; 288 ayrı düşmanın bitmiş portresi değildir.",
+      "source_sheet": "13-enemies/art/enemy-art-direction-reviewed-v3.png"
+    },
+    {
+      "family_id": "korvengrad-watch",
+      "asset": "13-enemies/art/korvengrad-watch-concept-v3.png",
+      "source_rectangle": [
+        724,
+        0,
+        1086,
+        362
+      ],
+      "usage": "İlk aile konsepti; 288 ayrı düşmanın bitmiş portresi değildir.",
+      "source_sheet": "13-enemies/art/enemy-art-direction-reviewed-v3.png"
+    },
+    {
+      "family_id": "korvengrad-corrupt",
+      "asset": "13-enemies/art/korvengrad-corrupt-concept-v3.png",
+      "source_rectangle": [
+        1086,
+        0,
+        1448,
+        362
+      ],
+      "usage": "İlk aile konsepti; 288 ayrı düşmanın bitmiş portresi değildir.",
+      "source_sheet": "13-enemies/art/enemy-art-direction-reviewed-v3.png"
+    },
+    {
+      "family_id": "koru-jail",
+      "asset": "13-enemies/art/koru-jail-concept-v3.png",
+      "source_rectangle": [
+        0,
+        362,
+        362,
+        724
+      ],
+      "usage": "İlk aile konsepti; 288 ayrı düşmanın bitmiş portresi değildir.",
+      "source_sheet": "13-enemies/art/enemy-art-direction-reviewed-v3.png"
+    },
+    {
+      "family_id": "valerus-loyal",
+      "asset": "13-enemies/art/valerus-loyal-concept-v3.png",
+      "source_rectangle": [
+        362,
+        362,
+        724,
+        724
+      ],
+      "usage": "İlk aile konsepti; 288 ayrı düşmanın bitmiş portresi değildir.",
+      "source_sheet": "13-enemies/art/enemy-art-direction-reviewed-v3.png"
+    },
+    {
+      "family_id": "butterfly-guard",
+      "asset": "13-enemies/art/butterfly-guard-concept-v3.png",
+      "source_rectangle": [
+        724,
+        362,
+        1086,
+        724
+      ],
+      "usage": "İlk aile konsepti; 288 ayrı düşmanın bitmiş portresi değildir.",
+      "source_sheet": "13-enemies/art/enemy-art-direction-reviewed-v3.png"
+    },
+    {
+      "family_id": "council",
+      "asset": "13-enemies/art/council-concept-v3.png",
+      "source_rectangle": [
+        1086,
+        362,
+        1448,
+        724
+      ],
+      "usage": "İlk aile konsepti; 288 ayrı düşmanın bitmiş portresi değildir.",
+      "source_sheet": "13-enemies/art/enemy-art-direction-reviewed-v3.png"
+    },
+    {
+      "family_id": "ash-scavenger",
+      "asset": "13-enemies/art/ash-scavenger-concept-v3.png",
+      "source_rectangle": [
+        0,
+        724,
+        362,
+        1086
+      ],
+      "usage": "İlk aile konsepti; 288 ayrı düşmanın bitmiş portresi değildir.",
+      "source_sheet": "13-enemies/art/enemy-art-direction-reviewed-v3.png"
+    },
+    {
+      "family_id": "marsh-visions",
+      "asset": "13-enemies/art/marsh-visions-concept-v3.png",
+      "source_rectangle": [
+        362,
+        724,
+        724,
+        1086
+      ],
+      "usage": "İlk aile konsepti; 288 ayrı düşmanın bitmiş portresi değildir.",
+      "source_sheet": "13-enemies/art/enemy-art-direction-reviewed-v3.png"
+    },
+    {
+      "family_id": "shi-qra-outlaws",
+      "asset": "13-enemies/art/shi-qra-outlaws-concept-reviewed-v3.png",
+      "source_rectangle": [
+        724,
+        724,
+        1086,
+        1086
+      ],
+      "usage": "İlk aile konsepti; 288 ayrı düşmanın bitmiş portresi değildir.",
+      "source_sheet": "13-enemies/art/enemy-art-direction-reviewed-v3.png"
+    },
+    {
+      "family_id": "frost-predators",
+      "asset": "13-enemies/art/frost-predators-concept-v3.png",
+      "source_rectangle": [
+        1086,
+        724,
+        1448,
+        1086
+      ],
+      "usage": "İlk aile konsepti; 288 ayrı düşmanın bitmiş portresi değildir.",
+      "source_sheet": "13-enemies/art/enemy-art-direction-reviewed-v3.png"
+    }
+  ],
+  "approved_contact_sheet": "13-enemies/art/enemy-art-direction-reviewed-v3.png"
+}

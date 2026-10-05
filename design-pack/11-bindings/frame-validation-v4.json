@@ -1,0 +1,13 @@
+{
+  "frames": 5,
+  "main_cards_reviewed": 12,
+  "enemy_portraits_reviewed": 12,
+  "board_portraits_reviewed": 7,
+  "cropping_in_new_layout": false,
+  "portrait_stretching": false,
+  "maximum_frame_alpha_in_safe_art_area": 2,
+  "pdf_pages_visually_reviewed": 6,
+  "image_tool": "image_gen built-in",
+  "application_integration": false,
+  "scope": "Asset düzeltmesi; eski kaynak karakter resimleri değiştirilmedi. Sonradan oyuna eklenirken v4 yerleşim verisi kullanılmalıdır."
+}

@@ -1,0 +1,30 @@
+{
+  "source": "sources/compact-ui-atlas-v2.png",
+  "boxes": {
+    "04-card-frames/board-unit-frame-v2.png": [
+      19,
+      45,
+      606,
+      488
+    ],
+    "04-card-frames/board-champion-frame-v2.png": [
+      644,
+      5,
+      1233,
+      489
+    ],
+    "05-interface/action-button-v2.png": [
+      63,
+      549,
+      603,
+      1089
+    ],
+    "04-card-frames/card-back-v2.png": [
+      699,
+      513,
+      1183,
+      1192
+    ]
+  },
+  "mode": "RGBA; lossless crop; component bounding boxes with 8px padding"
+}

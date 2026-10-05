@@ -1,0 +1,17 @@
+MÜZİK — ZORUNLU ATIF
+'The Illusionist' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+https://www.scottbuckley.com.au/library/the-illusionist/
+https://creativecommons.org/licenses/by/4.0/
+MP3 değiştirilmedi. Oyun kredilerinde ve dağıtılan asset paketinde atıf korunmalı.
+
+EFEKTLER
+Interface Sounds, RPG Audio, Impact Sounds — Kenney, CC0.
+https://kenney.nl/assets/interface-sounds
+https://kenney.nl/assets/rpg-audio
+https://kenney.nl/assets/impact-sounds
+
+Fireplace Sound loop — PagDev, CC0. WAV kaydı 48 kHz OGG olarak dönüştürüldü.
+https://opengameart.org/content/fireplace-sound-loop
+
+cue-*.wav: bu CC0 kayıtların gecikme, hız/perde ve kazanç değişimleriyle yapılan özgün katmanlı ses tasarımları.
+Seslendirme, karakter replikleri veya Riot sesleri içermez.

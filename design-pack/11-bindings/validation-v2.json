@@ -1,0 +1,110 @@
+{
+  "date": "2026-10-06",
+  "card_count": 12,
+  "missing_asset_references": [],
+  "frame_alpha": {
+    "04-card-frames/board-unit-frame-v2.png": {
+      "mode": "RGBA",
+      "size": [
+        587,
+        443
+      ],
+      "window_alpha": 0,
+      "corner_alpha": 0
+    },
+    "04-card-frames/board-champion-frame-v2.png": {
+      "mode": "RGBA",
+      "size": [
+        589,
+        484
+      ],
+      "window_alpha": 0,
+      "corner_alpha": 0
+    }
+  },
+  "vfx_glb": [
+    {
+      "file": "heal-gold-green.glb",
+      "meshes": 11,
+      "channels": 22,
+      "images_embedded": 1,
+      "duration_s": 1.4999999590218067,
+      "alpha_modes": [
+        "BLEND",
+        "OPAQUE"
+      ],
+      "external_uris": 0
+    },
+    {
+      "file": "impact-silver.glb",
+      "meshes": 11,
+      "channels": 22,
+      "images_embedded": 1,
+      "duration_s": 1.4999999590218067,
+      "alpha_modes": [
+        "BLEND",
+        "OPAQUE"
+      ],
+      "external_uris": 0
+    },
+    {
+      "file": "karah-ink.glb",
+      "meshes": 11,
+      "channels": 22,
+      "images_embedded": 1,
+      "duration_s": 1.4999999590218067,
+      "alpha_modes": [
+        "BLEND",
+        "OPAQUE"
+      ],
+      "external_uris": 0
+    },
+    {
+      "file": "summon-amber.glb",
+      "meshes": 11,
+      "channels": 22,
+      "images_embedded": 1,
+      "duration_s": 1.4999999590218067,
+      "alpha_modes": [
+        "BLEND",
+        "OPAQUE"
+      ],
+      "external_uris": 0
+    },
+    {
+      "file": "victory-shards.glb",
+      "meshes": 11,
+      "channels": 22,
+      "images_embedded": 1,
+      "duration_s": 1.4999999590218067,
+      "alpha_modes": [
+        "BLEND",
+        "OPAQUE"
+      ],
+      "external_uris": 0
+    },
+    {
+      "file": "white-echo.glb",
+      "meshes": 11,
+      "channels": 22,
+      "images_embedded": 1,
+      "duration_s": 1.4999999590218067,
+      "alpha_modes": [
+        "BLEND",
+        "OPAQUE"
+      ],
+      "external_uris": 0
+    }
+  ],
+  "audio_assets": 24,
+  "audio_probe_decode": "Passed in audio-sources.json",
+  "pdf_pages": 8,
+  "visual_review": "All eight PDF pages rendered; medium font and missing heading arrows repaired",
+  "game_integration_tested": false,
+  "limitations": [
+    "No game playback QA",
+    "No listening/mastering sign-off",
+    "VFX transform clips on RGBA quads, not flipbooks",
+    "3D board remains detailed blockout, not final sculpt/PBR"
+  ]
+}

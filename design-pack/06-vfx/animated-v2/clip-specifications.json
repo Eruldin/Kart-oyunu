@@ -1,0 +1,60 @@
+{
+  "date": "2026-10-06",
+  "clips": [
+    {
+      "clip": "summon-amber.glb",
+      "duration_s": 1.5,
+      "billboard_planes": 1,
+      "animated_mesh_motes": 10,
+      "loop": false,
+      "transparent_texture": "../summon-amber-texture-v1.png",
+      "technique": "Transform keyframes on textured quad + ten emissive mesh motes; not a fluid simulation or temporal flipbook"
+    },
+    {
+      "clip": "impact-silver.glb",
+      "duration_s": 1.5,
+      "billboard_planes": 1,
+      "animated_mesh_motes": 10,
+      "loop": false,
+      "transparent_texture": "../impact-silver-texture-v1.png",
+      "technique": "Transform keyframes on textured quad + ten emissive mesh motes; not a fluid simulation or temporal flipbook"
+    },
+    {
+      "clip": "heal-gold-green.glb",
+      "duration_s": 1.5,
+      "billboard_planes": 1,
+      "animated_mesh_motes": 10,
+      "loop": false,
+      "transparent_texture": "../heal-gold-green-texture-v1.png",
+      "technique": "Transform keyframes on textured quad + ten emissive mesh motes; not a fluid simulation or temporal flipbook"
+    },
+    {
+      "clip": "white-echo.glb",
+      "duration_s": 1.5,
+      "billboard_planes": 1,
+      "animated_mesh_motes": 10,
+      "loop": false,
+      "transparent_texture": "../white-echo-texture-v1.png",
+      "technique": "Transform keyframes on textured quad + ten emissive mesh motes; not a fluid simulation or temporal flipbook"
+    },
+    {
+      "clip": "karah-ink.glb",
+      "duration_s": 1.5,
+      "billboard_planes": 1,
+      "animated_mesh_motes": 10,
+      "loop": false,
+      "transparent_texture": "../karah-ink-texture-v1.png",
+      "technique": "Transform keyframes on textured quad + ten emissive mesh motes; not a fluid simulation or temporal flipbook"
+    },
+    {
+      "clip": "victory-shards.glb",
+      "duration_s": 1.5,
+      "billboard_planes": 1,
+      "animated_mesh_motes": 10,
+      "loop": false,
+      "transparent_texture": "../victory-shards-texture-v1.png",
+      "technique": "Transform keyframes on textured quad + ten emissive mesh motes; not a fluid simulation or temporal flipbook"
+    }
+  ],
+  "validation": "Exported actual transform animations; engine/event playback and shader polish not tested"
+}

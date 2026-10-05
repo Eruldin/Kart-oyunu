@@ -1,0 +1,6624 @@
+
+Karah / Sürü — İzci [karah-crawler-izci]
+32 kart / tempo / yalnız karah-crawler
+2x Zift Larvası
+2x Duvar Sürüneni
+2x Katedral Tırmanıcısı
+2x Çatlak Çene
+2x Kör Pençe
+2x Kambur Takipçi
+2x Tavan Avcısı
+2x Zift İzi
+2x Kara Sıçrama
+2x Duvar Pususu
+2x Parçalı Hücum
+2x Yırtık Eklemler
+2x Boğucu Koku
+2x Pençe Yağmuru
+1x Çatlakta Saklan
+1x Sürü Çağrısı
+1x Kemik Isırığı
+1x İzci / Zift Larvası
+İmza: Oynanınca bir kart çek; bu tur ilk maliyet 2 veya altı aile kartı 1 ucuzlar.
+Karşı hamle: Erken alan hasarı ve ucuz engelleyiciler.
+
+Karah / Sürü — Sürücü [karah-crawler-surucu]
+32 kart / swarm / yalnız karah-crawler
+2x Zift Larvası
+2x Duvar Sürüneni
+2x Katedral Tırmanıcısı
+2x Çatlak Çene
+2x Kör Pençe
+2x Kambur Takipçi
+2x Tavan Avcısı
+2x Çokbacak
+2x Zift İzi
+2x Kara Sıçrama
+2x Yırtık Eklemler
+2x Boğucu Koku
+2x Pençe Yağmuru
+2x Çatlakta Saklan
+1x Sürü Çağrısı
+1x Zift Perdesi
+1x Karanlık Açlığı
+1x Sürücü / Duvar Sürüneni
+İmza: Oynanınca iki 1/1 aile yardımcısı yarat; bunlar turun sonunda kaybolur.
+Karşı hamle: Geniş alan temizliği; yaratılan küçük birimleri kes.
+
+Karah / Sürü — Avcı [karah-crawler-avci]
+32 kart / mark / yalnız karah-crawler
+2x Katedral Tırmanıcısı
+2x Çatlak Çene
+2x Kör Pençe
+2x Kambur Takipçi
+2x Tavan Avcısı
+2x Çokbacak
+2x Koku Arayıcısı
+2x Zift İzi
+2x Kara Sıçrama
+2x Duvar Pususu
+2x Parçalı Hücum
+2x Boğucu Koku
+2x Pençe Yağmuru
+2x Çatlakta Saklan
+1x Sürü Çağrısı
+1x Kemik Isırığı
+1x Zift Perdesi
+1x Avcı / Katedral Tırmanıcısı
+İmza: En düşük canlı düşmanı İşaretle; ilk aile vuruşu o hedefe +2 hasar.
+Karşı hamle: İşareti temizle; savunma öncesi şifa.
+
+Karah / Sürü — Muhafız [karah-crawler-muhafiz]
+32 kart / guard / yalnız karah-crawler
+2x Zift Larvası
+2x Çatlak Çene
+2x Kör Pençe
+2x Tavan Avcısı
+2x Çokbacak
+2x Koku Arayıcısı
+2x Kemik Taşıyıcı
+2x Zift İzi
+2x Kara Sıçrama
+2x Duvar Pususu
+2x Yırtık Eklemler
+2x Boğucu Koku
+2x Pençe Yağmuru
+2x Çatlakta Saklan
+1x Sürü Çağrısı
+1x Zift Perdesi
+1x Karanlık Açlığı
+1x Muhafız / Çatlak Çene
+İmza: Oynanınca komşu aile birimlerine bu tur 2 geçici Can ver.
+Karşı hamle: Susturma ve farklı hedeflere bölünmüş hasar.
+
+Karah / Sürü — Düellocu [karah-crawler-duellocu]
+32 kart / single / yalnız karah-crawler
+2x Duvar Sürüneni
+2x Katedral Tırmanıcısı
+2x Kör Pençe
+2x Kambur Takipçi
+2x Çokbacak
+2x Koku Arayıcısı
+2x Kemik Taşıyıcı
+2x Kara Sıçrama
+2x Duvar Pususu
+2x Parçalı Hücum
+2x Yırtık Eklemler
+2x Boğucu Koku
+2x Pençe Yağmuru
+2x Çatlakta Saklan
+1x Sürü Çağrısı
+1x Kemik Isırığı
+1x Karanlık Açlığı
+1x Düellocu / Kör Pençe
+İmza: Bu tur yalnız saldırırsam +3 Saldırı; saldırı sonrasında bir tur tükenirim.
+Karşı hamle: Güçlendirme bittikten sonra hedef kaldırma.
+
+Karah / Sürü — Kuşatmacı [karah-crawler-kusatmaci]
+32 kart / siege / yalnız karah-crawler
+2x Çatlak Çene
+2x Kambur Takipçi
+2x Tavan Avcısı
+2x Çokbacak
+2x Koku Arayıcısı
+2x Kemik Taşıyıcı
+2x Sürü Öncüsü
+2x Zift İzi
+2x Duvar Pususu
+2x Parçalı Hücum
+2x Yırtık Eklemler
+2x Boğucu Koku
+2x Pençe Yağmuru
+2x Çatlakta Saklan
+1x Sürü Çağrısı
+1x Kemik Isırığı
+1x Karanlık Açlığı
+1x Kuşatmacı / Kambur Takipçi
+İmza: Üç tur sahada kaldıktan sonra saldırıda düşman özüne 3 hasar ver; sayaç görünür.
+Karşı hamle: Altıncı turdan önce baskı; ağır kart maliyetini artır.
+
+Karah / Sürü — Pusucu [karah-crawler-pusucu]
+32 kart / ambush / yalnız karah-crawler
+2x Zift Larvası
+2x Duvar Sürüneni
+2x Katedral Tırmanıcısı
+2x Kör Pençe
+2x Kambur Takipçi
+2x Tavan Avcısı
+2x Koku Arayıcısı
+2x Zift İzi
+2x Kara Sıçrama
+2x Duvar Pususu
+2x Parçalı Hücum
+2x Yırtık Eklemler
+2x Boğucu Koku
+2x Pençe Yağmuru
+1x Sürü Çağrısı
+1x Kemik Isırığı
+1x Zift Perdesi
+1x Pusucu / Tavan Avcısı
+İmza: Düşman saldırı hazırlığında oynanabilir; saldıran birimin Saldırısını bu tur 2 azalt.
+Karşı hamle: Pas geçerek tepkisini boşa çıkar; saldırı hazırlığında incele.
+
+Karah / Sürü — Ritüelci [karah-crawler-buyucu]
+32 kart / spell / yalnız karah-crawler
+2x Zift Larvası
+2x Katedral Tırmanıcısı
+2x Kör Pençe
+2x Çokbacak
+2x Koku Arayıcısı
+2x Kemik Taşıyıcı
+2x Karah Anaç
+2x Zift İzi
+2x Kara Sıçrama
+2x Duvar Pususu
+2x Parçalı Hücum
+2x Yırtık Eklemler
+2x Boğucu Koku
+2x Pençe Yağmuru
+1x Sürü Çağrısı
+1x Zift Perdesi
+1x Karanlık Açlığı
+1x Ritüelci / Çokbacak
+İmza: Bir turda ikinci aile büyüsü oynanınca rastgelelik olmadan en soldaki düşmana 2 hasar.
+Karşı hamle: Sessizleştirme; karşı hamle enerjisini tüket.
+
+Karah / Sürü — Toplayıcı [karah-crawler-toplayici]
+32 kart / resource / yalnız karah-crawler
+2x Zift Larvası
+2x Duvar Sürüneni
+2x Çatlak Çene
+2x Kambur Takipçi
+2x Tavan Avcısı
+2x Çokbacak
+2x Kemik Taşıyıcı
+2x Zift İzi
+2x Kara Sıçrama
+2x Duvar Pususu
+2x Yırtık Eklemler
+2x Boğucu Koku
+2x Pençe Yağmuru
+2x Çatlakta Saklan
+1x Sürü Çağrısı
+1x Kemik Isırığı
+1x Zift Perdesi
+1x Toplayıcı / Koku Arayıcısı
+İmza: İlk aile biriminin ölümü sonrası bir aile kartı çek; tur başına bir kez.
+Karşı hamle: Kaynak üreten birimleri öncelikli hedefle.
+
+Karah / Sürü — Karşıcı [karah-crawler-karsici]
+32 kart / counter / yalnız karah-crawler
+2x Duvar Sürüneni
+2x Katedral Tırmanıcısı
+2x Çatlak Çene
+2x Kör Pençe
+2x Tavan Avcısı
+2x Koku Arayıcısı
+2x Sürü Öncüsü
+2x Zift İzi
+2x Kara Sıçrama
+2x Duvar Pususu
+2x Parçalı Hücum
+2x Yırtık Eklemler
+2x Boğucu Koku
+2x Pençe Yağmuru
+1x Çatlakta Saklan
+1x Kemik Isırığı
+1x Karanlık Açlığı
+1x Karşıcı / Kemik Taşıyıcı
+İmza: Maliyeti 3 veya daha az olan bir düşman büyüsünü iptal et; karşı tepki penceresi aç.
+Karşı hamle: Ucuz yem büyüleri; bir turda iki ayrı tehdit.
+
+Karah / Sürü — Dönen [karah-crawler-dirilen]
+32 kart / recursion / yalnız karah-crawler
+2x Zift Larvası
+2x Katedral Tırmanıcısı
+2x Çatlak Çene
+2x Kambur Takipçi
+2x Tavan Avcısı
+2x Koku Arayıcısı
+2x Kemik Taşıyıcı
+2x Zift İzi
+2x Kara Sıçrama
+2x Duvar Pususu
+2x Yırtık Eklemler
+2x Boğucu Koku
+2x Pençe Yağmuru
+2x Çatlakta Saklan
+1x Sürü Çağrısı
+1x Zift Perdesi
+1x Karanlık Açlığı
+1x Dönen / Sürü Öncüsü
+İmza: Bu tur ölen en düşük maliyetli aile birimini ele döndür; maliyetine +1 ekle.
+Karşı hamle: Sürgün; geri alma kartı kullanılmadan baskı.
+
+Karah / Sürü — Dönüştürücü [karah-crawler-donusturucu]
+32 kart / evolve / yalnız karah-crawler
+2x Duvar Sürüneni
+2x Katedral Tırmanıcısı
+2x Kör Pençe
+2x Kambur Takipçi
+2x Tavan Avcısı
+2x Koku Arayıcısı
+2x Karah Anaç
+2x Zift İzi
+2x Kara Sıçrama
+2x Duvar Pususu
+2x Parçalı Hücum
+2x Yırtık Eklemler
+2x Pençe Yağmuru
+2x Çatlakta Saklan
+1x Sürü Çağrısı
+1x Kemik Isırığı
+1x Karanlık Açlığı
+1x Dönüştürücü / Karah Anaç
+İmza: Üç aile kartı oynandığında bir kez +2/+2 kazan; kart yüzü değişir, sayaç sıfırlanmaz.
+Karşı hamle: Üçüncü karttan önce ana tehdidi kaldır.
+
+Karah / Sürü — Tüketici [karah-crawler-tuketici]
+32 kart / attrition / yalnız karah-crawler
+2x Zift Larvası
+2x Duvar Sürüneni
+2x Çatlak Çene
+2x Kör Pençe
+2x Çokbacak
+2x Kemik Taşıyıcı
+2x Sürü Öncüsü
+2x Zift İzi
+2x Kara Sıçrama
+2x Duvar Pususu
+2x Parçalı Hücum
+2x Yırtık Eklemler
+2x Boğucu Koku
+2x Pençe Yağmuru
+1x Sürü Çağrısı
+1x Kemik Isırığı
+1x Karanlık Açlığı
+1x Tüketici / Zift Larvası
+İmza: Bir düşmana 2 hasar ver; kendi özüne 1 hasar al. Aile kartı öldürürse bir kart çek.
+Karşı hamle: Kart avantajı üret; uzun tur döngüsünden kaçın.
+
+Karah / Sürü — Koruyucu [karah-crawler-koruyucu]
+32 kart / support / yalnız karah-crawler
+2x Zift Larvası
+2x Duvar Sürüneni
+2x Katedral Tırmanıcısı
+2x Çatlak Çene
+2x Kambur Takipçi
+2x Çokbacak
+2x Koku Arayıcısı
+2x Zift İzi
+2x Kara Sıçrama
+2x Duvar Pususu
+2x Yırtık Eklemler
+2x Boğucu Koku
+2x Pençe Yağmuru
+2x Çatlakta Saklan
+1x Sürü Çağrısı
+1x Zift Perdesi
+1x Karanlık Açlığı
+1x Koruyucu / Duvar Sürüneni
+İmza: Tur sonunda en düşük canlı aile birimini 2 iyileştir; eşitlikte en soldakini seç.
+Karşı hamle: Destek hedefini kaldır; komşuluk zincirini böl.
+
+Karah / Sürü — Elit [karah-crawler-elit]
+32 kart / mixed / yalnız karah-crawler
+2x Katedral Tırmanıcısı
+2x Çatlak Çene
+2x Kör Pençe
+2x Kambur Takipçi
+2x Tavan Avcısı
+2x Koku Arayıcısı
+2x Sürü Öncüsü
+2x Zift İzi
+2x Kara Sıçrama
+2x Duvar Pususu
+2x Parçalı Hücum
+2x Yırtık Eklemler
+2x Boğucu Koku
+2x Pençe Yağmuru
+1x Çatlakta Saklan
+1x Kemik Isırığı
+1x Karanlık Açlığı
+1x Elit / Katedral Tırmanıcısı
+İmza: Oynanınca bir aile birimine bu tur +1/+2 ver ve bir kart çek; kendini seçemez.
+Karşı hamle: Maliyetli tehdidi beklet; ilk savunma kaynağını zorla.
+
+Karah / Sürü — Reis [karah-crawler-reis]
+32 kart / boss / yalnız karah-crawler
+2x Zift Larvası
+2x Çatlak Çene
+2x Kambur Takipçi
+2x Tavan Avcısı
+2x Çokbacak
+2x Kemik Taşıyıcı
+2x Karah Anaç
+2x Zift İzi
+2x Kara Sıçrama
+2x Duvar Pususu
+2x Parçalı Hücum
+2x Yırtık Eklemler
+2x Boğucu Koku
+2x Pençe Yağmuru
+1x Sürü Çağrısı
+1x Zift Perdesi
+1x Karanlık Açlığı
+1x Reis / Çatlak Çene
+İmza: Öz yarı cana ilk indiğinde iki 1/2 aile yardımcısı yarat; faz geçişi bir tur önceden uyarılır.
+Karşı hamle: Üçüncü tur öncesi hazırlık; faz geçişine iki cevap sakla.
+
+Karah / Zırhlı — İzci [karah-armored-izci]
+32 kart / tempo / yalnız karah-armored
+2x Karah Kabuklu
+2x Plaka Kıran
+2x Demir Omurga
+2x Kırık Miğfer
+2x Zift Omuz
+2x Kule Yıkan
+2x Çelik Çene
+2x Kabuk Sertleşmesi
+2x Omurga Örtüsü
+2x Demir Çatlağı
+2x Plaka Darbesi
+2x Ağır Adım
+2x Zift Zırhı
+2x Baskı Dalgası
+1x Kemik Kalkan
+1x Savrulan Enkaz
+1x Omuz Hücumu
+1x İzci / Plaka Kıran
+İmza: Oynanınca bir kart çek; bu tur ilk maliyet 2 veya altı aile kartı 1 ucuzlar.
+Karşı hamle: Erken alan hasarı ve ucuz engelleyiciler.
+
+Karah / Zırhlı — Sürücü [karah-armored-surucu]
+32 kart / swarm / yalnız karah-armored
+2x Karah Kabuklu
+2x Plaka Kıran
+2x Demir Omurga
+2x Kırık Miğfer
+2x Zift Omuz
+2x Kule Yıkan
+2x Çelik Çene
+2x Kabuk Muhafızı
+2x Kabuk Sertleşmesi
+2x Omurga Örtüsü
+2x Ağır Adım
+2x Zift Zırhı
+2x Baskı Dalgası
+2x Kemik Kalkan
+1x Savrulan Enkaz
+1x Karanlık Direnç
+1x Son Kabuğun Kırılışı
+1x Sürücü / Demir Omurga
+İmza: Oynanınca iki 1/1 aile yardımcısı yarat; bunlar turun sonunda kaybolur.
+Karşı hamle: Geniş alan temizliği; yaratılan küçük birimleri kes.
+
+Karah / Zırhlı — Avcı [karah-armored-avci]
+32 kart / mark / yalnız karah-armored
+2x Demir Omurga
+2x Kırık Miğfer
+2x Zift Omuz
+2x Kule Yıkan
+2x Çelik Çene
+2x Kabuk Muhafızı
+2x Ağır Pençe
+2x Kabuk Sertleşmesi
+2x Omurga Örtüsü
+2x Demir Çatlağı
+2x Plaka Darbesi
+2x Zift Zırhı
+2x Baskı Dalgası
+2x Kemik Kalkan
+1x Savrulan Enkaz
+1x Omuz Hücumu
+1x Karanlık Direnç
+1x Avcı / Kırık Miğfer
+İmza: En düşük canlı düşmanı İşaretle; ilk aile vuruşu o hedefe +2 hasar.
+Karşı hamle: İşareti temizle; savunma öncesi şifa.
+
+Karah / Zırhlı — Muhafız [karah-armored-muhafiz]
+32 kart / guard / yalnız karah-armored
+2x Karah Kabuklu
+2x Kırık Miğfer
+2x Zift Omuz
+2x Çelik Çene
+2x Kabuk Muhafızı
+2x Ağır Pençe
+2x Omurga Yığını
+2x Kabuk Sertleşmesi
+2x Omurga Örtüsü
+2x Demir Çatlağı
+2x Ağır Adım
+2x Zift Zırhı
+2x Baskı Dalgası
+2x Kemik Kalkan
+1x Savrulan Enkaz
+1x Karanlık Direnç
+1x Son Kabuğun Kırılışı
+1x Muhafız / Zift Omuz
+İmza: Oynanınca komşu aile birimlerine bu tur 2 geçici Can ver.
+Karşı hamle: Susturma ve farklı hedeflere bölünmüş hasar.
+
+Karah / Zırhlı — Düellocu [karah-armored-duellocu]
+32 kart / single / yalnız karah-armored
+2x Plaka Kıran
+2x Demir Omurga
+2x Zift Omuz
+2x Kule Yıkan
+2x Kabuk Muhafızı
+2x Ağır Pençe
+2x Omurga Yığını
+2x Omurga Örtüsü
+2x Demir Çatlağı
+2x Plaka Darbesi
+2x Ağır Adım
+2x Zift Zırhı
+2x Baskı Dalgası
+2x Kemik Kalkan
+1x Savrulan Enkaz
+1x Omuz Hücumu
+1x Son Kabuğun Kırılışı
+1x Düellocu / Kule Yıkan
+İmza: Bu tur yalnız saldırırsam +3 Saldırı; saldırı sonrasında bir tur tükenirim.
+Karşı hamle: Güçlendirme bittikten sonra hedef kaldırma.
+
+Karah / Zırhlı — Kuşatmacı [karah-armored-kusatmaci]
+32 kart / siege / yalnız karah-armored
+2x Kırık Miğfer
+2x Kule Yıkan
+2x Çelik Çene
+2x Kabuk Muhafızı
+2x Ağır Pençe
+2x Omurga Yığını
+2x Kara Koç
+2x Kabuk Sertleşmesi
+2x Demir Çatlağı
+2x Plaka Darbesi
+2x Ağır Adım
+2x Zift Zırhı
+2x Baskı Dalgası
+2x Kemik Kalkan
+1x Savrulan Enkaz
+1x Omuz Hücumu
+1x Son Kabuğun Kırılışı
+1x Kuşatmacı / Çelik Çene
+İmza: Üç tur sahada kaldıktan sonra saldırıda düşman özüne 3 hasar ver; sayaç görünür.
+Karşı hamle: Altıncı turdan önce baskı; ağır kart maliyetini artır.
+
+Karah / Zırhlı — Pusucu [karah-armored-pusucu]
+32 kart / ambush / yalnız karah-armored
+2x Karah Kabuklu
+2x Plaka Kıran
+2x Demir Omurga
+2x Zift Omuz
+2x Kule Yıkan
+2x Çelik Çene
+2x Ağır Pençe
+2x Kabuk Sertleşmesi
+2x Omurga Örtüsü
+2x Demir Çatlağı
+2x Plaka Darbesi
+2x Ağır Adım
+2x Zift Zırhı
+2x Baskı Dalgası
+1x Savrulan Enkaz
+1x Omuz Hücumu
+1x Karanlık Direnç
+1x Pusucu / Kabuk Muhafızı
+İmza: Düşman saldırı hazırlığında oynanabilir; saldıran birimin Saldırısını bu tur 2 azalt.
+Karşı hamle: Pas geçerek tepkisini boşa çıkar; saldırı hazırlığında incele.
+
+Karah / Zırhlı — Ritüelci [karah-armored-buyucu]
+32 kart / spell / yalnız karah-armored
+2x Karah Kabuklu
+2x Demir Omurga
+2x Zift Omuz
+2x Kabuk Muhafızı
+2x Ağır Pençe
+2x Omurga Yığını
+2x Hisar Deviren
+2x Kabuk Sertleşmesi
+2x Omurga Örtüsü
+2x Demir Çatlağı
+2x Plaka Darbesi
+2x Ağır Adım
+2x Zift Zırhı
+2x Baskı Dalgası
+1x Savrulan Enkaz
+1x Karanlık Direnç
+1x Son Kabuğun Kırılışı
+1x Ritüelci / Ağır Pençe
+İmza: Bir turda ikinci aile büyüsü oynanınca rastgelelik olmadan en soldaki düşmana 2 hasar.
+Karşı hamle: Sessizleştirme; karşı hamle enerjisini tüket.
+
+Karah / Zırhlı — Toplayıcı [karah-armored-toplayici]
+32 kart / resource / yalnız karah-armored
+2x Karah Kabuklu
+2x Plaka Kıran
+2x Kırık Miğfer
+2x Kule Yıkan
+2x Çelik Çene
+2x Kabuk Muhafızı
+2x Omurga Yığını
+2x Kabuk Sertleşmesi
+2x Omurga Örtüsü
+2x Demir Çatlağı
+2x Ağır Adım
+2x Zift Zırhı
+2x Baskı Dalgası
+2x Kemik Kalkan
+1x Savrulan Enkaz
+1x Omuz Hücumu
+1x Karanlık Direnç
+1x Toplayıcı / Omurga Yığını
+İmza: İlk aile biriminin ölümü sonrası bir aile kartı çek; tur başına bir kez.
+Karşı hamle: Kaynak üreten birimleri öncelikli hedefle.
+
+Karah / Zırhlı — Karşıcı [karah-armored-karsici]
+32 kart / counter / yalnız karah-armored
+2x Plaka Kıran
+2x Demir Omurga
+2x Kırık Miğfer
+2x Zift Omuz
+2x Çelik Çene
+2x Ağır Pençe
+2x Kara Koç
+2x Kabuk Sertleşmesi
+2x Omurga Örtüsü
+2x Demir Çatlağı
+2x Plaka Darbesi
+2x Ağır Adım
+2x Zift Zırhı
+2x Baskı Dalgası
+1x Kemik Kalkan
+1x Omuz Hücumu
+1x Son Kabuğun Kırılışı
+1x Karşıcı / Kara Koç
+İmza: Maliyeti 3 veya daha az olan bir düşman büyüsünü iptal et; karşı tepki penceresi aç.
+Karşı hamle: Ucuz yem büyüleri; bir turda iki ayrı tehdit.
+
+Karah / Zırhlı — Dönen [karah-armored-dirilen]
+32 kart / recursion / yalnız karah-armored
+2x Karah Kabuklu
+2x Demir Omurga
+2x Kırık Miğfer
+2x Kule Yıkan
+2x Çelik Çene
+2x Ağır Pençe
+2x Omurga Yığını
+2x Kabuk Sertleşmesi
+2x Omurga Örtüsü
+2x Demir Çatlağı
+2x Ağır Adım
+2x Zift Zırhı
+2x Baskı Dalgası
+2x Kemik Kalkan
+1x Savrulan Enkaz
+1x Karanlık Direnç
+1x Son Kabuğun Kırılışı
+1x Dönen / Hisar Deviren
+İmza: Bu tur ölen en düşük maliyetli aile birimini ele döndür; maliyetine +1 ekle.
+Karşı hamle: Sürgün; geri alma kartı kullanılmadan baskı.
+
+Karah / Zırhlı — Dönüştürücü [karah-armored-donusturucu]
+32 kart / evolve / yalnız karah-armored
+2x Plaka Kıran
+2x Demir Omurga
+2x Zift Omuz
+2x Kule Yıkan
+2x Çelik Çene
+2x Ağır Pençe
+2x Hisar Deviren
+2x Kabuk Sertleşmesi
+2x Omurga Örtüsü
+2x Demir Çatlağı
+2x Plaka Darbesi
+2x Ağır Adım
+2x Baskı Dalgası
+2x Kemik Kalkan
+1x Savrulan Enkaz
+1x Omuz Hücumu
+1x Son Kabuğun Kırılışı
+1x Dönüştürücü / Karah Kabuklu
+İmza: Üç aile kartı oynandığında bir kez +2/+2 kazan; kart yüzü değişir, sayaç sıfırlanmaz.
+Karşı hamle: Üçüncü karttan önce ana tehdidi kaldır.
+
+Karah / Zırhlı — Tüketici [karah-armored-tuketici]
+32 kart / attrition / yalnız karah-armored
+2x Karah Kabuklu
+2x Plaka Kıran
+2x Kırık Miğfer
+2x Zift Omuz
+2x Kabuk Muhafızı
+2x Omurga Yığını
+2x Kara Koç
+2x Kabuk Sertleşmesi
+2x Omurga Örtüsü
+2x Demir Çatlağı
+2x Plaka Darbesi
+2x Ağır Adım
+2x Zift Zırhı
+2x Baskı Dalgası
+1x Savrulan Enkaz
+1x Omuz Hücumu
+1x Son Kabuğun Kırılışı
+1x Tüketici / Plaka Kıran
+İmza: Bir düşmana 2 hasar ver; kendi özüne 1 hasar al. Aile kartı öldürürse bir kart çek.
+Karşı hamle: Kart avantajı üret; uzun tur döngüsünden kaçın.
+
+Karah / Zırhlı — Koruyucu [karah-armored-koruyucu]
+32 kart / support / yalnız karah-armored
+2x Karah Kabuklu
+2x Plaka Kıran
+2x Demir Omurga
+2x Kırık Miğfer
+2x Kule Yıkan
+2x Kabuk Muhafızı
+2x Ağır Pençe
+2x Kabuk Sertleşmesi
+2x Omurga Örtüsü
+2x Demir Çatlağı
+2x Ağır Adım
+2x Zift Zırhı
+2x Baskı Dalgası
+2x Kemik Kalkan
+1x Savrulan Enkaz
+1x Karanlık Direnç
+1x Son Kabuğun Kırılışı
+1x Koruyucu / Demir Omurga
+İmza: Tur sonunda en düşük canlı aile birimini 2 iyileştir; eşitlikte en soldakini seç.
+Karşı hamle: Destek hedefini kaldır; komşuluk zincirini böl.
+
+Karah / Zırhlı — Elit [karah-armored-elit]
+32 kart / mixed / yalnız karah-armored
+2x Demir Omurga
+2x Kırık Miğfer
+2x Zift Omuz
+2x Kule Yıkan
+2x Çelik Çene
+2x Ağır Pençe
+2x Kara Koç
+2x Kabuk Sertleşmesi
+2x Omurga Örtüsü
+2x Demir Çatlağı
+2x Plaka Darbesi
+2x Ağır Adım
+2x Zift Zırhı
+2x Baskı Dalgası
+1x Kemik Kalkan
+1x Omuz Hücumu
+1x Son Kabuğun Kırılışı
+1x Elit / Kırık Miğfer
+İmza: Oynanınca bir aile birimine bu tur +1/+2 ver ve bir kart çek; kendini seçemez.
+Karşı hamle: Maliyetli tehdidi beklet; ilk savunma kaynağını zorla.
+
+Karah / Zırhlı — Reis [karah-armored-reis]
+32 kart / boss / yalnız karah-armored
+2x Karah Kabuklu
+2x Kırık Miğfer
+2x Kule Yıkan
+2x Çelik Çene
+2x Kabuk Muhafızı
+2x Omurga Yığını
+2x Hisar Deviren
+2x Kabuk Sertleşmesi
+2x Omurga Örtüsü
+2x Demir Çatlağı
+2x Plaka Darbesi
+2x Ağır Adım
+2x Zift Zırhı
+2x Baskı Dalgası
+1x Savrulan Enkaz
+1x Karanlık Direnç
+1x Son Kabuğun Kırılışı
+1x Reis / Zift Omuz
+İmza: Öz yarı cana ilk indiğinde iki 1/2 aile yardımcısı yarat; faz geçişi bir tur önceden uyarılır.
+Karşı hamle: Üçüncü tur öncesi hazırlık; faz geçişine iki cevap sakla.
+
+Karah / Pusu — İzci [karah-stalker-izci]
+32 kart / tempo / yalnız karah-stalker
+2x Gölge Karah
+2x Sessiz Eklem
+2x Kül Koklayan
+2x Yarık Sürüneni
+2x Gece Pençesi
+2x Sırt Takipçisi
+2x Kör Göz
+2x Kokuya Kilitlen
+2x Sessiz Sıçrayış
+2x Arka Sokak
+2x Zift Tuzağı
+2x Karanlığa Çekil
+2x Gölge Çentiği
+2x Boş Bakış
+1x Gece Yarası
+1x Kül Perdesi
+1x Ani Pençe
+1x İzci / Kül Koklayan
+İmza: Oynanınca bir kart çek; bu tur ilk maliyet 2 veya altı aile kartı 1 ucuzlar.
+Karşı hamle: Erken alan hasarı ve ucuz engelleyiciler.
+
+Karah / Pusu — Sürücü [karah-stalker-surucu]
+32 kart / swarm / yalnız karah-stalker
+2x Gölge Karah
+2x Sessiz Eklem
+2x Kül Koklayan
+2x Yarık Sürüneni
+2x Gece Pençesi
+2x Sırt Takipçisi
+2x Kör Göz
+2x Bozuk Siluet
+2x Kokuya Kilitlen
+2x Sessiz Sıçrayış
+2x Karanlığa Çekil
+2x Gölge Çentiği
+2x Boş Bakış
+2x Gece Yarası
+1x Kül Perdesi
+1x İz Yitimi
+1x Son Takip
+1x Sürücü / Yarık Sürüneni
+İmza: Oynanınca iki 1/1 aile yardımcısı yarat; bunlar turun sonunda kaybolur.
+Karşı hamle: Geniş alan temizliği; yaratılan küçük birimleri kes.
+
+Karah / Pusu — Avcı [karah-stalker-avci]
+32 kart / mark / yalnız karah-stalker
+2x Kül Koklayan
+2x Yarık Sürüneni
+2x Gece Pençesi
+2x Sırt Takipçisi
+2x Kör Göz
+2x Bozuk Siluet
+2x Karanlık Kanca
+2x Kokuya Kilitlen
+2x Sessiz Sıçrayış
+2x Arka Sokak
+2x Zift Tuzağı
+2x Gölge Çentiği
+2x Boş Bakış
+2x Gece Yarası
+1x Kül Perdesi
+1x Ani Pençe
+1x İz Yitimi
+1x Avcı / Gece Pençesi
+İmza: En düşük canlı düşmanı İşaretle; ilk aile vuruşu o hedefe +2 hasar.
+Karşı hamle: İşareti temizle; savunma öncesi şifa.
+
+Karah / Pusu — Muhafız [karah-stalker-muhafiz]
+32 kart / guard / yalnız karah-stalker
+2x Gölge Karah
+2x Yarık Sürüneni
+2x Gece Pençesi
+2x Kör Göz
+2x Bozuk Siluet
+2x Karanlık Kanca
+2x Sinsi Diş
+2x Kokuya Kilitlen
+2x Sessiz Sıçrayış
+2x Arka Sokak
+2x Karanlığa Çekil
+2x Gölge Çentiği
+2x Boş Bakış
+2x Gece Yarası
+1x Kül Perdesi
+1x İz Yitimi
+1x Son Takip
+1x Muhafız / Sırt Takipçisi
+İmza: Oynanınca komşu aile birimlerine bu tur 2 geçici Can ver.
+Karşı hamle: Susturma ve farklı hedeflere bölünmüş hasar.
+
+Karah / Pusu — Düellocu [karah-stalker-duellocu]
+32 kart / single / yalnız karah-stalker
+2x Sessiz Eklem
+2x Kül Koklayan
+2x Gece Pençesi
+2x Sırt Takipçisi
+2x Bozuk Siluet
+2x Karanlık Kanca
+2x Sinsi Diş
+2x Sessiz Sıçrayış
+2x Arka Sokak
+2x Zift Tuzağı
+2x Karanlığa Çekil
+2x Gölge Çentiği
+2x Boş Bakış
+2x Gece Yarası
+1x Kül Perdesi
+1x Ani Pençe
+1x Son Takip
+1x Düellocu / Kör Göz
+İmza: Bu tur yalnız saldırırsam +3 Saldırı; saldırı sonrasında bir tur tükenirim.
+Karşı hamle: Güçlendirme bittikten sonra hedef kaldırma.
+
+Karah / Pusu — Kuşatmacı [karah-stalker-kusatmaci]
+32 kart / siege / yalnız karah-stalker
+2x Yarık Sürüneni
+2x Sırt Takipçisi
+2x Kör Göz
+2x Bozuk Siluet
+2x Karanlık Kanca
+2x Sinsi Diş
+2x Zift Gözcüsü
+2x Kokuya Kilitlen
+2x Arka Sokak
+2x Zift Tuzağı
+2x Karanlığa Çekil
+2x Gölge Çentiği
+2x Boş Bakış
+2x Gece Yarası
+1x Kül Perdesi
+1x Ani Pençe
+1x Son Takip
+1x Kuşatmacı / Bozuk Siluet
+İmza: Üç tur sahada kaldıktan sonra saldırıda düşman özüne 3 hasar ver; sayaç görünür.
+Karşı hamle: Altıncı turdan önce baskı; ağır kart maliyetini artır.
+
+Karah / Pusu — Pusucu [karah-stalker-pusucu]
+32 kart / ambush / yalnız karah-stalker
+2x Gölge Karah
+2x Sessiz Eklem
+2x Kül Koklayan
+2x Gece Pençesi
+2x Sırt Takipçisi
+2x Kör Göz
+2x Karanlık Kanca
+2x Kokuya Kilitlen
+2x Sessiz Sıçrayış
+2x Arka Sokak
+2x Zift Tuzağı
+2x Karanlığa Çekil
+2x Gölge Çentiği
+2x Boş Bakış
+1x Kül Perdesi
+1x Ani Pençe
+1x İz Yitimi
+1x Pusucu / Karanlık Kanca
+İmza: Düşman saldırı hazırlığında oynanabilir; saldıran birimin Saldırısını bu tur 2 azalt.
+Karşı hamle: Pas geçerek tepkisini boşa çıkar; saldırı hazırlığında incele.
+
+Karah / Pusu — Ritüelci [karah-stalker-buyucu]
+32 kart / spell / yalnız karah-stalker
+2x Gölge Karah
+2x Kül Koklayan
+2x Gece Pençesi
+2x Bozuk Siluet
+2x Karanlık Kanca
+2x Sinsi Diş
+2x Pusu Biçeni
+2x Kokuya Kilitlen
+2x Sessiz Sıçrayış
+2x Arka Sokak
+2x Zift Tuzağı
+2x Karanlığa Çekil
+2x Gölge Çentiği
+2x Boş Bakış
+1x Kül Perdesi
+1x İz Yitimi
+1x Son Takip
+1x Ritüelci / Sinsi Diş
+İmza: Bir turda ikinci aile büyüsü oynanınca rastgelelik olmadan en soldaki düşmana 2 hasar.
+Karşı hamle: Sessizleştirme; karşı hamle enerjisini tüket.
+
+Karah / Pusu — Toplayıcı [karah-stalker-toplayici]
+32 kart / resource / yalnız karah-stalker
+2x Gölge Karah
+2x Sessiz Eklem
+2x Yarık Sürüneni
+2x Sırt Takipçisi
+2x Kör Göz
+2x Bozuk Siluet
+2x Sinsi Diş
+2x Kokuya Kilitlen
+2x Sessiz Sıçrayış
+2x Arka Sokak
+2x Karanlığa Çekil
+2x Gölge Çentiği
+2x Boş Bakış
+2x Gece Yarası
+1x Kül Perdesi
+1x Ani Pençe
+1x İz Yitimi
+1x Toplayıcı / Zift Gözcüsü
+İmza: İlk aile biriminin ölümü sonrası bir aile kartı çek; tur başına bir kez.
+Karşı hamle: Kaynak üreten birimleri öncelikli hedefle.
+
+Karah / Pusu — Karşıcı [karah-stalker-karsici]
+32 kart / counter / yalnız karah-stalker
+2x Sessiz Eklem
+2x Kül Koklayan
+2x Yarık Sürüneni
+2x Gece Pençesi
+2x Kör Göz
+2x Karanlık Kanca
+2x Zift Gözcüsü
+2x Kokuya Kilitlen
+2x Sessiz Sıçrayış
+2x Arka Sokak
+2x Zift Tuzağı
+2x Karanlığa Çekil
+2x Gölge Çentiği
+2x Boş Bakış
+1x Gece Yarası
+1x Ani Pençe
+1x Son Takip
+1x Karşıcı / Pusu Biçeni
+İmza: Maliyeti 3 veya daha az olan bir düşman büyüsünü iptal et; karşı tepki penceresi aç.
+Karşı hamle: Ucuz yem büyüleri; bir turda iki ayrı tehdit.
+
+Karah / Pusu — Dönen [karah-stalker-dirilen]
+32 kart / recursion / yalnız karah-stalker
+2x Gölge Karah
+2x Kül Koklayan
+2x Yarık Sürüneni
+2x Sırt Takipçisi
+2x Kör Göz
+2x Karanlık Kanca
+2x Sinsi Diş
+2x Kokuya Kilitlen
+2x Sessiz Sıçrayış
+2x Arka Sokak
+2x Karanlığa Çekil
+2x Gölge Çentiği
+2x Boş Bakış
+2x Gece Yarası
+1x Kül Perdesi
+1x İz Yitimi
+1x Son Takip
+1x Dönen / Gölge Karah
+İmza: Bu tur ölen en düşük maliyetli aile birimini ele döndür; maliyetine +1 ekle.
+Karşı hamle: Sürgün; geri alma kartı kullanılmadan baskı.
+
+Karah / Pusu — Dönüştürücü [karah-stalker-donusturucu]
+32 kart / evolve / yalnız karah-stalker
+2x Sessiz Eklem
+2x Kül Koklayan
+2x Gece Pençesi
+2x Sırt Takipçisi
+2x Kör Göz
+2x Karanlık Kanca
+2x Pusu Biçeni
+2x Kokuya Kilitlen
+2x Sessiz Sıçrayış
+2x Arka Sokak
+2x Zift Tuzağı
+2x Karanlığa Çekil
+2x Boş Bakış
+2x Gece Yarası
+1x Kül Perdesi
+1x Ani Pençe
+1x Son Takip
+1x Dönüştürücü / Sessiz Eklem
+İmza: Üç aile kartı oynandığında bir kez +2/+2 kazan; kart yüzü değişir, sayaç sıfırlanmaz.
+Karşı hamle: Üçüncü karttan önce ana tehdidi kaldır.
+
+Karah / Pusu — Tüketici [karah-stalker-tuketici]
+32 kart / attrition / yalnız karah-stalker
+2x Gölge Karah
+2x Sessiz Eklem
+2x Yarık Sürüneni
+2x Gece Pençesi
+2x Bozuk Siluet
+2x Sinsi Diş
+2x Zift Gözcüsü
+2x Kokuya Kilitlen
+2x Sessiz Sıçrayış
+2x Arka Sokak
+2x Zift Tuzağı
+2x Karanlığa Çekil
+2x Gölge Çentiği
+2x Boş Bakış
+1x Kül Perdesi
+1x Ani Pençe
+1x Son Takip
+1x Tüketici / Kül Koklayan
+İmza: Bir düşmana 2 hasar ver; kendi özüne 1 hasar al. Aile kartı öldürürse bir kart çek.
+Karşı hamle: Kart avantajı üret; uzun tur döngüsünden kaçın.
+
+Karah / Pusu — Koruyucu [karah-stalker-koruyucu]
+32 kart / support / yalnız karah-stalker
+2x Gölge Karah
+2x Sessiz Eklem
+2x Kül Koklayan
+2x Yarık Sürüneni
+2x Sırt Takipçisi
+2x Bozuk Siluet
+2x Karanlık Kanca
+2x Kokuya Kilitlen
+2x Sessiz Sıçrayış
+2x Arka Sokak
+2x Karanlığa Çekil
+2x Gölge Çentiği
+2x Boş Bakış
+2x Gece Yarası
+1x Kül Perdesi
+1x İz Yitimi
+1x Son Takip
+1x Koruyucu / Yarık Sürüneni
+İmza: Tur sonunda en düşük canlı aile birimini 2 iyileştir; eşitlikte en soldakini seç.
+Karşı hamle: Destek hedefini kaldır; komşuluk zincirini böl.
+
+Karah / Pusu — Elit [karah-stalker-elit]
+32 kart / mixed / yalnız karah-stalker
+2x Kül Koklayan
+2x Yarık Sürüneni
+2x Gece Pençesi
+2x Sırt Takipçisi
+2x Kör Göz
+2x Karanlık Kanca
+2x Zift Gözcüsü
+2x Kokuya Kilitlen
+2x Sessiz Sıçrayış
+2x Arka Sokak
+2x Zift Tuzağı
+2x Karanlığa Çekil
+2x Gölge Çentiği
+2x Boş Bakış
+1x Gece Yarası
+1x Ani Pençe
+1x Son Takip
+1x Elit / Gece Pençesi
+İmza: Oynanınca bir aile birimine bu tur +1/+2 ver ve bir kart çek; kendini seçemez.
+Karşı hamle: Maliyetli tehdidi beklet; ilk savunma kaynağını zorla.
+
+Karah / Pusu — Reis [karah-stalker-reis]
+32 kart / boss / yalnız karah-stalker
+2x Gölge Karah
+2x Yarık Sürüneni
+2x Sırt Takipçisi
+2x Kör Göz
+2x Bozuk Siluet
+2x Sinsi Diş
+2x Pusu Biçeni
+2x Kokuya Kilitlen
+2x Sessiz Sıçrayış
+2x Arka Sokak
+2x Zift Tuzağı
+2x Karanlığa Çekil
+2x Gölge Çentiği
+2x Boş Bakış
+1x Kül Perdesi
+1x İz Yitimi
+1x Son Takip
+1x Reis / Sırt Takipçisi
+İmza: Öz yarı cana ilk indiğinde iki 1/2 aile yardımcısı yarat; faz geçişi bir tur önceden uyarılır.
+Karşı hamle: Üçüncü tur öncesi hazırlık; faz geçişine iki cevap sakla.
+
+Korvengrad Muhafızları — İzci [korvengrad-watch-izci]
+32 kart / tempo / yalnız korvengrad-watch
+2x Sokak Nöbetçisi
+2x Mızrakçı
+2x Katedral Bekçisi
+2x Kapı Kalkanı
+2x Çatı Okçusu
+2x Fener Taşıyıcı
+2x Nöbet Onbaşısı
+2x Nöbet Değişimi
+2x Kapıyı Tut
+2x Dar Sokak
+2x Kalkan Birliği
+2x Alarm Çanı
+2x Çatı Atışı
+2x Fener İşareti
+1x Demir Barikat
+1x Gece Devriyesi
+1x Siper Emri
+1x İzci / Kapı Kalkanı
+İmza: Oynanınca bir kart çek; bu tur ilk maliyet 2 veya altı aile kartı 1 ucuzlar.
+Karşı hamle: Erken alan hasarı ve ucuz engelleyiciler.
+
+Korvengrad Muhafızları — Sürücü [korvengrad-watch-surucu]
+32 kart / swarm / yalnız korvengrad-watch
+2x Sokak Nöbetçisi
+2x Mızrakçı
+2x Katedral Bekçisi
+2x Kapı Kalkanı
+2x Çatı Okçusu
+2x Fener Taşıyıcı
+2x Nöbet Onbaşısı
+2x Kule Gözcüsü
+2x Nöbet Değişimi
+2x Kapıyı Tut
+2x Alarm Çanı
+2x Çatı Atışı
+2x Fener İşareti
+2x Demir Barikat
+1x Gece Devriyesi
+1x Mızrak Duvarı
+1x Son Savunma
+1x Sürücü / Çatı Okçusu
+İmza: Oynanınca iki 1/1 aile yardımcısı yarat; bunlar turun sonunda kaybolur.
+Karşı hamle: Geniş alan temizliği; yaratılan küçük birimleri kes.
+
+Korvengrad Muhafızları — Avcı [korvengrad-watch-avci]
+32 kart / mark / yalnız korvengrad-watch
+2x Katedral Bekçisi
+2x Kapı Kalkanı
+2x Çatı Okçusu
+2x Fener Taşıyıcı
+2x Nöbet Onbaşısı
+2x Kule Gözcüsü
+2x Zincir Muhafızı
+2x Nöbet Değişimi
+2x Kapıyı Tut
+2x Dar Sokak
+2x Kalkan Birliği
+2x Çatı Atışı
+2x Fener İşareti
+2x Demir Barikat
+1x Gece Devriyesi
+1x Siper Emri
+1x Mızrak Duvarı
+1x Avcı / Fener Taşıyıcı
+İmza: En düşük canlı düşmanı İşaretle; ilk aile vuruşu o hedefe +2 hasar.
+Karşı hamle: İşareti temizle; savunma öncesi şifa.
+
+Korvengrad Muhafızları — Muhafız [korvengrad-watch-muhafiz]
+32 kart / guard / yalnız korvengrad-watch
+2x Sokak Nöbetçisi
+2x Kapı Kalkanı
+2x Çatı Okçusu
+2x Nöbet Onbaşısı
+2x Kule Gözcüsü
+2x Zincir Muhafızı
+2x Siper Ustası
+2x Nöbet Değişimi
+2x Kapıyı Tut
+2x Dar Sokak
+2x Alarm Çanı
+2x Çatı Atışı
+2x Fener İşareti
+2x Demir Barikat
+1x Gece Devriyesi
+1x Mızrak Duvarı
+1x Son Savunma
+1x Muhafız / Nöbet Onbaşısı
+İmza: Oynanınca komşu aile birimlerine bu tur 2 geçici Can ver.
+Karşı hamle: Susturma ve farklı hedeflere bölünmüş hasar.
+
+Korvengrad Muhafızları — Düellocu [korvengrad-watch-duellocu]
+32 kart / single / yalnız korvengrad-watch
+2x Mızrakçı
+2x Katedral Bekçisi
+2x Çatı Okçusu
+2x Fener Taşıyıcı
+2x Kule Gözcüsü
+2x Zincir Muhafızı
+2x Siper Ustası
+2x Kapıyı Tut
+2x Dar Sokak
+2x Kalkan Birliği
+2x Alarm Çanı
+2x Çatı Atışı
+2x Fener İşareti
+2x Demir Barikat
+1x Gece Devriyesi
+1x Siper Emri
+1x Son Savunma
+1x Düellocu / Kule Gözcüsü
+İmza: Bu tur yalnız saldırırsam +3 Saldırı; saldırı sonrasında bir tur tükenirim.
+Karşı hamle: Güçlendirme bittikten sonra hedef kaldırma.
+
+Korvengrad Muhafızları — Kuşatmacı [korvengrad-watch-kusatmaci]
+32 kart / siege / yalnız korvengrad-watch
+2x Kapı Kalkanı
+2x Fener Taşıyıcı
+2x Nöbet Onbaşısı
+2x Kule Gözcüsü
+2x Zincir Muhafızı
+2x Siper Ustası
+2x Devriye Çavuşu
+2x Nöbet Değişimi
+2x Dar Sokak
+2x Kalkan Birliği
+2x Alarm Çanı
+2x Çatı Atışı
+2x Fener İşareti
+2x Demir Barikat
+1x Gece Devriyesi
+1x Siper Emri
+1x Son Savunma
+1x Kuşatmacı / Zincir Muhafızı
+İmza: Üç tur sahada kaldıktan sonra saldırıda düşman özüne 3 hasar ver; sayaç görünür.
+Karşı hamle: Altıncı turdan önce baskı; ağır kart maliyetini artır.
+
+Korvengrad Muhafızları — Pusucu [korvengrad-watch-pusucu]
+32 kart / ambush / yalnız korvengrad-watch
+2x Sokak Nöbetçisi
+2x Mızrakçı
+2x Katedral Bekçisi
+2x Çatı Okçusu
+2x Fener Taşıyıcı
+2x Nöbet Onbaşısı
+2x Zincir Muhafızı
+2x Nöbet Değişimi
+2x Kapıyı Tut
+2x Dar Sokak
+2x Kalkan Birliği
+2x Alarm Çanı
+2x Çatı Atışı
+2x Fener İşareti
+1x Gece Devriyesi
+1x Siper Emri
+1x Mızrak Duvarı
+1x Pusucu / Siper Ustası
+İmza: Düşman saldırı hazırlığında oynanabilir; saldıran birimin Saldırısını bu tur 2 azalt.
+Karşı hamle: Pas geçerek tepkisini boşa çıkar; saldırı hazırlığında incele.
+
+Korvengrad Muhafızları — Ritüelci [korvengrad-watch-buyucu]
+32 kart / spell / yalnız korvengrad-watch
+2x Sokak Nöbetçisi
+2x Katedral Bekçisi
+2x Çatı Okçusu
+2x Kule Gözcüsü
+2x Zincir Muhafızı
+2x Siper Ustası
+2x Kent Komutanı
+2x Nöbet Değişimi
+2x Kapıyı Tut
+2x Dar Sokak
+2x Kalkan Birliği
+2x Alarm Çanı
+2x Çatı Atışı
+2x Fener İşareti
+1x Gece Devriyesi
+1x Mızrak Duvarı
+1x Son Savunma
+1x Ritüelci / Devriye Çavuşu
+İmza: Bir turda ikinci aile büyüsü oynanınca rastgelelik olmadan en soldaki düşmana 2 hasar.
+Karşı hamle: Sessizleştirme; karşı hamle enerjisini tüket.
+
+Korvengrad Muhafızları — Toplayıcı [korvengrad-watch-toplayici]
+32 kart / resource / yalnız korvengrad-watch
+2x Sokak Nöbetçisi
+2x Mızrakçı
+2x Kapı Kalkanı
+2x Fener Taşıyıcı
+2x Nöbet Onbaşısı
+2x Kule Gözcüsü
+2x Siper Ustası
+2x Nöbet Değişimi
+2x Kapıyı Tut
+2x Dar Sokak
+2x Alarm Çanı
+2x Çatı Atışı
+2x Fener İşareti
+2x Demir Barikat
+1x Gece Devriyesi
+1x Siper Emri
+1x Mızrak Duvarı
+1x Toplayıcı / Kent Komutanı
+İmza: İlk aile biriminin ölümü sonrası bir aile kartı çek; tur başına bir kez.
+Karşı hamle: Kaynak üreten birimleri öncelikli hedefle.
+
+Korvengrad Muhafızları — Karşıcı [korvengrad-watch-karsici]
+32 kart / counter / yalnız korvengrad-watch
+2x Mızrakçı
+2x Katedral Bekçisi
+2x Kapı Kalkanı
+2x Çatı Okçusu
+2x Nöbet Onbaşısı
+2x Zincir Muhafızı
+2x Devriye Çavuşu
+2x Nöbet Değişimi
+2x Kapıyı Tut
+2x Dar Sokak
+2x Kalkan Birliği
+2x Alarm Çanı
+2x Çatı Atışı
+2x Fener İşareti
+1x Demir Barikat
+1x Siper Emri
+1x Son Savunma
+1x Karşıcı / Sokak Nöbetçisi
+İmza: Maliyeti 3 veya daha az olan bir düşman büyüsünü iptal et; karşı tepki penceresi aç.
+Karşı hamle: Ucuz yem büyüleri; bir turda iki ayrı tehdit.
+
+Korvengrad Muhafızları — Dönen [korvengrad-watch-dirilen]
+32 kart / recursion / yalnız korvengrad-watch
+2x Sokak Nöbetçisi
+2x Katedral Bekçisi
+2x Kapı Kalkanı
+2x Fener Taşıyıcı
+2x Nöbet Onbaşısı
+2x Zincir Muhafızı
+2x Siper Ustası
+2x Nöbet Değişimi
+2x Kapıyı Tut
+2x Dar Sokak
+2x Alarm Çanı
+2x Çatı Atışı
+2x Fener İşareti
+2x Demir Barikat
+1x Gece Devriyesi
+1x Mızrak Duvarı
+1x Son Savunma
+1x Dönen / Mızrakçı
+İmza: Bu tur ölen en düşük maliyetli aile birimini ele döndür; maliyetine +1 ekle.
+Karşı hamle: Sürgün; geri alma kartı kullanılmadan baskı.
+
+Korvengrad Muhafızları — Dönüştürücü [korvengrad-watch-donusturucu]
+32 kart / evolve / yalnız korvengrad-watch
+2x Mızrakçı
+2x Katedral Bekçisi
+2x Çatı Okçusu
+2x Fener Taşıyıcı
+2x Nöbet Onbaşısı
+2x Zincir Muhafızı
+2x Kent Komutanı
+2x Nöbet Değişimi
+2x Kapıyı Tut
+2x Dar Sokak
+2x Kalkan Birliği
+2x Alarm Çanı
+2x Fener İşareti
+2x Demir Barikat
+1x Gece Devriyesi
+1x Siper Emri
+1x Son Savunma
+1x Dönüştürücü / Katedral Bekçisi
+İmza: Üç aile kartı oynandığında bir kez +2/+2 kazan; kart yüzü değişir, sayaç sıfırlanmaz.
+Karşı hamle: Üçüncü karttan önce ana tehdidi kaldır.
+
+Korvengrad Muhafızları — Tüketici [korvengrad-watch-tuketici]
+32 kart / attrition / yalnız korvengrad-watch
+2x Sokak Nöbetçisi
+2x Mızrakçı
+2x Kapı Kalkanı
+2x Çatı Okçusu
+2x Kule Gözcüsü
+2x Siper Ustası
+2x Devriye Çavuşu
+2x Nöbet Değişimi
+2x Kapıyı Tut
+2x Dar Sokak
+2x Kalkan Birliği
+2x Alarm Çanı
+2x Çatı Atışı
+2x Fener İşareti
+1x Gece Devriyesi
+1x Siper Emri
+1x Son Savunma
+1x Tüketici / Kapı Kalkanı
+İmza: Bir düşmana 2 hasar ver; kendi özüne 1 hasar al. Aile kartı öldürürse bir kart çek.
+Karşı hamle: Kart avantajı üret; uzun tur döngüsünden kaçın.
+
+Korvengrad Muhafızları — Koruyucu [korvengrad-watch-koruyucu]
+32 kart / support / yalnız korvengrad-watch
+2x Sokak Nöbetçisi
+2x Mızrakçı
+2x Katedral Bekçisi
+2x Kapı Kalkanı
+2x Fener Taşıyıcı
+2x Kule Gözcüsü
+2x Zincir Muhafızı
+2x Nöbet Değişimi
+2x Kapıyı Tut
+2x Dar Sokak
+2x Alarm Çanı
+2x Çatı Atışı
+2x Fener İşareti
+2x Demir Barikat
+1x Gece Devriyesi
+1x Mızrak Duvarı
+1x Son Savunma
+1x Koruyucu / Çatı Okçusu
+İmza: Tur sonunda en düşük canlı aile birimini 2 iyileştir; eşitlikte en soldakini seç.
+Karşı hamle: Destek hedefini kaldır; komşuluk zincirini böl.
+
+Korvengrad Muhafızları — Elit [korvengrad-watch-elit]
+32 kart / mixed / yalnız korvengrad-watch
+2x Katedral Bekçisi
+2x Kapı Kalkanı
+2x Çatı Okçusu
+2x Fener Taşıyıcı
+2x Nöbet Onbaşısı
+2x Zincir Muhafızı
+2x Devriye Çavuşu
+2x Nöbet Değişimi
+2x Kapıyı Tut
+2x Dar Sokak
+2x Kalkan Birliği
+2x Alarm Çanı
+2x Çatı Atışı
+2x Fener İşareti
+1x Demir Barikat
+1x Siper Emri
+1x Son Savunma
+1x Elit / Fener Taşıyıcı
+İmza: Oynanınca bir aile birimine bu tur +1/+2 ver ve bir kart çek; kendini seçemez.
+Karşı hamle: Maliyetli tehdidi beklet; ilk savunma kaynağını zorla.
+
+Korvengrad Muhafızları — Reis [korvengrad-watch-reis]
+32 kart / boss / yalnız korvengrad-watch
+2x Sokak Nöbetçisi
+2x Kapı Kalkanı
+2x Fener Taşıyıcı
+2x Nöbet Onbaşısı
+2x Kule Gözcüsü
+2x Siper Ustası
+2x Kent Komutanı
+2x Nöbet Değişimi
+2x Kapıyı Tut
+2x Dar Sokak
+2x Kalkan Birliği
+2x Alarm Çanı
+2x Çatı Atışı
+2x Fener İşareti
+1x Gece Devriyesi
+1x Mızrak Duvarı
+1x Son Savunma
+1x Reis / Nöbet Onbaşısı
+İmza: Öz yarı cana ilk indiğinde iki 1/2 aile yardımcısı yarat; faz geçişi bir tur önceden uyarılır.
+Karşı hamle: Üçüncü tur öncesi hazırlık; faz geçişine iki cevap sakla.
+
+Korvengrad Yozlaşmış Birliği — İzci [korvengrad-corrupt-izci]
+32 kart / tempo / yalnız korvengrad-corrupt
+2x Paslı Nöbetçi
+2x Çatlak Vizör
+2x Kayıp Devriye
+2x Kül Lejyoneri
+2x Mühürlü Asker
+2x Kara Damar
+2x İnfaz Yazıcısı
+2x Çürük Yemin
+2x Paslı Düzen
+2x Kara Emir
+2x Boş Nöbet
+2x Damar Zehri
+2x Çan Susuşu
+2x İnfaz Hattı
+1x Mühür Baskısı
+1x Kayıp Talimat
+1x Kül Disiplini
+1x İzci / Mühürlü Asker
+İmza: Oynanınca bir kart çek; bu tur ilk maliyet 2 veya altı aile kartı 1 ucuzlar.
+Karşı hamle: Erken alan hasarı ve ucuz engelleyiciler.
+
+Korvengrad Yozlaşmış Birliği — Sürücü [korvengrad-corrupt-surucu]
+32 kart / swarm / yalnız korvengrad-corrupt
+2x Paslı Nöbetçi
+2x Çatlak Vizör
+2x Kayıp Devriye
+2x Kül Lejyoneri
+2x Mühürlü Asker
+2x Kara Damar
+2x İnfaz Yazıcısı
+2x Yozlaşmış Okçu
+2x Çürük Yemin
+2x Paslı Düzen
+2x Damar Zehri
+2x Çan Susuşu
+2x İnfaz Hattı
+2x Mühür Baskısı
+1x Kayıp Talimat
+1x Çatlak Siper
+1x Son Emir
+1x Sürücü / Kara Damar
+İmza: Oynanınca iki 1/1 aile yardımcısı yarat; bunlar turun sonunda kaybolur.
+Karşı hamle: Geniş alan temizliği; yaratılan küçük birimleri kes.
+
+Korvengrad Yozlaşmış Birliği — Avcı [korvengrad-corrupt-avci]
+32 kart / mark / yalnız korvengrad-corrupt
+2x Kayıp Devriye
+2x Kül Lejyoneri
+2x Mühürlü Asker
+2x Kara Damar
+2x İnfaz Yazıcısı
+2x Yozlaşmış Okçu
+2x Kör Teğmen
+2x Çürük Yemin
+2x Paslı Düzen
+2x Kara Emir
+2x Boş Nöbet
+2x Çan Susuşu
+2x İnfaz Hattı
+2x Mühür Baskısı
+1x Kayıp Talimat
+1x Kül Disiplini
+1x Çatlak Siper
+1x Avcı / İnfaz Yazıcısı
+İmza: En düşük canlı düşmanı İşaretle; ilk aile vuruşu o hedefe +2 hasar.
+Karşı hamle: İşareti temizle; savunma öncesi şifa.
+
+Korvengrad Yozlaşmış Birliği — Muhafız [korvengrad-corrupt-muhafiz]
+32 kart / guard / yalnız korvengrad-corrupt
+2x Paslı Nöbetçi
+2x Kül Lejyoneri
+2x Mühürlü Asker
+2x İnfaz Yazıcısı
+2x Yozlaşmış Okçu
+2x Kör Teğmen
+2x Boş Miğfer
+2x Çürük Yemin
+2x Paslı Düzen
+2x Kara Emir
+2x Damar Zehri
+2x Çan Susuşu
+2x İnfaz Hattı
+2x Mühür Baskısı
+1x Kayıp Talimat
+1x Çatlak Siper
+1x Son Emir
+1x Muhafız / Yozlaşmış Okçu
+İmza: Oynanınca komşu aile birimlerine bu tur 2 geçici Can ver.
+Karşı hamle: Susturma ve farklı hedeflere bölünmüş hasar.
+
+Korvengrad Yozlaşmış Birliği — Düellocu [korvengrad-corrupt-duellocu]
+32 kart / single / yalnız korvengrad-corrupt
+2x Çatlak Vizör
+2x Kayıp Devriye
+2x Mühürlü Asker
+2x Kara Damar
+2x Yozlaşmış Okçu
+2x Kör Teğmen
+2x Boş Miğfer
+2x Paslı Düzen
+2x Kara Emir
+2x Boş Nöbet
+2x Damar Zehri
+2x Çan Susuşu
+2x İnfaz Hattı
+2x Mühür Baskısı
+1x Kayıp Talimat
+1x Kül Disiplini
+1x Son Emir
+1x Düellocu / Kör Teğmen
+İmza: Bu tur yalnız saldırırsam +3 Saldırı; saldırı sonrasında bir tur tükenirim.
+Karşı hamle: Güçlendirme bittikten sonra hedef kaldırma.
+
+Korvengrad Yozlaşmış Birliği — Kuşatmacı [korvengrad-corrupt-kusatmaci]
+32 kart / siege / yalnız korvengrad-corrupt
+2x Kül Lejyoneri
+2x Kara Damar
+2x İnfaz Yazıcısı
+2x Yozlaşmış Okçu
+2x Kör Teğmen
+2x Boş Miğfer
+2x Katedral Celladı
+2x Çürük Yemin
+2x Kara Emir
+2x Boş Nöbet
+2x Damar Zehri
+2x Çan Susuşu
+2x İnfaz Hattı
+2x Mühür Baskısı
+1x Kayıp Talimat
+1x Kül Disiplini
+1x Son Emir
+1x Kuşatmacı / Boş Miğfer
+İmza: Üç tur sahada kaldıktan sonra saldırıda düşman özüne 3 hasar ver; sayaç görünür.
+Karşı hamle: Altıncı turdan önce baskı; ağır kart maliyetini artır.
+
+Korvengrad Yozlaşmış Birliği — Pusucu [korvengrad-corrupt-pusucu]
+32 kart / ambush / yalnız korvengrad-corrupt
+2x Paslı Nöbetçi
+2x Çatlak Vizör
+2x Kayıp Devriye
+2x Mühürlü Asker
+2x Kara Damar
+2x İnfaz Yazıcısı
+2x Kör Teğmen
+2x Çürük Yemin
+2x Paslı Düzen
+2x Kara Emir
+2x Boş Nöbet
+2x Damar Zehri
+2x Çan Susuşu
+2x İnfaz Hattı
+1x Kayıp Talimat
+1x Kül Disiplini
+1x Çatlak Siper
+1x Pusucu / Katedral Celladı
+İmza: Düşman saldırı hazırlığında oynanabilir; saldıran birimin Saldırısını bu tur 2 azalt.
+Karşı hamle: Pas geçerek tepkisini boşa çıkar; saldırı hazırlığında incele.
+
+Korvengrad Yozlaşmış Birliği — Ritüelci [korvengrad-corrupt-buyucu]
+32 kart / spell / yalnız korvengrad-corrupt
+2x Paslı Nöbetçi
+2x Kayıp Devriye
+2x Mühürlü Asker
+2x Yozlaşmış Okçu
+2x Kör Teğmen
+2x Boş Miğfer
+2x Paslı Komutan
+2x Çürük Yemin
+2x Paslı Düzen
+2x Kara Emir
+2x Boş Nöbet
+2x Damar Zehri
+2x Çan Susuşu
+2x İnfaz Hattı
+1x Kayıp Talimat
+1x Çatlak Siper
+1x Son Emir
+1x Ritüelci / Paslı Komutan
+İmza: Bir turda ikinci aile büyüsü oynanınca rastgelelik olmadan en soldaki düşmana 2 hasar.
+Karşı hamle: Sessizleştirme; karşı hamle enerjisini tüket.
+
+Korvengrad Yozlaşmış Birliği — Toplayıcı [korvengrad-corrupt-toplayici]
+32 kart / resource / yalnız korvengrad-corrupt
+2x Paslı Nöbetçi
+2x Çatlak Vizör
+2x Kül Lejyoneri
+2x Kara Damar
+2x İnfaz Yazıcısı
+2x Yozlaşmış Okçu
+2x Boş Miğfer
+2x Çürük Yemin
+2x Paslı Düzen
+2x Kara Emir
+2x Damar Zehri
+2x Çan Susuşu
+2x İnfaz Hattı
+2x Mühür Baskısı
+1x Kayıp Talimat
+1x Kül Disiplini
+1x Çatlak Siper
+1x Toplayıcı / Paslı Nöbetçi
+İmza: İlk aile biriminin ölümü sonrası bir aile kartı çek; tur başına bir kez.
+Karşı hamle: Kaynak üreten birimleri öncelikli hedefle.
+
+Korvengrad Yozlaşmış Birliği — Karşıcı [korvengrad-corrupt-karsici]
+32 kart / counter / yalnız korvengrad-corrupt
+2x Çatlak Vizör
+2x Kayıp Devriye
+2x Kül Lejyoneri
+2x Mühürlü Asker
+2x İnfaz Yazıcısı
+2x Kör Teğmen
+2x Katedral Celladı
+2x Çürük Yemin
+2x Paslı Düzen
+2x Kara Emir
+2x Boş Nöbet
+2x Damar Zehri
+2x Çan Susuşu
+2x İnfaz Hattı
+1x Mühür Baskısı
+1x Kül Disiplini
+1x Son Emir
+1x Karşıcı / Çatlak Vizör
+İmza: Maliyeti 3 veya daha az olan bir düşman büyüsünü iptal et; karşı tepki penceresi aç.
+Karşı hamle: Ucuz yem büyüleri; bir turda iki ayrı tehdit.
+
+Korvengrad Yozlaşmış Birliği — Dönen [korvengrad-corrupt-dirilen]
+32 kart / recursion / yalnız korvengrad-corrupt
+2x Paslı Nöbetçi
+2x Kayıp Devriye
+2x Kül Lejyoneri
+2x Kara Damar
+2x İnfaz Yazıcısı
+2x Kör Teğmen
+2x Boş Miğfer
+2x Çürük Yemin
+2x Paslı Düzen
+2x Kara Emir
+2x Damar Zehri
+2x Çan Susuşu
+2x İnfaz Hattı
+2x Mühür Baskısı
+1x Kayıp Talimat
+1x Çatlak Siper
+1x Son Emir
+1x Dönen / Kayıp Devriye
+İmza: Bu tur ölen en düşük maliyetli aile birimini ele döndür; maliyetine +1 ekle.
+Karşı hamle: Sürgün; geri alma kartı kullanılmadan baskı.
+
+Korvengrad Yozlaşmış Birliği — Dönüştürücü [korvengrad-corrupt-donusturucu]
+32 kart / evolve / yalnız korvengrad-corrupt
+2x Çatlak Vizör
+2x Kayıp Devriye
+2x Mühürlü Asker
+2x Kara Damar
+2x İnfaz Yazıcısı
+2x Kör Teğmen
+2x Paslı Komutan
+2x Çürük Yemin
+2x Paslı Düzen
+2x Kara Emir
+2x Boş Nöbet
+2x Damar Zehri
+2x İnfaz Hattı
+2x Mühür Baskısı
+1x Kayıp Talimat
+1x Kül Disiplini
+1x Son Emir
+1x Dönüştürücü / Kül Lejyoneri
+İmza: Üç aile kartı oynandığında bir kez +2/+2 kazan; kart yüzü değişir, sayaç sıfırlanmaz.
+Karşı hamle: Üçüncü karttan önce ana tehdidi kaldır.
+
+Korvengrad Yozlaşmış Birliği — Tüketici [korvengrad-corrupt-tuketici]
+32 kart / attrition / yalnız korvengrad-corrupt
+2x Paslı Nöbetçi
+2x Çatlak Vizör
+2x Kül Lejyoneri
+2x Mühürlü Asker
+2x Yozlaşmış Okçu
+2x Boş Miğfer
+2x Katedral Celladı
+2x Çürük Yemin
+2x Paslı Düzen
+2x Kara Emir
+2x Boş Nöbet
+2x Damar Zehri
+2x Çan Susuşu
+2x İnfaz Hattı
+1x Kayıp Talimat
+1x Kül Disiplini
+1x Son Emir
+1x Tüketici / Mühürlü Asker
+İmza: Bir düşmana 2 hasar ver; kendi özüne 1 hasar al. Aile kartı öldürürse bir kart çek.
+Karşı hamle: Kart avantajı üret; uzun tur döngüsünden kaçın.
+
+Korvengrad Yozlaşmış Birliği — Koruyucu [korvengrad-corrupt-koruyucu]
+32 kart / support / yalnız korvengrad-corrupt
+2x Paslı Nöbetçi
+2x Çatlak Vizör
+2x Kayıp Devriye
+2x Kül Lejyoneri
+2x Kara Damar
+2x Yozlaşmış Okçu
+2x Kör Teğmen
+2x Çürük Yemin
+2x Paslı Düzen
+2x Kara Emir
+2x Damar Zehri
+2x Çan Susuşu
+2x İnfaz Hattı
+2x Mühür Baskısı
+1x Kayıp Talimat
+1x Çatlak Siper
+1x Son Emir
+1x Koruyucu / Kara Damar
+İmza: Tur sonunda en düşük canlı aile birimini 2 iyileştir; eşitlikte en soldakini seç.
+Karşı hamle: Destek hedefini kaldır; komşuluk zincirini böl.
+
+Korvengrad Yozlaşmış Birliği — Elit [korvengrad-corrupt-elit]
+32 kart / mixed / yalnız korvengrad-corrupt
+2x Kayıp Devriye
+2x Kül Lejyoneri
+2x Mühürlü Asker
+2x Kara Damar
+2x İnfaz Yazıcısı
+2x Kör Teğmen
+2x Katedral Celladı
+2x Çürük Yemin
+2x Paslı Düzen
+2x Kara Emir
+2x Boş Nöbet
+2x Damar Zehri
+2x Çan Susuşu
+2x İnfaz Hattı
+1x Mühür Baskısı
+1x Kül Disiplini
+1x Son Emir
+1x Elit / İnfaz Yazıcısı
+İmza: Oynanınca bir aile birimine bu tur +1/+2 ver ve bir kart çek; kendini seçemez.
+Karşı hamle: Maliyetli tehdidi beklet; ilk savunma kaynağını zorla.
+
+Korvengrad Yozlaşmış Birliği — Reis [korvengrad-corrupt-reis]
+32 kart / boss / yalnız korvengrad-corrupt
+2x Paslı Nöbetçi
+2x Kül Lejyoneri
+2x Kara Damar
+2x İnfaz Yazıcısı
+2x Yozlaşmış Okçu
+2x Boş Miğfer
+2x Paslı Komutan
+2x Çürük Yemin
+2x Paslı Düzen
+2x Kara Emir
+2x Boş Nöbet
+2x Damar Zehri
+2x Çan Susuşu
+2x İnfaz Hattı
+1x Kayıp Talimat
+1x Çatlak Siper
+1x Son Emir
+1x Reis / Yozlaşmış Okçu
+İmza: Öz yarı cana ilk indiğinde iki 1/2 aile yardımcısı yarat; faz geçişi bir tur önceden uyarılır.
+Karşı hamle: Üçüncü tur öncesi hazırlık; faz geçişine iki cevap sakla.
+
+Torg / sabah nöbeti [koru-jail-izci]
+32 kart / tempo / yalnız koru-jail
+2x Zindan Nöbetçisi
+2x Anahtar Taşıyıcı
+2x Zincirci
+2x Hücre Bekçisi
+2x Tünel Gözcüsü
+2x Maden Muhafızı
+2x Kapı Krov’u
+2x Sürgü Çek
+2x Paslı Zincir
+2x Mazgal
+2x Anahtar Nöbeti
+2x Dar Hücre
+2x Demir Kilit
+2x Sessizlik Emri
+1x Karanlık Kapı
+1x Nöbet Alarmı
+1x Mahzen Pususu
+1x Torg / İzci / Maden Muhafızı
+İmza: Oynanınca bir kart çek; bu tur ilk maliyet 2 veya altı aile kartı 1 ucuzlar.
+Karşı hamle: Erken alan hasarı ve ucuz engelleyiciler.
+
+Koru / Zindan Birliği — Sürücü [koru-jail-surucu]
+32 kart / swarm / yalnız koru-jail
+2x Zindan Nöbetçisi
+2x Anahtar Taşıyıcı
+2x Zincirci
+2x Hücre Bekçisi
+2x Tünel Gözcüsü
+2x Maden Muhafızı
+2x Kapı Krov’u
+2x Sürgü Ustası
+2x Sürgü Çek
+2x Paslı Zincir
+2x Dar Hücre
+2x Demir Kilit
+2x Sessizlik Emri
+2x Karanlık Kapı
+1x Nöbet Alarmı
+1x Zincir Darbesi
+1x Kaçışın Kesilişi
+1x Sürücü / Kapı Krov’u
+İmza: Oynanınca iki 1/1 aile yardımcısı yarat; bunlar turun sonunda kaybolur.
+Karşı hamle: Geniş alan temizliği; yaratılan küçük birimleri kes.
+
+Koru / Zindan Birliği — Avcı [koru-jail-avci]
+32 kart / mark / yalnız koru-jail
+2x Zincirci
+2x Hücre Bekçisi
+2x Tünel Gözcüsü
+2x Maden Muhafızı
+2x Kapı Krov’u
+2x Sürgü Ustası
+2x Mahzen Okçusu
+2x Sürgü Çek
+2x Paslı Zincir
+2x Mazgal
+2x Anahtar Nöbeti
+2x Demir Kilit
+2x Sessizlik Emri
+2x Karanlık Kapı
+1x Nöbet Alarmı
+1x Mahzen Pususu
+1x Zincir Darbesi
+1x Avcı / Sürgü Ustası
+İmza: En düşük canlı düşmanı İşaretle; ilk aile vuruşu o hedefe +2 hasar.
+Karşı hamle: İşareti temizle; savunma öncesi şifa.
+
+Koru / Zindan Birliği — Muhafız [koru-jail-muhafiz]
+32 kart / guard / yalnız koru-jail
+2x Zindan Nöbetçisi
+2x Hücre Bekçisi
+2x Tünel Gözcüsü
+2x Kapı Krov’u
+2x Sürgü Ustası
+2x Mahzen Okçusu
+2x Demir Eldiven
+2x Sürgü Çek
+2x Paslı Zincir
+2x Mazgal
+2x Dar Hücre
+2x Demir Kilit
+2x Sessizlik Emri
+2x Karanlık Kapı
+1x Nöbet Alarmı
+1x Zincir Darbesi
+1x Kaçışın Kesilişi
+1x Muhafız / Mahzen Okçusu
+İmza: Oynanınca komşu aile birimlerine bu tur 2 geçici Can ver.
+Karşı hamle: Susturma ve farklı hedeflere bölünmüş hasar.
+
+Koru / Zindan Birliği — Düellocu [koru-jail-duellocu]
+32 kart / single / yalnız koru-jail
+2x Anahtar Taşıyıcı
+2x Zincirci
+2x Tünel Gözcüsü
+2x Maden Muhafızı
+2x Sürgü Ustası
+2x Mahzen Okçusu
+2x Demir Eldiven
+2x Paslı Zincir
+2x Mazgal
+2x Anahtar Nöbeti
+2x Dar Hücre
+2x Demir Kilit
+2x Sessizlik Emri
+2x Karanlık Kapı
+1x Nöbet Alarmı
+1x Mahzen Pususu
+1x Kaçışın Kesilişi
+1x Düellocu / Demir Eldiven
+İmza: Bu tur yalnız saldırırsam +3 Saldırı; saldırı sonrasında bir tur tükenirim.
+Karşı hamle: Güçlendirme bittikten sonra hedef kaldırma.
+
+Koru / Zindan Birliği — Kuşatmacı [koru-jail-kusatmaci]
+32 kart / siege / yalnız koru-jail
+2x Hücre Bekçisi
+2x Maden Muhafızı
+2x Kapı Krov’u
+2x Sürgü Ustası
+2x Mahzen Okçusu
+2x Demir Eldiven
+2x Zindan Çavuşu
+2x Sürgü Çek
+2x Mazgal
+2x Anahtar Nöbeti
+2x Dar Hücre
+2x Demir Kilit
+2x Sessizlik Emri
+2x Karanlık Kapı
+1x Nöbet Alarmı
+1x Mahzen Pususu
+1x Kaçışın Kesilişi
+1x Kuşatmacı / Zindan Çavuşu
+İmza: Üç tur sahada kaldıktan sonra saldırıda düşman özüne 3 hasar ver; sayaç görünür.
+Karşı hamle: Altıncı turdan önce baskı; ağır kart maliyetini artır.
+
+Koru / Zindan Birliği — Pusucu [koru-jail-pusucu]
+32 kart / ambush / yalnız koru-jail
+2x Zindan Nöbetçisi
+2x Anahtar Taşıyıcı
+2x Zincirci
+2x Tünel Gözcüsü
+2x Maden Muhafızı
+2x Kapı Krov’u
+2x Mahzen Okçusu
+2x Sürgü Çek
+2x Paslı Zincir
+2x Mazgal
+2x Anahtar Nöbeti
+2x Dar Hücre
+2x Demir Kilit
+2x Sessizlik Emri
+1x Nöbet Alarmı
+1x Mahzen Pususu
+1x Zincir Darbesi
+1x Pusucu / Hücre Kumandanı
+İmza: Düşman saldırı hazırlığında oynanabilir; saldıran birimin Saldırısını bu tur 2 azalt.
+Karşı hamle: Pas geçerek tepkisini boşa çıkar; saldırı hazırlığında incele.
+
+Koru / Zindan Birliği — Ritüelci [koru-jail-buyucu]
+32 kart / spell / yalnız koru-jail
+2x Zindan Nöbetçisi
+2x Zincirci
+2x Tünel Gözcüsü
+2x Sürgü Ustası
+2x Mahzen Okçusu
+2x Demir Eldiven
+2x Hücre Kumandanı
+2x Sürgü Çek
+2x Paslı Zincir
+2x Mazgal
+2x Anahtar Nöbeti
+2x Dar Hücre
+2x Demir Kilit
+2x Sessizlik Emri
+1x Nöbet Alarmı
+1x Zincir Darbesi
+1x Kaçışın Kesilişi
+1x Ritüelci / Zindan Nöbetçisi
+İmza: Bir turda ikinci aile büyüsü oynanınca rastgelelik olmadan en soldaki düşmana 2 hasar.
+Karşı hamle: Sessizleştirme; karşı hamle enerjisini tüket.
+
+Koru / Zindan Birliği — Toplayıcı [koru-jail-toplayici]
+32 kart / resource / yalnız koru-jail
+2x Zindan Nöbetçisi
+2x Anahtar Taşıyıcı
+2x Hücre Bekçisi
+2x Maden Muhafızı
+2x Kapı Krov’u
+2x Sürgü Ustası
+2x Demir Eldiven
+2x Sürgü Çek
+2x Paslı Zincir
+2x Mazgal
+2x Dar Hücre
+2x Demir Kilit
+2x Sessizlik Emri
+2x Karanlık Kapı
+1x Nöbet Alarmı
+1x Mahzen Pususu
+1x Zincir Darbesi
+1x Toplayıcı / Anahtar Taşıyıcı
+İmza: İlk aile biriminin ölümü sonrası bir aile kartı çek; tur başına bir kez.
+Karşı hamle: Kaynak üreten birimleri öncelikli hedefle.
+
+Koru / Zindan Birliği — Karşıcı [koru-jail-karsici]
+32 kart / counter / yalnız koru-jail
+2x Anahtar Taşıyıcı
+2x Zincirci
+2x Hücre Bekçisi
+2x Tünel Gözcüsü
+2x Kapı Krov’u
+2x Mahzen Okçusu
+2x Zindan Çavuşu
+2x Sürgü Çek
+2x Paslı Zincir
+2x Mazgal
+2x Anahtar Nöbeti
+2x Dar Hücre
+2x Demir Kilit
+2x Sessizlik Emri
+1x Karanlık Kapı
+1x Mahzen Pususu
+1x Kaçışın Kesilişi
+1x Karşıcı / Zincirci
+İmza: Maliyeti 3 veya daha az olan bir düşman büyüsünü iptal et; karşı tepki penceresi aç.
+Karşı hamle: Ucuz yem büyüleri; bir turda iki ayrı tehdit.
+
+Koru / Zindan Birliği — Dönen [koru-jail-dirilen]
+32 kart / recursion / yalnız koru-jail
+2x Zindan Nöbetçisi
+2x Zincirci
+2x Hücre Bekçisi
+2x Maden Muhafızı
+2x Kapı Krov’u
+2x Mahzen Okçusu
+2x Demir Eldiven
+2x Sürgü Çek
+2x Paslı Zincir
+2x Mazgal
+2x Dar Hücre
+2x Demir Kilit
+2x Sessizlik Emri
+2x Karanlık Kapı
+1x Nöbet Alarmı
+1x Zincir Darbesi
+1x Kaçışın Kesilişi
+1x Dönen / Hücre Bekçisi
+İmza: Bu tur ölen en düşük maliyetli aile birimini ele döndür; maliyetine +1 ekle.
+Karşı hamle: Sürgün; geri alma kartı kullanılmadan baskı.
+
+Koru / Zindan Birliği — Dönüştürücü [koru-jail-donusturucu]
+32 kart / evolve / yalnız koru-jail
+2x Anahtar Taşıyıcı
+2x Zincirci
+2x Tünel Gözcüsü
+2x Maden Muhafızı
+2x Kapı Krov’u
+2x Mahzen Okçusu
+2x Hücre Kumandanı
+2x Sürgü Çek
+2x Paslı Zincir
+2x Mazgal
+2x Anahtar Nöbeti
+2x Dar Hücre
+2x Sessizlik Emri
+2x Karanlık Kapı
+1x Nöbet Alarmı
+1x Mahzen Pususu
+1x Kaçışın Kesilişi
+1x Dönüştürücü / Tünel Gözcüsü
+İmza: Üç aile kartı oynandığında bir kez +2/+2 kazan; kart yüzü değişir, sayaç sıfırlanmaz.
+Karşı hamle: Üçüncü karttan önce ana tehdidi kaldır.
+
+Koru / Zindan Birliği — Tüketici [koru-jail-tuketici]
+32 kart / attrition / yalnız koru-jail
+2x Zindan Nöbetçisi
+2x Anahtar Taşıyıcı
+2x Hücre Bekçisi
+2x Tünel Gözcüsü
+2x Sürgü Ustası
+2x Demir Eldiven
+2x Zindan Çavuşu
+2x Sürgü Çek
+2x Paslı Zincir
+2x Mazgal
+2x Anahtar Nöbeti
+2x Dar Hücre
+2x Demir Kilit
+2x Sessizlik Emri
+1x Nöbet Alarmı
+1x Mahzen Pususu
+1x Kaçışın Kesilişi
+1x Tüketici / Maden Muhafızı
+İmza: Bir düşmana 2 hasar ver; kendi özüne 1 hasar al. Aile kartı öldürürse bir kart çek.
+Karşı hamle: Kart avantajı üret; uzun tur döngüsünden kaçın.
+
+Koru / Zindan Birliği — Koruyucu [koru-jail-koruyucu]
+32 kart / support / yalnız koru-jail
+2x Zindan Nöbetçisi
+2x Anahtar Taşıyıcı
+2x Zincirci
+2x Hücre Bekçisi
+2x Maden Muhafızı
+2x Sürgü Ustası
+2x Mahzen Okçusu
+2x Sürgü Çek
+2x Paslı Zincir
+2x Mazgal
+2x Dar Hücre
+2x Demir Kilit
+2x Sessizlik Emri
+2x Karanlık Kapı
+1x Nöbet Alarmı
+1x Zincir Darbesi
+1x Kaçışın Kesilişi
+1x Koruyucu / Kapı Krov’u
+İmza: Tur sonunda en düşük canlı aile birimini 2 iyileştir; eşitlikte en soldakini seç.
+Karşı hamle: Destek hedefini kaldır; komşuluk zincirini böl.
+
+Koru / Zindan Birliği — Elit [koru-jail-elit]
+32 kart / mixed / yalnız koru-jail
+2x Zincirci
+2x Hücre Bekçisi
+2x Tünel Gözcüsü
+2x Maden Muhafızı
+2x Kapı Krov’u
+2x Mahzen Okçusu
+2x Zindan Çavuşu
+2x Sürgü Çek
+2x Paslı Zincir
+2x Mazgal
+2x Anahtar Nöbeti
+2x Dar Hücre
+2x Demir Kilit
+2x Sessizlik Emri
+1x Karanlık Kapı
+1x Mahzen Pususu
+1x Kaçışın Kesilişi
+1x Elit / Sürgü Ustası
+İmza: Oynanınca bir aile birimine bu tur +1/+2 ver ve bir kart çek; kendini seçemez.
+Karşı hamle: Maliyetli tehdidi beklet; ilk savunma kaynağını zorla.
+
+Borin / demir eldiven [koru-jail-reis]
+32 kart / boss / yalnız koru-jail
+2x Zindan Nöbetçisi
+2x Hücre Bekçisi
+2x Maden Muhafızı
+2x Kapı Krov’u
+2x Sürgü Ustası
+2x Demir Eldiven
+2x Hücre Kumandanı
+2x Sürgü Çek
+2x Paslı Zincir
+2x Mazgal
+2x Anahtar Nöbeti
+2x Dar Hücre
+2x Demir Kilit
+2x Sessizlik Emri
+1x Nöbet Alarmı
+1x Zincir Darbesi
+1x Kaçışın Kesilişi
+1x Borin / Reis / Mahzen Okçusu
+İmza: Öz yarı cana ilk indiğinde iki 1/2 aile yardımcısı yarat; faz geçişi bir tur önceden uyarılır.
+Karşı hamle: Üçüncü tur öncesi hazırlık; faz geçişine iki cevap sakla.
+
+Koru / Demirhane Birliği — İzci [koru-forge-izci]
+32 kart / tempo / yalnız koru-forge
+2x Ocak Muhafızı
+2x Körükçü Asker
+2x Demir Mızrak
+2x Cüruf Kalkanı
+2x Dövme Zırhlı
+2x Çekiç Taşıyıcı
+2x Kömür Okçusu
+2x Körüğü Aç
+2x Pota Kızgınlığı
+2x Cüruf Yağmuru
+2x Tavlı Çelik
+2x Su Buharı
+2x Ocak Siperi
+2x Kızıl Dövme
+1x Yedek Plaka
+1x Demir Parçası
+1x Isı Baskısı
+1x İzci / Kömür Okçusu
+İmza: Oynanınca bir kart çek; bu tur ilk maliyet 2 veya altı aile kartı 1 ucuzlar.
+Karşı hamle: Erken alan hasarı ve ucuz engelleyiciler.
+
+Koru / Demirhane Birliği — Sürücü [koru-forge-surucu]
+32 kart / swarm / yalnız koru-forge
+2x Ocak Muhafızı
+2x Körükçü Asker
+2x Demir Mızrak
+2x Cüruf Kalkanı
+2x Dövme Zırhlı
+2x Çekiç Taşıyıcı
+2x Kömür Okçusu
+2x Pota Bekçisi
+2x Körüğü Aç
+2x Pota Kızgınlığı
+2x Su Buharı
+2x Ocak Siperi
+2x Kızıl Dövme
+2x Yedek Plaka
+1x Demir Parçası
+1x Örs Darbesi
+1x Son Tavlama
+1x Sürücü / Pota Bekçisi
+İmza: Oynanınca iki 1/1 aile yardımcısı yarat; bunlar turun sonunda kaybolur.
+Karşı hamle: Geniş alan temizliği; yaratılan küçük birimleri kes.
+
+Koru / Demirhane Birliği — Avcı [koru-forge-avci]
+32 kart / mark / yalnız koru-forge
+2x Demir Mızrak
+2x Cüruf Kalkanı
+2x Dövme Zırhlı
+2x Çekiç Taşıyıcı
+2x Kömür Okçusu
+2x Pota Bekçisi
+2x Su Varili Gözcüsü
+2x Körüğü Aç
+2x Pota Kızgınlığı
+2x Cüruf Yağmuru
+2x Tavlı Çelik
+2x Ocak Siperi
+2x Kızıl Dövme
+2x Yedek Plaka
+1x Demir Parçası
+1x Isı Baskısı
+1x Örs Darbesi
+1x Avcı / Su Varili Gözcüsü
+İmza: En düşük canlı düşmanı İşaretle; ilk aile vuruşu o hedefe +2 hasar.
+Karşı hamle: İşareti temizle; savunma öncesi şifa.
+
+Koru / Demirhane Birliği — Muhafız [koru-forge-muhafiz]
+32 kart / guard / yalnız koru-forge
+2x Ocak Muhafızı
+2x Cüruf Kalkanı
+2x Dövme Zırhlı
+2x Kömür Okçusu
+2x Pota Bekçisi
+2x Su Varili Gözcüsü
+2x Ocak Çavuşu
+2x Körüğü Aç
+2x Pota Kızgınlığı
+2x Cüruf Yağmuru
+2x Su Buharı
+2x Ocak Siperi
+2x Kızıl Dövme
+2x Yedek Plaka
+1x Demir Parçası
+1x Örs Darbesi
+1x Son Tavlama
+1x Muhafız / Ocak Çavuşu
+İmza: Oynanınca komşu aile birimlerine bu tur 2 geçici Can ver.
+Karşı hamle: Susturma ve farklı hedeflere bölünmüş hasar.
+
+Koru / Demirhane Birliği — Düellocu [koru-forge-duellocu]
+32 kart / single / yalnız koru-forge
+2x Körükçü Asker
+2x Demir Mızrak
+2x Dövme Zırhlı
+2x Çekiç Taşıyıcı
+2x Pota Bekçisi
+2x Su Varili Gözcüsü
+2x Ocak Çavuşu
+2x Pota Kızgınlığı
+2x Cüruf Yağmuru
+2x Tavlı Çelik
+2x Su Buharı
+2x Ocak Siperi
+2x Kızıl Dövme
+2x Yedek Plaka
+1x Demir Parçası
+1x Isı Baskısı
+1x Son Tavlama
+1x Düellocu / Zırh Ustası
+İmza: Bu tur yalnız saldırırsam +3 Saldırı; saldırı sonrasında bir tur tükenirim.
+Karşı hamle: Güçlendirme bittikten sonra hedef kaldırma.
+
+Koru / Demirhane Birliği — Kuşatmacı [koru-forge-kusatmaci]
+32 kart / siege / yalnız koru-forge
+2x Cüruf Kalkanı
+2x Çekiç Taşıyıcı
+2x Kömür Okçusu
+2x Pota Bekçisi
+2x Su Varili Gözcüsü
+2x Ocak Çavuşu
+2x Zırh Ustası
+2x Körüğü Aç
+2x Cüruf Yağmuru
+2x Tavlı Çelik
+2x Su Buharı
+2x Ocak Siperi
+2x Kızıl Dövme
+2x Yedek Plaka
+1x Demir Parçası
+1x Isı Baskısı
+1x Son Tavlama
+1x Kuşatmacı / Demirhane Kumandanı
+İmza: Üç tur sahada kaldıktan sonra saldırıda düşman özüne 3 hasar ver; sayaç görünür.
+Karşı hamle: Altıncı turdan önce baskı; ağır kart maliyetini artır.
+
+Koru / Demirhane Birliği — Pusucu [koru-forge-pusucu]
+32 kart / ambush / yalnız koru-forge
+2x Ocak Muhafızı
+2x Körükçü Asker
+2x Demir Mızrak
+2x Dövme Zırhlı
+2x Çekiç Taşıyıcı
+2x Kömür Okçusu
+2x Su Varili Gözcüsü
+2x Körüğü Aç
+2x Pota Kızgınlığı
+2x Cüruf Yağmuru
+2x Tavlı Çelik
+2x Su Buharı
+2x Ocak Siperi
+2x Kızıl Dövme
+1x Demir Parçası
+1x Isı Baskısı
+1x Örs Darbesi
+1x Pusucu / Ocak Muhafızı
+İmza: Düşman saldırı hazırlığında oynanabilir; saldıran birimin Saldırısını bu tur 2 azalt.
+Karşı hamle: Pas geçerek tepkisini boşa çıkar; saldırı hazırlığında incele.
+
+Koru / Demirhane Birliği — Ritüelci [koru-forge-buyucu]
+32 kart / spell / yalnız koru-forge
+2x Ocak Muhafızı
+2x Demir Mızrak
+2x Dövme Zırhlı
+2x Pota Bekçisi
+2x Su Varili Gözcüsü
+2x Ocak Çavuşu
+2x Demirhane Kumandanı
+2x Körüğü Aç
+2x Pota Kızgınlığı
+2x Cüruf Yağmuru
+2x Tavlı Çelik
+2x Su Buharı
+2x Ocak Siperi
+2x Kızıl Dövme
+1x Demir Parçası
+1x Örs Darbesi
+1x Son Tavlama
+1x Ritüelci / Körükçü Asker
+İmza: Bir turda ikinci aile büyüsü oynanınca rastgelelik olmadan en soldaki düşmana 2 hasar.
+Karşı hamle: Sessizleştirme; karşı hamle enerjisini tüket.
+
+Koru / Demirhane Birliği — Toplayıcı [koru-forge-toplayici]
+32 kart / resource / yalnız koru-forge
+2x Ocak Muhafızı
+2x Körükçü Asker
+2x Cüruf Kalkanı
+2x Çekiç Taşıyıcı
+2x Kömür Okçusu
+2x Pota Bekçisi
+2x Ocak Çavuşu
+2x Körüğü Aç
+2x Pota Kızgınlığı
+2x Cüruf Yağmuru
+2x Su Buharı
+2x Ocak Siperi
+2x Kızıl Dövme
+2x Yedek Plaka
+1x Demir Parçası
+1x Isı Baskısı
+1x Örs Darbesi
+1x Toplayıcı / Demir Mızrak
+İmza: İlk aile biriminin ölümü sonrası bir aile kartı çek; tur başına bir kez.
+Karşı hamle: Kaynak üreten birimleri öncelikli hedefle.
+
+Koru / Demirhane Birliği — Karşıcı [koru-forge-karsici]
+32 kart / counter / yalnız koru-forge
+2x Körükçü Asker
+2x Demir Mızrak
+2x Cüruf Kalkanı
+2x Dövme Zırhlı
+2x Kömür Okçusu
+2x Su Varili Gözcüsü
+2x Zırh Ustası
+2x Körüğü Aç
+2x Pota Kızgınlığı
+2x Cüruf Yağmuru
+2x Tavlı Çelik
+2x Su Buharı
+2x Ocak Siperi
+2x Kızıl Dövme
+1x Yedek Plaka
+1x Isı Baskısı
+1x Son Tavlama
+1x Karşıcı / Cüruf Kalkanı
+İmza: Maliyeti 3 veya daha az olan bir düşman büyüsünü iptal et; karşı tepki penceresi aç.
+Karşı hamle: Ucuz yem büyüleri; bir turda iki ayrı tehdit.
+
+Koru / Demirhane Birliği — Dönen [koru-forge-dirilen]
+32 kart / recursion / yalnız koru-forge
+2x Ocak Muhafızı
+2x Demir Mızrak
+2x Cüruf Kalkanı
+2x Çekiç Taşıyıcı
+2x Kömür Okçusu
+2x Su Varili Gözcüsü
+2x Ocak Çavuşu
+2x Körüğü Aç
+2x Pota Kızgınlığı
+2x Cüruf Yağmuru
+2x Su Buharı
+2x Ocak Siperi
+2x Kızıl Dövme
+2x Yedek Plaka
+1x Demir Parçası
+1x Örs Darbesi
+1x Son Tavlama
+1x Dönen / Dövme Zırhlı
+İmza: Bu tur ölen en düşük maliyetli aile birimini ele döndür; maliyetine +1 ekle.
+Karşı hamle: Sürgün; geri alma kartı kullanılmadan baskı.
+
+Koru / Demirhane Birliği — Dönüştürücü [koru-forge-donusturucu]
+32 kart / evolve / yalnız koru-forge
+2x Körükçü Asker
+2x Demir Mızrak
+2x Dövme Zırhlı
+2x Çekiç Taşıyıcı
+2x Kömür Okçusu
+2x Su Varili Gözcüsü
+2x Demirhane Kumandanı
+2x Körüğü Aç
+2x Pota Kızgınlığı
+2x Cüruf Yağmuru
+2x Tavlı Çelik
+2x Su Buharı
+2x Kızıl Dövme
+2x Yedek Plaka
+1x Demir Parçası
+1x Isı Baskısı
+1x Son Tavlama
+1x Dönüştürücü / Çekiç Taşıyıcı
+İmza: Üç aile kartı oynandığında bir kez +2/+2 kazan; kart yüzü değişir, sayaç sıfırlanmaz.
+Karşı hamle: Üçüncü karttan önce ana tehdidi kaldır.
+
+Koru / Demirhane Birliği — Tüketici [koru-forge-tuketici]
+32 kart / attrition / yalnız koru-forge
+2x Ocak Muhafızı
+2x Körükçü Asker
+2x Cüruf Kalkanı
+2x Dövme Zırhlı
+2x Pota Bekçisi
+2x Ocak Çavuşu
+2x Zırh Ustası
+2x Körüğü Aç
+2x Pota Kızgınlığı
+2x Cüruf Yağmuru
+2x Tavlı Çelik
+2x Su Buharı
+2x Ocak Siperi
+2x Kızıl Dövme
+1x Demir Parçası
+1x Isı Baskısı
+1x Son Tavlama
+1x Tüketici / Kömür Okçusu
+İmza: Bir düşmana 2 hasar ver; kendi özüne 1 hasar al. Aile kartı öldürürse bir kart çek.
+Karşı hamle: Kart avantajı üret; uzun tur döngüsünden kaçın.
+
+Koru / Demirhane Birliği — Koruyucu [koru-forge-koruyucu]
+32 kart / support / yalnız koru-forge
+2x Ocak Muhafızı
+2x Körükçü Asker
+2x Demir Mızrak
+2x Cüruf Kalkanı
+2x Çekiç Taşıyıcı
+2x Pota Bekçisi
+2x Su Varili Gözcüsü
+2x Körüğü Aç
+2x Pota Kızgınlığı
+2x Cüruf Yağmuru
+2x Su Buharı
+2x Ocak Siperi
+2x Kızıl Dövme
+2x Yedek Plaka
+1x Demir Parçası
+1x Örs Darbesi
+1x Son Tavlama
+1x Koruyucu / Pota Bekçisi
+İmza: Tur sonunda en düşük canlı aile birimini 2 iyileştir; eşitlikte en soldakini seç.
+Karşı hamle: Destek hedefini kaldır; komşuluk zincirini böl.
+
+Koru / Demirhane Birliği — Elit [koru-forge-elit]
+32 kart / mixed / yalnız koru-forge
+2x Demir Mızrak
+2x Cüruf Kalkanı
+2x Dövme Zırhlı
+2x Çekiç Taşıyıcı
+2x Kömür Okçusu
+2x Su Varili Gözcüsü
+2x Zırh Ustası
+2x Körüğü Aç
+2x Pota Kızgınlığı
+2x Cüruf Yağmuru
+2x Tavlı Çelik
+2x Su Buharı
+2x Ocak Siperi
+2x Kızıl Dövme
+1x Yedek Plaka
+1x Isı Baskısı
+1x Son Tavlama
+1x Elit / Su Varili Gözcüsü
+İmza: Oynanınca bir aile birimine bu tur +1/+2 ver ve bir kart çek; kendini seçemez.
+Karşı hamle: Maliyetli tehdidi beklet; ilk savunma kaynağını zorla.
+
+Koru / Demirhane Birliği — Reis [koru-forge-reis]
+32 kart / boss / yalnız koru-forge
+2x Ocak Muhafızı
+2x Cüruf Kalkanı
+2x Çekiç Taşıyıcı
+2x Kömür Okçusu
+2x Pota Bekçisi
+2x Ocak Çavuşu
+2x Demirhane Kumandanı
+2x Körüğü Aç
+2x Pota Kızgınlığı
+2x Cüruf Yağmuru
+2x Tavlı Çelik
+2x Su Buharı
+2x Ocak Siperi
+2x Kızıl Dövme
+1x Demir Parçası
+1x Örs Darbesi
+1x Son Tavlama
+1x Reis / Ocak Çavuşu
+İmza: Öz yarı cana ilk indiğinde iki 1/2 aile yardımcısı yarat; faz geçişi bir tur önceden uyarılır.
+Karşı hamle: Üçüncü tur öncesi hazırlık; faz geçişine iki cevap sakla.
+
+Valerus’un Sadık Birliği — İzci [valerus-loyal-izci]
+32 kart / tempo / yalnız valerus-loyal
+2x Sadık Kalkan
+2x Doğu Mızrakçısı
+2x Ziyafet Nöbetçisi
+2x Liderin Okçusu
+2x Salon Muhafızı
+2x Söz Taşıyıcı
+2x Direniş Onbaşısı
+2x Sadakat Emri
+2x Sözde Barış
+2x Teslimat Listesi
+2x Salon Kuşatması
+2x Liderin Sözü
+2x Kalkan Disiplini
+2x Ziyafet Tuzağı
+1x Gizli Geçit
+1x Yemin Baskısı
+1x Komuta Zinciri
+1x İzci / Gizli Teslimatçı
+İmza: Oynanınca bir kart çek; bu tur ilk maliyet 2 veya altı aile kartı 1 ucuzlar.
+Karşı hamle: Erken alan hasarı ve ucuz engelleyiciler.
+
+Valerus’un Sadık Birliği — Sürücü [valerus-loyal-surucu]
+32 kart / swarm / yalnız valerus-loyal
+2x Sadık Kalkan
+2x Doğu Mızrakçısı
+2x Ziyafet Nöbetçisi
+2x Liderin Okçusu
+2x Salon Muhafızı
+2x Söz Taşıyıcı
+2x Direniş Onbaşısı
+2x Gizli Teslimatçı
+2x Sadakat Emri
+2x Sözde Barış
+2x Liderin Sözü
+2x Kalkan Disiplini
+2x Ziyafet Tuzağı
+2x Gizli Geçit
+1x Yemin Baskısı
+1x Kırık Güven
+1x Son Buyruk
+1x Sürücü / Kapalı Vizör
+İmza: Oynanınca iki 1/1 aile yardımcısı yarat; bunlar turun sonunda kaybolur.
+Karşı hamle: Geniş alan temizliği; yaratılan küçük birimleri kes.
+
+Valerus’un Sadık Birliği — Avcı [valerus-loyal-avci]
+32 kart / mark / yalnız valerus-loyal
+2x Ziyafet Nöbetçisi
+2x Liderin Okçusu
+2x Salon Muhafızı
+2x Söz Taşıyıcı
+2x Direniş Onbaşısı
+2x Gizli Teslimatçı
+2x Kapalı Vizör
+2x Sadakat Emri
+2x Sözde Barış
+2x Teslimat Listesi
+2x Salon Kuşatması
+2x Kalkan Disiplini
+2x Ziyafet Tuzağı
+2x Gizli Geçit
+1x Yemin Baskısı
+1x Komuta Zinciri
+1x Kırık Güven
+1x Avcı / Kumandan Yaveri
+İmza: En düşük canlı düşmanı İşaretle; ilk aile vuruşu o hedefe +2 hasar.
+Karşı hamle: İşareti temizle; savunma öncesi şifa.
+
+Valerus’un Sadık Birliği — Muhafız [valerus-loyal-muhafiz]
+32 kart / guard / yalnız valerus-loyal
+2x Sadık Kalkan
+2x Liderin Okçusu
+2x Salon Muhafızı
+2x Direniş Onbaşısı
+2x Gizli Teslimatçı
+2x Kapalı Vizör
+2x Kumandan Yaveri
+2x Sadakat Emri
+2x Sözde Barış
+2x Teslimat Listesi
+2x Liderin Sözü
+2x Kalkan Disiplini
+2x Ziyafet Tuzağı
+2x Gizli Geçit
+1x Yemin Baskısı
+1x Kırık Güven
+1x Son Buyruk
+1x Muhafız / Yeminli Asker
+İmza: Oynanınca komşu aile birimlerine bu tur 2 geçici Can ver.
+Karşı hamle: Susturma ve farklı hedeflere bölünmüş hasar.
+
+Valerus’un Sadık Birliği — Düellocu [valerus-loyal-duellocu]
+32 kart / single / yalnız valerus-loyal
+2x Doğu Mızrakçısı
+2x Ziyafet Nöbetçisi
+2x Salon Muhafızı
+2x Söz Taşıyıcı
+2x Gizli Teslimatçı
+2x Kapalı Vizör
+2x Kumandan Yaveri
+2x Sözde Barış
+2x Teslimat Listesi
+2x Salon Kuşatması
+2x Liderin Sözü
+2x Kalkan Disiplini
+2x Ziyafet Tuzağı
+2x Gizli Geçit
+1x Yemin Baskısı
+1x Komuta Zinciri
+1x Son Buyruk
+1x Düellocu / Bölük Reisi
+İmza: Bu tur yalnız saldırırsam +3 Saldırı; saldırı sonrasında bir tur tükenirim.
+Karşı hamle: Güçlendirme bittikten sonra hedef kaldırma.
+
+Valerus’un Sadık Birliği — Kuşatmacı [valerus-loyal-kusatmaci]
+32 kart / siege / yalnız valerus-loyal
+2x Liderin Okçusu
+2x Söz Taşıyıcı
+2x Direniş Onbaşısı
+2x Gizli Teslimatçı
+2x Kapalı Vizör
+2x Kumandan Yaveri
+2x Yeminli Asker
+2x Sadakat Emri
+2x Teslimat Listesi
+2x Salon Kuşatması
+2x Liderin Sözü
+2x Kalkan Disiplini
+2x Ziyafet Tuzağı
+2x Gizli Geçit
+1x Yemin Baskısı
+1x Komuta Zinciri
+1x Son Buyruk
+1x Kuşatmacı / Sadık Kalkan
+İmza: Üç tur sahada kaldıktan sonra saldırıda düşman özüne 3 hasar ver; sayaç görünür.
+Karşı hamle: Altıncı turdan önce baskı; ağır kart maliyetini artır.
+
+Valerus’un Sadık Birliği — Pusucu [valerus-loyal-pusucu]
+32 kart / ambush / yalnız valerus-loyal
+2x Sadık Kalkan
+2x Doğu Mızrakçısı
+2x Ziyafet Nöbetçisi
+2x Salon Muhafızı
+2x Söz Taşıyıcı
+2x Direniş Onbaşısı
+2x Kapalı Vizör
+2x Sadakat Emri
+2x Sözde Barış
+2x Teslimat Listesi
+2x Salon Kuşatması
+2x Liderin Sözü
+2x Kalkan Disiplini
+2x Ziyafet Tuzağı
+1x Yemin Baskısı
+1x Komuta Zinciri
+1x Kırık Güven
+1x Pusucu / Doğu Mızrakçısı
+İmza: Düşman saldırı hazırlığında oynanabilir; saldıran birimin Saldırısını bu tur 2 azalt.
+Karşı hamle: Pas geçerek tepkisini boşa çıkar; saldırı hazırlığında incele.
+
+Valerus’un Sadık Birliği — Ritüelci [valerus-loyal-buyucu]
+32 kart / spell / yalnız valerus-loyal
+2x Sadık Kalkan
+2x Ziyafet Nöbetçisi
+2x Salon Muhafızı
+2x Gizli Teslimatçı
+2x Kapalı Vizör
+2x Kumandan Yaveri
+2x Bölük Reisi
+2x Sadakat Emri
+2x Sözde Barış
+2x Teslimat Listesi
+2x Salon Kuşatması
+2x Liderin Sözü
+2x Kalkan Disiplini
+2x Ziyafet Tuzağı
+1x Yemin Baskısı
+1x Kırık Güven
+1x Son Buyruk
+1x Ritüelci / Ziyafet Nöbetçisi
+İmza: Bir turda ikinci aile büyüsü oynanınca rastgelelik olmadan en soldaki düşmana 2 hasar.
+Karşı hamle: Sessizleştirme; karşı hamle enerjisini tüket.
+
+Valerus’un Sadık Birliği — Toplayıcı [valerus-loyal-toplayici]
+32 kart / resource / yalnız valerus-loyal
+2x Sadık Kalkan
+2x Doğu Mızrakçısı
+2x Liderin Okçusu
+2x Söz Taşıyıcı
+2x Direniş Onbaşısı
+2x Gizli Teslimatçı
+2x Kumandan Yaveri
+2x Sadakat Emri
+2x Sözde Barış
+2x Teslimat Listesi
+2x Liderin Sözü
+2x Kalkan Disiplini
+2x Ziyafet Tuzağı
+2x Gizli Geçit
+1x Yemin Baskısı
+1x Komuta Zinciri
+1x Kırık Güven
+1x Toplayıcı / Liderin Okçusu
+İmza: İlk aile biriminin ölümü sonrası bir aile kartı çek; tur başına bir kez.
+Karşı hamle: Kaynak üreten birimleri öncelikli hedefle.
+
+Valerus’un Sadık Birliği — Karşıcı [valerus-loyal-karsici]
+32 kart / counter / yalnız valerus-loyal
+2x Doğu Mızrakçısı
+2x Ziyafet Nöbetçisi
+2x Liderin Okçusu
+2x Salon Muhafızı
+2x Direniş Onbaşısı
+2x Kapalı Vizör
+2x Yeminli Asker
+2x Sadakat Emri
+2x Sözde Barış
+2x Teslimat Listesi
+2x Salon Kuşatması
+2x Liderin Sözü
+2x Kalkan Disiplini
+2x Ziyafet Tuzağı
+1x Gizli Geçit
+1x Komuta Zinciri
+1x Son Buyruk
+1x Karşıcı / Salon Muhafızı
+İmza: Maliyeti 3 veya daha az olan bir düşman büyüsünü iptal et; karşı tepki penceresi aç.
+Karşı hamle: Ucuz yem büyüleri; bir turda iki ayrı tehdit.
+
+Valerus’un Sadık Birliği — Dönen [valerus-loyal-dirilen]
+32 kart / recursion / yalnız valerus-loyal
+2x Sadık Kalkan
+2x Ziyafet Nöbetçisi
+2x Liderin Okçusu
+2x Söz Taşıyıcı
+2x Direniş Onbaşısı
+2x Kapalı Vizör
+2x Kumandan Yaveri
+2x Sadakat Emri
+2x Sözde Barış
+2x Teslimat Listesi
+2x Liderin Sözü
+2x Kalkan Disiplini
+2x Ziyafet Tuzağı
+2x Gizli Geçit
+1x Yemin Baskısı
+1x Kırık Güven
+1x Son Buyruk
+1x Dönen / Söz Taşıyıcı
+İmza: Bu tur ölen en düşük maliyetli aile birimini ele döndür; maliyetine +1 ekle.
+Karşı hamle: Sürgün; geri alma kartı kullanılmadan baskı.
+
+Valerus’un Sadık Birliği — Dönüştürücü [valerus-loyal-donusturucu]
+32 kart / evolve / yalnız valerus-loyal
+2x Doğu Mızrakçısı
+2x Ziyafet Nöbetçisi
+2x Salon Muhafızı
+2x Söz Taşıyıcı
+2x Direniş Onbaşısı
+2x Kapalı Vizör
+2x Bölük Reisi
+2x Sadakat Emri
+2x Sözde Barış
+2x Teslimat Listesi
+2x Salon Kuşatması
+2x Liderin Sözü
+2x Ziyafet Tuzağı
+2x Gizli Geçit
+1x Yemin Baskısı
+1x Komuta Zinciri
+1x Son Buyruk
+1x Dönüştürücü / Direniş Onbaşısı
+İmza: Üç aile kartı oynandığında bir kez +2/+2 kazan; kart yüzü değişir, sayaç sıfırlanmaz.
+Karşı hamle: Üçüncü karttan önce ana tehdidi kaldır.
+
+Valerus’un Sadık Birliği — Tüketici [valerus-loyal-tuketici]
+32 kart / attrition / yalnız valerus-loyal
+2x Sadık Kalkan
+2x Doğu Mızrakçısı
+2x Liderin Okçusu
+2x Salon Muhafızı
+2x Gizli Teslimatçı
+2x Kumandan Yaveri
+2x Yeminli Asker
+2x Sadakat Emri
+2x Sözde Barış
+2x Teslimat Listesi
+2x Salon Kuşatması
+2x Liderin Sözü
+2x Kalkan Disiplini
+2x Ziyafet Tuzağı
+1x Yemin Baskısı
+1x Komuta Zinciri
+1x Son Buyruk
+1x Tüketici / Gizli Teslimatçı
+İmza: Bir düşmana 2 hasar ver; kendi özüne 1 hasar al. Aile kartı öldürürse bir kart çek.
+Karşı hamle: Kart avantajı üret; uzun tur döngüsünden kaçın.
+
+Valerus’un Sadık Birliği — Koruyucu [valerus-loyal-koruyucu]
+32 kart / support / yalnız valerus-loyal
+2x Sadık Kalkan
+2x Doğu Mızrakçısı
+2x Ziyafet Nöbetçisi
+2x Liderin Okçusu
+2x Söz Taşıyıcı
+2x Gizli Teslimatçı
+2x Kapalı Vizör
+2x Sadakat Emri
+2x Sözde Barış
+2x Teslimat Listesi
+2x Liderin Sözü
+2x Kalkan Disiplini
+2x Ziyafet Tuzağı
+2x Gizli Geçit
+1x Yemin Baskısı
+1x Kırık Güven
+1x Son Buyruk
+1x Koruyucu / Kapalı Vizör
+İmza: Tur sonunda en düşük canlı aile birimini 2 iyileştir; eşitlikte en soldakini seç.
+Karşı hamle: Destek hedefini kaldır; komşuluk zincirini böl.
+
+Valerus’un Sadık Birliği — Elit [valerus-loyal-elit]
+32 kart / mixed / yalnız valerus-loyal
+2x Ziyafet Nöbetçisi
+2x Liderin Okçusu
+2x Salon Muhafızı
+2x Söz Taşıyıcı
+2x Direniş Onbaşısı
+2x Kapalı Vizör
+2x Yeminli Asker
+2x Sadakat Emri
+2x Sözde Barış
+2x Teslimat Listesi
+2x Salon Kuşatması
+2x Liderin Sözü
+2x Kalkan Disiplini
+2x Ziyafet Tuzağı
+1x Gizli Geçit
+1x Komuta Zinciri
+1x Son Buyruk
+1x Elit / Kumandan Yaveri
+İmza: Oynanınca bir aile birimine bu tur +1/+2 ver ve bir kart çek; kendini seçemez.
+Karşı hamle: Maliyetli tehdidi beklet; ilk savunma kaynağını zorla.
+
+Valerus / sadakat ziyafeti [valerus-loyal-reis]
+32 kart / boss / yalnız valerus-loyal
+2x Sadık Kalkan
+2x Liderin Okçusu
+2x Söz Taşıyıcı
+2x Direniş Onbaşısı
+2x Gizli Teslimatçı
+2x Kumandan Yaveri
+2x Bölük Reisi
+2x Sadakat Emri
+2x Sözde Barış
+2x Teslimat Listesi
+2x Salon Kuşatması
+2x Liderin Sözü
+2x Kalkan Disiplini
+2x Ziyafet Tuzağı
+1x Yemin Baskısı
+1x Kırık Güven
+1x Son Buyruk
+1x Valerus / Reis / Yeminli Asker
+İmza: Öz yarı cana ilk indiğinde iki 1/2 aile yardımcısı yarat; faz geçişi bir tur önceden uyarılır.
+Karşı hamle: Üçüncü tur öncesi hazırlık; faz geçişine iki cevap sakla.
+
+Konsey / Gölge Yolu — İzci [council-izci]
+32 kart / tempo / yalnız council
+2x Mühür Taşıyıcı
+2x Gölge Kâtibi
+2x Siyah Asa
+2x Elçinin Gözcüsü
+2x Kapı Yazıcısı
+2x Konsey Hizmetlisi
+2x Duman Habercisi
+2x Gölge Yolu
+2x Siyah Küre
+2x Zorunlu Davet
+2x Mühür Fısıltısı
+2x Kara Geçit
+2x Elçinin Hükmü
+2x Gölge Kaydı
+1x İrade Baskısı
+1x Susturma
+1x Eksik Cevap
+1x İzci / Mühür Okuyucusu
+İmza: Oynanınca bir kart çek; bu tur ilk maliyet 2 veya altı aile kartı 1 ucuzlar.
+Karşı hamle: Erken alan hasarı ve ucuz engelleyiciler.
+
+Konsey / Gölge Yolu — Sürücü [council-surucu]
+32 kart / swarm / yalnız council
+2x Mühür Taşıyıcı
+2x Gölge Kâtibi
+2x Siyah Asa
+2x Elçinin Gözcüsü
+2x Kapı Yazıcısı
+2x Konsey Hizmetlisi
+2x Duman Habercisi
+2x Karanlık Arabulucu
+2x Gölge Yolu
+2x Siyah Küre
+2x Kara Geçit
+2x Elçinin Hükmü
+2x Gölge Kaydı
+2x İrade Baskısı
+1x Susturma
+1x Konsey Çağrısı
+1x Son Mühür
+1x Sürücü / İrade Gözcüsü
+İmza: Oynanınca iki 1/1 aile yardımcısı yarat; bunlar turun sonunda kaybolur.
+Karşı hamle: Geniş alan temizliği; yaratılan küçük birimleri kes.
+
+Konsey / Gölge Yolu — Avcı [council-avci]
+32 kart / mark / yalnız council
+2x Siyah Asa
+2x Elçinin Gözcüsü
+2x Kapı Yazıcısı
+2x Konsey Hizmetlisi
+2x Duman Habercisi
+2x Karanlık Arabulucu
+2x Mühür Okuyucusu
+2x Gölge Yolu
+2x Siyah Küre
+2x Zorunlu Davet
+2x Mühür Fısıltısı
+2x Elçinin Hükmü
+2x Gölge Kaydı
+2x İrade Baskısı
+1x Susturma
+1x Eksik Cevap
+1x Konsey Çağrısı
+1x Avcı / Gölge Elçisi
+İmza: En düşük canlı düşmanı İşaretle; ilk aile vuruşu o hedefe +2 hasar.
+Karşı hamle: İşareti temizle; savunma öncesi şifa.
+
+Konsey / Gölge Yolu — Muhafız [council-muhafiz]
+32 kart / guard / yalnız council
+2x Mühür Taşıyıcı
+2x Elçinin Gözcüsü
+2x Kapı Yazıcısı
+2x Duman Habercisi
+2x Karanlık Arabulucu
+2x Mühür Okuyucusu
+2x İrade Gözcüsü
+2x Gölge Yolu
+2x Siyah Küre
+2x Zorunlu Davet
+2x Kara Geçit
+2x Elçinin Hükmü
+2x Gölge Kaydı
+2x İrade Baskısı
+1x Susturma
+1x Konsey Çağrısı
+1x Son Mühür
+1x Muhafız / Buyruk Nazırı
+İmza: Oynanınca komşu aile birimlerine bu tur 2 geçici Can ver.
+Karşı hamle: Susturma ve farklı hedeflere bölünmüş hasar.
+
+Konsey / Gölge Yolu — Düellocu [council-duellocu]
+32 kart / single / yalnız council
+2x Gölge Kâtibi
+2x Siyah Asa
+2x Kapı Yazıcısı
+2x Konsey Hizmetlisi
+2x Karanlık Arabulucu
+2x Mühür Okuyucusu
+2x İrade Gözcüsü
+2x Siyah Küre
+2x Zorunlu Davet
+2x Mühür Fısıltısı
+2x Kara Geçit
+2x Elçinin Hükmü
+2x Gölge Kaydı
+2x İrade Baskısı
+1x Susturma
+1x Eksik Cevap
+1x Son Mühür
+1x Düellocu / Mühür Taşıyıcı
+İmza: Bu tur yalnız saldırırsam +3 Saldırı; saldırı sonrasında bir tur tükenirim.
+Karşı hamle: Güçlendirme bittikten sonra hedef kaldırma.
+
+Konsey / Gölge Yolu — Kuşatmacı [council-kusatmaci]
+32 kart / siege / yalnız council
+2x Elçinin Gözcüsü
+2x Konsey Hizmetlisi
+2x Duman Habercisi
+2x Karanlık Arabulucu
+2x Mühür Okuyucusu
+2x İrade Gözcüsü
+2x Gölge Elçisi
+2x Gölge Yolu
+2x Zorunlu Davet
+2x Mühür Fısıltısı
+2x Kara Geçit
+2x Elçinin Hükmü
+2x Gölge Kaydı
+2x İrade Baskısı
+1x Susturma
+1x Eksik Cevap
+1x Son Mühür
+1x Kuşatmacı / Gölge Kâtibi
+İmza: Üç tur sahada kaldıktan sonra saldırıda düşman özüne 3 hasar ver; sayaç görünür.
+Karşı hamle: Altıncı turdan önce baskı; ağır kart maliyetini artır.
+
+Konsey / Gölge Yolu — Pusucu [council-pusucu]
+32 kart / ambush / yalnız council
+2x Mühür Taşıyıcı
+2x Gölge Kâtibi
+2x Siyah Asa
+2x Kapı Yazıcısı
+2x Konsey Hizmetlisi
+2x Duman Habercisi
+2x Mühür Okuyucusu
+2x Gölge Yolu
+2x Siyah Küre
+2x Zorunlu Davet
+2x Mühür Fısıltısı
+2x Kara Geçit
+2x Elçinin Hükmü
+2x Gölge Kaydı
+1x Susturma
+1x Eksik Cevap
+1x Konsey Çağrısı
+1x Pusucu / Siyah Asa
+İmza: Düşman saldırı hazırlığında oynanabilir; saldıran birimin Saldırısını bu tur 2 azalt.
+Karşı hamle: Pas geçerek tepkisini boşa çıkar; saldırı hazırlığında incele.
+
+Konsey Elçisi / Gölge Yolu [council-buyucu]
+32 kart / spell / yalnız council
+2x Mühür Taşıyıcı
+2x Siyah Asa
+2x Kapı Yazıcısı
+2x Karanlık Arabulucu
+2x Mühür Okuyucusu
+2x İrade Gözcüsü
+2x Buyruk Nazırı
+2x Gölge Yolu
+2x Siyah Küre
+2x Zorunlu Davet
+2x Mühür Fısıltısı
+2x Kara Geçit
+2x Elçinin Hükmü
+2x Gölge Kaydı
+1x Susturma
+1x Konsey Çağrısı
+1x Son Mühür
+1x Konsey Elçisi / Ritüelci / Elçinin Gözcüsü
+İmza: Bir turda ikinci aile büyüsü oynanınca rastgelelik olmadan en soldaki düşmana 2 hasar.
+Karşı hamle: Sessizleştirme; karşı hamle enerjisini tüket.
+
+Konsey / Gölge Yolu — Toplayıcı [council-toplayici]
+32 kart / resource / yalnız council
+2x Mühür Taşıyıcı
+2x Gölge Kâtibi
+2x Elçinin Gözcüsü
+2x Konsey Hizmetlisi
+2x Duman Habercisi
+2x Karanlık Arabulucu
+2x İrade Gözcüsü
+2x Gölge Yolu
+2x Siyah Küre
+2x Zorunlu Davet
+2x Kara Geçit
+2x Elçinin Hükmü
+2x Gölge Kaydı
+2x İrade Baskısı
+1x Susturma
+1x Eksik Cevap
+1x Konsey Çağrısı
+1x Toplayıcı / Kapı Yazıcısı
+İmza: İlk aile biriminin ölümü sonrası bir aile kartı çek; tur başına bir kez.
+Karşı hamle: Kaynak üreten birimleri öncelikli hedefle.
+
+Konsey / Gölge Yolu — Karşıcı [council-karsici]
+32 kart / counter / yalnız council
+2x Gölge Kâtibi
+2x Siyah Asa
+2x Elçinin Gözcüsü
+2x Kapı Yazıcısı
+2x Duman Habercisi
+2x Mühür Okuyucusu
+2x Gölge Elçisi
+2x Gölge Yolu
+2x Siyah Küre
+2x Zorunlu Davet
+2x Mühür Fısıltısı
+2x Kara Geçit
+2x Elçinin Hükmü
+2x Gölge Kaydı
+1x İrade Baskısı
+1x Eksik Cevap
+1x Son Mühür
+1x Karşıcı / Konsey Hizmetlisi
+İmza: Maliyeti 3 veya daha az olan bir düşman büyüsünü iptal et; karşı tepki penceresi aç.
+Karşı hamle: Ucuz yem büyüleri; bir turda iki ayrı tehdit.
+
+Konsey / Gölge Yolu — Dönen [council-dirilen]
+32 kart / recursion / yalnız council
+2x Mühür Taşıyıcı
+2x Siyah Asa
+2x Elçinin Gözcüsü
+2x Konsey Hizmetlisi
+2x Duman Habercisi
+2x Mühür Okuyucusu
+2x İrade Gözcüsü
+2x Gölge Yolu
+2x Siyah Küre
+2x Zorunlu Davet
+2x Kara Geçit
+2x Elçinin Hükmü
+2x Gölge Kaydı
+2x İrade Baskısı
+1x Susturma
+1x Konsey Çağrısı
+1x Son Mühür
+1x Dönen / Duman Habercisi
+İmza: Bu tur ölen en düşük maliyetli aile birimini ele döndür; maliyetine +1 ekle.
+Karşı hamle: Sürgün; geri alma kartı kullanılmadan baskı.
+
+Konsey / Gölge Yolu — Dönüştürücü [council-donusturucu]
+32 kart / evolve / yalnız council
+2x Gölge Kâtibi
+2x Siyah Asa
+2x Kapı Yazıcısı
+2x Konsey Hizmetlisi
+2x Duman Habercisi
+2x Mühür Okuyucusu
+2x Buyruk Nazırı
+2x Gölge Yolu
+2x Siyah Küre
+2x Zorunlu Davet
+2x Mühür Fısıltısı
+2x Kara Geçit
+2x Gölge Kaydı
+2x İrade Baskısı
+1x Susturma
+1x Eksik Cevap
+1x Son Mühür
+1x Dönüştürücü / Karanlık Arabulucu
+İmza: Üç aile kartı oynandığında bir kez +2/+2 kazan; kart yüzü değişir, sayaç sıfırlanmaz.
+Karşı hamle: Üçüncü karttan önce ana tehdidi kaldır.
+
+Konsey / Gölge Yolu — Tüketici [council-tuketici]
+32 kart / attrition / yalnız council
+2x Mühür Taşıyıcı
+2x Gölge Kâtibi
+2x Elçinin Gözcüsü
+2x Kapı Yazıcısı
+2x Karanlık Arabulucu
+2x İrade Gözcüsü
+2x Gölge Elçisi
+2x Gölge Yolu
+2x Siyah Küre
+2x Zorunlu Davet
+2x Mühür Fısıltısı
+2x Kara Geçit
+2x Elçinin Hükmü
+2x Gölge Kaydı
+1x Susturma
+1x Eksik Cevap
+1x Son Mühür
+1x Tüketici / Mühür Okuyucusu
+İmza: Bir düşmana 2 hasar ver; kendi özüne 1 hasar al. Aile kartı öldürürse bir kart çek.
+Karşı hamle: Kart avantajı üret; uzun tur döngüsünden kaçın.
+
+Konsey / Gölge Yolu — Koruyucu [council-koruyucu]
+32 kart / support / yalnız council
+2x Mühür Taşıyıcı
+2x Gölge Kâtibi
+2x Siyah Asa
+2x Elçinin Gözcüsü
+2x Konsey Hizmetlisi
+2x Karanlık Arabulucu
+2x Mühür Okuyucusu
+2x Gölge Yolu
+2x Siyah Küre
+2x Zorunlu Davet
+2x Kara Geçit
+2x Elçinin Hükmü
+2x Gölge Kaydı
+2x İrade Baskısı
+1x Susturma
+1x Konsey Çağrısı
+1x Son Mühür
+1x Koruyucu / İrade Gözcüsü
+İmza: Tur sonunda en düşük canlı aile birimini 2 iyileştir; eşitlikte en soldakini seç.
+Karşı hamle: Destek hedefini kaldır; komşuluk zincirini böl.
+
+Konsey / Gölge Yolu — Elit [council-elit]
+32 kart / mixed / yalnız council
+2x Siyah Asa
+2x Elçinin Gözcüsü
+2x Kapı Yazıcısı
+2x Konsey Hizmetlisi
+2x Duman Habercisi
+2x Mühür Okuyucusu
+2x Gölge Elçisi
+2x Gölge Yolu
+2x Siyah Küre
+2x Zorunlu Davet
+2x Mühür Fısıltısı
+2x Kara Geçit
+2x Elçinin Hükmü
+2x Gölge Kaydı
+1x İrade Baskısı
+1x Eksik Cevap
+1x Son Mühür
+1x Elit / Gölge Elçisi
+İmza: Oynanınca bir aile birimine bu tur +1/+2 ver ve bir kart çek; kendini seçemez.
+Karşı hamle: Maliyetli tehdidi beklet; ilk savunma kaynağını zorla.
+
+Konsey / Gölge Yolu — Reis [council-reis]
+32 kart / boss / yalnız council
+2x Mühür Taşıyıcı
+2x Elçinin Gözcüsü
+2x Konsey Hizmetlisi
+2x Duman Habercisi
+2x Karanlık Arabulucu
+2x İrade Gözcüsü
+2x Buyruk Nazırı
+2x Gölge Yolu
+2x Siyah Küre
+2x Zorunlu Davet
+2x Mühür Fısıltısı
+2x Kara Geçit
+2x Elçinin Hükmü
+2x Gölge Kaydı
+1x Susturma
+1x Konsey Çağrısı
+1x Son Mühür
+1x Reis / Buyruk Nazırı
+İmza: Öz yarı cana ilk indiğinde iki 1/2 aile yardımcısı yarat; faz geçişi bir tur önceden uyarılır.
+Karşı hamle: Üçüncü tur öncesi hazırlık; faz geçişine iki cevap sakla.
+
+Kızıl Kale / Kelebek Muhafızları — İzci [butterfly-guard-izci]
+32 kart / tempo / yalnız butterfly-guard
+2x Ağızsız Maske
+2x Koridor Muhafızı
+2x Kelebek Nöbetçisi
+2x Siyah Metal Kalkan
+2x Merdiven Gardiyanı
+2x Asalı Gözcü
+2x Taç Maskesi
+2x Kelebek İşareti
+2x Koridor Disiplini
+2x Zinciri Çöz
+2x Taş Kapı
+2x Siyah Zemin
+2x Sessiz Emir
+2x Kızıl Çizgi
+1x Maskenin Ardında
+1x Misafir Protokolü
+1x Kapalı Yol
+1x İzci / İç Kapı Bekçisi
+İmza: Oynanınca bir kart çek; bu tur ilk maliyet 2 veya altı aile kartı 1 ucuzlar.
+Karşı hamle: Erken alan hasarı ve ucuz engelleyiciler.
+
+Kızıl Kale / Kelebek Muhafızları — Sürücü [butterfly-guard-surucu]
+32 kart / swarm / yalnız butterfly-guard
+2x Ağızsız Maske
+2x Koridor Muhafızı
+2x Kelebek Nöbetçisi
+2x Siyah Metal Kalkan
+2x Merdiven Gardiyanı
+2x Asalı Gözcü
+2x Taç Maskesi
+2x Hücre Anahtarcısı
+2x Kelebek İşareti
+2x Koridor Disiplini
+2x Siyah Zemin
+2x Sessiz Emir
+2x Kızıl Çizgi
+2x Maskenin Ardında
+1x Misafir Protokolü
+1x Kale Nöbeti
+1x Son Koridor
+1x Sürücü / Naibenin Muhafızı
+İmza: Oynanınca iki 1/1 aile yardımcısı yarat; bunlar turun sonunda kaybolur.
+Karşı hamle: Geniş alan temizliği; yaratılan küçük birimleri kes.
+
+Kızıl Kale / Kelebek Muhafızları — Avcı [butterfly-guard-avci]
+32 kart / mark / yalnız butterfly-guard
+2x Kelebek Nöbetçisi
+2x Siyah Metal Kalkan
+2x Merdiven Gardiyanı
+2x Asalı Gözcü
+2x Taç Maskesi
+2x Hücre Anahtarcısı
+2x Kızıl Salon Askeri
+2x Kelebek İşareti
+2x Koridor Disiplini
+2x Zinciri Çöz
+2x Taş Kapı
+2x Sessiz Emir
+2x Kızıl Çizgi
+2x Maskenin Ardında
+1x Misafir Protokolü
+1x Kapalı Yol
+1x Kale Nöbeti
+1x Avcı / Kale Kumandanı
+İmza: En düşük canlı düşmanı İşaretle; ilk aile vuruşu o hedefe +2 hasar.
+Karşı hamle: İşareti temizle; savunma öncesi şifa.
+
+Kızıl Kale / Kelebek Muhafızları — Muhafız [butterfly-guard-muhafiz]
+32 kart / guard / yalnız butterfly-guard
+2x Ağızsız Maske
+2x Siyah Metal Kalkan
+2x Merdiven Gardiyanı
+2x Taç Maskesi
+2x Hücre Anahtarcısı
+2x Kızıl Salon Askeri
+2x İç Kapı Bekçisi
+2x Kelebek İşareti
+2x Koridor Disiplini
+2x Zinciri Çöz
+2x Siyah Zemin
+2x Sessiz Emir
+2x Kızıl Çizgi
+2x Maskenin Ardında
+1x Misafir Protokolü
+1x Kale Nöbeti
+1x Son Koridor
+1x Muhafız / Ağızsız Maske
+İmza: Oynanınca komşu aile birimlerine bu tur 2 geçici Can ver.
+Karşı hamle: Susturma ve farklı hedeflere bölünmüş hasar.
+
+Kızıl Kale / Kelebek Muhafızları — Düellocu [butterfly-guard-duellocu]
+32 kart / single / yalnız butterfly-guard
+2x Koridor Muhafızı
+2x Kelebek Nöbetçisi
+2x Merdiven Gardiyanı
+2x Asalı Gözcü
+2x Hücre Anahtarcısı
+2x Kızıl Salon Askeri
+2x İç Kapı Bekçisi
+2x Koridor Disiplini
+2x Zinciri Çöz
+2x Taş Kapı
+2x Siyah Zemin
+2x Sessiz Emir
+2x Kızıl Çizgi
+2x Maskenin Ardında
+1x Misafir Protokolü
+1x Kapalı Yol
+1x Son Koridor
+1x Düellocu / Koridor Muhafızı
+İmza: Bu tur yalnız saldırırsam +3 Saldırı; saldırı sonrasında bir tur tükenirim.
+Karşı hamle: Güçlendirme bittikten sonra hedef kaldırma.
+
+Kızıl Kale / Kelebek Muhafızları — Kuşatmacı [butterfly-guard-kusatmaci]
+32 kart / siege / yalnız butterfly-guard
+2x Siyah Metal Kalkan
+2x Asalı Gözcü
+2x Taç Maskesi
+2x Hücre Anahtarcısı
+2x Kızıl Salon Askeri
+2x İç Kapı Bekçisi
+2x Naibenin Muhafızı
+2x Kelebek İşareti
+2x Zinciri Çöz
+2x Taş Kapı
+2x Siyah Zemin
+2x Sessiz Emir
+2x Kızıl Çizgi
+2x Maskenin Ardında
+1x Misafir Protokolü
+1x Kapalı Yol
+1x Son Koridor
+1x Kuşatmacı / Kelebek Nöbetçisi
+İmza: Üç tur sahada kaldıktan sonra saldırıda düşman özüne 3 hasar ver; sayaç görünür.
+Karşı hamle: Altıncı turdan önce baskı; ağır kart maliyetini artır.
+
+Kızıl Kale / Kelebek Muhafızları — Pusucu [butterfly-guard-pusucu]
+32 kart / ambush / yalnız butterfly-guard
+2x Ağızsız Maske
+2x Koridor Muhafızı
+2x Kelebek Nöbetçisi
+2x Merdiven Gardiyanı
+2x Asalı Gözcü
+2x Taç Maskesi
+2x Kızıl Salon Askeri
+2x Kelebek İşareti
+2x Koridor Disiplini
+2x Zinciri Çöz
+2x Taş Kapı
+2x Siyah Zemin
+2x Sessiz Emir
+2x Kızıl Çizgi
+1x Misafir Protokolü
+1x Kapalı Yol
+1x Kale Nöbeti
+1x Pusucu / Siyah Metal Kalkan
+İmza: Düşman saldırı hazırlığında oynanabilir; saldıran birimin Saldırısını bu tur 2 azalt.
+Karşı hamle: Pas geçerek tepkisini boşa çıkar; saldırı hazırlığında incele.
+
+Kızıl Kale / Kelebek Muhafızları — Ritüelci [butterfly-guard-buyucu]
+32 kart / spell / yalnız butterfly-guard
+2x Ağızsız Maske
+2x Kelebek Nöbetçisi
+2x Merdiven Gardiyanı
+2x Hücre Anahtarcısı
+2x Kızıl Salon Askeri
+2x İç Kapı Bekçisi
+2x Kale Kumandanı
+2x Kelebek İşareti
+2x Koridor Disiplini
+2x Zinciri Çöz
+2x Taş Kapı
+2x Siyah Zemin
+2x Sessiz Emir
+2x Kızıl Çizgi
+1x Misafir Protokolü
+1x Kale Nöbeti
+1x Son Koridor
+1x Ritüelci / Merdiven Gardiyanı
+İmza: Bir turda ikinci aile büyüsü oynanınca rastgelelik olmadan en soldaki düşmana 2 hasar.
+Karşı hamle: Sessizleştirme; karşı hamle enerjisini tüket.
+
+Kızıl Kale / Kelebek Muhafızları — Toplayıcı [butterfly-guard-toplayici]
+32 kart / resource / yalnız butterfly-guard
+2x Ağızsız Maske
+2x Koridor Muhafızı
+2x Siyah Metal Kalkan
+2x Asalı Gözcü
+2x Taç Maskesi
+2x Hücre Anahtarcısı
+2x İç Kapı Bekçisi
+2x Kelebek İşareti
+2x Koridor Disiplini
+2x Zinciri Çöz
+2x Siyah Zemin
+2x Sessiz Emir
+2x Kızıl Çizgi
+2x Maskenin Ardında
+1x Misafir Protokolü
+1x Kapalı Yol
+1x Kale Nöbeti
+1x Toplayıcı / Asalı Gözcü
+İmza: İlk aile biriminin ölümü sonrası bir aile kartı çek; tur başına bir kez.
+Karşı hamle: Kaynak üreten birimleri öncelikli hedefle.
+
+Kızıl Kale / Kelebek Muhafızları — Karşıcı [butterfly-guard-karsici]
+32 kart / counter / yalnız butterfly-guard
+2x Koridor Muhafızı
+2x Kelebek Nöbetçisi
+2x Siyah Metal Kalkan
+2x Merdiven Gardiyanı
+2x Taç Maskesi
+2x Kızıl Salon Askeri
+2x Naibenin Muhafızı
+2x Kelebek İşareti
+2x Koridor Disiplini
+2x Zinciri Çöz
+2x Taş Kapı
+2x Siyah Zemin
+2x Sessiz Emir
+2x Kızıl Çizgi
+1x Maskenin Ardında
+1x Kapalı Yol
+1x Son Koridor
+1x Karşıcı / Taç Maskesi
+İmza: Maliyeti 3 veya daha az olan bir düşman büyüsünü iptal et; karşı tepki penceresi aç.
+Karşı hamle: Ucuz yem büyüleri; bir turda iki ayrı tehdit.
+
+Kızıl Kale / Kelebek Muhafızları — Dönen [butterfly-guard-dirilen]
+32 kart / recursion / yalnız butterfly-guard
+2x Ağızsız Maske
+2x Kelebek Nöbetçisi
+2x Siyah Metal Kalkan
+2x Asalı Gözcü
+2x Taç Maskesi
+2x Kızıl Salon Askeri
+2x İç Kapı Bekçisi
+2x Kelebek İşareti
+2x Koridor Disiplini
+2x Zinciri Çöz
+2x Siyah Zemin
+2x Sessiz Emir
+2x Kızıl Çizgi
+2x Maskenin Ardında
+1x Misafir Protokolü
+1x Kale Nöbeti
+1x Son Koridor
+1x Dönen / Hücre Anahtarcısı
+İmza: Bu tur ölen en düşük maliyetli aile birimini ele döndür; maliyetine +1 ekle.
+Karşı hamle: Sürgün; geri alma kartı kullanılmadan baskı.
+
+Kızıl Kale / Kelebek Muhafızları — Dönüştürücü [butterfly-guard-donusturucu]
+32 kart / evolve / yalnız butterfly-guard
+2x Koridor Muhafızı
+2x Kelebek Nöbetçisi
+2x Merdiven Gardiyanı
+2x Asalı Gözcü
+2x Taç Maskesi
+2x Kızıl Salon Askeri
+2x Kale Kumandanı
+2x Kelebek İşareti
+2x Koridor Disiplini
+2x Zinciri Çöz
+2x Taş Kapı
+2x Siyah Zemin
+2x Kızıl Çizgi
+2x Maskenin Ardında
+1x Misafir Protokolü
+1x Kapalı Yol
+1x Son Koridor
+1x Dönüştürücü / Kızıl Salon Askeri
+İmza: Üç aile kartı oynandığında bir kez +2/+2 kazan; kart yüzü değişir, sayaç sıfırlanmaz.
+Karşı hamle: Üçüncü karttan önce ana tehdidi kaldır.
+
+Kızıl Kale / Kelebek Muhafızları — Tüketici [butterfly-guard-tuketici]
+32 kart / attrition / yalnız butterfly-guard
+2x Ağızsız Maske
+2x Koridor Muhafızı
+2x Siyah Metal Kalkan
+2x Merdiven Gardiyanı
+2x Hücre Anahtarcısı
+2x İç Kapı Bekçisi
+2x Naibenin Muhafızı
+2x Kelebek İşareti
+2x Koridor Disiplini
+2x Zinciri Çöz
+2x Taş Kapı
+2x Siyah Zemin
+2x Sessiz Emir
+2x Kızıl Çizgi
+1x Misafir Protokolü
+1x Kapalı Yol
+1x Son Koridor
+1x Tüketici / İç Kapı Bekçisi
+İmza: Bir düşmana 2 hasar ver; kendi özüne 1 hasar al. Aile kartı öldürürse bir kart çek.
+Karşı hamle: Kart avantajı üret; uzun tur döngüsünden kaçın.
+
+Kızıl Kale / Kelebek Muhafızları — Koruyucu [butterfly-guard-koruyucu]
+32 kart / support / yalnız butterfly-guard
+2x Ağızsız Maske
+2x Koridor Muhafızı
+2x Kelebek Nöbetçisi
+2x Siyah Metal Kalkan
+2x Asalı Gözcü
+2x Hücre Anahtarcısı
+2x Kızıl Salon Askeri
+2x Kelebek İşareti
+2x Koridor Disiplini
+2x Zinciri Çöz
+2x Siyah Zemin
+2x Sessiz Emir
+2x Kızıl Çizgi
+2x Maskenin Ardında
+1x Misafir Protokolü
+1x Kale Nöbeti
+1x Son Koridor
+1x Koruyucu / Naibenin Muhafızı
+İmza: Tur sonunda en düşük canlı aile birimini 2 iyileştir; eşitlikte en soldakini seç.
+Karşı hamle: Destek hedefini kaldır; komşuluk zincirini böl.
+
+Kızıl Kale / Kelebek Muhafızları — Elit [butterfly-guard-elit]
+32 kart / mixed / yalnız butterfly-guard
+2x Kelebek Nöbetçisi
+2x Siyah Metal Kalkan
+2x Merdiven Gardiyanı
+2x Asalı Gözcü
+2x Taç Maskesi
+2x Kızıl Salon Askeri
+2x Naibenin Muhafızı
+2x Kelebek İşareti
+2x Koridor Disiplini
+2x Zinciri Çöz
+2x Taş Kapı
+2x Siyah Zemin
+2x Sessiz Emir
+2x Kızıl Çizgi
+1x Maskenin Ardında
+1x Kapalı Yol
+1x Son Koridor
+1x Elit / Kale Kumandanı
+İmza: Oynanınca bir aile birimine bu tur +1/+2 ver ve bir kart çek; kendini seçemez.
+Karşı hamle: Maliyetli tehdidi beklet; ilk savunma kaynağını zorla.
+
+Kızıl Kale / Kelebek Muhafızları — Reis [butterfly-guard-reis]
+32 kart / boss / yalnız butterfly-guard
+2x Ağızsız Maske
+2x Siyah Metal Kalkan
+2x Asalı Gözcü
+2x Taç Maskesi
+2x Hücre Anahtarcısı
+2x İç Kapı Bekçisi
+2x Kale Kumandanı
+2x Kelebek İşareti
+2x Koridor Disiplini
+2x Zinciri Çöz
+2x Taş Kapı
+2x Siyah Zemin
+2x Sessiz Emir
+2x Kızıl Çizgi
+1x Misafir Protokolü
+1x Kale Nöbeti
+1x Son Koridor
+1x Reis / Ağızsız Maske
+İmza: Öz yarı cana ilk indiğinde iki 1/2 aile yardımcısı yarat; faz geçişi bir tur önceden uyarılır.
+Karşı hamle: Üçüncü tur öncesi hazırlık; faz geçişine iki cevap sakla.
+
+Kızıl Kale / Canlı Taş — İzci [living-fortress-izci]
+32 kart / tempo / yalnız living-fortress
+2x Duvar Damarı
+2x Taş Kulak
+2x Kızıl Yarık
+2x Zincir Kancası
+2x Metal Dalga
+2x Koridor Ağzı
+2x Kafatası Nişi
+2x Taşlar Dinliyor
+2x Duvarı Aç
+2x Kan Hafızası
+2x Yaşayan Zincir
+2x Kızıl Nefes
+2x Labirent
+2x Damar Titreşimi
+1x Kapısız Salon
+1x Taş Kapanı
+1x Siyah Dalga
+1x İzci / Kızıl Kemer
+İmza: Oynanınca bir kart çek; bu tur ilk maliyet 2 veya altı aile kartı 1 ucuzlar.
+Karşı hamle: Erken alan hasarı ve ucuz engelleyiciler.
+
+Kızıl Kale / Canlı Taş — Sürücü [living-fortress-surucu]
+32 kart / swarm / yalnız living-fortress
+2x Duvar Damarı
+2x Taş Kulak
+2x Kızıl Yarık
+2x Zincir Kancası
+2x Metal Dalga
+2x Koridor Ağzı
+2x Kafatası Nişi
+2x Canlı Eşik
+2x Taşlar Dinliyor
+2x Duvarı Aç
+2x Kızıl Nefes
+2x Labirent
+2x Damar Titreşimi
+2x Kapısız Salon
+1x Taş Kapanı
+1x Kayıt Tutan Duvar
+1x Son Eşik
+1x Sürücü / Kalenin Kalbi
+İmza: Oynanınca iki 1/1 aile yardımcısı yarat; bunlar turun sonunda kaybolur.
+Karşı hamle: Geniş alan temizliği; yaratılan küçük birimleri kes.
+
+Kızıl Kale / Canlı Taş — Avcı [living-fortress-avci]
+32 kart / mark / yalnız living-fortress
+2x Kızıl Yarık
+2x Zincir Kancası
+2x Metal Dalga
+2x Koridor Ağzı
+2x Kafatası Nişi
+2x Canlı Eşik
+2x Siyah Taht İzi
+2x Taşlar Dinliyor
+2x Duvarı Aç
+2x Kan Hafızası
+2x Yaşayan Zincir
+2x Labirent
+2x Damar Titreşimi
+2x Kapısız Salon
+1x Taş Kapanı
+1x Siyah Dalga
+1x Kayıt Tutan Duvar
+1x Avcı / Duvar Damarı
+İmza: En düşük canlı düşmanı İşaretle; ilk aile vuruşu o hedefe +2 hasar.
+Karşı hamle: İşareti temizle; savunma öncesi şifa.
+
+Kızıl Kale / Canlı Taş — Muhafız [living-fortress-muhafiz]
+32 kart / guard / yalnız living-fortress
+2x Duvar Damarı
+2x Zincir Kancası
+2x Metal Dalga
+2x Kafatası Nişi
+2x Canlı Eşik
+2x Siyah Taht İzi
+2x Dinleyen Taş
+2x Taşlar Dinliyor
+2x Duvarı Aç
+2x Kan Hafızası
+2x Kızıl Nefes
+2x Labirent
+2x Damar Titreşimi
+2x Kapısız Salon
+1x Taş Kapanı
+1x Kayıt Tutan Duvar
+1x Son Eşik
+1x Muhafız / Taş Kulak
+İmza: Oynanınca komşu aile birimlerine bu tur 2 geçici Can ver.
+Karşı hamle: Susturma ve farklı hedeflere bölünmüş hasar.
+
+Kızıl Kale / Canlı Taş — Düellocu [living-fortress-duellocu]
+32 kart / single / yalnız living-fortress
+2x Taş Kulak
+2x Kızıl Yarık
+2x Metal Dalga
+2x Koridor Ağzı
+2x Canlı Eşik
+2x Siyah Taht İzi
+2x Dinleyen Taş
+2x Duvarı Aç
+2x Kan Hafızası
+2x Yaşayan Zincir
+2x Kızıl Nefes
+2x Labirent
+2x Damar Titreşimi
+2x Kapısız Salon
+1x Taş Kapanı
+1x Siyah Dalga
+1x Son Eşik
+1x Düellocu / Kızıl Yarık
+İmza: Bu tur yalnız saldırırsam +3 Saldırı; saldırı sonrasında bir tur tükenirim.
+Karşı hamle: Güçlendirme bittikten sonra hedef kaldırma.
+
+Kızıl Kale / Canlı Taş — Kuşatmacı [living-fortress-kusatmaci]
+32 kart / siege / yalnız living-fortress
+2x Zincir Kancası
+2x Koridor Ağzı
+2x Kafatası Nişi
+2x Canlı Eşik
+2x Siyah Taht İzi
+2x Dinleyen Taş
+2x Kızıl Kemer
+2x Taşlar Dinliyor
+2x Kan Hafızası
+2x Yaşayan Zincir
+2x Kızıl Nefes
+2x Labirent
+2x Damar Titreşimi
+2x Kapısız Salon
+1x Taş Kapanı
+1x Siyah Dalga
+1x Son Eşik
+1x Kuşatmacı / Zincir Kancası
+İmza: Üç tur sahada kaldıktan sonra saldırıda düşman özüne 3 hasar ver; sayaç görünür.
+Karşı hamle: Altıncı turdan önce baskı; ağır kart maliyetini artır.
+
+Kızıl Kale / Canlı Taş — Pusucu [living-fortress-pusucu]
+32 kart / ambush / yalnız living-fortress
+2x Duvar Damarı
+2x Taş Kulak
+2x Kızıl Yarık
+2x Metal Dalga
+2x Koridor Ağzı
+2x Kafatası Nişi
+2x Siyah Taht İzi
+2x Taşlar Dinliyor
+2x Duvarı Aç
+2x Kan Hafızası
+2x Yaşayan Zincir
+2x Kızıl Nefes
+2x Labirent
+2x Damar Titreşimi
+1x Taş Kapanı
+1x Siyah Dalga
+1x Kayıt Tutan Duvar
+1x Pusucu / Metal Dalga
+İmza: Düşman saldırı hazırlığında oynanabilir; saldıran birimin Saldırısını bu tur 2 azalt.
+Karşı hamle: Pas geçerek tepkisini boşa çıkar; saldırı hazırlığında incele.
+
+Kızıl Kale / Canlı Taş — Ritüelci [living-fortress-buyucu]
+32 kart / spell / yalnız living-fortress
+2x Duvar Damarı
+2x Kızıl Yarık
+2x Metal Dalga
+2x Canlı Eşik
+2x Siyah Taht İzi
+2x Dinleyen Taş
+2x Kalenin Kalbi
+2x Taşlar Dinliyor
+2x Duvarı Aç
+2x Kan Hafızası
+2x Yaşayan Zincir
+2x Kızıl Nefes
+2x Labirent
+2x Damar Titreşimi
+1x Taş Kapanı
+1x Kayıt Tutan Duvar
+1x Son Eşik
+1x Ritüelci / Koridor Ağzı
+İmza: Bir turda ikinci aile büyüsü oynanınca rastgelelik olmadan en soldaki düşmana 2 hasar.
+Karşı hamle: Sessizleştirme; karşı hamle enerjisini tüket.
+
+Kızıl Kale / Canlı Taş — Toplayıcı [living-fortress-toplayici]
+32 kart / resource / yalnız living-fortress
+2x Duvar Damarı
+2x Taş Kulak
+2x Zincir Kancası
+2x Koridor Ağzı
+2x Kafatası Nişi
+2x Canlı Eşik
+2x Dinleyen Taş
+2x Taşlar Dinliyor
+2x Duvarı Aç
+2x Kan Hafızası
+2x Kızıl Nefes
+2x Labirent
+2x Damar Titreşimi
+2x Kapısız Salon
+1x Taş Kapanı
+1x Siyah Dalga
+1x Kayıt Tutan Duvar
+1x Toplayıcı / Kafatası Nişi
+İmza: İlk aile biriminin ölümü sonrası bir aile kartı çek; tur başına bir kez.
+Karşı hamle: Kaynak üreten birimleri öncelikli hedefle.
+
+Kızıl Kale / Canlı Taş — Karşıcı [living-fortress-karsici]
+32 kart / counter / yalnız living-fortress
+2x Taş Kulak
+2x Kızıl Yarık
+2x Zincir Kancası
+2x Metal Dalga
+2x Kafatası Nişi
+2x Siyah Taht İzi
+2x Kızıl Kemer
+2x Taşlar Dinliyor
+2x Duvarı Aç
+2x Kan Hafızası
+2x Yaşayan Zincir
+2x Kızıl Nefes
+2x Labirent
+2x Damar Titreşimi
+1x Kapısız Salon
+1x Siyah Dalga
+1x Son Eşik
+1x Karşıcı / Canlı Eşik
+İmza: Maliyeti 3 veya daha az olan bir düşman büyüsünü iptal et; karşı tepki penceresi aç.
+Karşı hamle: Ucuz yem büyüleri; bir turda iki ayrı tehdit.
+
+Kızıl Kale / Canlı Taş — Dönen [living-fortress-dirilen]
+32 kart / recursion / yalnız living-fortress
+2x Duvar Damarı
+2x Kızıl Yarık
+2x Zincir Kancası
+2x Koridor Ağzı
+2x Kafatası Nişi
+2x Siyah Taht İzi
+2x Dinleyen Taş
+2x Taşlar Dinliyor
+2x Duvarı Aç
+2x Kan Hafızası
+2x Kızıl Nefes
+2x Labirent
+2x Damar Titreşimi
+2x Kapısız Salon
+1x Taş Kapanı
+1x Kayıt Tutan Duvar
+1x Son Eşik
+1x Dönen / Siyah Taht İzi
+İmza: Bu tur ölen en düşük maliyetli aile birimini ele döndür; maliyetine +1 ekle.
+Karşı hamle: Sürgün; geri alma kartı kullanılmadan baskı.
+
+Kızıl Kale / Canlı Taş — Dönüştürücü [living-fortress-donusturucu]
+32 kart / evolve / yalnız living-fortress
+2x Taş Kulak
+2x Kızıl Yarık
+2x Metal Dalga
+2x Koridor Ağzı
+2x Kafatası Nişi
+2x Siyah Taht İzi
+2x Kalenin Kalbi
+2x Taşlar Dinliyor
+2x Duvarı Aç
+2x Kan Hafızası
+2x Yaşayan Zincir
+2x Kızıl Nefes
+2x Damar Titreşimi
+2x Kapısız Salon
+1x Taş Kapanı
+1x Siyah Dalga
+1x Son Eşik
+1x Dönüştürücü / Dinleyen Taş
+İmza: Üç aile kartı oynandığında bir kez +2/+2 kazan; kart yüzü değişir, sayaç sıfırlanmaz.
+Karşı hamle: Üçüncü karttan önce ana tehdidi kaldır.
+
+Kızıl Kale / Canlı Taş — Tüketici [living-fortress-tuketici]
+32 kart / attrition / yalnız living-fortress
+2x Duvar Damarı
+2x Taş Kulak
+2x Zincir Kancası
+2x Metal Dalga
+2x Canlı Eşik
+2x Dinleyen Taş
+2x Kızıl Kemer
+2x Taşlar Dinliyor
+2x Duvarı Aç
+2x Kan Hafızası
+2x Yaşayan Zincir
+2x Kızıl Nefes
+2x Labirent
+2x Damar Titreşimi
+1x Taş Kapanı
+1x Siyah Dalga
+1x Son Eşik
+1x Tüketici / Kızıl Kemer
+İmza: Bir düşmana 2 hasar ver; kendi özüne 1 hasar al. Aile kartı öldürürse bir kart çek.
+Karşı hamle: Kart avantajı üret; uzun tur döngüsünden kaçın.
+
+Kızıl Kale / Canlı Taş — Koruyucu [living-fortress-koruyucu]
+32 kart / support / yalnız living-fortress
+2x Duvar Damarı
+2x Taş Kulak
+2x Kızıl Yarık
+2x Zincir Kancası
+2x Koridor Ağzı
+2x Canlı Eşik
+2x Siyah Taht İzi
+2x Taşlar Dinliyor
+2x Duvarı Aç
+2x Kan Hafızası
+2x Kızıl Nefes
+2x Labirent
+2x Damar Titreşimi
+2x Kapısız Salon
+1x Taş Kapanı
+1x Kayıt Tutan Duvar
+1x Son Eşik
+1x Koruyucu / Kalenin Kalbi
+İmza: Tur sonunda en düşük canlı aile birimini 2 iyileştir; eşitlikte en soldakini seç.
+Karşı hamle: Destek hedefini kaldır; komşuluk zincirini böl.
+
+Kızıl Kale / Canlı Taş — Elit [living-fortress-elit]
+32 kart / mixed / yalnız living-fortress
+2x Kızıl Yarık
+2x Zincir Kancası
+2x Metal Dalga
+2x Koridor Ağzı
+2x Kafatası Nişi
+2x Siyah Taht İzi
+2x Kızıl Kemer
+2x Taşlar Dinliyor
+2x Duvarı Aç
+2x Kan Hafızası
+2x Yaşayan Zincir
+2x Kızıl Nefes
+2x Labirent
+2x Damar Titreşimi
+1x Kapısız Salon
+1x Siyah Dalga
+1x Son Eşik
+1x Elit / Duvar Damarı
+İmza: Oynanınca bir aile birimine bu tur +1/+2 ver ve bir kart çek; kendini seçemez.
+Karşı hamle: Maliyetli tehdidi beklet; ilk savunma kaynağını zorla.
+
+Kızıl Kale / Canlı Taş — Reis [living-fortress-reis]
+32 kart / boss / yalnız living-fortress
+2x Duvar Damarı
+2x Zincir Kancası
+2x Koridor Ağzı
+2x Kafatası Nişi
+2x Canlı Eşik
+2x Dinleyen Taş
+2x Kalenin Kalbi
+2x Taşlar Dinliyor
+2x Duvarı Aç
+2x Kan Hafızası
+2x Yaşayan Zincir
+2x Kızıl Nefes
+2x Labirent
+2x Damar Titreşimi
+1x Taş Kapanı
+1x Kayıt Tutan Duvar
+1x Son Eşik
+1x Reis / Taş Kulak
+İmza: Öz yarı cana ilk indiğinde iki 1/2 aile yardımcısı yarat; faz geçişi bir tur önceden uyarılır.
+Karşı hamle: Üçüncü tur öncesi hazırlık; faz geçişine iki cevap sakla.
+
+Kül Tarlaları / Yağmacılar — İzci [ash-scavenger-izci]
+32 kart / tempo / yalnız ash-scavenger
+2x Kül Toplayıcı
+2x Su Kesici
+2x Hurda Okçusu
+2x Boru Saklananı
+2x Erzak Avcısı
+2x Paslı Bıçak
+2x Toz Maskesi
+2x Suya El Koy
+2x Hurda Bağı
+2x Kül Pususu
+2x Erzak Payı
+2x Toz Bulutu
+2x Boru Siperi
+2x Paslı Tuzak
+1x Kervan Kes
+1x Son Damla
+1x Kayıp Çanta
+1x İzci / Tarlanın Zorbası
+İmza: Oynanınca bir kart çek; bu tur ilk maliyet 2 veya altı aile kartı 1 ucuzlar.
+Karşı hamle: Erken alan hasarı ve ucuz engelleyiciler.
+
+Kül Tarlaları / Yağmacılar — Sürücü [ash-scavenger-surucu]
+32 kart / swarm / yalnız ash-scavenger
+2x Kül Toplayıcı
+2x Su Kesici
+2x Hurda Okçusu
+2x Boru Saklananı
+2x Erzak Avcısı
+2x Paslı Bıçak
+2x Toz Maskesi
+2x Kervan Pusucusu
+2x Suya El Koy
+2x Hurda Bağı
+2x Toz Bulutu
+2x Boru Siperi
+2x Paslı Tuzak
+2x Kervan Kes
+1x Son Damla
+1x Enkaz Yağması
+1x Son Pazarlık
+1x Sürücü / Kül Toplayıcı
+İmza: Oynanınca iki 1/1 aile yardımcısı yarat; bunlar turun sonunda kaybolur.
+Karşı hamle: Geniş alan temizliği; yaratılan küçük birimleri kes.
+
+Kül Tarlaları / Yağmacılar — Avcı [ash-scavenger-avci]
+32 kart / mark / yalnız ash-scavenger
+2x Hurda Okçusu
+2x Boru Saklananı
+2x Erzak Avcısı
+2x Paslı Bıçak
+2x Toz Maskesi
+2x Kervan Pusucusu
+2x Enkaz Gözcüsü
+2x Suya El Koy
+2x Hurda Bağı
+2x Kül Pususu
+2x Erzak Payı
+2x Boru Siperi
+2x Paslı Tuzak
+2x Kervan Kes
+1x Son Damla
+1x Kayıp Çanta
+1x Enkaz Yağması
+1x Avcı / Su Kesici
+İmza: En düşük canlı düşmanı İşaretle; ilk aile vuruşu o hedefe +2 hasar.
+Karşı hamle: İşareti temizle; savunma öncesi şifa.
+
+Kül Tarlaları / Yağmacılar — Muhafız [ash-scavenger-muhafiz]
+32 kart / guard / yalnız ash-scavenger
+2x Kül Toplayıcı
+2x Boru Saklananı
+2x Erzak Avcısı
+2x Toz Maskesi
+2x Kervan Pusucusu
+2x Enkaz Gözcüsü
+2x Gümüş Kesici
+2x Suya El Koy
+2x Hurda Bağı
+2x Kül Pususu
+2x Toz Bulutu
+2x Boru Siperi
+2x Paslı Tuzak
+2x Kervan Kes
+1x Son Damla
+1x Enkaz Yağması
+1x Son Pazarlık
+1x Muhafız / Hurda Okçusu
+İmza: Oynanınca komşu aile birimlerine bu tur 2 geçici Can ver.
+Karşı hamle: Susturma ve farklı hedeflere bölünmüş hasar.
+
+Kül Tarlaları / Yağmacılar — Düellocu [ash-scavenger-duellocu]
+32 kart / single / yalnız ash-scavenger
+2x Su Kesici
+2x Hurda Okçusu
+2x Erzak Avcısı
+2x Paslı Bıçak
+2x Kervan Pusucusu
+2x Enkaz Gözcüsü
+2x Gümüş Kesici
+2x Hurda Bağı
+2x Kül Pususu
+2x Erzak Payı
+2x Toz Bulutu
+2x Boru Siperi
+2x Paslı Tuzak
+2x Kervan Kes
+1x Son Damla
+1x Kayıp Çanta
+1x Son Pazarlık
+1x Düellocu / Boru Saklananı
+İmza: Bu tur yalnız saldırırsam +3 Saldırı; saldırı sonrasında bir tur tükenirim.
+Karşı hamle: Güçlendirme bittikten sonra hedef kaldırma.
+
+Kül Tarlaları / Yağmacılar — Kuşatmacı [ash-scavenger-kusatmaci]
+32 kart / siege / yalnız ash-scavenger
+2x Boru Saklananı
+2x Paslı Bıçak
+2x Toz Maskesi
+2x Kervan Pusucusu
+2x Enkaz Gözcüsü
+2x Gümüş Kesici
+2x Yağma Reisi
+2x Suya El Koy
+2x Kül Pususu
+2x Erzak Payı
+2x Toz Bulutu
+2x Boru Siperi
+2x Paslı Tuzak
+2x Kervan Kes
+1x Son Damla
+1x Kayıp Çanta
+1x Son Pazarlık
+1x Kuşatmacı / Erzak Avcısı
+İmza: Üç tur sahada kaldıktan sonra saldırıda düşman özüne 3 hasar ver; sayaç görünür.
+Karşı hamle: Altıncı turdan önce baskı; ağır kart maliyetini artır.
+
+Kül Tarlaları / Yağmacılar — Pusucu [ash-scavenger-pusucu]
+32 kart / ambush / yalnız ash-scavenger
+2x Kül Toplayıcı
+2x Su Kesici
+2x Hurda Okçusu
+2x Erzak Avcısı
+2x Paslı Bıçak
+2x Toz Maskesi
+2x Enkaz Gözcüsü
+2x Suya El Koy
+2x Hurda Bağı
+2x Kül Pususu
+2x Erzak Payı
+2x Toz Bulutu
+2x Boru Siperi
+2x Paslı Tuzak
+1x Son Damla
+1x Kayıp Çanta
+1x Enkaz Yağması
+1x Pusucu / Paslı Bıçak
+İmza: Düşman saldırı hazırlığında oynanabilir; saldıran birimin Saldırısını bu tur 2 azalt.
+Karşı hamle: Pas geçerek tepkisini boşa çıkar; saldırı hazırlığında incele.
+
+Kül Tarlaları / Yağmacılar — Ritüelci [ash-scavenger-buyucu]
+32 kart / spell / yalnız ash-scavenger
+2x Kül Toplayıcı
+2x Hurda Okçusu
+2x Erzak Avcısı
+2x Kervan Pusucusu
+2x Enkaz Gözcüsü
+2x Gümüş Kesici
+2x Tarlanın Zorbası
+2x Suya El Koy
+2x Hurda Bağı
+2x Kül Pususu
+2x Erzak Payı
+2x Toz Bulutu
+2x Boru Siperi
+2x Paslı Tuzak
+1x Son Damla
+1x Enkaz Yağması
+1x Son Pazarlık
+1x Ritüelci / Toz Maskesi
+İmza: Bir turda ikinci aile büyüsü oynanınca rastgelelik olmadan en soldaki düşmana 2 hasar.
+Karşı hamle: Sessizleştirme; karşı hamle enerjisini tüket.
+
+Kül Tarlaları / Yağmacılar — Toplayıcı [ash-scavenger-toplayici]
+32 kart / resource / yalnız ash-scavenger
+2x Kül Toplayıcı
+2x Su Kesici
+2x Boru Saklananı
+2x Paslı Bıçak
+2x Toz Maskesi
+2x Kervan Pusucusu
+2x Gümüş Kesici
+2x Suya El Koy
+2x Hurda Bağı
+2x Kül Pususu
+2x Toz Bulutu
+2x Boru Siperi
+2x Paslı Tuzak
+2x Kervan Kes
+1x Son Damla
+1x Kayıp Çanta
+1x Enkaz Yağması
+1x Toplayıcı / Kervan Pusucusu
+İmza: İlk aile biriminin ölümü sonrası bir aile kartı çek; tur başına bir kez.
+Karşı hamle: Kaynak üreten birimleri öncelikli hedefle.
+
+Kül Tarlaları / Yağmacılar — Karşıcı [ash-scavenger-karsici]
+32 kart / counter / yalnız ash-scavenger
+2x Su Kesici
+2x Hurda Okçusu
+2x Boru Saklananı
+2x Erzak Avcısı
+2x Toz Maskesi
+2x Enkaz Gözcüsü
+2x Yağma Reisi
+2x Suya El Koy
+2x Hurda Bağı
+2x Kül Pususu
+2x Erzak Payı
+2x Toz Bulutu
+2x Boru Siperi
+2x Paslı Tuzak
+1x Kervan Kes
+1x Kayıp Çanta
+1x Son Pazarlık
+1x Karşıcı / Enkaz Gözcüsü
+İmza: Maliyeti 3 veya daha az olan bir düşman büyüsünü iptal et; karşı tepki penceresi aç.
+Karşı hamle: Ucuz yem büyüleri; bir turda iki ayrı tehdit.
+
+Kül Tarlaları / Yağmacılar — Dönen [ash-scavenger-dirilen]
+32 kart / recursion / yalnız ash-scavenger
+2x Kül Toplayıcı
+2x Hurda Okçusu
+2x Boru Saklananı
+2x Paslı Bıçak
+2x Toz Maskesi
+2x Enkaz Gözcüsü
+2x Gümüş Kesici
+2x Suya El Koy
+2x Hurda Bağı
+2x Kül Pususu
+2x Toz Bulutu
+2x Boru Siperi
+2x Paslı Tuzak
+2x Kervan Kes
+1x Son Damla
+1x Enkaz Yağması
+1x Son Pazarlık
+1x Dönen / Gümüş Kesici
+İmza: Bu tur ölen en düşük maliyetli aile birimini ele döndür; maliyetine +1 ekle.
+Karşı hamle: Sürgün; geri alma kartı kullanılmadan baskı.
+
+Kül Tarlaları / Yağmacılar — Dönüştürücü [ash-scavenger-donusturucu]
+32 kart / evolve / yalnız ash-scavenger
+2x Su Kesici
+2x Hurda Okçusu
+2x Erzak Avcısı
+2x Paslı Bıçak
+2x Toz Maskesi
+2x Enkaz Gözcüsü
+2x Tarlanın Zorbası
+2x Suya El Koy
+2x Hurda Bağı
+2x Kül Pususu
+2x Erzak Payı
+2x Toz Bulutu
+2x Paslı Tuzak
+2x Kervan Kes
+1x Son Damla
+1x Kayıp Çanta
+1x Son Pazarlık
+1x Dönüştürücü / Yağma Reisi
+İmza: Üç aile kartı oynandığında bir kez +2/+2 kazan; kart yüzü değişir, sayaç sıfırlanmaz.
+Karşı hamle: Üçüncü karttan önce ana tehdidi kaldır.
+
+Kül Tarlaları / Yağmacılar — Tüketici [ash-scavenger-tuketici]
+32 kart / attrition / yalnız ash-scavenger
+2x Kül Toplayıcı
+2x Su Kesici
+2x Boru Saklananı
+2x Erzak Avcısı
+2x Kervan Pusucusu
+2x Gümüş Kesici
+2x Yağma Reisi
+2x Suya El Koy
+2x Hurda Bağı
+2x Kül Pususu
+2x Erzak Payı
+2x Toz Bulutu
+2x Boru Siperi
+2x Paslı Tuzak
+1x Son Damla
+1x Kayıp Çanta
+1x Son Pazarlık
+1x Tüketici / Tarlanın Zorbası
+İmza: Bir düşmana 2 hasar ver; kendi özüne 1 hasar al. Aile kartı öldürürse bir kart çek.
+Karşı hamle: Kart avantajı üret; uzun tur döngüsünden kaçın.
+
+Kül Tarlaları / Yağmacılar — Koruyucu [ash-scavenger-koruyucu]
+32 kart / support / yalnız ash-scavenger
+2x Kül Toplayıcı
+2x Su Kesici
+2x Hurda Okçusu
+2x Boru Saklananı
+2x Paslı Bıçak
+2x Kervan Pusucusu
+2x Enkaz Gözcüsü
+2x Suya El Koy
+2x Hurda Bağı
+2x Kül Pususu
+2x Toz Bulutu
+2x Boru Siperi
+2x Paslı Tuzak
+2x Kervan Kes
+1x Son Damla
+1x Enkaz Yağması
+1x Son Pazarlık
+1x Koruyucu / Kül Toplayıcı
+İmza: Tur sonunda en düşük canlı aile birimini 2 iyileştir; eşitlikte en soldakini seç.
+Karşı hamle: Destek hedefini kaldır; komşuluk zincirini böl.
+
+Kül Tarlaları / Yağmacılar — Elit [ash-scavenger-elit]
+32 kart / mixed / yalnız ash-scavenger
+2x Hurda Okçusu
+2x Boru Saklananı
+2x Erzak Avcısı
+2x Paslı Bıçak
+2x Toz Maskesi
+2x Enkaz Gözcüsü
+2x Yağma Reisi
+2x Suya El Koy
+2x Hurda Bağı
+2x Kül Pususu
+2x Erzak Payı
+2x Toz Bulutu
+2x Boru Siperi
+2x Paslı Tuzak
+1x Kervan Kes
+1x Kayıp Çanta
+1x Son Pazarlık
+1x Elit / Su Kesici
+İmza: Oynanınca bir aile birimine bu tur +1/+2 ver ve bir kart çek; kendini seçemez.
+Karşı hamle: Maliyetli tehdidi beklet; ilk savunma kaynağını zorla.
+
+Kül Tarlaları / Yağmacılar — Reis [ash-scavenger-reis]
+32 kart / boss / yalnız ash-scavenger
+2x Kül Toplayıcı
+2x Boru Saklananı
+2x Paslı Bıçak
+2x Toz Maskesi
+2x Kervan Pusucusu
+2x Gümüş Kesici
+2x Tarlanın Zorbası
+2x Suya El Koy
+2x Hurda Bağı
+2x Kül Pususu
+2x Erzak Payı
+2x Toz Bulutu
+2x Boru Siperi
+2x Paslı Tuzak
+1x Son Damla
+1x Enkaz Yağması
+1x Son Pazarlık
+1x Reis / Hurda Okçusu
+İmza: Öz yarı cana ilk indiğinde iki 1/2 aile yardımcısı yarat; faz geçişi bir tur önceden uyarılır.
+Karşı hamle: Üçüncü tur öncesi hazırlık; faz geçişine iki cevap sakla.
+
+Ölüler Bataklığı / Sanrılar — İzci [marsh-visions-izci]
+32 kart / tempo / yalnız marsh-visions
+2x Gaz Silueti
+2x Boş Yüz
+2x Kayıp Asker Yankısı
+2x Çamur Eli
+2x Korku Gölgesi
+2x Bataklık Nefesi
+2x Durgun Su Sureti
+2x Gaz Soluğu
+2x Yanlış Hatıra
+2x Derin Korku
+2x Çamur Çekişi
+2x Sis Kapanı
+2x Bozuk Yansıma
+2x Yol Kaybı
+1x Durgun Fısıltı
+1x Savaş Artığı
+1x Korkuya Bak
+1x İzci / Gaz Silueti
+İmza: Oynanınca bir kart çek; bu tur ilk maliyet 2 veya altı aile kartı 1 ucuzlar.
+Karşı hamle: Erken alan hasarı ve ucuz engelleyiciler.
+
+Ölüler Bataklığı / Sanrılar — Sürücü [marsh-visions-surucu]
+32 kart / swarm / yalnız marsh-visions
+2x Gaz Silueti
+2x Boş Yüz
+2x Kayıp Asker Yankısı
+2x Çamur Eli
+2x Korku Gölgesi
+2x Bataklık Nefesi
+2x Durgun Su Sureti
+2x Yas Yansıması
+2x Gaz Soluğu
+2x Yanlış Hatıra
+2x Sis Kapanı
+2x Bozuk Yansıma
+2x Yol Kaybı
+2x Durgun Fısıltı
+1x Savaş Artığı
+1x Nefes Kes
+1x Son Sanrı
+1x Sürücü / Boş Yüz
+İmza: Oynanınca iki 1/1 aile yardımcısı yarat; bunlar turun sonunda kaybolur.
+Karşı hamle: Geniş alan temizliği; yaratılan küçük birimleri kes.
+
+Ölüler Bataklığı / Sanrılar — Avcı [marsh-visions-avci]
+32 kart / mark / yalnız marsh-visions
+2x Kayıp Asker Yankısı
+2x Çamur Eli
+2x Korku Gölgesi
+2x Bataklık Nefesi
+2x Durgun Su Sureti
+2x Yas Yansıması
+2x Sis Çığlığı
+2x Gaz Soluğu
+2x Yanlış Hatıra
+2x Derin Korku
+2x Çamur Çekişi
+2x Bozuk Yansıma
+2x Yol Kaybı
+2x Durgun Fısıltı
+1x Savaş Artığı
+1x Korkuya Bak
+1x Nefes Kes
+1x Avcı / Kayıp Asker Yankısı
+İmza: En düşük canlı düşmanı İşaretle; ilk aile vuruşu o hedefe +2 hasar.
+Karşı hamle: İşareti temizle; savunma öncesi şifa.
+
+Ölüler Bataklığı / Sanrılar — Muhafız [marsh-visions-muhafiz]
+32 kart / guard / yalnız marsh-visions
+2x Gaz Silueti
+2x Çamur Eli
+2x Korku Gölgesi
+2x Durgun Su Sureti
+2x Yas Yansıması
+2x Sis Çığlığı
+2x Çürük Bayrak
+2x Gaz Soluğu
+2x Yanlış Hatıra
+2x Derin Korku
+2x Sis Kapanı
+2x Bozuk Yansıma
+2x Yol Kaybı
+2x Durgun Fısıltı
+1x Savaş Artığı
+1x Nefes Kes
+1x Son Sanrı
+1x Muhafız / Çamur Eli
+İmza: Oynanınca komşu aile birimlerine bu tur 2 geçici Can ver.
+Karşı hamle: Susturma ve farklı hedeflere bölünmüş hasar.
+
+Ölüler Bataklığı / Sanrılar — Düellocu [marsh-visions-duellocu]
+32 kart / single / yalnız marsh-visions
+2x Boş Yüz
+2x Kayıp Asker Yankısı
+2x Korku Gölgesi
+2x Bataklık Nefesi
+2x Yas Yansıması
+2x Sis Çığlığı
+2x Çürük Bayrak
+2x Yanlış Hatıra
+2x Derin Korku
+2x Çamur Çekişi
+2x Sis Kapanı
+2x Bozuk Yansıma
+2x Yol Kaybı
+2x Durgun Fısıltı
+1x Savaş Artığı
+1x Korkuya Bak
+1x Son Sanrı
+1x Düellocu / Korku Gölgesi
+İmza: Bu tur yalnız saldırırsam +3 Saldırı; saldırı sonrasında bir tur tükenirim.
+Karşı hamle: Güçlendirme bittikten sonra hedef kaldırma.
+
+Ölüler Bataklığı / Sanrılar — Kuşatmacı [marsh-visions-kusatmaci]
+32 kart / siege / yalnız marsh-visions
+2x Çamur Eli
+2x Bataklık Nefesi
+2x Durgun Su Sureti
+2x Yas Yansıması
+2x Sis Çığlığı
+2x Çürük Bayrak
+2x Ölü Nöbet
+2x Gaz Soluğu
+2x Derin Korku
+2x Çamur Çekişi
+2x Sis Kapanı
+2x Bozuk Yansıma
+2x Yol Kaybı
+2x Durgun Fısıltı
+1x Savaş Artığı
+1x Korkuya Bak
+1x Son Sanrı
+1x Kuşatmacı / Bataklık Nefesi
+İmza: Üç tur sahada kaldıktan sonra saldırıda düşman özüne 3 hasar ver; sayaç görünür.
+Karşı hamle: Altıncı turdan önce baskı; ağır kart maliyetini artır.
+
+Ölüler Bataklığı / Sanrılar — Pusucu [marsh-visions-pusucu]
+32 kart / ambush / yalnız marsh-visions
+2x Gaz Silueti
+2x Boş Yüz
+2x Kayıp Asker Yankısı
+2x Korku Gölgesi
+2x Bataklık Nefesi
+2x Durgun Su Sureti
+2x Sis Çığlığı
+2x Gaz Soluğu
+2x Yanlış Hatıra
+2x Derin Korku
+2x Çamur Çekişi
+2x Sis Kapanı
+2x Bozuk Yansıma
+2x Yol Kaybı
+1x Savaş Artığı
+1x Korkuya Bak
+1x Nefes Kes
+1x Pusucu / Durgun Su Sureti
+İmza: Düşman saldırı hazırlığında oynanabilir; saldıran birimin Saldırısını bu tur 2 azalt.
+Karşı hamle: Pas geçerek tepkisini boşa çıkar; saldırı hazırlığında incele.
+
+Ölüler Bataklığı / Sanrılar — Ritüelci [marsh-visions-buyucu]
+32 kart / spell / yalnız marsh-visions
+2x Gaz Silueti
+2x Kayıp Asker Yankısı
+2x Korku Gölgesi
+2x Yas Yansıması
+2x Sis Çığlığı
+2x Çürük Bayrak
+2x Sanrı Düğümü
+2x Gaz Soluğu
+2x Yanlış Hatıra
+2x Derin Korku
+2x Çamur Çekişi
+2x Sis Kapanı
+2x Bozuk Yansıma
+2x Yol Kaybı
+1x Savaş Artığı
+1x Nefes Kes
+1x Son Sanrı
+1x Ritüelci / Yas Yansıması
+İmza: Bir turda ikinci aile büyüsü oynanınca rastgelelik olmadan en soldaki düşmana 2 hasar.
+Karşı hamle: Sessizleştirme; karşı hamle enerjisini tüket.
+
+Ölüler Bataklığı / Sanrılar — Toplayıcı [marsh-visions-toplayici]
+32 kart / resource / yalnız marsh-visions
+2x Gaz Silueti
+2x Boş Yüz
+2x Çamur Eli
+2x Bataklık Nefesi
+2x Durgun Su Sureti
+2x Yas Yansıması
+2x Çürük Bayrak
+2x Gaz Soluğu
+2x Yanlış Hatıra
+2x Derin Korku
+2x Sis Kapanı
+2x Bozuk Yansıma
+2x Yol Kaybı
+2x Durgun Fısıltı
+1x Savaş Artığı
+1x Korkuya Bak
+1x Nefes Kes
+1x Toplayıcı / Sis Çığlığı
+İmza: İlk aile biriminin ölümü sonrası bir aile kartı çek; tur başına bir kez.
+Karşı hamle: Kaynak üreten birimleri öncelikli hedefle.
+
+Ölüler Bataklığı / Sanrılar — Karşıcı [marsh-visions-karsici]
+32 kart / counter / yalnız marsh-visions
+2x Boş Yüz
+2x Kayıp Asker Yankısı
+2x Çamur Eli
+2x Korku Gölgesi
+2x Durgun Su Sureti
+2x Sis Çığlığı
+2x Ölü Nöbet
+2x Gaz Soluğu
+2x Yanlış Hatıra
+2x Derin Korku
+2x Çamur Çekişi
+2x Sis Kapanı
+2x Bozuk Yansıma
+2x Yol Kaybı
+1x Durgun Fısıltı
+1x Korkuya Bak
+1x Son Sanrı
+1x Karşıcı / Çürük Bayrak
+İmza: Maliyeti 3 veya daha az olan bir düşman büyüsünü iptal et; karşı tepki penceresi aç.
+Karşı hamle: Ucuz yem büyüleri; bir turda iki ayrı tehdit.
+
+Ölüler Bataklığı / Sanrılar — Dönen [marsh-visions-dirilen]
+32 kart / recursion / yalnız marsh-visions
+2x Gaz Silueti
+2x Kayıp Asker Yankısı
+2x Çamur Eli
+2x Bataklık Nefesi
+2x Durgun Su Sureti
+2x Sis Çığlığı
+2x Çürük Bayrak
+2x Gaz Soluğu
+2x Yanlış Hatıra
+2x Derin Korku
+2x Sis Kapanı
+2x Bozuk Yansıma
+2x Yol Kaybı
+2x Durgun Fısıltı
+1x Savaş Artığı
+1x Nefes Kes
+1x Son Sanrı
+1x Dönen / Ölü Nöbet
+İmza: Bu tur ölen en düşük maliyetli aile birimini ele döndür; maliyetine +1 ekle.
+Karşı hamle: Sürgün; geri alma kartı kullanılmadan baskı.
+
+Ölüler Bataklığı / Sanrılar — Dönüştürücü [marsh-visions-donusturucu]
+32 kart / evolve / yalnız marsh-visions
+2x Boş Yüz
+2x Kayıp Asker Yankısı
+2x Korku Gölgesi
+2x Bataklık Nefesi
+2x Durgun Su Sureti
+2x Sis Çığlığı
+2x Sanrı Düğümü
+2x Gaz Soluğu
+2x Yanlış Hatıra
+2x Derin Korku
+2x Çamur Çekişi
+2x Sis Kapanı
+2x Yol Kaybı
+2x Durgun Fısıltı
+1x Savaş Artığı
+1x Korkuya Bak
+1x Son Sanrı
+1x Dönüştürücü / Sanrı Düğümü
+İmza: Üç aile kartı oynandığında bir kez +2/+2 kazan; kart yüzü değişir, sayaç sıfırlanmaz.
+Karşı hamle: Üçüncü karttan önce ana tehdidi kaldır.
+
+Ölüler Bataklığı / Sanrılar — Tüketici [marsh-visions-tuketici]
+32 kart / attrition / yalnız marsh-visions
+2x Gaz Silueti
+2x Boş Yüz
+2x Çamur Eli
+2x Korku Gölgesi
+2x Yas Yansıması
+2x Çürük Bayrak
+2x Ölü Nöbet
+2x Gaz Soluğu
+2x Yanlış Hatıra
+2x Derin Korku
+2x Çamur Çekişi
+2x Sis Kapanı
+2x Bozuk Yansıma
+2x Yol Kaybı
+1x Savaş Artığı
+1x Korkuya Bak
+1x Son Sanrı
+1x Tüketici / Gaz Silueti
+İmza: Bir düşmana 2 hasar ver; kendi özüne 1 hasar al. Aile kartı öldürürse bir kart çek.
+Karşı hamle: Kart avantajı üret; uzun tur döngüsünden kaçın.
+
+Ölüler Bataklığı / Sanrılar — Koruyucu [marsh-visions-koruyucu]
+32 kart / support / yalnız marsh-visions
+2x Gaz Silueti
+2x Boş Yüz
+2x Kayıp Asker Yankısı
+2x Çamur Eli
+2x Bataklık Nefesi
+2x Yas Yansıması
+2x Sis Çığlığı
+2x Gaz Soluğu
+2x Yanlış Hatıra
+2x Derin Korku
+2x Sis Kapanı
+2x Bozuk Yansıma
+2x Yol Kaybı
+2x Durgun Fısıltı
+1x Savaş Artığı
+1x Nefes Kes
+1x Son Sanrı
+1x Koruyucu / Boş Yüz
+İmza: Tur sonunda en düşük canlı aile birimini 2 iyileştir; eşitlikte en soldakini seç.
+Karşı hamle: Destek hedefini kaldır; komşuluk zincirini böl.
+
+Ölüler Bataklığı / Sanrılar — Elit [marsh-visions-elit]
+32 kart / mixed / yalnız marsh-visions
+2x Kayıp Asker Yankısı
+2x Çamur Eli
+2x Korku Gölgesi
+2x Bataklık Nefesi
+2x Durgun Su Sureti
+2x Sis Çığlığı
+2x Ölü Nöbet
+2x Gaz Soluğu
+2x Yanlış Hatıra
+2x Derin Korku
+2x Çamur Çekişi
+2x Sis Kapanı
+2x Bozuk Yansıma
+2x Yol Kaybı
+1x Durgun Fısıltı
+1x Korkuya Bak
+1x Son Sanrı
+1x Elit / Kayıp Asker Yankısı
+İmza: Oynanınca bir aile birimine bu tur +1/+2 ver ve bir kart çek; kendini seçemez.
+Karşı hamle: Maliyetli tehdidi beklet; ilk savunma kaynağını zorla.
+
+Ölüler Bataklığı / Sanrılar — Reis [marsh-visions-reis]
+32 kart / boss / yalnız marsh-visions
+2x Gaz Silueti
+2x Çamur Eli
+2x Bataklık Nefesi
+2x Durgun Su Sureti
+2x Yas Yansıması
+2x Çürük Bayrak
+2x Sanrı Düğümü
+2x Gaz Soluğu
+2x Yanlış Hatıra
+2x Derin Korku
+2x Çamur Çekişi
+2x Sis Kapanı
+2x Bozuk Yansıma
+2x Yol Kaybı
+1x Savaş Artığı
+1x Nefes Kes
+1x Son Sanrı
+1x Reis / Çamur Eli
+İmza: Öz yarı cana ilk indiğinde iki 1/2 aile yardımcısı yarat; faz geçişi bir tur önceden uyarılır.
+Karşı hamle: Üçüncü tur öncesi hazırlık; faz geçişine iki cevap sakla.
+
+Geçit / Akıncılar — İzci [pass-raiders-izci]
+32 kart / tempo / yalnız pass-raiders
+2x Geçit Gözcüsü
+2x Kayalık Okçu
+2x İp Kesici
+2x Kaya Pusucusu
+2x Dar Yol Bıçağı
+2x Halat Akıncısı
+2x Çıkıntı Mızrağı
+2x Halatı Kes
+2x Kaya Düşüşü
+2x Dar Patika
+2x Yükü Bırak
+2x Uçurum Pususu
+2x Geçidi Tut
+2x Geri Çekil
+1x Kaya Siperi
+1x İp Tuzağı
+1x Kervan Ablukası
+1x İzci / Kayalık Okçu
+İmza: Oynanınca bir kart çek; bu tur ilk maliyet 2 veya altı aile kartı 1 ucuzlar.
+Karşı hamle: Erken alan hasarı ve ucuz engelleyiciler.
+
+Geçit / Akıncılar — Sürücü [pass-raiders-surucu]
+32 kart / swarm / yalnız pass-raiders
+2x Geçit Gözcüsü
+2x Kayalık Okçu
+2x İp Kesici
+2x Kaya Pusucusu
+2x Dar Yol Bıçağı
+2x Halat Akıncısı
+2x Çıkıntı Mızrağı
+2x Taş Yağmacısı
+2x Halatı Kes
+2x Kaya Düşüşü
+2x Uçurum Pususu
+2x Geçidi Tut
+2x Geri Çekil
+2x Kaya Siperi
+1x İp Tuzağı
+1x Yan Geçit
+1x Son Çıkıntı
+1x Sürücü / İp Kesici
+İmza: Oynanınca iki 1/1 aile yardımcısı yarat; bunlar turun sonunda kaybolur.
+Karşı hamle: Geniş alan temizliği; yaratılan küçük birimleri kes.
+
+Geçit / Akıncılar — Avcı [pass-raiders-avci]
+32 kart / mark / yalnız pass-raiders
+2x İp Kesici
+2x Kaya Pusucusu
+2x Dar Yol Bıçağı
+2x Halat Akıncısı
+2x Çıkıntı Mızrağı
+2x Taş Yağmacısı
+2x Kervan İzleyici
+2x Halatı Kes
+2x Kaya Düşüşü
+2x Dar Patika
+2x Yükü Bırak
+2x Geçidi Tut
+2x Geri Çekil
+2x Kaya Siperi
+1x İp Tuzağı
+1x Kervan Ablukası
+1x Yan Geçit
+1x Avcı / Kaya Pusucusu
+İmza: En düşük canlı düşmanı İşaretle; ilk aile vuruşu o hedefe +2 hasar.
+Karşı hamle: İşareti temizle; savunma öncesi şifa.
+
+Geçit / Akıncılar — Muhafız [pass-raiders-muhafiz]
+32 kart / guard / yalnız pass-raiders
+2x Geçit Gözcüsü
+2x Kaya Pusucusu
+2x Dar Yol Bıçağı
+2x Çıkıntı Mızrağı
+2x Taş Yağmacısı
+2x Kervan İzleyici
+2x Uçurum Reisi
+2x Halatı Kes
+2x Kaya Düşüşü
+2x Dar Patika
+2x Uçurum Pususu
+2x Geçidi Tut
+2x Geri Çekil
+2x Kaya Siperi
+1x İp Tuzağı
+1x Yan Geçit
+1x Son Çıkıntı
+1x Muhafız / Dar Yol Bıçağı
+İmza: Oynanınca komşu aile birimlerine bu tur 2 geçici Can ver.
+Karşı hamle: Susturma ve farklı hedeflere bölünmüş hasar.
+
+Geçit / Akıncılar — Düellocu [pass-raiders-duellocu]
+32 kart / single / yalnız pass-raiders
+2x Kayalık Okçu
+2x İp Kesici
+2x Dar Yol Bıçağı
+2x Halat Akıncısı
+2x Taş Yağmacısı
+2x Kervan İzleyici
+2x Uçurum Reisi
+2x Kaya Düşüşü
+2x Dar Patika
+2x Yükü Bırak
+2x Uçurum Pususu
+2x Geçidi Tut
+2x Geri Çekil
+2x Kaya Siperi
+1x İp Tuzağı
+1x Kervan Ablukası
+1x Son Çıkıntı
+1x Düellocu / Halat Akıncısı
+İmza: Bu tur yalnız saldırırsam +3 Saldırı; saldırı sonrasında bir tur tükenirim.
+Karşı hamle: Güçlendirme bittikten sonra hedef kaldırma.
+
+Geçit / Akıncılar — Kuşatmacı [pass-raiders-kusatmaci]
+32 kart / siege / yalnız pass-raiders
+2x Kaya Pusucusu
+2x Halat Akıncısı
+2x Çıkıntı Mızrağı
+2x Taş Yağmacısı
+2x Kervan İzleyici
+2x Uçurum Reisi
+2x Kırık Diş Avcısı
+2x Halatı Kes
+2x Dar Patika
+2x Yükü Bırak
+2x Uçurum Pususu
+2x Geçidi Tut
+2x Geri Çekil
+2x Kaya Siperi
+1x İp Tuzağı
+1x Kervan Ablukası
+1x Son Çıkıntı
+1x Kuşatmacı / Çıkıntı Mızrağı
+İmza: Üç tur sahada kaldıktan sonra saldırıda düşman özüne 3 hasar ver; sayaç görünür.
+Karşı hamle: Altıncı turdan önce baskı; ağır kart maliyetini artır.
+
+Geçit / Akıncılar — Pusucu [pass-raiders-pusucu]
+32 kart / ambush / yalnız pass-raiders
+2x Geçit Gözcüsü
+2x Kayalık Okçu
+2x İp Kesici
+2x Dar Yol Bıçağı
+2x Halat Akıncısı
+2x Çıkıntı Mızrağı
+2x Kervan İzleyici
+2x Halatı Kes
+2x Kaya Düşüşü
+2x Dar Patika
+2x Yükü Bırak
+2x Uçurum Pususu
+2x Geçidi Tut
+2x Geri Çekil
+1x İp Tuzağı
+1x Kervan Ablukası
+1x Yan Geçit
+1x Pusucu / Taş Yağmacısı
+İmza: Düşman saldırı hazırlığında oynanabilir; saldıran birimin Saldırısını bu tur 2 azalt.
+Karşı hamle: Pas geçerek tepkisini boşa çıkar; saldırı hazırlığında incele.
+
+Geçit / Akıncılar — Ritüelci [pass-raiders-buyucu]
+32 kart / spell / yalnız pass-raiders
+2x Geçit Gözcüsü
+2x İp Kesici
+2x Dar Yol Bıçağı
+2x Taş Yağmacısı
+2x Kervan İzleyici
+2x Uçurum Reisi
+2x Geçit Zorbası
+2x Halatı Kes
+2x Kaya Düşüşü
+2x Dar Patika
+2x Yükü Bırak
+2x Uçurum Pususu
+2x Geçidi Tut
+2x Geri Çekil
+1x İp Tuzağı
+1x Yan Geçit
+1x Son Çıkıntı
+1x Ritüelci / Kervan İzleyici
+İmza: Bir turda ikinci aile büyüsü oynanınca rastgelelik olmadan en soldaki düşmana 2 hasar.
+Karşı hamle: Sessizleştirme; karşı hamle enerjisini tüket.
+
+Geçit / Akıncılar — Toplayıcı [pass-raiders-toplayici]
+32 kart / resource / yalnız pass-raiders
+2x Geçit Gözcüsü
+2x Kayalık Okçu
+2x Kaya Pusucusu
+2x Halat Akıncısı
+2x Çıkıntı Mızrağı
+2x Taş Yağmacısı
+2x Uçurum Reisi
+2x Halatı Kes
+2x Kaya Düşüşü
+2x Dar Patika
+2x Uçurum Pususu
+2x Geçidi Tut
+2x Geri Çekil
+2x Kaya Siperi
+1x İp Tuzağı
+1x Kervan Ablukası
+1x Yan Geçit
+1x Toplayıcı / Uçurum Reisi
+İmza: İlk aile biriminin ölümü sonrası bir aile kartı çek; tur başına bir kez.
+Karşı hamle: Kaynak üreten birimleri öncelikli hedefle.
+
+Geçit / Akıncılar — Karşıcı [pass-raiders-karsici]
+32 kart / counter / yalnız pass-raiders
+2x Kayalık Okçu
+2x İp Kesici
+2x Kaya Pusucusu
+2x Dar Yol Bıçağı
+2x Çıkıntı Mızrağı
+2x Kervan İzleyici
+2x Kırık Diş Avcısı
+2x Halatı Kes
+2x Kaya Düşüşü
+2x Dar Patika
+2x Yükü Bırak
+2x Uçurum Pususu
+2x Geçidi Tut
+2x Geri Çekil
+1x Kaya Siperi
+1x Kervan Ablukası
+1x Son Çıkıntı
+1x Karşıcı / Kırık Diş Avcısı
+İmza: Maliyeti 3 veya daha az olan bir düşman büyüsünü iptal et; karşı tepki penceresi aç.
+Karşı hamle: Ucuz yem büyüleri; bir turda iki ayrı tehdit.
+
+Geçit / Akıncılar — Dönen [pass-raiders-dirilen]
+32 kart / recursion / yalnız pass-raiders
+2x Geçit Gözcüsü
+2x İp Kesici
+2x Kaya Pusucusu
+2x Halat Akıncısı
+2x Çıkıntı Mızrağı
+2x Kervan İzleyici
+2x Uçurum Reisi
+2x Halatı Kes
+2x Kaya Düşüşü
+2x Dar Patika
+2x Uçurum Pususu
+2x Geçidi Tut
+2x Geri Çekil
+2x Kaya Siperi
+1x İp Tuzağı
+1x Yan Geçit
+1x Son Çıkıntı
+1x Dönen / Geçit Zorbası
+İmza: Bu tur ölen en düşük maliyetli aile birimini ele döndür; maliyetine +1 ekle.
+Karşı hamle: Sürgün; geri alma kartı kullanılmadan baskı.
+
+Geçit / Akıncılar — Dönüştürücü [pass-raiders-donusturucu]
+32 kart / evolve / yalnız pass-raiders
+2x Kayalık Okçu
+2x İp Kesici
+2x Dar Yol Bıçağı
+2x Halat Akıncısı
+2x Çıkıntı Mızrağı
+2x Kervan İzleyici
+2x Geçit Zorbası
+2x Halatı Kes
+2x Kaya Düşüşü
+2x Dar Patika
+2x Yükü Bırak
+2x Uçurum Pususu
+2x Geri Çekil
+2x Kaya Siperi
+1x İp Tuzağı
+1x Kervan Ablukası
+1x Son Çıkıntı
+1x Dönüştürücü / Geçit Gözcüsü
+İmza: Üç aile kartı oynandığında bir kez +2/+2 kazan; kart yüzü değişir, sayaç sıfırlanmaz.
+Karşı hamle: Üçüncü karttan önce ana tehdidi kaldır.
+
+Geçit / Akıncılar — Tüketici [pass-raiders-tuketici]
+32 kart / attrition / yalnız pass-raiders
+2x Geçit Gözcüsü
+2x Kayalık Okçu
+2x Kaya Pusucusu
+2x Dar Yol Bıçağı
+2x Taş Yağmacısı
+2x Uçurum Reisi
+2x Kırık Diş Avcısı
+2x Halatı Kes
+2x Kaya Düşüşü
+2x Dar Patika
+2x Yükü Bırak
+2x Uçurum Pususu
+2x Geçidi Tut
+2x Geri Çekil
+1x İp Tuzağı
+1x Kervan Ablukası
+1x Son Çıkıntı
+1x Tüketici / Kayalık Okçu
+İmza: Bir düşmana 2 hasar ver; kendi özüne 1 hasar al. Aile kartı öldürürse bir kart çek.
+Karşı hamle: Kart avantajı üret; uzun tur döngüsünden kaçın.
+
+Geçit / Akıncılar — Koruyucu [pass-raiders-koruyucu]
+32 kart / support / yalnız pass-raiders
+2x Geçit Gözcüsü
+2x Kayalık Okçu
+2x İp Kesici
+2x Kaya Pusucusu
+2x Halat Akıncısı
+2x Taş Yağmacısı
+2x Kervan İzleyici
+2x Halatı Kes
+2x Kaya Düşüşü
+2x Dar Patika
+2x Uçurum Pususu
+2x Geçidi Tut
+2x Geri Çekil
+2x Kaya Siperi
+1x İp Tuzağı
+1x Yan Geçit
+1x Son Çıkıntı
+1x Koruyucu / İp Kesici
+İmza: Tur sonunda en düşük canlı aile birimini 2 iyileştir; eşitlikte en soldakini seç.
+Karşı hamle: Destek hedefini kaldır; komşuluk zincirini böl.
+
+Geçit / Akıncılar — Elit [pass-raiders-elit]
+32 kart / mixed / yalnız pass-raiders
+2x İp Kesici
+2x Kaya Pusucusu
+2x Dar Yol Bıçağı
+2x Halat Akıncısı
+2x Çıkıntı Mızrağı
+2x Kervan İzleyici
+2x Kırık Diş Avcısı
+2x Halatı Kes
+2x Kaya Düşüşü
+2x Dar Patika
+2x Yükü Bırak
+2x Uçurum Pususu
+2x Geçidi Tut
+2x Geri Çekil
+1x Kaya Siperi
+1x Kervan Ablukası
+1x Son Çıkıntı
+1x Elit / Kaya Pusucusu
+İmza: Oynanınca bir aile birimine bu tur +1/+2 ver ve bir kart çek; kendini seçemez.
+Karşı hamle: Maliyetli tehdidi beklet; ilk savunma kaynağını zorla.
+
+Geçit / Akıncılar — Reis [pass-raiders-reis]
+32 kart / boss / yalnız pass-raiders
+2x Geçit Gözcüsü
+2x Kaya Pusucusu
+2x Halat Akıncısı
+2x Çıkıntı Mızrağı
+2x Taş Yağmacısı
+2x Uçurum Reisi
+2x Geçit Zorbası
+2x Halatı Kes
+2x Kaya Düşüşü
+2x Dar Patika
+2x Yükü Bırak
+2x Uçurum Pususu
+2x Geçidi Tut
+2x Geri Çekil
+1x İp Tuzağı
+1x Yan Geçit
+1x Son Çıkıntı
+1x Reis / Dar Yol Bıçağı
+İmza: Öz yarı cana ilk indiğinde iki 1/2 aile yardımcısı yarat; faz geçişi bir tur önceden uyarılır.
+Karşı hamle: Üçüncü tur öncesi hazırlık; faz geçişine iki cevap sakla.
+
+Shi Qra / Kaçak Savaşçılar — İzci [shi-qra-outlaws-izci]
+32 kart / tempo / yalnız shi-qra-outlaws
+2x Demir İzci
+2x Bozkır Kaçağı
+2x Ocak Serserisi
+2x Taş Kalkan
+2x Keçe Pusucu
+2x Çekiç Akıncı
+2x Yamaç Gözcüsü
+2x Yuvarlanan Taş
+2x Göç İzi
+2x Demir Yemin
+2x Yalnız Düello
+2x Rüzgâr Siperi
+2x Ocak Yolu
+2x Bozkır Pususu
+1x Keçe Kalkan
+1x Dar Vadi
+1x Demir Sınav
+1x İzci / Ocak Serserisi
+İmza: Oynanınca bir kart çek; bu tur ilk maliyet 2 veya altı aile kartı 1 ucuzlar.
+Karşı hamle: Erken alan hasarı ve ucuz engelleyiciler.
+
+Shi Qra / Kaçak Savaşçılar — Sürücü [shi-qra-outlaws-surucu]
+32 kart / swarm / yalnız shi-qra-outlaws
+2x Demir İzci
+2x Bozkır Kaçağı
+2x Ocak Serserisi
+2x Taş Kalkan
+2x Keçe Pusucu
+2x Çekiç Akıncı
+2x Yamaç Gözcüsü
+2x Kızıl Sırt Binicisi
+2x Yuvarlanan Taş
+2x Göç İzi
+2x Rüzgâr Siperi
+2x Ocak Yolu
+2x Bozkır Pususu
+2x Keçe Kalkan
+1x Dar Vadi
+1x Kaçak Çağrısı
+1x Son Düello
+1x Sürücü / Taş Kalkan
+İmza: Oynanınca iki 1/1 aile yardımcısı yarat; bunlar turun sonunda kaybolur.
+Karşı hamle: Geniş alan temizliği; yaratılan küçük birimleri kes.
+
+Shi Qra / Kaçak Savaşçılar — Avcı [shi-qra-outlaws-avci]
+32 kart / mark / yalnız shi-qra-outlaws
+2x Ocak Serserisi
+2x Taş Kalkan
+2x Keçe Pusucu
+2x Çekiç Akıncı
+2x Yamaç Gözcüsü
+2x Kızıl Sırt Binicisi
+2x Demirkanat Terbiyecisi
+2x Yuvarlanan Taş
+2x Göç İzi
+2x Demir Yemin
+2x Yalnız Düello
+2x Ocak Yolu
+2x Bozkır Pususu
+2x Keçe Kalkan
+1x Dar Vadi
+1x Demir Sınav
+1x Kaçak Çağrısı
+1x Avcı / Keçe Pusucu
+İmza: En düşük canlı düşmanı İşaretle; ilk aile vuruşu o hedefe +2 hasar.
+Karşı hamle: İşareti temizle; savunma öncesi şifa.
+
+Shi Qra / Kaçak Savaşçılar — Muhafız [shi-qra-outlaws-muhafiz]
+32 kart / guard / yalnız shi-qra-outlaws
+2x Demir İzci
+2x Taş Kalkan
+2x Keçe Pusucu
+2x Yamaç Gözcüsü
+2x Kızıl Sırt Binicisi
+2x Demirkanat Terbiyecisi
+2x Göç Yolu Kesici
+2x Yuvarlanan Taş
+2x Göç İzi
+2x Demir Yemin
+2x Rüzgâr Siperi
+2x Ocak Yolu
+2x Bozkır Pususu
+2x Keçe Kalkan
+1x Dar Vadi
+1x Kaçak Çağrısı
+1x Son Düello
+1x Muhafız / Çekiç Akıncı
+İmza: Oynanınca komşu aile birimlerine bu tur 2 geçici Can ver.
+Karşı hamle: Susturma ve farklı hedeflere bölünmüş hasar.
+
+Shi Qra / Kaçak Savaşçılar — Düellocu [shi-qra-outlaws-duellocu]
+32 kart / single / yalnız shi-qra-outlaws
+2x Bozkır Kaçağı
+2x Ocak Serserisi
+2x Keçe Pusucu
+2x Çekiç Akıncı
+2x Kızıl Sırt Binicisi
+2x Demirkanat Terbiyecisi
+2x Göç Yolu Kesici
+2x Göç İzi
+2x Demir Yemin
+2x Yalnız Düello
+2x Rüzgâr Siperi
+2x Ocak Yolu
+2x Bozkır Pususu
+2x Keçe Kalkan
+1x Dar Vadi
+1x Demir Sınav
+1x Son Düello
+1x Düellocu / Yamaç Gözcüsü
+İmza: Bu tur yalnız saldırırsam +3 Saldırı; saldırı sonrasında bir tur tükenirim.
+Karşı hamle: Güçlendirme bittikten sonra hedef kaldırma.
+
+Shi Qra / Kaçak Savaşçılar — Kuşatmacı [shi-qra-outlaws-kusatmaci]
+32 kart / siege / yalnız shi-qra-outlaws
+2x Taş Kalkan
+2x Çekiç Akıncı
+2x Yamaç Gözcüsü
+2x Kızıl Sırt Binicisi
+2x Demirkanat Terbiyecisi
+2x Göç Yolu Kesici
+2x Kaçak Reis
+2x Yuvarlanan Taş
+2x Demir Yemin
+2x Yalnız Düello
+2x Rüzgâr Siperi
+2x Ocak Yolu
+2x Bozkır Pususu
+2x Keçe Kalkan
+1x Dar Vadi
+1x Demir Sınav
+1x Son Düello
+1x Kuşatmacı / Kızıl Sırt Binicisi
+İmza: Üç tur sahada kaldıktan sonra saldırıda düşman özüne 3 hasar ver; sayaç görünür.
+Karşı hamle: Altıncı turdan önce baskı; ağır kart maliyetini artır.
+
+Shi Qra / Kaçak Savaşçılar — Pusucu [shi-qra-outlaws-pusucu]
+32 kart / ambush / yalnız shi-qra-outlaws
+2x Demir İzci
+2x Bozkır Kaçağı
+2x Ocak Serserisi
+2x Keçe Pusucu
+2x Çekiç Akıncı
+2x Yamaç Gözcüsü
+2x Demirkanat Terbiyecisi
+2x Yuvarlanan Taş
+2x Göç İzi
+2x Demir Yemin
+2x Yalnız Düello
+2x Rüzgâr Siperi
+2x Ocak Yolu
+2x Bozkır Pususu
+1x Dar Vadi
+1x Demir Sınav
+1x Kaçak Çağrısı
+1x Pusucu / Demirkanat Terbiyecisi
+İmza: Düşman saldırı hazırlığında oynanabilir; saldıran birimin Saldırısını bu tur 2 azalt.
+Karşı hamle: Pas geçerek tepkisini boşa çıkar; saldırı hazırlığında incele.
+
+Shi Qra / Kaçak Savaşçılar — Ritüelci [shi-qra-outlaws-buyucu]
+32 kart / spell / yalnız shi-qra-outlaws
+2x Demir İzci
+2x Ocak Serserisi
+2x Keçe Pusucu
+2x Kızıl Sırt Binicisi
+2x Demirkanat Terbiyecisi
+2x Göç Yolu Kesici
+2x Dağ Düellocusu
+2x Yuvarlanan Taş
+2x Göç İzi
+2x Demir Yemin
+2x Yalnız Düello
+2x Rüzgâr Siperi
+2x Ocak Yolu
+2x Bozkır Pususu
+1x Dar Vadi
+1x Kaçak Çağrısı
+1x Son Düello
+1x Ritüelci / Göç Yolu Kesici
+İmza: Bir turda ikinci aile büyüsü oynanınca rastgelelik olmadan en soldaki düşmana 2 hasar.
+Karşı hamle: Sessizleştirme; karşı hamle enerjisini tüket.
+
+Shi Qra / Kaçak Savaşçılar — Toplayıcı [shi-qra-outlaws-toplayici]
+32 kart / resource / yalnız shi-qra-outlaws
+2x Demir İzci
+2x Bozkır Kaçağı
+2x Taş Kalkan
+2x Çekiç Akıncı
+2x Yamaç Gözcüsü
+2x Kızıl Sırt Binicisi
+2x Göç Yolu Kesici
+2x Yuvarlanan Taş
+2x Göç İzi
+2x Demir Yemin
+2x Rüzgâr Siperi
+2x Ocak Yolu
+2x Bozkır Pususu
+2x Keçe Kalkan
+1x Dar Vadi
+1x Demir Sınav
+1x Kaçak Çağrısı
+1x Toplayıcı / Kaçak Reis
+İmza: İlk aile biriminin ölümü sonrası bir aile kartı çek; tur başına bir kez.
+Karşı hamle: Kaynak üreten birimleri öncelikli hedefle.
+
+Shi Qra / Kaçak Savaşçılar — Karşıcı [shi-qra-outlaws-karsici]
+32 kart / counter / yalnız shi-qra-outlaws
+2x Bozkır Kaçağı
+2x Ocak Serserisi
+2x Taş Kalkan
+2x Keçe Pusucu
+2x Yamaç Gözcüsü
+2x Demirkanat Terbiyecisi
+2x Kaçak Reis
+2x Yuvarlanan Taş
+2x Göç İzi
+2x Demir Yemin
+2x Yalnız Düello
+2x Rüzgâr Siperi
+2x Ocak Yolu
+2x Bozkır Pususu
+1x Keçe Kalkan
+1x Demir Sınav
+1x Son Düello
+1x Karşıcı / Dağ Düellocusu
+İmza: Maliyeti 3 veya daha az olan bir düşman büyüsünü iptal et; karşı tepki penceresi aç.
+Karşı hamle: Ucuz yem büyüleri; bir turda iki ayrı tehdit.
+
+Shi Qra / Kaçak Savaşçılar — Dönen [shi-qra-outlaws-dirilen]
+32 kart / recursion / yalnız shi-qra-outlaws
+2x Demir İzci
+2x Ocak Serserisi
+2x Taş Kalkan
+2x Çekiç Akıncı
+2x Yamaç Gözcüsü
+2x Demirkanat Terbiyecisi
+2x Göç Yolu Kesici
+2x Yuvarlanan Taş
+2x Göç İzi
+2x Demir Yemin
+2x Rüzgâr Siperi
+2x Ocak Yolu
+2x Bozkır Pususu
+2x Keçe Kalkan
+1x Dar Vadi
+1x Kaçak Çağrısı
+1x Son Düello
+1x Dönen / Demir İzci
+İmza: Bu tur ölen en düşük maliyetli aile birimini ele döndür; maliyetine +1 ekle.
+Karşı hamle: Sürgün; geri alma kartı kullanılmadan baskı.
+
+Shi Qra / Kaçak Savaşçılar — Dönüştürücü [shi-qra-outlaws-donusturucu]
+32 kart / evolve / yalnız shi-qra-outlaws
+2x Bozkır Kaçağı
+2x Ocak Serserisi
+2x Keçe Pusucu
+2x Çekiç Akıncı
+2x Yamaç Gözcüsü
+2x Demirkanat Terbiyecisi
+2x Dağ Düellocusu
+2x Yuvarlanan Taş
+2x Göç İzi
+2x Demir Yemin
+2x Yalnız Düello
+2x Rüzgâr Siperi
+2x Bozkır Pususu
+2x Keçe Kalkan
+1x Dar Vadi
+1x Demir Sınav
+1x Son Düello
+1x Dönüştürücü / Bozkır Kaçağı
+İmza: Üç aile kartı oynandığında bir kez +2/+2 kazan; kart yüzü değişir, sayaç sıfırlanmaz.
+Karşı hamle: Üçüncü karttan önce ana tehdidi kaldır.
+
+Shi Qra / Kaçak Savaşçılar — Tüketici [shi-qra-outlaws-tuketici]
+32 kart / attrition / yalnız shi-qra-outlaws
+2x Demir İzci
+2x Bozkır Kaçağı
+2x Taş Kalkan
+2x Keçe Pusucu
+2x Kızıl Sırt Binicisi
+2x Göç Yolu Kesici
+2x Kaçak Reis
+2x Yuvarlanan Taş
+2x Göç İzi
+2x Demir Yemin
+2x Yalnız Düello
+2x Rüzgâr Siperi
+2x Ocak Yolu
+2x Bozkır Pususu
+1x Dar Vadi
+1x Demir Sınav
+1x Son Düello
+1x Tüketici / Ocak Serserisi
+İmza: Bir düşmana 2 hasar ver; kendi özüne 1 hasar al. Aile kartı öldürürse bir kart çek.
+Karşı hamle: Kart avantajı üret; uzun tur döngüsünden kaçın.
+
+Shi Qra / Kaçak Savaşçılar — Koruyucu [shi-qra-outlaws-koruyucu]
+32 kart / support / yalnız shi-qra-outlaws
+2x Demir İzci
+2x Bozkır Kaçağı
+2x Ocak Serserisi
+2x Taş Kalkan
+2x Çekiç Akıncı
+2x Kızıl Sırt Binicisi
+2x Demirkanat Terbiyecisi
+2x Yuvarlanan Taş
+2x Göç İzi
+2x Demir Yemin
+2x Rüzgâr Siperi
+2x Ocak Yolu
+2x Bozkır Pususu
+2x Keçe Kalkan
+1x Dar Vadi
+1x Kaçak Çağrısı
+1x Son Düello
+1x Koruyucu / Taş Kalkan
+İmza: Tur sonunda en düşük canlı aile birimini 2 iyileştir; eşitlikte en soldakini seç.
+Karşı hamle: Destek hedefini kaldır; komşuluk zincirini böl.
+
+Shi Qra / Kaçak Savaşçılar — Elit [shi-qra-outlaws-elit]
+32 kart / mixed / yalnız shi-qra-outlaws
+2x Ocak Serserisi
+2x Taş Kalkan
+2x Keçe Pusucu
+2x Çekiç Akıncı
+2x Yamaç Gözcüsü
+2x Demirkanat Terbiyecisi
+2x Kaçak Reis
+2x Yuvarlanan Taş
+2x Göç İzi
+2x Demir Yemin
+2x Yalnız Düello
+2x Rüzgâr Siperi
+2x Ocak Yolu
+2x Bozkır Pususu
+1x Keçe Kalkan
+1x Demir Sınav
+1x Son Düello
+1x Elit / Keçe Pusucu
+İmza: Oynanınca bir aile birimine bu tur +1/+2 ver ve bir kart çek; kendini seçemez.
+Karşı hamle: Maliyetli tehdidi beklet; ilk savunma kaynağını zorla.
+
+Shi Qra / Kaçak Savaşçılar — Reis [shi-qra-outlaws-reis]
+32 kart / boss / yalnız shi-qra-outlaws
+2x Demir İzci
+2x Taş Kalkan
+2x Çekiç Akıncı
+2x Yamaç Gözcüsü
+2x Kızıl Sırt Binicisi
+2x Göç Yolu Kesici
+2x Dağ Düellocusu
+2x Yuvarlanan Taş
+2x Göç İzi
+2x Demir Yemin
+2x Yalnız Düello
+2x Rüzgâr Siperi
+2x Ocak Yolu
+2x Bozkır Pususu
+1x Dar Vadi
+1x Kaçak Çağrısı
+1x Son Düello
+1x Reis / Çekiç Akıncı
+İmza: Öz yarı cana ilk indiğinde iki 1/2 aile yardımcısı yarat; faz geçişi bir tur önceden uyarılır.
+Karşı hamle: Üçüncü tur öncesi hazırlık; faz geçişine iki cevap sakla.
+
+Aldemir / Orman Avcıları — İzci [forest-predators-izci]
+32 kart / tempo / yalnız forest-predators
+2x Kök Pençesi
+2x Göl Dişi
+2x Orman Pusucusu
+2x Reçine Sırtı
+2x Karanlık Vahna
+2x Yaprak Avcısı
+2x Diken Sürüneni
+2x Kök Kapanı
+2x Reçine İzi
+2x Av Kokusu
+2x Göl Siperi
+2x Diken Çemberi
+2x Çalıya Sin
+2x Yaprak Perdesi
+1x Safir Yansıma
+1x Karanlık Orman
+1x Sürü Takibi
+1x İzci / Reçine Sırtı
+İmza: Oynanınca bir kart çek; bu tur ilk maliyet 2 veya altı aile kartı 1 ucuzlar.
+Karşı hamle: Erken alan hasarı ve ucuz engelleyiciler.
+
+Aldemir / Orman Avcıları — Sürücü [forest-predators-surucu]
+32 kart / swarm / yalnız forest-predators
+2x Kök Pençesi
+2x Göl Dişi
+2x Orman Pusucusu
+2x Reçine Sırtı
+2x Karanlık Vahna
+2x Yaprak Avcısı
+2x Diken Sürüneni
+2x Çalı Göz
+2x Kök Kapanı
+2x Reçine İzi
+2x Diken Çemberi
+2x Çalıya Sin
+2x Yaprak Perdesi
+2x Safir Yansıma
+1x Karanlık Orman
+1x Yaraya Kilitlen
+1x Son Av
+1x Sürücü / Karanlık Vahna
+İmza: Oynanınca iki 1/1 aile yardımcısı yarat; bunlar turun sonunda kaybolur.
+Karşı hamle: Geniş alan temizliği; yaratılan küçük birimleri kes.
+
+Aldemir / Orman Avcıları — Avcı [forest-predators-avci]
+32 kart / mark / yalnız forest-predators
+2x Orman Pusucusu
+2x Reçine Sırtı
+2x Karanlık Vahna
+2x Yaprak Avcısı
+2x Diken Sürüneni
+2x Çalı Göz
+2x Safir Pusu
+2x Kök Kapanı
+2x Reçine İzi
+2x Av Kokusu
+2x Göl Siperi
+2x Çalıya Sin
+2x Yaprak Perdesi
+2x Safir Yansıma
+1x Karanlık Orman
+1x Sürü Takibi
+1x Yaraya Kilitlen
+1x Avcı / Yaprak Avcısı
+İmza: En düşük canlı düşmanı İşaretle; ilk aile vuruşu o hedefe +2 hasar.
+Karşı hamle: İşareti temizle; savunma öncesi şifa.
+
+Aldemir / Orman Avcıları — Muhafız [forest-predators-muhafiz]
+32 kart / guard / yalnız forest-predators
+2x Kök Pençesi
+2x Reçine Sırtı
+2x Karanlık Vahna
+2x Diken Sürüneni
+2x Çalı Göz
+2x Safir Pusu
+2x Gürz Gölgesi
+2x Kök Kapanı
+2x Reçine İzi
+2x Av Kokusu
+2x Diken Çemberi
+2x Çalıya Sin
+2x Yaprak Perdesi
+2x Safir Yansıma
+1x Karanlık Orman
+1x Yaraya Kilitlen
+1x Son Av
+1x Muhafız / Diken Sürüneni
+İmza: Oynanınca komşu aile birimlerine bu tur 2 geçici Can ver.
+Karşı hamle: Susturma ve farklı hedeflere bölünmüş hasar.
+
+Aldemir / Orman Avcıları — Düellocu [forest-predators-duellocu]
+32 kart / single / yalnız forest-predators
+2x Göl Dişi
+2x Orman Pusucusu
+2x Karanlık Vahna
+2x Yaprak Avcısı
+2x Çalı Göz
+2x Safir Pusu
+2x Gürz Gölgesi
+2x Reçine İzi
+2x Av Kokusu
+2x Göl Siperi
+2x Diken Çemberi
+2x Çalıya Sin
+2x Yaprak Perdesi
+2x Safir Yansıma
+1x Karanlık Orman
+1x Sürü Takibi
+1x Son Av
+1x Düellocu / Çalı Göz
+İmza: Bu tur yalnız saldırırsam +3 Saldırı; saldırı sonrasında bir tur tükenirim.
+Karşı hamle: Güçlendirme bittikten sonra hedef kaldırma.
+
+Aldemir / Orman Avcıları — Kuşatmacı [forest-predators-kusatmaci]
+32 kart / siege / yalnız forest-predators
+2x Reçine Sırtı
+2x Yaprak Avcısı
+2x Diken Sürüneni
+2x Çalı Göz
+2x Safir Pusu
+2x Gürz Gölgesi
+2x Av Sürüsü
+2x Kök Kapanı
+2x Av Kokusu
+2x Göl Siperi
+2x Diken Çemberi
+2x Çalıya Sin
+2x Yaprak Perdesi
+2x Safir Yansıma
+1x Karanlık Orman
+1x Sürü Takibi
+1x Son Av
+1x Kuşatmacı / Safir Pusu
+İmza: Üç tur sahada kaldıktan sonra saldırıda düşman özüne 3 hasar ver; sayaç görünür.
+Karşı hamle: Altıncı turdan önce baskı; ağır kart maliyetini artır.
+
+Aldemir / Orman Avcıları — Pusucu [forest-predators-pusucu]
+32 kart / ambush / yalnız forest-predators
+2x Kök Pençesi
+2x Göl Dişi
+2x Orman Pusucusu
+2x Karanlık Vahna
+2x Yaprak Avcısı
+2x Diken Sürüneni
+2x Safir Pusu
+2x Kök Kapanı
+2x Reçine İzi
+2x Av Kokusu
+2x Göl Siperi
+2x Diken Çemberi
+2x Çalıya Sin
+2x Yaprak Perdesi
+1x Karanlık Orman
+1x Sürü Takibi
+1x Yaraya Kilitlen
+1x Pusucu / Gürz Gölgesi
+İmza: Düşman saldırı hazırlığında oynanabilir; saldıran birimin Saldırısını bu tur 2 azalt.
+Karşı hamle: Pas geçerek tepkisini boşa çıkar; saldırı hazırlığında incele.
+
+Aldemir / Orman Avcıları — Ritüelci [forest-predators-buyucu]
+32 kart / spell / yalnız forest-predators
+2x Kök Pençesi
+2x Orman Pusucusu
+2x Karanlık Vahna
+2x Çalı Göz
+2x Safir Pusu
+2x Gürz Gölgesi
+2x Orman Baskını
+2x Kök Kapanı
+2x Reçine İzi
+2x Av Kokusu
+2x Göl Siperi
+2x Diken Çemberi
+2x Çalıya Sin
+2x Yaprak Perdesi
+1x Karanlık Orman
+1x Yaraya Kilitlen
+1x Son Av
+1x Ritüelci / Av Sürüsü
+İmza: Bir turda ikinci aile büyüsü oynanınca rastgelelik olmadan en soldaki düşmana 2 hasar.
+Karşı hamle: Sessizleştirme; karşı hamle enerjisini tüket.
+
+Aldemir / Orman Avcıları — Toplayıcı [forest-predators-toplayici]
+32 kart / resource / yalnız forest-predators
+2x Kök Pençesi
+2x Göl Dişi
+2x Reçine Sırtı
+2x Yaprak Avcısı
+2x Diken Sürüneni
+2x Çalı Göz
+2x Gürz Gölgesi
+2x Kök Kapanı
+2x Reçine İzi
+2x Av Kokusu
+2x Diken Çemberi
+2x Çalıya Sin
+2x Yaprak Perdesi
+2x Safir Yansıma
+1x Karanlık Orman
+1x Sürü Takibi
+1x Yaraya Kilitlen
+1x Toplayıcı / Orman Baskını
+İmza: İlk aile biriminin ölümü sonrası bir aile kartı çek; tur başına bir kez.
+Karşı hamle: Kaynak üreten birimleri öncelikli hedefle.
+
+Aldemir / Orman Avcıları — Karşıcı [forest-predators-karsici]
+32 kart / counter / yalnız forest-predators
+2x Göl Dişi
+2x Orman Pusucusu
+2x Reçine Sırtı
+2x Karanlık Vahna
+2x Diken Sürüneni
+2x Safir Pusu
+2x Av Sürüsü
+2x Kök Kapanı
+2x Reçine İzi
+2x Av Kokusu
+2x Göl Siperi
+2x Diken Çemberi
+2x Çalıya Sin
+2x Yaprak Perdesi
+1x Safir Yansıma
+1x Sürü Takibi
+1x Son Av
+1x Karşıcı / Kök Pençesi
+İmza: Maliyeti 3 veya daha az olan bir düşman büyüsünü iptal et; karşı tepki penceresi aç.
+Karşı hamle: Ucuz yem büyüleri; bir turda iki ayrı tehdit.
+
+Aldemir / Orman Avcıları — Dönen [forest-predators-dirilen]
+32 kart / recursion / yalnız forest-predators
+2x Kök Pençesi
+2x Orman Pusucusu
+2x Reçine Sırtı
+2x Yaprak Avcısı
+2x Diken Sürüneni
+2x Safir Pusu
+2x Gürz Gölgesi
+2x Kök Kapanı
+2x Reçine İzi
+2x Av Kokusu
+2x Diken Çemberi
+2x Çalıya Sin
+2x Yaprak Perdesi
+2x Safir Yansıma
+1x Karanlık Orman
+1x Yaraya Kilitlen
+1x Son Av
+1x Dönen / Göl Dişi
+İmza: Bu tur ölen en düşük maliyetli aile birimini ele döndür; maliyetine +1 ekle.
+Karşı hamle: Sürgün; geri alma kartı kullanılmadan baskı.
+
+Aldemir / Orman Avcıları — Dönüştürücü [forest-predators-donusturucu]
+32 kart / evolve / yalnız forest-predators
+2x Göl Dişi
+2x Orman Pusucusu
+2x Karanlık Vahna
+2x Yaprak Avcısı
+2x Diken Sürüneni
+2x Safir Pusu
+2x Orman Baskını
+2x Kök Kapanı
+2x Reçine İzi
+2x Av Kokusu
+2x Göl Siperi
+2x Diken Çemberi
+2x Yaprak Perdesi
+2x Safir Yansıma
+1x Karanlık Orman
+1x Sürü Takibi
+1x Son Av
+1x Dönüştürücü / Orman Pusucusu
+İmza: Üç aile kartı oynandığında bir kez +2/+2 kazan; kart yüzü değişir, sayaç sıfırlanmaz.
+Karşı hamle: Üçüncü karttan önce ana tehdidi kaldır.
+
+Aldemir / Orman Avcıları — Tüketici [forest-predators-tuketici]
+32 kart / attrition / yalnız forest-predators
+2x Kök Pençesi
+2x Göl Dişi
+2x Reçine Sırtı
+2x Karanlık Vahna
+2x Çalı Göz
+2x Gürz Gölgesi
+2x Av Sürüsü
+2x Kök Kapanı
+2x Reçine İzi
+2x Av Kokusu
+2x Göl Siperi
+2x Diken Çemberi
+2x Çalıya Sin
+2x Yaprak Perdesi
+1x Karanlık Orman
+1x Sürü Takibi
+1x Son Av
+1x Tüketici / Reçine Sırtı
+İmza: Bir düşmana 2 hasar ver; kendi özüne 1 hasar al. Aile kartı öldürürse bir kart çek.
+Karşı hamle: Kart avantajı üret; uzun tur döngüsünden kaçın.
+
+Aldemir / Orman Avcıları — Koruyucu [forest-predators-koruyucu]
+32 kart / support / yalnız forest-predators
+2x Kök Pençesi
+2x Göl Dişi
+2x Orman Pusucusu
+2x Reçine Sırtı
+2x Yaprak Avcısı
+2x Çalı Göz
+2x Safir Pusu
+2x Kök Kapanı
+2x Reçine İzi
+2x Av Kokusu
+2x Diken Çemberi
+2x Çalıya Sin
+2x Yaprak Perdesi
+2x Safir Yansıma
+1x Karanlık Orman
+1x Yaraya Kilitlen
+1x Son Av
+1x Koruyucu / Karanlık Vahna
+İmza: Tur sonunda en düşük canlı aile birimini 2 iyileştir; eşitlikte en soldakini seç.
+Karşı hamle: Destek hedefini kaldır; komşuluk zincirini böl.
+
+Aldemir / Orman Avcıları — Elit [forest-predators-elit]
+32 kart / mixed / yalnız forest-predators
+2x Orman Pusucusu
+2x Reçine Sırtı
+2x Karanlık Vahna
+2x Yaprak Avcısı
+2x Diken Sürüneni
+2x Safir Pusu
+2x Av Sürüsü
+2x Kök Kapanı
+2x Reçine İzi
+2x Av Kokusu
+2x Göl Siperi
+2x Diken Çemberi
+2x Çalıya Sin
+2x Yaprak Perdesi
+1x Safir Yansıma
+1x Sürü Takibi
+1x Son Av
+1x Elit / Yaprak Avcısı
+İmza: Oynanınca bir aile birimine bu tur +1/+2 ver ve bir kart çek; kendini seçemez.
+Karşı hamle: Maliyetli tehdidi beklet; ilk savunma kaynağını zorla.
+
+Aldemir / Orman Avcıları — Reis [forest-predators-reis]
+32 kart / boss / yalnız forest-predators
+2x Kök Pençesi
+2x Reçine Sırtı
+2x Yaprak Avcısı
+2x Diken Sürüneni
+2x Çalı Göz
+2x Gürz Gölgesi
+2x Orman Baskını
+2x Kök Kapanı
+2x Reçine İzi
+2x Av Kokusu
+2x Göl Siperi
+2x Diken Çemberi
+2x Çalıya Sin
+2x Yaprak Perdesi
+1x Karanlık Orman
+1x Yaraya Kilitlen
+1x Son Av
+1x Reis / Diken Sürüneni
+İmza: Öz yarı cana ilk indiğinde iki 1/2 aile yardımcısı yarat; faz geçişi bir tur önceden uyarılır.
+Karşı hamle: Üçüncü tur öncesi hazırlık; faz geçişine iki cevap sakla.
+
+Zağra Khur / Kum Avcıları — İzci [desert-hunters-izci]
+32 kart / tempo / yalnız desert-hunters
+2x Kum Pençesi
+2x Kuyu Avcısı
+2x Cam Kabuk
+2x Titreşim İzci
+2x Karathaxi Yavrusu
+2x Vaha Pususu
+2x Kum Çenesi
+2x Kum Altında
+2x Titreşim Takibi
+2x Kuyu Kapanı
+2x Cam Kırığı
+2x Vaha Ablukası
+2x Sıcak Rüzgâr
+2x Gömülü Tuzak
+1x Kum Perdesi
+1x Susuz İz
+1x Taşa Çık
+1x İzci / Karathaxi Yavrusu
+İmza: Oynanınca bir kart çek; bu tur ilk maliyet 2 veya altı aile kartı 1 ucuzlar.
+Karşı hamle: Erken alan hasarı ve ucuz engelleyiciler.
+
+Zağra Khur / Kum Avcıları — Sürücü [desert-hunters-surucu]
+32 kart / swarm / yalnız desert-hunters
+2x Kum Pençesi
+2x Kuyu Avcısı
+2x Cam Kabuk
+2x Titreşim İzci
+2x Karathaxi Yavrusu
+2x Vaha Pususu
+2x Kum Çenesi
+2x Taş Sığınanı
+2x Kum Altında
+2x Titreşim Takibi
+2x Vaha Ablukası
+2x Sıcak Rüzgâr
+2x Gömülü Tuzak
+2x Kum Perdesi
+1x Susuz İz
+1x Vaha Kokusu
+1x Son Titreşim
+1x Sürücü / Vaha Pususu
+İmza: Oynanınca iki 1/1 aile yardımcısı yarat; bunlar turun sonunda kaybolur.
+Karşı hamle: Geniş alan temizliği; yaratılan küçük birimleri kes.
+
+Zağra Khur / Kum Avcıları — Avcı [desert-hunters-avci]
+32 kart / mark / yalnız desert-hunters
+2x Cam Kabuk
+2x Titreşim İzci
+2x Karathaxi Yavrusu
+2x Vaha Pususu
+2x Kum Çenesi
+2x Taş Sığınanı
+2x Gömülü Omurga
+2x Kum Altında
+2x Titreşim Takibi
+2x Kuyu Kapanı
+2x Cam Kırığı
+2x Sıcak Rüzgâr
+2x Gömülü Tuzak
+2x Kum Perdesi
+1x Susuz İz
+1x Taşa Çık
+1x Vaha Kokusu
+1x Avcı / Kum Çenesi
+İmza: En düşük canlı düşmanı İşaretle; ilk aile vuruşu o hedefe +2 hasar.
+Karşı hamle: İşareti temizle; savunma öncesi şifa.
+
+Zağra Khur / Kum Avcıları — Muhafız [desert-hunters-muhafiz]
+32 kart / guard / yalnız desert-hunters
+2x Kum Pençesi
+2x Titreşim İzci
+2x Karathaxi Yavrusu
+2x Kum Çenesi
+2x Taş Sığınanı
+2x Gömülü Omurga
+2x Cam Kuyruk
+2x Kum Altında
+2x Titreşim Takibi
+2x Kuyu Kapanı
+2x Vaha Ablukası
+2x Sıcak Rüzgâr
+2x Gömülü Tuzak
+2x Kum Perdesi
+1x Susuz İz
+1x Vaha Kokusu
+1x Son Titreşim
+1x Muhafız / Taş Sığınanı
+İmza: Oynanınca komşu aile birimlerine bu tur 2 geçici Can ver.
+Karşı hamle: Susturma ve farklı hedeflere bölünmüş hasar.
+
+Zağra Khur / Kum Avcıları — Düellocu [desert-hunters-duellocu]
+32 kart / single / yalnız desert-hunters
+2x Kuyu Avcısı
+2x Cam Kabuk
+2x Karathaxi Yavrusu
+2x Vaha Pususu
+2x Taş Sığınanı
+2x Gömülü Omurga
+2x Cam Kuyruk
+2x Titreşim Takibi
+2x Kuyu Kapanı
+2x Cam Kırığı
+2x Vaha Ablukası
+2x Sıcak Rüzgâr
+2x Gömülü Tuzak
+2x Kum Perdesi
+1x Susuz İz
+1x Taşa Çık
+1x Son Titreşim
+1x Düellocu / Gömülü Omurga
+İmza: Bu tur yalnız saldırırsam +3 Saldırı; saldırı sonrasında bir tur tükenirim.
+Karşı hamle: Güçlendirme bittikten sonra hedef kaldırma.
+
+Zağra Khur / Kum Avcıları — Kuşatmacı [desert-hunters-kusatmaci]
+32 kart / siege / yalnız desert-hunters
+2x Titreşim İzci
+2x Vaha Pususu
+2x Kum Çenesi
+2x Taş Sığınanı
+2x Gömülü Omurga
+2x Cam Kuyruk
+2x Karathaxi Öncüsü
+2x Kum Altında
+2x Kuyu Kapanı
+2x Cam Kırığı
+2x Vaha Ablukası
+2x Sıcak Rüzgâr
+2x Gömülü Tuzak
+2x Kum Perdesi
+1x Susuz İz
+1x Taşa Çık
+1x Son Titreşim
+1x Kuşatmacı / Cam Kuyruk
+İmza: Üç tur sahada kaldıktan sonra saldırıda düşman özüne 3 hasar ver; sayaç görünür.
+Karşı hamle: Altıncı turdan önce baskı; ağır kart maliyetini artır.
+
+Zağra Khur / Kum Avcıları — Pusucu [desert-hunters-pusucu]
+32 kart / ambush / yalnız desert-hunters
+2x Kum Pençesi
+2x Kuyu Avcısı
+2x Cam Kabuk
+2x Karathaxi Yavrusu
+2x Vaha Pususu
+2x Kum Çenesi
+2x Gömülü Omurga
+2x Kum Altında
+2x Titreşim Takibi
+2x Kuyu Kapanı
+2x Cam Kırığı
+2x Vaha Ablukası
+2x Sıcak Rüzgâr
+2x Gömülü Tuzak
+1x Susuz İz
+1x Taşa Çık
+1x Vaha Kokusu
+1x Pusucu / Karathaxi Öncüsü
+İmza: Düşman saldırı hazırlığında oynanabilir; saldıran birimin Saldırısını bu tur 2 azalt.
+Karşı hamle: Pas geçerek tepkisini boşa çıkar; saldırı hazırlığında incele.
+
+Zağra Khur / Kum Avcıları — Ritüelci [desert-hunters-buyucu]
+32 kart / spell / yalnız desert-hunters
+2x Kum Pençesi
+2x Cam Kabuk
+2x Karathaxi Yavrusu
+2x Taş Sığınanı
+2x Gömülü Omurga
+2x Cam Kuyruk
+2x Kumun Yutucusu
+2x Kum Altında
+2x Titreşim Takibi
+2x Kuyu Kapanı
+2x Cam Kırığı
+2x Vaha Ablukası
+2x Sıcak Rüzgâr
+2x Gömülü Tuzak
+1x Susuz İz
+1x Vaha Kokusu
+1x Son Titreşim
+1x Ritüelci / Kumun Yutucusu
+İmza: Bir turda ikinci aile büyüsü oynanınca rastgelelik olmadan en soldaki düşmana 2 hasar.
+Karşı hamle: Sessizleştirme; karşı hamle enerjisini tüket.
+
+Zağra Khur / Kum Avcıları — Toplayıcı [desert-hunters-toplayici]
+32 kart / resource / yalnız desert-hunters
+2x Kum Pençesi
+2x Kuyu Avcısı
+2x Titreşim İzci
+2x Vaha Pususu
+2x Kum Çenesi
+2x Taş Sığınanı
+2x Cam Kuyruk
+2x Kum Altında
+2x Titreşim Takibi
+2x Kuyu Kapanı
+2x Vaha Ablukası
+2x Sıcak Rüzgâr
+2x Gömülü Tuzak
+2x Kum Perdesi
+1x Susuz İz
+1x Taşa Çık
+1x Vaha Kokusu
+1x Toplayıcı / Kum Pençesi
+İmza: İlk aile biriminin ölümü sonrası bir aile kartı çek; tur başına bir kez.
+Karşı hamle: Kaynak üreten birimleri öncelikli hedefle.
+
+Zağra Khur / Kum Avcıları — Karşıcı [desert-hunters-karsici]
+32 kart / counter / yalnız desert-hunters
+2x Kuyu Avcısı
+2x Cam Kabuk
+2x Titreşim İzci
+2x Karathaxi Yavrusu
+2x Kum Çenesi
+2x Gömülü Omurga
+2x Karathaxi Öncüsü
+2x Kum Altında
+2x Titreşim Takibi
+2x Kuyu Kapanı
+2x Cam Kırığı
+2x Vaha Ablukası
+2x Sıcak Rüzgâr
+2x Gömülü Tuzak
+1x Kum Perdesi
+1x Taşa Çık
+1x Son Titreşim
+1x Karşıcı / Kuyu Avcısı
+İmza: Maliyeti 3 veya daha az olan bir düşman büyüsünü iptal et; karşı tepki penceresi aç.
+Karşı hamle: Ucuz yem büyüleri; bir turda iki ayrı tehdit.
+
+Zağra Khur / Kum Avcıları — Dönen [desert-hunters-dirilen]
+32 kart / recursion / yalnız desert-hunters
+2x Kum Pençesi
+2x Cam Kabuk
+2x Titreşim İzci
+2x Vaha Pususu
+2x Kum Çenesi
+2x Gömülü Omurga
+2x Cam Kuyruk
+2x Kum Altında
+2x Titreşim Takibi
+2x Kuyu Kapanı
+2x Vaha Ablukası
+2x Sıcak Rüzgâr
+2x Gömülü Tuzak
+2x Kum Perdesi
+1x Susuz İz
+1x Vaha Kokusu
+1x Son Titreşim
+1x Dönen / Cam Kabuk
+İmza: Bu tur ölen en düşük maliyetli aile birimini ele döndür; maliyetine +1 ekle.
+Karşı hamle: Sürgün; geri alma kartı kullanılmadan baskı.
+
+Zağra Khur / Kum Avcıları — Dönüştürücü [desert-hunters-donusturucu]
+32 kart / evolve / yalnız desert-hunters
+2x Kuyu Avcısı
+2x Cam Kabuk
+2x Karathaxi Yavrusu
+2x Vaha Pususu
+2x Kum Çenesi
+2x Gömülü Omurga
+2x Kumun Yutucusu
+2x Kum Altında
+2x Titreşim Takibi
+2x Kuyu Kapanı
+2x Cam Kırığı
+2x Vaha Ablukası
+2x Gömülü Tuzak
+2x Kum Perdesi
+1x Susuz İz
+1x Taşa Çık
+1x Son Titreşim
+1x Dönüştürücü / Titreşim İzci
+İmza: Üç aile kartı oynandığında bir kez +2/+2 kazan; kart yüzü değişir, sayaç sıfırlanmaz.
+Karşı hamle: Üçüncü karttan önce ana tehdidi kaldır.
+
+Zağra Khur / Kum Avcıları — Tüketici [desert-hunters-tuketici]
+32 kart / attrition / yalnız desert-hunters
+2x Kum Pençesi
+2x Kuyu Avcısı
+2x Titreşim İzci
+2x Karathaxi Yavrusu
+2x Taş Sığınanı
+2x Cam Kuyruk
+2x Karathaxi Öncüsü
+2x Kum Altında
+2x Titreşim Takibi
+2x Kuyu Kapanı
+2x Cam Kırığı
+2x Vaha Ablukası
+2x Sıcak Rüzgâr
+2x Gömülü Tuzak
+1x Susuz İz
+1x Taşa Çık
+1x Son Titreşim
+1x Tüketici / Karathaxi Yavrusu
+İmza: Bir düşmana 2 hasar ver; kendi özüne 1 hasar al. Aile kartı öldürürse bir kart çek.
+Karşı hamle: Kart avantajı üret; uzun tur döngüsünden kaçın.
+
+Zağra Khur / Kum Avcıları — Koruyucu [desert-hunters-koruyucu]
+32 kart / support / yalnız desert-hunters
+2x Kum Pençesi
+2x Kuyu Avcısı
+2x Cam Kabuk
+2x Titreşim İzci
+2x Vaha Pususu
+2x Taş Sığınanı
+2x Gömülü Omurga
+2x Kum Altında
+2x Titreşim Takibi
+2x Kuyu Kapanı
+2x Vaha Ablukası
+2x Sıcak Rüzgâr
+2x Gömülü Tuzak
+2x Kum Perdesi
+1x Susuz İz
+1x Vaha Kokusu
+1x Son Titreşim
+1x Koruyucu / Vaha Pususu
+İmza: Tur sonunda en düşük canlı aile birimini 2 iyileştir; eşitlikte en soldakini seç.
+Karşı hamle: Destek hedefini kaldır; komşuluk zincirini böl.
+
+Zağra Khur / Kum Avcıları — Elit [desert-hunters-elit]
+32 kart / mixed / yalnız desert-hunters
+2x Cam Kabuk
+2x Titreşim İzci
+2x Karathaxi Yavrusu
+2x Vaha Pususu
+2x Kum Çenesi
+2x Gömülü Omurga
+2x Karathaxi Öncüsü
+2x Kum Altında
+2x Titreşim Takibi
+2x Kuyu Kapanı
+2x Cam Kırığı
+2x Vaha Ablukası
+2x Sıcak Rüzgâr
+2x Gömülü Tuzak
+1x Kum Perdesi
+1x Taşa Çık
+1x Son Titreşim
+1x Elit / Kum Çenesi
+İmza: Oynanınca bir aile birimine bu tur +1/+2 ver ve bir kart çek; kendini seçemez.
+Karşı hamle: Maliyetli tehdidi beklet; ilk savunma kaynağını zorla.
+
+Zağra Khur / Kum Avcıları — Reis [desert-hunters-reis]
+32 kart / boss / yalnız desert-hunters
+2x Kum Pençesi
+2x Titreşim İzci
+2x Vaha Pususu
+2x Kum Çenesi
+2x Taş Sığınanı
+2x Cam Kuyruk
+2x Kumun Yutucusu
+2x Kum Altında
+2x Titreşim Takibi
+2x Kuyu Kapanı
+2x Cam Kırığı
+2x Vaha Ablukası
+2x Sıcak Rüzgâr
+2x Gömülü Tuzak
+1x Susuz İz
+1x Vaha Kokusu
+1x Son Titreşim
+1x Reis / Taş Sığınanı
+İmza: Öz yarı cana ilk indiğinde iki 1/2 aile yardımcısı yarat; faz geçişi bir tur önceden uyarılır.
+Karşı hamle: Üçüncü tur öncesi hazırlık; faz geçişine iki cevap sakla.
+
+Ebedi Buzullar / Aç Yırtıcılar — İzci [frost-predators-izci]
+32 kart / tempo / yalnız frost-predators
+2x Kar Vahnası
+2x Buz Koklayan
+2x Aç Vesuni
+2x Kırağı Pençesi
+2x Kar İzcisi
+2x Soğuk Çene
+2x Sığınak Takipçisi
+2x Koku Peşinde
+2x Kırağı İzi
+2x Erzak Kokusu
+2x Kar Perdesi
+2x Soğuk Nefes
+2x Fırtına Pususu
+2x Buz Kapanı
+1x Sığınak Ablukası
+1x Donuk Pençe
+1x Açlık Çağrısı
+1x İzci / Soğuk Çene
+İmza: Oynanınca bir kart çek; bu tur ilk maliyet 2 veya altı aile kartı 1 ucuzlar.
+Karşı hamle: Erken alan hasarı ve ucuz engelleyiciler.
+
+Ebedi Buzullar / Aç Yırtıcılar — Sürücü [frost-predators-surucu]
+32 kart / swarm / yalnız frost-predators
+2x Kar Vahnası
+2x Buz Koklayan
+2x Aç Vesuni
+2x Kırağı Pençesi
+2x Kar İzcisi
+2x Soğuk Çene
+2x Sığınak Takipçisi
+2x Buz Kuyruk
+2x Koku Peşinde
+2x Kırağı İzi
+2x Soğuk Nefes
+2x Fırtına Pususu
+2x Buz Kapanı
+2x Sığınak Ablukası
+1x Donuk Pençe
+1x Kar Körlüğü
+1x Son Soğuk
+1x Sürücü / Sığınak Takipçisi
+İmza: Oynanınca iki 1/1 aile yardımcısı yarat; bunlar turun sonunda kaybolur.
+Karşı hamle: Geniş alan temizliği; yaratılan küçük birimleri kes.
+
+Ebedi Buzullar / Aç Yırtıcılar — Avcı [frost-predators-avci]
+32 kart / mark / yalnız frost-predators
+2x Aç Vesuni
+2x Kırağı Pençesi
+2x Kar İzcisi
+2x Soğuk Çene
+2x Sığınak Takipçisi
+2x Buz Kuyruk
+2x Fırtına Avcısı
+2x Koku Peşinde
+2x Kırağı İzi
+2x Erzak Kokusu
+2x Kar Perdesi
+2x Fırtına Pususu
+2x Buz Kapanı
+2x Sığınak Ablukası
+1x Donuk Pençe
+1x Açlık Çağrısı
+1x Kar Körlüğü
+1x Avcı / Buz Kuyruk
+İmza: En düşük canlı düşmanı İşaretle; ilk aile vuruşu o hedefe +2 hasar.
+Karşı hamle: İşareti temizle; savunma öncesi şifa.
+
+Ebedi Buzullar / Aç Yırtıcılar — Muhafız [frost-predators-muhafiz]
+32 kart / guard / yalnız frost-predators
+2x Kar Vahnası
+2x Kırağı Pençesi
+2x Kar İzcisi
+2x Sığınak Takipçisi
+2x Buz Kuyruk
+2x Fırtına Avcısı
+2x Donmuş Omurga
+2x Koku Peşinde
+2x Kırağı İzi
+2x Erzak Kokusu
+2x Soğuk Nefes
+2x Fırtına Pususu
+2x Buz Kapanı
+2x Sığınak Ablukası
+1x Donuk Pençe
+1x Kar Körlüğü
+1x Son Soğuk
+1x Muhafız / Fırtına Avcısı
+İmza: Oynanınca komşu aile birimlerine bu tur 2 geçici Can ver.
+Karşı hamle: Susturma ve farklı hedeflere bölünmüş hasar.
+
+Ebedi Buzullar / Aç Yırtıcılar — Düellocu [frost-predators-duellocu]
+32 kart / single / yalnız frost-predators
+2x Buz Koklayan
+2x Aç Vesuni
+2x Kar İzcisi
+2x Soğuk Çene
+2x Buz Kuyruk
+2x Fırtına Avcısı
+2x Donmuş Omurga
+2x Kırağı İzi
+2x Erzak Kokusu
+2x Kar Perdesi
+2x Soğuk Nefes
+2x Fırtına Pususu
+2x Buz Kapanı
+2x Sığınak Ablukası
+1x Donuk Pençe
+1x Açlık Çağrısı
+1x Son Soğuk
+1x Düellocu / Donmuş Omurga
+İmza: Bu tur yalnız saldırırsam +3 Saldırı; saldırı sonrasında bir tur tükenirim.
+Karşı hamle: Güçlendirme bittikten sonra hedef kaldırma.
+
+Ebedi Buzullar / Aç Yırtıcılar — Kuşatmacı [frost-predators-kusatmaci]
+32 kart / siege / yalnız frost-predators
+2x Kırağı Pençesi
+2x Soğuk Çene
+2x Sığınak Takipçisi
+2x Buz Kuyruk
+2x Fırtına Avcısı
+2x Donmuş Omurga
+2x Vesuni Öncüsü
+2x Koku Peşinde
+2x Erzak Kokusu
+2x Kar Perdesi
+2x Soğuk Nefes
+2x Fırtına Pususu
+2x Buz Kapanı
+2x Sığınak Ablukası
+1x Donuk Pençe
+1x Açlık Çağrısı
+1x Son Soğuk
+1x Kuşatmacı / Vesuni Öncüsü
+İmza: Üç tur sahada kaldıktan sonra saldırıda düşman özüne 3 hasar ver; sayaç görünür.
+Karşı hamle: Altıncı turdan önce baskı; ağır kart maliyetini artır.
+
+Ebedi Buzullar / Aç Yırtıcılar — Pusucu [frost-predators-pusucu]
+32 kart / ambush / yalnız frost-predators
+2x Kar Vahnası
+2x Buz Koklayan
+2x Aç Vesuni
+2x Kar İzcisi
+2x Soğuk Çene
+2x Sığınak Takipçisi
+2x Fırtına Avcısı
+2x Koku Peşinde
+2x Kırağı İzi
+2x Erzak Kokusu
+2x Kar Perdesi
+2x Soğuk Nefes
+2x Fırtına Pususu
+2x Buz Kapanı
+1x Donuk Pençe
+1x Açlık Çağrısı
+1x Kar Körlüğü
+1x Pusucu / Buzul Yırtıcısı
+İmza: Düşman saldırı hazırlığında oynanabilir; saldıran birimin Saldırısını bu tur 2 azalt.
+Karşı hamle: Pas geçerek tepkisini boşa çıkar; saldırı hazırlığında incele.
+
+Ebedi Buzullar / Aç Yırtıcılar — Ritüelci [frost-predators-buyucu]
+32 kart / spell / yalnız frost-predators
+2x Kar Vahnası
+2x Aç Vesuni
+2x Kar İzcisi
+2x Buz Kuyruk
+2x Fırtına Avcısı
+2x Donmuş Omurga
+2x Buzul Yırtıcısı
+2x Koku Peşinde
+2x Kırağı İzi
+2x Erzak Kokusu
+2x Kar Perdesi
+2x Soğuk Nefes
+2x Fırtına Pususu
+2x Buz Kapanı
+1x Donuk Pençe
+1x Kar Körlüğü
+1x Son Soğuk
+1x Ritüelci / Kar Vahnası
+İmza: Bir turda ikinci aile büyüsü oynanınca rastgelelik olmadan en soldaki düşmana 2 hasar.
+Karşı hamle: Sessizleştirme; karşı hamle enerjisini tüket.
+
+Ebedi Buzullar / Aç Yırtıcılar — Toplayıcı [frost-predators-toplayici]
+32 kart / resource / yalnız frost-predators
+2x Kar Vahnası
+2x Buz Koklayan
+2x Kırağı Pençesi
+2x Soğuk Çene
+2x Sığınak Takipçisi
+2x Buz Kuyruk
+2x Donmuş Omurga
+2x Koku Peşinde
+2x Kırağı İzi
+2x Erzak Kokusu
+2x Soğuk Nefes
+2x Fırtına Pususu
+2x Buz Kapanı
+2x Sığınak Ablukası
+1x Donuk Pençe
+1x Açlık Çağrısı
+1x Kar Körlüğü
+1x Toplayıcı / Buz Koklayan
+İmza: İlk aile biriminin ölümü sonrası bir aile kartı çek; tur başına bir kez.
+Karşı hamle: Kaynak üreten birimleri öncelikli hedefle.
+
+Ebedi Buzullar / Aç Yırtıcılar — Karşıcı [frost-predators-karsici]
+32 kart / counter / yalnız frost-predators
+2x Buz Koklayan
+2x Aç Vesuni
+2x Kırağı Pençesi
+2x Kar İzcisi
+2x Sığınak Takipçisi
+2x Fırtına Avcısı
+2x Vesuni Öncüsü
+2x Koku Peşinde
+2x Kırağı İzi
+2x Erzak Kokusu
+2x Kar Perdesi
+2x Soğuk Nefes
+2x Fırtına Pususu
+2x Buz Kapanı
+1x Sığınak Ablukası
+1x Açlık Çağrısı
+1x Son Soğuk
+1x Karşıcı / Aç Vesuni
+İmza: Maliyeti 3 veya daha az olan bir düşman büyüsünü iptal et; karşı tepki penceresi aç.
+Karşı hamle: Ucuz yem büyüleri; bir turda iki ayrı tehdit.
+
+Ebedi Buzullar / Aç Yırtıcılar — Dönen [frost-predators-dirilen]
+32 kart / recursion / yalnız frost-predators
+2x Kar Vahnası
+2x Aç Vesuni
+2x Kırağı Pençesi
+2x Soğuk Çene
+2x Sığınak Takipçisi
+2x Fırtına Avcısı
+2x Donmuş Omurga
+2x Koku Peşinde
+2x Kırağı İzi
+2x Erzak Kokusu
+2x Soğuk Nefes
+2x Fırtına Pususu
+2x Buz Kapanı
+2x Sığınak Ablukası
+1x Donuk Pençe
+1x Kar Körlüğü
+1x Son Soğuk
+1x Dönen / Kırağı Pençesi
+İmza: Bu tur ölen en düşük maliyetli aile birimini ele döndür; maliyetine +1 ekle.
+Karşı hamle: Sürgün; geri alma kartı kullanılmadan baskı.
+
+Ebedi Buzullar / Aç Yırtıcılar — Dönüştürücü [frost-predators-donusturucu]
+32 kart / evolve / yalnız frost-predators
+2x Buz Koklayan
+2x Aç Vesuni
+2x Kar İzcisi
+2x Soğuk Çene
+2x Sığınak Takipçisi
+2x Fırtına Avcısı
+2x Buzul Yırtıcısı
+2x Koku Peşinde
+2x Kırağı İzi
+2x Erzak Kokusu
+2x Kar Perdesi
+2x Soğuk Nefes
+2x Buz Kapanı
+2x Sığınak Ablukası
+1x Donuk Pençe
+1x Açlık Çağrısı
+1x Son Soğuk
+1x Dönüştürücü / Kar İzcisi
+İmza: Üç aile kartı oynandığında bir kez +2/+2 kazan; kart yüzü değişir, sayaç sıfırlanmaz.
+Karşı hamle: Üçüncü karttan önce ana tehdidi kaldır.
+
+Ebedi Buzullar / Aç Yırtıcılar — Tüketici [frost-predators-tuketici]
+32 kart / attrition / yalnız frost-predators
+2x Kar Vahnası
+2x Buz Koklayan
+2x Kırağı Pençesi
+2x Kar İzcisi
+2x Buz Kuyruk
+2x Donmuş Omurga
+2x Vesuni Öncüsü
+2x Koku Peşinde
+2x Kırağı İzi
+2x Erzak Kokusu
+2x Kar Perdesi
+2x Soğuk Nefes
+2x Fırtına Pususu
+2x Buz Kapanı
+1x Donuk Pençe
+1x Açlık Çağrısı
+1x Son Soğuk
+1x Tüketici / Soğuk Çene
+İmza: Bir düşmana 2 hasar ver; kendi özüne 1 hasar al. Aile kartı öldürürse bir kart çek.
+Karşı hamle: Kart avantajı üret; uzun tur döngüsünden kaçın.
+
+Ebedi Buzullar / Aç Yırtıcılar — Koruyucu [frost-predators-koruyucu]
+32 kart / support / yalnız frost-predators
+2x Kar Vahnası
+2x Buz Koklayan
+2x Aç Vesuni
+2x Kırağı Pençesi
+2x Soğuk Çene
+2x Buz Kuyruk
+2x Fırtına Avcısı
+2x Koku Peşinde
+2x Kırağı İzi
+2x Erzak Kokusu
+2x Soğuk Nefes
+2x Fırtına Pususu
+2x Buz Kapanı
+2x Sığınak Ablukası
+1x Donuk Pençe
+1x Kar Körlüğü
+1x Son Soğuk
+1x Koruyucu / Sığınak Takipçisi
+İmza: Tur sonunda en düşük canlı aile birimini 2 iyileştir; eşitlikte en soldakini seç.
+Karşı hamle: Destek hedefini kaldır; komşuluk zincirini böl.
+
+Ebedi Buzullar / Aç Yırtıcılar — Elit [frost-predators-elit]
+32 kart / mixed / yalnız frost-predators
+2x Aç Vesuni
+2x Kırağı Pençesi
+2x Kar İzcisi
+2x Soğuk Çene
+2x Sığınak Takipçisi
+2x Fırtına Avcısı
+2x Vesuni Öncüsü
+2x Koku Peşinde
+2x Kırağı İzi
+2x Erzak Kokusu
+2x Kar Perdesi
+2x Soğuk Nefes
+2x Fırtına Pususu
+2x Buz Kapanı
+1x Sığınak Ablukası
+1x Açlık Çağrısı
+1x Son Soğuk
+1x Elit / Buz Kuyruk
+İmza: Oynanınca bir aile birimine bu tur +1/+2 ver ve bir kart çek; kendini seçemez.
+Karşı hamle: Maliyetli tehdidi beklet; ilk savunma kaynağını zorla.
+
+Ebedi Buzullar / Aç Yırtıcılar — Reis [frost-predators-reis]
+32 kart / boss / yalnız frost-predators
+2x Kar Vahnası
+2x Kırağı Pençesi
+2x Soğuk Çene
+2x Sığınak Takipçisi
+2x Buz Kuyruk
+2x Donmuş Omurga
+2x Buzul Yırtıcısı
+2x Koku Peşinde
+2x Kırağı İzi
+2x Erzak Kokusu
+2x Kar Perdesi
+2x Soğuk Nefes
+2x Fırtına Pususu
+2x Buz Kapanı
+1x Donuk Pençe
+1x Kar Körlüğü
+1x Son Soğuk
+1x Reis / Fırtına Avcısı
+İmza: Öz yarı cana ilk indiğinde iki 1/2 aile yardımcısı yarat; faz geçişi bir tur önceden uyarılır.
+Karşı hamle: Üçüncü tur öncesi hazırlık; faz geçişine iki cevap sakla.

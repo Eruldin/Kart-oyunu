@@ -1,0 +1,1338 @@
+{
+  "coordinate_system": "normalized x left to right, y top to bottom; m2026 and col are independent",
+  "layers": [
+    {
+      "id": "map2026",
+      "ad": "Teolam ve Bilinen Dünya",
+      "aciklama": "Temiz kıyılar, doğal arazi ve etkileşimli konum etiketleri"
+    },
+    {
+      "id": "teomli",
+      "ad": "Teomli Kıtası",
+      "aciklama": "Kıta detayı — km cetveli, hane armaları"
+    },
+    {
+      "id": "world",
+      "ad": "Kadim Parşömen",
+      "aciklama": "Eski kartografya — etiketsiz görsel katman"
+    },
+    {
+      "id": "col",
+      "ad": "Zağra Khur (Çöl)",
+      "aciklama": "Çöl diyarı — Tanax, Zahur, Shi Ra"
+    },
+    {
+      "id": "elentis",
+      "ad": "Elentis Kartografyası",
+      "aciklama": "Kadim dilde çizilmiş harita"
+    },
+    {
+      "id": "alendhan",
+      "ad": "Diyarlar ve Denizler",
+      "aciklama": "Alendhan’ın son yolculuk haritası"
+    },
+    {
+      "id": "vixen",
+      "ad": "Vixen",
+      "aciklama": "Vixen ve çevresi"
+    },
+    {
+      "id": "vinya",
+      "ad": "Vinya",
+      "aciklama": "Vinya köyü detayı"
+    }
+  ],
+  "categories": {
+    "hane": {
+      "ad": "Haneler",
+      "renk": "#c9a34a"
+    },
+    "sehir": {
+      "ad": "Şehirler",
+      "renk": "#e8dcc0"
+    },
+    "bolge": {
+      "ad": "Bölgeler",
+      "renk": "#9fb873"
+    },
+    "cografya": {
+      "ad": "Coğrafya",
+      "renk": "#b0875a"
+    },
+    "deniz": {
+      "ad": "Denizler",
+      "renk": "#6fa3b8"
+    },
+    "tehdit": {
+      "ad": "Tehdit",
+      "renk": "#b0493b"
+    }
+  },
+  "points": [
+    {
+      "id": "teomli",
+      "ad": "Teomli",
+      "kat": "bolge",
+      "x": 0.225,
+      "y": 0.34,
+      "kisa": "Altı büyük hanenin kıtası",
+      "lore": "Teom, Tharendil, Dagen, Nirvalor, Moriathor ve Serlunar hanelerinin toprakları. Ebedi Buzullar’dan batı limanlarına uzanan bu kıta, Eruldin’in yolculuğunun başlangıcıdır.",
+      "ilgili": [
+        "teom",
+        "tharendil",
+        "dagen",
+        "nirvalor",
+        "moriathor",
+        "serlunar"
+      ],
+      "uzay": "m2026"
+    },
+    {
+      "id": "shi-qra",
+      "ad": "Shi Qra",
+      "kat": "bolge",
+      "x": 0.82,
+      "y": 0.3,
+      "kisa": "Krov yurtları ve kızıl bozkırlar",
+      "lore": "Bilinen dünyanın kuzeydoğusundaki diyar. Demir Dağları, Kızıl Bozkırlar ve Siyah Sıradağlar bu toprakları biçimlendirir; Urum Kalesi, Tarhun ve Qarash haritadaki duraklarıdır.",
+      "ilgili": [
+        "urum-kalesi",
+        "tarhun",
+        "qarash",
+        "demir-daglari",
+        "kizil-bozkirlar"
+      ],
+      "uzay": "m2026"
+    },
+    {
+      "id": "serath",
+      "ad": "Serath",
+      "kat": "bolge",
+      "x": 0.14,
+      "y": 0.75,
+      "kisa": "Karga Tepeleri ve Çağrı Sıradağları",
+      "lore": "Teomli’nin güneyindeki kara parçası. Karga Tepeleri ile Çağrı Sıradağları burada yükselir. Güneyde İlk Karah olayının hikâye bağlantısı bu diyara uzanır.",
+      "ilgili": [
+        "karga-tepeleri",
+        "cagri-siradaglari",
+        "guneyde-ilk-karah"
+      ],
+      "uzay": "m2026"
+    },
+    {
+      "id": "aldemir",
+      "ad": "Aldemir",
+      "kat": "bolge",
+      "x": 0.55,
+      "y": 0.725,
+      "kisa": "Ormanlar, vadiler ve Safir Gölü",
+      "lore": "Güneyin ormanlık kıtası. Gürz Ormanları, Yıldıztepeler, Safir Gölü, Sükûnet Vadisi ve Karanlık Ormanlar bu diyarın başlıca coğrafi duraklarıdır.",
+      "ilgili": [
+        "gurz-ormanlari",
+        "yildiztepeler",
+        "safir-golu",
+        "sukunet-vadisi",
+        "karanlik-ormanlar"
+      ],
+      "uzay": "m2026"
+    },
+    {
+      "id": "val-teresh",
+      "ad": "Val-Teresh",
+      "kat": "bolge",
+      "x": 0.86,
+      "y": 0.77,
+      "kisa": "Sessiz Deniz kıyısındaki diyar",
+      "lore": "Bilinen dünyanın güneydoğusunda, Yasemin Ormanları ve Ahiriz’in yer aldığı diyar. Güney kıyıları Sedef Adaları’na ve Sessiz Deniz’e açılır.",
+      "ilgili": [
+        "yasemin-ormanlari",
+        "ahiriz",
+        "sedef-adalari",
+        "sessiz-deniz"
+      ],
+      "uzay": "m2026"
+    },
+    {
+      "id": "teom",
+      "ad": "Teom",
+      "kat": "hane",
+      "x": 0.089,
+      "y": 0.306,
+      "kisa": "Altı haneli Teomli tahtının kurucu ocağı",
+      "lore": "Bilinen dünyanın batı ucundaki Teomli kıtasına adını veren kurucu hane. Deli Kral Teo’nun kutsal soyu buradan yürür; taht, tac ve \"Kızıl Teomlar\" diye anılan ilk ateş bu topraklarda yakıldı. Kıyısındaki Vixen ile kuzeydeki Fenri Sarayı hanenin iki koludur.\n\nDestanın adı bu topraklardan çıkar: Eruldin’in yürüyüşü Teom’un çatısı altında başladı.",
+      "resim": "art/sahneler/Deli kral Teo.png",
+      "ilgili": [
+        "vixen",
+        "fenri-sarayi",
+        "kral-tharendor"
+      ],
+      "uzay": "m2026"
+    },
+    {
+      "id": "tharendil",
+      "ad": "Tharendil",
+      "kat": "hane",
+      "x": 0.217,
+      "y": 0.306,
+      "kisa": "Kutarion Ovası’nın ve Akçay’ın hâkimi",
+      "lore": "Teomli’nin iç havzasını elinde tutan büyük hane. Kutarion Ovası’nın buğdayı, Akçay Nehri’nin geçitleri ve Essan şehri Tharendil sancağındadır.\n\nKral Tharendor’un ölümü destanın dönüm noktalarından biridir; Edharn Tharendil hanenin savaş ve siyasetteki yüzüdür.",
+      "ilgili": [
+        "essan",
+        "kutarion-ovasi",
+        "akcay-nehri",
+        "edharn-tharendil"
+      ],
+      "uzay": "m2026"
+    },
+    {
+      "id": "dagen",
+      "ad": "Dagen",
+      "kat": "hane",
+      "x": 0.363,
+      "y": 0.25,
+      "kisa": "Dumanlı Dağlar’ın gölgesindeki sürgün hanesi",
+      "lore": "Dumanlı Dağlar’ın eteğine yaslanan Dagen, \"Dagenlerin Gecesi\" ve \"Siyah Merdivenler\" ile destana kazınan hane. Sürgünü ve dönüşü, zaman çizelgesinin en ağır halkalarındandır.\n\nSiyah Merdivenler’in altında verilen konuk hakkı ve orada kırılan sözler, hanenin yazgısını belirledi.",
+      "resim": "art/haneler/Dagen hanesi.webp",
+      "ilgili": [
+        "dumanli-daglar",
+        "ikiz-disler",
+        "ak-gecit"
+      ],
+      "uzay": "m2026"
+    },
+    {
+      "id": "nirvalor",
+      "ad": "Nirvalor",
+      "kat": "hane",
+      "x": 0.341,
+      "y": 0.366,
+      "kisa": "Orman ve gözetleme hanesi",
+      "lore": "Teomli’nin orta kuşağında, ormanın içine gizlenmiş hane. Vinthalen yerleşkesiyle bilinir; hanelerin sessiz masasında sözü az ama ağır olanlardan.",
+      "uzay": "m2026"
+    },
+    {
+      "id": "moriathor",
+      "ad": "Moriathor",
+      "kat": "hane",
+      "x": 0.191,
+      "y": 0.427,
+      "kisa": "Batı kıyısının bekçisi",
+      "lore": "Büyük Batı Denizi kıyısına yaslanan hane; Selenor limanı Moriathor sancağındadır. Denizden gelen her haber önce bu evin kapısına uğrar.",
+      "ilgili": [
+        "selenor",
+        "buyuk-bati-denizi"
+      ],
+      "uzay": "m2026"
+    },
+    {
+      "id": "serlunar",
+      "ad": "Serlunar",
+      "kat": "hane",
+      "x": 0.344,
+      "y": 0.491,
+      "kisa": "Güneye açılan kapı",
+      "lore": "Teomli’nin güney burnundaki hane; Erulmar’ı ve güney geçitlerini tutar. Karah tehdidi güneyden sızdığında ilk karşılaşan evlerden biri oldu.",
+      "ilgili": [
+        "erulmar"
+      ],
+      "uzay": "m2026"
+    },
+    {
+      "id": "vixen",
+      "ad": "Vixen",
+      "kat": "sehir",
+      "x": 0.11,
+      "y": 0.355,
+      "kisa": "Teom’un batı kıyısındaki yerleşim",
+      "lore": "\"Vixen’in İlk Taşı\" bölümünün geçtiği yer. Teom’un denize açılan yüzü; ayrı kroki haritası atlasın katmanları arasında.",
+      "resim": "art/mekanlar/Vixen.png",
+      "ilgili": [
+        "teom"
+      ],
+      "uzay": "m2026"
+    },
+    {
+      "id": "vinya",
+      "ad": "Vinya",
+      "kat": "sehir",
+      "x": 0.135,
+      "y": 0.38,
+      "kisa": "Teom içlerinde köy-kasaba",
+      "lore": "Şehir meydanı ve sokak dokusu resimlenmiş küçük yerleşim; ayrı haritası katmanlar arasında.",
+      "resim": "art/sahneler/Vinya Şehir Meydanı.jpg",
+      "ilgili": [
+        "teom",
+        "vixen"
+      ],
+      "uzay": "m2026"
+    },
+    {
+      "id": "vivaxen",
+      "ad": "Vivaxen",
+      "kat": "sehir",
+      "x": 0.163,
+      "y": 0.168,
+      "kisa": "Buzulların eteğinde kuzey karakolu",
+      "lore": "Ebedi Buzullar’a en yakın yerleşim. Kuzeyden gelen her rapor burada damgalanır.",
+      "ilgili": [
+        "ebedi-buzullar"
+      ],
+      "uzay": "m2026"
+    },
+    {
+      "id": "fenri-sarayi",
+      "ad": "Fenri Sarayı",
+      "kat": "sehir",
+      "x": 0.118,
+      "y": 0.223,
+      "kisa": "Teom hanedanının kuzey sarayı",
+      "lore": "Teom hanedanının kuzeydeki kışlık sarayı. Tahttan uzak, fısıltıya yakın.",
+      "ilgili": [
+        "teom",
+        "vivaxen"
+      ],
+      "uzay": "m2026"
+    },
+    {
+      "id": "essan",
+      "ad": "Essan",
+      "kat": "sehir",
+      "x": 0.21,
+      "y": 0.332,
+      "kisa": "Tharendil’in surları önünde ilk gece",
+      "lore": "\"Essan Önünde Birinci Gece\", \"Surun Dibindeki Ölüler\" ve \"Alınan Şehrin Açlığı\" bölümlerinin sahnesi. Kuşatma, pazarlık ve açlık bu surlarda yazıldı.",
+      "ilgili": [
+        "tharendil",
+        "akcay-nehri"
+      ],
+      "uzay": "m2026"
+    },
+    {
+      "id": "vinthalen",
+      "ad": "Vinthalen",
+      "kat": "sehir",
+      "x": 0.352,
+      "y": 0.402,
+      "kisa": "Nirvalor’un yerleşkesi",
+      "lore": "Nirvalor hanesinin orman içi yerleşkesi; yolların değil patikaların şehri.",
+      "ilgili": [
+        "nirvalor"
+      ],
+      "uzay": "m2026"
+    },
+    {
+      "id": "selenor",
+      "ad": "Selenor",
+      "kat": "sehir",
+      "x": 0.194,
+      "y": 0.466,
+      "kisa": "Moriathor’un limanı",
+      "lore": "Büyük Batı Denizi’ne açılan liman. Alendhan sınıfı yolculukların uğradığı son teomlimarinklerinden biri.",
+      "ilgili": [
+        "moriathor",
+        "buyuk-bati-denizi"
+      ],
+      "uzay": "m2026"
+    },
+    {
+      "id": "erulmar",
+      "ad": "Erulmar",
+      "kat": "sehir",
+      "x": 0.269,
+      "y": 0.469,
+      "kisa": "Serlunar sancağında taş kent",
+      "lore": "Adını destanın kökünden taşıyan güney kenti; Serlunar hanesinin eli.",
+      "ilgili": [
+        "serlunar"
+      ],
+      "uzay": "m2026"
+    },
+    {
+      "id": "urum-kalesi",
+      "ad": "Urum Kalesi",
+      "kat": "sehir",
+      "x": 0.855,
+      "y": 0.286,
+      "kisa": "Shi Qra’nın batı kapısı",
+      "lore": "Kızıl Bozkırlar’a bakan kale-şehir; Shi Qra ile Krov arasındaki süngü mesafesinin düğümü.",
+      "ilgili": [
+        "shi-qra",
+        "kizil-bozkirlar"
+      ],
+      "uzay": "m2026"
+    },
+    {
+      "id": "tarhun",
+      "ad": "Tarhun",
+      "kat": "sehir",
+      "x": 0.849,
+      "y": 0.353,
+      "kisa": "Krov Diyarı’nın ticaret durağı",
+      "lore": "Demir Dağları’nın güney eteğinde Krov yerleşimi; bozkır yollarının kavşak noktası.",
+      "ilgili": [
+        "krov-diyari",
+        "demir-daglari"
+      ],
+      "uzay": "m2026"
+    },
+    {
+      "id": "qarash",
+      "ad": "Qarash",
+      "kat": "sehir",
+      "x": 0.885,
+      "y": 0.404,
+      "kisa": "Siyah Sıradağlar’ın dibinde krov şehri",
+      "lore": "Sıradağların gölgesinde Krov şehri; doğuya giden kervanların son su kaynağı.",
+      "ilgili": [
+        "siyah-siradaglar",
+        "krov-yurtlari"
+      ],
+      "uzay": "m2026"
+    },
+    {
+      "id": "ahiriz",
+      "ad": "Ahiriz",
+      "kat": "sehir",
+      "x": 0.765,
+      "y": 0.746,
+      "kisa": "Val-Teresh’e komşu güney kenti",
+      "lore": "Sükûnet Vadisi ile Yasemin Ormanları arasındaki güney yerleşimi.",
+      "ilgili": [
+        "val-teresh",
+        "sukunet-vadisi"
+      ],
+      "uzay": "m2026"
+    },
+    {
+      "id": "ebedi-buzullar",
+      "ad": "Ebedi Buzullar",
+      "kat": "cografya",
+      "x": 0.21,
+      "y": 0.115,
+      "kisa": "Kuzeyin sonu — Kadim Watcherlar’ın diyarı",
+      "lore": "Teomli’nin kuzey tacı. \"Buzkesenin İsyanı\" ve \"Karabuz Yolunun Rüzgârı\" burada geçer. Karahlar külliyatında adı geçen Kadim Watcherlar’ın sessiz nöbet yeri.",
+      "ilgili": [
+        "vivaxen",
+        "dumanli-daglar"
+      ],
+      "uzay": "m2026"
+    },
+    {
+      "id": "dumanli-daglar",
+      "ad": "Dumanlı Dağlar",
+      "kat": "cografya",
+      "x": 0.306,
+      "y": 0.175,
+      "kisa": "Dagen’in sırtındaki sis duvarı",
+      "lore": "Buzullardan Teomli içlerine inen dağ zinciri; Ak Geçit ve İkiz Dişler bu duvarın kapılarıdır.",
+      "ilgili": [
+        "dagen",
+        "ak-gecit",
+        "ikiz-disler"
+      ],
+      "uzay": "m2026"
+    },
+    {
+      "id": "kutarion-ovasi",
+      "ad": "Kutarion Ovası",
+      "kat": "cografya",
+      "x": 0.214,
+      "y": 0.189,
+      "kisa": "Destanın ilk kıyımının ovası",
+      "lore": "\"Kutarion Kıyımı\" bölümünün geçtiği ekin denizi. Tharendil tahılının kalbi, destanın ilk kanının döküldüğü yer.",
+      "ilgili": [
+        "tharendil"
+      ],
+      "uzay": "m2026"
+    },
+    {
+      "id": "ikiz-disler",
+      "ad": "İkiz Dişler",
+      "kat": "cografya",
+      "x": 0.237,
+      "y": 0.219,
+      "kisa": "Dumanlı Dağlar’ın iki keskin zirvesi",
+      "lore": "Ak Geçit’in iki yanında yükselen ikiz doruklar; kuzeyden inen yolun doğal kapı taşları.",
+      "ilgili": [
+        "dumanli-daglar",
+        "ak-gecit"
+      ],
+      "uzay": "m2026"
+    },
+    {
+      "id": "ak-gecit",
+      "ad": "Ak Geçit",
+      "kat": "cografya",
+      "x": 0.271,
+      "y": 0.21,
+      "kisa": "Dumanlı Dağlar’ın tek güvenli geçidi",
+      "lore": "Kuzeyden Teomli’ye inmenin bilinen tek yolu. Kim tutarsa kıtayı tutar.",
+      "ilgili": [
+        "dumanli-daglar",
+        "ikiz-disler",
+        "dagen"
+      ],
+      "uzay": "m2026"
+    },
+    {
+      "id": "akcay-nehri",
+      "ad": "Akçay Nehri",
+      "kat": "cografya",
+      "x": 0.258,
+      "y": 0.383,
+      "kisa": "Teomli’yi ikiye bölen su damarı",
+      "lore": "Tharendil ile güney haneleri arasındaki doğal sınır ve tek büyük su yolu. \"Caenor’un Köprüsü\" bu nehrin üstünde kuruldu.",
+      "ilgili": [
+        "tharendil",
+        "essan",
+        "caenor-mirithil"
+      ],
+      "uzay": "m2026"
+    },
+    {
+      "id": "karga-tepeleri",
+      "ad": "Karga Tepeleri",
+      "kat": "cografya",
+      "x": 0.112,
+      "y": 0.638,
+      "kisa": "Serath’ın kuzey engebesi",
+      "lore": "Serath’ın batı kenarında rüzgârlı tepe kuşağı.",
+      "ilgili": [
+        "serath"
+      ],
+      "uzay": "m2026"
+    },
+    {
+      "id": "cagri-siradaglari",
+      "ad": "Çağrı Sıradağları",
+      "kat": "cografya",
+      "x": 0.161,
+      "y": 0.746,
+      "kisa": "Serath’ın güney duvarı",
+      "lore": "Serath’ı güney denizlerinden ayıran sıradağlar.",
+      "ilgili": [
+        "serath"
+      ],
+      "uzay": "m2026"
+    },
+    {
+      "id": "demir-daglari",
+      "ad": "Demir Dağları",
+      "kat": "cografya",
+      "x": 0.784,
+      "y": 0.329,
+      "kisa": "Krov Diyarı’nın maden sırtı",
+      "lore": "Krov’un demirini ve adını veren dağ kuşağı; maden ocakları ve bozkırın sert çizgisi.",
+      "ilgili": [
+        "krov-diyari",
+        "tarhun"
+      ],
+      "uzay": "m2026"
+    },
+    {
+      "id": "kizil-bozkirlar",
+      "ad": "Kızıl Bozkırlar",
+      "kat": "cografya",
+      "x": 0.915,
+      "y": 0.347,
+      "kisa": "Shi Qra’nın kızıl denizi",
+      "lore": "Doğunun uçsuz bozkırı; adı otunun değil tarihin renginden.",
+      "ilgili": [
+        "shi-qra",
+        "urum-kalesi"
+      ],
+      "uzay": "m2026"
+    },
+    {
+      "id": "siyah-siradaglar",
+      "ad": "Siyah Sıradağlar",
+      "kat": "cografya",
+      "x": 0.875,
+      "y": 0.43,
+      "kisa": "Qarash’ın üstünde karalanmış zincir",
+      "lore": "Krov Yurtları’nı Shi Qra’dan ayıran kara dağ sırası.",
+      "ilgili": [
+        "qarash",
+        "krov-yurtlari"
+      ],
+      "uzay": "m2026"
+    },
+    {
+      "id": "gurz-ormanlari",
+      "ad": "Gürz Ormanları",
+      "kat": "cografya",
+      "x": 0.518,
+      "y": 0.653,
+      "kisa": "Aldemir’in kuzey ormanı",
+      "lore": "Aldemir’in kuzey sınırındaki sık orman kuşağı.",
+      "ilgili": [
+        "aldemir"
+      ],
+      "uzay": "m2026"
+    },
+    {
+      "id": "yildiztepeler",
+      "ad": "Yıldıztepeler",
+      "kat": "cografya",
+      "x": 0.448,
+      "y": 0.708,
+      "kisa": "Aldemir’in batı burçları",
+      "lore": "Gece göğünün en yakın hissedildiği tepe zinciri.",
+      "ilgili": [
+        "aldemir"
+      ],
+      "uzay": "m2026"
+    },
+    {
+      "id": "safir-golu",
+      "ad": "Safir Gölü",
+      "kat": "cografya",
+      "x": 0.516,
+      "y": 0.746,
+      "kisa": "Aldemir’in mavi kalbi",
+      "lore": "Gürz Ormanları’nın dibindeki büyük iç göl.",
+      "ilgili": [
+        "aldemir",
+        "gurz-ormanlari"
+      ],
+      "uzay": "m2026"
+    },
+    {
+      "id": "sukunet-vadisi",
+      "ad": "Sükûnet Vadisi",
+      "kat": "cografya",
+      "x": 0.614,
+      "y": 0.721,
+      "kisa": "Aldemir’in doğu sessizliği",
+      "lore": "Rüzgârın bile alçak sesle geçtiği vadi.",
+      "ilgili": [
+        "aldemir",
+        "ahiriz"
+      ],
+      "uzay": "m2026"
+    },
+    {
+      "id": "karanlik-ormanlar",
+      "ad": "Karanlık Ormanlar",
+      "kat": "cografya",
+      "x": 0.56,
+      "y": 0.791,
+      "kisa": "Aldemir’in güney gölgesi",
+      "lore": "Aldemir’in güneyinde, haritacıların bile kalın çizmediği orman kuşağı.",
+      "ilgili": [
+        "aldemir"
+      ],
+      "uzay": "m2026"
+    },
+    {
+      "id": "yasemin-ormanlari",
+      "ad": "Yasemin Ormanları",
+      "kat": "cografya",
+      "x": 0.885,
+      "y": 0.695,
+      "kisa": "Val-Teresh’in kokulu kuzeyi",
+      "lore": "Val-Teresh’in kuzey sınırındaki çiçekli ormanlar.",
+      "ilgili": [
+        "val-teresh"
+      ],
+      "uzay": "m2026"
+    },
+    {
+      "id": "sedef-adalari",
+      "ad": "Sedef Adaları",
+      "kat": "cografya",
+      "x": 0.883,
+      "y": 0.829,
+      "kisa": "Sessiz Deniz’in inci zinciri",
+      "lore": "Val-Teresh’in güney açıklarında sedef mercanı adalar.",
+      "ilgili": [
+        "val-teresh",
+        "sessiz-deniz"
+      ],
+      "uzay": "m2026"
+    },
+    {
+      "id": "sis-adalari",
+      "ad": "Sis Adaları",
+      "kat": "cografya",
+      "x": 0.376,
+      "y": 0.886,
+      "kisa": "Güney Suları’nda kaybolan adalar",
+      "lore": "Haritada var, teleskopu uzatana yok. Güney Suları’nın efsane kuşağı.",
+      "ilgili": [
+        "guney-sulari"
+      ],
+      "uzay": "m2026"
+    },
+    {
+      "id": "buyuk-bati-denizi",
+      "ad": "Büyük Batı Denizi",
+      "kat": "deniz",
+      "x": 0.05,
+      "y": 0.51,
+      "kisa": "Teomli’nin batı ufkundaki sonsuzluk",
+      "lore": "Bilinen dünyanın batı kenar suyu; Alendhan sınıfı gemilerin sınav yeri.",
+      "ilgili": [
+        "moriathor",
+        "selenor"
+      ],
+      "uzay": "m2026"
+    },
+    {
+      "id": "donmus-ufuklar",
+      "ad": "Dönmüş Ufuklar",
+      "kat": "deniz",
+      "x": 0.534,
+      "y": 0.197,
+      "kisa": "Kuzeydeki dönüşü olmayan rota",
+      "lore": "Kuzeye açılan gemilerin geri dönmediği söylenen su sahası; pusulanın tereddüt ettiği ufuktur.",
+      "uzay": "m2026"
+    },
+    {
+      "id": "guney-sulari",
+      "ad": "Güney Suları",
+      "kat": "deniz",
+      "x": 0.665,
+      "y": 0.589,
+      "kisa": "Aldemir ile Sis Adaları arası",
+      "lore": "Sıcak, durgun ve haritacılarca en çok tahmin içeren deniz.",
+      "ilgili": [
+        "sis-adalari",
+        "aldemir"
+      ],
+      "uzay": "m2026"
+    },
+    {
+      "id": "sessiz-deniz",
+      "ad": "Sessiz Deniz",
+      "kat": "deniz",
+      "x": 0.966,
+      "y": 0.784,
+      "kisa": "Val-Teresh’in güneyindeki su",
+      "lore": "Sedef Adaları’nın dağıldığı güney-doğu suyu.",
+      "ilgili": [
+        "sedef-adalari"
+      ],
+      "uzay": "m2026"
+    },
+    {
+      "id": "dogu-sonsuzlugu",
+      "ad": "Doğu Sonsuzluğu",
+      "kat": "deniz",
+      "x": 0.965,
+      "y": 0.523,
+      "kisa": "Haritanın sağ kenarındaki bilinmez",
+      "lore": "Shi Qra ve Krov Yurtları’nın doğusunda, kartografın vazgeçtiği yer.",
+      "uzay": "m2026"
+    },
+    {
+      "id": "kuzeyin-sonu",
+      "ad": "Kuzeyin Sonu",
+      "kat": "deniz",
+      "x": 0.057,
+      "y": 0.057,
+      "kisa": "\"Hâlâ bilinmeyen\" köşe",
+      "lore": "Kartografın köşeye yazdığı itiraf: \"Kuzeyin sonu, hâlâ bilinmeyen.\"",
+      "uzay": "m2026"
+    },
+    {
+      "id": "golge-kitalar",
+      "ad": "Gölgelerde Başka Kıtalar",
+      "kat": "deniz",
+      "x": 0.915,
+      "y": 0.054,
+      "kisa": "Kuzeydoğu köşesindeki işaret",
+      "lore": "Haritanın sağ üst köşesindeki ikinci itiraf: \"Gölgelerde başka kitalar.\" Shi Qra’nın ötesinde ne varsa adı konmadı.",
+      "uzay": "m2026"
+    },
+    {
+      "id": "guneyde-ilk-karah",
+      "ad": "Güneyde İlk Karah",
+      "kat": "tehdit",
+      "x": 0.215,
+      "y": 0.615,
+      "kisa": "Karahların güneyde ilk görüldüğü yer",
+      "lore": "\"Güneyde İlk Karah\" bölümünün adını taşıyan işaret. Karahlar — Dumah, Vesuni ve Dumahian soyları — artık yalnızca kuzey külliyatının konusu değil; güneyde ilk kez görüldükleri sınır burası.",
+      "resim": "art/canavarlar/Karahlar.jpg",
+      "ilgili": [
+        "serath",
+        "karahlar"
+      ],
+      "uzay": "m2026"
+    },
+    {
+      "id": "zahur",
+      "ad": "Zahur",
+      "kat": "sehir",
+      "x": 0.14,
+      "y": 0.51,
+      "kisa": "Ejderlerin yaktığı ilk şehir",
+      "lore": "Zağra Khur’un batısındaki ilk düşen şehir; ejder ateşinin kitaba girdiği yer. Zaman çizelgesinin en eski dönüm noktası.",
+      "ilgili": [
+        "tanax",
+        "nerala"
+      ],
+      "uzay": "col"
+    },
+    {
+      "id": "nerala",
+      "ad": "Nerala",
+      "kat": "sehir",
+      "x": 0.148,
+      "y": 0.238,
+      "kisa": "Kuzey kıyısının palmiye durağı",
+      "lore": "Kuzey kıyı şeridinin batı yerleşimi; vaha ticaretinin köşe taşı.",
+      "ilgili": [
+        "altharun",
+        "zahur"
+      ],
+      "uzay": "col"
+    },
+    {
+      "id": "altharun",
+      "ad": "Altharun",
+      "kat": "sehir",
+      "x": 0.171,
+      "y": 0.13,
+      "kisa": "Kuzeybatı kıyı kenti",
+      "lore": "Çölün kuzey kenarında denize bakan eski iskele.",
+      "ilgili": [
+        "nerala"
+      ],
+      "uzay": "col"
+    },
+    {
+      "id": "osirmat",
+      "ad": "Osirmat",
+      "kat": "sehir",
+      "x": 0.306,
+      "y": 0.138,
+      "kisa": "Kuzey kıyısının orta kapısı",
+      "lore": "Kuzey kıyı şeridinin orta durağı; kervanların denizle buluştuğu yer.",
+      "ilgili": [
+        "tul-mirad"
+      ],
+      "uzay": "col"
+    },
+    {
+      "id": "tul-mirad",
+      "ad": "Tul-Mirad",
+      "kat": "sehir",
+      "x": 0.465,
+      "y": 0.286,
+      "kisa": "Kıyıdan içeri inen yolun başı",
+      "lore": "Kıyı şeridinden çöl içlerine inen ana yolun ilk istasyonu.",
+      "ilgili": [
+        "osirmat",
+        "tul-esra"
+      ],
+      "uzay": "col"
+    },
+    {
+      "id": "tul-esra",
+      "ad": "Tul-Esra",
+      "kat": "sehir",
+      "x": 0.488,
+      "y": 0.444,
+      "kisa": "Kuruyan nehrin ortasındaki durak",
+      "lore": "Kuzeyden güneye akan eski nehrin orta mecrasında kervan durağı; Ez’ra geleneğiyle adı akrabadır.",
+      "ilgili": [
+        "tul-mirad",
+        "dehrim"
+      ],
+      "uzay": "col"
+    },
+    {
+      "id": "dehrim",
+      "ad": "Dehrim",
+      "kat": "sehir",
+      "x": 0.507,
+      "y": 0.652,
+      "kisa": "Nehrin güney kıvrımında vaha kenti",
+      "lore": "Eski nehir yatağının güney kıvrımında; çöl içi yolların kavşağı.",
+      "ilgili": [
+        "tul-esra",
+        "karta",
+        "shi-ra"
+      ],
+      "uzay": "col"
+    },
+    {
+      "id": "karta",
+      "ad": "Karta",
+      "kat": "sehir",
+      "x": 0.622,
+      "y": 0.493,
+      "kisa": "Orta çölün gölgeli gölü",
+      "lore": "Çölün ortasındaki ender tatlı su gözesi ve yanındaki yerleşim.",
+      "ilgili": [
+        "dehrim",
+        "tanax"
+      ],
+      "uzay": "col"
+    },
+    {
+      "id": "tanax",
+      "ad": "Tanax",
+      "kat": "sehir",
+      "x": 0.853,
+      "y": 0.587,
+      "kisa": "Zağra Khur’un başkenti",
+      "lore": "Çöl diyarının başkenti; kat kat inşa edilmiş yapısı ayrı sahnelerde resimlendi (Tanax 1. kat). Ocak gölge akademisinin ve Yedi El geleneğinin merkezidir.",
+      "resim": "art/sahneler/Tanax 1. Kat.png",
+      "ilgili": [
+        "temple",
+        "karta"
+      ],
+      "uzay": "col"
+    },
+    {
+      "id": "temple",
+      "ad": "Temple",
+      "kat": "sehir",
+      "x": 0.732,
+      "y": 0.731,
+      "kisa": "Güneydoğu dağlarının dibinde tapınak",
+      "lore": "Güneydoğu dağ kuşağının dibindeki tapınak yerleşimi; Thur dini ve Kutb-el Ez’ra geleneğinin taş karşılığı.",
+      "ilgili": [
+        "tanax"
+      ],
+      "uzay": "col"
+    },
+    {
+      "id": "shi-ra",
+      "ad": "Shi Ra",
+      "kat": "sehir",
+      "x": 0.295,
+      "y": 0.773,
+      "kisa": "Güneybatının uç vahası",
+      "lore": "Çölün güneybatı köşesindeki son bilinen yerleşim; haritacının kaleminin bittiği yer.",
+      "ilgili": [
+        "dehrim"
+      ],
+      "uzay": "col"
+    },
+    {
+      "id": "jajarta",
+      "ad": "Jajarta",
+      "kat": "bolge",
+      "x": 0.5,
+      "y": 0.33,
+      "kisa": "Çölün ortasındaki kum denizi",
+      "lore": "Çölün Yanan Kalbi’nin geçtiği iç bölge; Miemlerin, kum yılanlarının (Karathaxi) ve çöl karahlarının diyarı.",
+      "resim": "art/sahneler/Jajarta Çöl Miemi.png",
+      "ilgili": [
+        "tul-esra",
+        "karta"
+      ],
+      "uzay": "col"
+    }
+  ],
+  "regions": [
+    {
+      "id": "teomli",
+      "name": "Teomli",
+      "subtitle": "Altı hane, bir kıtanın hafızası",
+      "palette": "#963e36",
+      "culture": [
+        "Hane aidiyeti ile kent yurttaşlığı yan yana yaşar. Yolcular hanlarda geldikleri yeri ve kime söz verdiklerini anlatır. Köprüler, değirmenler ve limanlar siyaset kadar gündelik hayatın da merkezidir.",
+        "Kutarion’da hasat paylaşımı; batı kıyısında ilk sefer uğurlaması; kuzeyde geçit nöbeti öne çıkar. Aynı kıtada tek bir tören ve kıyafet yoktur."
+      ],
+      "currency": {
+        "name": "Hane mührü",
+        "unit": "Bakır iz · gümüş mühür · altın taç",
+        "exchange": "10 iz = 1 mühür; 10 mühür = 1 taç. Oyun karşılığı: bakır / gümüş / altın.",
+        "trade": "Darphane işareti haneye göre değişir; ağırlık kontrolü liman terazisinde yapılır. Eski mühürler kabul edilir, tanınmayan sikke tartılır."
+      },
+      "food": "Tahıl ekmeği, otlu peynir, kıyıda kurutulmuş balık; yol erzağı bez kesede taşınır.",
+      "architecture": "Akçay boyunca taş köprü ve su değirmenleri; kuzeyde koyu taş ocaklar, batıda tuzla aşınmış rıhtımlar.",
+      "custom": "Misafirin ilk kâsesi borç yazılmaz. İkinci gece için hanın işi veya ücreti konuşulur.",
+      "creatures": [
+        {
+          "name": "Çayır Momphiği",
+          "kind": "Yaratık",
+          "habitat": "Kutarion tarlaları ve çayır sınırı",
+          "behavior": "Küçük gruplarla otlar; kervan sesinden uzaklaşır. Ekin kokusuna yaklaşabilir.",
+          "sign": "Çamurda yuvarlak izler ve eğilmiş saplar.",
+          "danger": "Düşük; yavrusuna yaklaşmak sürüyü huzursuz eder.",
+          "source": "momphikler"
+        },
+        {
+          "name": "Ormancıl Vahna",
+          "kind": "Yaratık",
+          "habitat": "Nirvalor’un orman kuşağı",
+          "behavior": "Gündüz gölgede kalır, akşam dereye iner. Avlanmadan gözlem yapılabilir.",
+          "sign": "Ağaç kabuğunda uzun sürtünme izleri.",
+          "danger": "Orta; yuva çevresinde savunmacı.",
+          "source": "vahna"
+        },
+        {
+          "name": "Karah İzcisi",
+          "kind": "Canavar",
+          "habitat": "Terk edilmiş sınır yolları",
+          "behavior": "Kervanın gerisinde kalanları izler; açık ateş ve kalabalıkla mesafesini korur.",
+          "sign": "Normal yol izleri arasına girmeyen tekil pençe çizgileri.",
+          "danger": "Yüksek; yalnız yolcu için.",
+          "source": "karahlar"
+        }
+      ],
+      "places": [
+        "teomli",
+        "teom",
+        "tharendil",
+        "dagen",
+        "nirvalor",
+        "moriathor",
+        "serlunar",
+        "vixen",
+        "vinya",
+        "fenri-sarayi",
+        "essan",
+        "vinthalen",
+        "selenor",
+        "erulmar",
+        "akcay-nehri",
+        "kutarion-ovasi"
+      ],
+      "concept": "teomli"
+    },
+    {
+      "id": "shi-qra",
+      "name": "Shi Qra",
+      "subtitle": "Demir sırtlar ve kızıl bozkır yolları",
+      "palette": "#a06b42",
+      "culture": [
+        "Krov yurtlarının yol hafızası, taş kalelerle hareketli kamp yerleri arasında aktarılır. Yol rehberinin bilgisi, yazılı harita kadar değerlidir.",
+        "Maden toplulukları ocak işaretlerini, göçer kafileler dokuma desenlerini kimlik olarak kullanır. Konuklara önce yol ve su sorulur; ticaret bundan sonra başlar."
+      ],
+      "currency": {
+        "name": "Demir pul",
+        "unit": "Bakır pul · gümüş halka · altın damga",
+        "exchange": "10 pul = 1 halka; 10 halka = 1 damga. Değerleri 5e bakır / gümüş / altınla eşlenir.",
+        "trade": "Gümüş halkalar ağırlıkla sınanır. Demirden yapılmış kamp nişanları para değil, yerel geçiş belgesidir."
+      },
+      "food": "Kurutulmuş et, yoğun tahıl lapası, ot çayı ve fermante süt.",
+      "architecture": "Rüzgâr kıran alçak taş duvarlar, kalelerde dar avlular; kamplarda desenli keçe ve yük arabası çatkıları.",
+      "custom": "Rehberin yol tarifini paylaşan kişi, bir sonraki kamp ateşinde ona yer ayırır.",
+      "creatures": [
+        {
+          "name": "Kızıl Sırt Atı",
+          "kind": "Yaratık",
+          "habitat": "Bozkırın otlak kuşağı",
+          "behavior": "Rüzgâr yönüne göre sürü değiştirir; yerel rehberler ürkütmeden yaklaşır.",
+          "sign": "Sık toynak izleri ve koparılmış sert ot.",
+          "danger": "Düşük; sürü paniklediğinde ezilme riski."
+        },
+        {
+          "name": "Demirkanat",
+          "kind": "Yaratık",
+          "habitat": "Demir Dağları kayalıkları",
+          "behavior": "Yükselen hava akımlarında daire çizer; parlak küçük nesneleri yuvasına taşır.",
+          "sign": "Kaya çıkıntısında koyu tüyler ve metal parçaları.",
+          "danger": "Orta; yuva yakınında dalış yapar."
+        },
+        {
+          "name": "Kara Sırt Avcısı",
+          "kind": "Canavar",
+          "habitat": "Siyah Sıradağlar’ın dar yarıkları",
+          "behavior": "İki sırt arasındaki geçişi tutar. Açık ova yerine taş gölgeyi tercih eder.",
+          "sign": "Kaya üstünde kurum gibi mat tırnak çizgileri.",
+          "danger": "Yüksek; dar geçitte pusu."
+        }
+      ],
+      "places": [
+        "shi-qra",
+        "urum-kalesi",
+        "tarhun",
+        "qarash",
+        "demir-daglari",
+        "kizil-bozkirlar",
+        "siyah-siradaglar"
+      ],
+      "concept": "shi-qra"
+    },
+    {
+      "id": "serath",
+      "name": "Serath",
+      "subtitle": "Karga tepelerinin sisli geçitleri",
+      "palette": "#72698a",
+      "culture": [
+        "Geçit yerleşimleri kış yolunu ve açık sığınakları ortak kayıtta tutar. Yol kapandığında komşu ocaklar haber ateşiyle birbirini uyarır.",
+        "Karah tehdidinin ulaştığı yollarda iz sürme, bakım ve nöbet gündelik iştir. Terk edilmiş yapılara yalnız ganimet için girilmez; önce dönüş yolu işaretlenir."
+      ],
+      "currency": {
+        "name": "Geçit akçesi",
+        "unit": "Bakır çentik · gümüş akçe · altın ocak",
+        "exchange": "10 çentik = 1 akçe; 10 akçe = 1 ocak. Temel oyun sikkelerine eş değer.",
+        "trade": "Yol bakım loncasının damgası ücretin ödendiğini gösterir. Damga ile sikke aynı nesne değildir."
+      },
+      "food": "Kök sebze çorbası, tütsülenmiş et, sert arpa ekmeği.",
+      "architecture": "Kalın taş temeller, dik çatılar, geçit boyunca nişli sığınaklar ve gözetleme ocakları.",
+      "custom": "Ateşe yaklaşan yolcu, son gördüğü yol işaretini söyler; ardından yemek paylaşılır.",
+      "creatures": [
+        {
+          "name": "Sis Kargası",
+          "kind": "Yaratık",
+          "habitat": "Karga Tepeleri",
+          "behavior": "Sis dağılırken yüksek kayalara toplanır; çığ sesinden önce uçuşa geçebilir.",
+          "sign": "Toplu tüy döküntüsü ve tekrarlanan üçlü ötüş.",
+          "danger": "Düşük; hareketi çevre ipucu olabilir."
+        },
+        {
+          "name": "Kaya Cuba’sı",
+          "kind": "Yaratık",
+          "habitat": "Çağrı Sıradağları eteği",
+          "behavior": "Sıcak taş boşluklarında dinlenir; yiyeceğini çatlaklarda saklar.",
+          "sign": "Taş altına itilen kabuklar.",
+          "danger": "Orta; sıkıştırılınca savunur.",
+          "source": "cuba"
+        },
+        {
+          "name": "Dumah",
+          "kind": "Canavar",
+          "habitat": "Güneydeki terk edilmiş yapılar",
+          "behavior": "Ağır adımlarını dar duvarların dışında duyurur. Açık kaçış yolunu tutmak önemlidir.",
+          "sign": "Ezilmiş taş kenarları ve geniş sürüklenme izleri.",
+          "danger": "Çok yüksek; başlangıç grubu için kaçış sahnesi.",
+          "source": "dumah"
+        }
+      ],
+      "places": [
+        "serath",
+        "karga-tepeleri",
+        "cagri-siradaglari",
+        "guneyde-ilk-karah"
+      ],
+      "concept": "serath"
+    },
+    {
+      "id": "aldemir",
+      "name": "Aldemir",
+      "subtitle": "Safir suyun çevresindeki yaşayan orman",
+      "palette": "#578f77",
+      "culture": [
+        "Orman yerleşimleri yol açmakla ormanı korumak arasında denge kurar. Canlı ağaca kalıcı rota işareti çakmak yerine taş ve sökülebilir bez kullanılır.",
+        "Safir Gölü’nde su seviyesi, tekne ustalarının ve kıyı evlerinin ortak takvimidir. Mevsim şenliklerinde kıyı temizliği ile hikâye anlatımı bir arada yapılır."
+      ],
+      "currency": {
+        "name": "Yaprak mühür",
+        "unit": "Bakır kök · gümüş yaprak · altın dal",
+        "exchange": "10 kök = 1 yaprak; 10 yaprak = 1 dal. Oyun sikkelerine eş değer.",
+        "trade": "Botanik örnekler ve reçine ticaret malıdır; sikke yerine sabit kurla geçmez. Kurutulmuş erzak uzak yolda ayrıca pazarlık edilir."
+      },
+      "food": "Mantar, göl balığı, meyve kurusu; tanınmayan mantar sofraya alınmaz.",
+      "architecture": "Taş ayaklar üzerinde ahşap evler, yüksek saçaklar ve ağaç köklerini aşan dar yürüyüş yolları.",
+      "custom": "Yeni patika açan kişi, kapanmış eski patikayı da kayda geçirir.",
+      "creatures": [
+        {
+          "name": "Gürz Vahnası",
+          "kind": "Yaratık",
+          "habitat": "Gürz Ormanları ve göl kıyısı",
+          "behavior": "Göl kenarında gün doğumunda su içer. Sessizce izlenebilir; yavrularını sık kökler arasında tutar.",
+          "sign": "Islak taşta yosun sürtünmesi.",
+          "danger": "Orta; yuva savunması.",
+          "source": "vahna"
+        },
+        {
+          "name": "Mimphik",
+          "kind": "Yaratık",
+          "habitat": "Açık orman çayırları",
+          "behavior": "Küçük momphikler düşmüş meyvelere toplanır; kamptaki erzağa yaklaşır.",
+          "sign": "Çanta çevresinde küçük yuvarlak ayak izleri.",
+          "danger": "Düşük; erzak kaybı.",
+          "source": "momphikler"
+        },
+        {
+          "name": "Kök Gölgesi",
+          "kind": "Canavar",
+          "habitat": "Karanlık Ormanlar",
+          "behavior": "Ağaçların arasında yolcunun ritmini taklit eder. Yol işaretleri ve bir arada hareket etmek takibini bozar.",
+          "sign": "Rüzgârsız havada aynı yöne eğilen dallar.",
+          "danger": "Yüksek; yön kaybı ve pusu."
+        }
+      ],
+      "places": [
+        "aldemir",
+        "gurz-ormanlari",
+        "yildiztepeler",
+        "safir-golu",
+        "sukunet-vadisi",
+        "karanlik-ormanlar"
+      ],
+      "concept": "aldemir"
+    },
+    {
+      "id": "val-teresh",
+      "name": "Val-Teresh",
+      "subtitle": "Yasemin, sedef ve sessiz kıyılar",
+      "palette": "#7eabb1",
+      "culture": [
+        "Kıyı evleri ve ada tekneleri, mevsimsel akıntı bilgilerini ortak liman panolarında paylaşır. Liman nöbeti yalnız askerlerin değil, tekne ustalarının da sorumluluğudur.",
+        "Yasemin bahçeleri akşam buluşmalarının yeridir. Denizden dönenler önce yol haberlerini anlatır; getirilen mallar ertesi gün tartılır."
+      ],
+      "currency": {
+        "name": "Sedef sikke",
+        "unit": "Bakır kıyı · gümüş sedef · altın ufuk",
+        "exchange": "10 kıyı = 1 sedef; 10 sedef = 1 ufuk. Temel oyun sikkelerine eş değer.",
+        "trade": "Sedef kabukları süs ve hammadde olarak alınıp satılır; gümüş sedef sikkenin yerine otomatik geçmez."
+      },
+      "food": "Narenciye, otlu balık, ince ekmek ve çiçek kokulu sıcak içecek.",
+      "architecture": "Açık renk taş teraslar, gölgeli avlular, su toplama sarnıçları ve kıyıda yükseltilmiş depolar.",
+      "custom": "İlk dönüş selamında hediyenin fiyatı sorulmaz; teknenin adı ve yolu sorulur.",
+      "creatures": [
+        {
+          "name": "Sedef Yüzgeçlisi",
+          "kind": "Yaratık",
+          "habitat": "Sedef Adaları’nın sığ kıyıları",
+          "behavior": "Kaya havuzlarında yaşar; gelgitte dış kıyıya çıkar. Parlak kabukları arasında saklanır.",
+          "sign": "Kayada sedefli pul ve ince su çizgisi.",
+          "danger": "Düşük; yanlış yakalanırsa keskin yüzgeç."
+        },
+        {
+          "name": "Yasemin Vahnası",
+          "kind": "Yaratık",
+          "habitat": "Yasemin Ormanları",
+          "behavior": "Çiçekli ağaçların altındaki gölgeyi seçer; akşam insan sesinden uzaklaşır.",
+          "sign": "Bahçe sınırında ezilmiş çiçekler.",
+          "danger": "Orta; bahçe ve doğal habitat sınırında.",
+          "source": "vahna"
+        },
+        {
+          "name": "Dip Fısıltısı",
+          "kind": "Canavar",
+          "habitat": "Sessiz Deniz’in karanlık oyukları",
+          "behavior": "Demirli teknenin altında suyu halkalar hâlinde döndürür. Sığa çekilmek tehlikeyi azaltır.",
+          "sign": "Rüzgâr yokken tek yönde gerilen demir halatı.",
+          "danger": "Yüksek; gece açık deniz."
+        }
+      ],
+      "places": [
+        "val-teresh",
+        "yasemin-ormanlari",
+        "ahiriz",
+        "sedef-adalari",
+        "sessiz-deniz"
+      ],
+      "concept": "val-teresh"
+    },
+    {
+      "id": "zagra-khur",
+      "name": "Zağra Khur",
+      "subtitle": "Su hakkı, kum yolları ve kervan kentleri",
+      "palette": "#c7a465",
+      "culture": [
+        "Vaha meydanında su sırası yolcu, hane ve yük hayvanı ihtiyacına göre açıkça konuşulur. Kaynak defteri, kervan anlaşmasının parçasıdır.",
+        "Gölge dokumaları, kuyunun işaret taşları ve yön tarifleri her kentin kendi üslubunu taşır. Konuk için su ayırmak ile sınırsız su hakkı vermek farklıdır."
+      ],
+      "currency": {
+        "name": "Vaha dirhemi",
+        "unit": "Bakır kum · gümüş dirhem · altın güneş",
+        "exchange": "10 kum = 1 dirhem; 10 dirhem = 1 güneş. 5e sikkeleriyle aynı oyun değeri.",
+        "trade": "Su hakkı belge ve tarih taşır; bir dirhem her vahada aynı miktar suyu garanti etmez. Uzak kervan ücretine rehber ve kuyu payı eklenir."
+      },
+      "food": "Hurma, baharatlı tahıl, kurutulmuş et ve az suyla pişen çorba.",
+      "architecture": "Kalın kerpiç duvar, taş kuyu ağzı, hava bacası, kumaş gölgelik ve iç avlu.",
+      "custom": "Yolcu, kuyunun ilk kâsesini içerken yol arkadaşlarının sayısını söyler.",
+      "creatures": [
+        {
+          "name": "Karathaxi",
+          "kind": "Canavar",
+          "habitat": "Kum tepeleri ve gömülü geçitler",
+          "behavior": "Kum altından titreşimi izler. Taş zemin ve sakin adımlar, açık kumda koşmaktan daha güvenlidir.",
+          "sign": "Rüzgâr yönüne ters ilerleyen kum kabartısı.",
+          "danger": "Çok yüksek; geniş kum alanında.",
+          "source": "karathaxi"
+        },
+        {
+          "name": "Vaha Momphiği",
+          "kind": "Yaratık",
+          "habitat": "Su çevresindeki kısa otlar",
+          "behavior": "Gölgede sürüyle dinlenir; su sırası sırasında yük hayvanlarından ayrılır.",
+          "sign": "Hurma çekirdeği ve küçük sürü izi.",
+          "danger": "Düşük.",
+          "source": "momphikler"
+        },
+        {
+          "name": "Kum Camcısı",
+          "kind": "Yaratık",
+          "habitat": "Sıcak kayalıklar",
+          "behavior": "Saydam sert kabuğuyla taş arasına karışır. Parlak kabuk kırıkları izini ele verir.",
+          "sign": "Kumda cam gibi ışıldayan boş kabuk.",
+          "danger": "Orta; ayakkabısız yaklaşımda kesilme riski."
+        }
+      ],
+      "places": [
+        "zahur",
+        "nerala",
+        "altharun",
+        "osirmat",
+        "tul-mirad",
+        "tul-esra",
+        "dehrim",
+        "karta",
+        "tanax",
+        "temple",
+        "shi-ra",
+        "jajarta"
+      ],
+      "concept": "zagra-khur"
+    },
+    {
+      "id": "ebedi-buzullar",
+      "name": "Ebedi Buzullar",
+      "subtitle": "Kadim nöbetin soğuk sınırı",
+      "palette": "#94b6c9",
+      "culture": [
+        "Sığınak bilgisi sahiplenilen bir hazine değil, yaşamsal bir yol kaydıdır. Nöbet değişiminde hava ve yol durumu bir sonraki gruba anlatılır.",
+        "Eski yazıtları yerinden sökmek yerine kopyalamak tercih edilir. Kadim Watcherlar, kampanyada sıradan av veya ganimet kaynağı sayılmaz."
+      ],
+      "currency": {
+        "name": "Nöbet pulu",
+        "unit": "Güney sikkeleri ve kayıtlı erzak payı",
+        "exchange": "Güneyin bakır/gümüş/altın sikkeleri kullanılır. Nöbet pulu para değil, belirli sığınakta tek bir erzak payı belgesidir.",
+        "trade": "Soğuk sınırda kuru giysi, yakıt ve rehberlik için önceden anlaşılır. Belgeler isim, tarih ve sığınak taşır."
+      },
+      "food": "Yağlı çorba, sert ekmek, tütsülenmiş et; sıcak su bir kamp işidir.",
+      "architecture": "Rüzgâr arkasında alçak taş sığınaklar, küçük kapılar, iç ocak ve gözetleme ateşi.",
+      "custom": "Sığınaktan ayrılan son kişi, gelecek yolcu için kuru yakıtı örtülü yere bırakır.",
+      "creatures": [
+        {
+          "name": "Kar Sırtlı Vahna",
+          "kind": "Yaratık",
+          "habitat": "Buzul eteği",
+          "behavior": "Kuru çıkıntılarda dinlenir; kar yağmadan sığınak arar.",
+          "sign": "Kar altında geniş, yumuşak kenarlı iz.",
+          "danger": "Orta; açlık döneminde.",
+          "source": "vahna"
+        },
+        {
+          "name": "Vesuni",
+          "kind": "Canavar",
+          "habitat": "Terk edilmiş kar yolları",
+          "behavior": "Erzak ve canlı kokusunu takip eder. Yemle yönünü değiştirmek bir dövüş alternatifi olabilir.",
+          "sign": "Aynı kokulu çantaya yaklaşan tekrarlı iz.",
+          "danger": "Yüksek; yalnız yolcu için.",
+          "source": "vesuni"
+        },
+        {
+          "name": "Kadim Watcher",
+          "kind": "Yaratık",
+          "habitat": "Uzak buz sınırı",
+          "behavior": "İnsan ölçeğini aşan bir varlık ve eski nöbetin işareti olarak ele alınır; bu dosya ona savaş istatistiği vermez.",
+          "sign": "Eski nöbet taşları ve uzak sessiz siluet.",
+          "danger": "Bilinmeyen; savaş hedefi olarak tasarlanmamıştır."
+        }
+      ],
+      "places": [
+        "ebedi-buzullar",
+        "vivaxen",
+        "dumanli-daglar",
+        "ikiz-disler",
+        "ak-gecit",
+        "kuzeyin-sonu"
+      ],
+      "concept": "ebedi-buzullar"
+    }
+  ],
+  "region_note": "Kültür, ekonomi, habitat dağılımı ve yeni türler bu atlas için hazırlanmış tasarım önerileridir. Kaynak külliyattaki yaratık adları korunur; ek betimler roman kanonu olarak sunulmaz."
+}

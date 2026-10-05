@@ -1,0 +1,83 @@
+[
+  {
+    "a": "ash",
+    "b": "ash",
+    "games": 100,
+    "firstPlayerWins": 42,
+    "draws": 4,
+    "stalls": 0,
+    "averageRounds": 12.66
+  },
+  {
+    "a": "ash",
+    "b": "white",
+    "games": 100,
+    "firstPlayerWins": 45,
+    "draws": 6,
+    "stalls": 0,
+    "averageRounds": 12.45
+  },
+  {
+    "a": "ash",
+    "b": "teom",
+    "games": 100,
+    "firstPlayerWins": 43,
+    "draws": 4,
+    "stalls": 0,
+    "averageRounds": 12.94
+  },
+  {
+    "a": "white",
+    "b": "ash",
+    "games": 100,
+    "firstPlayerWins": 33,
+    "draws": 7,
+    "stalls": 0,
+    "averageRounds": 12.47
+  },
+  {
+    "a": "white",
+    "b": "white",
+    "games": 100,
+    "firstPlayerWins": 46,
+    "draws": 7,
+    "stalls": 0,
+    "averageRounds": 12.42
+  },
+  {
+    "a": "white",
+    "b": "teom",
+    "games": 100,
+    "firstPlayerWins": 31,
+    "draws": 3,
+    "stalls": 0,
+    "averageRounds": 12.56
+  },
+  {
+    "a": "teom",
+    "b": "ash",
+    "games": 100,
+    "firstPlayerWins": 44,
+    "draws": 5,
+    "stalls": 0,
+    "averageRounds": 13.17
+  },
+  {
+    "a": "teom",
+    "b": "white",
+    "games": 100,
+    "firstPlayerWins": 52,
+    "draws": 8,
+    "stalls": 0,
+    "averageRounds": 12.73
+  },
+  {
+    "a": "teom",
+    "b": "teom",
+    "games": 100,
+    "firstPlayerWins": 47,
+    "draws": 2,
+    "stalls": 0,
+    "averageRounds": 13.19
+  }
+]

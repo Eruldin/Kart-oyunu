@@ -1,0 +1,221 @@
+{
+  "scope": "Raster asset correction; not application code",
+  "frames": {
+    "champion-frame-v4.png": {
+      "native_size": [
+        570,
+        833
+      ],
+      "transparent_window_bounds": [
+        55,
+        79,
+        523,
+        510
+      ],
+      "safe_art_rectangle_px": [
+        64,
+        96,
+        514,
+        499
+      ],
+      "safe_art_rectangle_normalized": [
+        0.11228070175438597,
+        0.11524609843937575,
+        0.9017543859649123,
+        0.5990396158463386
+      ],
+      "art_fit": "contain / centered; no stretch, no zoom-to-fill",
+      "art_max_overlay_alpha": 1,
+      "text_anchors_normalized": {
+        "cost": [
+          0.074,
+          0.077
+        ],
+        "name": [
+          0.5,
+          0.655
+        ],
+        "rules_top": [
+          0.5,
+          0.742
+        ],
+        "attack": [
+          0.1,
+          0.911
+        ],
+        "health": [
+          0.9,
+          0.911
+        ]
+      }
+    },
+    "unit-frame-v4.png": {
+      "native_size": [
+        592,
+        863
+      ],
+      "transparent_window_bounds": [
+        82,
+        83,
+        515,
+        514
+      ],
+      "safe_art_rectangle_px": [
+        90,
+        101,
+        507,
+        503
+      ],
+      "safe_art_rectangle_normalized": [
+        0.15202702702702703,
+        0.11703360370799537,
+        0.856418918918919,
+        0.5828505214368482
+      ],
+      "art_fit": "contain / centered; no stretch, no zoom-to-fill",
+      "art_max_overlay_alpha": 1,
+      "text_anchors_normalized": {
+        "cost": [
+          0.122,
+          0.077
+        ],
+        "name": [
+          0.5,
+          0.655
+        ],
+        "rules_top": [
+          0.5,
+          0.742
+        ],
+        "attack": [
+          0.145,
+          0.911
+        ],
+        "health": [
+          0.855,
+          0.911
+        ]
+      }
+    },
+    "spell-frame-v4.png": {
+      "native_size": [
+        575,
+        837
+      ],
+      "transparent_window_bounds": [
+        53,
+        83,
+        517,
+        514
+      ],
+      "safe_art_rectangle_px": [
+        63,
+        101,
+        506,
+        504
+      ],
+      "safe_art_rectangle_normalized": [
+        0.10956521739130434,
+        0.12066905615292713,
+        0.88,
+        0.6021505376344086
+      ],
+      "art_fit": "contain / centered; no stretch, no zoom-to-fill",
+      "art_max_overlay_alpha": 1,
+      "text_anchors_normalized": {
+        "cost": [
+          0.074,
+          0.077
+        ],
+        "name": [
+          0.5,
+          0.655
+        ],
+        "rules_top": [
+          0.5,
+          0.742
+        ],
+        "attack": [
+          0.1,
+          0.911
+        ],
+        "health": [
+          0.9,
+          0.911
+        ]
+      }
+    },
+    "board-unit-frame-v4.png": {
+      "native_size": [
+        829,
+        936
+      ],
+      "transparent_window_bounds": [
+        158,
+        132,
+        732,
+        739
+      ],
+      "safe_art_rectangle_px": [
+        173,
+        150,
+        716,
+        688
+      ],
+      "safe_art_rectangle_normalized": [
+        0.20868516284680338,
+        0.16025641025641027,
+        0.8636911942098915,
+        0.7350427350427351
+      ],
+      "art_fit": "contain / centered; no stretch, no zoom-to-fill",
+      "art_max_overlay_alpha": 2,
+      "text_anchors_normalized": {
+        "attack": [
+          0.201,
+          0.855
+        ],
+        "health": [
+          0.867,
+          0.855
+        ]
+      }
+    },
+    "board-champion-frame-v4.png": {
+      "native_size": [
+        776,
+        928
+      ],
+      "transparent_window_bounds": [
+        107,
+        125,
+        680,
+        731
+      ],
+      "safe_art_rectangle_px": [
+        122,
+        149,
+        663,
+        679
+      ],
+      "safe_art_rectangle_normalized": [
+        0.15721649484536082,
+        0.16056034482758622,
+        0.854381443298969,
+        0.7316810344827587
+      ],
+      "art_fit": "contain / centered; no stretch, no zoom-to-fill",
+      "art_max_overlay_alpha": 2,
+      "text_anchors_normalized": {
+        "attack": [
+          0.15,
+          0.855
+        ],
+        "health": [
+          0.867,
+          0.855
+        ]
+      }
+    }
+  }
+}

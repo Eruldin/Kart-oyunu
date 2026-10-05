@@ -1,0 +1,30 @@
+{
+  "profiles": 288,
+  "families": 18,
+  "cards": 720,
+  "tokens": 37,
+  "distinct_decks": 288,
+  "exclusive_signatures": 288,
+  "deck_size": 32,
+  "cross_family_cards": 0,
+  "story_checkpoints": 42,
+  "regional_nodes": 112,
+  "enemy_placements": 288,
+  "source_assets_copied": 20,
+  "source_assets_unchanged": true,
+  "source_data_files_unchanged": true,
+  "missing_asset_bindings": [],
+  "map_model": {
+    "file": "12-campaign-map/models/eruldin-campaign-map-v3.glb",
+    "meshes": 18,
+    "triangles": 264988,
+    "embedded_images": 1,
+    "external_uris": 0,
+    "animation_channels": 6,
+    "bytes": 8260736
+  },
+  "pdf_pages": 10,
+  "visual_review": "10 sayfa render edildi ve görsel olarak incelendi; son revizyonda 2,3,4,6. sayfalar yeniden kontrol edildi.",
+  "balance_tests": "çalıştırılmadı; bu bir tasarım paketi",
+  "application_integration": false
+}

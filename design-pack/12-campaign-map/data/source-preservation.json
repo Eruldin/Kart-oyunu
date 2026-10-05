@@ -1,0 +1,197 @@
+{
+  "policy": "Kaynak klasöre yazılmadı; yalnızca sanat ve veriler ayrı pakete kopyalandı.",
+  "copies": [
+    {
+      "source": "C:\\Users\\PC\\Desktop\\Eruldin Destanı haritası sitesi\\public\\assets\\terrain\\world.webp",
+      "asset": "12-campaign-map/source-world/terrain/world.webp",
+      "bytes": 675758,
+      "sha256_source": "66c7262e6152c36aaf8b0f6c7210bb2d959877a101d38ff7776f52e2e495485b",
+      "sha256_copy": "66c7262e6152c36aaf8b0f6c7210bb2d959877a101d38ff7776f52e2e495485b",
+      "source_mtime_ns": 1791168265714421900
+    },
+    {
+      "source": "C:\\Users\\PC\\Desktop\\Eruldin Destanı haritası sitesi\\public\\assets\\terrain\\surface.bin",
+      "asset": "12-campaign-map/source-world/terrain/surface.bin",
+      "bytes": 1577487,
+      "sha256_source": "d43f3118cd6918eef453af02d1d7cd52ec7040163687840fe26a58572616098c",
+      "sha256_copy": "d43f3118cd6918eef453af02d1d7cd52ec7040163687840fe26a58572616098c",
+      "source_mtime_ns": 1791168266367690600
+    },
+    {
+      "source": "C:\\Users\\PC\\Desktop\\Eruldin Destanı haritası sitesi\\public\\assets\\terrain\\northwest.webp",
+      "asset": "12-campaign-map/source-world/terrain/northwest.webp",
+      "bytes": 716392,
+      "sha256_source": "880c0cbf72fa205cc4b1fbc968afa37bf10790c21f75178994ae2d135d78f213",
+      "sha256_copy": "880c0cbf72fa205cc4b1fbc968afa37bf10790c21f75178994ae2d135d78f213",
+      "source_mtime_ns": 1791211219193695700
+    },
+    {
+      "source": "C:\\Users\\PC\\Desktop\\Eruldin Destanı haritası sitesi\\public\\assets\\terrain\\northeast.webp",
+      "asset": "12-campaign-map/source-world/terrain/northeast.webp",
+      "bytes": 700962,
+      "sha256_source": "49a7dacd2934b00db12be5267edad12294a818d2fc5fc2bfcf3715553bc92930",
+      "sha256_copy": "49a7dacd2934b00db12be5267edad12294a818d2fc5fc2bfcf3715553bc92930",
+      "source_mtime_ns": 1791211219656185200
+    },
+    {
+      "source": "C:\\Users\\PC\\Desktop\\Eruldin Destanı haritası sitesi\\public\\assets\\terrain\\southwest.webp",
+      "asset": "12-campaign-map/source-world/terrain/southwest.webp",
+      "bytes": 653826,
+      "sha256_source": "c6cc58ea50609ac3c231a98c13b7478a1635b09e94a2dc40a724d23562603451",
+      "sha256_copy": "c6cc58ea50609ac3c231a98c13b7478a1635b09e94a2dc40a724d23562603451",
+      "source_mtime_ns": 1791211220115464100
+    },
+    {
+      "source": "C:\\Users\\PC\\Desktop\\Eruldin Destanı haritası sitesi\\public\\assets\\terrain\\southeast.webp",
+      "asset": "12-campaign-map/source-world/terrain/southeast.webp",
+      "bytes": 692108,
+      "sha256_source": "d7ef68dec5dabac050e0b71f2818fbe1ad768280dec13d1e1577b42d30b46f2c",
+      "sha256_copy": "d7ef68dec5dabac050e0b71f2818fbe1ad768280dec13d1e1577b42d30b46f2c",
+      "source_mtime_ns": 1791211220576688300
+    },
+    {
+      "source": "C:\\Users\\PC\\Desktop\\Eruldin Destanı haritası sitesi\\public\\assets\\terrain-cinematic-v4.png",
+      "asset": "12-campaign-map/source-world/terrain-cinematic-v4.png",
+      "bytes": 2952628,
+      "sha256_source": "ab9a70fc0e88eb9de21983e1375ea7091a8f13916645d24fa2a9c4d726ab0ee0",
+      "sha256_copy": "ab9a70fc0e88eb9de21983e1375ea7091a8f13916645d24fa2a9c4d726ab0ee0",
+      "source_mtime_ns": 1791132441500616600
+    },
+    {
+      "source": "C:\\Users\\PC\\Desktop\\Eruldin Destanı haritası sitesi\\public\\assets\\heightmap.png",
+      "asset": "12-campaign-map/source-world/heightmap.png",
+      "bytes": 264814,
+      "sha256_source": "f3a7de74a31bbf1f7afa6f358c39c3abfc36eeee8c98670cbcaf3c353f089c55",
+      "sha256_copy": "f3a7de74a31bbf1f7afa6f358c39c3abfc36eeee8c98670cbcaf3c353f089c55",
+      "source_mtime_ns": 1790976656530742300
+    },
+    {
+      "source": "C:\\Users\\PC\\Desktop\\Eruldin Destanı haritası sitesi\\public\\assets\\materials\\forest-earth.png",
+      "asset": "12-campaign-map/source-world/materials/forest-earth.png",
+      "bytes": 3847510,
+      "sha256_source": "1c55ed336efd7707abff63bf1829fc87763b9c3b8a806af509f5bc6baa5ebb4d",
+      "sha256_copy": "1c55ed336efd7707abff63bf1829fc87763b9c3b8a806af509f5bc6baa5ebb4d",
+      "source_mtime_ns": 1791156205334156800
+    },
+    {
+      "source": "C:\\Users\\PC\\Desktop\\Eruldin Destanı haritası sitesi\\public\\assets\\terrain-detail\\northwest.png",
+      "asset": "12-campaign-map/source-world/terrain-detail/northwest.png",
+      "bytes": 2834170,
+      "sha256_source": "5b42fe74e0a569284788a88a7181ee2aacf13542a2ebbb49375c2a7980b45c5b",
+      "sha256_copy": "5b42fe74e0a569284788a88a7181ee2aacf13542a2ebbb49375c2a7980b45c5b",
+      "source_mtime_ns": 1791132870165493200
+    },
+    {
+      "source": "C:\\Users\\PC\\Desktop\\Eruldin Destanı haritası sitesi\\public\\assets\\terrain-detail\\northeast.png",
+      "asset": "12-campaign-map/source-world/terrain-detail/northeast.png",
+      "bytes": 2821695,
+      "sha256_source": "618fe3617053926b9bd7e72a42526ec532ced95d000b0815001e091bad5d62a9",
+      "sha256_copy": "618fe3617053926b9bd7e72a42526ec532ced95d000b0815001e091bad5d62a9",
+      "source_mtime_ns": 1791132897514690300
+    },
+    {
+      "source": "C:\\Users\\PC\\Desktop\\Eruldin Destanı haritası sitesi\\public\\assets\\terrain-detail\\southwest.png",
+      "asset": "12-campaign-map/source-world/terrain-detail/southwest.png",
+      "bytes": 2700073,
+      "sha256_source": "d105af6ef00b6a83e8eb7d4e181816190cab905b93899ef1d733fdc74a3f17a3",
+      "sha256_copy": "d105af6ef00b6a83e8eb7d4e181816190cab905b93899ef1d733fdc74a3f17a3",
+      "source_mtime_ns": 1791132943259243100
+    },
+    {
+      "source": "C:\\Users\\PC\\Desktop\\Eruldin Destanı haritası sitesi\\public\\assets\\terrain-detail\\southeast.png",
+      "asset": "12-campaign-map/source-world/terrain-detail/southeast.png",
+      "bytes": 2804725,
+      "sha256_source": "ec9fda99b5285e2e24c4fed7e7dffbb5add223691e02e9f6662a6f91022bcf47",
+      "sha256_copy": "ec9fda99b5285e2e24c4fed7e7dffbb5add223691e02e9f6662a6f91022bcf47",
+      "source_mtime_ns": 1791132993321514900
+    },
+    {
+      "source": "C:\\Users\\PC\\Desktop\\Eruldin Destanı haritası sitesi\\public\\assets\\concepts\\teomli.webp",
+      "asset": "12-campaign-map/region-art/teomli.webp",
+      "bytes": 585368,
+      "sha256_source": "9f792a123e7917a8ad8afb2bac5ab9309bf7fe12c84d09a9095abe799e6dca5e",
+      "sha256_copy": "9f792a123e7917a8ad8afb2bac5ab9309bf7fe12c84d09a9095abe799e6dca5e",
+      "source_mtime_ns": 1791153402701825400
+    },
+    {
+      "source": "C:\\Users\\PC\\Desktop\\Eruldin Destanı haritası sitesi\\public\\assets\\concepts\\shi-qra.webp",
+      "asset": "12-campaign-map/region-art/shi-qra.webp",
+      "bytes": 469262,
+      "sha256_source": "163ca1d13ffee2352a3c177c648fa5b2e3d63571a2e165d596cfb7dadfa76e4f",
+      "sha256_copy": "163ca1d13ffee2352a3c177c648fa5b2e3d63571a2e165d596cfb7dadfa76e4f",
+      "source_mtime_ns": 1791153403143295500
+    },
+    {
+      "source": "C:\\Users\\PC\\Desktop\\Eruldin Destanı haritası sitesi\\public\\assets\\concepts\\serath.webp",
+      "asset": "12-campaign-map/region-art/serath.webp",
+      "bytes": 437152,
+      "sha256_source": "3eeabec4acc337a56fb92ac2b4681bddc862947e9aa54d910b01d294370e15ef",
+      "sha256_copy": "3eeabec4acc337a56fb92ac2b4681bddc862947e9aa54d910b01d294370e15ef",
+      "source_mtime_ns": 1791153403579003200
+    },
+    {
+      "source": "C:\\Users\\PC\\Desktop\\Eruldin Destanı haritası sitesi\\public\\assets\\concepts\\aldemir.webp",
+      "asset": "12-campaign-map/region-art/aldemir.webp",
+      "bytes": 635650,
+      "sha256_source": "46bfb483ccb191fca5fd5a2470acf433a9604ac947bbe2d121cb3346fc26f65d",
+      "sha256_copy": "46bfb483ccb191fca5fd5a2470acf433a9604ac947bbe2d121cb3346fc26f65d",
+      "source_mtime_ns": 1791153404098321100
+    },
+    {
+      "source": "C:\\Users\\PC\\Desktop\\Eruldin Destanı haritası sitesi\\public\\assets\\concepts\\val-teresh.webp",
+      "asset": "12-campaign-map/region-art/val-teresh.webp",
+      "bytes": 513228,
+      "sha256_source": "7d6f329155d4b4a2143c5174d1de17ce0d8f10fd325cffadf5b278065b2c81f8",
+      "sha256_copy": "7d6f329155d4b4a2143c5174d1de17ce0d8f10fd325cffadf5b278065b2c81f8",
+      "source_mtime_ns": 1791153404564104100
+    },
+    {
+      "source": "C:\\Users\\PC\\Desktop\\Eruldin Destanı haritası sitesi\\public\\assets\\concepts\\zagra-khur.webp",
+      "asset": "12-campaign-map/region-art/zagra-khur.webp",
+      "bytes": 508320,
+      "sha256_source": "2422dbc725c86cdfaf72136f7cd910f128b18e3b2c0a3bdaae8f395520b1a328",
+      "sha256_copy": "2422dbc725c86cdfaf72136f7cd910f128b18e3b2c0a3bdaae8f395520b1a328",
+      "source_mtime_ns": 1791153405030465000
+    },
+    {
+      "source": "C:\\Users\\PC\\Desktop\\Eruldin Destanı haritası sitesi\\public\\assets\\concepts\\ebedi-buzullar.webp",
+      "asset": "12-campaign-map/region-art/ebedi-buzullar.webp",
+      "bytes": 391094,
+      "sha256_source": "8ad50954653e35e3b0af4ee06d844c12ae55acb3036f3e28438f49bc854a1022",
+      "sha256_copy": "8ad50954653e35e3b0af4ee06d844c12ae55acb3036f3e28438f49bc854a1022",
+      "source_mtime_ns": 1791153405532368300
+    }
+  ],
+  "read_only_source_records": [
+    {
+      "path": "C:\\Users\\PC\\Desktop\\Eruldin Destanı haritası sitesi\\src\\data\\world.ts",
+      "sha256": "f7f3172ddd6cb54d15128f0d86c1249399042aabffbd52efab3aec8ef377d2f4",
+      "mtime_ns": 1791131167504946000
+    },
+    {
+      "path": "C:\\Users\\PC\\Desktop\\Eruldin Destanı haritası sitesi\\src\\data\\regions.ts",
+      "sha256": "183d45060ae020724e5a6b541e68af5f2667dc530225cdff8bbac894d5082d9c",
+      "mtime_ns": 1791153371962863700
+    },
+    {
+      "path": "C:\\Users\\PC\\Desktop\\Eruldin Destanı haritası sitesi\\src\\data\\lore.ts",
+      "sha256": "da7e9da71c31cf1c04990c5c926003bc3497a7eb8b2d443b400ce61a302ec9b6",
+      "mtime_ns": 1790903347694431000
+    },
+    {
+      "path": "C:\\Users\\PC\\Desktop\\Eruldin Destanı haritası sitesi\\src\\data\\regionalLife.ts",
+      "sha256": "93a94f344a2a5735a1e9e76355be750fd36fe7645332e02cac4dfdd743ff0a27",
+      "mtime_ns": 1791157926057569900
+    },
+    {
+      "path": "C:\\Users\\PC\\Desktop\\Eruldin Destanı haritası sitesi\\src\\data\\terrainSurface.ts",
+      "sha256": "f648a1010379bd5b68ff51b77a834b9605f896b6fa4e866ccc4dd88e249d7a5c",
+      "mtime_ns": 1791211216865062600
+    },
+    {
+      "path": "C:\\Users\\PC\\Desktop\\Eruldin Destanı haritası sitesi\\src\\data\\cartography.ts",
+      "sha256": "e6bee5738d2857fd1e6807620975f5ef14c26b7fdd77c7572f739773af57db21",
+      "mtime_ns": 1791162053562355800
+    }
+  ]
+}

@@ -1,0 +1,962 @@
+{
+  "version": 3,
+  "date": "2026-10-06",
+  "scope": "Sanat, model ve içerik tasarımı. Oyun kodu ve uygulama entegrasyonu içermez. V1/V2 manifestleri tarihsel kayıt; güncel paket manifesti v3.",
+  "files": [
+    {
+      "path": "01-environments/korvengrad-board-v1.png",
+      "bytes": 3022807,
+      "sha256": "fd0667f560bb51f99b324e98120208bb39bf1adf03ce3df7ba0d054261614fb3"
+    },
+    {
+      "path": "01-environments/korvengrad-keyart.png",
+      "bytes": 2779681,
+      "sha256": "7c5d467138b437bd31cd5f239da3d79f4dc56bf2259401473717752e3619fee6"
+    },
+    {
+      "path": "02-characters/action-v2/akhenten.png",
+      "bytes": 540195,
+      "sha256": "89e061a82df5b2d71098335b7f79cb701d92209abd74d6ed1c1436a0a3b83820"
+    },
+    {
+      "path": "02-characters/action-v2/karah-heavy.png",
+      "bytes": 521387,
+      "sha256": "f6abcfed16f98d6ab98947d4a88571ef3b9d6ed89dac3e4b6e8ed2f34cf72dd7"
+    },
+    {
+      "path": "02-characters/action-v2/marcel.png",
+      "bytes": 515546,
+      "sha256": "792791a14c5310e41056145d0875d5d2ad9c327a45b1a0dd51425141d6f90e66"
+    },
+    {
+      "path": "02-characters/action-v2/onbion.png",
+      "bytes": 499164,
+      "sha256": "97768c9509d07217f7a1cc6d6f86273220a4cdd242f0c21b744beeaabb329f3f"
+    },
+    {
+      "path": "02-characters/action-v2/teom.png",
+      "bytes": 564084,
+      "sha256": "ee42177a5b56f245f935f4135317c03e2ea47024bde22e70ec387c9157d87a31"
+    },
+    {
+      "path": "02-characters/action-v2/white.png",
+      "bytes": 484830,
+      "sha256": "8d5534b447e9fe26c3c5e5657cd2ae4ddd124d1ecf2bade6337d6dc0e35dd419"
+    },
+    {
+      "path": "02-characters/akhenten.png",
+      "bytes": 503352,
+      "sha256": "6623a3f59d71dcfad37841bc3bb6369f9d673bdac0303cab54fea9107c76da73"
+    },
+    {
+      "path": "02-characters/karah.png",
+      "bytes": 470336,
+      "sha256": "971db56e03f3200834d84bd9616ed82f7aea3e7afc0c84f79916a4946437d8e9"
+    },
+    {
+      "path": "02-characters/marcel.png",
+      "bytes": 442370,
+      "sha256": "76eb5ac490bd4cb65f159f897d98ea8e86d8e4c61ec60df66b5faba5a27ddee8"
+    },
+    {
+      "path": "02-characters/onbion.png",
+      "bytes": 480094,
+      "sha256": "8825dd6c11753a6d3226866eef6de96d7f7e064ef501fb2603b1be778bf4c1ee"
+    },
+    {
+      "path": "02-characters/teom-echo.png",
+      "bytes": 527165,
+      "sha256": "783505f21c8a1c70a7aaaddff4c11afdaeb6cfe008f16d5e9d4296484ceeb3ab"
+    },
+    {
+      "path": "02-characters/white-echo.png",
+      "bytes": 466990,
+      "sha256": "7f4214061e575be5b25098004963fc2fd4f8cbd311b5c23feed255deb8e2cf6f"
+    },
+    {
+      "path": "03-spells/ash.png",
+      "bytes": 483833,
+      "sha256": "2715fa5c2cf4a621e14d799ad042debaa4163069a0fae0952c5d94d70fe4af89"
+    },
+    {
+      "path": "03-spells/chosen-family.png",
+      "bytes": 481020,
+      "sha256": "4d1ef662b85d557adbf4ec68b1bdd2371c28ab902f062e4a3c79bc39dbec0780"
+    },
+    {
+      "path": "03-spells/hearth.png",
+      "bytes": 501056,
+      "sha256": "c1dd5a4a7a3a38e00e0dc3024c1ec2116a888226f26d0a40f78123ca82d3bef5"
+    },
+    {
+      "path": "03-spells/memory.png",
+      "bytes": 475870,
+      "sha256": "53b11067ebc380a9fc37c0e616dce733767e75f8a673a362e539cd2daa55df26"
+    },
+    {
+      "path": "03-spells/teom-blade.png",
+      "bytes": 425246,
+      "sha256": "b730aa94978c7d050b6dbd96e2a314cc4d36bc3bb9544fabfd32d1f5fb20b025"
+    },
+    {
+      "path": "04-card-frames/board-champion-frame-v2.png",
+      "bytes": 245394,
+      "sha256": "6297bfd436142307770421a8907d5678d1efa2cf9fc859b750b0ff68912552d6"
+    },
+    {
+      "path": "04-card-frames/board-unit-frame-v2.png",
+      "bytes": 213094,
+      "sha256": "ef8fa7e8f3a54da53f56b34367d468340f4a25a92fcd7f4be731068be560435c"
+    },
+    {
+      "path": "04-card-frames/card-back-v2.png",
+      "bytes": 748921,
+      "sha256": "bd5eb5867e8932b5af93cecd09b44188b24ea49e8d03589c6c8721b3661766f3"
+    },
+    {
+      "path": "04-card-frames/champion-frame-v1.png",
+      "bytes": 681633,
+      "sha256": "2a866f1f68eecfc8c82279d578a58165fc416e532c2410cd21e7da0bce1f080b"
+    },
+    {
+      "path": "04-card-frames/spell-frame-v1.png",
+      "bytes": 687187,
+      "sha256": "90a07bde0480bca8ac7f7170cc53ea85af03f97afd43e565ce33f9768952cead"
+    },
+    {
+      "path": "04-card-frames/unit-frame-v1.png",
+      "bytes": 617309,
+      "sha256": "ee359051ad40e00df1984157864f2c8f04d7a7a2cf7a5f0428ae895de9c3545b"
+    },
+    {
+      "path": "05-interface/action-button-v2.png",
+      "bytes": 546052,
+      "sha256": "a0cc4e922ddc159704eb441ec1c68440e7f1f728a92b1d0571a109302c07cec6"
+    },
+    {
+      "path": "05-interface/avatar-ring-v1.png",
+      "bytes": 201913,
+      "sha256": "3c807b0864f38aa24f5fd767bb77fde835a3d80d323c46c387425d74d3b604eb"
+    },
+    {
+      "path": "05-interface/button-disabled-v1.png",
+      "bytes": 174727,
+      "sha256": "46644f399e58ad82004f70eb405db6c01b6f5fb8972b46000c105a962eab891c"
+    },
+    {
+      "path": "05-interface/button-hover-v1.png",
+      "bytes": 181946,
+      "sha256": "1b50b4402f419230703bd111c2a6fd30263aabb3c3e7a57081049fdc6e40529b"
+    },
+    {
+      "path": "05-interface/button-normal-v1.png",
+      "bytes": 175799,
+      "sha256": "72a40f4a5fc7e99adfbe22b9e18d5abfde8c56aaf913ddf31c8446c84740e8a4"
+    },
+    {
+      "path": "05-interface/button-pressed-v1.png",
+      "bytes": 169947,
+      "sha256": "e4a7f2479e7951de75a04e703df6322b41be6e4b0e6859dc674cd96a325395cf"
+    },
+    {
+      "path": "05-interface/energy-socket-v1.png",
+      "bytes": 176717,
+      "sha256": "b73ddf806956dff6ccf8bb3b97850e7534389b6688da472689db2368e9cefbc2"
+    },
+    {
+      "path": "05-interface/main-menu-concept-v1.png",
+      "bytes": 2800551,
+      "sha256": "c1b653bd01c7916f32ba124bb02d9fa64916d7b965f1e2cdbedd36bd1d2f5eef"
+    },
+    {
+      "path": "05-interface/ornate-divider-v1.png",
+      "bytes": 120652,
+      "sha256": "b377e6f1bc9a5c23ff652b09c7fb6511e0bcd1e71af86f4b1e0f97ad9a25661b"
+    },
+    {
+      "path": "05-interface/story-completed-v1.png",
+      "bytes": 125653,
+      "sha256": "b5c702ea61e99f0de66489b9dc1d7ddc806d286220e477e2da0ebe5c33388957"
+    },
+    {
+      "path": "05-interface/story-current-v1.png",
+      "bytes": 129648,
+      "sha256": "c9f118cde8558610a013b04a5283c4fe04ee24eeb73defae800fc16531d406d7"
+    },
+    {
+      "path": "05-interface/story-locked-v1.png",
+      "bytes": 131060,
+      "sha256": "f40c11584a5055afbb3facf4b9906c94f3a913e0c6cbaba88c72a92717066b47"
+    },
+    {
+      "path": "05-interface/tooltip-panel-v1.png",
+      "bytes": 181796,
+      "sha256": "aac9b3ac33f4bc6d42c39ddfa0bf24ac39641c904d6978d385012285e9a7fc95"
+    },
+    {
+      "path": "05-interface/turn-token-v1.png",
+      "bytes": 172373,
+      "sha256": "a3e2ad6658727e161eeabf875e90ae291f388c6ff2879933425921a60c149aea"
+    },
+    {
+      "path": "06-vfx/animated-v2/clip-specifications.json",
+      "bytes": 2294,
+      "sha256": "0a8ca8387b55e1c7ad6267d7560de401deffdac81dc5a8efd63260470a9459ea"
+    },
+    {
+      "path": "06-vfx/animated-v2/eruldin-card-vfx-v2.blend",
+      "bytes": 3914938,
+      "sha256": "fb09813f48a059db6eae2b0e81dc58c47178ed2809658b12f489e44a0e196d35"
+    },
+    {
+      "path": "06-vfx/animated-v2/heal-gold-green.glb",
+      "bytes": 432780,
+      "sha256": "746699fe602bd6886658bdca7a5482ce1a29b76ecb7161ce0643ff2fcf1a7e6d"
+    },
+    {
+      "path": "06-vfx/animated-v2/impact-silver.glb",
+      "bytes": 412660,
+      "sha256": "35bf1f3f26201b9af56ceca71a5d2a6c1e336adea2a3cbf28698b8581bb58e3b"
+    },
+    {
+      "path": "06-vfx/animated-v2/karah-ink.glb",
+      "bytes": 453848,
+      "sha256": "c6a1c3eb71bf378e6161354ab258fe3d422d1355b007a16076349e6a4181c594"
+    },
+    {
+      "path": "06-vfx/animated-v2/summon-amber.glb",
+      "bytes": 471236,
+      "sha256": "301141cb5a795d0f5c5ed436273cb865e3dd22caee9b277ff87536cf86c90351"
+    },
+    {
+      "path": "06-vfx/animated-v2/victory-shards.glb",
+      "bytes": 447344,
+      "sha256": "802a50c29eadb60a25511e093e400b21064787a52abe3962c8eff58cb3574c84"
+    },
+    {
+      "path": "06-vfx/animated-v2/white-echo-peak.png",
+      "bytes": 527463,
+      "sha256": "2c42cb78570aa5b268118d8eb99f4cebfd538413319290ca6a048e57895f8d4b"
+    },
+    {
+      "path": "06-vfx/animated-v2/white-echo-preview.gif",
+      "bytes": 851450,
+      "sha256": "e6a17e2d592871163a67a487077982e68a8f5c749f5bd5c03efb94f053f7cd8b"
+    },
+    {
+      "path": "06-vfx/animated-v2/white-echo.glb",
+      "bytes": 488144,
+      "sha256": "6ee3d0c137be88724966e885b0c22044aac47790f2a9c65a1e0a42420546c140"
+    },
+    {
+      "path": "06-vfx/heal-gold-green-texture-v1.png",
+      "bytes": 392539,
+      "sha256": "2a5254edd17ed911f19802aa8e0763e15779b597ee48ca186c1a91f165ec83ba"
+    },
+    {
+      "path": "06-vfx/impact-silver-texture-v1.png",
+      "bytes": 372447,
+      "sha256": "98fb1d7ec89a8dad4ed5938b51cc5711b47d3a441c315ac713efda132b1e2727"
+    },
+    {
+      "path": "06-vfx/karah-ink-texture-v1.png",
+      "bytes": 413704,
+      "sha256": "69bc3db5dd84e6e5bc1784732b9a6491068b1b547e855f0234ded6c3c8ac9f94"
+    },
+    {
+      "path": "06-vfx/summon-amber-texture-v1.png",
+      "bytes": 431050,
+      "sha256": "e12335ba9976008b7b97ef40f0a550edd725739fa102592424468bcf04a68e5b"
+    },
+    {
+      "path": "06-vfx/victory-shards-texture-v1.png",
+      "bytes": 407171,
+      "sha256": "0bc11e546473227bd6794df98832b4973fdafb41b74cba5973eace4993f996ea"
+    },
+    {
+      "path": "06-vfx/white-echo-texture-v1.png",
+      "bytes": 447977,
+      "sha256": "c3f11d671f14b7b7140646bddc7e72a2e02037213d686719740efbd93e60e28c"
+    },
+    {
+      "path": "07-production/Eruldin-Harita-ve-Dusmanlar-v3.pdf",
+      "bytes": 14920906,
+      "sha256": "753686dcdc35686e9cdcb17c9d9e5a3db7d453862431c40511a7291356e8763d"
+    },
+    {
+      "path": "07-production/Eruldin-Sanat-ve-Akis-v2.pdf",
+      "bytes": 33081739,
+      "sha256": "1b6e7461dc1d0d3515b396d932a773af22775015fb800c3767ed414ceae01caf"
+    },
+    {
+      "path": "07-production/LOR_ART_PIPELINE.md",
+      "bytes": 10455,
+      "sha256": "343ea8f4745131c56f48669915bc273da875cff96d3fce8a4388d34444c3c381"
+    },
+    {
+      "path": "07-production/MESHY_PROMPTS.md",
+      "bytes": 3221,
+      "sha256": "7dbf2825ad77f722383f6cab38a238348a82ebef3671e44c882f03a2189bc225"
+    },
+    {
+      "path": "07-production/PRODUCTION_BRIEF.md",
+      "bytes": 6571,
+      "sha256": "c71e95609f63410d2f794d57a8075c16c3617a145b9c7b82197dc5c2df153970"
+    },
+    {
+      "path": "07-production/QUALITY_REVIEW.md",
+      "bytes": 3311,
+      "sha256": "dcf5834848b4e6cdca39e7689d95e56818c0c2d91f85959989cc95d6645c8524"
+    },
+    {
+      "path": "08-3d/animation-validation.json",
+      "bytes": 292,
+      "sha256": "2af56540e6b36a2b2cb4d704d52a1ac76ca24206bb012bbb336b37944ae2ac1a"
+    },
+    {
+      "path": "08-3d/eruldin-korvengrad-board-v1.blend",
+      "bytes": 7262192,
+      "sha256": "f05495571dde8af5a6f1526e4b26daa4b13aceb2f3362475c38241e1c3f06a36"
+    },
+    {
+      "path": "08-3d/glb-import-validation.json",
+      "bytes": 233,
+      "sha256": "f109554031ae6a2c166ca2bbf53c8111f445eab6d2a541087de110e2736cca1d"
+    },
+    {
+      "path": "08-3d/glb-validation.json",
+      "bytes": 324,
+      "sha256": "4d2f6306512b775000dbb1b05c58c63dc64630f14618f1168c4c1c7fdbede226"
+    },
+    {
+      "path": "08-3d/models/board-surface-v1.glb",
+      "bytes": 386780,
+      "sha256": "bf9943add7663ad7e872956c919f0a06601829623b89c10bb3436335040b7b92"
+    },
+    {
+      "path": "08-3d/models/brazier-assembly-v1.glb",
+      "bytes": 459056,
+      "sha256": "f9ab04db71a914b880ed0aab1777edadf1425e2c1b0b5ef63dbd3c817614621b"
+    },
+    {
+      "path": "08-3d/models/candle-clusters-v1.glb",
+      "bytes": 823160,
+      "sha256": "fbed29490d04b045e3c8f3296a6d5b3c48e536a3682b5276caed29dd3133fe74"
+    },
+    {
+      "path": "08-3d/models/eruldin-board-animated-v1.glb",
+      "bytes": 5099600,
+      "sha256": "edeff7c6f7e83538e5c27b6cc0f58a5ae2cfbeadf49f1b5abcba95de940a90ec"
+    },
+    {
+      "path": "08-3d/models/korvengrad-castle-v1.glb",
+      "bytes": 2541168,
+      "sha256": "2fde414fd3f21507d43be859ddf9e58b3f1f705af9541dff8b162532ddce8727"
+    },
+    {
+      "path": "08-3d/previews/board-camera-frame001.png",
+      "bytes": 1951588,
+      "sha256": "d05ec3adc59f9b7336fe340ce4d6289d4d5ce9d3fc3d4522c73c8d628df4553a"
+    },
+    {
+      "path": "08-3d/previews/board-loop-v1.gif",
+      "bytes": 7171910,
+      "sha256": "e4ba0c02defb502bdcc7bf6d5136e08a6c8ab93facc8b531ce18204a34562d8e"
+    },
+    {
+      "path": "08-3d/README.md",
+      "bytes": 3661,
+      "sha256": "427601a1fafc1f326532e4c069fd4740522972a342f47750c3021828f38029b4"
+    },
+    {
+      "path": "08-3d/scene-inventory.json",
+      "bytes": 847,
+      "sha256": "1ca14270af84175b6d540b16831a21c036552d44df016749eb93b732dd290803"
+    },
+    {
+      "path": "09-audio/attack-slash.ogg",
+      "bytes": 15532,
+      "sha256": "4cd96dc630bed9840c15f1dd2306da2cc56a4da26a5d3f1a03c5a7265ac5e54f"
+    },
+    {
+      "path": "09-audio/audio-sources.json",
+      "bytes": 14721,
+      "sha256": "6a96716856952e56abf251f183e18843aa473a614fbe333f1fd6b9c2c4b67960"
+    },
+    {
+      "path": "09-audio/card-draw.ogg",
+      "bytes": 18248,
+      "sha256": "fa81ac2fedc8c641661b87e349630a36c9800e795e0c800e029214efdbe26a7d"
+    },
+    {
+      "path": "09-audio/card-place.ogg",
+      "bytes": 9901,
+      "sha256": "26f3ce60fbde85b678b0ad7f6624d80535fe540d88232ad1e38e47a96662d977"
+    },
+    {
+      "path": "09-audio/cloth-motion.ogg",
+      "bytes": 16508,
+      "sha256": "ddb93a3671233f95da0e0b10367f082f7eb42fa6caaddcf776410aa8833c747d"
+    },
+    {
+      "path": "09-audio/CREDITS.txt",
+      "bytes": 835,
+      "sha256": "401ab3ae442f57c87b55339d2f988435624ffc53632b10434104ab00c4859fe4"
+    },
+    {
+      "path": "09-audio/cue-heal.wav",
+      "bytes": 189542,
+      "sha256": "e10783865f096e7100f4f46e6bd7eecffecb9f51840ee325ee15a8dff441075d"
+    },
+    {
+      "path": "09-audio/cue-memory.wav",
+      "bytes": 147658,
+      "sha256": "71bced189b8183d4de18459f1a865156c619cd4550e2a084d3ccc0f3c8b9f2dd"
+    },
+    {
+      "path": "09-audio/cue-steel-impact.wav",
+      "bytes": 115190,
+      "sha256": "923f2136ba0d39d9454a50f8526e433ccaf3ae3888bf8ff7923458bf212d889f"
+    },
+    {
+      "path": "09-audio/cue-summon.wav",
+      "bytes": 246638,
+      "sha256": "47c210a7e2f4a970feb8e5aefcdc25f93a339ca6b3554e9c90777335fdcb2ea2"
+    },
+    {
+      "path": "09-audio/cue-ultimate.wav",
+      "bytes": 393726,
+      "sha256": "447a45a32f1e7b429409c41eca67d55d4cebc4edc2f4a3f90dd0fee95a17a0e8"
+    },
+    {
+      "path": "09-audio/cue-victory.wav",
+      "bytes": 284274,
+      "sha256": "551b91695bfe06cf0a4d67c7834006e9657ee7abd12f3645cb9e5b31097714b5"
+    },
+    {
+      "path": "09-audio/cue-void.wav",
+      "bytes": 195342,
+      "sha256": "d702d59a15c80f5c15d583a6bc181ce769a6e3f37d79a85aa38a68da358692f0"
+    },
+    {
+      "path": "09-audio/fireplace-loop.ogg",
+      "bytes": 637965,
+      "sha256": "5d7fa2d023fcf2dee2599d341aba4fe0005a3c294a8368ec2a43aed412b2f93f"
+    },
+    {
+      "path": "09-audio/hit-heavy.ogg",
+      "bytes": 11617,
+      "sha256": "b33a8f14068aec24ec69ba85e5e87fdc41228975f6a1a3e44a6e7d6fc3d9f8d8"
+    },
+    {
+      "path": "09-audio/hit-metal.ogg",
+      "bytes": 6110,
+      "sha256": "e07045693e4a2b3d165c424e3dab4c781d9ff8880a386880ac89a51315d7f831"
+    },
+    {
+      "path": "09-audio/LICENSE-Kenney-impact.txt",
+      "bytes": 608,
+      "sha256": "b49aa9c56b04528b95913de13e506a0f7c5e807b9925db9bfef86af1f91120db"
+    },
+    {
+      "path": "09-audio/LICENSE-Kenney-interface.txt",
+      "bytes": 574,
+      "sha256": "f7966c773bbed0eca6a9c75081c44a178b38eae112724dbb5fdfbd4192d118a9"
+    },
+    {
+      "path": "09-audio/LICENSE-Kenney-rpg.txt",
+      "bytes": 478,
+      "sha256": "5735dfd72cb64cbbceda4ebc00c380c41ca680edb82ff153aa7c9ab97614c539"
+    },
+    {
+      "path": "09-audio/magic-bell.ogg",
+      "bytes": 13915,
+      "sha256": "94b8bb5f2d43ab65e4bcc32b28562416e9bc2c51d9fd4be1e333660ee52f977f"
+    },
+    {
+      "path": "09-audio/magic-glass.ogg",
+      "bytes": 6526,
+      "sha256": "d750cf88097d0c3e69920e6e14496e1444e1a9da01aa4cca8f5ec8cb44c57b4f"
+    },
+    {
+      "path": "09-audio/steel-unsheathe.ogg",
+      "bytes": 11134,
+      "sha256": "276403e72c3b71c47bc24db3083970c23f8e5551ffa78f436f83483c56f3f0bb"
+    },
+    {
+      "path": "09-audio/story-close.ogg",
+      "bytes": 9292,
+      "sha256": "81e976532565f4372abd14e83d2684195fa548d0a28d345de221e56052454f32"
+    },
+    {
+      "path": "09-audio/story-open.ogg",
+      "bytes": 8273,
+      "sha256": "953390534377222bee89ac8cd9e60a58fdc037c71a4d7c18c43cd647c7f34ba8"
+    },
+    {
+      "path": "09-audio/the-illusionist.mp3",
+      "bytes": 8604936,
+      "sha256": "79d77e41b56bf5e976eedc0f1176d04fd4ac454f0407c3c87c6d257f7b358cd8"
+    },
+    {
+      "path": "09-audio/ui-confirm.ogg",
+      "bytes": 8968,
+      "sha256": "063564703b6094d70718a3e787a55cc9141611e4ecd6b6637f8828f79b4a8c3a"
+    },
+    {
+      "path": "09-audio/ui-hover.ogg",
+      "bytes": 4497,
+      "sha256": "9d057b918024c787bbe6c00beed13a7ef72a3fa0c259add3cef36582792f4230"
+    },
+    {
+      "path": "09-audio/ui-select.ogg",
+      "bytes": 5468,
+      "sha256": "aec0c31ea934a35936ae0d2ab8fac8123c93aa5647f935853a58dbaf90278b7a"
+    },
+    {
+      "path": "09-audio/void-creak.ogg",
+      "bytes": 15761,
+      "sha256": "8a346186fd297254248cab8e8117060a52a5cf2a84f603153a762108550ea95e"
+    },
+    {
+      "path": "10-screen-designs/battle-concept-v2-reviewed.png",
+      "bytes": 3003614,
+      "sha256": "df239b4b809d936b728b20242993b592e9c103c5c10e848382e3013bd6d5bd24"
+    },
+    {
+      "path": "10-screen-designs/title-concept-v2.png",
+      "bytes": 2625094,
+      "sha256": "ea2a25216a75b7aefc01e279fe976e2296414ac5f3925300a3d161741ea056d1"
+    },
+    {
+      "path": "11-bindings/card-bindings-v2.json",
+      "bytes": 15368,
+      "sha256": "26428d385bdbdca8d9a05c7a86b17b0c46932b60c609ab6eab9fab7fbd605905"
+    },
+    {
+      "path": "11-bindings/event-timelines-v2.json",
+      "bytes": 4261,
+      "sha256": "bbe2b8d342d3d0b0eb24abd4ea1732c7280ed10b0a4e5a5e7b5b520d1b3de238"
+    },
+    {
+      "path": "11-bindings/screen-flow-v2.json",
+      "bytes": 2136,
+      "sha256": "de740954f0a64a085b256a96ac0a4c06aade05048649f5309184569372ad8395"
+    },
+    {
+      "path": "11-bindings/validation-v2.json",
+      "bytes": 2517,
+      "sha256": "a4f1330eb3805e3fa53ae6d9980c2a24dc9a0ecf3883b1794ee4af11e92b8bb8"
+    },
+    {
+      "path": "12-campaign-map/data/atlas-original.json",
+      "bytes": 45299,
+      "sha256": "eba1ee0ff91c2ea27c03dc41d50ccdb20660d653e6eaf54b68cc40c7055bcd3d"
+    },
+    {
+      "path": "12-campaign-map/data/enemy-encounter-placement.json",
+      "bytes": 140796,
+      "sha256": "9df23f4bad1fcccc3f599996f2c7698aaedba24a25f7cf0fadf2038d53da8a14"
+    },
+    {
+      "path": "12-campaign-map/data/map-art-bindings-v3.json",
+      "bytes": 1722,
+      "sha256": "191f7a00165937c656db9bd1e5a4728a23560cdbc5b939f18bffadad165cf3bb"
+    },
+    {
+      "path": "12-campaign-map/data/regional-expeditions.json",
+      "bytes": 52858,
+      "sha256": "9c259820a4507739ebd8bbd2616dbee626af7389517c4b8762e1624d9adf2b60"
+    },
+    {
+      "path": "12-campaign-map/data/source-preservation.json",
+      "bytes": 10702,
+      "sha256": "711b7cde93ae6646e391ce95d853148f733734cd18880203a093b46fc1be1eea"
+    },
+    {
+      "path": "12-campaign-map/models/eruldin-campaign-map-v3.blend",
+      "bytes": 14841119,
+      "sha256": "0d821a05cff4c40361ae6ded22c14271cde0a2cd7e498296286b115fc7f8ffd3"
+    },
+    {
+      "path": "12-campaign-map/models/eruldin-campaign-map-v3.glb",
+      "bytes": 8260736,
+      "sha256": "bbfbb0874062bdc387387d6433d07c68cb3e3e3e09558503f7b5d555937f315f"
+    },
+    {
+      "path": "12-campaign-map/models/MODEL-NOTES.txt",
+      "bytes": 540,
+      "sha256": "5e4c91568bd1c736efc5427ad223b1aeb1c7036fb1607bf754b72c58de676677"
+    },
+    {
+      "path": "12-campaign-map/models/teolam-campaign-map-preview.png",
+      "bytes": 2275288,
+      "sha256": "2fb3c7a7180dcbf5c5ac98b825f30cd994a83c865a9bac5ae5b027f4a00f631f"
+    },
+    {
+      "path": "12-campaign-map/region-art/aldemir.webp",
+      "bytes": 635650,
+      "sha256": "46bfb483ccb191fca5fd5a2470acf433a9604ac947bbe2d121cb3346fc26f65d"
+    },
+    {
+      "path": "12-campaign-map/region-art/ebedi-buzullar.webp",
+      "bytes": 391094,
+      "sha256": "8ad50954653e35e3b0af4ee06d844c12ae55acb3036f3e28438f49bc854a1022"
+    },
+    {
+      "path": "12-campaign-map/region-art/serath.webp",
+      "bytes": 437152,
+      "sha256": "3eeabec4acc337a56fb92ac2b4681bddc862947e9aa54d910b01d294370e15ef"
+    },
+    {
+      "path": "12-campaign-map/region-art/shi-qra.webp",
+      "bytes": 469262,
+      "sha256": "163ca1d13ffee2352a3c177c648fa5b2e3d63571a2e165d596cfb7dadfa76e4f"
+    },
+    {
+      "path": "12-campaign-map/region-art/teomli.webp",
+      "bytes": 585368,
+      "sha256": "9f792a123e7917a8ad8afb2bac5ab9309bf7fe12c84d09a9095abe799e6dca5e"
+    },
+    {
+      "path": "12-campaign-map/region-art/val-teresh.webp",
+      "bytes": 513228,
+      "sha256": "7d6f329155d4b4a2143c5174d1de17ce0d8f10fd325cffadf5b278065b2c81f8"
+    },
+    {
+      "path": "12-campaign-map/region-art/zagra-khur.webp",
+      "bytes": 508320,
+      "sha256": "2422dbc725c86cdfaf72136f7cd910f128b18e3b2c0a3bdaae8f395520b1a328"
+    },
+    {
+      "path": "12-campaign-map/source-world/heightmap.png",
+      "bytes": 264814,
+      "sha256": "f3a7de74a31bbf1f7afa6f358c39c3abfc36eeee8c98670cbcaf3c353f089c55"
+    },
+    {
+      "path": "12-campaign-map/source-world/materials/forest-earth.png",
+      "bytes": 3847510,
+      "sha256": "1c55ed336efd7707abff63bf1829fc87763b9c3b8a806af509f5bc6baa5ebb4d"
+    },
+    {
+      "path": "12-campaign-map/source-world/terrain/northeast.webp",
+      "bytes": 700962,
+      "sha256": "49a7dacd2934b00db12be5267edad12294a818d2fc5fc2bfcf3715553bc92930"
+    },
+    {
+      "path": "12-campaign-map/source-world/terrain/northwest.webp",
+      "bytes": 716392,
+      "sha256": "880c0cbf72fa205cc4b1fbc968afa37bf10790c21f75178994ae2d135d78f213"
+    },
+    {
+      "path": "12-campaign-map/source-world/terrain/southeast.webp",
+      "bytes": 692108,
+      "sha256": "d7ef68dec5dabac050e0b71f2818fbe1ad768280dec13d1e1577b42d30b46f2c"
+    },
+    {
+      "path": "12-campaign-map/source-world/terrain/southwest.webp",
+      "bytes": 653826,
+      "sha256": "c6cc58ea50609ac3c231a98c13b7478a1635b09e94a2dc40a724d23562603451"
+    },
+    {
+      "path": "12-campaign-map/source-world/terrain/surface.bin",
+      "bytes": 1577487,
+      "sha256": "d43f3118cd6918eef453af02d1d7cd52ec7040163687840fe26a58572616098c"
+    },
+    {
+      "path": "12-campaign-map/source-world/terrain/world.webp",
+      "bytes": 675758,
+      "sha256": "66c7262e6152c36aaf8b0f6c7210bb2d959877a101d38ff7776f52e2e495485b"
+    },
+    {
+      "path": "12-campaign-map/source-world/terrain-cinematic-v4.png",
+      "bytes": 2952628,
+      "sha256": "ab9a70fc0e88eb9de21983e1375ea7091a8f13916645d24fa2a9c4d726ab0ee0"
+    },
+    {
+      "path": "12-campaign-map/source-world/terrain-detail/northeast.png",
+      "bytes": 2821695,
+      "sha256": "618fe3617053926b9bd7e72a42526ec532ced95d000b0815001e091bad5d62a9"
+    },
+    {
+      "path": "12-campaign-map/source-world/terrain-detail/northwest.png",
+      "bytes": 2834170,
+      "sha256": "5b42fe74e0a569284788a88a7181ee2aacf13542a2ebbb49375c2a7980b45c5b"
+    },
+    {
+      "path": "12-campaign-map/source-world/terrain-detail/southeast.png",
+      "bytes": 2804725,
+      "sha256": "ec9fda99b5285e2e24c4fed7e7dffbb5add223691e02e9f6662a6f91022bcf47"
+    },
+    {
+      "path": "12-campaign-map/source-world/terrain-detail/southwest.png",
+      "bytes": 2700073,
+      "sha256": "d105af6ef00b6a83e8eb7d4e181816190cab905b93899ef1d733fdc74a3f17a3"
+    },
+    {
+      "path": "13-enemies/all-deck-lists.txt",
+      "bytes": 179701,
+      "sha256": "8d80718253683d408c3ed32cf196d5385fccca943e31f2dec259df9910766275"
+    },
+    {
+      "path": "13-enemies/art/ash-scavenger-concept-v3.png",
+      "bytes": 259449,
+      "sha256": "b244aada4e5147260f54c4dfe6d15287de4bb53aedf518968bee170a8d13ecfc"
+    },
+    {
+      "path": "13-enemies/art/butterfly-guard-concept-v3.png",
+      "bytes": 221265,
+      "sha256": "f432eecf34047e25f84005f4eb7ab5cdd681942d9cca33767dd55551eb48ec81"
+    },
+    {
+      "path": "13-enemies/art/council-concept-v3.png",
+      "bytes": 198453,
+      "sha256": "97a92157eb1b1f680b7d7e9301e116a7e9882243223e918d29972d225acd9154"
+    },
+    {
+      "path": "13-enemies/art/enemy-art-direction-reviewed-v3.png",
+      "bytes": 2712521,
+      "sha256": "070c87445a7c64f5b4eec3348c4fdf894e54fadda4f53c9cbcd21c0f7b1e92a4"
+    },
+    {
+      "path": "13-enemies/art/enemy-art-direction-v3.png",
+      "bytes": 2930164,
+      "sha256": "d4025a2e42b6440230337208c0e1124fbc0dafb22b108629c79beada24c3ce8d"
+    },
+    {
+      "path": "13-enemies/art/frost-predators-concept-v3.png",
+      "bytes": 275477,
+      "sha256": "2716c4c8b26e734a5aed5c562b5036247191cc5c3eff7d9a3a192d0fa467891f"
+    },
+    {
+      "path": "13-enemies/art/generation-prompt-v3.json",
+      "bytes": 2033,
+      "sha256": "136f8632fe63306f4edca3f89a08da1b8e5bb89a01b4e4b8914985c0f7782d0c"
+    },
+    {
+      "path": "13-enemies/art/karah-armored-concept-v3.png",
+      "bytes": 248609,
+      "sha256": "6d77ed013f24b9f0bc4a57b7212791c1372870305a6ce6505ecf077d610eb233"
+    },
+    {
+      "path": "13-enemies/art/karah-crawler-concept-v3.png",
+      "bytes": 250424,
+      "sha256": "224de291a44309cb165b4dd095b0759e8c74c97a2cc55000c0685807052e0962"
+    },
+    {
+      "path": "13-enemies/art/koru-jail-concept-v3.png",
+      "bytes": 251616,
+      "sha256": "39535c70c5b5f3414473925f39a6436830d39230a1ed2b8e40fcba62799f962e"
+    },
+    {
+      "path": "13-enemies/art/korvengrad-corrupt-concept-v3.png",
+      "bytes": 225598,
+      "sha256": "ffe426e6f5c2c9990c4fd5f728cf2ac4274e78c5d78b7315117e04aa017fc3a7"
+    },
+    {
+      "path": "13-enemies/art/korvengrad-watch-concept-v3.png",
+      "bytes": 226135,
+      "sha256": "b611f23f569bcb0e226c730462859a8fd20bb1e8c0a070e17dbce8c2e5cc2a55"
+    },
+    {
+      "path": "13-enemies/art/marsh-visions-concept-v3.png",
+      "bytes": 239825,
+      "sha256": "15a94826a05c2d6d2452b8435bf3a4d016150ad9688d42af4a0d28bc80ba76d0"
+    },
+    {
+      "path": "13-enemies/art/PRODUCTION-NOTES.txt",
+      "bytes": 517,
+      "sha256": "6d86604efb1d5f6161c9b863ac4f42a6acbe230c29d4918693c4c0bf4c046670"
+    },
+    {
+      "path": "13-enemies/art/revision-prompt-v3.json",
+      "bytes": 1101,
+      "sha256": "89199ca2da71bbb1c8bda4bb702b3e967e286bcc41972656e519f4b5c434d600"
+    },
+    {
+      "path": "13-enemies/art/shi-qra-outlaws-concept-reviewed-v3.png",
+      "bytes": 244900,
+      "sha256": "ac4a1d6656aee8d5e4fbe3d5690956ddc308aa43cc2fb2165c5fc19c1657edc5"
+    },
+    {
+      "path": "13-enemies/art/shi-qra-outlaws-concept-v3.png",
+      "bytes": 258986,
+      "sha256": "140f926b86d6763dda2662be6795c1cb747fc075a7bfb1fad7e67cf5601a1b51"
+    },
+    {
+      "path": "13-enemies/art/sources/enemy-art-direction-first-pass-v3.png",
+      "bytes": 2930164,
+      "sha256": "d4025a2e42b6440230337208c0e1124fbc0dafb22b108629c79beada24c3ce8d"
+    },
+    {
+      "path": "13-enemies/art/valerus-loyal-concept-v3.png",
+      "bytes": 239281,
+      "sha256": "928adee59012a305b3f699fd5c4ea4d7049e0335258f8071b44b0131e175aeb1"
+    },
+    {
+      "path": "13-enemies/asset-bindings-v3.json",
+      "bytes": 32429,
+      "sha256": "f70020d1b164f896a6f41d5e45bd8b9371623d1b4d46ac37e691b2274991141d"
+    },
+    {
+      "path": "13-enemies/cards.json",
+      "bytes": 394495,
+      "sha256": "8623ba164b2b879b94168837bda12e9291e54e023c93086394001464dd1e261c"
+    },
+    {
+      "path": "13-enemies/enemy-catalog.csv",
+      "bytes": 92973,
+      "sha256": "3f35e233cf2044cab43301fdb8a76de441cf124a97d688967ca3adcd8dd510ed"
+    },
+    {
+      "path": "13-enemies/enemy-decks.json",
+      "bytes": 753598,
+      "sha256": "3d8e9988a145ae42396f5dba6ec1add0c86f0490f50868aedca42e6c6c229318"
+    },
+    {
+      "path": "13-enemies/families.json",
+      "bytes": 13888,
+      "sha256": "1e7c19ea0a6c773334ebfa074c79e5b08bd42beee312d3b121c248316438e056"
+    },
+    {
+      "path": "13-enemies/tokens.json",
+      "bytes": 10798,
+      "sha256": "9147bb436bdd761f6023214dd1b862b74b074178873714b18e8cb4660f1afa63"
+    },
+    {
+      "path": "14-campaign/book-page-index.json",
+      "bytes": 24892,
+      "sha256": "5eab6aabfcbd7e364c992e62d58d4dd67cad0da59fcbb17434abdf3288b8eeda"
+    },
+    {
+      "path": "14-campaign/content-validation.json",
+      "bytes": 901,
+      "sha256": "99e8cbe53ec748986038a1b6b61a8b3fd5c6d4e181820a01c5568df81ab385b7"
+    },
+    {
+      "path": "14-campaign/KANON-VE-UYARLAMA.txt",
+      "bytes": 3032,
+      "sha256": "5bdeef6bd79ad5bd7b4c555ea786b87c4b67d4236c9820e475dbde864fbe56be"
+    },
+    {
+      "path": "14-campaign/marcel-campaign.json",
+      "bytes": 39837,
+      "sha256": "1c07fada031cde5f1f3dae0c1d65e7866dcff7ed73d5ec10c21c1c6644d9c2b9"
+    },
+    {
+      "path": "fonts/Cinzel-OFL.txt",
+      "bytes": 4383,
+      "sha256": "f2b3029aba64c378bf0963b62945eee15e564fe4330b934c8f2eb058282b5e83"
+    },
+    {
+      "path": "fonts/cinzel.ttf",
+      "bytes": 125468,
+      "sha256": "f4d83d34d1f6c741193e4acf4b3dff9531e5a67b6aa65228d00a7db72a4e0f34"
+    },
+    {
+      "path": "fonts/Manrope-OFL.txt",
+      "bytes": 4387,
+      "sha256": "58172e0c0fac2cda8a37b348164bb55e44b0e69051e557e92b1d3f6910141f7b"
+    },
+    {
+      "path": "fonts/manrope.ttf",
+      "bytes": 164700,
+      "sha256": "3ae11c49db0455a3cc33e37d380f20fdb8c7f8b41dc07625c177e3d87a9d6ae6"
+    },
+    {
+      "path": "manifest-v2.json",
+      "bytes": 23068,
+      "sha256": "988b2a48fd37ad38c49ddf079d2f09eae436c9c9284461afe9916384b96b6e36"
+    },
+    {
+      "path": "manifest.json",
+      "bytes": 19740,
+      "sha256": "26a070b76a13ee8164578a14693b489692ed866b0522025e42736c7d61a3e537"
+    },
+    {
+      "path": "README-v3.txt",
+      "bytes": 3226,
+      "sha256": "c87b7718fa420878aaec5ae05c1f710c0cbac4ab9b718624c1dbf346d8cffb08"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3890,
+      "sha256": "6e740d77d4a2973fe491d611896f609a9a8485f9c6e2a0bcaf4ea92f566ca6b9"
+    },
+    {
+      "path": "sources/battle-first-pass-v2.png",
+      "bytes": 3186651,
+      "sha256": "4d4d24c1d993810f5783191f9a3d05f67a2808331f9b1b3ac1089cc4395776bf"
+    },
+    {
+      "path": "sources/card-action-crops-v2.json",
+      "bytes": 309,
+      "sha256": "93d560aa2c494c31f61bf58bda48685314995de0a12601f0e361d391fde2268d"
+    },
+    {
+      "path": "sources/card-actions-atlas-v2.png",
+      "bytes": 3408643,
+      "sha256": "2088d67d50b61c79c212c9e8672d390a359715eb7a4aae0b5e5159ce5caebd90"
+    },
+    {
+      "path": "sources/card-frames-atlas-v1.png",
+      "bytes": 2007798,
+      "sha256": "b86f484c09fa064cb5a7e6b9c3094c9513128958d5dbbea74a72470d0e90ab4a"
+    },
+    {
+      "path": "sources/characters-atlas.png",
+      "bytes": 3152023,
+      "sha256": "d65cee27f546fd1740df50c6dd9f8c1a951919f9139663ea07d2605e59810b06"
+    },
+    {
+      "path": "sources/compact-ui-atlas-v2.png",
+      "bytes": 1793472,
+      "sha256": "21f7d7f800ed57bca579a2631048e7c15634bd82288538d4830c4c326f4fe217"
+    },
+    {
+      "path": "sources/compact-ui-crops-v2.json",
+      "bytes": 554,
+      "sha256": "50d00152fad0ffe1c7986c3f2abb7b5b5c4b635a01f457ad9e5bb67993306ad0"
+    },
+    {
+      "path": "sources/initial-manifest.json",
+      "bytes": 5303,
+      "sha256": "0a01bab7132028b0ef1ef58132239e05428339093f1d96ed861196bff6659e50"
+    },
+    {
+      "path": "sources/prompts-v1.json",
+      "bytes": 8852,
+      "sha256": "72e522e9a80c35d29743c4f13a4ff9f093458124cfdc9a7a0deda219d12a8307"
+    },
+    {
+      "path": "sources/prompts-v2.json",
+      "bytes": 8738,
+      "sha256": "2ed2d7d3f7ab812aa5a51da171eceeeafcce79a277d17e8acb3a9e7c05ff630d"
+    },
+    {
+      "path": "sources/spells-atlas.png",
+      "bytes": 3068635,
+      "sha256": "0174186e15c24428a93117f71b69641ed144ffd957ca1c7a054eca4cf32454ef"
+    },
+    {
+      "path": "sources/ui-components-atlas-v1.png",
+      "bytes": 2320692,
+      "sha256": "f85356eb33c26477613e2e2a737a00529909709e127188938caa8d6d2cab9a8b"
+    },
+    {
+      "path": "sources/ui-sprite-crops.json",
+      "bytes": 2805,
+      "sha256": "6e616b5588856d8ea1f7068c19bf011dc1bf0d4c98ecf239a7844299a2f81a9e"
+    },
+    {
+      "path": "sources/vfx-shapes-atlas-v1.png",
+      "bytes": 2477608,
+      "sha256": "ae5560ed1db992c0f77375b778f7169d9a59600bd713b6f099bc3d965be2a736"
+    },
+    {
+      "path": "sources/vfx-sprite-crops.json",
+      "bytes": 1629,
+      "sha256": "a204bb15beeb6bb00746798983d09027fa729f3b2b2d4b88f53b90252504aa79"
+    }
+  ]
+}

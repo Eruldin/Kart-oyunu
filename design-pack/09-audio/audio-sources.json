@@ -1,0 +1,516 @@
+{
+  "date": "2026-10-06",
+  "files": [
+    {
+      "file": "09-audio/ui-select.ogg",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/interface-sounds",
+      "original": "select_001.ogg",
+      "modified": false,
+      "duration_s": 0.0433,
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      ],
+      "sha256": "aec0c31ea934a35936ae0d2ab8fac8123c93aa5647f935853a58dbaf90278b7a"
+    },
+    {
+      "file": "09-audio/ui-confirm.ogg",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/interface-sounds",
+      "original": "confirmation_001.ogg",
+      "modified": false,
+      "duration_s": 0.2898,
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "sha256": "063564703b6094d70718a3e787a55cc9141611e4ecd6b6637f8828f79b4a8c3a"
+    },
+    {
+      "file": "09-audio/ui-hover.ogg",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/interface-sounds",
+      "original": "tick_001.ogg",
+      "modified": false,
+      "duration_s": 0.0232,
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "sha256": "9d057b918024c787bbe6c00beed13a7ef72a3fa0c259add3cef36582792f4230"
+    },
+    {
+      "file": "09-audio/card-draw.ogg",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/rpg-audio",
+      "original": "bookFlip1.ogg",
+      "modified": false,
+      "duration_s": 0.7686,
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "sha256": "fa81ac2fedc8c641661b87e349630a36c9800e795e0c800e029214efdbe26a7d"
+    },
+    {
+      "file": "09-audio/card-place.ogg",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/rpg-audio",
+      "original": "bookPlace1.ogg",
+      "modified": false,
+      "duration_s": 0.2767,
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "sha256": "26f3ce60fbde85b678b0ad7f6624d80535fe540d88232ad1e38e47a96662d977"
+    },
+    {
+      "file": "09-audio/story-open.ogg",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/rpg-audio",
+      "original": "bookOpen.ogg",
+      "modified": false,
+      "duration_s": 0.1537,
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "sha256": "953390534377222bee89ac8cd9e60a58fdc037c71a4d7c18c43cd647c7f34ba8"
+    },
+    {
+      "file": "09-audio/story-close.ogg",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/rpg-audio",
+      "original": "bookClose.ogg",
+      "modified": false,
+      "duration_s": 0.2306,
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "sha256": "81e976532565f4372abd14e83d2684195fa548d0a28d345de221e56052454f32"
+    },
+    {
+      "file": "09-audio/attack-slash.ogg",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/rpg-audio",
+      "original": "knifeSlice.ogg",
+      "modified": false,
+      "duration_s": 0.5995,
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "sha256": "4cd96dc630bed9840c15f1dd2306da2cc56a4da26a5d3f1a03c5a7265ac5e54f"
+    },
+    {
+      "file": "09-audio/steel-unsheathe.ogg",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/rpg-audio",
+      "original": "drawKnife1.ogg",
+      "modified": false,
+      "duration_s": 0.3997,
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "sha256": "276403e72c3b71c47bc24db3083970c23f8e5551ffa78f436f83483c56f3f0bb"
+    },
+    {
+      "file": "09-audio/cloth-motion.ogg",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/rpg-audio",
+      "original": "cloth1.ogg",
+      "modified": false,
+      "duration_s": 0.661,
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "sha256": "ddb93a3671233f95da0e0b10367f082f7eb42fa6caaddcf776410aa8833c747d"
+    },
+    {
+      "file": "09-audio/void-creak.ogg",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/rpg-audio",
+      "original": "creak1.ogg",
+      "modified": false,
+      "duration_s": 0.661,
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "sha256": "8a346186fd297254248cab8e8117060a52a5cf2a84f603153a762108550ea95e"
+    },
+    {
+      "file": "09-audio/hit-metal.ogg",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/impact-sounds",
+      "original": "impactMetal_heavy_000.ogg",
+      "modified": false,
+      "duration_s": 0.1677,
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      ],
+      "sha256": "e07045693e4a2b3d165c424e3dab4c781d9ff8880a386880ac89a51315d7f831"
+    },
+    {
+      "file": "09-audio/hit-heavy.ogg",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/impact-sounds",
+      "original": "impactPunch_heavy_000.ogg",
+      "modified": false,
+      "duration_s": 0.649,
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      ],
+      "sha256": "b33a8f14068aec24ec69ba85e5e87fdc41228975f6a1a3e44a6e7d6fc3d9f8d8"
+    },
+    {
+      "file": "09-audio/magic-glass.ogg",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/impact-sounds",
+      "original": "impactGlass_light_000.ogg",
+      "modified": false,
+      "duration_s": 0.2096,
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      ],
+      "sha256": "d750cf88097d0c3e69920e6e14496e1444e1a9da01aa4cca8f5ec8cb44c57b4f"
+    },
+    {
+      "file": "09-audio/magic-bell.ogg",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/impact-sounds",
+      "original": "impactBell_heavy_000.ogg",
+      "modified": false,
+      "duration_s": 1.4802,
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      ],
+      "sha256": "94b8bb5f2d43ab65e4bcc32b28562416e9bc2c51d9fd4be1e333660ee52f977f"
+    },
+    {
+      "file": "09-audio/the-illusionist.mp3",
+      "creator": "Scott Buckley",
+      "license": "CC-BY-4.0",
+      "source": "https://www.scottbuckley.com.au/library/the-illusionist/",
+      "modified": false,
+      "required_credit": "'The Illusionist' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "duration_s": 215.0303,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      ],
+      "sha256": "79d77e41b56bf5e976eedc0f1176d04fd4ac454f0407c3c87c6d257f7b358cd8"
+    },
+    {
+      "file": "09-audio/fireplace-loop.ogg",
+      "creator": "PagDev",
+      "license": "CC0-1.0",
+      "source": "https://opengameart.org/content/fireplace-sound-loop",
+      "original": "fire.wav",
+      "modified": "WAV to OGG, resampled 48kHz; source author labels this a loop; boundary has not been listening-tested",
+      "duration_s": 29.2635,
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "sha256": "5d7fa2d023fcf2dee2599d341aba4fe0005a3c294a8368ec2a43aed412b2f93f"
+    },
+    {
+      "file": "09-audio/cue-summon.wav",
+      "creator": "Eruldin sound design from Kenney CC0 recordings",
+      "license": "CC0-1.0",
+      "modified": true,
+      "layers": [
+        {
+          "source": "09-audio/card-place.ogg",
+          "delay_s": 0,
+          "gain": 0.65,
+          "pitch_ratio": 1
+        },
+        {
+          "source": "09-audio/magic-bell.ogg",
+          "delay_s": 0.1,
+          "gain": 0.16,
+          "pitch_ratio": 1.25
+        }
+      ],
+      "duration_s": 1.2842,
+      "streams": [
+        {
+          "codec_name": "pcm_s16le",
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "sha256": "47c210a7e2f4a970feb8e5aefcdc25f93a339ca6b3554e9c90777335fdcb2ea2"
+    },
+    {
+      "file": "09-audio/cue-steel-impact.wav",
+      "creator": "Eruldin sound design from Kenney CC0 recordings",
+      "license": "CC0-1.0",
+      "modified": true,
+      "layers": [
+        {
+          "source": "09-audio/attack-slash.ogg",
+          "delay_s": 0,
+          "gain": 0.65,
+          "pitch_ratio": 1
+        },
+        {
+          "source": "09-audio/hit-metal.ogg",
+          "delay_s": 0.1,
+          "gain": 0.35,
+          "pitch_ratio": 1
+        }
+      ],
+      "duration_s": 0.5995,
+      "streams": [
+        {
+          "codec_name": "pcm_s16le",
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "sha256": "923f2136ba0d39d9454a50f8526e433ccaf3ae3888bf8ff7923458bf212d889f"
+    },
+    {
+      "file": "09-audio/cue-memory.wav",
+      "creator": "Eruldin sound design from Kenney CC0 recordings",
+      "license": "CC0-1.0",
+      "modified": true,
+      "layers": [
+        {
+          "source": "09-audio/card-draw.ogg",
+          "delay_s": 0,
+          "gain": 0.55,
+          "pitch_ratio": 1
+        },
+        {
+          "source": "09-audio/magic-glass.ogg",
+          "delay_s": 0.07,
+          "gain": 0.3,
+          "pitch_ratio": 0.8
+        }
+      ],
+      "duration_s": 0.7686,
+      "streams": [
+        {
+          "codec_name": "pcm_s16le",
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "sha256": "71bced189b8183d4de18459f1a865156c619cd4550e2a084d3ccc0f3c8b9f2dd"
+    },
+    {
+      "file": "09-audio/cue-heal.wav",
+      "creator": "Eruldin sound design from Kenney CC0 recordings",
+      "license": "CC0-1.0",
+      "modified": true,
+      "layers": [
+        {
+          "source": "09-audio/magic-bell.ogg",
+          "delay_s": 0,
+          "gain": 0.2,
+          "pitch_ratio": 1.5
+        },
+        {
+          "source": "09-audio/magic-glass.ogg",
+          "delay_s": 0.16,
+          "gain": 0.15,
+          "pitch_ratio": 1.2
+        }
+      ],
+      "duration_s": 0.9868,
+      "streams": [
+        {
+          "codec_name": "pcm_s16le",
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "sha256": "e10783865f096e7100f4f46e6bd7eecffecb9f51840ee325ee15a8dff441075d"
+    },
+    {
+      "file": "09-audio/cue-void.wav",
+      "creator": "Eruldin sound design from Kenney CC0 recordings",
+      "license": "CC0-1.0",
+      "modified": true,
+      "layers": [
+        {
+          "source": "09-audio/void-creak.ogg",
+          "delay_s": 0,
+          "gain": 0.35,
+          "pitch_ratio": 0.65
+        },
+        {
+          "source": "09-audio/cloth-motion.ogg",
+          "delay_s": 0.1,
+          "gain": 0.5,
+          "pitch_ratio": 0.75
+        },
+        {
+          "source": "09-audio/hit-heavy.ogg",
+          "delay_s": 0.2,
+          "gain": 0.25,
+          "pitch_ratio": 0.8
+        }
+      ],
+      "duration_s": 1.017,
+      "streams": [
+        {
+          "codec_name": "pcm_s16le",
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "sha256": "d702d59a15c80f5c15d583a6bc181ce769a6e3f37d79a85aa38a68da358692f0"
+    },
+    {
+      "file": "09-audio/cue-ultimate.wav",
+      "creator": "Eruldin sound design from Kenney CC0 recordings",
+      "license": "CC0-1.0",
+      "modified": true,
+      "layers": [
+        {
+          "source": "09-audio/magic-glass.ogg",
+          "delay_s": 0,
+          "gain": 0.22,
+          "pitch_ratio": 0.6
+        },
+        {
+          "source": "09-audio/magic-bell.ogg",
+          "delay_s": 0.2,
+          "gain": 0.3,
+          "pitch_ratio": 0.8
+        },
+        {
+          "source": "09-audio/hit-metal.ogg",
+          "delay_s": 0.36,
+          "gain": 0.3,
+          "pitch_ratio": 0.7
+        }
+      ],
+      "duration_s": 2.0503,
+      "streams": [
+        {
+          "codec_name": "pcm_s16le",
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "sha256": "447a45a32f1e7b429409c41eca67d55d4cebc4edc2f4a3f90dd0fee95a17a0e8"
+    },
+    {
+      "file": "09-audio/cue-victory.wav",
+      "creator": "Eruldin sound design from Kenney CC0 recordings",
+      "license": "CC0-1.0",
+      "modified": true,
+      "layers": [
+        {
+          "source": "09-audio/magic-bell.ogg",
+          "delay_s": 0,
+          "gain": 0.25,
+          "pitch_ratio": 1
+        },
+        {
+          "source": "09-audio/magic-bell.ogg",
+          "delay_s": 0.22,
+          "gain": 0.18,
+          "pitch_ratio": 1.25
+        },
+        {
+          "source": "09-audio/magic-bell.ogg",
+          "delay_s": 0.44,
+          "gain": 0.15,
+          "pitch_ratio": 1.5
+        }
+      ],
+      "duration_s": 1.4802,
+      "streams": [
+        {
+          "codec_name": "pcm_s16le",
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "sha256": "551b91695bfe06cf0a4d67c7834006e9657ee7abd12f3645cb9e5b31097714b5"
+    }
+  ],
+  "validation": "All files probed and decoded by FFmpeg. No listening/mastering or platform loudness sign-off claimed."
+}

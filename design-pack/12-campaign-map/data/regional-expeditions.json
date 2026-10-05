@@ -1,0 +1,1930 @@
+[
+  {
+    "region_id": "teomli",
+    "name": "Teomli",
+    "center": {
+      "x": 0.225,
+      "y": 0.34,
+      "space": "m2026"
+    },
+    "placement_note": "Merkez gerçek atlas POI’sidir; iç karşılaşmalar bölgesel rota önerisidir. Zağra Khur col uzayında gösterilir.",
+    "provenance": "Oyun genişlemesi; Marcel’in bu bölgeleri roman içinde gezdiği iddia edilmiyor.",
+    "unlock_after_story_checkpoint": 6,
+    "places": [
+      "teomli",
+      "teom",
+      "tharendil",
+      "dagen",
+      "nirvalor",
+      "moriathor",
+      "serlunar",
+      "vixen",
+      "vinya",
+      "fenri-sarayi",
+      "essan",
+      "vinthalen",
+      "selenor",
+      "erulmar",
+      "akcay-nehri",
+      "kutarion-ovasi"
+    ],
+    "nodes": [
+      {
+        "id": "teomli-exp-01",
+        "index": 1,
+        "enemy_id": "korvengrad-watch-izci",
+        "type": "battle",
+        "branches_to": [
+          "teomli-exp-02",
+          "teomli-exp-03"
+        ],
+        "layout_xy": [
+          0.1,
+          0.15
+        ],
+        "world_xy": null,
+        "reward_design": "Bölgesel kozmetik/keşif kaydı; ana hikâye ilerlemesi vermez."
+      },
+      {
+        "id": "teomli-exp-02",
+        "index": 2,
+        "enemy_id": "korvengrad-corrupt-surucu",
+        "type": "battle",
+        "branches_to": [
+          "teomli-exp-03",
+          "teomli-exp-04"
+        ],
+        "layout_xy": [
+          0.36,
+          0.15
+        ],
+        "world_xy": null,
+        "reward_design": "Bölgesel kozmetik/keşif kaydı; ana hikâye ilerlemesi vermez."
+      },
+      {
+        "id": "teomli-exp-03",
+        "index": 3,
+        "enemy_id": "valerus-loyal-avci",
+        "type": "battle",
+        "branches_to": [
+          "teomli-exp-04",
+          "teomli-exp-05"
+        ],
+        "layout_xy": [
+          0.62,
+          0.15
+        ],
+        "world_xy": null,
+        "reward_design": "Bölgesel kozmetik/keşif kaydı; ana hikâye ilerlemesi vermez."
+      },
+      {
+        "id": "teomli-exp-04",
+        "index": 4,
+        "enemy_id": "korvengrad-watch-muhafiz",
+        "type": "battle",
+        "branches_to": [
+          "teomli-exp-05",
+          "teomli-exp-06"
+        ],
+        "layout_xy": [
+          0.88,
+          0.15
+        ],
+        "world_xy": null,
+        "reward_design": "Bölgesel kozmetik/keşif kaydı; ana hikâye ilerlemesi vermez."
+      },
+      {
+        "id": "teomli-exp-05",
+        "index": 5,
+        "enemy_id": "korvengrad-corrupt-duellocu",
+        "type": "battle",
+        "branches_to": [
+          "teomli-exp-06",
+          "teomli-exp-07"
+        ],
+        "layout_xy": [
+          0.1,
+          0.37
+        ],
+        "world_xy": null,
+        "reward_design": "Bölgesel kozmetik/keşif kaydı; ana hikâye ilerlemesi vermez."
+      },
+      {
+        "id": "teomli-exp-06",
+        "index": 6,
+        "enemy_id": "valerus-loyal-kusatmaci",
+        "type": "battle",
+        "branches_to": [
+          "teomli-exp-07",
+          "teomli-exp-08"
+        ],
+        "layout_xy": [
+          0.36,
+          0.37
+        ],
+        "world_xy": null,
+        "reward_design": "Bölgesel kozmetik/keşif kaydı; ana hikâye ilerlemesi vermez."
+      },
+      {
+        "id": "teomli-exp-07",
+        "index": 7,
+        "enemy_id": "korvengrad-watch-pusucu",
+        "type": "battle",
+        "branches_to": [
+          "teomli-exp-08",
+          "teomli-exp-09"
+        ],
+        "layout_xy": [
+          0.62,
+          0.37
+        ],
+        "world_xy": null,
+        "reward_design": "Bölgesel kozmetik/keşif kaydı; ana hikâye ilerlemesi vermez."
+      },
+      {
+        "id": "teomli-exp-08",
+        "index": 8,
+        "enemy_id": "korvengrad-corrupt-buyucu",
+        "type": "battle",
+        "branches_to": [
+          "teomli-exp-09",
+          "teomli-exp-10"
+        ],
+        "layout_xy": [
+          0.88,
+          0.37
+        ],
+        "world_xy": null,
+        "reward_design": "Bölgesel kozmetik/keşif kaydı; ana hikâye ilerlemesi vermez."
+      },
+      {
+        "id": "teomli-exp-09",
+        "index": 9,
+        "enemy_id": "valerus-loyal-toplayici",
+        "type": "battle",
+        "branches_to": [
+          "teomli-exp-10",
+          "teomli-exp-11"
+        ],
+        "layout_xy": [
+          0.1,
+          0.59
+        ],
+        "world_xy": null,
+        "reward_design": "Bölgesel kozmetik/keşif kaydı; ana hikâye ilerlemesi vermez."
+      },
+      {
+        "id": "teomli-exp-10",
+        "index": 10,
+        "enemy_id": "korvengrad-watch-karsici",
+        "type": "battle",
+        "branches_to": [
+          "teomli-exp-11",
+          "teomli-exp-12"
+        ],
+        "layout_xy": [
+          0.36,
+          0.59
+        ],
+        "world_xy": null,
+        "reward_design": "Bölgesel kozmetik/keşif kaydı; ana hikâye ilerlemesi vermez."
+      },
+      {
+        "id": "teomli-exp-11",
+        "index": 11,
+        "enemy_id": "korvengrad-corrupt-dirilen",
+        "type": "battle",
+        "branches_to": [
+          "teomli-exp-12",
+          "teomli-exp-13"
+        ],
+        "layout_xy": [
+          0.62,
+          0.59
+        ],
+        "world_xy": null,
+        "reward_design": "Bölgesel kozmetik/keşif kaydı; ana hikâye ilerlemesi vermez."
+      },
+      {
+        "id": "teomli-exp-12",
+        "index": 12,
+        "enemy_id": "valerus-loyal-donusturucu",
+        "type": "battle",
+        "branches_to": [
+          "teomli-exp-13",
+          "teomli-exp-14"
+        ],
+        "layout_xy": [
+          0.88,
+          0.59
+        ],
+        "world_xy": null,
+        "reward_design": "Bölgesel kozmetik/keşif kaydı; ana hikâye ilerlemesi vermez."
+      },
+      {
+        "id": "teomli-exp-13",
+        "index": 13,
+        "enemy_id": "korvengrad-watch-tuketici",
+        "type": "battle",
+        "branches_to": [
+          "teomli-exp-14",
+          "teomli-exp-15"
+        ],
+        "layout_xy": [
+          0.1,
+          0.81
+        ],
+        "world_xy": null,
+        "reward_design": "Bölgesel kozmetik/keşif kaydı; ana hikâye ilerlemesi vermez."
+      },
+      {
+        "id": "teomli-exp-14",
+        "index": 14,
+        "enemy_id": "korvengrad-corrupt-koruyucu",
+        "type": "battle",
+        "branches_to": [
+          "teomli-exp-15"
+        ],
+        "layout_xy": [
+          0.36,
+          0.81
+        ],
+        "world_xy": null,
+        "reward_design": "Bölgesel kozmetik/keşif kaydı; ana hikâye ilerlemesi vermez."
+      },
+      {
+        "id": "teomli-exp-15",
+        "index": 15,
+        "enemy_id": "valerus-loyal-elit",
+        "type": "elite",
+        "branches_to": [
+          "teomli-exp-16"
+        ],
+        "layout_xy": [
+          0.62,
+          0.81
+        ],
+        "world_xy": null,
+        "reward_design": "Bölgesel kozmetik/keşif kaydı; ana hikâye ilerlemesi vermez."
+      },
+      {
+        "id": "teomli-exp-16",
+        "index": 16,
+        "enemy_id": "korvengrad-watch-reis",
+        "type": "boss",
+        "branches_to": [],
+        "layout_xy": [
+          0.88,
+          0.81
+        ],
+        "world_xy": null,
+        "reward_design": "Bölgesel kozmetik/keşif kaydı; ana hikâye ilerlemesi vermez."
+      }
+    ],
+    "region_art_asset": "12-campaign-map/region-art/teomli.webp"
+  },
+  {
+    "region_id": "shi-qra",
+    "name": "Shi Qra",
+    "center": {
+      "x": 0.82,
+      "y": 0.3,
+      "space": "m2026"
+    },
+    "placement_note": "Merkez gerçek atlas POI’sidir; iç karşılaşmalar bölgesel rota önerisidir. Zağra Khur col uzayında gösterilir.",
+    "provenance": "Oyun genişlemesi; Marcel’in bu bölgeleri roman içinde gezdiği iddia edilmiyor.",
+    "unlock_after_story_checkpoint": 6,
+    "places": [
+      "shi-qra",
+      "urum-kalesi",
+      "tarhun",
+      "qarash",
+      "demir-daglari",
+      "kizil-bozkirlar",
+      "siyah-siradaglar"
+    ],
+    "nodes": [
+      {
+        "id": "shi-qra-exp-01",
+        "index": 1,
+        "enemy_id": "shi-qra-outlaws-izci",
+        "type": "battle",
+        "branches_to": [
+          "shi-qra-exp-02",
+          "shi-qra-exp-03"
+        ],
+        "layout_xy": [
+          0.1,
+          0.15
+        ],
+        "world_xy": null,
+        "reward_design": "Bölgesel kozmetik/keşif kaydı; ana hikâye ilerlemesi vermez."
+      },
+      {
+        "id": "shi-qra-exp-02",
+        "index": 2,
+        "enemy_id": "koru-forge-surucu",
+        "type": "battle",
+        "branches_to": [
+          "shi-qra-exp-03",
+          "shi-qra-exp-04"
+        ],
+        "layout_xy": [
+          0.36,
+          0.15
+        ],
+        "world_xy": null,
+        "reward_design": "Bölgesel kozmetik/keşif kaydı; ana hikâye ilerlemesi vermez."
+      },
+      {
+        "id": "shi-qra-exp-03",
+        "index": 3,
+        "enemy_id": "karah-armored-avci",
+        "type": "battle",
+        "branches_to": [
+          "shi-qra-exp-04",
+          "shi-qra-exp-05"
+        ],
+        "layout_xy": [
+          0.62,
+          0.15
+        ],
+        "world_xy": null,
+        "reward_design": "Bölgesel kozmetik/keşif kaydı; ana hikâye ilerlemesi vermez."
+      },
+      {
+        "id": "shi-qra-exp-04",
+        "index": 4,
+        "enemy_id": "shi-qra-outlaws-muhafiz",
+        "type": "battle",
+        "branches_to": [
+          "shi-qra-exp-05",
+          "shi-qra-exp-06"
+        ],
+        "layout_xy": [
+          0.88,
+          0.15
+        ],
+        "world_xy": null,
+        "reward_design": "Bölgesel kozmetik/keşif kaydı; ana hikâye ilerlemesi vermez."
+      },
+      {
+        "id": "shi-qra-exp-05",
+        "index": 5,
+        "enemy_id": "koru-forge-duellocu",
+        "type": "battle",
+        "branches_to": [
+          "shi-qra-exp-06",
+          "shi-qra-exp-07"
+        ],
+        "layout_xy": [
+          0.1,
+          0.37
+        ],
+        "world_xy": null,
+        "reward_design": "Bölgesel kozmetik/keşif kaydı; ana hikâye ilerlemesi vermez."
+      },
+      {
+        "id": "shi-qra-exp-06",
+        "index": 6,
+        "enemy_id": "karah-armored-kusatmaci",
+        "type": "battle",
+        "branches_to": [
+          "shi-qra-exp-07",
+          "shi-qra-exp-08"
+        ],
+        "layout_xy": [
+          0.36,
+          0.37
+        ],
+        "world_xy": null,
+        "reward_design": "Bölgesel kozmetik/keşif kaydı; ana hikâye ilerlemesi vermez."
+      },
+      {
+        "id": "shi-qra-exp-07",
+        "index": 7,
+        "enemy_id": "shi-qra-outlaws-pusucu",
+        "type": "battle",
+        "branches_to": [
+          "shi-qra-exp-08",
+          "shi-qra-exp-09"
+        ],
+        "layout_xy": [
+          0.62,
+          0.37
+        ],
+        "world_xy": null,
+        "reward_design": "Bölgesel kozmetik/keşif kaydı; ana hikâye ilerlemesi vermez."
+      },
+      {
+        "id": "shi-qra-exp-08",
+        "index": 8,
+        "enemy_id": "koru-forge-buyucu",
+        "type": "battle",
+        "branches_to": [
+          "shi-qra-exp-09",
+          "shi-qra-exp-10"
+        ],
+        "layout_xy": [
+          0.88,
+          0.37
+        ],
+        "world_xy": null,
+        "reward_design": "Bölgesel kozmetik/keşif kaydı; ana hikâye ilerlemesi vermez."
+      },
+      {
+        "id": "shi-qra-exp-09",
+        "index": 9,
+        "enemy_id": "karah-armored-toplayici",
+        "type": "battle",
+        "branches_to": [
+          "shi-qra-exp-10",
+          "shi-qra-exp-11"
+        ],
+        "layout_xy": [
+          0.1,
+          0.59
+        ],
+        "world_xy": null,
+        "reward_design": "Bölgesel kozmetik/keşif kaydı; ana hikâye ilerlemesi vermez."
+      },
+      {
+        "id": "shi-qra-exp-10",
+        "index": 10,
+        "enemy_id": "shi-qra-outlaws-karsici",
+        "type": "battle",
+        "branches_to": [
+          "shi-qra-exp-11",
+          "shi-qra-exp-12"
+        ],
+        "layout_xy": [
+          0.36,
+          0.59
+        ],
+        "world_xy": null,
+        "reward_design": "Bölgesel kozmetik/keşif kaydı; ana hikâye ilerlemesi vermez."
+      },
+      {
+        "id": "shi-qra-exp-11",
+        "index": 11,
+        "enemy_id": "koru-forge-dirilen",
+        "type": "battle",
+        "branches_to": [
+          "shi-qra-exp-12",
+          "shi-qra-exp-13"
+        ],
+        "layout_xy": [
+          0.62,
+          0.59
+        ],
+        "world_xy": null,
+        "reward_design": "Bölgesel kozmetik/keşif kaydı; ana hikâye ilerlemesi vermez."
+      },
+      {
+        "id": "shi-qra-exp-12",
+        "index": 12,
+        "enemy_id": "karah-armored-donusturucu",
+        "type": "battle",
+        "branches_to": [
+          "shi-qra-exp-13",
+          "shi-qra-exp-14"
+        ],
+        "layout_xy": [
+          0.88,
+          0.59
+        ],
+        "world_xy": null,
+        "reward_design": "Bölgesel kozmetik/keşif kaydı; ana hikâye ilerlemesi vermez."
+      },
+      {
+        "id": "shi-qra-exp-13",
+        "index": 13,
+        "enemy_id": "shi-qra-outlaws-tuketici",
+        "type": "battle",
+        "branches_to": [
+          "shi-qra-exp-14",
+          "shi-qra-exp-15"
+        ],
+        "layout_xy": [
+          0.1,
+          0.81
+        ],
+        "world_xy": null,
+        "reward_design": "Bölgesel kozmetik/keşif kaydı; ana hikâye ilerlemesi vermez."
+      },
+      {
+        "id": "shi-qra-exp-14",
+        "index": 14,
+        "enemy_id": "koru-forge-koruyucu",
+        "type": "battle",
+        "branches_to": [
+          "shi-qra-exp-15"
+        ],
+        "layout_xy": [
+          0.36,
+          0.81
+        ],
+        "world_xy": null,
+        "reward_design": "Bölgesel kozmetik/keşif kaydı; ana hikâye ilerlemesi vermez."
+      },
+      {
+        "id": "shi-qra-exp-15",
+        "index": 15,
+        "enemy_id": "karah-armored-elit",
+        "type": "elite",
+        "branches_to": [
+          "shi-qra-exp-16"
+        ],
+        "layout_xy": [
+          0.62,
+          0.81
+        ],
+        "world_xy": null,
+        "reward_design": "Bölgesel kozmetik/keşif kaydı; ana hikâye ilerlemesi vermez."
+      },
+      {
+        "id": "shi-qra-exp-16",
+        "index": 16,
+        "enemy_id": "shi-qra-outlaws-reis",
+        "type": "boss",
+        "branches_to": [],
+        "layout_xy": [
+          0.88,
+          0.81
+        ],
+        "world_xy": null,
+        "reward_design": "Bölgesel kozmetik/keşif kaydı; ana hikâye ilerlemesi vermez."
+      }
+    ],
+    "region_art_asset": "12-campaign-map/region-art/shi-qra.webp"
+  },
+  {
+    "region_id": "serath",
+    "name": "Serath",
+    "center": {
+      "x": 0.14,
+      "y": 0.75,
+      "space": "m2026"
+    },
+    "placement_note": "Merkez gerçek atlas POI’sidir; iç karşılaşmalar bölgesel rota önerisidir. Zağra Khur col uzayında gösterilir.",
+    "provenance": "Oyun genişlemesi; Marcel’in bu bölgeleri roman içinde gezdiği iddia edilmiyor.",
+    "unlock_after_story_checkpoint": 6,
+    "places": [
+      "serath",
+      "karga-tepeleri",
+      "cagri-siradaglari",
+      "guneyde-ilk-karah"
+    ],
+    "nodes": [
+      {
+        "id": "serath-exp-01",
+        "index": 1,
+        "enemy_id": "pass-raiders-izci",
+        "type": "battle",
+        "branches_to": [
+          "serath-exp-02",
+          "serath-exp-03"
+        ],
+        "layout_xy": [
+          0.1,
+          0.15
+        ],
+        "world_xy": null,
+        "reward_design": "Bölgesel kozmetik/keşif kaydı; ana hikâye ilerlemesi vermez."
+      },
+      {
+        "id": "serath-exp-02",
+        "index": 2,
+        "enemy_id": "karah-crawler-surucu",
+        "type": "battle",
+        "branches_to": [
+          "serath-exp-03",
+          "serath-exp-04"
+        ],
+        "layout_xy": [
+          0.36,
+          0.15
+        ],
+        "world_xy": null,
+        "reward_design": "Bölgesel kozmetik/keşif kaydı; ana hikâye ilerlemesi vermez."
+      },
+      {
+        "id": "serath-exp-03",
+        "index": 3,
+        "enemy_id": "ash-scavenger-avci",
+        "type": "battle",
+        "branches_to": [
+          "serath-exp-04",
+          "serath-exp-05"
+        ],
+        "layout_xy": [
+          0.62,
+          0.15
+        ],
+        "world_xy": null,
+        "reward_design": "Bölgesel kozmetik/keşif kaydı; ana hikâye ilerlemesi vermez."
+      },
+      {
+        "id": "serath-exp-04",
+        "index": 4,
+        "enemy_id": "pass-raiders-muhafiz",
+        "type": "battle",
+        "branches_to": [
+          "serath-exp-05",
+          "serath-exp-06"
+        ],
+        "layout_xy": [
+          0.88,
+          0.15
+        ],
+        "world_xy": null,
+        "reward_design": "Bölgesel kozmetik/keşif kaydı; ana hikâye ilerlemesi vermez."
+      },
+      {
+        "id": "serath-exp-05",
+        "index": 5,
+        "enemy_id": "karah-crawler-duellocu",
+        "type": "battle",
+        "branches_to": [
+          "serath-exp-06",
+          "serath-exp-07"
+        ],
+        "layout_xy": [
+          0.1,
+          0.37
+        ],
+        "world_xy": null,
+        "reward_design": "Bölgesel kozmetik/keşif kaydı; ana hikâye ilerlemesi vermez."
+      },
+      {
+        "id": "serath-exp-06",
+        "index": 6,
+        "enemy_id": "ash-scavenger-kusatmaci",
+        "type": "battle",
+        "branches_to": [
+          "serath-exp-07",
+          "serath-exp-08"
+        ],
+        "layout_xy": [
+          0.36,
+          0.37
+        ],
+        "world_xy": null,
+        "reward_design": "Bölgesel kozmetik/keşif kaydı; ana hikâye ilerlemesi vermez."
+      },
+      {
+        "id": "serath-exp-07",
+        "index": 7,
+        "enemy_id": "pass-raiders-pusucu",
+        "type": "battle",
+        "branches_to": [
+          "serath-exp-08",
+          "serath-exp-09"
+        ],
+        "layout_xy": [
+          0.62,
+          0.37
+        ],
+        "world_xy": null,
+        "reward_design": "Bölgesel kozmetik/keşif kaydı; ana hikâye ilerlemesi vermez."
+      },
+      {
+        "id": "serath-exp-08",
+        "index": 8,
+        "enemy_id": "karah-crawler-buyucu",
+        "type": "battle",
+        "branches_to": [
+          "serath-exp-09",
+          "serath-exp-10"
+        ],
+        "layout_xy": [
+          0.88,
+          0.37
+        ],
+        "world_xy": null,
+        "reward_design": "Bölgesel kozmetik/keşif kaydı; ana hikâye ilerlemesi vermez."
+      },
+      {
+        "id": "serath-exp-09",
+        "index": 9,
+        "enemy_id": "ash-scavenger-toplayici",
+        "type": "battle",
+        "branches_to": [
+          "serath-exp-10",
+          "serath-exp-11"
+        ],
+        "layout_xy": [
+          0.1,
+          0.59
+        ],
+        "world_xy": null,
+        "reward_design": "Bölgesel kozmetik/keşif kaydı; ana hikâye ilerlemesi vermez."
+      },
+      {
+        "id": "serath-exp-10",
+        "index": 10,
+        "enemy_id": "pass-raiders-karsici",
+        "type": "battle",
+        "branches_to": [
+          "serath-exp-11",
+          "serath-exp-12"
+        ],
+        "layout_xy": [
+          0.36,
+          0.59
+        ],
+        "world_xy": null,
+        "reward_design": "Bölgesel kozmetik/keşif kaydı; ana hikâye ilerlemesi vermez."
+      },
+      {
+        "id": "serath-exp-11",
+        "index": 11,
+        "enemy_id": "karah-crawler-dirilen",
+        "type": "battle",
+        "branches_to": [
+          "serath-exp-12",
+          "serath-exp-13"
+        ],
+        "layout_xy": [
+          0.62,
+          0.59
+        ],
+        "world_xy": null,
+        "reward_design": "Bölgesel kozmetik/keşif kaydı; ana hikâye ilerlemesi vermez."
+      },
+      {
+        "id": "serath-exp-12",
+        "index": 12,
+        "enemy_id": "ash-scavenger-donusturucu",
+        "type": "battle",
+        "branches_to": [
+          "serath-exp-13",
+          "serath-exp-14"
+        ],
+        "layout_xy": [
+          0.88,
+          0.59
+        ],
+        "world_xy": null,
+        "reward_design": "Bölgesel kozmetik/keşif kaydı; ana hikâye ilerlemesi vermez."
+      },
+      {
+        "id": "serath-exp-13",
+        "index": 13,
+        "enemy_id": "pass-raiders-tuketici",
+        "type": "battle",
+        "branches_to": [
+          "serath-exp-14",
+          "serath-exp-15"
+        ],
+        "layout_xy": [
+          0.1,
+          0.81
+        ],
+        "world_xy": null,
+        "reward_design": "Bölgesel kozmetik/keşif kaydı; ana hikâye ilerlemesi vermez."
+      },
+      {
+        "id": "serath-exp-14",
+        "index": 14,
+        "enemy_id": "karah-crawler-koruyucu",
+        "type": "battle",
+        "branches_to": [
+          "serath-exp-15"
+        ],
+        "layout_xy": [
+          0.36,
+          0.81
+        ],
+        "world_xy": null,
+        "reward_design": "Bölgesel kozmetik/keşif kaydı; ana hikâye ilerlemesi vermez."
+      },
+      {
+        "id": "serath-exp-15",
+        "index": 15,
+        "enemy_id": "ash-scavenger-elit",
+        "type": "elite",
+        "branches_to": [
+          "serath-exp-16"
+        ],
+        "layout_xy": [
+          0.62,
+          0.81
+        ],
+        "world_xy": null,
+        "reward_design": "Bölgesel kozmetik/keşif kaydı; ana hikâye ilerlemesi vermez."
+      },
+      {
+        "id": "serath-exp-16",
+        "index": 16,
+        "enemy_id": "pass-raiders-reis",
+        "type": "boss",
+        "branches_to": [],
+        "layout_xy": [
+          0.88,
+          0.81
+        ],
+        "world_xy": null,
+        "reward_design": "Bölgesel kozmetik/keşif kaydı; ana hikâye ilerlemesi vermez."
+      }
+    ],
+    "region_art_asset": "12-campaign-map/region-art/serath.webp"
+  },
+  {
+    "region_id": "aldemir",
+    "name": "Aldemir",
+    "center": {
+      "x": 0.55,
+      "y": 0.725,
+      "space": "m2026"
+    },
+    "placement_note": "Merkez gerçek atlas POI’sidir; iç karşılaşmalar bölgesel rota önerisidir. Zağra Khur col uzayında gösterilir.",
+    "provenance": "Oyun genişlemesi; Marcel’in bu bölgeleri roman içinde gezdiği iddia edilmiyor.",
+    "unlock_after_story_checkpoint": 6,
+    "places": [
+      "aldemir",
+      "gurz-ormanlari",
+      "yildiztepeler",
+      "safir-golu",
+      "sukunet-vadisi",
+      "karanlik-ormanlar"
+    ],
+    "nodes": [
+      {
+        "id": "aldemir-exp-01",
+        "index": 1,
+        "enemy_id": "forest-predators-izci",
+        "type": "battle",
+        "branches_to": [
+          "aldemir-exp-02",
+          "aldemir-exp-03"
+        ],
+        "layout_xy": [
+          0.1,
+          0.15
+        ],
+        "world_xy": null,
+        "reward_design": "Bölgesel kozmetik/keşif kaydı; ana hikâye ilerlemesi vermez."
+      },
+      {
+        "id": "aldemir-exp-02",
+        "index": 2,
+        "enemy_id": "marsh-visions-surucu",
+        "type": "battle",
+        "branches_to": [
+          "aldemir-exp-03",
+          "aldemir-exp-04"
+        ],
+        "layout_xy": [
+          0.36,
+          0.15
+        ],
+        "world_xy": null,
+        "reward_design": "Bölgesel kozmetik/keşif kaydı; ana hikâye ilerlemesi vermez."
+      },
+      {
+        "id": "aldemir-exp-03",
+        "index": 3,
+        "enemy_id": "karah-stalker-avci",
+        "type": "battle",
+        "branches_to": [
+          "aldemir-exp-04",
+          "aldemir-exp-05"
+        ],
+        "layout_xy": [
+          0.62,
+          0.15
+        ],
+        "world_xy": null,
+        "reward_design": "Bölgesel kozmetik/keşif kaydı; ana hikâye ilerlemesi vermez."
+      },
+      {
+        "id": "aldemir-exp-04",
+        "index": 4,
+        "enemy_id": "forest-predators-muhafiz",
+        "type": "battle",
+        "branches_to": [
+          "aldemir-exp-05",
+          "aldemir-exp-06"
+        ],
+        "layout_xy": [
+          0.88,
+          0.15
+        ],
+        "world_xy": null,
+        "reward_design": "Bölgesel kozmetik/keşif kaydı; ana hikâye ilerlemesi vermez."
+      },
+      {
+        "id": "aldemir-exp-05",
+        "index": 5,
+        "enemy_id": "marsh-visions-duellocu",
+        "type": "battle",
+        "branches_to": [
+          "aldemir-exp-06",
+          "aldemir-exp-07"
+        ],
+        "layout_xy": [
+          0.1,
+          0.37
+        ],
+        "world_xy": null,
+        "reward_design": "Bölgesel kozmetik/keşif kaydı; ana hikâye ilerlemesi vermez."
+      },
+      {
+        "id": "aldemir-exp-06",
+        "index": 6,
+        "enemy_id": "karah-stalker-kusatmaci",
+        "type": "battle",
+        "branches_to": [
+          "aldemir-exp-07",
+          "aldemir-exp-08"
+        ],
+        "layout_xy": [
+          0.36,
+          0.37
+        ],
+        "world_xy": null,
+        "reward_design": "Bölgesel kozmetik/keşif kaydı; ana hikâye ilerlemesi vermez."
+      },
+      {
+        "id": "aldemir-exp-07",
+        "index": 7,
+        "enemy_id": "forest-predators-pusucu",
+        "type": "battle",
+        "branches_to": [
+          "aldemir-exp-08",
+          "aldemir-exp-09"
+        ],
+        "layout_xy": [
+          0.62,
+          0.37
+        ],
+        "world_xy": null,
+        "reward_design": "Bölgesel kozmetik/keşif kaydı; ana hikâye ilerlemesi vermez."
+      },
+      {
+        "id": "aldemir-exp-08",
+        "index": 8,
+        "enemy_id": "marsh-visions-buyucu",
+        "type": "battle",
+        "branches_to": [
+          "aldemir-exp-09",
+          "aldemir-exp-10"
+        ],
+        "layout_xy": [
+          0.88,
+          0.37
+        ],
+        "world_xy": null,
+        "reward_design": "Bölgesel kozmetik/keşif kaydı; ana hikâye ilerlemesi vermez."
+      },
+      {
+        "id": "aldemir-exp-09",
+        "index": 9,
+        "enemy_id": "karah-stalker-toplayici",
+        "type": "battle",
+        "branches_to": [
+          "aldemir-exp-10",
+          "aldemir-exp-11"
+        ],
+        "layout_xy": [
+          0.1,
+          0.59
+        ],
+        "world_xy": null,
+        "reward_design": "Bölgesel kozmetik/keşif kaydı; ana hikâye ilerlemesi vermez."
+      },
+      {
+        "id": "aldemir-exp-10",
+        "index": 10,
+        "enemy_id": "forest-predators-karsici",
+        "type": "battle",
+        "branches_to": [
+          "aldemir-exp-11",
+          "aldemir-exp-12"
+        ],
+        "layout_xy": [
+          0.36,
+          0.59
+        ],
+        "world_xy": null,
+        "reward_design": "Bölgesel kozmetik/keşif kaydı; ana hikâye ilerlemesi vermez."
+      },
+      {
+        "id": "aldemir-exp-11",
+        "index": 11,
+        "enemy_id": "marsh-visions-dirilen",
+        "type": "battle",
+        "branches_to": [
+          "aldemir-exp-12",
+          "aldemir-exp-13"
+        ],
+        "layout_xy": [
+          0.62,
+          0.59
+        ],
+        "world_xy": null,
+        "reward_design": "Bölgesel kozmetik/keşif kaydı; ana hikâye ilerlemesi vermez."
+      },
+      {
+        "id": "aldemir-exp-12",
+        "index": 12,
+        "enemy_id": "karah-stalker-donusturucu",
+        "type": "battle",
+        "branches_to": [
+          "aldemir-exp-13",
+          "aldemir-exp-14"
+        ],
+        "layout_xy": [
+          0.88,
+          0.59
+        ],
+        "world_xy": null,
+        "reward_design": "Bölgesel kozmetik/keşif kaydı; ana hikâye ilerlemesi vermez."
+      },
+      {
+        "id": "aldemir-exp-13",
+        "index": 13,
+        "enemy_id": "forest-predators-tuketici",
+        "type": "battle",
+        "branches_to": [
+          "aldemir-exp-14",
+          "aldemir-exp-15"
+        ],
+        "layout_xy": [
+          0.1,
+          0.81
+        ],
+        "world_xy": null,
+        "reward_design": "Bölgesel kozmetik/keşif kaydı; ana hikâye ilerlemesi vermez."
+      },
+      {
+        "id": "aldemir-exp-14",
+        "index": 14,
+        "enemy_id": "marsh-visions-koruyucu",
+        "type": "battle",
+        "branches_to": [
+          "aldemir-exp-15"
+        ],
+        "layout_xy": [
+          0.36,
+          0.81
+        ],
+        "world_xy": null,
+        "reward_design": "Bölgesel kozmetik/keşif kaydı; ana hikâye ilerlemesi vermez."
+      },
+      {
+        "id": "aldemir-exp-15",
+        "index": 15,
+        "enemy_id": "karah-stalker-elit",
+        "type": "elite",
+        "branches_to": [
+          "aldemir-exp-16"
+        ],
+        "layout_xy": [
+          0.62,
+          0.81
+        ],
+        "world_xy": null,
+        "reward_design": "Bölgesel kozmetik/keşif kaydı; ana hikâye ilerlemesi vermez."
+      },
+      {
+        "id": "aldemir-exp-16",
+        "index": 16,
+        "enemy_id": "forest-predators-reis",
+        "type": "boss",
+        "branches_to": [],
+        "layout_xy": [
+          0.88,
+          0.81
+        ],
+        "world_xy": null,
+        "reward_design": "Bölgesel kozmetik/keşif kaydı; ana hikâye ilerlemesi vermez."
+      }
+    ],
+    "region_art_asset": "12-campaign-map/region-art/aldemir.webp"
+  },
+  {
+    "region_id": "val-teresh",
+    "name": "Val-Teresh",
+    "center": {
+      "x": 0.86,
+      "y": 0.77,
+      "space": "m2026"
+    },
+    "placement_note": "Merkez gerçek atlas POI’sidir; iç karşılaşmalar bölgesel rota önerisidir. Zağra Khur col uzayında gösterilir.",
+    "provenance": "Oyun genişlemesi; Marcel’in bu bölgeleri roman içinde gezdiği iddia edilmiyor.",
+    "unlock_after_story_checkpoint": 6,
+    "places": [
+      "val-teresh",
+      "yasemin-ormanlari",
+      "ahiriz",
+      "sedef-adalari",
+      "sessiz-deniz"
+    ],
+    "nodes": [
+      {
+        "id": "val-teresh-exp-01",
+        "index": 1,
+        "enemy_id": "council-izci",
+        "type": "battle",
+        "branches_to": [
+          "val-teresh-exp-02",
+          "val-teresh-exp-03"
+        ],
+        "layout_xy": [
+          0.1,
+          0.15
+        ],
+        "world_xy": null,
+        "reward_design": "Bölgesel kozmetik/keşif kaydı; ana hikâye ilerlemesi vermez."
+      },
+      {
+        "id": "val-teresh-exp-02",
+        "index": 2,
+        "enemy_id": "butterfly-guard-surucu",
+        "type": "battle",
+        "branches_to": [
+          "val-teresh-exp-03",
+          "val-teresh-exp-04"
+        ],
+        "layout_xy": [
+          0.36,
+          0.15
+        ],
+        "world_xy": null,
+        "reward_design": "Bölgesel kozmetik/keşif kaydı; ana hikâye ilerlemesi vermez."
+      },
+      {
+        "id": "val-teresh-exp-03",
+        "index": 3,
+        "enemy_id": "living-fortress-avci",
+        "type": "battle",
+        "branches_to": [
+          "val-teresh-exp-04",
+          "val-teresh-exp-05"
+        ],
+        "layout_xy": [
+          0.62,
+          0.15
+        ],
+        "world_xy": null,
+        "reward_design": "Bölgesel kozmetik/keşif kaydı; ana hikâye ilerlemesi vermez."
+      },
+      {
+        "id": "val-teresh-exp-04",
+        "index": 4,
+        "enemy_id": "council-muhafiz",
+        "type": "battle",
+        "branches_to": [
+          "val-teresh-exp-05",
+          "val-teresh-exp-06"
+        ],
+        "layout_xy": [
+          0.88,
+          0.15
+        ],
+        "world_xy": null,
+        "reward_design": "Bölgesel kozmetik/keşif kaydı; ana hikâye ilerlemesi vermez."
+      },
+      {
+        "id": "val-teresh-exp-05",
+        "index": 5,
+        "enemy_id": "butterfly-guard-duellocu",
+        "type": "battle",
+        "branches_to": [
+          "val-teresh-exp-06",
+          "val-teresh-exp-07"
+        ],
+        "layout_xy": [
+          0.1,
+          0.37
+        ],
+        "world_xy": null,
+        "reward_design": "Bölgesel kozmetik/keşif kaydı; ana hikâye ilerlemesi vermez."
+      },
+      {
+        "id": "val-teresh-exp-06",
+        "index": 6,
+        "enemy_id": "living-fortress-kusatmaci",
+        "type": "battle",
+        "branches_to": [
+          "val-teresh-exp-07",
+          "val-teresh-exp-08"
+        ],
+        "layout_xy": [
+          0.36,
+          0.37
+        ],
+        "world_xy": null,
+        "reward_design": "Bölgesel kozmetik/keşif kaydı; ana hikâye ilerlemesi vermez."
+      },
+      {
+        "id": "val-teresh-exp-07",
+        "index": 7,
+        "enemy_id": "council-pusucu",
+        "type": "battle",
+        "branches_to": [
+          "val-teresh-exp-08",
+          "val-teresh-exp-09"
+        ],
+        "layout_xy": [
+          0.62,
+          0.37
+        ],
+        "world_xy": null,
+        "reward_design": "Bölgesel kozmetik/keşif kaydı; ana hikâye ilerlemesi vermez."
+      },
+      {
+        "id": "val-teresh-exp-08",
+        "index": 8,
+        "enemy_id": "butterfly-guard-buyucu",
+        "type": "battle",
+        "branches_to": [
+          "val-teresh-exp-09",
+          "val-teresh-exp-10"
+        ],
+        "layout_xy": [
+          0.88,
+          0.37
+        ],
+        "world_xy": null,
+        "reward_design": "Bölgesel kozmetik/keşif kaydı; ana hikâye ilerlemesi vermez."
+      },
+      {
+        "id": "val-teresh-exp-09",
+        "index": 9,
+        "enemy_id": "living-fortress-toplayici",
+        "type": "battle",
+        "branches_to": [
+          "val-teresh-exp-10",
+          "val-teresh-exp-11"
+        ],
+        "layout_xy": [
+          0.1,
+          0.59
+        ],
+        "world_xy": null,
+        "reward_design": "Bölgesel kozmetik/keşif kaydı; ana hikâye ilerlemesi vermez."
+      },
+      {
+        "id": "val-teresh-exp-10",
+        "index": 10,
+        "enemy_id": "council-karsici",
+        "type": "battle",
+        "branches_to": [
+          "val-teresh-exp-11",
+          "val-teresh-exp-12"
+        ],
+        "layout_xy": [
+          0.36,
+          0.59
+        ],
+        "world_xy": null,
+        "reward_design": "Bölgesel kozmetik/keşif kaydı; ana hikâye ilerlemesi vermez."
+      },
+      {
+        "id": "val-teresh-exp-11",
+        "index": 11,
+        "enemy_id": "butterfly-guard-dirilen",
+        "type": "battle",
+        "branches_to": [
+          "val-teresh-exp-12",
+          "val-teresh-exp-13"
+        ],
+        "layout_xy": [
+          0.62,
+          0.59
+        ],
+        "world_xy": null,
+        "reward_design": "Bölgesel kozmetik/keşif kaydı; ana hikâye ilerlemesi vermez."
+      },
+      {
+        "id": "val-teresh-exp-12",
+        "index": 12,
+        "enemy_id": "living-fortress-donusturucu",
+        "type": "battle",
+        "branches_to": [
+          "val-teresh-exp-13",
+          "val-teresh-exp-14"
+        ],
+        "layout_xy": [
+          0.88,
+          0.59
+        ],
+        "world_xy": null,
+        "reward_design": "Bölgesel kozmetik/keşif kaydı; ana hikâye ilerlemesi vermez."
+      },
+      {
+        "id": "val-teresh-exp-13",
+        "index": 13,
+        "enemy_id": "council-tuketici",
+        "type": "battle",
+        "branches_to": [
+          "val-teresh-exp-14",
+          "val-teresh-exp-15"
+        ],
+        "layout_xy": [
+          0.1,
+          0.81
+        ],
+        "world_xy": null,
+        "reward_design": "Bölgesel kozmetik/keşif kaydı; ana hikâye ilerlemesi vermez."
+      },
+      {
+        "id": "val-teresh-exp-14",
+        "index": 14,
+        "enemy_id": "butterfly-guard-koruyucu",
+        "type": "battle",
+        "branches_to": [
+          "val-teresh-exp-15"
+        ],
+        "layout_xy": [
+          0.36,
+          0.81
+        ],
+        "world_xy": null,
+        "reward_design": "Bölgesel kozmetik/keşif kaydı; ana hikâye ilerlemesi vermez."
+      },
+      {
+        "id": "val-teresh-exp-15",
+        "index": 15,
+        "enemy_id": "living-fortress-elit",
+        "type": "elite",
+        "branches_to": [
+          "val-teresh-exp-16"
+        ],
+        "layout_xy": [
+          0.62,
+          0.81
+        ],
+        "world_xy": null,
+        "reward_design": "Bölgesel kozmetik/keşif kaydı; ana hikâye ilerlemesi vermez."
+      },
+      {
+        "id": "val-teresh-exp-16",
+        "index": 16,
+        "enemy_id": "council-reis",
+        "type": "boss",
+        "branches_to": [],
+        "layout_xy": [
+          0.88,
+          0.81
+        ],
+        "world_xy": null,
+        "reward_design": "Bölgesel kozmetik/keşif kaydı; ana hikâye ilerlemesi vermez."
+      }
+    ],
+    "region_art_asset": "12-campaign-map/region-art/val-teresh.webp"
+  },
+  {
+    "region_id": "zagra-khur",
+    "name": "Zağra Khur",
+    "center": null,
+    "placement_note": "Merkez gerçek atlas POI’sidir; iç karşılaşmalar bölgesel rota önerisidir. Zağra Khur col uzayında gösterilir.",
+    "provenance": "Oyun genişlemesi; Marcel’in bu bölgeleri roman içinde gezdiği iddia edilmiyor.",
+    "unlock_after_story_checkpoint": 6,
+    "places": [
+      "zahur",
+      "nerala",
+      "altharun",
+      "osirmat",
+      "tul-mirad",
+      "tul-esra",
+      "dehrim",
+      "karta",
+      "tanax",
+      "temple",
+      "shi-ra",
+      "jajarta"
+    ],
+    "nodes": [
+      {
+        "id": "zagra-khur-exp-01",
+        "index": 1,
+        "enemy_id": "desert-hunters-izci",
+        "type": "battle",
+        "branches_to": [
+          "zagra-khur-exp-02",
+          "zagra-khur-exp-03"
+        ],
+        "layout_xy": [
+          0.1,
+          0.15
+        ],
+        "world_xy": null,
+        "reward_design": "Bölgesel kozmetik/keşif kaydı; ana hikâye ilerlemesi vermez."
+      },
+      {
+        "id": "zagra-khur-exp-02",
+        "index": 2,
+        "enemy_id": "desert-hunters-surucu",
+        "type": "battle",
+        "branches_to": [
+          "zagra-khur-exp-03",
+          "zagra-khur-exp-04"
+        ],
+        "layout_xy": [
+          0.36,
+          0.15
+        ],
+        "world_xy": null,
+        "reward_design": "Bölgesel kozmetik/keşif kaydı; ana hikâye ilerlemesi vermez."
+      },
+      {
+        "id": "zagra-khur-exp-03",
+        "index": 3,
+        "enemy_id": "desert-hunters-avci",
+        "type": "battle",
+        "branches_to": [
+          "zagra-khur-exp-04",
+          "zagra-khur-exp-05"
+        ],
+        "layout_xy": [
+          0.62,
+          0.15
+        ],
+        "world_xy": null,
+        "reward_design": "Bölgesel kozmetik/keşif kaydı; ana hikâye ilerlemesi vermez."
+      },
+      {
+        "id": "zagra-khur-exp-04",
+        "index": 4,
+        "enemy_id": "desert-hunters-muhafiz",
+        "type": "battle",
+        "branches_to": [
+          "zagra-khur-exp-05",
+          "zagra-khur-exp-06"
+        ],
+        "layout_xy": [
+          0.88,
+          0.15
+        ],
+        "world_xy": null,
+        "reward_design": "Bölgesel kozmetik/keşif kaydı; ana hikâye ilerlemesi vermez."
+      },
+      {
+        "id": "zagra-khur-exp-05",
+        "index": 5,
+        "enemy_id": "desert-hunters-duellocu",
+        "type": "battle",
+        "branches_to": [
+          "zagra-khur-exp-06",
+          "zagra-khur-exp-07"
+        ],
+        "layout_xy": [
+          0.1,
+          0.37
+        ],
+        "world_xy": null,
+        "reward_design": "Bölgesel kozmetik/keşif kaydı; ana hikâye ilerlemesi vermez."
+      },
+      {
+        "id": "zagra-khur-exp-06",
+        "index": 6,
+        "enemy_id": "desert-hunters-kusatmaci",
+        "type": "battle",
+        "branches_to": [
+          "zagra-khur-exp-07",
+          "zagra-khur-exp-08"
+        ],
+        "layout_xy": [
+          0.36,
+          0.37
+        ],
+        "world_xy": null,
+        "reward_design": "Bölgesel kozmetik/keşif kaydı; ana hikâye ilerlemesi vermez."
+      },
+      {
+        "id": "zagra-khur-exp-07",
+        "index": 7,
+        "enemy_id": "desert-hunters-pusucu",
+        "type": "battle",
+        "branches_to": [
+          "zagra-khur-exp-08",
+          "zagra-khur-exp-09"
+        ],
+        "layout_xy": [
+          0.62,
+          0.37
+        ],
+        "world_xy": null,
+        "reward_design": "Bölgesel kozmetik/keşif kaydı; ana hikâye ilerlemesi vermez."
+      },
+      {
+        "id": "zagra-khur-exp-08",
+        "index": 8,
+        "enemy_id": "desert-hunters-buyucu",
+        "type": "battle",
+        "branches_to": [
+          "zagra-khur-exp-09",
+          "zagra-khur-exp-10"
+        ],
+        "layout_xy": [
+          0.88,
+          0.37
+        ],
+        "world_xy": null,
+        "reward_design": "Bölgesel kozmetik/keşif kaydı; ana hikâye ilerlemesi vermez."
+      },
+      {
+        "id": "zagra-khur-exp-09",
+        "index": 9,
+        "enemy_id": "desert-hunters-toplayici",
+        "type": "battle",
+        "branches_to": [
+          "zagra-khur-exp-10",
+          "zagra-khur-exp-11"
+        ],
+        "layout_xy": [
+          0.1,
+          0.59
+        ],
+        "world_xy": null,
+        "reward_design": "Bölgesel kozmetik/keşif kaydı; ana hikâye ilerlemesi vermez."
+      },
+      {
+        "id": "zagra-khur-exp-10",
+        "index": 10,
+        "enemy_id": "desert-hunters-karsici",
+        "type": "battle",
+        "branches_to": [
+          "zagra-khur-exp-11",
+          "zagra-khur-exp-12"
+        ],
+        "layout_xy": [
+          0.36,
+          0.59
+        ],
+        "world_xy": null,
+        "reward_design": "Bölgesel kozmetik/keşif kaydı; ana hikâye ilerlemesi vermez."
+      },
+      {
+        "id": "zagra-khur-exp-11",
+        "index": 11,
+        "enemy_id": "desert-hunters-dirilen",
+        "type": "battle",
+        "branches_to": [
+          "zagra-khur-exp-12",
+          "zagra-khur-exp-13"
+        ],
+        "layout_xy": [
+          0.62,
+          0.59
+        ],
+        "world_xy": null,
+        "reward_design": "Bölgesel kozmetik/keşif kaydı; ana hikâye ilerlemesi vermez."
+      },
+      {
+        "id": "zagra-khur-exp-12",
+        "index": 12,
+        "enemy_id": "desert-hunters-donusturucu",
+        "type": "battle",
+        "branches_to": [
+          "zagra-khur-exp-13",
+          "zagra-khur-exp-14"
+        ],
+        "layout_xy": [
+          0.88,
+          0.59
+        ],
+        "world_xy": null,
+        "reward_design": "Bölgesel kozmetik/keşif kaydı; ana hikâye ilerlemesi vermez."
+      },
+      {
+        "id": "zagra-khur-exp-13",
+        "index": 13,
+        "enemy_id": "desert-hunters-tuketici",
+        "type": "battle",
+        "branches_to": [
+          "zagra-khur-exp-14",
+          "zagra-khur-exp-15"
+        ],
+        "layout_xy": [
+          0.1,
+          0.81
+        ],
+        "world_xy": null,
+        "reward_design": "Bölgesel kozmetik/keşif kaydı; ana hikâye ilerlemesi vermez."
+      },
+      {
+        "id": "zagra-khur-exp-14",
+        "index": 14,
+        "enemy_id": "desert-hunters-koruyucu",
+        "type": "battle",
+        "branches_to": [
+          "zagra-khur-exp-15"
+        ],
+        "layout_xy": [
+          0.36,
+          0.81
+        ],
+        "world_xy": null,
+        "reward_design": "Bölgesel kozmetik/keşif kaydı; ana hikâye ilerlemesi vermez."
+      },
+      {
+        "id": "zagra-khur-exp-15",
+        "index": 15,
+        "enemy_id": "desert-hunters-elit",
+        "type": "elite",
+        "branches_to": [
+          "zagra-khur-exp-16"
+        ],
+        "layout_xy": [
+          0.62,
+          0.81
+        ],
+        "world_xy": null,
+        "reward_design": "Bölgesel kozmetik/keşif kaydı; ana hikâye ilerlemesi vermez."
+      },
+      {
+        "id": "zagra-khur-exp-16",
+        "index": 16,
+        "enemy_id": "desert-hunters-reis",
+        "type": "boss",
+        "branches_to": [],
+        "layout_xy": [
+          0.88,
+          0.81
+        ],
+        "world_xy": null,
+        "reward_design": "Bölgesel kozmetik/keşif kaydı; ana hikâye ilerlemesi vermez."
+      }
+    ],
+    "region_art_asset": "12-campaign-map/region-art/zagra-khur.webp"
+  },
+  {
+    "region_id": "ebedi-buzullar",
+    "name": "Ebedi Buzullar",
+    "center": {
+      "x": 0.21,
+      "y": 0.115,
+      "space": "m2026"
+    },
+    "placement_note": "Merkez gerçek atlas POI’sidir; iç karşılaşmalar bölgesel rota önerisidir. Zağra Khur col uzayında gösterilir.",
+    "provenance": "Oyun genişlemesi; Marcel’in bu bölgeleri roman içinde gezdiği iddia edilmiyor.",
+    "unlock_after_story_checkpoint": 6,
+    "places": [
+      "ebedi-buzullar",
+      "vivaxen",
+      "dumanli-daglar",
+      "ikiz-disler",
+      "ak-gecit",
+      "kuzeyin-sonu"
+    ],
+    "nodes": [
+      {
+        "id": "ebedi-buzullar-exp-01",
+        "index": 1,
+        "enemy_id": "frost-predators-izci",
+        "type": "battle",
+        "branches_to": [
+          "ebedi-buzullar-exp-02",
+          "ebedi-buzullar-exp-03"
+        ],
+        "layout_xy": [
+          0.1,
+          0.15
+        ],
+        "world_xy": null,
+        "reward_design": "Bölgesel kozmetik/keşif kaydı; ana hikâye ilerlemesi vermez."
+      },
+      {
+        "id": "ebedi-buzullar-exp-02",
+        "index": 2,
+        "enemy_id": "frost-predators-surucu",
+        "type": "battle",
+        "branches_to": [
+          "ebedi-buzullar-exp-03",
+          "ebedi-buzullar-exp-04"
+        ],
+        "layout_xy": [
+          0.36,
+          0.15
+        ],
+        "world_xy": null,
+        "reward_design": "Bölgesel kozmetik/keşif kaydı; ana hikâye ilerlemesi vermez."
+      },
+      {
+        "id": "ebedi-buzullar-exp-03",
+        "index": 3,
+        "enemy_id": "frost-predators-avci",
+        "type": "battle",
+        "branches_to": [
+          "ebedi-buzullar-exp-04",
+          "ebedi-buzullar-exp-05"
+        ],
+        "layout_xy": [
+          0.62,
+          0.15
+        ],
+        "world_xy": null,
+        "reward_design": "Bölgesel kozmetik/keşif kaydı; ana hikâye ilerlemesi vermez."
+      },
+      {
+        "id": "ebedi-buzullar-exp-04",
+        "index": 4,
+        "enemy_id": "frost-predators-muhafiz",
+        "type": "battle",
+        "branches_to": [
+          "ebedi-buzullar-exp-05",
+          "ebedi-buzullar-exp-06"
+        ],
+        "layout_xy": [
+          0.88,
+          0.15
+        ],
+        "world_xy": null,
+        "reward_design": "Bölgesel kozmetik/keşif kaydı; ana hikâye ilerlemesi vermez."
+      },
+      {
+        "id": "ebedi-buzullar-exp-05",
+        "index": 5,
+        "enemy_id": "frost-predators-duellocu",
+        "type": "battle",
+        "branches_to": [
+          "ebedi-buzullar-exp-06",
+          "ebedi-buzullar-exp-07"
+        ],
+        "layout_xy": [
+          0.1,
+          0.37
+        ],
+        "world_xy": null,
+        "reward_design": "Bölgesel kozmetik/keşif kaydı; ana hikâye ilerlemesi vermez."
+      },
+      {
+        "id": "ebedi-buzullar-exp-06",
+        "index": 6,
+        "enemy_id": "frost-predators-kusatmaci",
+        "type": "battle",
+        "branches_to": [
+          "ebedi-buzullar-exp-07",
+          "ebedi-buzullar-exp-08"
+        ],
+        "layout_xy": [
+          0.36,
+          0.37
+        ],
+        "world_xy": null,
+        "reward_design": "Bölgesel kozmetik/keşif kaydı; ana hikâye ilerlemesi vermez."
+      },
+      {
+        "id": "ebedi-buzullar-exp-07",
+        "index": 7,
+        "enemy_id": "frost-predators-pusucu",
+        "type": "battle",
+        "branches_to": [
+          "ebedi-buzullar-exp-08",
+          "ebedi-buzullar-exp-09"
+        ],
+        "layout_xy": [
+          0.62,
+          0.37
+        ],
+        "world_xy": null,
+        "reward_design": "Bölgesel kozmetik/keşif kaydı; ana hikâye ilerlemesi vermez."
+      },
+      {
+        "id": "ebedi-buzullar-exp-08",
+        "index": 8,
+        "enemy_id": "frost-predators-buyucu",
+        "type": "battle",
+        "branches_to": [
+          "ebedi-buzullar-exp-09",
+          "ebedi-buzullar-exp-10"
+        ],
+        "layout_xy": [
+          0.88,
+          0.37
+        ],
+        "world_xy": null,
+        "reward_design": "Bölgesel kozmetik/keşif kaydı; ana hikâye ilerlemesi vermez."
+      },
+      {
+        "id": "ebedi-buzullar-exp-09",
+        "index": 9,
+        "enemy_id": "frost-predators-toplayici",
+        "type": "battle",
+        "branches_to": [
+          "ebedi-buzullar-exp-10",
+          "ebedi-buzullar-exp-11"
+        ],
+        "layout_xy": [
+          0.1,
+          0.59
+        ],
+        "world_xy": null,
+        "reward_design": "Bölgesel kozmetik/keşif kaydı; ana hikâye ilerlemesi vermez."
+      },
+      {
+        "id": "ebedi-buzullar-exp-10",
+        "index": 10,
+        "enemy_id": "frost-predators-karsici",
+        "type": "battle",
+        "branches_to": [
+          "ebedi-buzullar-exp-11",
+          "ebedi-buzullar-exp-12"
+        ],
+        "layout_xy": [
+          0.36,
+          0.59
+        ],
+        "world_xy": null,
+        "reward_design": "Bölgesel kozmetik/keşif kaydı; ana hikâye ilerlemesi vermez."
+      },
+      {
+        "id": "ebedi-buzullar-exp-11",
+        "index": 11,
+        "enemy_id": "frost-predators-dirilen",
+        "type": "battle",
+        "branches_to": [
+          "ebedi-buzullar-exp-12",
+          "ebedi-buzullar-exp-13"
+        ],
+        "layout_xy": [
+          0.62,
+          0.59
+        ],
+        "world_xy": null,
+        "reward_design": "Bölgesel kozmetik/keşif kaydı; ana hikâye ilerlemesi vermez."
+      },
+      {
+        "id": "ebedi-buzullar-exp-12",
+        "index": 12,
+        "enemy_id": "frost-predators-donusturucu",
+        "type": "battle",
+        "branches_to": [
+          "ebedi-buzullar-exp-13",
+          "ebedi-buzullar-exp-14"
+        ],
+        "layout_xy": [
+          0.88,
+          0.59
+        ],
+        "world_xy": null,
+        "reward_design": "Bölgesel kozmetik/keşif kaydı; ana hikâye ilerlemesi vermez."
+      },
+      {
+        "id": "ebedi-buzullar-exp-13",
+        "index": 13,
+        "enemy_id": "frost-predators-tuketici",
+        "type": "battle",
+        "branches_to": [
+          "ebedi-buzullar-exp-14",
+          "ebedi-buzullar-exp-15"
+        ],
+        "layout_xy": [
+          0.1,
+          0.81
+        ],
+        "world_xy": null,
+        "reward_design": "Bölgesel kozmetik/keşif kaydı; ana hikâye ilerlemesi vermez."
+      },
+      {
+        "id": "ebedi-buzullar-exp-14",
+        "index": 14,
+        "enemy_id": "frost-predators-koruyucu",
+        "type": "battle",
+        "branches_to": [
+          "ebedi-buzullar-exp-15"
+        ],
+        "layout_xy": [
+          0.36,
+          0.81
+        ],
+        "world_xy": null,
+        "reward_design": "Bölgesel kozmetik/keşif kaydı; ana hikâye ilerlemesi vermez."
+      },
+      {
+        "id": "ebedi-buzullar-exp-15",
+        "index": 15,
+        "enemy_id": "frost-predators-elit",
+        "type": "elite",
+        "branches_to": [
+          "ebedi-buzullar-exp-16"
+        ],
+        "layout_xy": [
+          0.62,
+          0.81
+        ],
+        "world_xy": null,
+        "reward_design": "Bölgesel kozmetik/keşif kaydı; ana hikâye ilerlemesi vermez."
+      },
+      {
+        "id": "ebedi-buzullar-exp-16",
+        "index": 16,
+        "enemy_id": "frost-predators-reis",
+        "type": "boss",
+        "branches_to": [],
+        "layout_xy": [
+          0.88,
+          0.81
+        ],
+        "world_xy": null,
+        "reward_design": "Bölgesel kozmetik/keşif kaydı; ana hikâye ilerlemesi vermez."
+      }
+    ],
+    "region_art_asset": "12-campaign-map/region-art/ebedi-buzullar.webp"
+  }
+]

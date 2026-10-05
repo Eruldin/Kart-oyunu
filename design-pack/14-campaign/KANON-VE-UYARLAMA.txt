@@ -1,0 +1,25 @@
+ERULDİN / HARİTA VE KARŞILAŞMA PAKETİ V3
+
+Kaynak coğrafya: Eruldin Destanı haritası sitesi. Kıyılar, POI koordinatları, arazi görselleri ve yükseklik verisi korunarak kopyalandı. Kaynak klasörde değişiklik yapılmadı.
+Marcel yerlerinin dünya koordinatları bu atlasta yoktur. Yerel kampanya bir rota diyagramıdır; Teolam kıyılarına hayalî kesin koordinat eklenmedi. Zağra Khur’un col uzayı ana dünya uzayıyla karıştırılmaz.
+
+ROMAN DAYANAKLARI
+1–13 Korvengrad, katedral, Karahlar ve Fiona; 14–23 Kül Tarlaları/Kırık Diş; 24–38 Koru, Valerus, Borin, Torg, Akhenten ve kaçış; 39–55 manastır, Primus ve Yankılar; 56–66 Koru’ya dönüş, Gorn ve ziyafet; 67–85 Tensar’ın gölgesi, yıkım, Kuzgunyuvası; 86–100 Fiona bakış açısı ve Kızıl Kale.
+Torg s.36 öldürülmez. Gorn s.61–62 yardımcıdır. Krovlar topluca düşman değildir.
+Primus karşılaşmasının ilk çizgisi s.42–44 yenilgi ve Yankı geçişidir; oyuncu zaferi diye değiştirilmedi.
+Fiona s.66 Gölge Yolu’ndan alınır; s.86–100 hayattadır. O bir düşman kartı/öldürme hedefi değildir.
+Tensar s.67–70 görülen gölgedir; gerçek varlığı üç gün sonrası tehdididir. Yaratılan karanlık varlıklar s.72’den türetilmiştir.
+Valerus s.69–70 ölümcül saldırıya uğrar; s.97–98 Anzer ölmediğini söyler. Bu süreklilik belirsizliği korunur, kesin öldü ya da tamamen iyileşti hükmü yoktur.
+Paslı Kanca s.80’de gürültülü fakat müziksizdir; s.83–84 ozan girip Yitik Şafak ağıdını söyler. Ses atmosferi sahne aşamasına göre değişir.
+Ölüler Bataklığı s.82–84 yol planıdır; Marcel’in henüz geçtiği sahne değildir. Genişleme olarak ayrılmıştır.
+Kelebek işaretli ağızsız maskeler s.88; Anzer’in kelebekli siyah metal koltuğu s.94 ve kelebek s.98. Askerler Karah değildir.
+Anzer Viole, Vesemir ve Shiro’nun gizli motivasyonları kesinleştirilmez. Kitabın kesit sonunda Kral ile final zaferi yoktur.
+
+OYUN EKLEMELERİ
+288 düşman profili, 720 kart tasarımı, desteler, yetenekler, istatistikler ve 112 bölgesel keşif karşılaşması oyun tasarımıdır. Atlasın kültür ve yaratık betimleri kendi notuna göre tasarım önerileri olabilir; roman kanonu diye kullanılmaz.
+Korvengrad muhafız aileleri kullanıcı örneğinden geliştirilmiş oyun eklemesidir. İnsan/Krov birliğinin düşman olması rol ve sadakate bağlıdır.
+Kadim Watcherlar sıradan düşman/deste/ganimet yapılmadı.
+Bu paketteki yüzlerce düşman için ayrı bitmiş resim/model yoktur. Ayrı deste ve imza kartı verileri hazır; tüm kartların denge testi ve motor uygulaması yapılmadı.
+
+ROMANIN GERÇEK BÖLÜM SINIRLARI
+1: 1–16; 2: 17–24; 3: 25–38; 4: 39–56; 5: 57–72; 6: 73–85; 7: 86–100. Koru yıkımı 5. bölüm sonundadır; kampanya düğümleri buna göre hizalandı. Koru, Fiona’nın s.13 tarifine göre Korvengrad’ın 20 km kuzeybatısındadır; bu göreli tarif korunur.

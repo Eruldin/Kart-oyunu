@@ -1,0 +1,6 @@
+{
+  "tool": "image_gen built-in",
+  "prompt": "Edit Image 1, a 4-column 3-row fantasy enemy contact sheet. Preserve the other ELEVEN cells, their characters, lighting, composition and all grid proportions. Change ONLY bottom row third column (the furry bear-like mountain warrior) into a HUMANOID Krov outlaw from Shi Qra: a very large broad humanlike rugged warrior, heavy-browed weathered face, HUMAN NOSE AND MOUTH, normal round humanlike ears, no animal muzzle, no beast snout, no animal ears. Image 2 shows established Krov anatomy on Akhenten: use that humanoid anatomical language, but this is a different younger 40-year-old outlaw with a short black beard, orange-red felt shoulder mantle, iron toolhammer and winter mountain equipment, mountain background. Retain original painterly realism and distinct amber-gray palette. The target must clearly be a large humanoid person rather than an anthropomorphic bear or lion. No lettering. Do not replace other cells with the reference character.",
+  "target": "enemy-art-direction-v3.png",
+  "reference": "02-characters/action-v2/akhenten.png"
+}

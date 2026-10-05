@@ -1,0 +1,32 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {spawn} from 'node:child_process';
+import {mkdtemp,readFile} from 'node:fs/promises';
+import {tmpdir} from 'node:os';
+import {join} from 'node:path';
+import {botCommand} from '../packages/engine/index.mjs';
+test('Authoritative API: progression, rooms, secrecy, SSE, ranking and persistence',async t=>{
+ const dir=await mkdtemp(join(tmpdir(),'eruldin-api-'));const port=3111;const child=spawn(process.execPath,['server.mjs'],{env:{...process.env,PORT:String(port),DATA_DIR:dir,BOT_DELAY_MS:'1'},stdio:['ignore','pipe','pipe']});t.after(()=>child.kill());
+ await new Promise((resolve,reject)=>{child.stdout.once('data',resolve);child.once('error',reject);child.once('exit',code=>reject(Error('Server exited '+code)));});
+ const api=async(path,data,token)=>{const r=await fetch(`http://127.0.0.1:${port}/api/${path}`,{method:data?'POST':'GET',headers:{'Content-Type':'application/json',...(token?{Authorization:'Bearer '+token}:{})},...(data?{body:JSON.stringify(data)}:{})});return{status:r.status,data:await r.json()};};
+ assert.equal((await api('profile')).status,401);
+ const a=(await api('session',{})).data,b=(await api('session',{})).data,c=(await api('session',{})).data;
+ assert.equal((await api('session',{token:a.token})).data.profile.id,a.profile.id);
+ assert.equal((await api('story',{chapter:4,echo:'ash'},a.token)).status,400);
+ const patched=await api('profile',{progress:99,rating:99999},a.token);assert.equal(patched.data.progress,0);assert.equal(patched.data.rating,1000);
+ assert.equal((await api('profile',{deck:['karah']},a.token)).status,400);
+ let started=(await api('story',{chapter:0,echo:'teom'},a.token)).data;assert.ok(started.matchId);assert.equal(started.state.players[1].deck,undefined);assert.ok(started.state.players[1].hand.every(h=>h.hidden));
+ assert.equal((await api('command',{matchId:started.matchId,command:{type:'concede'}},b.token)).status,400);
+ let iterations=0;
+ while(started.state.winner===null&&iterations++<600){if(started.state.active===0){const response=await api('command',{matchId:started.matchId,command:botCommand(started.state)},a.token);assert.equal(response.status,200,JSON.stringify(response.data));started.state=response.data.state;if(started.state.winner!==null)break;}else{await new Promise(r=>setTimeout(r,4));const response=await api('match',undefined,a.token);if(response.data)started=response.data;else break;}}
+ const pa=(await api('profile',undefined,a.token)).data;assert.equal(pa.progress,1,'First chapter must be won by server commands');assert.equal(pa.storyWins,1);
+ const roomA=(await api('room',{action:'create',echo:'ash'},a.token)).data;assert.equal((await api('room',{action:'join',code:roomA.code},b.token)).status,400,'Unequal story layers must not match');await api('room',{action:'cancel'},a.token);
+ const roomB=(await api('room',{action:'create',echo:'ash'},b.token)).data;
+ const abort=new AbortController();t.after(()=>abort.abort());const response=await fetch(`http://127.0.0.1:${port}/api/events?token=${b.token}`,{signal:abort.signal});const reader=response.body.getReader();await reader.read();
+ const duel=(await api('room',{action:'join',code:roomB.code,echo:'white'},c.token)).data;assert.equal(duel.kind,'online');assert.equal(duel.actor,1);
+ const update=new TextDecoder().decode((await reader.read()).value);assert.ok(update.includes('"kind":"online"'));assert.ok(update.includes('"hidden":true'));abort.abort();
+ const result=await api('command',{matchId:duel.matchId,command:{type:'concede'}},c.token);assert.equal(result.status,200);assert.equal(result.data.state.winner,0);
+ const leaders=(await api('leaderboard',undefined,b.token)).data;assert.equal(leaders[0].id,a.profile.id,'Progress dominates rating');assert.equal(leaders.find(p=>p.id===b.profile.id).rating,1012);assert.equal(leaders.find(p=>p.id===c.profile.id).rating,988);assert.ok(leaders.every(p=>p.token===undefined));
+ const stored=JSON.parse(await readFile(join(dir,'profiles.json'),'utf8'));assert.equal(stored[a.profile.id].progress,1);assert.equal(stored[b.profile.id].wins,1);
+ const html=await fetch(`http://127.0.0.1:${port}/`);assert.equal(html.status,200);assert.ok((await html.text()).includes('Eruldin: Yankılar'));
+});

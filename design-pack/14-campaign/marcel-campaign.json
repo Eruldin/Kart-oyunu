@@ -1,0 +1,1378 @@
+{
+  "scope": "100 sayfalık eldeki roman kesitine uyarlama",
+  "nodes": [
+    {
+      "id": "marcel-01-01",
+      "title": "Kör Aziz Katedrali",
+      "chapter": 1,
+      "chapter_title": "Yukarısı gibi aşağısı",
+      "region": "Korvengrad",
+      "type": "story",
+      "source_page_range": [
+        1,
+        16
+      ],
+      "story_evidence": "Roman sahnesi; kart karşılaşması ve seçimler oyun uyarlaması",
+      "world_xy": null,
+      "route_layout_xy": [
+        0.08,
+        0.88
+      ],
+      "enemy_candidates": [],
+      "objective": "Karşılaşmayı tamamla.",
+      "completed_checkpoint": 1,
+      "spoiler_gate": 1,
+      "map_state": "koru-intact",
+      "optional_battle": false
+    },
+    {
+      "id": "marcel-01-02",
+      "title": "Katedral çıkışı",
+      "chapter": 1,
+      "chapter_title": "Yukarısı gibi aşağısı",
+      "region": "Korvengrad",
+      "type": "battle",
+      "source_page_range": [
+        1,
+        16
+      ],
+      "story_evidence": "Roman sahnesi; kart karşılaşması ve seçimler oyun uyarlaması",
+      "world_xy": null,
+      "route_layout_xy": [
+        0.248,
+        0.88
+      ],
+      "enemy_candidates": [
+        "karah-crawler-izci",
+        "karah-crawler-surucu",
+        "karah-crawler-avci",
+        "karah-crawler-muhafiz",
+        "karah-crawler-duellocu",
+        "karah-crawler-kusatmaci",
+        "karah-crawler-pusucu",
+        "karah-crawler-buyucu",
+        "karah-crawler-toplayici",
+        "karah-crawler-karsici",
+        "karah-crawler-dirilen",
+        "karah-crawler-donusturucu",
+        "karah-crawler-tuketici",
+        "karah-crawler-koruyucu",
+        "karah-armored-izci",
+        "karah-armored-surucu",
+        "karah-armored-avci",
+        "karah-armored-muhafiz",
+        "karah-armored-duellocu",
+        "karah-armored-kusatmaci",
+        "karah-armored-pusucu",
+        "karah-armored-buyucu",
+        "karah-armored-toplayici",
+        "karah-armored-karsici",
+        "karah-armored-dirilen",
+        "karah-armored-donusturucu",
+        "karah-armored-tuketici",
+        "karah-armored-koruyucu",
+        "korvengrad-corrupt-izci",
+        "korvengrad-corrupt-surucu",
+        "korvengrad-corrupt-avci",
+        "korvengrad-corrupt-muhafiz",
+        "korvengrad-corrupt-duellocu",
+        "korvengrad-corrupt-kusatmaci",
+        "korvengrad-corrupt-pusucu",
+        "korvengrad-corrupt-buyucu",
+        "korvengrad-corrupt-toplayici",
+        "korvengrad-corrupt-karsici",
+        "korvengrad-corrupt-dirilen",
+        "korvengrad-corrupt-donusturucu",
+        "korvengrad-corrupt-tuketici",
+        "korvengrad-corrupt-koruyucu"
+      ],
+      "objective": "Karşılaşmayı tamamla.",
+      "completed_checkpoint": 2,
+      "spoiler_gate": 1,
+      "map_state": "koru-intact",
+      "optional_battle": false
+    },
+    {
+      "id": "marcel-01-03",
+      "title": "Karah sokakları",
+      "chapter": 1,
+      "chapter_title": "Yukarısı gibi aşağısı",
+      "region": "Korvengrad",
+      "type": "battle",
+      "source_page_range": [
+        1,
+        16
+      ],
+      "story_evidence": "Roman sahnesi; kart karşılaşması ve seçimler oyun uyarlaması",
+      "world_xy": null,
+      "route_layout_xy": [
+        0.416,
+        0.88
+      ],
+      "enemy_candidates": [],
+      "objective": "Diyaloğu ve sahne hedefini tamamla.",
+      "completed_checkpoint": 3,
+      "spoiler_gate": 1,
+      "map_state": "koru-intact",
+      "optional_battle": false
+    },
+    {
+      "id": "marcel-01-04",
+      "title": "Teom çeliği",
+      "chapter": 1,
+      "chapter_title": "Yukarısı gibi aşağısı",
+      "region": "Korvengrad",
+      "type": "battle",
+      "source_page_range": [
+        1,
+        16
+      ],
+      "story_evidence": "Roman sahnesi; kart karşılaşması ve seçimler oyun uyarlaması",
+      "world_xy": null,
+      "route_layout_xy": [
+        0.584,
+        0.88
+      ],
+      "enemy_candidates": [
+        "karah-crawler-izci",
+        "karah-crawler-surucu",
+        "karah-crawler-avci",
+        "karah-crawler-muhafiz",
+        "karah-crawler-duellocu",
+        "karah-crawler-kusatmaci",
+        "karah-crawler-pusucu",
+        "karah-crawler-buyucu",
+        "karah-crawler-toplayici",
+        "karah-crawler-karsici",
+        "karah-crawler-dirilen",
+        "karah-crawler-donusturucu",
+        "karah-crawler-tuketici",
+        "karah-crawler-koruyucu",
+        "karah-armored-izci",
+        "karah-armored-surucu",
+        "karah-armored-avci",
+        "karah-armored-muhafiz",
+        "karah-armored-duellocu",
+        "karah-armored-kusatmaci",
+        "karah-armored-pusucu",
+        "karah-armored-buyucu",
+        "karah-armored-toplayici",
+        "karah-armored-karsici",
+        "karah-armored-dirilen",
+        "karah-armored-donusturucu",
+        "karah-armored-tuketici",
+        "karah-armored-koruyucu",
+        "korvengrad-corrupt-izci",
+        "korvengrad-corrupt-surucu",
+        "korvengrad-corrupt-avci",
+        "korvengrad-corrupt-muhafiz",
+        "korvengrad-corrupt-duellocu",
+        "korvengrad-corrupt-kusatmaci",
+        "korvengrad-corrupt-pusucu",
+        "korvengrad-corrupt-buyucu",
+        "korvengrad-corrupt-toplayici",
+        "korvengrad-corrupt-karsici",
+        "korvengrad-corrupt-dirilen",
+        "korvengrad-corrupt-donusturucu",
+        "korvengrad-corrupt-tuketici",
+        "korvengrad-corrupt-koruyucu"
+      ],
+      "objective": "Karşılaşmayı tamamla.",
+      "completed_checkpoint": 4,
+      "spoiler_gate": 1,
+      "map_state": "koru-intact",
+      "optional_battle": false
+    },
+    {
+      "id": "marcel-01-05",
+      "title": "Fiona ile karşılaşma",
+      "chapter": 1,
+      "chapter_title": "Yukarısı gibi aşağısı",
+      "region": "Korvengrad",
+      "type": "story",
+      "source_page_range": [
+        1,
+        16
+      ],
+      "story_evidence": "Roman sahnesi; kart karşılaşması ve seçimler oyun uyarlaması",
+      "world_xy": null,
+      "route_layout_xy": [
+        0.7519999999999999,
+        0.88
+      ],
+      "enemy_candidates": [],
+      "objective": "Diyaloğu ve sahne hedefini tamamla.",
+      "completed_checkpoint": 5,
+      "spoiler_gate": 1,
+      "map_state": "koru-intact",
+      "optional_battle": false
+    },
+    {
+      "id": "marcel-01-06",
+      "title": "Korvengrad’dan kaçış",
+      "chapter": 1,
+      "chapter_title": "Yukarısı gibi aşağısı",
+      "region": "Korvengrad",
+      "type": "survival",
+      "source_page_range": [
+        1,
+        16
+      ],
+      "story_evidence": "Roman sahnesi; kart karşılaşması ve seçimler oyun uyarlaması",
+      "world_xy": null,
+      "route_layout_xy": [
+        0.92,
+        0.88
+      ],
+      "enemy_candidates": [],
+      "objective": "Rota ve erzak kartlarıyla sahne hedefini tamamla; savaş kazanmak zorunlu değil.",
+      "completed_checkpoint": 6,
+      "spoiler_gate": 1,
+      "map_state": "koru-intact",
+      "optional_battle": false
+    },
+    {
+      "id": "marcel-02-01",
+      "title": "Kül Tarlaları",
+      "chapter": 2,
+      "chapter_title": "Küllerin Ağırlığı",
+      "region": "Kül Tarlaları",
+      "type": "survival",
+      "source_page_range": [
+        17,
+        24
+      ],
+      "story_evidence": "Roman sahnesi; kart karşılaşması ve seçimler oyun uyarlaması",
+      "world_xy": null,
+      "route_layout_xy": [
+        0.08,
+        0.758
+      ],
+      "enemy_candidates": [],
+      "objective": "Rota ve erzak kartlarıyla sahne hedefini tamamla; savaş kazanmak zorunlu değil.",
+      "completed_checkpoint": 7,
+      "spoiler_gate": 2,
+      "map_state": "koru-intact",
+      "optional_battle": false
+    },
+    {
+      "id": "marcel-02-02",
+      "title": "Yıkıntı sığınağı",
+      "chapter": 2,
+      "chapter_title": "Küllerin Ağırlığı",
+      "region": "Kül Tarlaları",
+      "type": "exploration",
+      "source_page_range": [
+        17,
+        24
+      ],
+      "story_evidence": "Roman sahnesi; kart karşılaşması ve seçimler oyun uyarlaması",
+      "world_xy": null,
+      "route_layout_xy": [
+        0.248,
+        0.758
+      ],
+      "enemy_candidates": [],
+      "objective": "Konum/nesne incelemesini tamamla; çevre sakinleri otomatik düşman değildir.",
+      "completed_checkpoint": 8,
+      "spoiler_gate": 2,
+      "map_state": "koru-intact",
+      "optional_battle": false
+    },
+    {
+      "id": "marcel-02-03",
+      "title": "Gece ateşi",
+      "chapter": 2,
+      "chapter_title": "Küllerin Ağırlığı",
+      "region": "Kül Tarlaları",
+      "type": "rest",
+      "source_page_range": [
+        17,
+        24
+      ],
+      "story_evidence": "Roman sahnesi; kart karşılaşması ve seçimler oyun uyarlaması",
+      "world_xy": null,
+      "route_layout_xy": [
+        0.416,
+        0.758
+      ],
+      "enemy_candidates": [],
+      "objective": "Dinlenme ve aile bağı sahnesini tamamla; dostlara saldırılmaz.",
+      "completed_checkpoint": 9,
+      "spoiler_gate": 2,
+      "map_state": "koru-intact",
+      "optional_battle": false
+    },
+    {
+      "id": "marcel-02-04",
+      "title": "Yaralı Fiona",
+      "chapter": 2,
+      "chapter_title": "Küllerin Ağırlığı",
+      "region": "Kül Tarlaları",
+      "type": "story",
+      "source_page_range": [
+        17,
+        24
+      ],
+      "story_evidence": "Roman sahnesi; kart karşılaşması ve seçimler oyun uyarlaması",
+      "world_xy": null,
+      "route_layout_xy": [
+        0.584,
+        0.758
+      ],
+      "enemy_candidates": [],
+      "objective": "Karşılaşmayı tamamla.",
+      "completed_checkpoint": 10,
+      "spoiler_gate": 2,
+      "map_state": "koru-intact",
+      "optional_battle": false
+    },
+    {
+      "id": "marcel-02-05",
+      "title": "Kırık Diş yaklaşımı",
+      "chapter": 2,
+      "chapter_title": "Küllerin Ağırlığı",
+      "region": "Kül Tarlaları",
+      "type": "survival",
+      "source_page_range": [
+        17,
+        24
+      ],
+      "story_evidence": "Roman sahnesi; kart karşılaşması ve seçimler oyun uyarlaması",
+      "world_xy": null,
+      "route_layout_xy": [
+        0.7519999999999999,
+        0.758
+      ],
+      "enemy_candidates": [],
+      "objective": "Rota ve erzak kartlarıyla sahne hedefini tamamla; savaş kazanmak zorunlu değil.",
+      "completed_checkpoint": 11,
+      "spoiler_gate": 2,
+      "map_state": "koru-intact",
+      "optional_battle": false
+    },
+    {
+      "id": "marcel-02-06",
+      "title": "Geçit aşımı",
+      "chapter": 2,
+      "chapter_title": "Küllerin Ağırlığı",
+      "region": "Kül Tarlaları",
+      "type": "survival",
+      "source_page_range": [
+        17,
+        24
+      ],
+      "story_evidence": "Roman sahnesi; kart karşılaşması ve seçimler oyun uyarlaması",
+      "world_xy": null,
+      "route_layout_xy": [
+        0.92,
+        0.758
+      ],
+      "enemy_candidates": [],
+      "objective": "Rota ve erzak kartlarıyla sahne hedefini tamamla; savaş kazanmak zorunlu değil.",
+      "completed_checkpoint": 12,
+      "spoiler_gate": 2,
+      "map_state": "koru-intact",
+      "optional_battle": false
+    },
+    {
+      "id": "marcel-03-01",
+      "title": "Koru’ya giriş",
+      "chapter": 3,
+      "chapter_title": "Koru’nun Paslı Kalbi",
+      "region": "Koru",
+      "type": "story",
+      "source_page_range": [
+        25,
+        38
+      ],
+      "story_evidence": "Roman sahnesi; kart karşılaşması ve seçimler oyun uyarlaması",
+      "world_xy": null,
+      "route_layout_xy": [
+        0.08,
+        0.636
+      ],
+      "enemy_candidates": [],
+      "objective": "Karşılaşmayı tamamla.",
+      "completed_checkpoint": 13,
+      "spoiler_gate": 3,
+      "map_state": "koru-intact",
+      "optional_battle": false
+    },
+    {
+      "id": "marcel-03-02",
+      "title": "Demirhane",
+      "chapter": 3,
+      "chapter_title": "Koru’nun Paslı Kalbi",
+      "region": "Koru",
+      "type": "exploration",
+      "source_page_range": [
+        25,
+        38
+      ],
+      "story_evidence": "Roman sahnesi; kart karşılaşması ve seçimler oyun uyarlaması",
+      "world_xy": null,
+      "route_layout_xy": [
+        0.248,
+        0.636
+      ],
+      "enemy_candidates": [],
+      "objective": "Konum/nesne incelemesini tamamla; çevre sakinleri otomatik düşman değildir.",
+      "completed_checkpoint": 14,
+      "spoiler_gate": 3,
+      "map_state": "koru-intact",
+      "optional_battle": false
+    },
+    {
+      "id": "marcel-03-03",
+      "title": "Valerus’un talebi",
+      "chapter": 3,
+      "chapter_title": "Koru’nun Paslı Kalbi",
+      "region": "Koru",
+      "type": "special",
+      "source_page_range": [
+        25,
+        38
+      ],
+      "story_evidence": "Roman sahnesi; kart karşılaşması ve seçimler oyun uyarlaması",
+      "world_xy": null,
+      "route_layout_xy": [
+        0.416,
+        0.636
+      ],
+      "enemy_candidates": [],
+      "objective": "Borin ve Valerus ile gerginlik: senaryolu yenilgi ve hücreye geçiş; öldürme hedefi yok.",
+      "completed_checkpoint": 15,
+      "spoiler_gate": 3,
+      "map_state": "koru-intact",
+      "optional_battle": false
+    },
+    {
+      "id": "marcel-03-04",
+      "title": "Hücre / Akhenten",
+      "chapter": 3,
+      "chapter_title": "Koru’nun Paslı Kalbi",
+      "region": "Koru",
+      "type": "story",
+      "source_page_range": [
+        25,
+        38
+      ],
+      "story_evidence": "Roman sahnesi; kart karşılaşması ve seçimler oyun uyarlaması",
+      "world_xy": null,
+      "route_layout_xy": [
+        0.584,
+        0.636
+      ],
+      "enemy_candidates": [],
+      "objective": "Karşılaşmayı tamamla.",
+      "completed_checkpoint": 16,
+      "spoiler_gate": 3,
+      "map_state": "koru-intact",
+      "optional_battle": false
+    },
+    {
+      "id": "marcel-03-05",
+      "title": "Torg’u etkisizleştir",
+      "chapter": 3,
+      "chapter_title": "Koru’nun Paslı Kalbi",
+      "region": "Koru",
+      "type": "special",
+      "source_page_range": [
+        25,
+        38
+      ],
+      "story_evidence": "Roman sahnesi; kart karşılaşması ve seçimler oyun uyarlaması",
+      "world_xy": null,
+      "route_layout_xy": [
+        0.7519999999999999,
+        0.636
+      ],
+      "enemy_candidates": [],
+      "objective": "Torg’u öldürmeden etkisizleştir; anahtarları al.",
+      "completed_checkpoint": 17,
+      "spoiler_gate": 3,
+      "map_state": "koru-intact",
+      "optional_battle": false
+    },
+    {
+      "id": "marcel-03-06",
+      "title": "Eski maden tünelleri",
+      "chapter": 3,
+      "chapter_title": "Koru’nun Paslı Kalbi",
+      "region": "Koru",
+      "type": "survival",
+      "source_page_range": [
+        25,
+        38
+      ],
+      "story_evidence": "Roman sahnesi; kart karşılaşması ve seçimler oyun uyarlaması",
+      "world_xy": null,
+      "route_layout_xy": [
+        0.92,
+        0.636
+      ],
+      "enemy_candidates": [],
+      "objective": "Rota ve erzak kartlarıyla sahne hedefini tamamla; savaş kazanmak zorunlu değil.",
+      "completed_checkpoint": 18,
+      "spoiler_gate": 3,
+      "map_state": "koru-intact",
+      "optional_battle": false
+    },
+    {
+      "id": "marcel-04-01",
+      "title": "Dağ patikası",
+      "chapter": 4,
+      "chapter_title": "Olasılıksız Yankı",
+      "region": "Göz’ün Manastırı",
+      "type": "survival",
+      "source_page_range": [
+        39,
+        56
+      ],
+      "story_evidence": "Roman sahnesi; kart karşılaşması ve seçimler oyun uyarlaması",
+      "world_xy": null,
+      "route_layout_xy": [
+        0.08,
+        0.514
+      ],
+      "enemy_candidates": [],
+      "objective": "Rota ve erzak kartlarıyla sahne hedefini tamamla; savaş kazanmak zorunlu değil.",
+      "completed_checkpoint": 19,
+      "spoiler_gate": 4,
+      "map_state": "koru-intact",
+      "optional_battle": false
+    },
+    {
+      "id": "marcel-04-02",
+      "title": "Manastır avlusu",
+      "chapter": 4,
+      "chapter_title": "Olasılıksız Yankı",
+      "region": "Göz’ün Manastırı",
+      "type": "story",
+      "source_page_range": [
+        39,
+        56
+      ],
+      "story_evidence": "Roman sahnesi; kart karşılaşması ve seçimler oyun uyarlaması",
+      "world_xy": null,
+      "route_layout_xy": [
+        0.248,
+        0.514
+      ],
+      "enemy_candidates": [],
+      "objective": "Karşılaşmayı tamamla.",
+      "completed_checkpoint": 20,
+      "spoiler_gate": 4,
+      "map_state": "koru-intact",
+      "optional_battle": false
+    },
+    {
+      "id": "marcel-04-03",
+      "title": "Primus / ilk zaman çizgisi",
+      "chapter": 4,
+      "chapter_title": "Olasılıksız Yankı",
+      "region": "Göz’ün Manastırı",
+      "type": "special",
+      "source_page_range": [
+        39,
+        56
+      ],
+      "story_evidence": "Roman sahnesi; kart karşılaşması ve seçimler oyun uyarlaması",
+      "world_xy": null,
+      "route_layout_xy": [
+        0.416,
+        0.514
+      ],
+      "enemy_candidates": [],
+      "objective": "Yenilgiyle ilerleyen senaryolu karşılaşma; kalıcı yenilgi veya puan çiftliği değildir.",
+      "completed_checkpoint": 21,
+      "spoiler_gate": 4,
+      "map_state": "koru-intact",
+      "optional_battle": false
+    },
+    {
+      "id": "marcel-04-04",
+      "title": "Beyaz Yankı salonu",
+      "chapter": 4,
+      "chapter_title": "Olasılıksız Yankı",
+      "region": "Göz’ün Manastırı",
+      "type": "story",
+      "source_page_range": [
+        39,
+        56
+      ],
+      "story_evidence": "Roman sahnesi; kart karşılaşması ve seçimler oyun uyarlaması",
+      "world_xy": null,
+      "route_layout_xy": [
+        0.584,
+        0.514
+      ],
+      "enemy_candidates": [],
+      "objective": "Karşılaşmayı tamamla.",
+      "completed_checkpoint": 22,
+      "spoiler_gate": 4,
+      "map_state": "koru-intact",
+      "optional_battle": false
+    },
+    {
+      "id": "marcel-04-05",
+      "title": "Avluya dönüş",
+      "chapter": 4,
+      "chapter_title": "Olasılıksız Yankı",
+      "region": "Göz’ün Manastırı",
+      "type": "special",
+      "source_page_range": [
+        39,
+        56
+      ],
+      "story_evidence": "Roman sahnesi; kart karşılaşması ve seçimler oyun uyarlaması",
+      "world_xy": null,
+      "route_layout_xy": [
+        0.7519999999999999,
+        0.514
+      ],
+      "enemy_candidates": [],
+      "objective": "Yankı sonrası avluya dön; Primus’un hamlesinden kurtul. Akhenten yeni zaman çizgisinde hayattadır.",
+      "completed_checkpoint": 23,
+      "spoiler_gate": 4,
+      "map_state": "koru-intact",
+      "optional_battle": false
+    },
+    {
+      "id": "marcel-04-06",
+      "title": "Onbion ittifakı",
+      "chapter": 4,
+      "chapter_title": "Olasılıksız Yankı",
+      "region": "Göz’ün Manastırı",
+      "type": "story",
+      "source_page_range": [
+        39,
+        56
+      ],
+      "story_evidence": "Roman sahnesi; kart karşılaşması ve seçimler oyun uyarlaması",
+      "world_xy": null,
+      "route_layout_xy": [
+        0.92,
+        0.514
+      ],
+      "enemy_candidates": [],
+      "objective": "Diyaloğu ve sahne hedefini tamamla.",
+      "completed_checkpoint": 24,
+      "spoiler_gate": 4,
+      "map_state": "koru-intact",
+      "optional_battle": false
+    },
+    {
+      "id": "marcel-05-01",
+      "title": "Manastırdan iniş",
+      "chapter": 5,
+      "chapter_title": "Koru",
+      "region": "Koru",
+      "type": "survival",
+      "source_page_range": [
+        57,
+        72
+      ],
+      "story_evidence": "Roman sahnesi; kart karşılaşması ve seçimler oyun uyarlaması",
+      "world_xy": null,
+      "route_layout_xy": [
+        0.08,
+        0.392
+      ],
+      "enemy_candidates": [],
+      "objective": "Rota ve erzak kartlarıyla sahne hedefini tamamla; savaş kazanmak zorunlu değil.",
+      "completed_checkpoint": 25,
+      "spoiler_gate": 5,
+      "map_state": "koru-intact",
+      "optional_battle": false
+    },
+    {
+      "id": "marcel-05-02",
+      "title": "Kuzey havalandırması",
+      "chapter": 5,
+      "chapter_title": "Koru",
+      "region": "Koru",
+      "type": "stealth",
+      "source_page_range": [
+        57,
+        72
+      ],
+      "story_evidence": "Roman sahnesi; kart karşılaşması ve seçimler oyun uyarlaması",
+      "world_xy": null,
+      "route_layout_xy": [
+        0.2,
+        0.392
+      ],
+      "enemy_candidates": [],
+      "objective": "Görünür alarm sayacıyla geçişi tamamla; fark edilirse kaçış/savunma karşılaşması açılır.",
+      "completed_checkpoint": 26,
+      "spoiler_gate": 5,
+      "map_state": "koru-intact",
+      "optional_battle": false
+    },
+    {
+      "id": "marcel-05-03",
+      "title": "Mantar çiftlikleri",
+      "chapter": 5,
+      "chapter_title": "Koru",
+      "region": "Koru",
+      "type": "stealth",
+      "source_page_range": [
+        57,
+        72
+      ],
+      "story_evidence": "Roman sahnesi; kart karşılaşması ve seçimler oyun uyarlaması",
+      "world_xy": null,
+      "route_layout_xy": [
+        0.32,
+        0.392
+      ],
+      "enemy_candidates": [],
+      "objective": "Görünür alarm sayacıyla geçişi tamamla; fark edilirse kaçış/savunma karşılaşması açılır.",
+      "completed_checkpoint": 27,
+      "spoiler_gate": 5,
+      "map_state": "koru-intact",
+      "optional_battle": false
+    },
+    {
+      "id": "marcel-05-04",
+      "title": "Gorn’un yardımı",
+      "chapter": 5,
+      "chapter_title": "Koru",
+      "region": "Koru",
+      "type": "story",
+      "source_page_range": [
+        57,
+        72
+      ],
+      "story_evidence": "Roman sahnesi; kart karşılaşması ve seçimler oyun uyarlaması",
+      "world_xy": null,
+      "route_layout_xy": [
+        0.44,
+        0.392
+      ],
+      "enemy_candidates": [],
+      "objective": "Gorn düşman değildir; buhar dikkat dağıtmasını seç.",
+      "completed_checkpoint": 28,
+      "spoiler_gate": 5,
+      "map_state": "koru-intact",
+      "optional_battle": false
+    },
+    {
+      "id": "marcel-05-05",
+      "title": "Ziyafet baskını",
+      "chapter": 5,
+      "chapter_title": "Koru",
+      "region": "Koru",
+      "type": "battle",
+      "source_page_range": [
+        57,
+        72
+      ],
+      "story_evidence": "Roman sahnesi; kart karşılaşması ve seçimler oyun uyarlaması",
+      "world_xy": null,
+      "route_layout_xy": [
+        0.5599999999999999,
+        0.392
+      ],
+      "enemy_candidates": [
+        "valerus-loyal-reis",
+        "council-buyucu"
+      ],
+      "objective": "Ziyafeti boz, müttefiklerini koru; sahne Gölge Yolu kaçırılmasıyla devam eder.",
+      "completed_checkpoint": 29,
+      "spoiler_gate": 5,
+      "map_state": "koru-intact",
+      "optional_battle": false
+    },
+    {
+      "id": "marcel-05-06",
+      "title": "Fiona / Gölge Yolu",
+      "chapter": 5,
+      "chapter_title": "Koru",
+      "region": "Koru",
+      "type": "special",
+      "source_page_range": [
+        57,
+        72
+      ],
+      "story_evidence": "Roman sahnesi; kart karşılaşması ve seçimler oyun uyarlaması",
+      "world_xy": null,
+      "route_layout_xy": [
+        0.6799999999999999,
+        0.392
+      ],
+      "enemy_candidates": [],
+      "objective": "Fiona’yı hedef alma; Gölge Yolu geçişiyle sahne tamamlanır.",
+      "completed_checkpoint": 30,
+      "spoiler_gate": 5,
+      "map_state": "koru-intact",
+      "optional_battle": false
+    },
+    {
+      "id": "marcel-05-07",
+      "title": "Tensar’ın gölgesi",
+      "chapter": 5,
+      "chapter_title": "Koru",
+      "region": "Kül Tarlaları",
+      "type": "special",
+      "source_page_range": [
+        57,
+        72
+      ],
+      "story_evidence": "Roman sahnesi; kart karşılaşması ve seçimler oyun uyarlaması",
+      "world_xy": null,
+      "route_layout_xy": [
+        0.7999999999999999,
+        0.392
+      ],
+      "enemy_candidates": [],
+      "objective": "Tensar’ın gölgesinden sağ çık; gerçek Tensar’ı öldürme hedefi yok.",
+      "completed_checkpoint": 31,
+      "spoiler_gate": 6,
+      "map_state": "koru-destroyed",
+      "optional_battle": false
+    },
+    {
+      "id": "marcel-05-08",
+      "title": "Koru’nun yıkılışı",
+      "chapter": 5,
+      "chapter_title": "Koru",
+      "region": "Kül Tarlaları",
+      "type": "survival",
+      "source_page_range": [
+        57,
+        72
+      ],
+      "story_evidence": "Roman sahnesi; kart karşılaşması ve seçimler oyun uyarlaması",
+      "world_xy": null,
+      "route_layout_xy": [
+        0.9199999999999999,
+        0.392
+      ],
+      "enemy_candidates": [],
+      "objective": "Rota ve erzak kartlarıyla sahne hedefini tamamla; savaş kazanmak zorunlu değil.",
+      "completed_checkpoint": 32,
+      "spoiler_gate": 6,
+      "map_state": "koru-destroyed",
+      "optional_battle": false
+    },
+    {
+      "id": "marcel-06-01",
+      "title": "Kül Tarlaları’na dönüş",
+      "chapter": 6,
+      "chapter_title": "Kemik ve Kül",
+      "region": "Kül Tarlaları",
+      "type": "survival",
+      "source_page_range": [
+        73,
+        85
+      ],
+      "story_evidence": "Roman sahnesi; kart karşılaşması ve seçimler oyun uyarlaması",
+      "world_xy": null,
+      "route_layout_xy": [
+        0.08,
+        0.27
+      ],
+      "enemy_candidates": [],
+      "objective": "Rota ve erzak kartlarıyla sahne hedefini tamamla; savaş kazanmak zorunlu değil.",
+      "completed_checkpoint": 33,
+      "spoiler_gate": 6,
+      "map_state": "koru-destroyed",
+      "optional_battle": false
+    },
+    {
+      "id": "marcel-06-02",
+      "title": "Boru sığınağı",
+      "chapter": 6,
+      "chapter_title": "Kemik ve Kül",
+      "region": "Kül Tarlaları",
+      "type": "rest",
+      "source_page_range": [
+        73,
+        85
+      ],
+      "story_evidence": "Roman sahnesi; kart karşılaşması ve seçimler oyun uyarlaması",
+      "world_xy": null,
+      "route_layout_xy": [
+        0.36,
+        0.27
+      ],
+      "enemy_candidates": [],
+      "objective": "Dinlenme ve aile bağı sahnesini tamamla; dostlara saldırılmaz.",
+      "completed_checkpoint": 34,
+      "spoiler_gate": 6,
+      "map_state": "koru-destroyed",
+      "optional_battle": false
+    },
+    {
+      "id": "marcel-06-03",
+      "title": "Kuzgunyuvası kontrolü",
+      "chapter": 6,
+      "chapter_title": "Kemik ve Kül",
+      "region": "Kül Tarlaları",
+      "type": "special",
+      "source_page_range": [
+        73,
+        85
+      ],
+      "story_evidence": "Roman sahnesi; kart karşılaşması ve seçimler oyun uyarlaması",
+      "world_xy": null,
+      "route_layout_xy": [
+        0.6399999999999999,
+        0.27
+      ],
+      "enemy_candidates": [],
+      "objective": "Enfeksiyon kontrolünü geç; muhafızları öldürmek gerekli değildir.",
+      "completed_checkpoint": 35,
+      "spoiler_gate": 6,
+      "map_state": "koru-destroyed",
+      "optional_battle": false
+    },
+    {
+      "id": "marcel-06-04",
+      "title": "Paslı Kanca / yol planı",
+      "chapter": 6,
+      "chapter_title": "Kemik ve Kül",
+      "region": "Kül Tarlaları",
+      "type": "story",
+      "source_page_range": [
+        73,
+        85
+      ],
+      "story_evidence": "Roman sahnesi; kart karşılaşması ve seçimler oyun uyarlaması",
+      "world_xy": null,
+      "route_layout_xy": [
+        0.9199999999999999,
+        0.27
+      ],
+      "enemy_candidates": [],
+      "objective": "Diyaloğu ve sahne hedefini tamamla.",
+      "completed_checkpoint": 36,
+      "spoiler_gate": 6,
+      "map_state": "koru-destroyed",
+      "optional_battle": false
+    },
+    {
+      "id": "marcel-07-01",
+      "title": "Fiona’nın hücresi",
+      "chapter": 7,
+      "chapter_title": "Taraflar",
+      "region": "Kızıl Kale",
+      "type": "story",
+      "source_page_range": [
+        86,
+        100
+      ],
+      "story_evidence": "Roman sahnesi; kart karşılaşması ve seçimler oyun uyarlaması",
+      "world_xy": null,
+      "route_layout_xy": [
+        0.08,
+        0.14800000000000002
+      ],
+      "enemy_candidates": [],
+      "objective": "Fiona bakış açısı: bilgi, saklanma ve hayatta kalma; bu bölümde kaleyi fethetme veya Kral’ı öldürme yok.",
+      "completed_checkpoint": 37,
+      "spoiler_gate": 7,
+      "map_state": "koru-destroyed",
+      "optional_battle": false
+    },
+    {
+      "id": "marcel-07-02",
+      "title": "Kelebek muhafızları",
+      "chapter": 7,
+      "chapter_title": "Taraflar",
+      "region": "Kızıl Kale",
+      "type": "stealth",
+      "source_page_range": [
+        86,
+        100
+      ],
+      "story_evidence": "Roman sahnesi; kart karşılaşması ve seçimler oyun uyarlaması",
+      "world_xy": null,
+      "route_layout_xy": [
+        0.248,
+        0.14800000000000002
+      ],
+      "enemy_candidates": [],
+      "objective": "Görünür alarm sayacıyla geçişi tamamla; fark edilirse kaçış/savunma karşılaşması açılır.",
+      "completed_checkpoint": 38,
+      "spoiler_gate": 7,
+      "map_state": "koru-destroyed",
+      "optional_battle": false
+    },
+    {
+      "id": "marcel-07-03",
+      "title": "Kızıl çizgi / Vesemir",
+      "chapter": 7,
+      "chapter_title": "Taraflar",
+      "region": "Kızıl Kale",
+      "type": "story",
+      "source_page_range": [
+        86,
+        100
+      ],
+      "story_evidence": "Roman sahnesi; kart karşılaşması ve seçimler oyun uyarlaması",
+      "world_xy": null,
+      "route_layout_xy": [
+        0.416,
+        0.14800000000000002
+      ],
+      "enemy_candidates": [],
+      "objective": "Fiona bakış açısı: bilgi, saklanma ve hayatta kalma; bu bölümde kaleyi fethetme veya Kral’ı öldürme yok.",
+      "completed_checkpoint": 39,
+      "spoiler_gate": 7,
+      "map_state": "koru-destroyed",
+      "optional_battle": false
+    },
+    {
+      "id": "marcel-07-04",
+      "title": "Anzer Viole",
+      "chapter": 7,
+      "chapter_title": "Taraflar",
+      "region": "Kızıl Kale",
+      "type": "story",
+      "source_page_range": [
+        86,
+        100
+      ],
+      "story_evidence": "Roman sahnesi; kart karşılaşması ve seçimler oyun uyarlaması",
+      "world_xy": null,
+      "route_layout_xy": [
+        0.584,
+        0.14800000000000002
+      ],
+      "enemy_candidates": [],
+      "objective": "Fiona bakış açısı: bilgi, saklanma ve hayatta kalma; bu bölümde kaleyi fethetme veya Kral’ı öldürme yok.",
+      "completed_checkpoint": 40,
+      "spoiler_gate": 7,
+      "map_state": "koru-destroyed",
+      "optional_battle": false
+    },
+    {
+      "id": "marcel-07-05",
+      "title": "Konsey / Primus / Shiro",
+      "chapter": 7,
+      "chapter_title": "Taraflar",
+      "region": "Kızıl Kale",
+      "type": "story",
+      "source_page_range": [
+        86,
+        100
+      ],
+      "story_evidence": "Roman sahnesi; kart karşılaşması ve seçimler oyun uyarlaması",
+      "world_xy": null,
+      "route_layout_xy": [
+        0.7519999999999999,
+        0.14800000000000002
+      ],
+      "enemy_candidates": [],
+      "objective": "Fiona bakış açısı: bilgi, saklanma ve hayatta kalma; bu bölümde kaleyi fethetme veya Kral’ı öldürme yok.",
+      "completed_checkpoint": 41,
+      "spoiler_gate": 7,
+      "map_state": "koru-destroyed",
+      "optional_battle": false
+    },
+    {
+      "id": "marcel-07-06",
+      "title": "Üç gece / kapalı oda",
+      "chapter": 7,
+      "chapter_title": "Taraflar",
+      "region": "Kızıl Kale",
+      "type": "story",
+      "source_page_range": [
+        86,
+        100
+      ],
+      "story_evidence": "Roman sahnesi; kart karşılaşması ve seçimler oyun uyarlaması",
+      "world_xy": null,
+      "route_layout_xy": [
+        0.92,
+        0.14800000000000002
+      ],
+      "enemy_candidates": [],
+      "objective": "Fiona bakış açısı: bilgi, saklanma ve hayatta kalma; bu bölümde kaleyi fethetme veya Kral’ı öldürme yok.",
+      "completed_checkpoint": 42,
+      "spoiler_gate": 7,
+      "map_state": "koru-destroyed",
+      "optional_battle": false
+    }
+  ],
+  "edges": [
+    {
+      "from": "marcel-01-01",
+      "to": "marcel-01-02",
+      "requires": "previous_completed"
+    },
+    {
+      "from": "marcel-01-02",
+      "to": "marcel-01-03",
+      "requires": "previous_completed"
+    },
+    {
+      "from": "marcel-01-03",
+      "to": "marcel-01-04",
+      "requires": "previous_completed"
+    },
+    {
+      "from": "marcel-01-04",
+      "to": "marcel-01-05",
+      "requires": "previous_completed"
+    },
+    {
+      "from": "marcel-01-05",
+      "to": "marcel-01-06",
+      "requires": "previous_completed"
+    },
+    {
+      "from": "marcel-01-06",
+      "to": "marcel-02-01",
+      "requires": "previous_completed"
+    },
+    {
+      "from": "marcel-02-01",
+      "to": "marcel-02-02",
+      "requires": "previous_completed"
+    },
+    {
+      "from": "marcel-02-02",
+      "to": "marcel-02-03",
+      "requires": "previous_completed"
+    },
+    {
+      "from": "marcel-02-03",
+      "to": "marcel-02-04",
+      "requires": "previous_completed"
+    },
+    {
+      "from": "marcel-02-04",
+      "to": "marcel-02-05",
+      "requires": "previous_completed"
+    },
+    {
+      "from": "marcel-02-05",
+      "to": "marcel-02-06",
+      "requires": "previous_completed"
+    },
+    {
+      "from": "marcel-02-06",
+      "to": "marcel-03-01",
+      "requires": "previous_completed"
+    },
+    {
+      "from": "marcel-03-01",
+      "to": "marcel-03-02",
+      "requires": "previous_completed"
+    },
+    {
+      "from": "marcel-03-02",
+      "to": "marcel-03-03",
+      "requires": "previous_completed"
+    },
+    {
+      "from": "marcel-03-03",
+      "to": "marcel-03-04",
+      "requires": "previous_completed"
+    },
+    {
+      "from": "marcel-03-04",
+      "to": "marcel-03-05",
+      "requires": "previous_completed"
+    },
+    {
+      "from": "marcel-03-05",
+      "to": "marcel-03-06",
+      "requires": "previous_completed"
+    },
+    {
+      "from": "marcel-03-06",
+      "to": "marcel-04-01",
+      "requires": "previous_completed"
+    },
+    {
+      "from": "marcel-04-01",
+      "to": "marcel-04-02",
+      "requires": "previous_completed"
+    },
+    {
+      "from": "marcel-04-02",
+      "to": "marcel-04-03",
+      "requires": "previous_completed"
+    },
+    {
+      "from": "marcel-04-03",
+      "to": "marcel-04-04",
+      "requires": "previous_completed"
+    },
+    {
+      "from": "marcel-04-04",
+      "to": "marcel-04-05",
+      "requires": "previous_completed"
+    },
+    {
+      "from": "marcel-04-05",
+      "to": "marcel-04-06",
+      "requires": "previous_completed"
+    },
+    {
+      "from": "marcel-04-06",
+      "to": "marcel-05-01",
+      "requires": "previous_completed"
+    },
+    {
+      "from": "marcel-05-01",
+      "to": "marcel-05-02",
+      "requires": "previous_completed"
+    },
+    {
+      "from": "marcel-05-02",
+      "to": "marcel-05-03",
+      "requires": "previous_completed"
+    },
+    {
+      "from": "marcel-05-03",
+      "to": "marcel-05-04",
+      "requires": "previous_completed"
+    },
+    {
+      "from": "marcel-05-04",
+      "to": "marcel-05-05",
+      "requires": "previous_completed"
+    },
+    {
+      "from": "marcel-05-05",
+      "to": "marcel-05-06",
+      "requires": "previous_completed"
+    },
+    {
+      "from": "marcel-05-06",
+      "to": "marcel-05-07",
+      "requires": "previous_completed"
+    },
+    {
+      "from": "marcel-05-07",
+      "to": "marcel-05-08",
+      "requires": "previous_completed"
+    },
+    {
+      "from": "marcel-05-08",
+      "to": "marcel-06-01",
+      "requires": "previous_completed"
+    },
+    {
+      "from": "marcel-06-01",
+      "to": "marcel-06-02",
+      "requires": "previous_completed"
+    },
+    {
+      "from": "marcel-06-02",
+      "to": "marcel-06-03",
+      "requires": "previous_completed"
+    },
+    {
+      "from": "marcel-06-03",
+      "to": "marcel-06-04",
+      "requires": "previous_completed"
+    },
+    {
+      "from": "marcel-06-04",
+      "to": "marcel-07-01",
+      "requires": "previous_completed"
+    },
+    {
+      "from": "marcel-07-01",
+      "to": "marcel-07-02",
+      "requires": "previous_completed"
+    },
+    {
+      "from": "marcel-07-02",
+      "to": "marcel-07-03",
+      "requires": "previous_completed"
+    },
+    {
+      "from": "marcel-07-03",
+      "to": "marcel-07-04",
+      "requires": "previous_completed"
+    },
+    {
+      "from": "marcel-07-04",
+      "to": "marcel-07-05",
+      "requires": "previous_completed"
+    },
+    {
+      "from": "marcel-07-05",
+      "to": "marcel-07-06",
+      "requires": "previous_completed"
+    }
+  ],
+  "future_route": [
+    {
+      "id": "oluler-batakligi",
+      "name": "Ölüler Bataklığı",
+      "status": "82–84. sayfalarda planlanan rota; roman kesitinde Marcel henüz varmadı",
+      "world_xy": null,
+      "playable_status": "genişleme önerisi; ana hikâye finali olarak açılmıyor"
+    }
+  ],
+  "ranking_design": {
+    "primary": "en_yüksek_tamamlanmış_ana_hikâye_kontrol_noktası",
+    "secondary": "aynı kontrol noktasında sezon rekabet puanı",
+    "story_steps": 42,
+    "chapter_replays_increase_progress": false,
+    "expeditions_unlock_story": false,
+    "cutscene_skip_is_completion": false,
+    "scripted_loss": "senaryo hedefiyle sunucuda bir kez doğrulanır; yeniden oynayarak ilerleme puanı üretmez",
+    "status": "tasarım; sunucuya bağlanmadı"
+  },
+  "chapter_source_ranges": {
+    "1": [
+      1,
+      16
+    ],
+    "2": [
+      17,
+      24
+    ],
+    "3": [
+      25,
+      38
+    ],
+    "4": [
+      39,
+      56
+    ],
+    "5": [
+      57,
+      72
+    ],
+    "6": [
+      73,
+      85
+    ],
+    "7": [
+      86,
+      100
+    ]
+  },
+  "relative_spatial_facts": [
+    {
+      "from": "Korvengrad",
+      "to": "Koru / direniş üssü",
+      "bearing": "kuzeybatı",
+      "distance_km": 20,
+      "source_pdf_page": 13,
+      "certainty": "Fiona’nın tarifi; dünya atlasındaki koordinatı ayrıca doğrulanmamış"
+    },
+    {
+      "from": "Kuzgunyuvası",
+      "via": "Ölüler Bataklığı",
+      "to": "Başkent",
+      "source_pdf_pages": [
+        82,
+        84
+      ],
+      "certainty": "Planlanan yol; bu kesitte Marcel henüz geçmedi."
+    }
+  ]
+}

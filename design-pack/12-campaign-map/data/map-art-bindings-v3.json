@@ -1,0 +1,40 @@
+{
+  "world_asset": "12-campaign-map/source-world/terrain/world.webp",
+  "native_model": "12-campaign-map/models/eruldin-campaign-map-v3.blend",
+  "runtime_model": "12-campaign-map/models/eruldin-campaign-map-v3.glb",
+  "world_pois": "12-campaign-map/data/atlas-original.json",
+  "local_campaign": "14-campaign/marcel-campaign.json",
+  "states": [
+    "undiscovered",
+    "available",
+    "selected",
+    "completed",
+    "locked",
+    "corrupted",
+    "rest",
+    "boss"
+  ],
+  "state_rules": {
+    "undiscovered": "Düşman portresi/gelecek olay metni gizli.",
+    "available": "Pirinç halka ve sakin amber ışık; renk yanında şekil işareti.",
+    "selected": "Portre + 32 kartlık desteden açığa çıkan aile ve mekanik ipucu; gizli el gösterilmez.",
+    "completed": "Oyulmuş damga; rota çizgisi sabit, yeniden oynama ilerleme artırmaz.",
+    "locked": "Kilidin nedeni ve gereken kontrol noktası yazılır.",
+    "corrupted": "Koru yıkımı sonrasında aynı yerel konumda farklı sahne durumu; dünya kıyısı yeniden çizilmez.",
+    "boss": "Çift halka; faz eşiği önceden görünür."
+  },
+  "motion_design": {
+    "camera_region_focus_ms": 650,
+    "node_selection_ms": 220,
+    "route_reveal_ms": 480,
+    "region_crystal_loop_ms": 2500,
+    "reduce_motion": "kamera sıçraması ve ışık salınımı kapanır"
+  },
+  "audio_bindings": {
+    "select": "09-audio/ui-select.ogg",
+    "open_region": "09-audio/story-open.ogg",
+    "complete": "09-audio/cue-victory.wav"
+  },
+  "ranking_note": "Bölgesel keşifler ayrı keşif kaydıdır; kitabın ana ilerlemesini geçmez.",
+  "integration_status": "tasarım/veri bağlantısı; uygulamaya bağlanmadı"
+}

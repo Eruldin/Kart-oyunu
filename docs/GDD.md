@@ -1,82 +1,66 @@
-# Eruldin: Yankılar — oyun tasarımı v0.1
+# Eruldin: Yankılar — Oyun Tasarımı (GDD)
 
-**TASARIM ÖNERİSİ**. Bu belgedeki bütün sayı, yetenek, anahtar kelime ve rekabet modeli oyun uyarlamasıdır. Kitaptaki olaylar/karakterler `docs/canon/CANON.md` referanslarıyla ayrılır.
+**Tür**: tek oyunculu hikâye + karşılıklı düello kart oyunu (LoR akışında)
+**Kanon**: Marcel 1. kitap + Kızıl Kral lore + Eruldin atlası
 
-## Ürün
+## Çekirdek döngü
 
-Her seçim başka bir Marcel. Hikâyede **tamamlanan** en uzak karşılaşma sıralamanın birinci ölçütüdür. Aynı hikâye katmanındaki oyuncular çevrimiçi düello yapar. Yenilgi tamamlanmış hikâye ilerlemesini geri almaz. Hikâyenin sonunda rekabet puanı sıralamayı ayrıştırır.
+1. Sefer haritasında bölüm aç → bilgi + Yankı seç → deste kontrolü
+2. Maç: seçim evresi (4 kart, istediğini değiştir) → tur döngüsü → zafer/yenilgi
+3. Zafer → sonraki bölüm + yeni Yankı kilitleri açılır
 
-Ana ekranda: Sığınak, Hikâye yolu, Yankılar, Koleksiyon, Desteler, Düello, Sıralama. Renkler kadife yeşili, kül, kemik, soluk altın. Koru sıcak ışık; Karah mor/katran; Beyaz Saçlı ve Teom soğuk metal/ivory. VFX, bilgi okunabilirliğini aşmamalı.
+## Kaynak modeli (arka matematik)
 
-## Uygulanmış kurallar
+| Kaynak | Kural |
+|---|---|
+| Öz | Tur başında tamamen dolar, maks 10 |
+| Anı | Harcanmayan Öz, tur sonunda Anıya döner (maks 3); yalnız büyülerde harcanır |
+| Hatıra | Her tur başı +1; kartlar da verir; **6'da nihai yetenek** |
 
-- İki oyuncu; **20 kart**, aynı karttan **en fazla 3**. Tahta **5 birim**. El **9 kart** ile sınırlı; fazla çekilen kart atılır.
-- Yankı **24 Bütünlük** ile başlar. Teom +1 Bütünlük. Bütünlük sıfırsa yenilgi; aynı çözümde ikisi sıfırsa beraberlik.
-- İlk tur 2 Öz; her tur üst sınır +1, en fazla 10. Yeni turda bütünü yenilenir. Harcanmayan Öz bir sonraki tura ayrı rezerv olarak taşınmaz.
-- Başlangıçta 5 kart. Her yeni tur 1 kart. Boş desteden çekişte 1, sonra 2, sonra 3… Bütünlük kaybı. Fatigue bir kazanma/bitirme mekanizmasıdır.
-- Birim ve normal büyü hamle hakkını geçirir. **Anlık** büyü hak geçirmez. İki taraf üst üste pas verince tur ilerler; bir eylem yapılırsa pas dizisi sıfırlanır.
-- Taarruz hakkı tur başında belirlenir ve tur başına bir kez kullanılır. Saldıracak birimler seçilir. Rakip saldıran başına tek savunmacı eşler; bir savunmacı iki saldırana eşlenemez.
-- Bloklanmış birimler eşzamanlı hasar verir. Savunmacının ölmesi, saldırının aynı savaşta avatarı da vurmasına yol açmaz. Fazla hasar avatarı aşmaz. Bloklanmayan saldırı Bütünlüğü azaltır.
-- **İz** saldırı tarafında önce hasar verir; savunan ölürse karşı hasar veremez.
-- **Siper** varken düşmanın hedefli büyüsü Siper birimlerinden birini hedeflemek zorundadır. Alan etkileri bundan etkilenmez. Siper avatarı normal taarruzdan otomatik korumaz; blok seçimi oyuncunundur.
-- Her oynanan kart +1 Hatıra. Yankı işaretli kartlar/Hatırlama ek +1. Üst sınır 6. 6 Hatıra, maç başına bir Yankı yeteneği. Yetenek normal hamle gibi hak geçirir.
-- Oyuncu istediği anda teslim olabilir. Maç sonucu yalnızca sunucudaki motorun sonucundan kaydedilir.
+- Tahta: taraf başına 6 saf, el limiti 10, deste 20 kart, kart başına en fazla 3 kopya.
+- Sıralı eylem: hamle sahibi kart oynar / taarruz eder / pas geçer → kontrol diğer tarafa geçer.
+- Taarruz jetonu her tur el değiştirir; jeton sahibi turda 1 kez toplu taarruz ilan eder.
+- Taarruzda rakip savunma evresine girer: her savunan bir saldırganı karşılar (birimler karşılıklı vurur; Çabuk önce vurur, Ezici taşırır, Gölge yalnız Gölge ile savunulur).
+- Büyü hızları: **Yavaş** (yalnız hamle sırasında), **Hızlı** (yanıt zincirine girer), **Anı** (anında, yanıt alamaz). Zincir son giren önce çözülür.
+- Yorulma: deste biterken çekilen her kart avatarı 1 yaralar.
 
-Şimdilik büyü yığını, büyüye büyü yanıtı, mulligan, şampiyon seviye atlaması ve birimler için çağırma yorgunluğu yok. Özellikle derin LoR etkileşiminin tümünü uyguladığımız söylenemez. İkinci tasarım diliminde **tepkili büyü penceresi** üzerinde çalışılmalı; basit prototipte bile saldırı öncesi savunma seçimi gerçek oyuncu kararıdır.
+## Yankılar (pasif + nihai)
 
-## Yankılar
-
-| Yankı | Miras | Maçta bir kez 6 Hatıra | Zayıflık |
-|---|---|---|---|
-| Çamur & Kül | İlk birim +1 dayanıklılık | Dost safa +2 güç; 3 Bütünlük yenile | Boş safla yetenek değeri düşük |
-| Beyaz Saçlı | Başlangıçta 1 Hatıra | 1 kart çek, 3 Öz ve 6 Bütünlük yenile | Öz üst sınırı; kısa deste nedeniyle gereksiz çekiş riskli |
-| Teom Zırhlı | Başlangıç Bütünlüğü +1 | Düşman safına 2 alan hasarı | Büyük dayanıklı birimlere karşı temizleyici olmayabilir |
-
-Kitaptaki diğer Yankılar (Karah, komutan, çocuk, Primus) bu sürümde oynanabilir değildir. Primus için boss/oyuncu kararı verilmedi; hikâye finaline dair yeni sonuç yazılmadı. Teom ve Beyaz Saçlı'nın yaşam öyküsü veya alternatif seçimleri icat edilmedi.
-
-## Hikâye uyarlaması
-
-5 **karşılaşma** prototip yoludur; 5 kitap bölümü değildir. Her galibiyet bir sonraki karşılaşmayı açar. Önceki yollar tekrar oynanır; ilerleme aynı kalır. İlk dört karşılaşmanın düşman destesinde yalnızca Karah birimleri vardır; oyuncunun şampiyonları düşman Karah kimliğine rastgele geçirilmez. Büyüler savaş uyarlamasıdır, metindeki olay olarak sunulmaz.
-
-| Karşılaşma | Kaynak | Spoiler tutumu |
+| Yankı | Pasif | Nihai (6 Hatıra) |
 |---|---|---|
-| Kör Aziz’in Katedrali | M s.1–6 | Açılış karşılaşması; kızın kimliği girişte açıklanmaz |
-| Küllerin Ağırlığı | M s.14–19 | Yol açılınca kardeşlik/yolculuk açığa çıkar |
-| Boşluğun Üzerinde | M s.21–23 | Yolculuk ve taşıma; oyun dövüşü tasarım önerisi |
-| Sıcak Mezarlık | M s.24–30 | Koru adı ve atmosferi; tutuklanma/ihanet sonucu açıklanmaz |
-| Bir Başka Olasılık | M s.44–47 motifleri | Olay zincirinin devamı değil, açıkça işaretli Yankı sınaması; Primus/Fiona büyük açıklamaları verilmez |
+| Marcel — Çamur ve Kül | Her tur ilk taarruz birimi +1 güç | Son düşen 2 dostu +1/+1 dirilt; avatarı 4 iyileştir |
+| Beyaz Saçlı Marcel | Avatarın turda aldığı ilk hasar −3 | En güçlü düşmanı ele döndür; kalanlara 2 hasar; +3 iyileş; kart çek |
+| Teom Zırhlı Marcel | Tur başı en yaralı dost 1 iyileşir | (tasarımdaki etki listesi engine'de tanımlı) |
 
-Yenilgi sonrası geri dönüş görsel kimliği mevcut; yeni Yankıyla prosedürel koşu, dallanan yol, relic, seçim olayları ve Tensar geri sayım boss'u henüz uygulanmadı. Kitap sonu ve Atlas'ın P katmanı kullanılmadı.
+## Fraksiyonlar ve anahtar kelimeler
 
-## Rekabet
+- **Direniş/Koru**: Dayanıklı, Çağrı, iyileştirme — defans/tempo
+- **Konsey/Kızıl**: hasar büyüleri, Ezici — baskın/aggro
+- **Karah/Yozlaşma**: Gölge, Yozlaşma, Son Nefes — sürü/sabotaj
+- **Teom/Göz**: Çelik, Yankı, diriltme — uzun oyun
+- **Nötr/Kül**: ucuz doldurma birimleri
 
-Ana sıralama anahtarı: `progress DESC, rating DESC, wins DESC`. İlerleme `0..5` tamamlanan karşılaşma sayısıdır. Oda katılımı için iki oyuncunun ilerlemesi eşit olmalı. PvP ilk hamle sunucuda rastgele seçilir; hikâyede önce oyuncu hamle yapar.
+Anahtar kelimeler: Dayanıklı (−1 hasar/kaynak), Gölge, Çabuk, Ezici, Teom Çeliği (Yozlaşmaya dokunmaz; Karahlara +2), Yankı (ölünce zayıf kopya ele döner), Son Nefes, Çağrı.
 
-Düello puanı 1000 ile başlar; K=24 Elo değişimi kullanılır. Beraberlikte puan değişmez. Hikâye puanı/ilerlemesi düello galibiyetinden etkilenmez. Yerel sunucudaki gerçek profiller listelenir; hayali dünya oyuncuları eklenmez. Dereceli kuyruğa otomatik eşleşme, sezon sıfırlama, co-op ve arkadaş listesi henüz yok.
+## Hikâye (Marcel 1. kitap akışı)
 
-## İleride sınanacak 8 arketip
+| # | Bölüm | Rakip | HP | Kaynak |
+|---|---|---|---|---|
+| 1 | Kızıl Aziz'in Avlusu | Karah Sürüsü | 18 | M1 |
+| 2 | Kırk Diş Geçidi | Geçit Nöbetçileri | 18 | M2 |
+| 3 | Koru'nun Paslı Kalbi | Koru Muhafızları | 22 | M3 — Beyaz Yankı açılır |
+| 4 | Göz'ün Manastırı | Beyaz Yankı | 28 | M4 — Teom Yankısı açılır |
+| 5 | İlk Olan | Primus | 34 | M4 |
 
-Bu liste içerik büyütme önerisidir; 12 kartla bütün arketiplerin tamamlandığı iddia edilmez.
+## Ekonomi / meta
 
-| Arketip | Kazanma planı | Karşı oyun |
-|---|---|---|
-| Kül temposu | Ucuz birimler, Marcel ile artan saldırı | Savunma ve alan hasarı |
-| Krov siperi | Dayanıklı saf, güç artırımı | Hedefli büyü, saf doluluğuna zorlama |
-| Avcının izi | Önce vuran düşük dayanıklılıklı tehdit | Anlık hasar |
-| Teom kontrolü | Alan hasarı sonrası kaliteli saf | Büyük dayanıklılık / kaynak baskısı |
-| Hatıra döngüsü | Kart ve kaynak dönüşümü | Fatigue, elde kart taşması |
-| Karanlık sürü | Birçok küçük Karah | Alan hasarı / savunma |
-| Seçilmiş aile | Üç kimlikle saf birlikte güçlenir | Tek tek hedef alıp çeşitliliği bozma |
-| Unutulmuşlar | Mezarlık yerine Unutulmuş bölgesinden geri çağırma | Geri çağırmayı sınırlayan maliyetler; henüz kod yok |
+- Bot desteleri bölüme özel; ilerleme aynı katmandaki oyuncularla oda düellosu.
+- Denge simülasyonu `tests/simulate.mjs` — bölüm kazanma oranı hedefi %82,5→%30 eğrisinde; rapor `reports/balance.json`.
 
-## Denge ve metrikler
+## Mimari
 
-İlk 900 maçta Teom/Beyaz Saçlı aşırı ayrıştı. Teom Bütünlük bonusu +3→+1, alan hasarı 3→2; Beyaz Saçlı çekişi 3→1, iyileşmesi 4→6 ve 3 Öz yenileme eklendi. Aynı 100 tohum × 9 eşleşmede tekrar ölçüldü. İlk ve yeni raporlar `reports/balance-initial.json` ve `reports/balance.json`.
-
-Yeni testte Teom'un Beyaz Saçlı karşısındaki oyuncu-0 zaferi %84→%52; karşı rolde Beyaz Saçlı %8→%31. Rol farkı ve kalan dengesizlik hâlâ var; insan dengesi kanıtlanmadı. Takılan maç yok. Ortalama tur yaklaşık 12–13. Gerçek dakika, 60 FPS, bellek, insan karar kalitesi ve uzun vadeli meta ölçülmedi. Üretim hedefi: rol simetrisiyle düzeltilmiş eşleşmelerde geniş %40–60 bandı; 12 kartlık küçük havuzun dışında yeniden sınanmalı.
-
-## Kopya risk kontrolü
-
-Riot kartları, sesleri, görselleri, fontları, çerçeveleri ve ikonları kullanılmadı. Nexus/bölge/shard/spell mana gibi UI ifadeleri taşınmadı. Türsel ortaklık: sıra, kart maliyeti, saldırı/savunma, karakter kartı. Sapmalar: Marcel avatar/Miras/yetenek; Hatıra ile olaylara bağlı şarj; hikâye katmanına dayanan rekabet ve sıralama. Geri sayım kuşatması üçüncü mekanik olarak **planlı**, uygulanmış gibi sunulmuyor.
-
-Anahtar kelimeler kısa Türkçe oyun terimleridir; münhasırlık/trademark iddiası yok. Kullanıcı sanat hattının ticari/final şeklini henüz seçmedi; mevcut üretilmiş resimler yalnızca oynanabilir prototipin yorumudur.
+- `packages/engine` — saf, deterministik (tohumlu), mutasyonsuz durum makinesi; komutlar: mulligan/play/attack/block/pass/ultimate/concede
+- `packages/content` — kart/yankı/bölüm verileri + desteler
+- `server.mjs` — profil, ilerleme, sıralama, oda düellosu, SSE; gizli bilgi `viewFor` ile maskelenir
+- `public/` — istemci (title → map → brief → mulligan → battle); `public/vendor` çevrimdışı kopya
+- `dist/` — tek başına statik dağıtım

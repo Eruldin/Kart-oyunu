@@ -1,23 +1,262 @@
-import test from 'node:test';
+import {test} from 'node:test';
 import assert from 'node:assert/strict';
-import {createMatch,command,botCommand,viewFor} from '../packages/engine/index.mjs';
-import {cards,cardById} from '../packages/content/cards.mjs';
-function fixture(){const s=createMatch({seed:42});s.players.forEach(p=>{p.board=[];p.energy=10;p.maxEnergy=10;p.hand=[];p.hp=14;});return s;}
-function hand(s,id){const h={id,uid:s.nextId++};s.players[0].hand=[h];return h.uid;}
-function unit(s,actor,id='karah',hp=3,attack=3){const u={id,uid:s.nextId++,hp,attack};s.players[actor].board.push(u);return u;}
-test('Same seed and commands produce an identical complete replay',()=>{let a=createMatch({seed:123}),b=createMatch({seed:123});for(let i=0;i<300&&a.winner===null;i++){const cmd=botCommand(a),actor=a.active;a=command(a,actor,cmd);b=command(b,actor,cmd);}assert.deepEqual(a,b);assert.notEqual(a.winner,null);});
-test('Commands and bot decisions never mutate input state',()=>{let s=createMatch();const snapshot=structuredClone(s),decision=botCommand(s);assert.deepEqual(s,snapshot);command(s,s.active,decision);assert.deepEqual(s,snapshot);});
-test('Opponent hand and both deck orders stay private',()=>{const s=createMatch(),v=viewFor(s,0);assert.equal(v.players[1].hand.length,5);assert.ok(v.players[1].hand.every(h=>h.hidden&&h.id===undefined));assert.equal(v.players[0].deck,undefined);assert.equal(v.players[1].deck,undefined);assert.equal(v.commands,undefined);assert.equal(v.players[0].hand.length,5);});
-test('Out of turn play and invalid card ownership are rejected',()=>{const s=createMatch();assert.throws(()=>command(s,1,{type:'pass'}));assert.throws(()=>command(s,0,{type:'play',uid:999}));assert.throws(()=>command(s,2,{type:'pass'}));});
-test('Insufficient Essence and a full line reject without consuming card',()=>{const s=fixture(),uid=hand(s,'teom');s.players[0].energy=0;assert.throws(()=>command(s,0,{type:'play',uid}));s.players[0].energy=10;for(let i=0;i<5;i++)unit(s,0);assert.throws(()=>command(s,0,{type:'play',uid}));assert.equal(s.players[0].hand[0].uid,uid);});
-for(const c of cards)test(`Card effect: ${c.id}`,()=>{const s=fixture();const uid=hand(s,c.id);const enemy=unit(s,1,'karah',6,2),ally=unit(s,0,'karah',3,2);const deckSize=s.players[0].deck.length;const result=command(s,0,{type:'play',uid,...(c.target?{target:enemy.uid}:{})});const p=result.players[0],o=result.players[1];assert.equal(p.energy,10-c.cost);assert.ok(p.memory>=1);if(c.type!=='spell')assert.ok(p.board.some(u=>u.id===c.id));switch(c.effect){case'memory':assert.equal(p.memory,2);break;case'recall':assert.equal(p.deck.length,deckSize-1);assert.equal(p.memory,2);break;case'restore':assert.equal(p.hp,16);break;case'damage':assert.equal(o.board[0].hp,3);break;case'draw':assert.equal(p.hand.length,2);assert.equal(p.memory,2);break;case'heal':assert.equal(p.hp,19);break;case'aoe':assert.equal(o.board[0].hp,4);break;case'buff':assert.equal(p.board.find(x=>x.uid===ally.uid).attack,3);assert.equal(p.board.find(x=>x.uid===ally.uid).hp,5);break;}assert.equal(result.active,c.keyword==='anlik'?0:1);});
-test('Shelter forces targeted spells onto guards',()=>{let s=fixture();const uid=hand(s,'blade'),guard=unit(s,1,'akhenten',7,3),other=unit(s,1,'karah',2,3);assert.throws(()=>command(s,0,{type:'play',uid,target:'avatar'}));assert.throws(()=>command(s,0,{type:'play',uid,target:other.uid}));s=command(s,0,{type:'play',uid,target:guard.uid});assert.equal(s.players[1].board[0].hp,4);});
-test('Double pass advances the round, draws and transfers assault',()=>{let s=createMatch();s=command(s,0,{type:'pass'});assert.equal(s.round,1);s=command(s,1,{type:'pass'});assert.equal(s.round,2);assert.equal(s.active,1);assert.equal(s.attackOwner,1);assert.equal(s.players[0].energy,3);assert.equal(s.players[0].hand.length,6);});
-test('A blocker absorbs the attack and both units take damage simultaneously',()=>{let s=fixture();const a=unit(s,0,'karah',4,3),b=unit(s,1,'karah',4,2);s=command(s,0,{type:'attack',units:[a.uid]});assert.equal(s.phase,'block');s=command(s,1,{type:'block',pairs:{[a.uid]:b.uid}});assert.equal(s.players[0].board[0].hp,2);assert.equal(s.players[1].board[0].hp,1);assert.equal(s.players[1].hp,14);assert.equal(s.active,1);assert.equal(s.phase,'main');});
-test('Unblocked attackers hit the avatar; an assault can occur only once per round',()=>{let s=fixture();const a=unit(s,0,'karah',2,3);s=command(s,0,{type:'attack',units:[a.uid]});s=command(s,1,{type:'block'});assert.equal(s.players[1].hp,11);s=command(s,1,{type:'pass'});assert.throws(()=>command(s,0,{type:'attack',units:[a.uid]}));});
-test('One unit cannot block multiple attackers and a foreign blocker is rejected',()=>{let s=fixture();const a=unit(s,0),b=unit(s,0),blocker=unit(s,1);s=command(s,0,{type:'attack',units:[a.uid,b.uid]});assert.throws(()=>command(s,1,{type:'block',pairs:{[a.uid]:blocker.uid,[b.uid]:blocker.uid}}));assert.throws(()=>command(s,1,{type:'block',pairs:{[a.uid]:a.uid}}));});
-test('Trace kills before retaliation; Marcel grows after combat',()=>{let s=fixture();const a=unit(s,0,'onbion',3,5),b=unit(s,1,'karah',2,3);s=command(s,0,{type:'attack',units:[a.uid]});s=command(s,1,{type:'block',pairs:{[a.uid]:b.uid}});assert.equal(s.players[0].board[0].hp,3);assert.equal(s.players[1].board.length,0);s=fixture();const m=unit(s,0,'marcel',4,3);s=command(s,0,{type:'attack',units:[m.uid]});s=command(s,1,{type:'block'});assert.equal(s.players[0].board[0].attack,4);});
-for(const echo of ['ash','white','teom'])test(`Echo power: ${echo} is charged and once per match`,()=>{let s=fixture();s.players[0].echo=echo;s.players[0].memory=5;s.players[0].energy=2;assert.throws(()=>command(s,0,{type:'ultimate'}));s.players[0].memory=6;unit(s,0);unit(s,1,'karah',2);s=command(s,0,{type:'ultimate'});assert.equal(s.players[0].ultimateUsed,true);assert.equal(s.players[0].memory,0);if(echo==='ash'){assert.equal(s.players[0].board[0].attack,5);assert.equal(s.players[0].hp,17);}if(echo==='white'){assert.equal(s.players[0].hand.length,1);assert.equal(s.players[0].hp,20);assert.equal(s.players[0].energy,5);}if(echo==='teom')assert.equal(s.players[1].board.length,0);s.active=0;s.players[0].memory=6;assert.throws(()=>command(s,0,{type:'ultimate'}));});
-test('Fatigue increases when deck is empty and healing respects maximum',()=>{let s=fixture();s.players[0].deck=[];const uid=hand(s,'memory');s=command(s,0,{type:'play',uid});assert.equal(s.players[0].hp,11);assert.equal(s.players[0].fatigue,2);s=fixture();s.players[0].hp=23;const fire=hand(s,'fire');s=command(s,0,{type:'play',uid:fire});assert.equal(s.players[0].hp,24);});
-test('Concession works outside priority; finished matches reject additional commands',()=>{const s=createMatch();const result=command(s,1,{type:'concede'});assert.equal(result.winner,0);assert.throws(()=>command(result,0,{type:'pass'}));});
-test('Initial Echo passives and hand limits',()=>{const s=createMatch({echo:['white','teom']});assert.equal(s.players[0].memory,1);assert.equal(s.players[1].maxHp,25);let f=fixture();f.players[0].hand=Array.from({length:9},(_,i)=>({id:'memory',uid:200+i}));f=command(f,0,{type:'play',uid:200});assert.equal(f.players[0].hand.length,9);});
+import {createMatch, command, viewFor, botCommand, internals} from '../packages/engine/index.mjs';
+import {cardById, defaultDeck, enemyDeck, chapters, ECHOES} from '../packages/content/cards.mjs';
+
+const DECK_A = defaultDeck, DECK_B = enemyDeck;
+// complete the mulligan for both sides so the match is in 'action' phase
+function skipMulligan(state) {
+  if (state.phase !== 'mulligan') return state;
+  state = command(state, 0, {type: 'mulligan', indices: []});
+  state = command(state, 1, {type: 'mulligan', indices: []});
+  return state;
+}
+function fresh(opts = {}) {
+  const s = createMatch({seed: 42, echo: ['ash', 'ash'], health: [24, 24], decks: [DECK_A, DECK_B], ...opts});
+  return skipMulligan(s);
+}
+// drive state until a predicate or safety cap; bots pick commands for both players
+function drive(state, pred, cap = 2000) {
+  let steps = 0;
+  while (!pred(state) && steps++ < cap) {
+    const actor = state.phase === 'block' ? 1 - state.token
+      : state.stack.length ? state.active
+      : state.active;
+    const cmd = botCommand(state, actor);
+    state = command(state, actor, cmd);
+  }
+  return state;
+}
+
+test('content integrity: decks legal, chapters valid', () => {
+  assert.equal(DECK_A.length, 20);
+  assert.equal(DECK_B.length, 20);
+  for (const d of [DECK_A, DECK_B]) {
+    const c = {};
+    for (const id of d) { c[id] = (c[id] || 0) + 1; assert.ok(cardById[id], 'unknown ' + id); }
+    for (const [id, n] of Object.entries(c)) assert.ok(n <= 3, id + ' x' + n);
+  }
+  for (const ch of chapters) {
+    assert.ok(ch.deck.every(id => cardById[id]));
+    assert.ok(ECHOES[ch.echo]);
+  }
+  for (const c of Object.values(cardById)) {
+    assert.ok(c.name?.tr && c.name?.en, c.id + ' needs names');
+    if (c.kind !== 'spell') { assert.ok(c.atk > 0 && c.hp > 0, c.id); }
+    if (c.needsTarget) assert.ok(c.cagri || c.effects, c.id + ' targeted needs effects');
+  }
+});
+
+test('match creation: deterministic, mulligan phase then round 1 resources', () => {
+  const raw = createMatch({seed: 42, echo: ['ash', 'ash'], health: [24, 24], decks: [DECK_A, DECK_B]});
+  assert.equal(raw.phase, 'mulligan');
+  assert.equal(raw.players[0].hand.length, 4);
+  assert.equal(raw.players[0].deck.length, 16);
+  assert.throws(() => command(raw, 0, {type: 'pass'}), /seçim/i);
+  // mulligan swaps selected cards back and redraws
+  const keep = command(raw, 0, {type: 'mulligan', indices: [0, 1]});
+  assert.equal(keep.players[0].hand.length, 4);
+  assert.ok(keep.players[0].mulliganDone);
+  assert.equal(keep.phase, 'mulligan');           // still waiting on player 1
+  const both = command(keep, 1, {type: 'mulligan', indices: []});
+  assert.equal(both.phase, 'action');
+  const a = fresh(), b = fresh();
+  assert.deepEqual(a.players[0].hand, b.players[0].hand);
+  assert.equal(a.players[0].hand.length, 5);   // 4 opening + 1 draw
+  assert.equal(a.round, 1);
+  assert.equal(a.players[0].oz, 1);
+  assert.equal(a.players[0].avatar.hp, 24);
+});
+
+test('command never mutates input state', () => {
+  const s0 = fresh();
+  const snap = JSON.stringify(s0);
+  try { command(s0, s0.active, {type: 'pass'}); } catch {}
+  assert.equal(JSON.stringify(s0), snap);
+});
+
+test('viewFor hides opponent hand and deck', () => {
+  const s = viewFor(fresh(), 0);
+  assert.equal(typeof s.players[1].deck, 'number');
+  assert.ok(s.players[1].hand.every(c => c === 'back'));
+  assert.ok(s.players[0].hand.every(c => typeof c === 'string' && c !== 'back'));
+});
+
+test('play unit spends öz and places on board', () => {
+  let s = fresh();
+  const me = s.active;
+  const idx = s.players[me].hand.findIndex(id => cardById[id.replace('#weak', '')].cost <= 1 && cardById[id.replace('#weak', '')].kind !== 'spell');
+  if (idx === -1) return; // hand had no 1-drop; still fine
+  const before = s.players[me].oz;
+  s = command(s, me, {type: 'play', hand: idx});
+  assert.ok(s.players[me].board.length === 1);
+  assert.ok(s.players[me].oz < before);
+  assert.equal(s.active, 1 - me); // action passed
+});
+
+test('attack token required; face damage lands', () => {
+  let s = fresh();
+  // give player 0 a board: cheat via direct state edit for focused test
+  const st = JSON.parse(JSON.stringify(s));
+  st.players[0].board.push({uid: 901, id: 'torg', name: cardById.torg.name, kind: 'unit', group: 'direnis', cost: 2, atk: 2, hp: 3, maxHp: 3, kw: [], art: '', buffAtk: 0, buffHp: 0, tempAtk: 0, corrupted: 0, summoningSick: false, echoOf: null, flag: {}});
+  st.players[0].oz = 5;
+  s = command(st, 0, {type: 'attack', slots: [0]});
+  assert.equal(s.phase, 'block');
+  s = command(s, 1, {type: 'block', pairs: {}});   // no blockers
+  assert.equal(s.players[1].avatar.hp, 24 - 2 - 1); // 2 atk + 1 rally (ash)
+});
+
+test('no rally for non-ash echo', () => {
+  let s = fresh({echo: ['white', 'ash']});
+  const st = JSON.parse(JSON.stringify(s));
+  st.players[0].board.push({uid: 902, id: 'torg', name: cardById.torg.name, kind: 'unit', group: 'direnis', cost: 2, atk: 2, hp: 3, maxHp: 3, kw: [], art: '', buffAtk: 0, buffHp: 0, tempAtk: 0, corrupted: 0, summoningSick: false, echoOf: null, flag: {}});
+  s = command(st, 0, {type: 'attack', slots: [0]});
+  s = command(s, 1, {type: 'block', pairs: {}});
+  assert.equal(s.players[1].avatar.hp, 22);
+});
+
+test('dayanikli reduces damage by 1', () => {
+  let s = fresh();
+  const st = JSON.parse(JSON.stringify(s));
+  const mk = (id, uid) => ({uid, id, name: cardById[id].name, kind: 'unit', group: 'x', cost: 1, atk: 3, hp: 3, maxHp: 3, kw: [...cardById[id].kw], art: '', buffAtk: 0, buffHp: 0, tempAtk: 0, corrupted: 0, summoningSick: false, echoOf: null, flag: {}});
+  const a = mk('pasli-kanca', 910); a.atk = 3;              // attacker
+  const b = mk('koru-muhafiz', 911); b.atk = 1; b.hp = 3;    // dayanikli defender
+  st.players[0].board.push(a); st.players[1].board.push(b);
+  st.players[0].avatar.echo = 'white';                        // no rally
+  s = command(st, 0, {type: 'attack', slots: [0]});
+  s = command(s, 1, {type: 'block', pairs: {0: 0}});
+  // 3 atk vs dayanikli 3hp → 2 dmg → 1 hp left; defender 1 atk vs 3hp → nothing lethal
+  assert.equal(s.players[1].board[0].hp, 1);
+  assert.equal(s.players[0].board[0].hp, 3 - Math.max(0, 1 - 0));
+});
+
+test('ezici overflow hits avatar', () => {
+  let s = fresh();
+  const st = JSON.parse(JSON.stringify(s));
+  const a = {uid: 920, id: 'katran-emici', name: cardById['katran-emici'].name, kind: 'unit', group: 'karah', cost: 4, atk: 5, hp: 4, maxHp: 4, kw: ['ezici'], art: '', buffAtk: 0, buffHp: 0, tempAtk: 0, corrupted: 0, summoningSick: false, echoOf: null, flag: {}};
+  const b = {uid: 921, id: 'gri-kelebek', name: cardById['gri-kelebek'].name, kind: 'unit', group: 'konsey', cost: 1, atk: 1, hp: 1, maxHp: 1, kw: ['golge'], art: '', buffAtk: 0, buffHp: 0, tempAtk: 0, corrupted: 0, summoningSick: false, echoOf: null, flag: {}};
+  st.players[0].board.push(a); st.players[1].board.push(b);
+  st.players[0].avatar.echo = 'white';
+  s = command(st, 0, {type: 'attack', slots: [0]});
+  s = command(s, 1, {type: 'block', pairs: {0: 0}});
+  assert.equal(s.players[1].avatar.hp, 24 - 4); // 5 atk - 1 hp = 4 overflow
+  assert.equal(s.players[1].board.length, 0);
+});
+
+test('golge only blockable by golge', () => {
+  let s = fresh();
+  const st = JSON.parse(JSON.stringify(s));
+  const a = {uid: 930, id: 'gri-kelebek', name: cardById['gri-kelebek'].name, kind: 'unit', group: 'konsey', cost: 1, atk: 1, hp: 1, maxHp: 1, kw: ['golge'], art: '', buffAtk: 0, buffHp: 0, tempAtk: 0, corrupted: 0, summoningSick: false, echoOf: null, flag: {}};
+  const b = {uid: 931, id: 'torg', name: cardById.torg.name, kind: 'unit', group: 'direnis', cost: 2, atk: 2, hp: 3, maxHp: 3, kw: [], art: '', buffAtk: 0, buffHp: 0, tempAtk: 0, corrupted: 0, summoningSick: false, echoOf: null, flag: {}};
+  st.players[0].board.push(a); st.players[1].board.push(b);
+  st.players[0].avatar.echo = 'white';
+  s = command(st, 0, {type: 'attack', slots: [0]});
+  assert.throws(() => command(s, 1, {type: 'block', pairs: {0: 0}}), /Gölge/);
+  s = command(s, 1, {type: 'block', pairs: {}});
+  assert.equal(s.players[1].avatar.hp, 23);
+});
+
+test('cabuk strikes first and avoids counterstrike', () => {
+  let s = fresh();
+  const st = JSON.parse(JSON.stringify(s));
+  const a = {uid: 940, id: 'fiona', name: cardById.fiona.name, kind: 'hero', group: 'direnis', cost: 6, atk: 5, hp: 5, maxHp: 5, kw: ['cabuk'], art: '', buffAtk: 0, buffHp: 0, tempAtk: 0, corrupted: 0, summoningSick: false, echoOf: null, flag: {}};
+  const b = {uid: 941, id: 'torg', name: cardById.torg.name, kind: 'unit', group: 'direnis', cost: 2, atk: 2, hp: 3, maxHp: 3, kw: [], art: '', buffAtk: 0, buffHp: 0, tempAtk: 0, corrupted: 0, summoningSick: false, echoOf: null, flag: {}};
+  st.players[0].board.push(a); st.players[1].board.push(b);
+  st.players[0].avatar.echo = 'white';
+  s = command(st, 0, {type: 'attack', slots: [0]});
+  s = command(s, 1, {type: 'block', pairs: {0: 0}});
+  assert.equal(s.players[1].board.length, 0);      // torg died
+  assert.equal(s.players[0].board[0].hp, 5);       // fiona untouched
+});
+
+test('fast spell stack: response window then LIFO resolve', () => {
+  let s = fresh({echo: ['white', 'ash']});
+  const st = JSON.parse(JSON.stringify(s));
+  st.players[0].hand = ['beyaz-bosluk'];    // hizli, returns enemy unit
+  st.players[1].hand = ['secilmis-aile'];   // hizli, buffs ally unit
+  st.players[0].oz = 5; st.players[0].ani = 3;
+  st.players[1].oz = 5; st.players[1].ani = 3;
+  const mk = (uid) => ({uid, id: 'torg', name: cardById.torg.name, kind: 'unit', group: 'direnis', cost: 2, atk: 2, hp: 3, maxHp: 3, kw: [], art: '', buffAtk: 0, buffHp: 0, tempAtk: 0, corrupted: 0, summoningSick: false, echoOf: null, flag: {}});
+  st.players[1].board.push(mk(951));
+  s = st;
+  // p0 casts Beyaz Boşluk at p1's unit
+  s = command(s, 0, {type: 'play', hand: 0, target: {a: 1, slot: 0}});
+  assert.equal(s.stack.length, 1);
+  assert.equal(s.active, 1);                        // response window
+  // p1 responds with Seçilmiş Aile on own unit
+  s = command(s, 1, {type: 'play', hand: 0, target: {a: 1, slot: 0}});
+  assert.equal(s.stack.length, 2);
+  assert.equal(s.active, 0);
+  // p0 declines → resolve LIFO: buff first, then the return
+  s = command(s, 0, {type: 'pass'});
+  assert.equal(s.stack.length, 0);
+  assert.equal(s.players[1].board.length, 0);       // unit returned to hand
+  assert.ok(s.players[1].hand.includes('torg'));
+  assert.equal(s.active, 0);                        // responder's cast consumed the action
+});
+
+test('corruption ticks at owner round start; celik immune', () => {
+  const st = JSON.parse(JSON.stringify(fresh()));
+  const u = {uid: 960, id: 'torg', name: cardById.torg.name, kind: 'unit', group: 'direnis', cost: 2, atk: 2, hp: 3, maxHp: 3, kw: [], art: '', buffAtk: 0, buffHp: 0, tempAtk: 0, corrupted: 2, summoningSick: false, echoOf: null, flag: {}};
+  const u2 = {uid: 961, id: 'gorn', name: cardById.gorn.name, kind: 'unit', group: 'direnis', cost: 4, atk: 4, hp: 4, maxHp: 4, kw: ['celik'], art: '', buffAtk: 0, buffHp: 0, tempAtk: 0, corrupted: 2, summoningSick: false, echoOf: null, flag: {}};
+  st.players[0].board.push(u, u2);
+  // simulate round start by calling both players pass twice
+  let s = command(st, st.active, {type: 'pass'});
+  s = command(s, s.active, {type: 'pass'});   // both passed → beginRound
+  assert.equal(s.players[0].board[0].hp, 1);  // 3 - 2 corruption
+  assert.equal(s.players[0].board[1].hp, 4);  // celik immune
+});
+
+test('yanki unit returns as weak echo next round', () => {
+  const st = JSON.parse(JSON.stringify(fresh()));
+  const u = {uid: 970, id: 'maestro-borislav', name: cardById['maestro-borislav'].name, kind: 'hero', group: 'notr', cost: 2, atk: 1, hp: 2, maxHp: 2, kw: ['yanki'], art: '', buffAtk: 0, buffHp: 0, tempAtk: 0, corrupted: 0, summoningSick: false, echoOf: null, flag: {}};
+  st.players[0].board.push(u);
+  st.players[0].hand = [];
+  // kill it via corruption-like damage: attack into bigger blocker
+  const b = {uid: 971, id: 'katran-emici', name: cardById['katran-emici'].name, kind: 'unit', group: 'karah', cost: 4, atk: 5, hp: 4, maxHp: 4, kw: [], art: '', buffAtk: 0, buffHp: 0, tempAtk: 0, corrupted: 0, summoningSick: false, echoOf: null, flag: {}};
+  st.players[1].board.push(b);
+  st.players[0].avatar.echo = 'white';
+  let s = command(st, 0, {type: 'attack', slots: [0]});
+  s = command(s, 1, {type: 'block', pairs: {0: 0}});
+  assert.equal(s.players[0].board.length, 0);
+  assert.equal(s.players[0].echoPool.length, 1);
+  // pass both → next round → weak echo in hand
+  s = command(s, s.active, {type: 'pass'});
+  s = command(s, s.active, {type: 'pass'});
+  assert.ok(s.players[0].hand.includes('maestro-borislav#weak'));
+});
+
+test('ultimate requires 6 hatira and fires once', () => {
+  const st = JSON.parse(JSON.stringify(fresh({echo: ['teom', 'ash']})));
+  st.players[0].avatar.hatira = 5;
+  assert.throws(() => command(st, 0, {type: 'ultimate'}), /Hatıra/);
+  st.players[0].avatar.hatira = 6;
+  const b = {uid: 980, id: 'karah-yavru', name: cardById['karah-yavru'].name, kind: 'unit', group: 'karah', cost: 1, atk: 2, hp: 1, maxHp: 1, kw: [], art: '', buffAtk: 0, buffHp: 0, tempAtk: 0, corrupted: 0, summoningSick: false, echoOf: null, flag: {}};
+  st.players[1].board.push(b);
+  st.players[0].avatar.hp = 10;
+  let s = command(st, 0, {type: 'ultimate'});
+  assert.equal(s.players[1].board.length, 0);   // judgement killed the spawn
+  assert.equal(s.players[0].avatar.hp, 13);      // +3 heal
+  assert.equal(s.players[0].avatar.hatira, 0);
+  assert.throws(() => command(s, 0, {type: 'ultimate'}), /kullanıldı|hamle/);
+});
+
+test('bots finish a game deterministically', () => {
+  let s = fresh({seed: 777});
+  let steps = 0;
+  while (s.winner === null && steps++ < 3000) {
+    const actor = s.phase === 'block' ? 1 - s.token : s.active;
+    s = command(s, actor, botCommand(s, actor));
+  }
+  assert.notEqual(s.winner, null);
+  assert.ok(s.round >= 3);
+  // determinism: same seed replay gives identical final hp
+  let s2 = fresh({seed: 777});
+  steps = 0;
+  while (s2.winner === null && steps++ < 3000) {
+    const actor = s2.phase === 'block' ? 1 - s2.token : s2.active;
+    s2 = command(s2, actor, botCommand(s2, actor));
+  }
+  assert.equal(s2.winner, s.winner);
+  assert.equal(s2.players[0].avatar.hp, s.players[0].avatar.hp);
+});

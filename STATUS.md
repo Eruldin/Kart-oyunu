@@ -1,5 +1,21 @@
 # Eruldin çalışma durumu — 5 Ekim 2026
 
+## 5 Ekim 2026 — oynanabilir istemci (v4 istemcisi)
+
+Önceki tüm çalışma birleştirildi ve gerçek tarayıcı oyunu ortaya çıktı.
+
+Yapılanlar:
+- **Motor**: seçim evresi (mulligan), taarruz jetonu, blok evresi, yanıt zinciri (stack), `concede` komutu eklendi. Motor girdi durumunu hiçbir zaman mutasyona uğratmaz.
+- **İçerik**: 32 kart, 3 Yankı (pasif + 6 Hatıra ile ateşlenen nihai yetenek), 5 bölümlük hikâye, deste kuralları (20 kart, en fazla 3 kopya).
+- **İstemci**: yeni LoR-tarzı arayüz — açılış ekranı, sefer haritası, bölüm bilgisi + Yankı seçimi, seçim evresi, tahta (sürükle-bırak kart oynama, saldırı okları, blok atama, büyü sırası görünümü), zafer/yenilgi ekranı, koleksiyon, deste görünümü, düello lobisi, ayarlar/katkıda bulunanlar.
+- **Ses/Müzik**: gerçek dosyalar entegre — karta/eyleme özel 50+ efekt sesi, 5 müzik parçası (Kevin MacLeod, CC BY). Arayüz sesleri Kenney (CC0).
+- **Sunucu**: profil/ilerleme/sıralama + oda düellosu + SSE canlı güncelleme çalışıyor; istemci sunucu yokken kendi motoruyla çevrimdışı da oynanır (`vendor/` kopyası).
+- **Dağıtım**: `dist/` klasörü tek başına statik istemcidir (~25 MB — sıkıştırılmış görsel/ses). Kökten servis eden `server.mjs` değişmedi.
+
+Doğrulama: 17/17 test geçti (16 motor + 1 sunucu entegrasyonu); tarayıcıda açılış→harita→bölüm→seçim→tahta→saldırı→savunma→teslim akışı elle oynandı.
+
+Eksik/bekleyen: düello lobisinin bekleme ekranı sade; çevrimdışı modda sıralama yok (tasarım gereği); kart illüstrasyonları v1 üretimdir — v4 binding'lerdeki güncel sanatlar henüz tüm kartlara eşleştirilmedi; GLB VFX'ler DOM/CSS parçacıklarıyla temsil ediliyor.
+
 ## 6 Ekim 2026 — sanat paketi v2
 
 Kapsam tasarım ve assetler olarak korundu. Resmî LoR videosunda açılış, kart/büyü yerleşimi, karşı hamle ve öngörü bölümleri; Riot'un 2022 Path of Champions rehberindeki menü/harita/karakter seçimi görüntüleri tarayıcıda incelendi. Güncel istemciyi tamamen oynayarak inceleme iddiası yok.

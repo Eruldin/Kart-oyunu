@@ -1,83 +1,332 @@
-[
-  {
-    "a": "ash",
-    "b": "ash",
-    "games": 100,
-    "firstPlayerWins": 42,
-    "draws": 4,
-    "stalls": 0,
-    "averageRounds": 12.66
+{
+  "generated": "2026-10-05T21:56:43.936Z",
+  "gamesPerMatchup": 40,
+  "echoWinrates": {
+    "ash vs ash": {
+      "winrate": 50,
+      "draws": 0,
+      "timeouts": 0,
+      "avgRounds": 17.4
+    },
+    "ash vs white": {
+      "winrate": 57.5,
+      "draws": 0,
+      "timeouts": 0,
+      "avgRounds": 20.3
+    },
+    "ash vs teom": {
+      "winrate": 42.5,
+      "draws": 0,
+      "timeouts": 0,
+      "avgRounds": 17.1
+    },
+    "white vs ash": {
+      "winrate": 47.5,
+      "draws": 0,
+      "timeouts": 0,
+      "avgRounds": 20.6
+    },
+    "white vs white": {
+      "winrate": 35,
+      "draws": 0,
+      "timeouts": 0,
+      "avgRounds": 31.9
+    },
+    "white vs teom": {
+      "winrate": 32.5,
+      "draws": 0,
+      "timeouts": 0,
+      "avgRounds": 19.9
+    },
+    "teom vs ash": {
+      "winrate": 50,
+      "draws": 0,
+      "timeouts": 0,
+      "avgRounds": 17.4
+    },
+    "teom vs white": {
+      "winrate": 85,
+      "draws": 0,
+      "timeouts": 0,
+      "avgRounds": 19.1
+    },
+    "teom vs teom": {
+      "winrate": 55,
+      "draws": 0,
+      "timeouts": 0,
+      "avgRounds": 17.8
+    }
   },
-  {
-    "a": "ash",
-    "b": "white",
-    "games": 100,
-    "firstPlayerWins": 45,
-    "draws": 6,
-    "stalls": 0,
-    "averageRounds": 12.45
+  "cardUsage": {
+    "akhenten": {
+      "name": "Akhenten, Koru Kurucusu",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "torg": {
+      "name": "Genç Torg",
+      "played": 119,
+      "winPlays": 86,
+      "playWinrate": 72.3
+    },
+    "gorn": {
+      "name": "Gorn, Demirhane Ustası",
+      "played": 56,
+      "winPlays": 42,
+      "playWinrate": 75
+    },
+    "borin": {
+      "name": "Borin, Koru Muhafızı",
+      "played": 97,
+      "winPlays": 69,
+      "playWinrate": 71.1
+    },
+    "koru-muhafiz": {
+      "name": "Koru Muhafızı",
+      "played": 116,
+      "winPlays": 84,
+      "playWinrate": 72.4
+    },
+    "ocak-isigi": {
+      "name": "Ocak Işığı",
+      "played": 80,
+      "winPlays": 58,
+      "playWinrate": 72.5
+    },
+    "secilmis-aile": {
+      "name": "Seçilmiş Aile",
+      "played": 80,
+      "winPlays": 58,
+      "playWinrate": 72.5
+    },
+    "siginak": {
+      "name": "Sığınak",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "fiona": {
+      "name": "Fiona, Direniş Komutanı",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "valerus": {
+      "name": "Valerus, İki Yüzlü Lider",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "anzer": {
+      "name": "Anzer Viole, Naibe",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "vesemir": {
+      "name": "Vesemir, Emir Kâtibi",
+      "played": 80,
+      "winPlays": 22,
+      "playWinrate": 27.5
+    },
+    "konsey-muhbiri": {
+      "name": "Konsey Muhbiri",
+      "played": 80,
+      "winPlays": 22,
+      "playWinrate": 27.5
+    },
+    "kizil-cizgi": {
+      "name": "Kızıl Çizgi",
+      "played": 80,
+      "winPlays": 22,
+      "playWinrate": 27.5
+    },
+    "golge-yolu": {
+      "name": "Gölge Yolu",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "gri-kelebek": {
+      "name": "Gri Kelebek",
+      "played": 80,
+      "winPlays": 22,
+      "playWinrate": 27.5
+    },
+    "karah-suru": {
+      "name": "Karah Sürüsü",
+      "played": 120,
+      "winPlays": 33,
+      "playWinrate": 27.5
+    },
+    "karah-yavru": {
+      "name": "Karah Yavrusu",
+      "played": 120,
+      "winPlays": 33,
+      "playWinrate": 27.5
+    },
+    "katran-emici": {
+      "name": "Katran Emici",
+      "played": 80,
+      "winPlays": 22,
+      "playWinrate": 27.5
+    },
+    "carpik-filiz": {
+      "name": "Çarpık Filiz",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "yozlasma-dokunusu": {
+      "name": "Yozlaşma Dokunuşu",
+      "played": 120,
+      "winPlays": 33,
+      "playWinrate": 27.5
+    },
+    "obsidyen-sutun": {
+      "name": "Obsidyen Sütun",
+      "played": 40,
+      "winPlays": 11,
+      "playWinrate": 27.5
+    },
+    "teom-celigi": {
+      "name": "Teom Çeliği",
+      "played": 40,
+      "winPlays": 29,
+      "playWinrate": 72.5
+    },
+    "goz-un-kesis": {
+      "name": "Göz'ün Keşişi",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "serlunar-bilgin": {
+      "name": "Serlunar Bilgini",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "hatirla": {
+      "name": "Hatırla",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "beyaz-bosluk": {
+      "name": "Beyaz Boşluk",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "maestro-borislav": {
+      "name": "Maestro Borislav",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "matrona-zarlari": {
+      "name": "Matrona'nın Kemikleri",
+      "played": 40,
+      "winPlays": 29,
+      "playWinrate": 72.5
+    },
+    "pasli-kanca": {
+      "name": "Paslı Kanca Zebellahı",
+      "played": 83,
+      "winPlays": 60,
+      "playWinrate": 72.3
+    },
+    "kuzgunyuvasi-gozcu": {
+      "name": "Kuzgunyuvası Gözcüsü",
+      "played": 469,
+      "winPlays": 330,
+      "playWinrate": 70.4
+    },
+    "ash-ruzgari": {
+      "name": "Kül Rüzgârı",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    }
   },
-  {
-    "a": "ash",
-    "b": "teom",
-    "games": 100,
-    "firstPlayerWins": 43,
-    "draws": 4,
-    "stalls": 0,
-    "averageRounds": 12.94
-  },
-  {
-    "a": "white",
-    "b": "ash",
-    "games": 100,
-    "firstPlayerWins": 33,
-    "draws": 7,
-    "stalls": 0,
-    "averageRounds": 12.47
-  },
-  {
-    "a": "white",
-    "b": "white",
-    "games": 100,
-    "firstPlayerWins": 46,
-    "draws": 7,
-    "stalls": 0,
-    "averageRounds": 12.42
-  },
-  {
-    "a": "white",
-    "b": "teom",
-    "games": 100,
-    "firstPlayerWins": 31,
-    "draws": 3,
-    "stalls": 0,
-    "averageRounds": 12.56
-  },
-  {
-    "a": "teom",
-    "b": "ash",
-    "games": 100,
-    "firstPlayerWins": 44,
-    "draws": 5,
-    "stalls": 0,
-    "averageRounds": 13.17
-  },
-  {
-    "a": "teom",
-    "b": "white",
-    "games": 100,
-    "firstPlayerWins": 52,
-    "draws": 8,
-    "stalls": 0,
-    "averageRounds": 12.73
-  },
-  {
-    "a": "teom",
-    "b": "teom",
-    "games": 100,
-    "firstPlayerWins": 47,
-    "draws": 2,
-    "stalls": 0,
-    "averageRounds": 13.19
-  }
-]
+  "chapters": [
+    {
+      "chapter": 0,
+      "name": "Kızıl Aziz'in Avlusu",
+      "boss": "Karah Sürüsü",
+      "bossHp": 18,
+      "bossEcho": "ash",
+      "playerWinrate": 82.5,
+      "avgRounds": 14.2,
+      "timeouts": 0
+    },
+    {
+      "chapter": 1,
+      "name": "Kırk Diş Geçidi",
+      "boss": "Geçit Nöbetçileri",
+      "bossHp": 18,
+      "bossEcho": "ash",
+      "playerWinrate": 65,
+      "avgRounds": 14.8,
+      "timeouts": 0
+    },
+    {
+      "chapter": 2,
+      "name": "Koru'nun Paslı Kalbi",
+      "boss": "Koru Muhafızları",
+      "bossHp": 22,
+      "bossEcho": "ash",
+      "playerWinrate": 52.5,
+      "avgRounds": 16.9,
+      "timeouts": 0
+    },
+    {
+      "chapter": 3,
+      "name": "Göz'ün Manastırı",
+      "boss": "Beyaz Yankı",
+      "bossHp": 28,
+      "bossEcho": "white",
+      "playerWinrate": 40,
+      "avgRounds": 20.1,
+      "timeouts": 0
+    },
+    {
+      "chapter": 4,
+      "name": "İlk Olan",
+      "boss": "Primus",
+      "bossHp": 24,
+      "bossEcho": "white",
+      "playerWinrate": 30,
+      "avgRounds": 15.7,
+      "timeouts": 0
+    }
+  ],
+  "issues": [
+    "Echo dengesizliği: white vs white → %35",
+    "Echo dengesizliği: white vs teom → %32.5",
+    "Echo dengesizliği: teom vs white → %85",
+    "Bölüm çok kolay: Kızıl Aziz'in Avlusu → %82.5",
+    "Bölüm çok zor: İlk Olan → %30",
+    "Kart baskın: Genç Torg → %72.3 (119 oynanış)",
+    "Kart baskın: Gorn, Demirhane Ustası → %75 (56 oynanış)",
+    "Kart baskın: Borin, Koru Muhafızı → %71.1 (97 oynanış)",
+    "Kart baskın: Koru Muhafızı → %72.4 (116 oynanış)",
+    "Kart baskın: Ocak Işığı → %72.5 (80 oynanış)",
+    "Kart baskın: Seçilmiş Aile → %72.5 (80 oynanış)",
+    "Kart zayıf: Vesemir, Emir Kâtibi → %27.5",
+    "Kart zayıf: Konsey Muhbiri → %27.5",
+    "Kart zayıf: Kızıl Çizgi → %27.5",
+    "Kart zayıf: Gri Kelebek → %27.5",
+    "Kart zayıf: Karah Sürüsü → %27.5",
+    "Kart zayıf: Karah Yavrusu → %27.5",
+    "Kart zayıf: Katran Emici → %27.5",
+    "Kart zayıf: Yozlaşma Dokunuşu → %27.5",
+    "Kart zayıf: Obsidyen Sütun → %27.5",
+    "Kart baskın: Teom Çeliği → %72.5 (40 oynanış)",
+    "Kart baskın: Matrona'nın Kemikleri → %72.5 (40 oynanış)",
+    "Kart baskın: Paslı Kanca Zebellahı → %72.3 (83 oynanış)",
+    "Kart baskın: Kuzgunyuvası Gözcüsü → %70.4 (469 oynanış)"
+  ]
+}

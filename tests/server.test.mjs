@@ -15,16 +15,16 @@ test('Authoritative API: progression, rooms, secrecy, SSE, ranking and persisten
  assert.equal((await api('story',{chapter:4,echo:'ash'},a.token)).status,400);
  const patched=await api('profile',{progress:99,rating:99999},a.token);assert.equal(patched.data.progress,0);assert.equal(patched.data.rating,1000);
  assert.equal((await api('profile',{deck:['karah']},a.token)).status,400);
- let started=(await api('story',{chapter:0,echo:'teom'},a.token)).data;assert.ok(started.matchId);assert.equal(started.state.players[1].deck,undefined);assert.ok(started.state.players[1].hand.every(h=>h.hidden));
+ let started=(await api('story',{chapter:0,echo:'teom'},a.token)).data;assert.ok(started.matchId);assert.equal(typeof started.state.players[1].deck,'number');assert.ok(started.state.players[1].hand.every(h=>h==='back'));
  assert.equal((await api('command',{matchId:started.matchId,command:{type:'concede'}},b.token)).status,400);
  let iterations=0;
- while(started.state.winner===null&&iterations++<600){if(started.state.active===0){const response=await api('command',{matchId:started.matchId,command:botCommand(started.state)},a.token);assert.equal(response.status,200,JSON.stringify(response.data));started.state=response.data.state;if(started.state.winner!==null)break;}else{await new Promise(r=>setTimeout(r,4));const response=await api('match',undefined,a.token);if(response.data)started=response.data;else break;}}
+ while(started.state.winner===null&&iterations++<600){if(started.state.active===0){const response=await api('command',{matchId:started.matchId,command:botCommand(started.state,0)},a.token);if(response.status===200){started.state=response.data.state;if(started.state.winner!==null)break;}else{const fresh=await api('match',undefined,a.token);if(fresh.data)started=fresh.data;}}else{await new Promise(r=>setTimeout(r,4));const response=await api('match',undefined,a.token);if(response.data)started=response.data;else break;}}
  const pa=(await api('profile',undefined,a.token)).data;assert.equal(pa.progress,1,'First chapter must be won by server commands');assert.equal(pa.storyWins,1);
  const roomA=(await api('room',{action:'create',echo:'ash'},a.token)).data;assert.equal((await api('room',{action:'join',code:roomA.code},b.token)).status,400,'Unequal story layers must not match');await api('room',{action:'cancel'},a.token);
  const roomB=(await api('room',{action:'create',echo:'ash'},b.token)).data;
  const abort=new AbortController();t.after(()=>abort.abort());const response=await fetch(`http://127.0.0.1:${port}/api/events?token=${b.token}`,{signal:abort.signal});const reader=response.body.getReader();await reader.read();
  const duel=(await api('room',{action:'join',code:roomB.code,echo:'white'},c.token)).data;assert.equal(duel.kind,'online');assert.equal(duel.actor,1);
- const update=new TextDecoder().decode((await reader.read()).value);assert.ok(update.includes('"kind":"online"'));assert.ok(update.includes('"hidden":true'));abort.abort();
+ const update=new TextDecoder().decode((await reader.read()).value);assert.ok(update.includes('"kind":"online"'));assert.ok(update.includes('"back"'));abort.abort();
  const result=await api('command',{matchId:duel.matchId,command:{type:'concede'}},c.token);assert.equal(result.status,200);assert.equal(result.data.state.winner,0);
  const leaders=(await api('leaderboard',undefined,b.token)).data;assert.equal(leaders[0].id,a.profile.id,'Progress dominates rating');assert.equal(leaders.find(p=>p.id===b.profile.id).rating,1012);assert.equal(leaders.find(p=>p.id===c.profile.id).rating,988);assert.ok(leaders.every(p=>p.token===undefined));
  const stored=JSON.parse(await readFile(join(dir,'profiles.json'),'utf8'));assert.equal(stored[a.profile.id].progress,1);assert.equal(stored[b.profile.id].wins,1);

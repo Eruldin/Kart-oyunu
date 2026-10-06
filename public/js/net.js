@@ -2,6 +2,7 @@
 // Both modes expose the same surface: profile, startStory, startSkirmish, command, events.
 import {createMatch, command as engineCommand, botCommand, viewFor} from '../vendor/engine/index.mjs';
 import {chapters, defaultDeck, enemyDeck, cardById, ECHOES, CARDS} from '../vendor/content/cards.mjs';
+import {applyRewards, starterCollection} from '../vendor/content/drops.mjs';
 
 const LS = 'eruldin.local.';
 const BOT_DELAY = 750;
@@ -9,10 +10,12 @@ const BOT_DELAY = 750;
 function localProfile() {
   let p = JSON.parse(localStorage.getItem(LS + 'profile') || 'null');
   if (!p) {
-    p = {id: 'local', name: 'Gezgin', progress: 0, wins: 0, storyWins: 0, deck: [...defaultDeck], echoes: ['ash']};
+    p = {id: 'local', name: 'Gezgin', progress: 0, wins: 0, storyWins: 0, deck: [...defaultDeck], echoes: ['ash'],
+         collection: starterCollection(defaultDeck), shards: 0, pity: 0};
     saveLocal(p);
   }
   if (!p.echoes) p.echoes = ['ash'];
+  if (!p.collection) { p.collection = starterCollection(p.deck || defaultDeck); p.shards = 0; p.pity = 0; }
   return p;
 }
 function saveLocal(p) { localStorage.setItem(LS + 'profile', JSON.stringify(p)); }
@@ -54,7 +57,7 @@ class LocalBackend {
     return this.pack();
   }
   pack() {
-    return {matchId: this.match.id, actor: 0, state: this.view(), names: this.match.names, kind: this.match.kind, chapter: this.match.chapter, profile: this.profile};
+    return {matchId: this.match.id, actor: 0, state: this.view(), names: this.match.names, kind: this.match.kind, chapter: this.match.chapter, profile: this.profile, reward: this.match.reward};
   }
   async command(cmd) {
     if (!this.match) throw Error('Maç yok.');
@@ -74,6 +77,9 @@ class LocalBackend {
         // echo unlocks: beat ch2 → white, ch3 → teom
         if (this.match.chapter >= 2 && !this.profile.echoes.includes('white')) this.profile.echoes.push('white');
         if (this.match.chapter >= 3 && !this.profile.echoes.includes('teom')) this.profile.echoes.push('teom');
+        const ch = chapters[this.match.chapter];
+        const seed = (ch.seed || 1) ^ ((this.profile.storyWins + 1) * 7919);
+        this.match.reward = applyRewards(this.profile, ch, seed);
       }
     }
     saveLocal(this.profile);
@@ -102,8 +108,8 @@ class LocalBackend {
     }
   }
   async saveDeck(deck) {
-    if (!Array.isArray(deck) || deck.length !== 20 || deck.some(id => !cardById[id]) || deck.some(id => deck.filter(x => x === id).length > 3))
-      throw Error('Deste 20 kart içermeli; bir kart en fazla 3 kez.');
+    if (!Array.isArray(deck) || deck.length !== 20 || deck.some(id => !cardById[id]) || deck.some(id => deck.filter(x => x === id).length > 3) || deck.some(id => (this.profile.collection?.[id] || 0) < deck.filter(x => x === id).length))
+      throw Error('Deste 20 kart içermeli; kartlar koleksiyonunda olmalı; bir kart en fazla 3 kez.');
     this.profile.deck = [...deck]; saveLocal(this.profile);
     return this.profile;
   }

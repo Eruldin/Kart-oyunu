@@ -201,11 +201,23 @@ function showDeck() {
 function showCollection() {
   screen = 'collection';
   audio.music('story');
+  const col = profile?.collection || {};
+  const owned = Object.values(col).filter(n => n > 0).length;
+  const total = CARDS.filter(c => !c.token).length;
+  const ownedCopies = Object.values(col).reduce((a, b) => a + b, 0);
   app().innerHTML = `
   <div class="coll-screen">
-    <header class="map-head"><button class="icon-btn" data-act="title">←</button><div><h1>${t('collection')}</h1><p>${CARDS.length}</p></div><span></span></header>
+    <header class="map-head"><button class="icon-btn" data-act="title">←</button><div><h1>${t('collection')}</h1><p>${t('collStats')}</p></div><span class="shard-pill">◆ ${profile?.shards ?? 0}</span></header>
+    <div class="coll-stats">
+      <div class="cstat"><b>${owned}</b><span>/ ${total} ${t('owned').toLowerCase()}</span></div>
+      <div class="cstat"><b>${ownedCopies}</b><span>${t('copies')}</span></div>
+      <div class="cstat pity"><b>${'◆'.repeat(Math.min(6, profile?.pity || 0)) || '—'}</b><span>${t('pityInfo')}</span></div>
+    </div>
     <div class="coll-grid">
-      ${CARDS.map(c => `<div class="coll-card" data-inspect="${c.id}"></div>`).join('')}
+      ${CARDS.filter(c => !c.token).map(c => {
+        const n = col[c.id] || 0;
+        return `<div class="coll-card ${n ? '' : 'unowned'}" data-inspect="${c.id}">${n ? `<i class="own-badge">×${n}</i>` : ''}</div>`;
+      }).join('')}
     </div>
   </div>`;
   app().querySelectorAll('.coll-card').forEach(el => el.append(cardEl(cardById[el.dataset.inspect])));
@@ -259,7 +271,7 @@ async function enterMatch(payload) {
   sess = {
     matchId: payload.matchId, actor: payload.actor ?? 0,
     names: payload.names, kind: payload.kind, chapter: payload.chapter,
-    view: payload.state,
+    view: payload.state, reward: payload.reward || null,
     backend: {
       command: async cmd => {
         if (backend.mode === 'server') {
@@ -292,6 +304,7 @@ function onServerEvent(m) {
   if (!m?.matchId || !sess) return;
   if (m.matchId !== sess.matchId) return;
   if (m.profile) profile = m.profile;
+  if (m.reward) sess.reward = m.reward;
   Battle.updateBattle(m.state);
   if (m.state?.winner !== null && m.state?.phase === 'over') {/* result rendered by battle */}
 }

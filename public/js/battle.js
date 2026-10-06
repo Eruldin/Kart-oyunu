@@ -256,11 +256,29 @@ function resultHTML() {
       <h1>${t(draw ? 'draw' : win ? 'victory' : 'defeat')}</h1>
       <p>${t(draw ? 'drawSub' : win ? 'victorySub' : 'defeatSub')}</p>
       ${ch ? `<p class="unlock">${t('nextChapter')}</p>` : ''}
+      ${win && session.reward ? rewardHTML(session.reward) : ''}
       <div class="result-actions">
         <button class="btn primary big" id="btn-tomap">${t('toMap')}</button>
         ${!win ? `<button class="btn ghost" id="btn-rematch">${t('rematch')}</button>` : ''}
       </div>
     </div>
+  </div>`;
+}
+
+function rewardHTML(rw) {
+  const cards = (rw.cards || []).map(id => {
+    const c = cardById[id];
+    const r = c?.rarity || 'common';
+    return `<div class="drop-card r-${r}">
+      <div class="drop-art"><img src="${ART}${(c?.art || 'gen/direnis-1.png').replace(/\.\w+$/, '.jpg')}" alt=""></div>
+      <b>${tn(c?.name)}</b>
+      <i>${t('rarity_' + r)}</i>
+    </div>`;
+  }).join('');
+  return `<div class="reward-box ${rw.legendary ? 'leg' : ''}">
+    ${rw.legendary ? `<div class="legendary-banner">${t('legendaryDrop')}</div>` : ''}
+    <div class="drop-row">${cards}</div>
+    ${rw.shards ? `<div class="shard-row"><span class="shard-ico">◆</span>+${rw.shards} ${t('shards')}</div>` : ''}
   </div>`;
 }
 

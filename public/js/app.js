@@ -6,6 +6,7 @@ import {cardEl, bindTooltip} from './cardview.js';
 import * as Battle from './battle.js';
 import * as FX from './fx.js';
 import {chapters, defaultDeck, enemyDeck, cardById, ECHOES, CARDS, ACT_NAMES, KEYWORDS, GROUPS, RARITIES} from '../vendor/content/cards.mjs';
+import {SHOP_ITEMS, COSMETICS, PACKS} from '../vendor/content/shop.mjs';
 
 const ART = './assets/art/';
 const app = () => document.querySelector('#app');
@@ -32,6 +33,7 @@ function showTitle() {
         <button class="btn primary big" data-act="play">${t(profile?.progress ? 'cont' : 'start')}</button>
         <button class="btn ghost" data-act="skirmish">${t('skirmish')}</button>
         <button class="btn ghost" data-act="collection">${t('collection')}</button>
+        <button class="btn ghost" data-act="market">${t('market')}</button>
         ${backend?.mode === 'server' ? `<button class="btn ghost" data-act="duel">${t('duel')}</button>` : ''}
       </nav>
       <div class="title-foot">
@@ -297,6 +299,91 @@ function showCollection() {
   app().querySelectorAll('.coll-card').forEach(el => el.append(cardEl(cardById[el.dataset.inspect])));
 }
 
+// ---------------- market ----------------
+function showMarket() {
+  screen = 'market';
+  audio.music('story');
+  const cos = profile?.cosmetics || {owned: []};
+  const packs = SHOP_ITEMS.filter(i => i.type === 'pack');
+  const slots = [['back', t('cardBack')], ['board', t('boardSkin')], ['ember', t('emberSkin')]];
+  app().innerHTML = `
+  <div class="shop-screen">
+    <header class="map-head"><button class="icon-btn" data-act="title">←</button><div><h1>${t('market')}</h1><p>${t('pack_desc_std')}</p></div><span class="shard-pill">◆ ${profile?.shards ?? 0}</span></header>
+    <div class="shop-body">
+      <h2 class="shop-h">${t('pack_std')}</h2>
+      <div class="shop-packs">
+        ${packs.map(p => `
+          <div class="pack-card">
+            <img src="${ART}card-back.png" alt="" class="pack-art">
+            <h3>${tn(p.name)}</h3><p>${tn(p.desc)}</p>
+            <button class="btn primary" data-buy="${p.id}">◆ ${p.price}</button>
+          </div>`).join('')}
+      </div>
+      ${slots.map(([slot, label]) => `
+        <h2 class="shop-h">${label}</h2>
+        <div class="shop-cosmetics">
+          ${baseCosmetic(slot)}
+          ${SHOP_ITEMS.filter(i => i.slot === slot).map(i => {
+            const owned = cos.owned.includes(i.id);
+            const active = cos[slot] === i.id;
+            return `<div class="cos-card ${active ? 'active' : ''}">
+              ${cosPreview(i)}
+              <b>${tn(i.name)}</b>
+              ${owned
+                ? `<button class="btn ghost sm" data-equip="${slot}:${i.id}">${active ? '✓' : t('select')}</button>`
+                : `<button class="btn primary sm" data-buy="${i.id}">◆ ${i.price}</button>`}
+            </div>`;
+          }).join('')}
+        </div>`).join('')}
+    </div>
+  </div>`;
+  app().querySelectorAll('[data-buy]').forEach(b => b.addEventListener('click', async () => {
+    try {
+      const r = await backend.buy(b.dataset.buy);
+      profile = r.profile || backend.profile;
+      applyCosmetics(profile);
+      audio.sfx('uiConfirm');
+      if (r.pulls) showPackReveal(r.pulls, r.refund);
+      else { toast(t('owned_i')); showMarket(); }
+    } catch (e) { toast(e.message); }
+  }));
+  app().querySelectorAll('[data-equip]').forEach(b => b.addEventListener('click', async () => {
+    const [slot, id] = b.dataset.equip.split(':');
+    try { profile = await backend.equip(slot, cos[slot] === id ? null : id); applyCosmetics(profile); showMarket(); } catch (e) { toast(e.message); }
+  }));
+}
+const BASE_COS = {back: 'back-ash', board: 'board-hearth', ember: 'ember'};
+const BASE_COS_NAME = {back: {tr: 'Kül Arkası', en: 'Ash Back'}, board: {tr: 'Koru Meydanı', en: 'Hearth Square'}, ember: {tr: 'Kor Alevi', en: 'Hearth Flame'}};
+function baseCosmetic(slot) {
+  const cos = profile?.cosmetics || {};
+  const id = BASE_COS[slot];
+  const active = (cos[slot] || id) === id;
+  return `<div class="cos-card ${active ? 'active' : ''}">${cosPreview({id, slot})}<b>${tn(BASE_COS_NAME[slot])}</b>
+    <button class="btn ghost sm" data-equip="${slot}:${id}">${active ? '✓' : t('select')}</button></div>`;
+}
+function cosPreview(item) {
+  if (item.slot === 'back') {
+    const c = COSMETICS[item.id];
+    const f = c ? `hue-rotate(${c.hue}deg)${c.sat ? ` saturate(${c.sat})` : ''}` : '';
+    return `<img class="cos-back" style="filter:${f}" src="${ART}card-back.png" alt="">`;
+  }
+  if (item.slot === 'board') {
+    const c = COSMETICS[item.id];
+    return `<span class="cos-board" style="background:${c ? c.tint : '#1e2a22'}"></span>`;
+  }
+  const cls = item.id === 'ember-blood' ? 'blood' : item.id === 'ember-void' ? 'void' : '';
+  return `<span class="cos-ember e-${cls}"></span>`;
+}
+function showPackReveal(pulls, refund) {
+  openModal(`<div class="reveal"><h2>${t('pack_std')}</h2>
+    <div class="drop-row">${pulls.map(id => {
+      const c = cardById[id], r = c?.rarity || 'common';
+      return `<div class="drop-card r-${r}"><div class="drop-art"><img src="${ART}${(c?.art || 'gen/direnis-1.png').replace(/\.\w+$/, '.jpg')}"></div><b>${tn(c?.name)}</b><i>${t('rarity_' + r)}</i></div>`;
+    }).join('')}</div>
+    ${refund ? `<p class="shard-row">◆ +${refund} ${t('shards')}</p>` : ''}
+  </div>`, 'reveal-modal');
+}
+
 function showSettings() {
   const v = audio.vols();
   openModal(`
@@ -337,6 +424,16 @@ function showDuel() {
       if (m?.matchId) { closeModal(); enterMatch(m); }
     } catch (e) { toast(e.message); }
   });
+}
+
+// Cosmetics -> CSS variables/classes on <html>. Called on login + after buy.
+export function applyCosmetics(p) {
+  const cos = p?.cosmetics || {};
+  const back = COSMETICS[cos.back];
+  document.documentElement.style.setProperty('--back-filter',
+    back ? `hue-rotate(${back.hue}deg)${back.sat ? ` saturate(${back.sat})` : ''}` : 'none');
+  document.documentElement.dataset.board = cos.board && cos.board !== 'board-hearth' ? cos.board : '';
+  document.documentElement.dataset.ember = {blood: 'ember-blood', void: 'ember-void'}[cos.ember?.replace('ember-', '')] || '';
 }
 
 // ---------------- match lifecycle ----------------
@@ -408,6 +505,7 @@ document.addEventListener('click', async e => {
     if (act === 'play') showMap();
     else if (act === 'skirmish') launchSkirmish();
     else if (act === 'collection') showCollection();
+    else if (act === 'market') showMarket();
     else if (act === 'duel') showDuel();
     else if (act === 'settings') showSettings();
     else if (act === 'credits') showCredits();
@@ -460,6 +558,7 @@ async function boot() {
   const res = await connect();
   backend = res.backend;
   profile = res.profile;
+  applyCosmetics(profile);
   echoChoice = profile.echoes?.includes(echoChoice) ? echoChoice : (profile.echoes?.[0] || 'ash');
   if (backend.mode === 'server') backend.onEvent(onServerEvent);
   else backend.onEvent(m => { if (sess && m.matchId === sess.matchId) Battle.updateBattle(m.state); });

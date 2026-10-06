@@ -3,6 +3,7 @@
 import {createMatch, command as engineCommand, botCommand, viewFor} from '../vendor/engine/index.mjs';
 import {chapters, defaultDeck, enemyDeck, cardById, ECHOES, CARDS} from '../vendor/content/cards.mjs';
 import {applyRewards, starterCollection} from '../vendor/content/drops.mjs';
+import {buyItem, equipCosmetic, defaultCosmetics} from '../vendor/content/shop.mjs';
 
 const LS = 'eruldin.local.';
 const BOT_DELAY = 750;
@@ -11,11 +12,12 @@ function localProfile() {
   let p = JSON.parse(localStorage.getItem(LS + 'profile') || 'null');
   if (!p) {
     p = {id: 'local', name: 'Gezgin', progress: 0, wins: 0, storyWins: 0, deck: [...defaultDeck], echoes: ['ash'],
-         collection: starterCollection(defaultDeck), shards: 0, pity: 0};
+         collection: starterCollection(defaultDeck), shards: 0, pity: 0, cosmetics: defaultCosmetics()};
     saveLocal(p);
   }
   if (!p.echoes) p.echoes = ['ash'];
   if (!p.collection) { p.collection = starterCollection(p.deck || defaultDeck); p.shards = 0; p.pity = 0; }
+  if (!p.cosmetics) p.cosmetics = defaultCosmetics();
   return p;
 }
 function saveLocal(p) { localStorage.setItem(LS + 'profile', JSON.stringify(p)); }
@@ -114,6 +116,17 @@ class LocalBackend {
     return this.profile;
   }
   async setName(name) { this.profile.name = String(name).slice(0, 24) || 'Gezgin'; saveLocal(this.profile); return this.profile; }
+  async buy(itemId) {
+    const r = buyItem(this.profile, itemId);
+    if (!r.ok) throw Error(r.error);
+    saveLocal(this.profile);
+    return {...r, profile: this.profile};
+  }
+  async equip(slot, itemId) {
+    if (!equipCosmetic(this.profile, slot, itemId)) throw Error('Öğeye sahip değilsin.');
+    saveLocal(this.profile);
+    return this.profile;
+  }
 }
 
 // ---------------- online backend ----------------
@@ -147,6 +160,8 @@ class ServerBackend {
   async leaderboard() { return this.api('leaderboard'); }
   async saveDeck(deck) { this.profile = await this.api('profile', {deck}); return this.profile; }
   async setName(name) { this.profile = await this.api('profile', {name}); return this.profile; }
+  async buy(itemId) { const r = await this.api('shop', {item: itemId}); if (r.profile) this.profile = r.profile; return r; }
+  async equip(slot, itemId) { this.profile = await this.api('shop', {equip: slot, item: itemId}); return this.profile; }
 }
 
 export async function connect() {

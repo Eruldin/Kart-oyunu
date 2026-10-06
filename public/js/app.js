@@ -379,7 +379,7 @@ function showPackReveal(pulls, refund) {
   openModal(`<div class="reveal"><h2>${t('pack_std')}</h2>
     <div class="drop-row">${pulls.map(id => {
       const c = cardById[id], r = c?.rarity || 'common';
-      return `<div class="drop-card r-${r}"><div class="drop-art"><img src="${ART}${(c?.art || 'gen/direnis-1.png').replace(/\.\w+$/, '.jpg')}"></div><b>${tn(c?.name)}</b><i>${t('rarity_' + r)}</i></div>`;
+      return `<div class="drop-card r-${r}"><div class="drop-art"><img src="${ART}${(c?.art || 'gen/direnis-1.png').replace(/\.\w+$/, '.jpg')}" loading="lazy"></div><b>${tn(c?.name)}</b><i>${t('rarity_' + r)}</i></div>`;
     }).join('')}</div>
     ${refund ? `<p class="shard-row">◆ +${refund} ${t('shards')}</p>` : ''}
   </div>`, 'reveal-modal');

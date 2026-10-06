@@ -135,7 +135,24 @@ function removeFromBoard(state, a, slot) {
 }
 function killUnit(state, a, slot, why, ctx = {}) {
   const p = player(state, a);
-  const u = removeFromBoard(state, a, slot);
+  const u = p.board[slot];
+  if (!u) return;
+  // inside combat resolution deaths are deferred so board indices stay stable
+  if (state._kills) {
+    u.hp = Math.min(u.hp, 0);
+    u.dying = true;
+    state._kills.push({a, u, why, ctx});
+    return u;
+  }
+  removeFromBoard(state, a, slot);
+  finalizeKill(state, a, u, why, ctx);
+  return u;
+}
+function finalizeKill(state, a, u, why, ctx = {}) {
+  const p = player(state, a);
+  const i = p.board.findIndex(x => x.uid === u.uid);
+  if (i >= 0) p.board.splice(i, 1);
+  delete u.dying;
   p.dead.push(u.id);
   log(state, {t: 'death', a, uid: u.uid, card: u.id, why});
   // Yankı mechanic: units with 'yanki' return next round as weakened echoes
@@ -158,6 +175,11 @@ function killUnit(state, a, slot, why, ctx = {}) {
     }
   }
   return u;
+}
+function flushKills(state) {
+  const kills = state._kills || [];
+  state._kills = null;
+  for (const k of kills) finalizeKill(state, k.a, k.u, k.why, k.ctx);
 }
 function damageAvatar(state, a, n, why) {
   const p = player(state, a);
@@ -720,6 +742,7 @@ function resolveCombat(state) {
   if (state.stack.length) return;   // wait for responses
   combat.resolved = true;
   if (state.winner !== null) return;
+  state._kills = [];   // deaths deferred until combat ends (stable slots)
   const atkP = player(state, A), defP = player(state, D);
   // Koruyucu (Guard): unblocked attackers are intercepted by the defender's guards in order
   const guards = defP.board.map((u, s) => s).filter(s => hasKw(defP.board[s], 'koruyucu') && !defP.board[s].stunned);
@@ -732,8 +755,8 @@ function resolveCombat(state) {
     const atkU = atkP.board[combat.attackers[i].slot];
     const bs = combat.blockers[i];
     const blkU = bs === null || bs === undefined ? null : defP.board[bs];
-    if (!atkU) continue;
-    if (blkU && hasKw(atkU, 'cabuk')) {
+    if (!atkU || atkU.hp <= 0) continue;
+    if (blkU && blkU.hp > 0 && hasKw(atkU, 'cabuk')) {
       strikeUnit(state, A, combat.attackers[i].slot, D, bs);
     }
   }
@@ -741,19 +764,21 @@ function resolveCombat(state) {
   for (let i = 0; i < combat.attackers.length; i++) {
     const atkIdx = combat.attackers[i].slot;
     const atkU = atkP.board[atkIdx];
-    if (!atkU) continue;
+    if (!atkU || atkU.hp <= 0) continue;
     const bs = combat.blockers[i];
     const blkU = bs === null || bs === undefined ? null : defP.board[bs];
-    if (blkU) {
+    if (blkU && blkU.hp > 0) {
       if (hasKw(atkU, 'cabuk')) {
         if (isAlive(blkU)) strikeBack(state, D, bs, A, atkIdx); // blocker survived quick strike
         continue;
       }
       mutualStrike(state, A, atkIdx, D, bs);
-    } else {
+    } else if (!blkU) {
       strikeAvatar(state, A, atkIdx, D);
     }
+    // blkU already dying: attacker was blocked — no face damage
   }
+  flushKills(state);
   state.combat = null;
   if (state.winner === null) {
     state.phase = 'action';
@@ -810,7 +835,7 @@ function mutualStrike(state, A, ai, D, bi) {
 }
 function strikeAvatar(state, A, ai, D) {
   const atkU = player(state, A).board[ai];
-  if (!atkU) return;
+  if (!atkU || atkU.hp <= 0) return;
   const dmg = effAtk(atkU);
   player(state, A).stats.dmgDealt += dmg;
   if (dmg > 0 && hasKw(atkU, 'canavar')) healAvatar(state, A, dmg);

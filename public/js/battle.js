@@ -217,7 +217,7 @@ function stackCardHTML(it, i) {
   const def = cardById[it.card];
   const mine = it.owner === actor();
   return `<div class="stack-card ${mine ? 'mine' : 'theirs'}" data-card-id="${it.card}" data-idx="${i}" style="--i:${i}">
-    <img src="${ART}${(def?.art || 'karah.png').replace(/\.\w+$/, '.jpg')}" alt="">
+    <img src="${ART}${(def?.art || 'karah.png').replace(/\.\w+$/, '.jpg')}" alt="" loading="lazy">
     <b>${def ? tn(def.name) : it.card}</b>
   </div>`;
 }
@@ -270,7 +270,7 @@ function rewardHTML(rw) {
     const c = cardById[id];
     const r = c?.rarity || 'common';
     return `<div class="drop-card r-${r}">
-      <div class="drop-art"><img src="${ART}${(c?.art || 'gen/direnis-1.png').replace(/\.\w+$/, '.jpg')}" alt=""></div>
+      <div class="drop-art"><img src="${ART}${(c?.art || 'gen/direnis-1.png').replace(/\.\w+$/, '.jpg')}" alt="" loading="lazy"></div>
       <b>${tn(c?.name)}</b>
       <i>${t('rarity_' + r)}</i>
     </div>`;

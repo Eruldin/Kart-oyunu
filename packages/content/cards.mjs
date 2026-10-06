@@ -386,11 +386,11 @@ export const ECHOES = {
     ultimate: {
       name: {tr: 'Işığın Yargısı', en: 'Judgement of Light'},
       text: {
-        tr: 'Nihai: Tüm düşman birimlere 3 hasar; dost birimlerin Yozlaşmasını temizle; avatarını 3 iyileştir.',
-        en: 'Ultimate: Deal 3 to all enemy units; cleanse friendly Corruption; heal your avatar 3.',
+        tr: 'Nihai: Tüm düşman birimlere 2 hasar; dost birimlerin Yozlaşmasını temizle; avatarını 3 iyileştir.',
+        en: 'Ultimate: Deal 2 to all enemy units; cleanse friendly Corruption; heal your avatar 3.',
       },
       effects: [
-        {t: 'damage', target: 'all-enemy-units', n: 3},
+        {t: 'damage', target: 'all-enemy-units', n: 2},
         {t: 'cleanse', target: 'all-friendly-units'},
         {t: 'heal', target: 'self-avatar', n: 3},
       ],

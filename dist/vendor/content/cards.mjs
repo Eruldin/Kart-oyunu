@@ -1,4 +1,6 @@
 // ERULDIN: YANKILAR — content data (cards, echoes, chapters)
+import {POOL, POOL_TOKENS} from './pool.mjs';
+import {CAMPAIGN} from './campaign.mjs';
 // Turkish is canonical; English in `en`. Every card's lore hook is annotated
 // with its source layer: [M] book, [L] lore, [A] atlas synthesis, [D] design.
 
@@ -11,6 +13,11 @@ export const KEYWORDS = {
   yanki:     {tr: 'Yankı',     en: 'Echo',       hint: {tr: 'Öldüğünde gelecek tur zayıf yankısı ele döner.', en: 'On death a weakened echo returns to hand next round.'}},
   sonNefes:  {tr: 'Son Nefes', en: 'Last Breath', hint: {tr: 'Öldüğünde etkisi çalışır.', en: 'Its effect triggers on death.'}},
   cagri:     {tr: 'Çağrı',     en: 'Call',       hint: {tr: 'Oynandığında etkisi çalışır.', en: 'Its effect triggers when played.'}},
+  koruyucu:  {tr: 'Koruyucu',  en: 'Guard',      hint: {tr: 'Savunulmayan saldırılar avatar yerine bu birime sapar.', en: 'Unblocked attackers strike this unit instead of the avatar.'}},
+  canavar:   {tr: 'Sömürü',    en: 'Siphon',     hint: {tr: 'Verdiği savaş hasarı kadar avatarını iyileştirir.', en: 'Heals its avatar by the combat damage it deals.'}},
+  saldiri:   {tr: 'Saldırı',   en: 'Assault',    hint: {tr: 'Taarruz ilan edildiğinde etkisi çalışır.', en: 'Its effect triggers when it is declared as an attacker.'}},
+  turSonu:   {tr: 'Devriye',   en: 'Vigil',      hint: {tr: 'Her tur başında etkisi çalışır.', en: 'Its effect triggers at the start of each of your rounds.'}},
+  olustur:   {tr: 'Av',        en: 'Hunt',       hint: {tr: 'Bir birimi öldürdüğünde etkisi çalışır.', en: 'Its effect triggers when it kills a unit.'}},
 };
 
 export const GROUPS = {
@@ -19,11 +26,21 @@ export const GROUPS = {
   karah:   {tr: 'Karah / Yozlaşma', en: 'Karah / Corruption', color: '#6B2FA3'},
   teom:    {tr: 'Teom / Göz',     en: 'Teom / The Eye',      color: '#7EADB7'},
   notr:    {tr: 'Kül Tarlaları',  en: 'Ash Fields',          color: '#8D8F8A'},
+  serseri: {tr: 'Sis Çetesi',     en: 'Mist Gang',           color: '#5E6E7E'},
+  av:      {tr: 'Bozkır Avı',     en: 'Steppe Hunt',         color: '#8A5A2B'},
+  ruh:     {tr: 'Yankıcılar',     en: 'The Echo-Touched',    color: '#7C6BC4'},
+};
+
+export const RARITIES = {
+  common:    {tr: 'Sıradan',   en: 'Common',    color: '#9aa5a4', weight: 55},
+  rare:      {tr: 'Nadir',     en: 'Rare',      color: '#4f8fd0', weight: 28},
+  epic:      {tr: 'Destansı',  en: 'Epic',      color: '#9a5fd0', weight: 13},
+  legendary: {tr: 'Efsanevi',  en: 'Legendary', color: '#d9a13b', weight: 4},
 };
 
 // kind: unit | hero | spell   speed (spell): yavas | hizli | ani
 // effects/cagri/sonNefes use the engine's declarative effect DSL.
-export const CARDS = [
+const BASE_CARDS = [
   // ---------------- Direniş / Koru ----------------
   {
     id: 'akhenten', kind: 'hero', group: 'direnis', cost: 5, atk: 5, hp: 5,
@@ -303,7 +320,10 @@ export const CARDS = [
   },
 ];
 
+// 32 hand-authored canon cards + 312 generated pool cards + 8 summon tokens
+export const CARDS = [...BASE_CARDS, ...POOL, ...POOL_TOKENS];
 export const cardById = Object.fromEntries(CARDS.map(c => [c.id, c]));
+export const COLLECTIBLE = CARDS.filter(c => !c.token);
 
 // ---------------- Echoes (avatars) ----------------
 export const ECHOES = {
@@ -366,11 +386,11 @@ export const ECHOES = {
     ultimate: {
       name: {tr: 'Işığın Yargısı', en: 'Judgement of Light'},
       text: {
-        tr: 'Nihai: Tüm düşman birimlere 3 hasar; dost birimlerin Yozlaşmasını temizle; avatarını 3 iyileştir.',
-        en: 'Ultimate: Deal 3 to all enemy units; cleanse friendly Corruption; heal your avatar 3.',
+        tr: 'Nihai: Tüm düşman birimlere 2 hasar; dost birimlerin Yozlaşmasını temizle; avatarını 3 iyileştir.',
+        en: 'Ultimate: Deal 2 to all enemy units; cleanse friendly Corruption; heal your avatar 3.',
       },
       effects: [
-        {t: 'damage', target: 'all-enemy-units', n: 3},
+        {t: 'damage', target: 'all-enemy-units', n: 2},
         {t: 'cleanse', target: 'all-friendly-units'},
         {t: 'heal', target: 'self-avatar', n: 3},
       ],
@@ -460,7 +480,8 @@ const primusDeck = [
 ];
 
 // ---------------- story chapters ----------------
-export const chapters = [
+// canon chapters 0-4 (hand-authored) + CAMPAIGN 5-59 (generated)
+const CANON_CHAPTERS = [
   {
     id: 0, seed: 101, health: 18, echo: 'ash', deck: karahPackDeck,
     name: {tr: 'Kızıl Aziz\'in Avlusu', en: 'Courtyard of the Red Saint'},
@@ -511,4 +532,11 @@ export const chapters = [
     },
     src: '[M4]',
   },
+];
+
+export const chapters = [...CANON_CHAPTERS, ...CAMPAIGN];
+export const ACT_NAMES = [
+  {tr: 'I. Perde — Kül ve Koru', en: 'Act I — Ash and Hearth'},
+  {tr: 'II. Perde — Kızıl Hat', en: 'Act II — The Red Line'},
+  {tr: 'III. Perde — Karah Yurdu', en: 'Act III — Karah Homeland'},
 ];

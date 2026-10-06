@@ -43,6 +43,7 @@ export function createMatch(opts) {
     health = [24, 24],
     decks,
     first = 0,
+    mutators,                    // [{...mods for player0}, {...for player1}] — campaign buffs
   } = opts || {};
   if (!Array.isArray(decks) || decks.length !== 2) throw Error('İki deste gerekli.');
   for (const d of decks) for (const id of d) if (!cardById[id]) throw Error('Bilinmeyen kart: ' + id);
@@ -57,12 +58,13 @@ export function createMatch(opts) {
     phase: 'action',            // action | declare | block | over
     players: [0, 1].map(i => ({
       avatar: {hp: health[i], max: health[i], echo: echo[i], hatira: 0, ultUsed: false, flagUsed: false},
-      oz: 0, ani: 0,
+      oz: 0, ani: 0, shield: 0,
       deck: [], hand: [], board: [],
       dead: [],      // units that died this match (for revive)
       echoPool: [],  // weakened echoes returning next round
       passed: false, flag: {},
       stats: {played: 0, spells: 0, attacks: 0, dmgDealt: 0, dmgTaken: 0},
+      mods: mutators?.[i] || {},   // {kwAll:[], shield, hatira, hpBonus, ozStart}
     })),
     stack: [],                 // pending fast spell responses
     combat: null,
@@ -71,6 +73,15 @@ export function createMatch(opts) {
   };
 
   for (let i = 0; i < 2; i++) state.players[i].deck = shuffle(state, decks[i].slice());
+
+  // campaign mutators: per-side battle modifiers (boss buffs)
+  for (let i = 0; i < 2; i++) {
+    const p = state.players[i], m = p.mods;
+    if (m.hpBonus) { p.avatar.max += m.hpBonus; p.avatar.hp += m.hpBonus; }
+    if (m.shield) p.shield += m.shield;
+    if (m.hatira) p.avatar.hatira = Math.min(HATIRA_CAP, m.hatira);
+    if (m.ozStart) p.oz += m.ozStart;
+  }
 
   // opening hands, then the mulligan window; round 1 starts once both players lock in
   for (let i = 0; i < 2; i++) {
@@ -110,15 +121,38 @@ function drawCard(state, a, silent = false) {
   p.hand.push(id);
   if (!silent) log(state, {t: 'draw', a});
 }
+// called whenever a unit enters a board — applies the owner's mutator keywords
+function enterUnit(state, a, u) {
+  const mods = player(state, a).mods;
+  if (mods?.kwAll) for (const k of mods.kwAll) if (!u.kw.includes(k)) u.kw.push(k);
+  return u;
+}
 function removeFromBoard(state, a, slot) {
   const p = player(state, a);
   const u = p.board[slot];
   p.board.splice(slot, 1);
   return u;
 }
-function killUnit(state, a, slot, why) {
+function killUnit(state, a, slot, why, ctx = {}) {
   const p = player(state, a);
-  const u = removeFromBoard(state, a, slot);
+  const u = p.board[slot];
+  if (!u) return;
+  // inside combat resolution deaths are deferred so board indices stay stable
+  if (state._kills) {
+    u.hp = Math.min(u.hp, 0);
+    u.dying = true;
+    state._kills.push({a, u, why, ctx});
+    return u;
+  }
+  removeFromBoard(state, a, slot);
+  finalizeKill(state, a, u, why, ctx);
+  return u;
+}
+function finalizeKill(state, a, u, why, ctx = {}) {
+  const p = player(state, a);
+  const i = p.board.findIndex(x => x.uid === u.uid);
+  if (i >= 0) p.board.splice(i, 1);
+  delete u.dying;
   p.dead.push(u.id);
   log(state, {t: 'death', a, uid: u.uid, card: u.id, why});
   // Yankı mechanic: units with 'yanki' return next round as weakened echoes
@@ -131,7 +165,21 @@ function killUnit(state, a, slot, why) {
   if (def && def.sonNefes) runEffects(state, a, def.sonNefes, {self: null});
   // hatira: a friend's memory feeds the echo
   gainHatira(state, a, 1, 'loss');
+  // Olüştür: the killer's on-kill trigger
+  if (ctx.killer) {
+    const kp = player(state, ctx.killerA);
+    const ki = kp.board.findIndex(x => x.uid === ctx.killer.uid);
+    if (ki >= 0) {
+      const kd = cardById[kp.board[ki].id];
+      if (kd?.olustur) runEffects(state, ctx.killerA, kd.olustur, {self: ref(kp.board[ki], ctx.killerA, ki), dead: u});
+    }
+  }
   return u;
+}
+function flushKills(state) {
+  const kills = state._kills || [];
+  state._kills = null;
+  for (const k of kills) finalizeKill(state, k.a, k.u, k.why, k.ctx);
 }
 function damageAvatar(state, a, n, why) {
   const p = player(state, a);
@@ -143,6 +191,13 @@ function damageAvatar(state, a, n, why) {
     const absorbed = Math.min(3, n);
     n -= absorbed;
     log(state, {t: 'calm', a, absorbed});
+    if (n <= 0) return;
+  }
+  // Zırh (armor granted by effects) absorbs damage before it lands
+  if (p.shield > 0) {
+    const sh = Math.min(p.shield, n);
+    p.shield -= sh; n -= sh;
+    log(state, {t: 'shield-hit', a, absorbed: sh, left: p.shield});
     if (n <= 0) return;
   }
   p.avatar.hp -= n;
@@ -218,6 +273,26 @@ function resolveTarget(state, a, spec, ctx) {
       for (let s = 1; s < b.length; s++) if (effAtk(b[s]) > effAtk(b[best])) best = s;
       return [ref(b[best], other(a), best)];
     }
+    case 'weakest-enemy': {
+      const b = player(state, other(a)).board;
+      if (!b.length) return [];
+      let best = 0;
+      for (let s = 1; s < b.length; s++) if (effAtk(b[s]) < effAtk(b[best])) best = s;
+      return [ref(b[best], other(a), best)];
+    }
+    case 'self': return ctx.self ? [ctx.self] : [];
+    case 'adjacent': {
+      // units next to ctx.self in the owner's row
+      const t = ctx.self;
+      if (!t || t.kind !== 'unit') return [];
+      const b = player(state, t.a).board;
+      const idx = b.findIndex(u => u.uid === t.uid);
+      if (idx < 0) return [];
+      const out = [];
+      if (b[idx - 1]) out.push(ref(b[idx - 1], t.a, idx - 1));
+      if (b[idx + 1]) out.push(ref(b[idx + 1], t.a, idx + 1));
+      return out;
+    }
     default: return [];
   }
 }
@@ -275,13 +350,15 @@ function runEffects(state, a, effects, ctx = {}) {
       case 'draw': for (let k = 0; k < e.n; k++) drawCard(state, a); break;
       case 'summon': {
         const p = player(state, a);
-        if (p.board.length < BOARD_SLOTS) {
+        const times = e.n || 1;
+        for (let k = 0; k < times && p.board.length < BOARD_SLOTS; k++) {
           const def = cardById[e.card];
-          if (def) {
-            const u = unit(uidSeq++, def, p.board.length);
-            p.board.push(u);
-            log(state, {t: 'summon', a, slot: p.board.length - 1, card: e.card, uid: u.uid, via: 'effect'});
-          }
+          if (!def) break;
+          const u = unit(uidSeq++, def, p.board.length);
+          if (e.sick === false) u.summoningSick = false;
+          enterUnit(state, a, u);
+          p.board.push(u);
+          log(state, {t: 'summon', a, slot: p.board.length - 1, card: e.card, uid: u.uid, via: 'effect'});
         }
         break;
       }
@@ -323,6 +400,7 @@ function runEffects(state, a, effects, ctx = {}) {
           if (e.atk || e.hp) { u.buffAtk += e.atk || 0; u.buffHp += e.hp || 0; u.maxHp += e.hp || 0; u.hp += e.hp || 0; }
           u.atk = Math.max(1, u.atk); u.maxHp = Math.max(1, u.maxHp); u.hp = Math.max(1, u.hp);
           u.summoningSick = false;
+          enterUnit(state, a, u);
           p.board.push(u);
           log(state, {t: 'revive', a, card: id, slot: p.board.length - 1});
         }
@@ -344,6 +422,55 @@ function runEffects(state, a, effects, ctx = {}) {
             log(state, {t: 'echo-copy', a, card: u.id});
           }
         }
+        break;
+      }
+      case 'stun':
+        for (const tg of resolveTarget(state, a, e.target, ctx)) {
+          const l = live(state, tg); if (!l) continue;
+          l.u.stunned = true; log(state, {t: 'stun', a: tg.a, slot: l.slot});
+        }
+        break;
+      case 'transform': {
+        const tg = ctx.self || (ctx.target?.kind === 'unit' ? ctx.target : null);
+        if (!tg) break;
+        const b = player(state, tg.a).board;
+        const idx = b.findIndex(u => u.uid === tg.uid);
+        const def = cardById[e.card];
+        if (idx < 0 || !def) break;
+        const fresh = unit(uidSeq++, def, idx);
+        fresh.summoningSick = false;
+        enterUnit(state, tg.a, fresh);
+        b[idx] = fresh;
+        log(state, {t: 'transform', a: tg.a, slot: idx, card: e.card});
+        break;
+      }
+      case 'draw-tag': {
+        const p = player(state, a);
+        const n = e.n || 1;
+        for (let k = 0; k < n; k++) {
+          const idx = p.deck.findIndex(id => {
+            const d = cardById[id.replace('#weak', '')];
+            return d && (d.group === e.group || (d.tags || []).includes(e.group));
+          });
+          if (idx < 0) break;
+          if (p.hand.length >= MAX_HAND) { log(state, {t: 'burn', a, card: p.deck[idx]}); p.deck.splice(idx, 1); continue; }
+          p.hand.push(p.deck.splice(idx, 1)[0]);
+          log(state, {t: 'draw', a, tag: e.group});
+        }
+        break;
+      }
+      case 'mill': {
+        const foe = player(state, other(a));
+        for (let k = 0; k < (e.n || 1) && foe.deck.length; k++) {
+          const gone = foe.deck.shift();
+          log(state, {t: 'mill', a: other(a), card: gone});
+        }
+        break;
+      }
+      case 'shield': {
+        const p = player(state, a);
+        p.shield = (p.shield || 0) + (e.n || 1);
+        log(state, {t: 'shield', a, n: e.n || 1, total: p.shield});
         break;
       }
     }
@@ -390,8 +517,12 @@ function beginRound(state) {
       const u = p.board[s];
       u.tempAtk = 0;
       u.summoningSick = false;
+      u.stunned = false;
       const echo = ECHOES[p.avatar.echo];
       if (u.corrupted > 0 && !hasKw(u, 'celik')) damageUnit(state, a, s, u.corrupted, 'corruption');
+      // turSonu-style upkeep trigger defined on the card (fires after ticks)
+      const def = cardById[u.id];
+      if (def?.turSonu && player(state, a).board[s] === u) runEffects(state, a, def.turSonu, {self: ref(u, a, s)});
     }
     // Miras: heal1 — most wounded friendly unit regains 1
     const echo = ECHOES[p.avatar.echo];
@@ -481,6 +612,7 @@ function playCard(state, a, handIndex, target) {
     if (p.board.length >= BOARD_SLOTS) { p.hand.splice(handIndex, 0, raw); refund(state, a, def, cost); throw Error('Saf dolu (6).'); }
     const u = unit(uidSeq++, def, p.board.length);
     if (weak) { u.atk = Math.max(1, u.atk - 1); u.hp = u.maxHp = Math.max(1, u.maxHp - 1); u.echoOf = id; }
+    enterUnit(state, a, u);
     p.board.push(u);
     log(state, {t: 'play', a, card: id, slot: p.board.length - 1, uid: u.uid, weak});
     if (def.cagri) runEffects(state, a, def.cagri, {target});
@@ -550,8 +682,15 @@ function declareAttack(state, a, slots) {
     const u = p.board[s];
     if (!u) throw Error('Geçersiz saf konumu.');
     if (u.summoningSick) throw Error('Bu birim bu tur çağrıldı; henüz taarruz edemez.');
+    if (u.stunned) throw Error('Sersemlemiş birim taarruz edemez.');
     if (effAtk(u) <= 0) throw Error('Saldırı gücü olmayan birim taarruz edemez.');
     attackers.push({slot: s, uid: u.uid});
+  }
+  // on-declare-attack triggers (Saldırı: effects)
+  for (const atk of attackers) {
+    const u = p.board[atk.slot];
+    const def = u && cardById[u.id];
+    if (def?.saldiri) runEffects(state, a, def.saldiri, {self: ref(u, a, atk.slot)});
   }
   // Miras: rally — first attacker gets +1 this combat
   const echo = ECHOES[p.avatar.echo];
@@ -581,6 +720,7 @@ function declareBlock(state, a, pairs) {
     if (bs === null || bs === undefined) { blockers[i] = null; continue; }
     const u = player(state, a).board[bs];
     if (!u) throw Error('Geçersiz savunan konumu.');
+    if (u.stunned) throw Error('Sersemlemiş birim savunamaz.');
     if (used.has(bs)) throw Error('Aynı birim iki saldırıyı savunamaz.');
     const atk = player(state, state.token).board[combat.attackers[i].slot];
     if (!atk) { blockers[i] = null; continue; }
@@ -602,14 +742,21 @@ function resolveCombat(state) {
   if (state.stack.length) return;   // wait for responses
   combat.resolved = true;
   if (state.winner !== null) return;
+  state._kills = [];   // deaths deferred until combat ends (stable slots)
   const atkP = player(state, A), defP = player(state, D);
+  // Koruyucu (Guard): unblocked attackers are intercepted by the defender's guards in order
+  const guards = defP.board.map((u, s) => s).filter(s => hasKw(defP.board[s], 'koruyucu') && !defP.board[s].stunned);
+  for (let i = 0; i < combat.attackers.length; i++) {
+    const bs = combat.blockers[i];
+    if ((bs === null || bs === undefined) && guards.length) combat.blockers[i] = guards.shift();
+  }
   // first strike pass (çabuk)
   for (let i = 0; i < combat.attackers.length; i++) {
     const atkU = atkP.board[combat.attackers[i].slot];
     const bs = combat.blockers[i];
     const blkU = bs === null || bs === undefined ? null : defP.board[bs];
-    if (!atkU) continue;
-    if (blkU && hasKw(atkU, 'cabuk')) {
+    if (!atkU || atkU.hp <= 0) continue;
+    if (blkU && blkU.hp > 0 && hasKw(atkU, 'cabuk')) {
       strikeUnit(state, A, combat.attackers[i].slot, D, bs);
     }
   }
@@ -617,19 +764,21 @@ function resolveCombat(state) {
   for (let i = 0; i < combat.attackers.length; i++) {
     const atkIdx = combat.attackers[i].slot;
     const atkU = atkP.board[atkIdx];
-    if (!atkU) continue;
+    if (!atkU || atkU.hp <= 0) continue;
     const bs = combat.blockers[i];
     const blkU = bs === null || bs === undefined ? null : defP.board[bs];
-    if (blkU) {
+    if (blkU && blkU.hp > 0) {
       if (hasKw(atkU, 'cabuk')) {
         if (isAlive(blkU)) strikeBack(state, D, bs, A, atkIdx); // blocker survived quick strike
         continue;
       }
       mutualStrike(state, A, atkIdx, D, bs);
-    } else {
+    } else if (!blkU) {
       strikeAvatar(state, A, atkIdx, D);
     }
+    // blkU already dying: attacker was blocked — no face damage
   }
+  flushKills(state);
   state.combat = null;
   if (state.winner === null) {
     state.phase = 'action';
@@ -642,9 +791,11 @@ function strikeUnit(state, A, ai, D, bi) {
   const atkU = player(state, A).board[ai], blkU = player(state, D).board[bi];
   if (!atkU || !blkU) return;
   let dmg = effAtk(atkU);
+  if (hasKw(atkU, 'celik') && blkU.group === 'karah') dmg += 2;
   if (hasKw(blkU, 'dayanikli')) dmg = Math.max(0, dmg - 1);
   blkU.hp -= dmg;
   player(state, A).stats.dmgDealt += dmg;
+  if (dmg > 0 && hasKw(atkU, 'canavar')) healAvatar(state, A, dmg);
   log(state, {t: 'strike', a: A, from: ai, to: bi, n: dmg});
   if (blkU.hp <= 0) {
     // Ezici: excess carries to avatar only vs blocks? (LoR: no — overwhelm excess hits nexus on blocked too)
@@ -652,37 +803,42 @@ function strikeUnit(state, A, ai, D, bi) {
       const over = -blkU.hp;
       if (over > 0) damageAvatar(state, D, over, 'overwhelm');
     }
-    killUnit(state, D, bi, 'combat');
+    killUnit(state, D, bi, 'combat', {killer: atkU, killerA: A});
   }
 }
 function strikeBack(state, D, bi, A, ai) {
   const atkU = player(state, A).board[ai], blkU = player(state, D).board[bi];
   if (!atkU || !blkU) return;
   let dmg = effAtk(blkU);
+  if (hasKw(blkU, 'celik') && atkU.group === 'karah') dmg += 2;
   if (hasKw(atkU, 'dayanikli')) dmg = Math.max(0, dmg - 1);
   atkU.hp -= dmg;
+  if (dmg > 0 && hasKw(blkU, 'canavar')) healAvatar(state, D, dmg);
   log(state, {t: 'strike-back', a: D, from: bi, to: ai, n: dmg});
-  if (atkU.hp <= 0) killUnit(state, A, ai, 'combat');
+  if (atkU.hp <= 0) killUnit(state, A, ai, 'combat', {killer: blkU, killerA: D});
 }
 function mutualStrike(state, A, ai, D, bi) {
   const atkU = player(state, A).board[ai], blkU = player(state, D).board[bi];
   if (!atkU || !blkU) return;
-  const aDmg = Math.max(0, effAtk(atkU) - (hasKw(blkU, 'dayanikli') ? 1 : 0));
-  const bDmg = Math.max(0, effAtk(blkU) - (hasKw(atkU, 'dayanikli') ? 1 : 0));
+  const aDmg = Math.max(0, effAtk(atkU) + (hasKw(atkU, 'celik') && blkU.group === 'karah' ? 2 : 0) - (hasKw(blkU, 'dayanikli') ? 1 : 0));
+  const bDmg = Math.max(0, effAtk(blkU) + (hasKw(blkU, 'celik') && atkU.group === 'karah' ? 2 : 0) - (hasKw(atkU, 'dayanikli') ? 1 : 0));
   player(state, A).stats.dmgDealt += aDmg;
   atkU.hp -= bDmg; blkU.hp -= aDmg;
+  if (aDmg > 0 && hasKw(atkU, 'canavar')) healAvatar(state, A, aDmg);
+  if (bDmg > 0 && hasKw(blkU, 'canavar')) healAvatar(state, D, bDmg);
   log(state, {t: 'clash', A, ai, D, bi, aDmg, bDmg});
   if (blkU.hp <= 0) {
     if (hasKw(atkU, 'ezici')) { const over = -blkU.hp; if (over > 0) damageAvatar(state, D, over, 'overwhelm'); }
-    killUnit(state, D, bi, 'combat');
+    killUnit(state, D, bi, 'combat', {killer: atkU, killerA: A});
   }
-  if (atkU.hp <= 0) killUnit(state, A, ai, 'combat');
+  if (atkU.hp <= 0) killUnit(state, A, ai, 'combat', {killer: blkU, killerA: D});
 }
 function strikeAvatar(state, A, ai, D) {
   const atkU = player(state, A).board[ai];
-  if (!atkU) return;
+  if (!atkU || atkU.hp <= 0) return;
   const dmg = effAtk(atkU);
   player(state, A).stats.dmgDealt += dmg;
+  if (dmg > 0 && hasKw(atkU, 'canavar')) healAvatar(state, A, dmg);
   log(state, {t: 'face', a: A, from: ai, n: dmg});
   damageAvatar(state, D, dmg, 'attack');
 }
@@ -773,7 +929,7 @@ export function botCommand(state, a = 1) {
     if (s.stack.length) return {type: 'pass'};
     // defend: greedily block biggest attackers with best trades
     const pairs = {};
-    const defenders = me.board.map((u, i) => ({u, i})).filter(x => x.u.hp > 0);
+    const defenders = me.board.map((u, i) => ({u, i})).filter(x => x.u.hp > 0 && !x.u.stunned);
     const order = s.combat.attackers.map((atk, i) => ({atk, i, v: effAtk(s.players[s.token].board[atk.slot] || {atk: 0, buffAtk: 0, tempAtk: 0})}))
       .sort((x, y) => y.v - x.v);
     const used = new Set();
@@ -845,7 +1001,7 @@ function myAvatarHp(p) { return p.avatar.hp; }
 function tryAttackOrPass(s, a) {
   const me = s.players[a];
   if (s.token === a && s.phase === 'action' && s.active === a && !me.flag.attacked) {
-    const ready = me.board.map((u, i) => ({u, i})).filter(x => !x.u.summoningSick && effAtk(x.u) > 0);
+    const ready = me.board.map((u, i) => ({u, i})).filter(x => !x.u.summoningSick && !x.u.stunned && effAtk(x.u) > 0);
     // attack if we'd push meaningful damage or win trades; simple: attack with all ready when board nonempty
     if (ready.length) return {type: 'attack', slots: ready.map(x => x.i)};
   }

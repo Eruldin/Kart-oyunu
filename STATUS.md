@@ -1,5 +1,20 @@
 # Eruldin çalışma durumu — 5 Ekim 2026
 
+## 5 Ekim 2026 — v1.0 büyük genişleme
+
+İçerik ve sistemler genişletildi (hedef: 300+ kart, 60 bölüm, envanter, market, TFT bossları, çevrimiçi):
+
+- **Kart havuzu**: `tools/gen-cards.mjs` tohumlu üretici → `pool.mjs` (312 kart + 8 token, 7 set ailesi × maliyet eğrisi; nadirlik dağılımı common/rare/epic/legendary; kombinasyonlar: set sinerjileri, tetik zincirleri).
+- **Sefer**: `tools/gen-campaign.mjs` → `campaign.mjs` (55 üretilmiş + 5 kanon = 60 bölüm, 3 perde; her ~10. düğüm boss, %10→elite, id%10==7 düğümler TFT). Bossların `mutators` alanı (hpBonus/shield/hatira/ozStart/kwAll) zorluk ölçekler.
+- **Ekonomi**: `drops.mjs` — parça (◆) para birimi, tür-bazlı drop ağırlıkları (boss %15 efsanevi, TFT %20), pity sistemi (+10%/kuru kesim), 3+ kopya iadesi parçaya dönüşür. `shop.mjs` — paketler (std/elite) + kozmetikler (kart arkalığı/saha/kıvılcım rengi) + `buyItem`/`equipCosmetic`.
+- **TFT boss modu**: `engine/tft.mjs` deterministik ızgara oto-savaşı (7×4, en yakın hedef, anahtar kelimeler taşındı, 3+ grup sinerjisi) + `tft.js` dizilim ekranı ve animasyonlu tekrar. Kazanma `applyRewards` ile drop verir.
+- **Deste kurma**: koleksiyon sahipliği doğrulamalı arayüz (set/tür/maliyet/nadirlik süzgeçleri, 20-kart/3-kopya kuralı); `saveDeck` iki uçta da doğrular.
+- **Çevrimiçi**: oda oluştur/katıl → mulligan → tur değişimi uçtan uca doğrulandı; gizli bilgi maskesi (`hand: 'back'`) yerinde.
+- **Motor düzeltmesi**: savaş içi ölümler artık erteleniyor (`_kills` → `finalizeKill`) — slot kaymasıyla çakma vuruş hatası giderildi; ölü blokcu saldırganı yüze vurdurtmaz.
+- **Denge**: teom nihai 3→2 hasar (85%→60% beyaz eşleşmesi); simülatör 40 maç/eşleşme raporu `reports/balance.json`.
+- **Optimizasyon**: kart görselleri `loading=lazy`, kritik görseller preload; `dist/` 37 MB.
+- Test: 38/38 yeşil (motor, drop, market, TFT, sunucu).
+
 ## 5 Ekim 2026 (geç saat) — v0.2 görsel/animasyon turu
 
 Kullanıcı geri bildirimi: arka planlar hareketsiz, animasyon yok, öğretici yok, haritada oklar takılı kalıyor, bölüm işaretleri düzensiz. Yapılanlar:

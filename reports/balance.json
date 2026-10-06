@@ -1,60 +1,60 @@
 {
-  "generated": "2026-10-05T21:56:43.936Z",
-  "gamesPerMatchup": 40,
+  "generated": "2026-10-06T01:22:16.856Z",
+  "gamesPerMatchup": 20,
   "echoWinrates": {
     "ash vs ash": {
-      "winrate": 50,
+      "winrate": 40,
       "draws": 0,
       "timeouts": 0,
-      "avgRounds": 17.4
+      "avgRounds": 18
     },
     "ash vs white": {
-      "winrate": 57.5,
+      "winrate": 40,
       "draws": 0,
       "timeouts": 0,
-      "avgRounds": 20.3
+      "avgRounds": 20.9
     },
     "ash vs teom": {
-      "winrate": 42.5,
+      "winrate": 45,
       "draws": 0,
       "timeouts": 0,
-      "avgRounds": 17.1
+      "avgRounds": 18.3
     },
     "white vs ash": {
-      "winrate": 47.5,
+      "winrate": 55,
       "draws": 0,
       "timeouts": 0,
-      "avgRounds": 20.6
+      "avgRounds": 21.4
     },
     "white vs white": {
-      "winrate": 35,
+      "winrate": 52.6,
       "draws": 0,
-      "timeouts": 0,
-      "avgRounds": 31.9
+      "timeouts": 1,
+      "avgRounds": 34.3
     },
     "white vs teom": {
-      "winrate": 32.5,
+      "winrate": 25,
       "draws": 0,
       "timeouts": 0,
-      "avgRounds": 19.9
+      "avgRounds": 18.8
     },
     "teom vs ash": {
-      "winrate": 50,
+      "winrate": 55,
       "draws": 0,
       "timeouts": 0,
-      "avgRounds": 17.4
+      "avgRounds": 18.1
     },
     "teom vs white": {
-      "winrate": 85,
+      "winrate": 80,
       "draws": 0,
       "timeouts": 0,
-      "avgRounds": 19.1
+      "avgRounds": 20.7
     },
     "teom vs teom": {
       "winrate": 55,
       "draws": 0,
       "timeouts": 0,
-      "avgRounds": 17.8
+      "avgRounds": 19.4
     }
   },
   "cardUsage": {
@@ -67,38 +67,38 @@
     "torg": {
       "name": "Genç Torg",
       "played": 119,
-      "winPlays": 86,
-      "playWinrate": 72.3
+      "winPlays": 104,
+      "playWinrate": 87.4
     },
     "gorn": {
       "name": "Gorn, Demirhane Ustası",
-      "played": 56,
+      "played": 49,
       "winPlays": 42,
-      "playWinrate": 75
+      "playWinrate": 85.7
     },
     "borin": {
       "name": "Borin, Koru Muhafızı",
       "played": 97,
-      "winPlays": 69,
-      "playWinrate": 71.1
+      "winPlays": 85,
+      "playWinrate": 87.6
     },
     "koru-muhafiz": {
       "name": "Koru Muhafızı",
-      "played": 116,
-      "winPlays": 84,
-      "playWinrate": 72.4
+      "played": 117,
+      "winPlays": 102,
+      "playWinrate": 87.2
     },
     "ocak-isigi": {
       "name": "Ocak Işığı",
       "played": 80,
-      "winPlays": 58,
-      "playWinrate": 72.5
+      "winPlays": 70,
+      "playWinrate": 87.5
     },
     "secilmis-aile": {
       "name": "Seçilmiş Aile",
-      "played": 80,
-      "winPlays": 58,
-      "playWinrate": 72.5
+      "played": 79,
+      "winPlays": 69,
+      "playWinrate": 87.3
     },
     "siginak": {
       "name": "Sığınak",
@@ -127,20 +127,20 @@
     "vesemir": {
       "name": "Vesemir, Emir Kâtibi",
       "played": 80,
-      "winPlays": 22,
-      "playWinrate": 27.5
+      "winPlays": 10,
+      "playWinrate": 12.5
     },
     "konsey-muhbiri": {
       "name": "Konsey Muhbiri",
       "played": 80,
-      "winPlays": 22,
-      "playWinrate": 27.5
+      "winPlays": 10,
+      "playWinrate": 12.5
     },
     "kizil-cizgi": {
       "name": "Kızıl Çizgi",
       "played": 80,
-      "winPlays": 22,
-      "playWinrate": 27.5
+      "winPlays": 10,
+      "playWinrate": 12.5
     },
     "golge-yolu": {
       "name": "Gölge Yolu",
@@ -151,26 +151,26 @@
     "gri-kelebek": {
       "name": "Gri Kelebek",
       "played": 80,
-      "winPlays": 22,
-      "playWinrate": 27.5
+      "winPlays": 10,
+      "playWinrate": 12.5
     },
     "karah-suru": {
       "name": "Karah Sürüsü",
       "played": 120,
-      "winPlays": 33,
-      "playWinrate": 27.5
+      "winPlays": 15,
+      "playWinrate": 12.5
     },
     "karah-yavru": {
       "name": "Karah Yavrusu",
       "played": 120,
-      "winPlays": 33,
-      "playWinrate": 27.5
+      "winPlays": 15,
+      "playWinrate": 12.5
     },
     "katran-emici": {
       "name": "Katran Emici",
       "played": 80,
-      "winPlays": 22,
-      "playWinrate": 27.5
+      "winPlays": 10,
+      "playWinrate": 12.5
     },
     "carpik-filiz": {
       "name": "Çarpık Filiz",
@@ -181,20 +181,20 @@
     "yozlasma-dokunusu": {
       "name": "Yozlaşma Dokunuşu",
       "played": 120,
-      "winPlays": 33,
-      "playWinrate": 27.5
+      "winPlays": 15,
+      "playWinrate": 12.5
     },
     "obsidyen-sutun": {
       "name": "Obsidyen Sütun",
       "played": 40,
-      "winPlays": 11,
-      "playWinrate": 27.5
+      "winPlays": 5,
+      "playWinrate": 12.5
     },
     "teom-celigi": {
       "name": "Teom Çeliği",
       "played": 40,
-      "winPlays": 29,
-      "playWinrate": 72.5
+      "winPlays": 35,
+      "playWinrate": 87.5
     },
     "goz-un-kesis": {
       "name": "Göz'ün Keşişi",
@@ -229,23 +229,1943 @@
     "matrona-zarlari": {
       "name": "Matrona'nın Kemikleri",
       "played": 40,
-      "winPlays": 29,
-      "playWinrate": 72.5
+      "winPlays": 35,
+      "playWinrate": 87.5
     },
     "pasli-kanca": {
       "name": "Paslı Kanca Zebellahı",
-      "played": 83,
-      "winPlays": 60,
-      "playWinrate": 72.3
+      "played": 86,
+      "winPlays": 75,
+      "playWinrate": 87.2
     },
     "kuzgunyuvasi-gozcu": {
       "name": "Kuzgunyuvası Gözcüsü",
-      "played": 469,
-      "winPlays": 330,
-      "playWinrate": 70.4
+      "played": 460,
+      "winPlays": 384,
+      "playWinrate": 83.5
     },
     "ash-ruzgari": {
       "name": "Kül Rüzgârı",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-direnis-mantar-ascisi-0": {
+      "name": "Mantar Aşçısı",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-direnis-koru-sifacisi-1": {
+      "name": "Koru Şifacısı",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-direnis-siginak-isik-tasiyicisi-2": {
+      "name": "Sığınak Işık Taşıyıcısı",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-direnis-siginak-ascisi-3": {
+      "name": "Sığınak Aşçısı",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-direnis-ocak-anlasmasi-4": {
+      "name": "Ocak Anlaşması",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-direnis-kopru-ascisi-5": {
+      "name": "Köprü Aşçısı",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-direnis-kopru-kurucusu-6": {
+      "name": "Köprü Kurucusu",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-direnis-kopru-yemini-7": {
+      "name": "Köprü Yemini",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-direnis-ocak-sifacisi-8": {
+      "name": "Ocak Şifacısı",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-direnis-siginak-dul-vereni-9": {
+      "name": "Sığınak Dul Vereni",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-direnis-mantar-tercumani-10": {
+      "name": "Mantar Tercümanı",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-direnis-koru-buyusu-11": {
+      "name": "Koru Büyüsü",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-direnis-mantar-yemini-12": {
+      "name": "Mantar Yemini",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-direnis-koru-yemini-13": {
+      "name": "Koru Yemini",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-direnis-mantar-fisiltisi-14": {
+      "name": "Mantar Fısıltısı",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-direnis-altin-isik-tasiyicisi-15": {
+      "name": "Altın Işık Taşıyıcısı",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-direnis-ocak-yemini-16": {
+      "name": "Ocak Yemini",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-direnis-koru-isik-tasiyicisi-17": {
+      "name": "Koru Işık Taşıyıcısı",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-direnis-koru-muhafizi-18": {
+      "name": "Koru Muhafızı",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-direnis-ocak-tercumani-19": {
+      "name": "Ocak Tercümanı",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-direnis-mantar-dul-vereni-20": {
+      "name": "Mantar Dul Vereni",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-direnis-siginak-anlasmasi-21": {
+      "name": "Sığınak Anlaşması",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-direnis-altin-fisiltisi-22": {
+      "name": "Altın Fısıltısı",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-direnis-kopru-buyusu-23": {
+      "name": "Köprü Büyüsü",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-direnis-kopru-ritueli-24": {
+      "name": "Köprü Ritüeli",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-direnis-altin-anlasmasi-25": {
+      "name": "Altın Anlaşması",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-direnis-ocak-kurucusu-26": {
+      "name": "Ocak Kurucusu",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-direnis-kopru-sifacisi-27": {
+      "name": "Köprü Şifacısı",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-direnis-altin-ascisi-28": {
+      "name": "Altın Aşçısı",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-direnis-koru-dul-vereni-29": {
+      "name": "Koru Dul Vereni",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-direnis-altin-bedeli-30": {
+      "name": "Altın Bedeli",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-direnis-mantar-buyusu-31": {
+      "name": "Mantar Büyüsü",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-direnis-siginak-kurucusu-32": {
+      "name": "Sığınak Kurucusu",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-direnis-ocak-dul-vereni-33": {
+      "name": "Ocak Dul Vereni",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-direnis-kopru-tercumani-34": {
+      "name": "Köprü Tercümanı",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-direnis-altin-sifacisi-35": {
+      "name": "Altın Şifacısı",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-direnis-mantar-ritueli-36": {
+      "name": "Mantar Ritüeli",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-direnis-mantar-anlasmasi-37": {
+      "name": "Mantar Anlaşması",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-direnis-altin-tercumani-38": {
+      "name": "Altın Tercümanı",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-konsey-sur-yemini-39": {
+      "name": "Sur Yemini",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-konsey-konsey-buyusu-40": {
+      "name": "Konsey Büyüsü",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-konsey-kale-zebellahi-41": {
+      "name": "Kale Zebellahı",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-konsey-kale-muhafizi-42": {
+      "name": "Kale Muhafızı",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-konsey-ferman-ritueli-43": {
+      "name": "Ferman Ritüeli",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-konsey-kan-muhafizi-44": {
+      "name": "Kan Muhafızı",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-konsey-konsey-elcisi-45": {
+      "name": "Konsey Elçisi",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-konsey-kan-buyusu-46": {
+      "name": "Kan Büyüsü",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-konsey-kan-zebellahi-47": {
+      "name": "Kan Zebellahı",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-konsey-kan-anlasmasi-48": {
+      "name": "Kan Anlaşması",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-konsey-kizil-yemini-49": {
+      "name": "Kızıl Yemini",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-konsey-kan-bedeli-50": {
+      "name": "Kan Bedeli",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-konsey-sur-bedeli-51": {
+      "name": "Sur Bedeli",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-konsey-kizil-muhafizi-52": {
+      "name": "Kızıl Muhafızı",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-konsey-konsey-vergicisi-53": {
+      "name": "Konsey Vergicisi",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-konsey-kale-buyusu-54": {
+      "name": "Kale Büyüsü",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-konsey-kale-yemini-55": {
+      "name": "Kale Yemini",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-konsey-ferman-elcisi-56": {
+      "name": "Ferman Elçisi",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-konsey-sur-k-tibi-57": {
+      "name": "Sur Kâtibi",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-konsey-kale-fisiltisi-58": {
+      "name": "Kale Fısıltısı",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-konsey-sur-fisiltisi-59": {
+      "name": "Sur Fısıltısı",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-konsey-kale-anlasmasi-60": {
+      "name": "Kale Anlaşması",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-konsey-kan-celladi-61": {
+      "name": "Kan Celladı",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-konsey-kan-habercisi-62": {
+      "name": "Kan Habercisi",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-konsey-kan-fisiltisi-63": {
+      "name": "Kan Fısıltısı",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-konsey-kan-elcisi-64": {
+      "name": "Kan Elçisi",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-konsey-konsey-habercisi-65": {
+      "name": "Konsey Habercisi",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-konsey-konsey-yemini-66": {
+      "name": "Konsey Yemini",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-konsey-sur-anlasmasi-67": {
+      "name": "Sur Anlaşması",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-konsey-kizil-fisiltisi-68": {
+      "name": "Kızıl Fısıltısı",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-konsey-ferman-yemini-69": {
+      "name": "Ferman Yemini",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-konsey-konsey-fisiltisi-70": {
+      "name": "Konsey Fısıltısı",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-konsey-kan-muhbiri-71": {
+      "name": "Kan Muhbiri",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-konsey-sur-zebellahi-72": {
+      "name": "Sur Zebellahı",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-konsey-kizil-k-tibi-73": {
+      "name": "Kızıl Kâtibi",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-konsey-kizil-buyusu-74": {
+      "name": "Kızıl Büyüsü",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-konsey-kan-k-tibi-75": {
+      "name": "Kan Kâtibi",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-konsey-ferman-habercisi-76": {
+      "name": "Ferman Habercisi",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-konsey-ferman-k-tibi-77": {
+      "name": "Ferman Kâtibi",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-karah-katran-zirhlisi-78": {
+      "name": "Katran Zırhlısı",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-karah-katran-buyusu-79": {
+      "name": "Katran Büyüsü",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-karah-katran-tasiyicisi-80": {
+      "name": "Katran Taşıyıcısı",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-karah-obsidyen-emicisi-81": {
+      "name": "Obsidyen Emicisi",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-karah-siyah-fisiltisi-82": {
+      "name": "Siyah Fısıltısı",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-karah-obsidyen-yavrusu-83": {
+      "name": "Obsidyen Yavrusu",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-karah-karah-tohumu-84": {
+      "name": "Karah Tohumu",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-karah-katran-yemini-85": {
+      "name": "Katran Yemini",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-karah-siyah-kulu-86": {
+      "name": "Siyah Kulu",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-karah-carpik-filizi-87": {
+      "name": "Çarpık Filizi",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-karah-siyah-yavrusu-88": {
+      "name": "Siyah Yavrusu",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-karah-obsidyen-tasiyicisi-89": {
+      "name": "Obsidyen Taşıyıcısı",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-karah-carpik-tohumu-90": {
+      "name": "Çarpık Tohumu",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-karah-mor-yemini-91": {
+      "name": "Mor Yemini",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-karah-obsidyen-ritueli-92": {
+      "name": "Obsidyen Ritüeli",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-karah-katran-surusu-93": {
+      "name": "Katran Sürüsü",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-karah-siyah-tasiyicisi-94": {
+      "name": "Siyah Taşıyıcısı",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-karah-carpik-zirhlisi-95": {
+      "name": "Çarpık Zırhlısı",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-karah-karah-zirhlisi-96": {
+      "name": "Karah Zırhlısı",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-karah-carpik-surusu-97": {
+      "name": "Çarpık Sürüsü",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-karah-mor-surusu-98": {
+      "name": "Mor Sürüsü",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-karah-obsidyen-tohumu-99": {
+      "name": "Obsidyen Tohumu",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-karah-siyah-buyusu-100": {
+      "name": "Siyah Büyüsü",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-karah-siyah-filizi-101": {
+      "name": "Siyah Filizi",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-karah-carpik-yavrusu-102": {
+      "name": "Çarpık Yavrusu",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-karah-katran-tohumu-103": {
+      "name": "Katran Tohumu",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-karah-obsidyen-buyusu-104": {
+      "name": "Obsidyen Büyüsü",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-karah-mor-yavrusu-105": {
+      "name": "Mor Yavrusu",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-karah-katran-emicisi-106": {
+      "name": "Katran Emicisi",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-karah-obsidyen-kulu-107": {
+      "name": "Obsidyen Kulu",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-karah-katran-kulu-108": {
+      "name": "Katran Kulu",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-karah-carpik-emicisi-109": {
+      "name": "Çarpık Emicisi",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-karah-karah-emicisi-110": {
+      "name": "Karah Emicisi",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-karah-carpik-tasiyicisi-111": {
+      "name": "Çarpık Taşıyıcısı",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-karah-siyah-anlasmasi-112": {
+      "name": "Siyah Anlaşması",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-karah-karah-surusu-113": {
+      "name": "Karah Sürüsü",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-karah-carpik-kulu-114": {
+      "name": "Çarpık Kulu",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-karah-obsidyen-bedeli-115": {
+      "name": "Obsidyen Bedeli",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-karah-katran-filizi-116": {
+      "name": "Katran Filizi",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-teom-kutsal-muhafizi-117": {
+      "name": "Kutsal Muhafızı",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-teom-manastir-fisiltisi-118": {
+      "name": "Manastır Fısıltısı",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-teom-kutsal-bilgini-119": {
+      "name": "Kutsal Bilgini",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-teom-manastir-sovalyesi-120": {
+      "name": "Manastır Şövalyesi",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-teom-serlunar-muhafizi-121": {
+      "name": "Serlunar Muhafızı",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-teom-manastir-bilgini-122": {
+      "name": "Manastır Bilgini",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-teom-goz-anlasmasi-123": {
+      "name": "Göz Anlaşması",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-teom-goz-muhafizi-124": {
+      "name": "Göz Muhafızı",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-teom-kutsal-anlasmasi-125": {
+      "name": "Kutsal Anlaşması",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-teom-goz-sovalyesi-126": {
+      "name": "Göz Şövalyesi",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-teom-kutsal-sovalyesi-127": {
+      "name": "Kutsal Şövalyesi",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-teom-teom-buyusu-128": {
+      "name": "Teom Büyüsü",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-teom-kutsal-vaizi-129": {
+      "name": "Kutsal Vaizi",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-teom-serlunar-vaizi-130": {
+      "name": "Serlunar Vaizi",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-teom-beyaz-demircisi-131": {
+      "name": "Beyaz Demircisi",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-teom-serlunar-kesisi-132": {
+      "name": "Serlunar Keşişi",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-teom-teom-ritueli-133": {
+      "name": "Teom Ritüeli",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-teom-serlunar-gozcusu-134": {
+      "name": "Serlunar Gözcüsü",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-teom-goz-gozcusu-135": {
+      "name": "Göz Gözcüsü",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-teom-manastir-demircisi-136": {
+      "name": "Manastır Demircisi",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-teom-serlunar-demircisi-137": {
+      "name": "Serlunar Demircisi",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-teom-manastir-yemini-138": {
+      "name": "Manastır Yemini",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-teom-beyaz-sovalyesi-139": {
+      "name": "Beyaz Şövalyesi",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-teom-goz-buyusu-140": {
+      "name": "Göz Büyüsü",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-teom-kutsal-gozcusu-141": {
+      "name": "Kutsal Gözcüsü",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-teom-beyaz-muhafizi-142": {
+      "name": "Beyaz Muhafızı",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-teom-serlunar-ritueli-143": {
+      "name": "Serlunar Ritüeli",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-teom-teom-kesisi-144": {
+      "name": "Teom Keşişi",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-teom-beyaz-yazmani-145": {
+      "name": "Beyaz Yazmanı",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-teom-manastir-bedeli-146": {
+      "name": "Manastır Bedeli",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-teom-goz-vaizi-147": {
+      "name": "Göz Vaizi",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-teom-beyaz-ritueli-148": {
+      "name": "Beyaz Ritüeli",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-teom-manastir-vaizi-149": {
+      "name": "Manastır Vaizi",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-teom-goz-fisiltisi-150": {
+      "name": "Göz Fısıltısı",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-teom-kutsal-kesisi-151": {
+      "name": "Kutsal Keşişi",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-teom-teom-bilgini-152": {
+      "name": "Teom Bilgini",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-teom-teom-sovalyesi-153": {
+      "name": "Teom Şövalyesi",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-teom-beyaz-bilgini-154": {
+      "name": "Beyaz Bilgini",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-teom-teom-vaizi-155": {
+      "name": "Teom Vaizi",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-notr-pasli-bedeli-156": {
+      "name": "Paslı Bedeli",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-notr-pasli-zar-aticisi-157": {
+      "name": "Paslı Zar Atıcısı",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-notr-gri-koleksiyoncusu-158": {
+      "name": "Gri Koleksiyoncusu",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-notr-kuzgunyuvasi-anlasmasi-159": {
+      "name": "Kuzgunyuvası Anlaşması",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-notr-kuzgunyuvasi-yemini-160": {
+      "name": "Kuzgunyuvası Yemini",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-notr-toz-yemini-161": {
+      "name": "Toz Yemini",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-notr-toz-fisiltisi-162": {
+      "name": "Toz Fısıltısı",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-notr-tarlalar-koleksiyoncusu-163": {
+      "name": "Tarlalar Koleksiyoncusu",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-notr-kul-hancisi-164": {
+      "name": "Kül Hancısı",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-notr-toz-serseri-165": {
+      "name": "Toz Serseri",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-notr-kuzgunyuvasi-zebellahi-166": {
+      "name": "Kuzgunyuvası Zebellahı",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-notr-pasli-hurdacisi-167": {
+      "name": "Paslı Hurdacısı",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-notr-kul-koleksiyoncusu-168": {
+      "name": "Kül Koleksiyoncusu",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-notr-toz-cobani-169": {
+      "name": "Toz Çobanı",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-notr-kul-hurdacisi-170": {
+      "name": "Kül Hurdacısı",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-notr-tarlalar-gozcusu-171": {
+      "name": "Tarlalar Gözcüsü",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-notr-gri-serseri-172": {
+      "name": "Gri Serseri",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-notr-kul-cobani-173": {
+      "name": "Kül Çobanı",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-notr-kuzgunyuvasi-koleksiyoncusu-174": {
+      "name": "Kuzgunyuvası Koleksiyoncusu",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-notr-kul-yemini-175": {
+      "name": "Kül Yemini",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-notr-toz-hurdacisi-176": {
+      "name": "Toz Hurdacısı",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-notr-toz-zebellahi-177": {
+      "name": "Toz Zebellahı",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-notr-kul-bedeli-178": {
+      "name": "Kül Bedeli",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-notr-tarlalar-cobani-179": {
+      "name": "Tarlalar Çobanı",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-notr-kul-buyusu-180": {
+      "name": "Kül Büyüsü",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-notr-kuzgunyuvasi-fisiltisi-181": {
+      "name": "Kuzgunyuvası Fısıltısı",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-notr-toz-bedeli-182": {
+      "name": "Toz Bedeli",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-notr-toz-koleksiyoncusu-183": {
+      "name": "Toz Koleksiyoncusu",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-notr-gri-hurdacisi-184": {
+      "name": "Gri Hurdacısı",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-notr-kul-ritueli-185": {
+      "name": "Kül Ritüeli",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-notr-gri-zebellahi-186": {
+      "name": "Gri Zebellahı",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-notr-tarlalar-ritueli-187": {
+      "name": "Tarlalar Ritüeli",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-notr-toz-buyusu-188": {
+      "name": "Toz Büyüsü",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-notr-toz-hancisi-189": {
+      "name": "Toz Hancısı",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-notr-toz-zar-aticisi-190": {
+      "name": "Toz Zar Atıcısı",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-notr-tarlalar-bedeli-191": {
+      "name": "Tarlalar Bedeli",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-notr-kuzgunyuvasi-bedeli-192": {
+      "name": "Kuzgunyuvası Bedeli",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-notr-kuzgunyuvasi-hurdacisi-193": {
+      "name": "Kuzgunyuvası Hurdacısı",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-notr-pasli-gozcusu-194": {
+      "name": "Paslı Gözcüsü",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-serseri-kor-bedeli-195": {
+      "name": "Kör Bedeli",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-serseri-gri-pelerin-hirsizi-196": {
+      "name": "Gri Pelerin Hırsızı",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-serseri-yankisiz-hirsizi-197": {
+      "name": "Yankısız Hırsızı",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-serseri-kor-kacagi-198": {
+      "name": "Kör Kaçağı",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-serseri-sis-kacagi-199": {
+      "name": "Sis Kaçağı",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-serseri-sis-bedeli-200": {
+      "name": "Sis Bedeli",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-serseri-fisilti-anlasmasi-201": {
+      "name": "Fısıltı Anlaşması",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-serseri-fisilti-ritueli-202": {
+      "name": "Fısıltı Ritüeli",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-serseri-yankisiz-yemini-203": {
+      "name": "Yankısız Yemini",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-serseri-gece-bedeli-204": {
+      "name": "Gece Bedeli",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-serseri-gri-pelerin-maskelisi-205": {
+      "name": "Gri Pelerin Maskelisi",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-serseri-sis-golgesi-206": {
+      "name": "Sis Gölgesi",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-serseri-sis-yemini-207": {
+      "name": "Sis Yemini",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-serseri-gece-fisiltisi-208": {
+      "name": "Gece Fısıltısı",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-serseri-yankisiz-kacagi-209": {
+      "name": "Yankısız Kaçağı",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-serseri-yankisiz-buyusu-210": {
+      "name": "Yankısız Büyüsü",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-serseri-kor-kancalisi-211": {
+      "name": "Kör Kancalısı",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-serseri-kor-hirsizi-212": {
+      "name": "Kör Hırsızı",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-serseri-gri-pelerin-yemini-213": {
+      "name": "Gri Pelerin Yemini",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-serseri-gece-sokmasi-214": {
+      "name": "Gece Sokması",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-serseri-fisilti-golgesi-215": {
+      "name": "Fısıltı Gölgesi",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-serseri-sis-maskelisi-216": {
+      "name": "Sis Maskelisi",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-serseri-gri-pelerin-fisiltisi-217": {
+      "name": "Gri Pelerin Fısıltısı",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-serseri-sis-pusucusu-218": {
+      "name": "Sis Pusucusu",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-serseri-gece-kancalisi-219": {
+      "name": "Gece Kancalısı",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-serseri-yankisiz-bedeli-220": {
+      "name": "Yankısız Bedeli",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-serseri-sis-kancalisi-221": {
+      "name": "Sis Kancalısı",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-serseri-gri-pelerin-sokmasi-222": {
+      "name": "Gri Pelerin Sokması",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-serseri-kor-golgesi-223": {
+      "name": "Kör Gölgesi",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-serseri-gece-buyusu-224": {
+      "name": "Gece Büyüsü",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-serseri-sis-dilsizi-225": {
+      "name": "Sis Dilsizi",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-serseri-gece-kacagi-226": {
+      "name": "Gece Kaçağı",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-serseri-sis-fisiltisi-227": {
+      "name": "Sis Fısıltısı",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-serseri-gri-pelerin-buyusu-228": {
+      "name": "Gri Pelerin Büyüsü",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-serseri-fisilti-kacagi-229": {
+      "name": "Fısıltı Kaçağı",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-serseri-yankisiz-maskelisi-230": {
+      "name": "Yankısız Maskelisi",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-serseri-kor-buyusu-231": {
+      "name": "Kör Büyüsü",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-serseri-gri-pelerin-ritueli-232": {
+      "name": "Gri Pelerin Ritüeli",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-serseri-yankisiz-ritueli-233": {
+      "name": "Yankısız Ritüeli",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-av-pence-surucusu-234": {
+      "name": "Pençe Sürücüsü",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-av-kurt-canavari-235": {
+      "name": "Kurt Canavarı",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-av-kuzey-ritueli-236": {
+      "name": "Kuzey Ritüeli",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-av-kurt-i-z-surucusu-237": {
+      "name": "Kurt İz Sürücüsü",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-av-kuzey-i-z-surucusu-238": {
+      "name": "Kuzey İz Sürücüsü",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-av-kurt-okcusu-239": {
+      "name": "Kurt Okçusu",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-av-bozkir-fisiltisi-240": {
+      "name": "Bozkır Fısıltısı",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-av-pence-kurdu-241": {
+      "name": "Pençe Kurdu",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-av-bozkir-yemini-242": {
+      "name": "Bozkır Yemini",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-av-kanli-fisiltisi-243": {
+      "name": "Kanlı Fısıltısı",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-av-pence-ritueli-244": {
+      "name": "Pençe Ritüeli",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-av-kanli-ritueli-245": {
+      "name": "Kanlı Ritüeli",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-av-pence-tazisi-246": {
+      "name": "Pençe Tazısı",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-av-pence-okcusu-247": {
+      "name": "Pençe Okçusu",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-av-kuzey-kurdu-248": {
+      "name": "Kuzey Kurdu",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-av-boynuz-tazisi-249": {
+      "name": "Boynuz Tazısı",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-av-boynuz-canavari-250": {
+      "name": "Boynuz Canavarı",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-av-kurt-surucusu-251": {
+      "name": "Kurt Sürücüsü",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-av-kuzey-canavari-252": {
+      "name": "Kuzey Canavarı",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-av-pence-efsanesi-253": {
+      "name": "Pençe Efsanesi",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-av-kanli-surucusu-254": {
+      "name": "Kanlı Sürücüsü",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-av-kanli-okcusu-255": {
+      "name": "Kanlı Okçusu",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-av-bozkir-avcisi-256": {
+      "name": "Bozkır Avcısı",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-av-boynuz-kurdu-257": {
+      "name": "Boynuz Kurdu",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-av-bozkir-tazisi-258": {
+      "name": "Bozkır Tazısı",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-av-pence-i-z-surucusu-259": {
+      "name": "Pençe İz Sürücüsü",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-av-kanli-yemini-260": {
+      "name": "Kanlı Yemini",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-av-kuzey-surucusu-261": {
+      "name": "Kuzey Sürücüsü",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-av-bozkir-okcusu-262": {
+      "name": "Bozkır Okçusu",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-av-kurt-buyusu-263": {
+      "name": "Kurt Büyüsü",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-av-kurt-anlasmasi-264": {
+      "name": "Kurt Anlaşması",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-av-bozkir-anlasmasi-265": {
+      "name": "Bozkır Anlaşması",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-av-kurt-tazisi-266": {
+      "name": "Kurt Tazısı",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-av-bozkir-ritueli-267": {
+      "name": "Bozkır Ritüeli",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-av-kuzey-avcisi-268": {
+      "name": "Kuzey Avcısı",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-av-bozkir-canavari-269": {
+      "name": "Bozkır Canavarı",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-av-bozkir-buyusu-270": {
+      "name": "Bozkır Büyüsü",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-av-kuzey-buyusu-271": {
+      "name": "Kuzey Büyüsü",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-av-kuzey-efsanesi-272": {
+      "name": "Kuzey Efsanesi",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-ruh-sisli-yankicisi-273": {
+      "name": "Sisli Yankıcısı",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-ruh-unutulmus-koru-masi-274": {
+      "name": "Unutulmuş Koru'ması",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-ruh-bosluk-koru-masi-275": {
+      "name": "Boşluk Koru'ması",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-ruh-bosluk-sesi-276": {
+      "name": "Boşluk Sesi",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-ruh-yanki-sesi-277": {
+      "name": "Yankı Sesi",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-ruh-unutulmus-kalintisi-278": {
+      "name": "Unutulmuş Kalıntısı",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-ruh-unutulmus-buyusu-279": {
+      "name": "Unutulmuş Büyüsü",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-ruh-hatira-feneri-280": {
+      "name": "Hatıra Feneri",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-ruh-unutulmus-sesi-281": {
+      "name": "Unutulmuş Sesi",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-ruh-unutulmus-feneri-282": {
+      "name": "Unutulmuş Feneri",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-ruh-hatira-yuzu-283": {
+      "name": "Hatıra Yüzü",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-ruh-bosluk-yuzu-284": {
+      "name": "Boşluk Yüzü",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-ruh-akis-habercisi-285": {
+      "name": "Akis Habercisi",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-ruh-sisli-andici-286": {
+      "name": "Sisli Andıcı",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-ruh-akis-koru-masi-287": {
+      "name": "Akis Koru'ması",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-ruh-bosluk-feneri-288": {
+      "name": "Boşluk Feneri",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-ruh-sisli-feneri-289": {
+      "name": "Sisli Feneri",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-ruh-bosluk-yankicisi-290": {
+      "name": "Boşluk Yankıcısı",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-ruh-hatira-anlasmasi-291": {
+      "name": "Hatıra Anlaşması",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-ruh-sisli-ritueli-292": {
+      "name": "Sisli Ritüeli",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-ruh-yanki-ritueli-293": {
+      "name": "Yankı Ritüeli",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-ruh-unutulmus-fisiltisi-294": {
+      "name": "Unutulmuş Fısıltısı",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-ruh-unutulmus-andici-295": {
+      "name": "Unutulmuş Andıcı",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-ruh-sisli-kalintisi-296": {
+      "name": "Sisli Kalıntısı",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-ruh-unutulmus-habercisi-297": {
+      "name": "Unutulmuş Habercisi",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-ruh-sisli-yemini-298": {
+      "name": "Sisli Yemini",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-ruh-akis-andici-299": {
+      "name": "Akis Andıcı",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-ruh-hatira-sesi-300": {
+      "name": "Hatıra Sesi",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-ruh-yanki-kalintisi-301": {
+      "name": "Yankı Kalıntısı",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-ruh-bosluk-habercisi-302": {
+      "name": "Boşluk Habercisi",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-ruh-bosluk-yemini-303": {
+      "name": "Boşluk Yemini",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-ruh-sisli-buyusu-304": {
+      "name": "Sisli Büyüsü",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-ruh-akis-feneri-305": {
+      "name": "Akis Feneri",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-ruh-unutulmus-yemini-306": {
+      "name": "Unutulmuş Yemini",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-ruh-akis-bedeli-307": {
+      "name": "Akis Bedeli",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-ruh-yanki-yuzu-308": {
+      "name": "Yankı Yüzü",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-ruh-unutulmus-ritueli-309": {
+      "name": "Unutulmuş Ritüeli",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-ruh-yanki-andici-310": {
+      "name": "Yankı Andıcı",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "g-ruh-akis-ritueli-311": {
+      "name": "Akis Ritüeli",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "tok-karah-yavru": {
+      "name": "Karah Yavrusu",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "tok-kizil-er": {
+      "name": "Kızıl Er",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "tok-koru-koylu": {
+      "name": "Koru Köylüsü",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "tok-av-tazi": {
+      "name": "Av Tazısı",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "tok-ruh-aksami": {
+      "name": "Akşam Yankısı",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "tok-sis-golge": {
+      "name": "Sis Gölgesi",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "tok-teom-noble": {
+      "name": "Teom Taşı",
+      "played": 0,
+      "winPlays": 0,
+      "playWinrate": null
+    },
+    "tok-suru-kok": {
+      "name": "Sürü Kökü",
       "played": 0,
       "winPlays": 0,
       "playWinrate": null
@@ -258,8 +2178,8 @@
       "boss": "Karah Sürüsü",
       "bossHp": 18,
       "bossEcho": "ash",
-      "playerWinrate": 82.5,
-      "avgRounds": 14.2,
+      "playerWinrate": 85,
+      "avgRounds": 13.9,
       "timeouts": 0
     },
     {
@@ -268,8 +2188,8 @@
       "boss": "Geçit Nöbetçileri",
       "bossHp": 18,
       "bossEcho": "ash",
-      "playerWinrate": 65,
-      "avgRounds": 14.8,
+      "playerWinrate": 70,
+      "avgRounds": 15.2,
       "timeouts": 0
     },
     {
@@ -278,8 +2198,8 @@
       "boss": "Koru Muhafızları",
       "bossHp": 22,
       "bossEcho": "ash",
-      "playerWinrate": 52.5,
-      "avgRounds": 16.9,
+      "playerWinrate": 20,
+      "avgRounds": 19.4,
       "timeouts": 0
     },
     {
@@ -288,8 +2208,8 @@
       "boss": "Beyaz Yankı",
       "bossHp": 28,
       "bossEcho": "white",
-      "playerWinrate": 40,
-      "avgRounds": 20.1,
+      "playerWinrate": 50,
+      "avgRounds": 21.1,
       "timeouts": 0
     },
     {
@@ -298,35 +2218,632 @@
       "boss": "Primus",
       "bossHp": 24,
       "bossEcho": "white",
-      "playerWinrate": 30,
+      "playerWinrate": 40,
+      "avgRounds": 16.9,
+      "timeouts": 0
+    },
+    {
+      "chapter": 5,
+      "name": "I. Perde — Sarnıç Mezarlığı",
+      "boss": "Kül Serserileri",
+      "bossHp": 17,
+      "bossEcho": "white",
+      "playerWinrate": 0,
+      "avgRounds": 11.8,
+      "timeouts": 0
+    },
+    {
+      "chapter": 6,
+      "name": "I. Perde — Ray Üstü",
+      "boss": "Konsey Zaptiyesi",
+      "bossHp": 18,
+      "bossEcho": "teom",
+      "playerWinrate": 0,
+      "avgRounds": 11.4,
+      "timeouts": 0
+    },
+    {
+      "chapter": 7,
+      "name": "I. Perde — Koru Eşiği",
+      "boss": "Bozkır Sürüsü",
+      "bossHp": 18,
+      "bossEcho": "ash",
+      "playerWinrate": 5,
+      "avgRounds": 13.5,
+      "timeouts": 0
+    },
+    {
+      "chapter": 8,
+      "name": "I. Perde — Küllü Yol",
+      "boss": "Karah Öncüsü",
+      "bossHp": 18,
+      "bossEcho": "white",
+      "playerWinrate": 0,
+      "avgRounds": 17.3,
+      "timeouts": 0
+    },
+    {
+      "chapter": 9,
+      "name": "Kırk Diş'in Kapıcısı",
+      "boss": "Kapıcı Karga",
+      "bossHp": 25,
+      "bossEcho": "teom",
+      "playerWinrate": 0,
+      "avgRounds": 10,
+      "timeouts": 0
+    },
+    {
+      "chapter": 10,
+      "name": "I. Perde — Ray Üstü",
+      "boss": "Kızıl Muhafız",
+      "bossHp": 19,
+      "bossEcho": "ash",
+      "playerWinrate": 5,
+      "avgRounds": 12.8,
+      "timeouts": 0
+    },
+    {
+      "chapter": 11,
+      "name": "I. Perde — Koru Eşiği",
+      "boss": "Avcı Birliği",
+      "bossHp": 19,
+      "bossEcho": "white",
+      "playerWinrate": 5,
+      "avgRounds": 14.9,
+      "timeouts": 0
+    },
+    {
+      "chapter": 12,
+      "name": "I. Perde — Küllü Yol",
+      "boss": "Sürü Kulu",
+      "bossHp": 20,
+      "bossEcho": "teom",
+      "playerWinrate": 35,
+      "avgRounds": 14.3,
+      "timeouts": 0
+    },
+    {
+      "chapter": 13,
+      "name": "I. Perde — Sarnıç Mezarlığı",
+      "boss": "Tarla Haydutları",
+      "bossHp": 20,
+      "bossEcho": "ash",
+      "playerWinrate": 5,
+      "avgRounds": 13.1,
+      "timeouts": 0
+    },
+    {
+      "chapter": 14,
+      "name": "I. Perde — Ray Üstü",
+      "boss": "Sur Komutanı",
+      "bossHp": 20,
+      "bossEcho": "white",
+      "playerWinrate": 0,
+      "avgRounds": 12.8,
+      "timeouts": 0
+    },
+    {
+      "chapter": 15,
+      "name": "I. Perde — Koru Eşiği",
+      "boss": "Pençe Sürüsü",
+      "bossHp": 21,
+      "bossEcho": "teom",
+      "playerWinrate": 0,
+      "avgRounds": 14.5,
+      "timeouts": 0
+    },
+    {
+      "chapter": 16,
+      "name": "I. Perde — Küllü Yol",
+      "boss": "Yozlaşma Taşıyıcısı",
+      "bossHp": 21,
+      "bossEcho": "ash",
+      "playerWinrate": 0,
+      "avgRounds": 13,
+      "timeouts": 0
+    },
+    {
+      "chapter": 17,
+      "name": "I. Perde — Sarnıç Mezarlığı",
+      "boss": "Kuzgunyuvası Çetesi",
+      "bossHp": 21,
+      "bossEcho": "white",
+      "playerWinrate": 0,
+      "avgRounds": 16.1,
+      "timeouts": 0
+    },
+    {
+      "chapter": 18,
+      "name": "I. Perde — Ray Üstü",
+      "boss": "Emir Muhafızı",
+      "bossHp": 22,
+      "bossEcho": "teom",
+      "playerWinrate": 15,
+      "avgRounds": 13.5,
+      "timeouts": 0
+    },
+    {
+      "chapter": 19,
+      "name": "Sürü Kraliçesi",
+      "boss": "Karah Kraliçesi",
+      "bossHp": 32,
+      "bossEcho": "teom",
+      "playerWinrate": 0,
       "avgRounds": 15.7,
+      "timeouts": 0
+    },
+    {
+      "chapter": 20,
+      "name": "II. Perde — Kızıl Sur",
+      "boss": "Konsey Zaptiyesi",
+      "bossHp": 23,
+      "bossEcho": "white",
+      "playerWinrate": 0,
+      "avgRounds": 11.8,
+      "timeouts": 0
+    },
+    {
+      "chapter": 21,
+      "name": "II. Perde — Ferman Meydanı",
+      "boss": "Sis Çetesi",
+      "bossHp": 23,
+      "bossEcho": "teom",
+      "playerWinrate": 15,
+      "avgRounds": 11.2,
+      "timeouts": 0
+    },
+    {
+      "chapter": 22,
+      "name": "II. Perde — Kırk Diş Avlusu",
+      "boss": "Koru Muhafızları",
+      "bossHp": 23,
+      "bossEcho": "ash",
+      "playerWinrate": 30,
+      "avgRounds": 17.9,
+      "timeouts": 0
+    },
+    {
+      "chapter": 23,
+      "name": "II. Perde — Sis Sokağı",
+      "boss": "Göz'ün Keşişleri",
+      "bossHp": 24,
+      "bossEcho": "white",
+      "playerWinrate": 0,
+      "avgRounds": 16.2,
+      "timeouts": 0
+    },
+    {
+      "chapter": 24,
+      "name": "II. Perde — Kızıl Sur",
+      "boss": "Kızıl Muhafız",
+      "bossHp": 24,
+      "bossEcho": "teom",
+      "playerWinrate": 0,
+      "avgRounds": 10.2,
+      "timeouts": 0
+    },
+    {
+      "chapter": 25,
+      "name": "II. Perde — Ferman Meydanı",
+      "boss": "Gölge Pusu",
+      "bossHp": 24,
+      "bossEcho": "ash",
+      "playerWinrate": 0,
+      "avgRounds": 10.8,
+      "timeouts": 0
+    },
+    {
+      "chapter": 26,
+      "name": "II. Perde — Kırk Diş Avlusu",
+      "boss": "Ocak Devriyeleri",
+      "bossHp": 25,
+      "bossEcho": "white",
+      "playerWinrate": 30,
+      "avgRounds": 16.9,
+      "timeouts": 0
+    },
+    {
+      "chapter": 27,
+      "name": "II. Perde — Sis Sokağı",
+      "boss": "Manastır Devriyesi",
+      "bossHp": 25,
+      "bossEcho": "teom",
+      "playerWinrate": 60,
+      "avgRounds": 19.3,
+      "timeouts": 0
+    },
+    {
+      "chapter": 28,
+      "name": "II. Perde — Kızıl Sur",
+      "boss": "Sur Komutanı",
+      "bossHp": 25,
+      "bossEcho": "ash",
+      "playerWinrate": 5,
+      "avgRounds": 11.3,
+      "timeouts": 0
+    },
+    {
+      "chapter": 29,
+      "name": "Sis Baronu",
+      "boss": "Sis Baronu",
+      "bossHp": 38,
+      "bossEcho": "teom",
+      "playerWinrate": 0,
+      "avgRounds": 12.3,
+      "timeouts": 0
+    },
+    {
+      "chapter": 30,
+      "name": "II. Perde — Kırk Diş Avlusu",
+      "boss": "Sığınak Birliği",
+      "bossHp": 26,
+      "bossEcho": "teom",
+      "playerWinrate": 0,
+      "avgRounds": 14.1,
+      "timeouts": 0
+    },
+    {
+      "chapter": 31,
+      "name": "II. Perde — Sis Sokağı",
+      "boss": "Teom Yargıcı",
+      "bossHp": 26,
+      "bossEcho": "ash",
+      "playerWinrate": 35,
+      "avgRounds": 17.4,
+      "timeouts": 0
+    },
+    {
+      "chapter": 32,
+      "name": "II. Perde — Kızıl Sur",
+      "boss": "Emir Muhafızı",
+      "bossHp": 27,
+      "bossEcho": "white",
+      "playerWinrate": 5,
+      "avgRounds": 13.7,
+      "timeouts": 0
+    },
+    {
+      "chapter": 33,
+      "name": "II. Perde — Ferman Meydanı",
+      "boss": "Kör Sokak Çetesi",
+      "bossHp": 27,
+      "bossEcho": "teom",
+      "playerWinrate": 0,
+      "avgRounds": 11.6,
+      "timeouts": 0
+    },
+    {
+      "chapter": 34,
+      "name": "II. Perde — Kırk Diş Avlusu",
+      "boss": "Koru Yeminlileri",
+      "bossHp": 27,
+      "bossEcho": "ash",
+      "playerWinrate": 5,
+      "avgRounds": 12.9,
+      "timeouts": 0
+    },
+    {
+      "chapter": 35,
+      "name": "II. Perde — Sis Sokağı",
+      "boss": "Beyaz Vaizler",
+      "bossHp": 28,
+      "bossEcho": "white",
+      "playerWinrate": 0,
+      "avgRounds": 16.6,
+      "timeouts": 0
+    },
+    {
+      "chapter": 36,
+      "name": "II. Perde — Kızıl Sur",
+      "boss": "Konsey Zaptiyesi",
+      "bossHp": 28,
+      "bossEcho": "teom",
+      "playerWinrate": 55,
+      "avgRounds": 13.2,
+      "timeouts": 0
+    },
+    {
+      "chapter": 37,
+      "name": "II. Perde — Ferman Meydanı",
+      "boss": "Maskeli Olanlar",
+      "bossHp": 28,
+      "bossEcho": "ash",
+      "playerWinrate": 35,
+      "avgRounds": 12.9,
+      "timeouts": 0
+    },
+    {
+      "chapter": 38,
+      "name": "II. Perde — Kırk Diş Avlusu",
+      "boss": "Koru Muhafızları",
+      "bossHp": 29,
+      "bossEcho": "white",
+      "playerWinrate": 5,
+      "avgRounds": 18.1,
+      "timeouts": 0
+    },
+    {
+      "chapter": 39,
+      "name": "Teom İnkarı",
+      "boss": "İnkar Şövalyesi",
+      "bossHp": 43,
+      "bossEcho": "teom",
+      "playerWinrate": 5,
+      "avgRounds": 14.4,
+      "timeouts": 0
+    },
+    {
+      "chapter": 40,
+      "name": "III. Perde — Mor Damar Geçidi",
+      "boss": "Mor Sürü",
+      "bossHp": 30,
+      "bossEcho": "ash",
+      "playerWinrate": 15,
+      "avgRounds": 16,
+      "timeouts": 0
+    },
+    {
+      "chapter": 41,
+      "name": "III. Perde — Obsidyen Çukur",
+      "boss": "Yankı Ağıtçıları",
+      "bossHp": 30,
+      "bossEcho": "white",
+      "playerWinrate": 0,
+      "avgRounds": 14.2,
+      "timeouts": 0
+    },
+    {
+      "chapter": 42,
+      "name": "III. Perde — Yankı Vadisi",
+      "boss": "Sis Çetesi",
+      "bossHp": 30,
+      "bossEcho": "teom",
+      "playerWinrate": 0,
+      "avgRounds": 11.4,
+      "timeouts": 0
+    },
+    {
+      "chapter": 43,
+      "name": "III. Perde — Son Sur",
+      "boss": "Göz'ün Keşişleri",
+      "bossHp": 31,
+      "bossEcho": "ash",
+      "playerWinrate": 0,
+      "avgRounds": 15.3,
+      "timeouts": 0
+    },
+    {
+      "chapter": 44,
+      "name": "III. Perde — Mor Damar Geçidi",
+      "boss": "Karah Öncüsü",
+      "bossHp": 31,
+      "bossEcho": "white",
+      "playerWinrate": 0,
+      "avgRounds": 16.6,
+      "timeouts": 0
+    },
+    {
+      "chapter": 45,
+      "name": "III. Perde — Obsidyen Çukur",
+      "boss": "Hatıra Korucuları",
+      "bossHp": 31,
+      "bossEcho": "teom",
+      "playerWinrate": 0,
+      "avgRounds": 11.3,
+      "timeouts": 0
+    },
+    {
+      "chapter": 46,
+      "name": "III. Perde — Yankı Vadisi",
+      "boss": "Gölge Pusu",
+      "bossHp": 32,
+      "bossEcho": "ash",
+      "playerWinrate": 0,
+      "avgRounds": 12.8,
+      "timeouts": 0
+    },
+    {
+      "chapter": 47,
+      "name": "III. Perde — Son Sur",
+      "boss": "Manastır Devriyesi",
+      "bossHp": 32,
+      "bossEcho": "white",
+      "playerWinrate": 5,
+      "avgRounds": 15.7,
+      "timeouts": 0
+    },
+    {
+      "chapter": 48,
+      "name": "III. Perde — Mor Damar Geçidi",
+      "boss": "Sürü Kulu",
+      "bossHp": 32,
+      "bossEcho": "teom",
+      "playerWinrate": 0,
+      "avgRounds": 11.3,
+      "timeouts": 0
+    },
+    {
+      "chapter": 49,
+      "name": "Yankı Düğümü",
+      "boss": "Düğüm",
+      "bossHp": 49,
+      "bossEcho": "white",
+      "playerWinrate": 0,
+      "avgRounds": 12.7,
+      "timeouts": 0
+    },
+    {
+      "chapter": 50,
+      "name": "III. Perde — Yankı Vadisi",
+      "boss": "Kör Sokak Çetesi",
+      "bossHp": 33,
+      "bossEcho": "white",
+      "playerWinrate": 0,
+      "avgRounds": 10.6,
+      "timeouts": 0
+    },
+    {
+      "chapter": 51,
+      "name": "III. Perde — Son Sur",
+      "boss": "Teom Yargıcı",
+      "bossHp": 33,
+      "bossEcho": "teom",
+      "playerWinrate": 50,
+      "avgRounds": 18.6,
+      "timeouts": 0
+    },
+    {
+      "chapter": 52,
+      "name": "III. Perde — Mor Damar Geçidi",
+      "boss": "Yozlaşma Taşıyıcısı",
+      "bossHp": 34,
+      "bossEcho": "ash",
+      "playerWinrate": 0,
+      "avgRounds": 14.2,
+      "timeouts": 0
+    },
+    {
+      "chapter": 53,
+      "name": "III. Perde — Obsidyen Çukur",
+      "boss": "Boşluk Fenerleri",
+      "bossHp": 34,
+      "bossEcho": "white",
+      "playerWinrate": 0,
+      "avgRounds": 14.1,
+      "timeouts": 0
+    },
+    {
+      "chapter": 54,
+      "name": "III. Perde — Yankı Vadisi",
+      "boss": "Maskeli Olanlar",
+      "bossHp": 34,
+      "bossEcho": "teom",
+      "playerWinrate": 0,
+      "avgRounds": 11.5,
+      "timeouts": 0
+    },
+    {
+      "chapter": 55,
+      "name": "III. Perde — Son Sur",
+      "boss": "Beyaz Vaizler",
+      "bossHp": 35,
+      "bossEcho": "ash",
+      "playerWinrate": 0,
+      "avgRounds": 11.3,
+      "timeouts": 0
+    },
+    {
+      "chapter": 56,
+      "name": "III. Perde — Mor Damar Geçidi",
+      "boss": "Mor Sürü",
+      "bossHp": 35,
+      "bossEcho": "white",
+      "playerWinrate": 0,
+      "avgRounds": 19.4,
+      "timeouts": 0
+    },
+    {
+      "chapter": 57,
+      "name": "III. Perde — Obsidyen Çukur",
+      "boss": "Akis Sürüsü",
+      "bossHp": 35,
+      "bossEcho": "teom",
+      "playerWinrate": 0,
+      "avgRounds": 11.6,
+      "timeouts": 0
+    },
+    {
+      "chapter": 58,
+      "name": "III. Perde — Yankı Vadisi",
+      "boss": "Sis Çetesi",
+      "bossHp": 36,
+      "bossEcho": "ash",
+      "playerWinrate": 5,
+      "avgRounds": 11.8,
+      "timeouts": 0
+    },
+    {
+      "chapter": 59,
+      "name": "Karah Kalbi",
+      "boss": "Karah Kalbi",
+      "bossHp": 60,
+      "bossEcho": "teom",
+      "playerWinrate": 60,
+      "avgRounds": 19.7,
       "timeouts": 0
     }
   ],
   "issues": [
-    "Echo dengesizliği: white vs white → %35",
-    "Echo dengesizliği: white vs teom → %32.5",
-    "Echo dengesizliği: teom vs white → %85",
-    "Bölüm çok kolay: Kızıl Aziz'in Avlusu → %82.5",
-    "Bölüm çok zor: İlk Olan → %30",
-    "Kart baskın: Genç Torg → %72.3 (119 oynanış)",
-    "Kart baskın: Gorn, Demirhane Ustası → %75 (56 oynanış)",
-    "Kart baskın: Borin, Koru Muhafızı → %71.1 (97 oynanış)",
-    "Kart baskın: Koru Muhafızı → %72.4 (116 oynanış)",
-    "Kart baskın: Ocak Işığı → %72.5 (80 oynanış)",
-    "Kart baskın: Seçilmiş Aile → %72.5 (80 oynanış)",
-    "Kart zayıf: Vesemir, Emir Kâtibi → %27.5",
-    "Kart zayıf: Konsey Muhbiri → %27.5",
-    "Kart zayıf: Kızıl Çizgi → %27.5",
-    "Kart zayıf: Gri Kelebek → %27.5",
-    "Kart zayıf: Karah Sürüsü → %27.5",
-    "Kart zayıf: Karah Yavrusu → %27.5",
-    "Kart zayıf: Katran Emici → %27.5",
-    "Kart zayıf: Yozlaşma Dokunuşu → %27.5",
-    "Kart zayıf: Obsidyen Sütun → %27.5",
-    "Kart baskın: Teom Çeliği → %72.5 (40 oynanış)",
-    "Kart baskın: Matrona'nın Kemikleri → %72.5 (40 oynanış)",
-    "Kart baskın: Paslı Kanca Zebellahı → %72.3 (83 oynanış)",
-    "Kart baskın: Kuzgunyuvası Gözcüsü → %70.4 (469 oynanış)"
+    "Echo dengesizliği: white vs teom → %25",
+    "Echo dengesizliği: teom vs white → %80",
+    "Bölüm çok kolay: Kızıl Aziz'in Avlusu → %85",
+    "Bölüm çok zor: Koru'nun Paslı Kalbi → %20",
+    "Bölüm çok zor: I. Perde — Sarnıç Mezarlığı → %0",
+    "Bölüm çok zor: I. Perde — Ray Üstü → %0",
+    "Bölüm çok zor: I. Perde — Koru Eşiği → %5",
+    "Bölüm çok zor: I. Perde — Küllü Yol → %0",
+    "Bölüm çok zor: Kırk Diş'in Kapıcısı → %0",
+    "Bölüm çok zor: I. Perde — Ray Üstü → %5",
+    "Bölüm çok zor: I. Perde — Koru Eşiği → %5",
+    "Bölüm çok zor: I. Perde — Sarnıç Mezarlığı → %5",
+    "Bölüm çok zor: I. Perde — Ray Üstü → %0",
+    "Bölüm çok zor: I. Perde — Koru Eşiği → %0",
+    "Bölüm çok zor: I. Perde — Küllü Yol → %0",
+    "Bölüm çok zor: I. Perde — Sarnıç Mezarlığı → %0",
+    "Bölüm çok zor: I. Perde — Ray Üstü → %15",
+    "Bölüm çok zor: Sürü Kraliçesi → %0",
+    "Bölüm çok zor: II. Perde — Kızıl Sur → %0",
+    "Bölüm çok zor: II. Perde — Ferman Meydanı → %15",
+    "Bölüm çok zor: II. Perde — Kırk Diş Avlusu → %30",
+    "Bölüm çok zor: II. Perde — Sis Sokağı → %0",
+    "Bölüm çok zor: II. Perde — Kızıl Sur → %0",
+    "Bölüm çok zor: II. Perde — Ferman Meydanı → %0",
+    "Bölüm çok zor: II. Perde — Kırk Diş Avlusu → %30",
+    "Bölüm çok zor: II. Perde — Kızıl Sur → %5",
+    "Bölüm çok zor: Sis Baronu → %0",
+    "Bölüm çok zor: II. Perde — Kırk Diş Avlusu → %0",
+    "Bölüm çok zor: II. Perde — Kızıl Sur → %5",
+    "Bölüm çok zor: II. Perde — Ferman Meydanı → %0",
+    "Bölüm çok zor: II. Perde — Kırk Diş Avlusu → %5",
+    "Bölüm çok zor: II. Perde — Sis Sokağı → %0",
+    "Bölüm çok zor: II. Perde — Kırk Diş Avlusu → %5",
+    "Bölüm çok zor: Teom İnkarı → %5",
+    "Bölüm çok zor: III. Perde — Mor Damar Geçidi → %15",
+    "Bölüm çok zor: III. Perde — Obsidyen Çukur → %0",
+    "Bölüm çok zor: III. Perde — Yankı Vadisi → %0",
+    "Bölüm çok zor: III. Perde — Son Sur → %0",
+    "Bölüm çok zor: III. Perde — Mor Damar Geçidi → %0",
+    "Bölüm çok zor: III. Perde — Obsidyen Çukur → %0",
+    "Bölüm çok zor: III. Perde — Yankı Vadisi → %0",
+    "Bölüm çok zor: III. Perde — Son Sur → %5",
+    "Bölüm çok zor: III. Perde — Mor Damar Geçidi → %0",
+    "Bölüm çok zor: Yankı Düğümü → %0",
+    "Bölüm çok zor: III. Perde — Yankı Vadisi → %0",
+    "Bölüm çok zor: III. Perde — Mor Damar Geçidi → %0",
+    "Bölüm çok zor: III. Perde — Obsidyen Çukur → %0",
+    "Bölüm çok zor: III. Perde — Yankı Vadisi → %0",
+    "Bölüm çok zor: III. Perde — Son Sur → %0",
+    "Bölüm çok zor: III. Perde — Mor Damar Geçidi → %0",
+    "Bölüm çok zor: III. Perde — Obsidyen Çukur → %0",
+    "Bölüm çok zor: III. Perde — Yankı Vadisi → %5",
+    "Kart baskın: Genç Torg → %87.4 (119 oynanış)",
+    "Kart baskın: Gorn, Demirhane Ustası → %85.7 (49 oynanış)",
+    "Kart baskın: Borin, Koru Muhafızı → %87.6 (97 oynanış)",
+    "Kart baskın: Koru Muhafızı → %87.2 (117 oynanış)",
+    "Kart baskın: Ocak Işığı → %87.5 (80 oynanış)",
+    "Kart baskın: Seçilmiş Aile → %87.3 (79 oynanış)",
+    "Kart zayıf: Vesemir, Emir Kâtibi → %12.5",
+    "Kart zayıf: Konsey Muhbiri → %12.5",
+    "Kart zayıf: Kızıl Çizgi → %12.5",
+    "Kart zayıf: Gri Kelebek → %12.5",
+    "Kart zayıf: Karah Sürüsü → %12.5",
+    "Kart zayıf: Karah Yavrusu → %12.5",
+    "Kart zayıf: Katran Emici → %12.5",
+    "Kart zayıf: Yozlaşma Dokunuşu → %12.5",
+    "Kart zayıf: Obsidyen Sütun → %12.5",
+    "Kart baskın: Teom Çeliği → %87.5 (40 oynanış)",
+    "Kart baskın: Matrona'nın Kemikleri → %87.5 (40 oynanış)",
+    "Kart baskın: Paslı Kanca Zebellahı → %87.2 (86 oynanış)",
+    "Kart baskın: Kuzgunyuvası Gözcüsü → %83.5 (460 oynanış)"
   ]
 }

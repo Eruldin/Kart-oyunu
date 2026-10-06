@@ -30,7 +30,7 @@ export function cardEl(def, {cls = '', atk, hp, weak = false} = {}) {
   el.dataset.cardId = def.id;
   const speed = def.kind === 'spell' ? `<span class="spd spd-${def.speed || 'yavas'}">${t('spd_' + (def.speed || 'yavas'))}</span>` : '';
   el.innerHTML = `
-    <div class="card-art" style="inset:${L.art[1] * 100}% ${(1 - L.art[2]) * 100}% ${(1 - L.art[3]) * 100}% ${L.art[0] * 100}%"><img src="${artUrl(def)}" alt="" draggable="false"></div>
+    <div class="card-art" style="inset:${L.art[1] * 100}% ${(1 - L.art[2]) * 100}% ${(1 - L.art[3]) * 100}% ${L.art[0] * 100}%"><img src="${artUrl(def)}" alt="" draggable="false" loading="lazy"></div>
     <img class="card-frame" src="${ART}frames/${L.frame}.png" alt="" draggable="false">
     <div class="card-cost" style="left:${L.cost[0] * 100}%;top:${L.cost[1] * 100}%"><b>${def.cost}</b></div>
     <div class="card-name" style="left:${L.name[0] * 100}%;top:${L.name[1] * 100}%"><span>${tn(def.name)}</span></div>
@@ -51,7 +51,7 @@ export function boardEl(u, def, {enemy = false} = {}) {
   el.className = `bunit ${enemy ? 'enemy' : 'ally'} grp-${def.group}${u.summoningSick ? ' sick' : ''}${u.corrupted ? ' corrupted' : ''}`;
   el.dataset.uid = u.uid;
   el.innerHTML = `
-    <div class="card-art" style="inset:${L.art[1] * 100}% ${(1 - L.art[2]) * 100}% ${(1 - L.art[3]) * 100}% ${L.art[0] * 100}%"><img src="${artUrl(def)}" alt="" draggable="false"></div>
+    <div class="card-art" style="inset:${L.art[1] * 100}% ${(1 - L.art[2]) * 100}% ${(1 - L.art[3]) * 100}% ${L.art[0] * 100}%"><img src="${artUrl(def)}" alt="" draggable="false" loading="lazy"></div>
     <img class="card-frame" src="${ART}frames/${L.frame}.png" alt="" draggable="false">
     <div class="bunit-kw">${kwBadges(u.kw)}</div>
     <div class="card-atk" style="left:${L.atk[0] * 100}%;top:${L.atk[1] * 100}%"><b>${Math.max(0, u.atk + (u.buffAtk || 0) + (u.tempAtk || 0))}</b></div>

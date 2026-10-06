@@ -5,7 +5,9 @@ import {connect, content} from './net.js';
 import {cardEl, bindTooltip} from './cardview.js';
 import * as Battle from './battle.js';
 import * as FX from './fx.js';
-import {chapters, defaultDeck, enemyDeck, cardById, ECHOES, CARDS} from '../vendor/content/cards.mjs';
+import * as TFT from './tft.js';
+import {chapters, defaultDeck, enemyDeck, cardById, ECHOES, CARDS, ACT_NAMES, KEYWORDS, GROUPS, RARITIES} from '../vendor/content/cards.mjs';
+import {SHOP_ITEMS, COSMETICS, PACKS} from '../vendor/content/shop.mjs';
 
 const ART = './assets/art/';
 const app = () => document.querySelector('#app');
@@ -32,6 +34,7 @@ function showTitle() {
         <button class="btn primary big" data-act="play">${t(profile?.progress ? 'cont' : 'start')}</button>
         <button class="btn ghost" data-act="skirmish">${t('skirmish')}</button>
         <button class="btn ghost" data-act="collection">${t('collection')}</button>
+        <button class="btn ghost" data-act="market">${t('market')}</button>
         ${backend?.mode === 'server' ? `<button class="btn ghost" data-act="duel">${t('duel')}</button>` : ''}
       </nav>
       <div class="title-foot">
@@ -46,18 +49,30 @@ function showTitle() {
   FX.parallax(app().querySelector('.title-screen'));
 }
 
+let actTab = 0;
 function showMap() {
   screen = 'map';
   audio.music('story');
   const prog = profile.progress ?? 0;
-  const POS = [[7, 58], [24, 38], [41, 56], [55, 32], [68, 50]];   // % inside .map-route
-  const pts = chapters.map((_, i) => POS[i] || [8 + i * 15, 50]);
+  actTab = Math.min(2, Math.max(0, Math.floor(prog / 20), actTab));
+  // 20 nodes per act on a snake curve (4 rows × 5)
+  const ACT_LEN = 20;
+  const actChapters = chapters.map((ch, i) => ({ch, i})).filter(({ch}) => Math.floor((ch.id ?? 0) / 20) === actTab || (!ch.act && actTab === 0 && (ch.id ?? 0) < 20));
+  // fallback: split by index when chapters lack act field
+  const slice = chapters.map((ch, i) => ({ch, i})).slice(actTab * ACT_LEN, (actTab + 1) * ACT_LEN);
+  const shown = slice.length ? slice : actChapters;
+  const pts = shown.map((_, k) => {
+    const row = Math.floor(k / 5), col = k % 5;
+    const x = row % 2 === 0 ? 10 + col * 20 : 90 - col * 20;   // snake
+    return [x, 16 + row * 22];
+  });
   const routeD = pts.map((p, i) => {
     if (!i) return `M ${p[0]} ${p[1]}`;
     const [px, py] = pts[i - 1];
     const mx = (px + p[0]) / 2;
-    return `Q ${mx} ${py + (i % 2 ? -14 : 14)}, ${p[0]} ${p[1]}`;
+    return `Q ${mx} ${py + (Math.abs(py - p[1]) > 12 ? 10 : (i % 2 ? -10 : 10))}, ${p[0]} ${p[1]}`;
   }).join(' ');
+  const doneInAct = shown.filter(({i}) => i < prog).length;
   app().innerHTML = `
   <div class="map-screen">
     <img class="map-bg" src="${ART}screens/campaign-map.png" alt="" data-depth="0.02">
@@ -69,19 +84,27 @@ function showMap() {
       <div><h1>${t('story')}</h1><p>${t('storyIntro')}</p></div>
       <button class="btn ghost" data-act="deck">${t('deck')}</button>
     </header>
+    <nav class="act-tabs">
+      ${[0, 1, 2].map(a => {
+        const locked = prog < a * ACT_LEN;
+        return `<button class="act-tab ${a === actTab ? 'sel' : ''} ${locked ? 'locked' : ''}" data-act-tab="${a}" ${locked ? 'disabled' : ''}>${tn(ACT_NAMES[a]) || (lang() === 'tr' ? `Perde ${a + 1}` : `Act ${a + 1}`)}</button>`;
+      }).join('')}
+    </nav>
     <div class="map-route">
       <svg class="map-route-svg" viewBox="0 0 100 100" preserveAspectRatio="none">
         <path class="route-path" d="${routeD}" vector-effect="non-scaling-stroke"/>
-        <path class="route-path done" d="${routeD}" vector-effect="non-scaling-stroke" pathLength="${chapters.length}" style="--done:${prog}"/>
+        <path class="route-path done" d="${routeD}" vector-effect="non-scaling-stroke" pathLength="${shown.length}" style="--done:${doneInAct}"/>
       </svg>
-      ${chapters.map((ch, i) => {
+      ${shown.map(({ch, i}, k) => {
         const st = i < prog ? 'done' : i === prog ? 'next' : 'locked';
-        const [x, y] = pts[i];
-        return `<button class="map-node ${st}" data-ch="${i}" ${st === 'locked' ? 'disabled' : ''} style="left:${x}%;top:${y}%">
+        const [x, y] = pts[k];
+        const cls = st + (ch.type === 'boss' ? ' boss' : ch.type === 'tft' ? ' tft' : ch.type === 'elite' ? ' elite' : '');
+        const glyph = ch.type === 'boss' ? '♛' : ch.type === 'tft' ? '♟' : ch.type === 'elite' ? '✦' : '';
+        return `<button class="map-node ${cls}" data-ch="${i}" ${st === 'locked' ? 'disabled' : ''} style="left:${x}%;top:${y}%">
           <img class="node-medal" src="./assets/ui/story-${st === 'done' ? 'completed' : st === 'next' ? 'current' : 'locked'}-v1.png" alt="">
+          ${glyph ? `<span class="node-glyph">${glyph}</span>` : ''}
           <span class="node-num">${i + 1}</span>
           <span class="node-name">${tn(ch.name)}</span>
-          <small>${ch.src || ''}</small>
         </button>`;
       }).join('')}
     </div>
@@ -89,6 +112,7 @@ function showMap() {
       <div class="side-card">
         <h3>${t('chapterDone')}</h3>
         <div class="side-stat"><b>${prog}</b><span>/ ${chapters.length}</span></div>
+        <div class="side-legend"><span><i class="lg boss">♛</i>${lang() === 'tr' ? 'Büyük Boss' : 'Boss'}</span><span><i class="lg tft">♟</i>TFT</span><span><i class="lg elite">✦</i>${lang() === 'tr' ? 'Elit' : 'Elite'}</span></div>
       </div>
       <div class="side-card">
         <h3>${t('chooseEcho')}</h3>
@@ -98,6 +122,17 @@ function showMap() {
   </div>`;
   FX.embers(document.querySelector('#map-embers'), 18, 'ember-cold');
   FX.parallax(app().querySelector('.map-screen'));
+}
+
+function mutatorDesc(m) {
+  const tr = lang() === 'tr';
+  const parts = [];
+  if (m.hpBonus) parts.push(tr ? `+${m.hpBonus} can` : `+${m.hpBonus} health`);
+  if (m.shield) parts.push(tr ? `${m.shield} zırh` : `${m.shield} armor`);
+  if (m.hatira) parts.push(tr ? `başta ${m.hatira} hatıra` : `starts with ${m.hatira} memory`);
+  if (m.ozStart) parts.push(tr ? `+${m.ozStart} öz` : `+${m.ozStart} essence`);
+  if (m.kwAll?.length) parts.push(m.kwAll.map(k => tn({tr: KEYWORDS[k]?.tr || k, en: KEYWORDS[k]?.en || k})).join(', '));
+  return parts.join(' · ');
 }
 
 function echoAvatar(id) {
@@ -133,9 +168,11 @@ function showChapterBrief(i) {
   audio.sfx('storyOpen');
   openModal(`
     <div class="brief">
-      <div class="eyebrow">${t('chapter')} ${i + 1}</div>
+      <div class="eyebrow">${t('chapter')} ${i + 1}${ch.type === 'boss' ? ' · ♛ BOSS' : ch.type === 'tft' ? ' · ♟ IZGARA SAVAŞI' : ch.type === 'elite' ? ' · ✦ ELİT' : ''}</div>
       <h2>${tn(ch.name)}</h2>
       <p class="brief-text">${tn(ch.intro)}</p>
+      ${ch.type === 'tft' ? `<p class="brief-note">${lang() === 'tr' ? 'Bu karşılaşma ızgara savaşıdır — birimlerini diz, savaş otomatik çözülür.' : 'A grid battle — place your units, combat resolves itself.'}</p>` : ''}
+      ${ch.mutators?.[1] && Object.keys(ch.mutators[1]).length ? `<p class="brief-note warn">${lang() === 'tr' ? 'Rakip avantajı: ' : 'Enemy advantage: '}${mutatorDesc(ch.mutators[1])}</p>` : ''}
       <div class="brief-meta">
         <div><small>${t('opponent')}</small><b>${esc(ch.opponent)}</b></div>
         <div><small>${t('hp')}</small><b>${ch.health}</b></div>
@@ -148,33 +185,204 @@ function showChapterBrief(i) {
     </div>`, 'brief-modal');
 }
 
+// ---------------- deck builder ----------------
+let dbDraft = null, dbFilter = {group: '', kind: '', rarity: '', cost: ''};
 function showDeck() {
   screen = 'deck';
+  if (!dbDraft) dbDraft = [...(profile?.deck || [])];
+  const col = profile?.collection || {};
   const counts = {};
-  profile.deck.forEach(id => counts[id] = (counts[id] || 0) + 1);
+  dbDraft.forEach(id => counts[id] = (counts[id] || 0) + 1);
+  const pool = CARDS.filter(c => !c.token)
+    .filter(c => !dbFilter.group || c.group === dbFilter.group)
+    .filter(c => !dbFilter.kind || c.kind === dbFilter.kind)
+    .filter(c => !dbFilter.rarity || (c.rarity || 'common') === dbFilter.rarity)
+    .filter(c => dbFilter.cost === '' || String(c.cost) === dbFilter.cost)
+    .sort((a, b) => a.cost - b.cost || tn(a.name).localeCompare(tn(b.name), 'tr'));
+  const deckRows = Object.entries(counts)
+    .map(([id, n]) => ({c: cardById[id], n}))
+    .filter(x => x.c)
+    .sort((a, b) => a.c.cost - b.c.cost || tn(a.c.name).localeCompare(tn(b.c.name), 'tr'));
+  const valid = dbDraft.length === 20;
   app().innerHTML = `
-  <div class="deck-screen">
-    <header class="map-head"><button class="icon-btn" data-act="map">←</button><div><h1>${t('deckReview')}</h1><p>${profile.deck.length} / 20</p></div><span></span></header>
-    <div class="deck-grid">
-      ${profile.deck.map(id => cardById[id]).filter(Boolean).map(c => {
-        const el = `<div class="deck-card">${cardEl(c).outerHTML}</div>`;
-        return el;
-      }).join('')}
+  <div class="db-screen">
+    <header class="map-head">
+      <button class="icon-btn" data-act="map">←</button>
+      <div><h1>${t('deckBuild')}</h1><p>${t('pityInfo')}</p></div>
+      <div class="db-head-actions">
+        <span class="shard-pill in">◆ ${profile?.shards ?? 0}</span>
+        <span class="db-count ${valid ? 'ok' : ''}">${dbDraft.length}/20</span>
+        <button class="btn ghost" id="db-clear">${t('deckClear')}</button>
+        <button class="btn primary" id="db-save" ${valid ? '' : 'disabled'}>${t('deckSave')}</button>
+      </div>
+    </header>
+    <div class="db-body">
+      <aside class="db-filters">
+        ${selFilter('group', t('filterGroup'), GROUPS)}
+        ${selFilter('kind', t('filterType'), {unit: {tr: t('unit'), en: t('unit')}, hero: {tr: t('hero'), en: t('hero')}, spell: {tr: t('spell'), en: t('spell')}})}
+        ${selFilter('rarity', t('filterRarity'), Object.fromEntries(Object.keys(RARITIES).map(r => [r, {tr: t('rarity_' + r), en: t('rarity_' + r)}])))}
+        <label class="db-f"><span>${t('filterCost')}</span>
+          <select data-f="cost"><option value="">${t('filterAll')}</option>${[0,1,2,3,4,5,6,7,8,9].map(c => `<option ${dbFilter.cost === String(c) ? 'selected' : ''}>${c}</option>`).join('')}</select>
+        </label>
+      </aside>
+      <div class="db-pool">
+        ${pool.map(c => {
+          const owned = col[c.id] || 0, used = counts[c.id] || 0;
+          const can = owned > used && used < 3 && dbDraft.length < 20;
+          return `<div class="db-card ${can ? '' : 'cant'} ${owned ? '' : 'unowned'}" data-db-add="${c.id}">
+            <i class="db-owns ${used ? 'in' : ''}">${used}/${owned}</i>
+          </div>`;
+        }).join('')}
+      </div>
+      <aside class="db-list">
+        ${deckRows.length ? deckRows.map(({c, n}) => `
+          <div class="db-row" data-db-del="${c.id}">
+            <span class="db-cost">${c.cost}</span>
+            <span class="db-name">${tn(c.name)}</span>
+            <span class="db-n">×${n}</span>
+          </div>`).join('') : `<p class="db-empty">${t('empty')}</p>`}
+      </aside>
     </div>
   </div>`;
+  // card thumbnails
+  app().querySelectorAll('.db-card').forEach(el => {
+    el.prepend(cardEl(cardById[el.dataset.dbAdd]));
+  });
+  // events
+  app().querySelectorAll('[data-f]').forEach(sel => sel.addEventListener('change', e => { dbFilter[e.target.dataset.f] = e.target.value; showDeck(); }));
+  app().querySelectorAll('[data-db-add]').forEach(el => el.addEventListener('click', () => {
+    const id = el.dataset.dbAdd, owned = col[id] || 0, used = counts[id] || 0;
+    if (owned > used && used < 3 && dbDraft.length < 20) { dbDraft.push(id); audio.sfx('cardPlace'); showDeck(); }
+    else audio.sfx('uiError');
+  }));
+  app().querySelectorAll('[data-db-del]').forEach(el => el.addEventListener('click', () => {
+    const i = dbDraft.indexOf(el.dataset.dbDel);
+    if (i >= 0) { dbDraft.splice(i, 1); audio.sfx('uiClick'); showDeck(); }
+  }));
+  $('#db-clear').addEventListener('click', () => { dbDraft = []; showDeck(); });
+  $('#db-save').addEventListener('click', async () => {
+    try {
+      profile = await backend.saveDeck(dbDraft);
+      toast(t('deckOk')); audio.sfx('uiConfirm'); dbDraft = null;
+    } catch (e) { toast(t('deckErr')); }
+  });
 }
+function selFilter(key, label, dict) {
+  return `<label class="db-f"><span>${label}</span><select data-f="${key}">
+    <option value="">${t('filterAll')}</option>
+    ${Object.entries(dict).map(([k, v]) => `<option value="${k}" ${dbFilter[key] === k ? 'selected' : ''}>${tn(v)}</option>`).join('')}
+  </select></label>`;
+}
+function $ (s) { return document.querySelector(s); }
 
 function showCollection() {
   screen = 'collection';
   audio.music('story');
+  const col = profile?.collection || {};
+  const owned = Object.values(col).filter(n => n > 0).length;
+  const total = CARDS.filter(c => !c.token).length;
+  const ownedCopies = Object.values(col).reduce((a, b) => a + b, 0);
   app().innerHTML = `
   <div class="coll-screen">
-    <header class="map-head"><button class="icon-btn" data-act="title">←</button><div><h1>${t('collection')}</h1><p>${CARDS.length}</p></div><span></span></header>
+    <header class="map-head"><button class="icon-btn" data-act="title">←</button><div><h1>${t('collection')}</h1><p>${t('collStats')}</p></div><span class="shard-pill">◆ ${profile?.shards ?? 0}</span></header>
+    <div class="coll-stats">
+      <div class="cstat"><b>${owned}</b><span>/ ${total} ${t('owned').toLowerCase()}</span></div>
+      <div class="cstat"><b>${ownedCopies}</b><span>${t('copies')}</span></div>
+      <div class="cstat pity"><b>${'◆'.repeat(Math.min(6, profile?.pity || 0)) || '—'}</b><span>${t('pityInfo')}</span></div>
+    </div>
     <div class="coll-grid">
-      ${CARDS.map(c => `<div class="coll-card" data-inspect="${c.id}"></div>`).join('')}
+      ${CARDS.filter(c => !c.token).map(c => {
+        const n = col[c.id] || 0;
+        return `<div class="coll-card ${n ? '' : 'unowned'}" data-inspect="${c.id}">${n ? `<i class="own-badge">×${n}</i>` : ''}</div>`;
+      }).join('')}
     </div>
   </div>`;
   app().querySelectorAll('.coll-card').forEach(el => el.append(cardEl(cardById[el.dataset.inspect])));
+}
+
+// ---------------- market ----------------
+function showMarket() {
+  screen = 'market';
+  audio.music('story');
+  const cos = profile?.cosmetics || {owned: []};
+  const packs = SHOP_ITEMS.filter(i => i.type === 'pack');
+  const slots = [['back', t('cardBack')], ['board', t('boardSkin')], ['ember', t('emberSkin')]];
+  app().innerHTML = `
+  <div class="shop-screen">
+    <header class="map-head"><button class="icon-btn" data-act="title">←</button><div><h1>${t('market')}</h1><p>${t('pack_desc_std')}</p></div><span class="shard-pill">◆ ${profile?.shards ?? 0}</span></header>
+    <div class="shop-body">
+      <h2 class="shop-h">${t('pack_std')}</h2>
+      <div class="shop-packs">
+        ${packs.map(p => `
+          <div class="pack-card">
+            <img src="${ART}card-back.png" alt="" class="pack-art">
+            <h3>${tn(p.name)}</h3><p>${tn(p.desc)}</p>
+            <button class="btn primary" data-buy="${p.id}">◆ ${p.price}</button>
+          </div>`).join('')}
+      </div>
+      ${slots.map(([slot, label]) => `
+        <h2 class="shop-h">${label}</h2>
+        <div class="shop-cosmetics">
+          ${baseCosmetic(slot)}
+          ${SHOP_ITEMS.filter(i => i.slot === slot).map(i => {
+            const owned = cos.owned.includes(i.id);
+            const active = cos[slot] === i.id;
+            return `<div class="cos-card ${active ? 'active' : ''}">
+              ${cosPreview(i)}
+              <b>${tn(i.name)}</b>
+              ${owned
+                ? `<button class="btn ghost sm" data-equip="${slot}:${i.id}">${active ? '✓' : t('select')}</button>`
+                : `<button class="btn primary sm" data-buy="${i.id}">◆ ${i.price}</button>`}
+            </div>`;
+          }).join('')}
+        </div>`).join('')}
+    </div>
+  </div>`;
+  app().querySelectorAll('[data-buy]').forEach(b => b.addEventListener('click', async () => {
+    try {
+      const r = await backend.buy(b.dataset.buy);
+      profile = r.profile || backend.profile;
+      applyCosmetics(profile);
+      audio.sfx('uiConfirm');
+      if (r.pulls) showPackReveal(r.pulls, r.refund);
+      else { toast(t('owned_i')); showMarket(); }
+    } catch (e) { toast(e.message); }
+  }));
+  app().querySelectorAll('[data-equip]').forEach(b => b.addEventListener('click', async () => {
+    const [slot, id] = b.dataset.equip.split(':');
+    try { profile = await backend.equip(slot, cos[slot] === id ? null : id); applyCosmetics(profile); showMarket(); } catch (e) { toast(e.message); }
+  }));
+}
+const BASE_COS = {back: 'back-ash', board: 'board-hearth', ember: 'ember'};
+const BASE_COS_NAME = {back: {tr: 'Kül Arkası', en: 'Ash Back'}, board: {tr: 'Koru Meydanı', en: 'Hearth Square'}, ember: {tr: 'Kor Alevi', en: 'Hearth Flame'}};
+function baseCosmetic(slot) {
+  const cos = profile?.cosmetics || {};
+  const id = BASE_COS[slot];
+  const active = (cos[slot] || id) === id;
+  return `<div class="cos-card ${active ? 'active' : ''}">${cosPreview({id, slot})}<b>${tn(BASE_COS_NAME[slot])}</b>
+    <button class="btn ghost sm" data-equip="${slot}:${id}">${active ? '✓' : t('select')}</button></div>`;
+}
+function cosPreview(item) {
+  if (item.slot === 'back') {
+    const c = COSMETICS[item.id];
+    const f = c ? `hue-rotate(${c.hue}deg)${c.sat ? ` saturate(${c.sat})` : ''}` : '';
+    return `<img class="cos-back" style="filter:${f}" src="${ART}card-back.png" alt="">`;
+  }
+  if (item.slot === 'board') {
+    const c = COSMETICS[item.id];
+    return `<span class="cos-board" style="background:${c ? c.tint : '#1e2a22'}"></span>`;
+  }
+  const cls = item.id === 'ember-blood' ? 'blood' : item.id === 'ember-void' ? 'void' : '';
+  return `<span class="cos-ember e-${cls}"></span>`;
+}
+function showPackReveal(pulls, refund) {
+  openModal(`<div class="reveal"><h2>${t('pack_std')}</h2>
+    <div class="drop-row">${pulls.map(id => {
+      const c = cardById[id], r = c?.rarity || 'common';
+      return `<div class="drop-card r-${r}"><div class="drop-art"><img src="${ART}${(c?.art || 'gen/direnis-1.png').replace(/\.\w+$/, '.jpg')}" loading="lazy"></div><b>${tn(c?.name)}</b><i>${t('rarity_' + r)}</i></div>`;
+    }).join('')}</div>
+    ${refund ? `<p class="shard-row">◆ +${refund} ${t('shards')}</p>` : ''}
+  </div>`, 'reveal-modal');
 }
 
 function showSettings() {
@@ -219,13 +427,23 @@ function showDuel() {
   });
 }
 
+// Cosmetics -> CSS variables/classes on <html>. Called on login + after buy.
+export function applyCosmetics(p) {
+  const cos = p?.cosmetics || {};
+  const back = COSMETICS[cos.back];
+  document.documentElement.style.setProperty('--back-filter',
+    back ? `hue-rotate(${back.hue}deg)${back.sat ? ` saturate(${back.sat})` : ''}` : 'none');
+  document.documentElement.dataset.board = cos.board && cos.board !== 'board-hearth' ? cos.board : '';
+  document.documentElement.dataset.ember = {blood: 'ember-blood', void: 'ember-void'}[cos.ember?.replace('ember-', '')] || '';
+}
+
 // ---------------- match lifecycle ----------------
 async function enterMatch(payload) {
   // payload: {matchId, actor, state, names, kind, chapter} — state is a view
   sess = {
     matchId: payload.matchId, actor: payload.actor ?? 0,
     names: payload.names, kind: payload.kind, chapter: payload.chapter,
-    view: payload.state,
+    view: payload.state, reward: payload.reward || null,
     backend: {
       command: async cmd => {
         if (backend.mode === 'server') {
@@ -248,6 +466,19 @@ async function launchStory(i) {
     enterMatch(m);
   } catch (e) { toast(e.message); }
 }
+function launchTft(i) {
+  const ch = chapters[i];
+  screen = 'tft';
+  audio.music('battle');
+  TFT.startTft({chapterData: ch, profile, backend}, async (outcome) => {
+    screen = 'map';
+    if (outcome === 'win') {
+      try { const r = await backend.tftWin(i); profile = r.profile || profile; applyCosmetics(profile); if (r.reward?.legendary) audio.sfx('victory'); } catch {}
+    }
+    audio.music('story');
+    showMap();
+  });
+}
 async function launchSkirmish() {
   const m = await backend.startSkirmish(echoChoice, ['ash', 'white', 'teom'][(Math.random() * 3) | 0]);
   enterMatch(m);
@@ -258,6 +489,7 @@ function onServerEvent(m) {
   if (!m?.matchId || !sess) return;
   if (m.matchId !== sess.matchId) return;
   if (m.profile) profile = m.profile;
+  if (m.reward) sess.reward = m.reward;
   Battle.updateBattle(m.state);
   if (m.state?.winner !== null && m.state?.phase === 'over') {/* result rendered by battle */}
 }
@@ -279,7 +511,7 @@ const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({'&': '&amp;', '<': '&
 
 // ---------------- global click router ----------------
 document.addEventListener('click', async e => {
-  const el = e.target.closest('button,[data-act],[data-ch],[data-echo],[data-inspect]');
+  const el = e.target.closest('button,[data-act],[data-ch],[data-echo],[data-inspect],[data-act-tab]');
   if (!el) return;
   const act = el.dataset.act;
   if (act) {
@@ -287,6 +519,7 @@ document.addEventListener('click', async e => {
     if (act === 'play') showMap();
     else if (act === 'skirmish') launchSkirmish();
     else if (act === 'collection') showCollection();
+    else if (act === 'market') showMarket();
     else if (act === 'duel') showDuel();
     else if (act === 'settings') showSettings();
     else if (act === 'credits') showCredits();
@@ -296,9 +529,10 @@ document.addEventListener('click', async e => {
     else if (act === 'lang') { setLang(lang() === 'tr' ? 'en' : 'tr'); rerender(); }
     return;
   }
+  if (el.dataset.actTab !== undefined) { actTab = +el.dataset.actTab; showMap(); return; }
   if (el.dataset.ch) { showChapterBrief(+el.dataset.ch); return; }
   if (el.dataset.echo) { echoChoice = el.dataset.echo; localStorage.setItem('eruldin.echo', echoChoice); audio.sfx('uiConfirm'); if (modalRoot().firstChild) showChapterBrief(currentBrief); else showEchoSelect(); return; }
-  if (el.dataset.start) { closeModal(); await launchStory(+el.dataset.start); return; }
+  if (el.dataset.start) { const ci = +el.dataset.start; closeModal(); if (chapters[ci]?.type === 'tft') launchTft(ci); else await launchStory(ci); return; }
   if (el.dataset.inspect) { inspectCard(el.dataset.inspect); return; }
 });
 let currentBrief = 0;
@@ -338,6 +572,7 @@ async function boot() {
   const res = await connect();
   backend = res.backend;
   profile = res.profile;
+  applyCosmetics(profile);
   echoChoice = profile.echoes?.includes(echoChoice) ? echoChoice : (profile.echoes?.[0] || 'ash');
   if (backend.mode === 'server') backend.onEvent(onServerEvent);
   else backend.onEvent(m => { if (sess && m.matchId === sess.matchId) Battle.updateBattle(m.state); });

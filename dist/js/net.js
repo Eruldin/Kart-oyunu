@@ -2,6 +2,8 @@
 // Both modes expose the same surface: profile, startStory, startSkirmish, command, events.
 import {createMatch, command as engineCommand, botCommand, viewFor} from '../vendor/engine/index.mjs';
 import {chapters, defaultDeck, enemyDeck, cardById, ECHOES, CARDS} from '../vendor/content/cards.mjs';
+import {applyRewards, starterCollection} from '../vendor/content/drops.mjs';
+import {buyItem, equipCosmetic, defaultCosmetics} from '../vendor/content/shop.mjs';
 
 const LS = 'eruldin.local.';
 const BOT_DELAY = 750;
@@ -9,10 +11,13 @@ const BOT_DELAY = 750;
 function localProfile() {
   let p = JSON.parse(localStorage.getItem(LS + 'profile') || 'null');
   if (!p) {
-    p = {id: 'local', name: 'Gezgin', progress: 0, wins: 0, storyWins: 0, deck: [...defaultDeck], echoes: ['ash']};
+    p = {id: 'local', name: 'Gezgin', progress: 0, wins: 0, storyWins: 0, deck: [...defaultDeck], echoes: ['ash'],
+         collection: starterCollection(defaultDeck), shards: 0, pity: 0, cosmetics: defaultCosmetics()};
     saveLocal(p);
   }
   if (!p.echoes) p.echoes = ['ash'];
+  if (!p.collection) { p.collection = starterCollection(p.deck || defaultDeck); p.shards = 0; p.pity = 0; }
+  if (!p.cosmetics) p.cosmetics = defaultCosmetics();
   return p;
 }
 function saveLocal(p) { localStorage.setItem(LS + 'profile', JSON.stringify(p)); }
@@ -39,7 +44,7 @@ class LocalBackend {
     this.match = {
       id: 'local-' + Date.now(), kind: 'story', chapter: chapterIdx,
       names: [this.profile.name, ch.opponent],
-      state: createMatch({seed: ch.seed ?? (chapterIdx + 1) * 997, echo: [echoId, ch.echo], health: [24, ch.health], decks: [[...this.profile.deck], [...ch.deck]]}),
+      state: createMatch({seed: ch.seed ?? (chapterIdx + 1) * 997, echo: [echoId, ch.echo], health: [24, ch.health], decks: [[...this.profile.deck], [...ch.deck]], mutators: ch.mutators}),
     };
     this.scheduleBot();
     return this.pack();
@@ -54,7 +59,7 @@ class LocalBackend {
     return this.pack();
   }
   pack() {
-    return {matchId: this.match.id, actor: 0, state: this.view(), names: this.match.names, kind: this.match.kind, chapter: this.match.chapter, profile: this.profile};
+    return {matchId: this.match.id, actor: 0, state: this.view(), names: this.match.names, kind: this.match.kind, chapter: this.match.chapter, profile: this.profile, reward: this.match.reward};
   }
   async command(cmd) {
     if (!this.match) throw Error('Maç yok.');
@@ -74,6 +79,9 @@ class LocalBackend {
         // echo unlocks: beat ch2 → white, ch3 → teom
         if (this.match.chapter >= 2 && !this.profile.echoes.includes('white')) this.profile.echoes.push('white');
         if (this.match.chapter >= 3 && !this.profile.echoes.includes('teom')) this.profile.echoes.push('teom');
+        const ch = chapters[this.match.chapter];
+        const seed = (ch.seed || 1) ^ ((this.profile.storyWins + 1) * 7919);
+        this.match.reward = applyRewards(this.profile, ch, seed);
       }
     }
     saveLocal(this.profile);
@@ -102,12 +110,33 @@ class LocalBackend {
     }
   }
   async saveDeck(deck) {
-    if (!Array.isArray(deck) || deck.length !== 20 || deck.some(id => !cardById[id]) || deck.some(id => deck.filter(x => x === id).length > 3))
-      throw Error('Deste 20 kart içermeli; bir kart en fazla 3 kez.');
+    if (!Array.isArray(deck) || deck.length !== 20 || deck.some(id => !cardById[id]) || deck.some(id => deck.filter(x => x === id).length > 3) || deck.some(id => (this.profile.collection?.[id] || 0) < deck.filter(x => x === id).length))
+      throw Error('Deste 20 kart içermeli; kartlar koleksiyonunda olmalı; bir kart en fazla 3 kez.');
     this.profile.deck = [...deck]; saveLocal(this.profile);
     return this.profile;
   }
   async setName(name) { this.profile.name = String(name).slice(0, 24) || 'Gezgin'; saveLocal(this.profile); return this.profile; }
+  async buy(itemId) {
+    const r = buyItem(this.profile, itemId);
+    if (!r.ok) throw Error(r.error);
+    saveLocal(this.profile);
+    return {...r, profile: this.profile};
+  }
+  async equip(slot, itemId) {
+    if (!equipCosmetic(this.profile, slot, itemId)) throw Error('Öğeye sahip değilsin.');
+    saveLocal(this.profile);
+    return this.profile;
+  }
+  async tftWin(chapterIdx) {
+    const ch = chapters[chapterIdx];
+    if (!ch || ch.type !== 'tft') throw Error('Izgara bölümü değil.');
+    this.profile.storyWins++;
+    this.profile.progress = Math.max(this.profile.progress, chapterIdx + 1);
+    const seed = (ch.seed || 1) ^ ((this.profile.storyWins + 1) * 7919) ^ 0x7F7;
+    const reward = applyRewards(this.profile, ch, seed);
+    saveLocal(this.profile);
+    return {reward, profile: this.profile};
+  }
 }
 
 // ---------------- online backend ----------------
@@ -141,6 +170,9 @@ class ServerBackend {
   async leaderboard() { return this.api('leaderboard'); }
   async saveDeck(deck) { this.profile = await this.api('profile', {deck}); return this.profile; }
   async setName(name) { this.profile = await this.api('profile', {name}); return this.profile; }
+  async buy(itemId) { const r = await this.api('shop', {item: itemId}); if (r.profile) this.profile = r.profile; return r; }
+  async equip(slot, itemId) { this.profile = await this.api('shop', {equip: slot, item: itemId}); return this.profile; }
+  async tftWin(chapterIdx) { const r = await this.api('tft-win', {chapter: chapterIdx}); if (r.profile) this.profile = r.profile; return r; }
 }
 
 export async function connect() {

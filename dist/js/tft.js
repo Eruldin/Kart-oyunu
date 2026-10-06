@@ -145,9 +145,9 @@ function runReplay() {
   const ticks = Object.keys(byTick).map(Number).sort((a, b) => a - b);
   let ti = 0;
   const step = () => {
-    const t = ticks[ti++];
-    if (t === undefined) return finish();
-    for (const ev of byTick[t]) {
+    const tk = ticks[ti++];
+    if (tk === undefined) return finish();
+    for (const ev of byTick[tk]) {
       const el = uDivs[ev.uid];
       if (!el) continue;
       if (ev.ev === 'move') {

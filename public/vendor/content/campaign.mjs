@@ -37,8 +37,8 @@ export const CAMPAIGN = [
       {}
     ],
     name: {
-      tr: "I. Perde — Sarnıç Mezarlığı",
-      en: "Sarnıç Mezarlığı"
+      tr: "Bekçi Tepesi",
+      en: "Bekçi Tepesi"
     },
     opponent: "Kül Serserileri",
     intro: {
@@ -85,8 +85,8 @@ export const CAMPAIGN = [
       {}
     ],
     name: {
-      tr: "I. Perde — Ray Üstü",
-      en: "Ray Üstü"
+      tr: "Kor Bahçesi",
+      en: "Kor Bahçesi"
     },
     opponent: "Konsey Zaptiyesi",
     intro: {
@@ -133,8 +133,8 @@ export const CAMPAIGN = [
       {}
     ],
     name: {
-      tr: "I. Perde — Koru Eşiği",
-      en: "Koru Eşiği"
+      tr: "Kıraç Geçit",
+      en: "Kıraç Geçit"
     },
     opponent: "Bozkır Sürüsü",
     intro: {
@@ -181,7 +181,7 @@ export const CAMPAIGN = [
       {}
     ],
     name: {
-      tr: "I. Perde — Küllü Yol",
+      tr: "Küllü Yol",
       en: "Küllü Yol"
     },
     opponent: "Karah Öncüsü",
@@ -281,7 +281,7 @@ export const CAMPAIGN = [
       {}
     ],
     name: {
-      tr: "I. Perde — Ray Üstü",
+      tr: "Ray Üstü",
       en: "Ray Üstü"
     },
     opponent: "Kızıl Muhafız",
@@ -329,7 +329,7 @@ export const CAMPAIGN = [
       {}
     ],
     name: {
-      tr: "I. Perde — Koru Eşiği",
+      tr: "Koru Eşiği",
       en: "Koru Eşiği"
     },
     opponent: "Avcı Birliği",
@@ -377,8 +377,8 @@ export const CAMPAIGN = [
       {}
     ],
     name: {
-      tr: "I. Perde — Küllü Yol",
-      en: "Küllü Yol"
+      tr: "Kül Pınarı",
+      en: "Kül Pınarı"
     },
     opponent: "Sürü Kulu",
     intro: {
@@ -427,8 +427,8 @@ export const CAMPAIGN = [
       }
     ],
     name: {
-      tr: "I. Perde — Sarnıç Mezarlığı",
-      en: "Sarnıç Mezarlığı"
+      tr: "Bekçi Tepesi",
+      en: "Bekçi Tepesi"
     },
     opponent: "Tarla Haydutları",
     intro: {
@@ -475,8 +475,8 @@ export const CAMPAIGN = [
       {}
     ],
     name: {
-      tr: "I. Perde — Ray Üstü",
-      en: "Ray Üstü"
+      tr: "Kor Bahçesi",
+      en: "Kor Bahçesi"
     },
     opponent: "Sur Komutanı",
     intro: {
@@ -523,8 +523,8 @@ export const CAMPAIGN = [
       {}
     ],
     name: {
-      tr: "I. Perde — Koru Eşiği",
-      en: "Koru Eşiği"
+      tr: "Kıraç Geçit",
+      en: "Kıraç Geçit"
     },
     opponent: "Pençe Sürüsü",
     intro: {
@@ -571,7 +571,7 @@ export const CAMPAIGN = [
       {}
     ],
     name: {
-      tr: "I. Perde — Küllü Yol",
+      tr: "Küllü Yol",
       en: "Küllü Yol"
     },
     opponent: "Yozlaşma Taşıyıcısı",
@@ -619,7 +619,7 @@ export const CAMPAIGN = [
       {}
     ],
     name: {
-      tr: "I. Perde — Sarnıç Mezarlığı",
+      tr: "Sarnıç Mezarlığı",
       en: "Sarnıç Mezarlığı"
     },
     opponent: "Kuzgunyuvası Çetesi",
@@ -667,7 +667,7 @@ export const CAMPAIGN = [
       {}
     ],
     name: {
-      tr: "I. Perde — Ray Üstü",
+      tr: "Ray Üstü",
       en: "Ray Üstü"
     },
     opponent: "Emir Muhafızı",
@@ -768,8 +768,8 @@ export const CAMPAIGN = [
       {}
     ],
     name: {
-      tr: "II. Perde — Kızıl Sur",
-      en: "Kızıl Sur"
+      tr: "Tuz Pazarı",
+      en: "Tuz Pazarı"
     },
     opponent: "Konsey Zaptiyesi",
     intro: {
@@ -816,8 +816,8 @@ export const CAMPAIGN = [
       {}
     ],
     name: {
-      tr: "II. Perde — Ferman Meydanı",
-      en: "Ferman Meydanı"
+      tr: "Demir Kapı",
+      en: "Demir Kapı"
     },
     opponent: "Sis Çetesi",
     intro: {
@@ -864,8 +864,8 @@ export const CAMPAIGN = [
       {}
     ],
     name: {
-      tr: "II. Perde — Kırk Diş Avlusu",
-      en: "Kırk Diş Avlusu"
+      tr: "Hat Üstü",
+      en: "Hat Üstü"
     },
     opponent: "Koru Muhafızları",
     intro: {
@@ -916,8 +916,8 @@ export const CAMPAIGN = [
       }
     ],
     name: {
-      tr: "II. Perde — Sis Sokağı",
-      en: "Sis Sokağı"
+      tr: "Mahkum Yolu",
+      en: "Mahkum Yolu"
     },
     opponent: "Göz'ün Keşişleri",
     intro: {
@@ -964,7 +964,7 @@ export const CAMPAIGN = [
       {}
     ],
     name: {
-      tr: "II. Perde — Kızıl Sur",
+      tr: "Kızıl Sur",
       en: "Kızıl Sur"
     },
     opponent: "Kızıl Muhafız",
@@ -1012,7 +1012,7 @@ export const CAMPAIGN = [
       {}
     ],
     name: {
-      tr: "II. Perde — Ferman Meydanı",
+      tr: "Ferman Meydanı",
       en: "Ferman Meydanı"
     },
     opponent: "Gölge Pusu",
@@ -1060,7 +1060,7 @@ export const CAMPAIGN = [
       {}
     ],
     name: {
-      tr: "II. Perde — Kırk Diş Avlusu",
+      tr: "Kırk Diş Avlusu",
       en: "Kırk Diş Avlusu"
     },
     opponent: "Ocak Devriyeleri",
@@ -1108,7 +1108,7 @@ export const CAMPAIGN = [
       {}
     ],
     name: {
-      tr: "II. Perde — Sis Sokağı",
+      tr: "Sis Sokağı",
       en: "Sis Sokağı"
     },
     opponent: "Manastır Devriyesi",
@@ -1156,8 +1156,8 @@ export const CAMPAIGN = [
       {}
     ],
     name: {
-      tr: "II. Perde — Kızıl Sur",
-      en: "Kızıl Sur"
+      tr: "Tuz Pazarı",
+      en: "Tuz Pazarı"
     },
     opponent: "Sur Komutanı",
     intro: {
@@ -1257,8 +1257,8 @@ export const CAMPAIGN = [
       {}
     ],
     name: {
-      tr: "II. Perde — Kırk Diş Avlusu",
-      en: "Kırk Diş Avlusu"
+      tr: "Hat Üstü",
+      en: "Hat Üstü"
     },
     opponent: "Sığınak Birliği",
     intro: {
@@ -1305,8 +1305,8 @@ export const CAMPAIGN = [
       {}
     ],
     name: {
-      tr: "II. Perde — Sis Sokağı",
-      en: "Sis Sokağı"
+      tr: "Mahkum Yolu",
+      en: "Mahkum Yolu"
     },
     opponent: "Teom Yargıcı",
     intro: {
@@ -1353,7 +1353,7 @@ export const CAMPAIGN = [
       {}
     ],
     name: {
-      tr: "II. Perde — Kızıl Sur",
+      tr: "Kızıl Sur",
       en: "Kızıl Sur"
     },
     opponent: "Emir Muhafızı",
@@ -1403,7 +1403,7 @@ export const CAMPAIGN = [
       }
     ],
     name: {
-      tr: "II. Perde — Ferman Meydanı",
+      tr: "Ferman Meydanı",
       en: "Ferman Meydanı"
     },
     opponent: "Kör Sokak Çetesi",
@@ -1451,7 +1451,7 @@ export const CAMPAIGN = [
       {}
     ],
     name: {
-      tr: "II. Perde — Kırk Diş Avlusu",
+      tr: "Kırk Diş Avlusu",
       en: "Kırk Diş Avlusu"
     },
     opponent: "Koru Yeminlileri",
@@ -1499,7 +1499,7 @@ export const CAMPAIGN = [
       {}
     ],
     name: {
-      tr: "II. Perde — Sis Sokağı",
+      tr: "Sis Sokağı",
       en: "Sis Sokağı"
     },
     opponent: "Beyaz Vaizler",
@@ -1547,8 +1547,8 @@ export const CAMPAIGN = [
       {}
     ],
     name: {
-      tr: "II. Perde — Kızıl Sur",
-      en: "Kızıl Sur"
+      tr: "Tuz Pazarı",
+      en: "Tuz Pazarı"
     },
     opponent: "Konsey Zaptiyesi",
     intro: {
@@ -1595,8 +1595,8 @@ export const CAMPAIGN = [
       {}
     ],
     name: {
-      tr: "II. Perde — Ferman Meydanı",
-      en: "Ferman Meydanı"
+      tr: "Demir Kapı",
+      en: "Demir Kapı"
     },
     opponent: "Maskeli Olanlar",
     intro: {
@@ -1643,8 +1643,8 @@ export const CAMPAIGN = [
       {}
     ],
     name: {
-      tr: "II. Perde — Kırk Diş Avlusu",
-      en: "Kırk Diş Avlusu"
+      tr: "Hat Üstü",
+      en: "Hat Üstü"
     },
     opponent: "Koru Muhafızları",
     intro: {
@@ -1745,7 +1745,7 @@ export const CAMPAIGN = [
       {}
     ],
     name: {
-      tr: "III. Perde — Mor Damar Geçidi",
+      tr: "Mor Damar Geçidi",
       en: "Mor Damar Geçidi"
     },
     opponent: "Mor Sürü",
@@ -1793,7 +1793,7 @@ export const CAMPAIGN = [
       {}
     ],
     name: {
-      tr: "III. Perde — Obsidyen Çukur",
+      tr: "Obsidyen Çukur",
       en: "Obsidyen Çukur"
     },
     opponent: "Yankı Ağıtçıları",
@@ -1843,7 +1843,7 @@ export const CAMPAIGN = [
       }
     ],
     name: {
-      tr: "III. Perde — Yankı Vadisi",
+      tr: "Yankı Vadisi",
       en: "Yankı Vadisi"
     },
     opponent: "Sis Çetesi",
@@ -1895,7 +1895,7 @@ export const CAMPAIGN = [
       }
     ],
     name: {
-      tr: "III. Perde — Son Sur",
+      tr: "Son Sur",
       en: "Son Sur"
     },
     opponent: "Göz'ün Keşişleri",
@@ -1943,8 +1943,8 @@ export const CAMPAIGN = [
       {}
     ],
     name: {
-      tr: "III. Perde — Mor Damar Geçidi",
-      en: "Mor Damar Geçidi"
+      tr: "Karah Vadisi",
+      en: "Karah Vadisi"
     },
     opponent: "Karah Öncüsü",
     intro: {
@@ -1993,8 +1993,8 @@ export const CAMPAIGN = [
       }
     ],
     name: {
-      tr: "III. Perde — Obsidyen Çukur",
-      en: "Obsidyen Çukur"
+      tr: "Zehirli Basamak",
+      en: "Zehirli Basamak"
     },
     opponent: "Hatıra Korucuları",
     intro: {
@@ -2041,8 +2041,8 @@ export const CAMPAIGN = [
       {}
     ],
     name: {
-      tr: "III. Perde — Yankı Vadisi",
-      en: "Yankı Vadisi"
+      tr: "Kök Dehliz",
+      en: "Kök Dehliz"
     },
     opponent: "Gölge Pusu",
     intro: {
@@ -2089,8 +2089,8 @@ export const CAMPAIGN = [
       {}
     ],
     name: {
-      tr: "III. Perde — Son Sur",
-      en: "Son Sur"
+      tr: "Gece Kapısı",
+      en: "Gece Kapısı"
     },
     opponent: "Manastır Devriyesi",
     intro: {
@@ -2139,7 +2139,7 @@ export const CAMPAIGN = [
       }
     ],
     name: {
-      tr: "III. Perde — Mor Damar Geçidi",
+      tr: "Mor Damar Geçidi",
       en: "Mor Damar Geçidi"
     },
     opponent: "Sürü Kulu",
@@ -2241,7 +2241,7 @@ export const CAMPAIGN = [
       {}
     ],
     name: {
-      tr: "III. Perde — Yankı Vadisi",
+      tr: "Yankı Vadisi",
       en: "Yankı Vadisi"
     },
     opponent: "Kör Sokak Çetesi",
@@ -2291,7 +2291,7 @@ export const CAMPAIGN = [
       }
     ],
     name: {
-      tr: "III. Perde — Son Sur",
+      tr: "Son Sur",
       en: "Son Sur"
     },
     opponent: "Teom Yargıcı",
@@ -2339,8 +2339,8 @@ export const CAMPAIGN = [
       {}
     ],
     name: {
-      tr: "III. Perde — Mor Damar Geçidi",
-      en: "Mor Damar Geçidi"
+      tr: "Karah Vadisi",
+      en: "Karah Vadisi"
     },
     opponent: "Yozlaşma Taşıyıcısı",
     intro: {
@@ -2391,8 +2391,8 @@ export const CAMPAIGN = [
       }
     ],
     name: {
-      tr: "III. Perde — Obsidyen Çukur",
-      en: "Obsidyen Çukur"
+      tr: "Zehirli Basamak",
+      en: "Zehirli Basamak"
     },
     opponent: "Boşluk Fenerleri",
     intro: {
@@ -2441,8 +2441,8 @@ export const CAMPAIGN = [
       }
     ],
     name: {
-      tr: "III. Perde — Yankı Vadisi",
-      en: "Yankı Vadisi"
+      tr: "Kök Dehliz",
+      en: "Kök Dehliz"
     },
     opponent: "Maskeli Olanlar",
     intro: {
@@ -2489,8 +2489,8 @@ export const CAMPAIGN = [
       {}
     ],
     name: {
-      tr: "III. Perde — Son Sur",
-      en: "Son Sur"
+      tr: "Gece Kapısı",
+      en: "Gece Kapısı"
     },
     opponent: "Beyaz Vaizler",
     intro: {
@@ -2537,7 +2537,7 @@ export const CAMPAIGN = [
       {}
     ],
     name: {
-      tr: "III. Perde — Mor Damar Geçidi",
+      tr: "Mor Damar Geçidi",
       en: "Mor Damar Geçidi"
     },
     opponent: "Mor Sürü",
@@ -2587,7 +2587,7 @@ export const CAMPAIGN = [
       }
     ],
     name: {
-      tr: "III. Perde — Obsidyen Çukur",
+      tr: "Obsidyen Çukur",
       en: "Obsidyen Çukur"
     },
     opponent: "Akis Sürüsü",
@@ -2635,7 +2635,7 @@ export const CAMPAIGN = [
       {}
     ],
     name: {
-      tr: "III. Perde — Yankı Vadisi",
+      tr: "Yankı Vadisi",
       en: "Yankı Vadisi"
     },
     opponent: "Sis Çetesi",

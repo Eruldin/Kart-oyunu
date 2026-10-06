@@ -1,7 +1,7 @@
 // Audio manager: real SFX/music files, lazy-loaded, pooled, volume-gated.
 const A = './assets/audio';
 const SFX = {
-  uiClick: ['ui/ui-click-1.ogg', 'ui/ui-click-2.ogg'],
+  uiClick: ['sfx/ui-click-1.ogg', 'sfx/ui-click-2.ogg'],
   uiHover: ['ui/hover.ogg'],
   uiConfirm: ['ui/confirm.ogg'],
   uiError: ['ui/error.ogg'],

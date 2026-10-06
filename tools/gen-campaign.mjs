@@ -153,11 +153,12 @@ for (let i = 5; i < 60; i++) {
   else if (act === 2 && type === 'normal' && i % 3 === 0) mutators[1] = {shield: 2};
 
   const placeNames = {
-    0: ['Küllü Yol', 'Sarnıç Mezarlığı', 'Ray Üstü', 'Koru Eşiği'],
-    1: ['Kızıl Sur', 'Ferman Meydanı', 'Kırk Diş Avlusu', 'Sis Sokağı'],
-    2: ['Mor Damar Geçidi', 'Obsidyen Çukur', 'Yankı Vadisi', 'Son Sur'],
+    0: ['Küllü Yol', 'Sarnıç Mezarlığı', 'Ray Üstü', 'Koru Eşiği', 'Kül Pınarı', 'Bekçi Tepesi', 'Kor Bahçesi', 'Kıraç Geçit'],
+    1: ['Kızıl Sur', 'Ferman Meydanı', 'Kırk Diş Avlusu', 'Sis Sokağı', 'Tuz Pazarı', 'Demir Kapı', 'Hat Üstü', 'Mahkum Yolu'],
+    2: ['Mor Damar Geçidi', 'Obsidyen Çukur', 'Yankı Vadisi', 'Son Sur', 'Karah Vadisi', 'Zehirli Basamak', 'Kök Dehliz', 'Gece Kapısı'],
   };
-  const place = boss ? boss.name : {tr: `${ACTS[act].name.tr.split('—')[0].trim()} — ${placeNames[act][i % 4]}`, en: `${placeNames[act][i % 4]}`};
+  const nm = placeNames[act][i % placeNames[act].length];
+  const place = boss ? boss.name : {tr: nm, en: nm};
 
   campaign.push({
     id: i, seed, health, tier, type,

@@ -52,9 +52,10 @@ function render() {
   root.innerHTML = `
   <div class="battle ${s.phase === 'block' ? 'in-combat' : ''} ${targetMode ? 'targeting' : ''} ${s.token === actor() && !me().flag?.attacked ? 'my-token' : ''}" id="battle">
     <div class="bfield" id="bfield">
-      <div class="bfield-bg"></div>
-      <div class="bfield-mist"></div>
-      <div class="bfield-embers" id="bfield-embers"></div>
+      <div class="bfield-bg" data-depth="0.02"></div>
+      <div class="bfield-mist" data-depth="0.035"></div>
+      ${FX.ambientHTML()}
+      <div class="bfield-embers" id="bfield-embers" data-depth="0.08"></div>
       <div class="bfield-glowline"></div>
 
       <!-- enemy plate -->
@@ -128,7 +129,8 @@ function render() {
   drawCombatArrows();
   bindInteractions();
   renderLog();
-  FX.embers($('#bfield-embers'), 15);
+  FX.embers($('#bfield-embers'), 24);
+  FX.parallax($('#bfield'));
   tutorTick();
 }
 

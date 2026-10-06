@@ -130,6 +130,31 @@ export function lunge(el, towardEl) {
   setTimeout(() => el.classList.remove('fx-lunge'), 420);
 }
 // ambient: rising embers / drifting ash inside a container
+// ---------------- parallax (LoR-style board tilt) ----------------
+const pxLayers = [];
+let pxRaf = null, pxTx = 0, pxTy = 0, pxCx = 0, pxCy = 0;
+document.addEventListener('mousemove', e => {
+  pxTx = e.clientX / innerWidth - .5; pxTy = e.clientY / innerHeight - .5;
+  if (!pxRaf) pxRaf = requestAnimationFrame(pxTick);
+});
+function pxTick() {
+  pxCx += (pxTx - pxCx) * .07; pxCy += (pxTy - pxCy) * .07;
+  for (let i = pxLayers.length - 1; i >= 0; i--) {
+    const {root, layers} = pxLayers[i];
+    if (!document.contains(root)) { pxLayers.splice(i, 1); continue; }
+    for (const l of layers) {
+      const d = +l.dataset.depth || 0;
+      l.style.translate = `${(-pxCx * d * 60).toFixed(1)}px ${(-pxCy * d * 60).toFixed(1)}px`;
+    }
+  }
+  pxRaf = (Math.abs(pxTx - pxCx) > .0005 || Math.abs(pxTy - pxCy) > .0005) ? requestAnimationFrame(pxTick) : null;
+}
+export function parallax(root) {
+  if (!root || reduced()) return;
+  const layers = [...root.querySelectorAll('[data-depth]')];
+  if (layers.length) pxLayers.push({root, layers});
+}
+
 export function embers(container, n = 16, cls = 'ember') {
   if (!container || reduced()) return;
   for (let i = 0; i < n; i++) {
@@ -194,6 +219,11 @@ function tutPos(r) {
   return `left:24px;bottom:24px;`;
 }
 export function hideTutor() { tutLayer?.remove(); tutLayer = null; }
+
+// ambient markup helper: fog banks + light shafts injected into a screen
+export function ambientHTML() {
+  return `<div class="fog-band band-a"></div><div class="fog-band band-b"></div><div class="light-shafts"><i style="left:6%"></i><i style="left:38%"></i><i style="left:70%"></i></div>`;
+}
 
 export function trail(fromEl, toEl, cls = 'gold') {
   // a small "card" that flies from hand to target

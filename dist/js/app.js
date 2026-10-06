@@ -19,9 +19,10 @@ function showTitle() {
   audio.music('menu');
   app().innerHTML = `
   <div class="title-screen">
-    <img class="title-bg" src="${ART}keyart.jpg" alt="">
-    <div class="title-fog"></div>
-    <div class="title-embers" id="title-embers"></div>
+    <img class="title-bg" src="${ART}keyart.jpg" alt="" data-depth="0.022">
+    <div class="title-fog" data-depth="0.05"></div>
+    ${FX.ambientHTML()}
+    <div class="title-embers" id="title-embers" data-depth="0.10"></div>
     <div class="title-inner">
       <img class="title-sigil" src="./assets/ui/turn-token-v1.png" alt="">
       <h1 class="game-logo">ERULDIN</h1>
@@ -41,7 +42,8 @@ function showTitle() {
     </div>
     <div class="version">v0.2 · ${backend?.mode === 'server' ? t('online') : t('offline')}</div>
   </div>`;
-  FX.embers(document.querySelector('#title-embers'), 18);
+  FX.embers(document.querySelector('#title-embers'), 26);
+  FX.parallax(app().querySelector('.title-screen'));
 }
 
 function showMap() {
@@ -58,9 +60,10 @@ function showMap() {
   }).join(' ');
   app().innerHTML = `
   <div class="map-screen">
-    <img class="map-bg" src="${ART}screens/campaign-map.png" alt="">
+    <img class="map-bg" src="${ART}screens/campaign-map.png" alt="" data-depth="0.02">
     <div class="map-veil"></div>
-    <div class="map-embers" id="map-embers"></div>
+    ${FX.ambientHTML()}
+    <div class="map-embers" id="map-embers" data-depth="0.07"></div>
     <header class="map-head">
       <button class="icon-btn" data-act="title">←</button>
       <div><h1>${t('story')}</h1><p>${t('storyIntro')}</p></div>
@@ -93,7 +96,8 @@ function showMap() {
       </div>
     </div>
   </div>`;
-  FX.embers(document.querySelector('#map-embers'), 12, 'ember-cold');
+  FX.embers(document.querySelector('#map-embers'), 18, 'ember-cold');
+  FX.parallax(app().querySelector('.map-screen'));
 }
 
 function echoAvatar(id) {

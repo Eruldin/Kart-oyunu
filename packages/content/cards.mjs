@@ -1,5 +1,6 @@
 // ERULDIN: YANKILAR — content data (cards, echoes, chapters)
 import {POOL, POOL_TOKENS} from './pool.mjs';
+import {CAMPAIGN} from './campaign.mjs';
 // Turkish is canonical; English in `en`. Every card's lore hook is annotated
 // with its source layer: [M] book, [L] lore, [A] atlas synthesis, [D] design.
 
@@ -479,7 +480,8 @@ const primusDeck = [
 ];
 
 // ---------------- story chapters ----------------
-export const chapters = [
+// canon chapters 0-4 (hand-authored) + CAMPAIGN 5-59 (generated)
+const CANON_CHAPTERS = [
   {
     id: 0, seed: 101, health: 18, echo: 'ash', deck: karahPackDeck,
     name: {tr: 'Kızıl Aziz\'in Avlusu', en: 'Courtyard of the Red Saint'},
@@ -530,4 +532,11 @@ export const chapters = [
     },
     src: '[M4]',
   },
+];
+
+export const chapters = [...CANON_CHAPTERS, ...CAMPAIGN];
+export const ACT_NAMES = [
+  {tr: 'I. Perde — Kül ve Koru', en: 'Act I — Ash and Hearth'},
+  {tr: 'II. Perde — Kızıl Hat', en: 'Act II — The Red Line'},
+  {tr: 'III. Perde — Karah Yurdu', en: 'Act III — Karah Homeland'},
 ];

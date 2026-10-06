@@ -5,7 +5,7 @@ import {connect, content} from './net.js';
 import {cardEl, bindTooltip} from './cardview.js';
 import * as Battle from './battle.js';
 import * as FX from './fx.js';
-import {chapters, defaultDeck, enemyDeck, cardById, ECHOES, CARDS} from '../vendor/content/cards.mjs';
+import {chapters, defaultDeck, enemyDeck, cardById, ECHOES, CARDS, ACT_NAMES, KEYWORDS} from '../vendor/content/cards.mjs';
 
 const ART = './assets/art/';
 const app = () => document.querySelector('#app');
@@ -46,18 +46,30 @@ function showTitle() {
   FX.parallax(app().querySelector('.title-screen'));
 }
 
+let actTab = 0;
 function showMap() {
   screen = 'map';
   audio.music('story');
   const prog = profile.progress ?? 0;
-  const POS = [[7, 58], [24, 38], [41, 56], [55, 32], [68, 50]];   // % inside .map-route
-  const pts = chapters.map((_, i) => POS[i] || [8 + i * 15, 50]);
+  actTab = Math.min(2, Math.max(0, Math.floor(prog / 20), actTab));
+  // 20 nodes per act on a snake curve (4 rows × 5)
+  const ACT_LEN = 20;
+  const actChapters = chapters.map((ch, i) => ({ch, i})).filter(({ch}) => Math.floor((ch.id ?? 0) / 20) === actTab || (!ch.act && actTab === 0 && (ch.id ?? 0) < 20));
+  // fallback: split by index when chapters lack act field
+  const slice = chapters.map((ch, i) => ({ch, i})).slice(actTab * ACT_LEN, (actTab + 1) * ACT_LEN);
+  const shown = slice.length ? slice : actChapters;
+  const pts = shown.map((_, k) => {
+    const row = Math.floor(k / 5), col = k % 5;
+    const x = row % 2 === 0 ? 10 + col * 20 : 90 - col * 20;   // snake
+    return [x, 16 + row * 22];
+  });
   const routeD = pts.map((p, i) => {
     if (!i) return `M ${p[0]} ${p[1]}`;
     const [px, py] = pts[i - 1];
     const mx = (px + p[0]) / 2;
-    return `Q ${mx} ${py + (i % 2 ? -14 : 14)}, ${p[0]} ${p[1]}`;
+    return `Q ${mx} ${py + (Math.abs(py - p[1]) > 12 ? 10 : (i % 2 ? -10 : 10))}, ${p[0]} ${p[1]}`;
   }).join(' ');
+  const doneInAct = shown.filter(({i}) => i < prog).length;
   app().innerHTML = `
   <div class="map-screen">
     <img class="map-bg" src="${ART}screens/campaign-map.png" alt="" data-depth="0.02">
@@ -69,19 +81,27 @@ function showMap() {
       <div><h1>${t('story')}</h1><p>${t('storyIntro')}</p></div>
       <button class="btn ghost" data-act="deck">${t('deck')}</button>
     </header>
+    <nav class="act-tabs">
+      ${[0, 1, 2].map(a => {
+        const locked = prog < a * ACT_LEN;
+        return `<button class="act-tab ${a === actTab ? 'sel' : ''} ${locked ? 'locked' : ''}" data-act-tab="${a}" ${locked ? 'disabled' : ''}>${tn(ACT_NAMES[a]) || (lang() === 'tr' ? `Perde ${a + 1}` : `Act ${a + 1}`)}</button>`;
+      }).join('')}
+    </nav>
     <div class="map-route">
       <svg class="map-route-svg" viewBox="0 0 100 100" preserveAspectRatio="none">
         <path class="route-path" d="${routeD}" vector-effect="non-scaling-stroke"/>
-        <path class="route-path done" d="${routeD}" vector-effect="non-scaling-stroke" pathLength="${chapters.length}" style="--done:${prog}"/>
+        <path class="route-path done" d="${routeD}" vector-effect="non-scaling-stroke" pathLength="${shown.length}" style="--done:${doneInAct}"/>
       </svg>
-      ${chapters.map((ch, i) => {
+      ${shown.map(({ch, i}, k) => {
         const st = i < prog ? 'done' : i === prog ? 'next' : 'locked';
-        const [x, y] = pts[i];
-        return `<button class="map-node ${st}" data-ch="${i}" ${st === 'locked' ? 'disabled' : ''} style="left:${x}%;top:${y}%">
+        const [x, y] = pts[k];
+        const cls = st + (ch.type === 'boss' ? ' boss' : ch.type === 'tft' ? ' tft' : ch.type === 'elite' ? ' elite' : '');
+        const glyph = ch.type === 'boss' ? '♛' : ch.type === 'tft' ? '♟' : ch.type === 'elite' ? '✦' : '';
+        return `<button class="map-node ${cls}" data-ch="${i}" ${st === 'locked' ? 'disabled' : ''} style="left:${x}%;top:${y}%">
           <img class="node-medal" src="./assets/ui/story-${st === 'done' ? 'completed' : st === 'next' ? 'current' : 'locked'}-v1.png" alt="">
+          ${glyph ? `<span class="node-glyph">${glyph}</span>` : ''}
           <span class="node-num">${i + 1}</span>
           <span class="node-name">${tn(ch.name)}</span>
-          <small>${ch.src || ''}</small>
         </button>`;
       }).join('')}
     </div>
@@ -89,6 +109,7 @@ function showMap() {
       <div class="side-card">
         <h3>${t('chapterDone')}</h3>
         <div class="side-stat"><b>${prog}</b><span>/ ${chapters.length}</span></div>
+        <div class="side-legend"><span><i class="lg boss">♛</i>${lang() === 'tr' ? 'Büyük Boss' : 'Boss'}</span><span><i class="lg tft">♟</i>TFT</span><span><i class="lg elite">✦</i>${lang() === 'tr' ? 'Elit' : 'Elite'}</span></div>
       </div>
       <div class="side-card">
         <h3>${t('chooseEcho')}</h3>
@@ -98,6 +119,17 @@ function showMap() {
   </div>`;
   FX.embers(document.querySelector('#map-embers'), 18, 'ember-cold');
   FX.parallax(app().querySelector('.map-screen'));
+}
+
+function mutatorDesc(m) {
+  const tr = lang() === 'tr';
+  const parts = [];
+  if (m.hpBonus) parts.push(tr ? `+${m.hpBonus} can` : `+${m.hpBonus} health`);
+  if (m.shield) parts.push(tr ? `${m.shield} zırh` : `${m.shield} armor`);
+  if (m.hatira) parts.push(tr ? `başta ${m.hatira} hatıra` : `starts with ${m.hatira} memory`);
+  if (m.ozStart) parts.push(tr ? `+${m.ozStart} öz` : `+${m.ozStart} essence`);
+  if (m.kwAll?.length) parts.push(m.kwAll.map(k => tn({tr: KEYWORDS[k]?.tr || k, en: KEYWORDS[k]?.en || k})).join(', '));
+  return parts.join(' · ');
 }
 
 function echoAvatar(id) {
@@ -133,9 +165,11 @@ function showChapterBrief(i) {
   audio.sfx('storyOpen');
   openModal(`
     <div class="brief">
-      <div class="eyebrow">${t('chapter')} ${i + 1}</div>
+      <div class="eyebrow">${t('chapter')} ${i + 1}${ch.type === 'boss' ? ' · ♛ BOSS' : ch.type === 'tft' ? ' · ♟ IZGARA SAVAŞI' : ch.type === 'elite' ? ' · ✦ ELİT' : ''}</div>
       <h2>${tn(ch.name)}</h2>
       <p class="brief-text">${tn(ch.intro)}</p>
+      ${ch.type === 'tft' ? `<p class="brief-note">${lang() === 'tr' ? 'Bu karşılaşma ızgara savaşıdır — birimlerini diz, savaş otomatik çözülür.' : 'A grid battle — place your units, combat resolves itself.'}</p>` : ''}
+      ${ch.mutators?.[1] && Object.keys(ch.mutators[1]).length ? `<p class="brief-note warn">${lang() === 'tr' ? 'Rakip avantajı: ' : 'Enemy advantage: '}${mutatorDesc(ch.mutators[1])}</p>` : ''}
       <div class="brief-meta">
         <div><small>${t('opponent')}</small><b>${esc(ch.opponent)}</b></div>
         <div><small>${t('hp')}</small><b>${ch.health}</b></div>
@@ -279,7 +313,7 @@ const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({'&': '&amp;', '<': '&
 
 // ---------------- global click router ----------------
 document.addEventListener('click', async e => {
-  const el = e.target.closest('button,[data-act],[data-ch],[data-echo],[data-inspect]');
+  const el = e.target.closest('button,[data-act],[data-ch],[data-echo],[data-inspect],[data-act-tab]');
   if (!el) return;
   const act = el.dataset.act;
   if (act) {
@@ -296,6 +330,7 @@ document.addEventListener('click', async e => {
     else if (act === 'lang') { setLang(lang() === 'tr' ? 'en' : 'tr'); rerender(); }
     return;
   }
+  if (el.dataset.actTab !== undefined) { actTab = +el.dataset.actTab; showMap(); return; }
   if (el.dataset.ch) { showChapterBrief(+el.dataset.ch); return; }
   if (el.dataset.echo) { echoChoice = el.dataset.echo; localStorage.setItem('eruldin.echo', echoChoice); audio.sfx('uiConfirm'); if (modalRoot().firstChild) showChapterBrief(currentBrief); else showEchoSelect(); return; }
   if (el.dataset.start) { closeModal(); await launchStory(+el.dataset.start); return; }

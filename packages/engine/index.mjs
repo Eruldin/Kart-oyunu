@@ -43,6 +43,7 @@ export function createMatch(opts) {
     health = [24, 24],
     decks,
     first = 0,
+    mutators,                    // [{...mods for player0}, {...for player1}] — campaign buffs
   } = opts || {};
   if (!Array.isArray(decks) || decks.length !== 2) throw Error('İki deste gerekli.');
   for (const d of decks) for (const id of d) if (!cardById[id]) throw Error('Bilinmeyen kart: ' + id);
@@ -63,6 +64,7 @@ export function createMatch(opts) {
       echoPool: [],  // weakened echoes returning next round
       passed: false, flag: {},
       stats: {played: 0, spells: 0, attacks: 0, dmgDealt: 0, dmgTaken: 0},
+      mods: mutators?.[i] || {},   // {kwAll:[], shield, hatira, hpBonus, ozStart}
     })),
     stack: [],                 // pending fast spell responses
     combat: null,
@@ -71,6 +73,15 @@ export function createMatch(opts) {
   };
 
   for (let i = 0; i < 2; i++) state.players[i].deck = shuffle(state, decks[i].slice());
+
+  // campaign mutators: per-side battle modifiers (boss buffs)
+  for (let i = 0; i < 2; i++) {
+    const p = state.players[i], m = p.mods;
+    if (m.hpBonus) { p.avatar.max += m.hpBonus; p.avatar.hp += m.hpBonus; }
+    if (m.shield) p.shield += m.shield;
+    if (m.hatira) p.avatar.hatira = Math.min(HATIRA_CAP, m.hatira);
+    if (m.ozStart) p.oz += m.ozStart;
+  }
 
   // opening hands, then the mulligan window; round 1 starts once both players lock in
   for (let i = 0; i < 2; i++) {
@@ -109,6 +120,12 @@ function drawCard(state, a, silent = false) {
   if (p.hand.length >= MAX_HAND) { log(state, {t: 'burn', a, card: id}); return; }
   p.hand.push(id);
   if (!silent) log(state, {t: 'draw', a});
+}
+// called whenever a unit enters a board — applies the owner's mutator keywords
+function enterUnit(state, a, u) {
+  const mods = player(state, a).mods;
+  if (mods?.kwAll) for (const k of mods.kwAll) if (!u.kw.includes(k)) u.kw.push(k);
+  return u;
 }
 function removeFromBoard(state, a, slot) {
   const p = player(state, a);
@@ -317,6 +334,7 @@ function runEffects(state, a, effects, ctx = {}) {
           if (!def) break;
           const u = unit(uidSeq++, def, p.board.length);
           if (e.sick === false) u.summoningSick = false;
+          enterUnit(state, a, u);
           p.board.push(u);
           log(state, {t: 'summon', a, slot: p.board.length - 1, card: e.card, uid: u.uid, via: 'effect'});
         }
@@ -360,6 +378,7 @@ function runEffects(state, a, effects, ctx = {}) {
           if (e.atk || e.hp) { u.buffAtk += e.atk || 0; u.buffHp += e.hp || 0; u.maxHp += e.hp || 0; u.hp += e.hp || 0; }
           u.atk = Math.max(1, u.atk); u.maxHp = Math.max(1, u.maxHp); u.hp = Math.max(1, u.hp);
           u.summoningSick = false;
+          enterUnit(state, a, u);
           p.board.push(u);
           log(state, {t: 'revive', a, card: id, slot: p.board.length - 1});
         }
@@ -398,6 +417,7 @@ function runEffects(state, a, effects, ctx = {}) {
         if (idx < 0 || !def) break;
         const fresh = unit(uidSeq++, def, idx);
         fresh.summoningSick = false;
+        enterUnit(state, tg.a, fresh);
         b[idx] = fresh;
         log(state, {t: 'transform', a: tg.a, slot: idx, card: e.card});
         break;
@@ -570,6 +590,7 @@ function playCard(state, a, handIndex, target) {
     if (p.board.length >= BOARD_SLOTS) { p.hand.splice(handIndex, 0, raw); refund(state, a, def, cost); throw Error('Saf dolu (6).'); }
     const u = unit(uidSeq++, def, p.board.length);
     if (weak) { u.atk = Math.max(1, u.atk - 1); u.hp = u.maxHp = Math.max(1, u.maxHp - 1); u.echoOf = id; }
+    enterUnit(state, a, u);
     p.board.push(u);
     log(state, {t: 'play', a, card: id, slot: p.board.length - 1, uid: u.uid, weak});
     if (def.cagri) runEffects(state, a, def.cagri, {target});

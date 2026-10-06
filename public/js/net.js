@@ -39,7 +39,7 @@ class LocalBackend {
     this.match = {
       id: 'local-' + Date.now(), kind: 'story', chapter: chapterIdx,
       names: [this.profile.name, ch.opponent],
-      state: createMatch({seed: ch.seed ?? (chapterIdx + 1) * 997, echo: [echoId, ch.echo], health: [24, ch.health], decks: [[...this.profile.deck], [...ch.deck]]}),
+      state: createMatch({seed: ch.seed ?? (chapterIdx + 1) * 997, echo: [echoId, ch.echo], health: [24, ch.health], decks: [[...this.profile.deck], [...ch.deck]], mutators: ch.mutators}),
     };
     this.scheduleBot();
     return this.pack();

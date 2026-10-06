@@ -5,7 +5,7 @@ import {connect, content} from './net.js';
 import {cardEl, bindTooltip} from './cardview.js';
 import * as Battle from './battle.js';
 import * as FX from './fx.js';
-import {chapters, defaultDeck, enemyDeck, cardById, ECHOES, CARDS, ACT_NAMES, KEYWORDS} from '../vendor/content/cards.mjs';
+import {chapters, defaultDeck, enemyDeck, cardById, ECHOES, CARDS, ACT_NAMES, KEYWORDS, GROUPS, RARITIES} from '../vendor/content/cards.mjs';
 
 const ART = './assets/art/';
 const app = () => document.querySelector('#app');
@@ -182,21 +182,95 @@ function showChapterBrief(i) {
     </div>`, 'brief-modal');
 }
 
+// ---------------- deck builder ----------------
+let dbDraft = null, dbFilter = {group: '', kind: '', rarity: '', cost: ''};
 function showDeck() {
   screen = 'deck';
+  if (!dbDraft) dbDraft = [...(profile?.deck || [])];
+  const col = profile?.collection || {};
   const counts = {};
-  profile.deck.forEach(id => counts[id] = (counts[id] || 0) + 1);
+  dbDraft.forEach(id => counts[id] = (counts[id] || 0) + 1);
+  const pool = CARDS.filter(c => !c.token)
+    .filter(c => !dbFilter.group || c.group === dbFilter.group)
+    .filter(c => !dbFilter.kind || c.kind === dbFilter.kind)
+    .filter(c => !dbFilter.rarity || (c.rarity || 'common') === dbFilter.rarity)
+    .filter(c => dbFilter.cost === '' || String(c.cost) === dbFilter.cost)
+    .sort((a, b) => a.cost - b.cost || tn(a.name).localeCompare(tn(b.name), 'tr'));
+  const deckRows = Object.entries(counts)
+    .map(([id, n]) => ({c: cardById[id], n}))
+    .filter(x => x.c)
+    .sort((a, b) => a.c.cost - b.c.cost || tn(a.c.name).localeCompare(tn(b.c.name), 'tr'));
+  const valid = dbDraft.length === 20;
   app().innerHTML = `
-  <div class="deck-screen">
-    <header class="map-head"><button class="icon-btn" data-act="map">←</button><div><h1>${t('deckReview')}</h1><p>${profile.deck.length} / 20</p></div><span></span></header>
-    <div class="deck-grid">
-      ${profile.deck.map(id => cardById[id]).filter(Boolean).map(c => {
-        const el = `<div class="deck-card">${cardEl(c).outerHTML}</div>`;
-        return el;
-      }).join('')}
+  <div class="db-screen">
+    <header class="map-head">
+      <button class="icon-btn" data-act="map">←</button>
+      <div><h1>${t('deckBuild')}</h1><p>${t('pityInfo')}</p></div>
+      <div class="db-head-actions">
+        <span class="shard-pill in">◆ ${profile?.shards ?? 0}</span>
+        <span class="db-count ${valid ? 'ok' : ''}">${dbDraft.length}/20</span>
+        <button class="btn ghost" id="db-clear">${t('deckClear')}</button>
+        <button class="btn primary" id="db-save" ${valid ? '' : 'disabled'}>${t('deckSave')}</button>
+      </div>
+    </header>
+    <div class="db-body">
+      <aside class="db-filters">
+        ${selFilter('group', t('filterGroup'), GROUPS)}
+        ${selFilter('kind', t('filterType'), {unit: {tr: t('unit'), en: t('unit')}, hero: {tr: t('hero'), en: t('hero')}, spell: {tr: t('spell'), en: t('spell')}})}
+        ${selFilter('rarity', t('filterRarity'), Object.fromEntries(Object.keys(RARITIES).map(r => [r, {tr: t('rarity_' + r), en: t('rarity_' + r)}])))}
+        <label class="db-f"><span>${t('filterCost')}</span>
+          <select data-f="cost"><option value="">${t('filterAll')}</option>${[0,1,2,3,4,5,6,7,8,9].map(c => `<option ${dbFilter.cost === String(c) ? 'selected' : ''}>${c}</option>`).join('')}</select>
+        </label>
+      </aside>
+      <div class="db-pool">
+        ${pool.map(c => {
+          const owned = col[c.id] || 0, used = counts[c.id] || 0;
+          const can = owned > used && used < 3 && dbDraft.length < 20;
+          return `<div class="db-card ${can ? '' : 'cant'} ${owned ? '' : 'unowned'}" data-db-add="${c.id}">
+            <i class="db-owns ${used ? 'in' : ''}">${used}/${owned}</i>
+          </div>`;
+        }).join('')}
+      </div>
+      <aside class="db-list">
+        ${deckRows.length ? deckRows.map(({c, n}) => `
+          <div class="db-row" data-db-del="${c.id}">
+            <span class="db-cost">${c.cost}</span>
+            <span class="db-name">${tn(c.name)}</span>
+            <span class="db-n">×${n}</span>
+          </div>`).join('') : `<p class="db-empty">${t('empty')}</p>`}
+      </aside>
     </div>
   </div>`;
+  // card thumbnails
+  app().querySelectorAll('.db-card').forEach(el => {
+    el.prepend(cardEl(cardById[el.dataset.dbAdd]));
+  });
+  // events
+  app().querySelectorAll('[data-f]').forEach(sel => sel.addEventListener('change', e => { dbFilter[e.target.dataset.f] = e.target.value; showDeck(); }));
+  app().querySelectorAll('[data-db-add]').forEach(el => el.addEventListener('click', () => {
+    const id = el.dataset.dbAdd, owned = col[id] || 0, used = counts[id] || 0;
+    if (owned > used && used < 3 && dbDraft.length < 20) { dbDraft.push(id); audio.sfx('cardPlace'); showDeck(); }
+    else audio.sfx('uiError');
+  }));
+  app().querySelectorAll('[data-db-del]').forEach(el => el.addEventListener('click', () => {
+    const i = dbDraft.indexOf(el.dataset.dbDel);
+    if (i >= 0) { dbDraft.splice(i, 1); audio.sfx('uiClick'); showDeck(); }
+  }));
+  $('#db-clear').addEventListener('click', () => { dbDraft = []; showDeck(); });
+  $('#db-save').addEventListener('click', async () => {
+    try {
+      profile = await backend.saveDeck(dbDraft);
+      toast(t('deckOk')); audio.sfx('uiConfirm'); dbDraft = null;
+    } catch (e) { toast(t('deckErr')); }
+  });
 }
+function selFilter(key, label, dict) {
+  return `<label class="db-f"><span>${label}</span><select data-f="${key}">
+    <option value="">${t('filterAll')}</option>
+    ${Object.entries(dict).map(([k, v]) => `<option value="${k}" ${dbFilter[key] === k ? 'selected' : ''}>${tn(v)}</option>`).join('')}
+  </select></label>`;
+}
+function $ (s) { return document.querySelector(s); }
 
 function showCollection() {
   screen = 'collection';

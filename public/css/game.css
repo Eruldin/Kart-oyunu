@@ -456,3 +456,29 @@ p{margin:0;line-height:1.6}
 @keyframes leg-pulse{50%{text-shadow:0 0 30px #ffd9a0,0 0 10px #d9a13b}}
 .shard-row{text-align:center;color:#a8d8b9;font:600 15px var(--sans);margin-top:6px}
 .shard-ico{color:#7fe0a8;margin-right:4px}
+/* --- deck builder --- */
+.db-screen{min-height:100vh;background:radial-gradient(ellipse at 50% -10%,#1e2a22 0%,#0b0f0c 60%);display:flex;flex-direction:column}
+.db-head-actions{display:flex;align-items:center;gap:10px;margin-left:auto}
+.shard-pill.in{position:static}
+.db-count{font:700 15px var(--sans);color:var(--muted);padding:6px 14px;border:1px solid var(--line);border-radius:10px;background:#101a13cc}
+.db-count.ok{color:#8fe0a5;border-color:#8fe0a555}
+.db-body{flex:1;display:grid;grid-template-columns:200px 1fr 300px;gap:14px;padding:14px;min-height:0}
+.db-filters{display:flex;flex-direction:column;gap:12px;background:#101a13aa;border:1px solid var(--line);border-radius:12px;padding:14px;align-self:start}
+.db-f{display:flex;flex-direction:column;gap:5px}
+.db-f span{font-size:11px;letter-spacing:.12em;color:var(--gold)}
+.db-f select{background:#0c120e;color:var(--bright);border:1px solid var(--line);border-radius:8px;padding:7px 9px;font-family:var(--sans)}
+.db-pool{overflow-y:auto;display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:10px;align-content:start;padding-right:4px}
+.db-card{position:relative;cursor:pointer;transition:transform .12s}
+.db-card:hover{transform:translateY(-4px)}
+.db-card.cant{opacity:.45;cursor:default}
+.db-card.unowned{opacity:.22;filter:grayscale(.85)}
+.db-card .card{pointer-events:none;width:100%}
+.db-owns{position:absolute;top:6px;right:6px;background:#000d;border:1px solid var(--line);border-radius:7px;padding:2px 7px;font:600 11px var(--sans);color:var(--muted);z-index:2}
+.db-owns.in{color:#8fe0a5;border-color:#8fe0a555}
+.db-list{background:#101a13aa;border:1px solid var(--line);border-radius:12px;padding:10px;overflow-y:auto;align-self:start;max-height:calc(100vh - 130px)}
+.db-row{display:flex;align-items:center;gap:9px;padding:7px 9px;border-radius:8px;cursor:pointer;transition:background .12s}
+.db-row:hover{background:#c5a77022}
+.db-cost{min-width:24px;height:24px;display:grid;place-items:center;border-radius:50%;background:radial-gradient(circle at 30% 30%,#3d5a80,#152238);color:#cfe3ff;font:700 12px var(--sans)}
+.db-name{flex:1;font:600 13px var(--serif);color:var(--bright)}
+.db-n{color:var(--muted);font:600 12px var(--sans)}
+.db-empty{color:var(--muted);text-align:center;padding:20px 0}

@@ -86,6 +86,8 @@ export const STR = {
     filterGroup: 'Set', filterType: 'Tür', filterCost: 'Bedel', filterRarity: 'Nadirlik', filterAll: 'Hepsi',
     collStats: 'Koleksiyon durumu', deckValid: 'Deste geçerli',
     pityInfo: 'Boss kesimi: efsanevi şansı her yenilmez düşüşte artar.',
+    tftHint: 'Birimlerini alt iki sıraya diz — savaş kendiliğinden çözülür.',
+    tftFight: 'SAVAŞI BAŞLAT', tftBench: 'Birimlerin', tftRunning: 'Savaş sürüyor',
   },
   en: {
     game: 'ERULDIN', sub: 'ECHOES',
@@ -173,6 +175,8 @@ export const STR = {
     filterGroup: 'Set', filterType: 'Type', filterCost: 'Cost', filterRarity: 'Rarity', filterAll: 'All',
     collStats: 'Collection status', deckValid: 'Deck is valid',
     pityInfo: 'Boss hunts: legendary odds rise each dry kill.',
+    tftHint: 'Deploy your units on the bottom two rows — combat resolves itself.',
+    tftFight: 'BEGIN THE FIGHT', tftBench: 'Your units', tftRunning: 'Battle in progress',
   },
 };
 export const lang = () => localStorage.getItem('eruldin.lang') || 'tr';

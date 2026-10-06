@@ -5,6 +5,7 @@ import {connect, content} from './net.js';
 import {cardEl, bindTooltip} from './cardview.js';
 import * as Battle from './battle.js';
 import * as FX from './fx.js';
+import * as TFT from './tft.js';
 import {chapters, defaultDeck, enemyDeck, cardById, ECHOES, CARDS, ACT_NAMES, KEYWORDS, GROUPS, RARITIES} from '../vendor/content/cards.mjs';
 import {SHOP_ITEMS, COSMETICS, PACKS} from '../vendor/content/shop.mjs';
 
@@ -465,6 +466,19 @@ async function launchStory(i) {
     enterMatch(m);
   } catch (e) { toast(e.message); }
 }
+function launchTft(i) {
+  const ch = chapters[i];
+  screen = 'tft';
+  audio.music('battle');
+  TFT.startTft({chapterData: ch, profile, backend}, async (outcome) => {
+    screen = 'map';
+    if (outcome === 'win') {
+      try { const r = await backend.tftWin(i); profile = r.profile || profile; applyCosmetics(profile); if (r.reward?.legendary) audio.sfx('victory'); } catch {}
+    }
+    audio.music('story');
+    showMap();
+  });
+}
 async function launchSkirmish() {
   const m = await backend.startSkirmish(echoChoice, ['ash', 'white', 'teom'][(Math.random() * 3) | 0]);
   enterMatch(m);
@@ -518,7 +532,7 @@ document.addEventListener('click', async e => {
   if (el.dataset.actTab !== undefined) { actTab = +el.dataset.actTab; showMap(); return; }
   if (el.dataset.ch) { showChapterBrief(+el.dataset.ch); return; }
   if (el.dataset.echo) { echoChoice = el.dataset.echo; localStorage.setItem('eruldin.echo', echoChoice); audio.sfx('uiConfirm'); if (modalRoot().firstChild) showChapterBrief(currentBrief); else showEchoSelect(); return; }
-  if (el.dataset.start) { closeModal(); await launchStory(+el.dataset.start); return; }
+  if (el.dataset.start) { const ci = +el.dataset.start; closeModal(); if (chapters[ci]?.type === 'tft') launchTft(ci); else await launchStory(ci); return; }
   if (el.dataset.inspect) { inspectCard(el.dataset.inspect); return; }
 });
 let currentBrief = 0;

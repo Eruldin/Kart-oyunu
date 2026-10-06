@@ -127,6 +127,16 @@ class LocalBackend {
     saveLocal(this.profile);
     return this.profile;
   }
+  async tftWin(chapterIdx) {
+    const ch = chapters[chapterIdx];
+    if (!ch || ch.type !== 'tft') throw Error('Izgara bölümü değil.');
+    this.profile.storyWins++;
+    this.profile.progress = Math.max(this.profile.progress, chapterIdx + 1);
+    const seed = (ch.seed || 1) ^ ((this.profile.storyWins + 1) * 7919) ^ 0x7F7;
+    const reward = applyRewards(this.profile, ch, seed);
+    saveLocal(this.profile);
+    return {reward, profile: this.profile};
+  }
 }
 
 // ---------------- online backend ----------------
@@ -162,6 +172,7 @@ class ServerBackend {
   async setName(name) { this.profile = await this.api('profile', {name}); return this.profile; }
   async buy(itemId) { const r = await this.api('shop', {item: itemId}); if (r.profile) this.profile = r.profile; return r; }
   async equip(slot, itemId) { this.profile = await this.api('shop', {equip: slot, item: itemId}); return this.profile; }
+  async tftWin(chapterIdx) { const r = await this.api('tft-win', {chapter: chapterIdx}); if (r.profile) this.profile = r.profile; return r; }
 }
 
 export async function connect() {

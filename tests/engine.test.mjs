@@ -42,7 +42,8 @@ test('content integrity: decks legal, chapters valid', () => {
   }
   for (const c of Object.values(cardById)) {
     assert.ok(c.name?.tr && c.name?.en, c.id + ' needs names');
-    if (c.kind !== 'spell') { assert.ok(c.atk > 0 && c.hp > 0, c.id); }
+    if (c.kind !== 'spell' && !c.token) { assert.ok(c.atk > 0 && c.hp > 0, c.id); }
+    if (c.token && c.kind !== 'spell') assert.ok(c.atk >= 0 && c.hp > 0, c.id);
     if (c.needsTarget) assert.ok(c.cagri || c.effects, c.id + ' targeted needs effects');
   }
 });

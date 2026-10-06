@@ -1,4 +1,5 @@
 // ERULDIN: YANKILAR — content data (cards, echoes, chapters)
+import {POOL, POOL_TOKENS} from './pool.mjs';
 // Turkish is canonical; English in `en`. Every card's lore hook is annotated
 // with its source layer: [M] book, [L] lore, [A] atlas synthesis, [D] design.
 
@@ -11,6 +12,11 @@ export const KEYWORDS = {
   yanki:     {tr: 'Yankı',     en: 'Echo',       hint: {tr: 'Öldüğünde gelecek tur zayıf yankısı ele döner.', en: 'On death a weakened echo returns to hand next round.'}},
   sonNefes:  {tr: 'Son Nefes', en: 'Last Breath', hint: {tr: 'Öldüğünde etkisi çalışır.', en: 'Its effect triggers on death.'}},
   cagri:     {tr: 'Çağrı',     en: 'Call',       hint: {tr: 'Oynandığında etkisi çalışır.', en: 'Its effect triggers when played.'}},
+  koruyucu:  {tr: 'Koruyucu',  en: 'Guard',      hint: {tr: 'Savunulmayan saldırılar avatar yerine bu birime sapar.', en: 'Unblocked attackers strike this unit instead of the avatar.'}},
+  canavar:   {tr: 'Sömürü',    en: 'Siphon',     hint: {tr: 'Verdiği savaş hasarı kadar avatarını iyileştirir.', en: 'Heals its avatar by the combat damage it deals.'}},
+  saldiri:   {tr: 'Saldırı',   en: 'Assault',    hint: {tr: 'Taarruz ilan edildiğinde etkisi çalışır.', en: 'Its effect triggers when it is declared as an attacker.'}},
+  turSonu:   {tr: 'Devriye',   en: 'Vigil',      hint: {tr: 'Her tur başında etkisi çalışır.', en: 'Its effect triggers at the start of each of your rounds.'}},
+  olustur:   {tr: 'Av',        en: 'Hunt',       hint: {tr: 'Bir birimi öldürdüğünde etkisi çalışır.', en: 'Its effect triggers when it kills a unit.'}},
 };
 
 export const GROUPS = {
@@ -19,11 +25,21 @@ export const GROUPS = {
   karah:   {tr: 'Karah / Yozlaşma', en: 'Karah / Corruption', color: '#6B2FA3'},
   teom:    {tr: 'Teom / Göz',     en: 'Teom / The Eye',      color: '#7EADB7'},
   notr:    {tr: 'Kül Tarlaları',  en: 'Ash Fields',          color: '#8D8F8A'},
+  serseri: {tr: 'Sis Çetesi',     en: 'Mist Gang',           color: '#5E6E7E'},
+  av:      {tr: 'Bozkır Avı',     en: 'Steppe Hunt',         color: '#8A5A2B'},
+  ruh:     {tr: 'Yankıcılar',     en: 'The Echo-Touched',    color: '#7C6BC4'},
+};
+
+export const RARITIES = {
+  common:    {tr: 'Sıradan',   en: 'Common',    color: '#9aa5a4', weight: 55},
+  rare:      {tr: 'Nadir',     en: 'Rare',      color: '#4f8fd0', weight: 28},
+  epic:      {tr: 'Destansı',  en: 'Epic',      color: '#9a5fd0', weight: 13},
+  legendary: {tr: 'Efsanevi',  en: 'Legendary', color: '#d9a13b', weight: 4},
 };
 
 // kind: unit | hero | spell   speed (spell): yavas | hizli | ani
 // effects/cagri/sonNefes use the engine's declarative effect DSL.
-export const CARDS = [
+const BASE_CARDS = [
   // ---------------- Direniş / Koru ----------------
   {
     id: 'akhenten', kind: 'hero', group: 'direnis', cost: 5, atk: 5, hp: 5,
@@ -303,7 +319,10 @@ export const CARDS = [
   },
 ];
 
+// 32 hand-authored canon cards + 312 generated pool cards + 8 summon tokens
+export const CARDS = [...BASE_CARDS, ...POOL, ...POOL_TOKENS];
 export const cardById = Object.fromEntries(CARDS.map(c => [c.id, c]));
+export const COLLECTIBLE = CARDS.filter(c => !c.token);
 
 // ---------------- Echoes (avatars) ----------------
 export const ECHOES = {
